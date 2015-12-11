@@ -1,0 +1,6 @@
+[submodule "themes/twentyfourteen"]
+	path = themes/twentyfourteen
+	url = https://github.com/jaden/twentyfourteen.git
+[submodule "data/call"]
+	path = data/call
+	url = /var/lib/git/call.git/
