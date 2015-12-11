@@ -1,0 +1,22 @@
+baseurl = "http://rrra.org"
+languageCode = "en-us"
+title = "Red River Radio Amateurs"
+
+theme = "twentyfourteen"
+Paginate = 10
+newcontenteditor = "vim"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+  dates = "dates"
+
+[permalinks]
+	post = "/post/:year/:month/:day/:slug/"
+	calendar = "/cal/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Calendar"
+    identifier = "calendar"
+    url = "/calendar/"

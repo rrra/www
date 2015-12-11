@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<header class="entry-header">
+				{{ $baseurl := .Site.BaseURL }}
+
+				<div class="entry-meta">
+					<span class="cat-links">
+                				<a href="{{ $baseurl}}/calendar/" rel="tag">Calendar</a>
+					</span>
+				</div>
+				<h1 class="entry-title">{{ .Title }} Dates</h1>
+			</header>
+
+			<div class="entry-content">
+				<ul id="list">
+            			{{ range .Data.Pages.ByDate }}
+                			{{ .Render "li"}}
+            			{{ end }}
+        			</ul>
+			</div>
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	{{ partial "sidebar.html" . }}
+</div><!-- #main-content -->
+
+{{ partial "footer.html" . }}

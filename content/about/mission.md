@@ -1,0 +1,39 @@
++++
+aliases = [
+	"/mission",
+	"/our_mission.html",
+	"/mission_statement.html"
+]
+date = "2015-11-19T08:24:22-06:00"
+title = "RRRA Mission Statement"
+
++++
+
+This corporation is organized exclusively for the educational purpose laid
+forth within the meaning of Section
+[501c3](https://en.wikipedia.org/wiki/501%28c%29#501.28c.29.283.29)
+ of the Internal Revenue Code. In
+fulfillment of such this corporation is organized:
+
+To teach, illustrate, encourage, practice and promote amateur radio (ham
+radio) activities.
+
+To further the exchange of information and cooperation between
+members; to promote knowledge, fraternalism, and individual operating
+proficiency; and, to conduct programs and activities to advance the
+general interest and welfare of amateur radio within the community.
+
+To cooperate with city and county emergency managers, local law
+enforcement, National Weather Service, and other disaster relief
+organizations to assist with disaster relief communications and the
+handling of emergency traffic for public welfare.
+
+Donations made to the RRRA are **tax deductible**. If interested please contact:
+
+{{% mailto vicepresident name %}}<br />
+
+or you can mail a check to:
+
+{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215"
+p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
+

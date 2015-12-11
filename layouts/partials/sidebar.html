@@ -1,0 +1,25 @@
+<div id="secondary">
+
+	{{ if isset .Site.Params "Description" }} 
+		{{ with .Site.Params.Description }}<h2 class="site-description">{{ . }}</h2>{{ end }}
+	{{ end }}
+
+	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+
+		{{ partial "searchform.html" . }}
+
+		<div style="text-align: center; padding-bottom: 24px;">
+		<a href="/"><img src="/images/rrra_logo-2.1_2.png" alt="RRRA Logo" /></a>
+		</div>
+
+		{{ partial "recentposts.html" . }}
+
+		{{ partial "categories.html" . }}
+
+		<div style="text-align: center;">
+		<a href="http://arrl.org"><img src="/images/Fathom_39x87_Diamond.png" alt="ARRL" /></a>
+		</div>
+
+	</div>
+
+</div><!-- #secondary -->
