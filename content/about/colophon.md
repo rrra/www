@@ -5,8 +5,9 @@ title = "Colophon"
 +++
 
 
-HTML rendered using [Hugo](gohugo.io); a fast and modern static website engine
-written in the [Go Programming Language](https://golang.org/).
+The framework of this website is [Hugo](http://gohugo.io);
+a fast and modern static website engine written in the 
+[Go Programming Language](https://golang.org/).
 
 Most of the content source files for this website are authored in the
 [Markdown](https://en.wikipedia.org/wiki/Markdown)
@@ -16,16 +17,17 @@ This website's look and feel is based on the [Twenty Fourteen
 template](https://github.com/jaden/twentyfourteen) by
 [jaden](https://github.com/jaden). Twenty Fourteen is a
 [responsive](https://en.wikipedia.org/wiki/Responsive_web_design),
-two-column hugo theme based on the
+two-column Hugo theme based on the
 [Wordpress theme](https://wordpress.org/themes/twentyfourteen)
 of the same name.
 
 Source for this website is version controlled with
 [git](http://www.git-scm.com/). Our
-[public repository](http://github.com/rrra/rrra) is stored on
+[public repository](http://github.com/rrra/www) is stored on
 [GitHub](https://github.com/).
 Additions, updates, and corrections are welcome via a
-[pull request](https://help.github.com/articles/creating-a-pull-request/).
+[pull request](https://help.github.com/articles/creating-a-pull-request/) or
+via email to the {{< webmaster >}}.
 
 This website features a [Blank Page](/blankpage.html) according to the
 recommendations of the
