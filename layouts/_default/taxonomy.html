@@ -10,7 +10,9 @@
 			</header>
 
 			{{ range .Data.Pages }}
-				{{ partial "summary.html" . }}
+				{{ if ne .Section "calendar" }}
+					{{ partial "summary.html" . }}
+				{{ end }}
 			{{ end }}
 		
 		</div><!-- #content -->
