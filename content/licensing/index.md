@@ -4,6 +4,7 @@ title = "Get Licensed ... Be a Ham"
 linktitle = "Be a Ham"
 menu = "main"
 toc = "true"
+categories = [ "Education", "VE" ]
 
 +++
 

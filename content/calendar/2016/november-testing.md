@@ -5,5 +5,6 @@ endTime = ""
 location = "Cass County Annex"
 title = "November Testing Session"
 dates = [ "License Testing" ]
+categories = [ "VE" ]
 +++
 

@@ -1,0 +1,38 @@
+<aside id="dates-3" class="widget widget_dates">
+
+	<h3 class="widget-title">Dates</h3>
+
+	<ul>
+		{{ $baseurl := .Site.BaseURL }}
+		{{ $page_link := .Permalink }}
+
+		{{ if eq .Data.Plural "categories" }}
+			{{ .Scratch.Set "filter" .Title }}
+		{{ else if ne .Params.categories nil }}
+			{{ $temp := delimit .Params.categories " " }}
+			{{ .Scratch.Set "filter" $temp }}
+		{{ else }}
+			{{ .Scratch.Set "filter" "" }}
+		{{ end }}
+
+		{{ range $name,$taxonomy := .Site.Taxonomies.dates }}
+			{{ range last 1 $taxonomy.Pages.ByDate }}
+				{{ if ge .Date.Unix .Now.Unix }}
+					{{ $page := . }}
+					{{ if gt ($.Scratch.Get "filter") "" }}
+						{{ $filter := $.Scratch.Get "filter" }}
+						{{ if ne .Params.categories nil }}
+							{{ $cats := delimit .Params.categories " " }}
+							{{ if in (chomp $filter) (chomp $cats) }}
+								<li><a href="/dates/{{ $name | urlize }}">{{ $name }}</a></li>
+							{{ end }}
+						{{ end }}
+					{{ else }}
+						<li><a href="/dates/{{ $name | urlize }}">{{ $name }}</a></li>
+					{{ end }}
+				{{ end }}	
+			{{ end }}
+		{{ end }}
+	</ul>
+
+</aside>
