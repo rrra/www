@@ -4,6 +4,7 @@ date = "2016-02-03T19:00:00-06:00"
 endTime = "2016-02-03T21:00:00-06:00"
 location = "West Fargo Public Library"
 title = "Winter Extra Class Week 5"
+categories = [ "Education" ]
 dates = [ "Winter 2016 Extra" ]
 +++
 

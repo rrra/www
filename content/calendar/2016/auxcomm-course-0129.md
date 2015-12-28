@@ -1,11 +1,12 @@
 +++
-Categories = ["ARES"]
-Tags = ["AUXCOMM","DHS"]
+categories = ["ARES"]
+tags = ["AUXCOMM","DHS"]
 contact = "KC0ODE"
 date = "2016-01-29T08:00:00-08:00"
 endTime = "2016-01-29T18:00:00-16:00"
 location = "Cass County Annex"
 title = "DHS AUXCOMM Course"
+dates = [ "AUXCOMM 2016" ]
 
 +++
 
@@ -16,7 +17,7 @@ Security on January 29 and
 Please see the
 [AUXCOMM Course Description](http://www.kc0ode.com/resources/AuxComm++Course+Description.pdf)
 (pdf) for detailed information about the workshop.
-
+<!--more-->
 The required prerequisites for this course are:
 
 * [IS-100b](http://www.training.fema.gov/IS/courseOverview.aspx?code=IS-100.b)
