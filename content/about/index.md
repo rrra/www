@@ -3,6 +3,7 @@ date = "2015-11-21T10:15:34-06:00"
 title = "About our club"
 linktitle = "About"
 menu = "main"
+toc = "true"
 +++
 
 # Red River Radio Amateurs
@@ -23,7 +24,23 @@ While these meetings are open to the general public, only registered members
 in good standing (i.e. current on their dues) are able to vote on club
 business.
 
-## Officers
+## Join Our Club
+
+Bring your [membership application](/files/membership_application.pdf)
+and dues payment to one of our
+[business meetings](/dates/business-meetings) or send them to our
+[mailing address]({{< relref "#mailing-address" >}}).
+
+
+## Contact Information {#contact}
+
+### Mailing Address {#mailing-address}
+
+{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215"
+p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
+
+
+### Officers
 
 * **President**: {{% mailto president name %}}
 * **Vice President**: {{% mailto vicepresident name %}}
@@ -31,17 +48,11 @@ business.
 * **Treasurer**:
 * **At Large**:
 
-## Mailing Address
-
-{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215"
-p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
-
-<a href="#license"></a>
-## Site License
-
-{{< license >}}
-
-## Website Issues
+### Website Issues
 
 Please direct all comments and questions about this website to the the
 {{< webmaster >}}.
+
+## Site License
+
+{{< license >}}

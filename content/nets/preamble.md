@@ -1,6 +1,7 @@
 +++
 date = "2015-11-19T08:51:16-06:00"
 title = "RRRA Sunday VHF Net Preamble"
+categories = [ "ARES" ]
 
 +++
 
