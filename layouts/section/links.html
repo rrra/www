@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<header class="entry-header">
+				<h1 class="entry-title">Files and Links</h1>
+			</header>
+			<div class="entry-content">
+				<!--// range .Data.Pages.GroupByParam
+"categories" }}-->
+					<!--<h3>// .Key }}</h3>-->
+					<dl>
+					{{ range .Data.Pages.ByTitle }}
+						{{ .Render "dli" }}
+					{{ end }}
+					</dl>
+				<!--// end }}-->
+			</div>
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	{{ partial "sidebar.html" . }}
+</div><!-- #main-content -->
+
+{{ partial "footer.html" . }}
