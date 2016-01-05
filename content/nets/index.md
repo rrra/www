@@ -17,7 +17,11 @@ This is a public service net affiliated with the [Amateur Radio Emergency
 Service](http://www.arrl.org/ares), the ARES Division of the American Radio Relay League.
 
 * [Net Preamble]({{< relref "nets/preamble.md" >}})
-* NCS Schedule
+* [NCS Schedule](/dates/ncs-schedule/)
+* [Roster of NCS Operators](/ncs/)
+
+NCS Operator volunteers are always appreciated. Please contact
+{{% mailto KD0TGA %}} for more information.
 
 # RRRA Sunday 2M Simplex Net
 

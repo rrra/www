@@ -6,17 +6,24 @@
 		<div id="content" class="site-content" role="main">
 
 			<header class="entry-header">
-				<h1 class="entry-title">RRRA Calendar</h1>
+				{{ $baseurl := .Site.BaseURL }}
+
+				<div class="entry-meta">
+					<span class="cat-links">
+						<a href="{{ $baseurl}}/ncs/" rel="tag">NCS Roster</a>
+					</span>
+				</div>
+				<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
 			</header>
+
 			<div class="entry-content" style="padding-bottom:1em;">
-				<ul id="list">
-            			{{ range .Data.Pages.ByDate }}
-					 {{ if ge .Date.Unix .Now.Unix }}	
-                				{{ .Render "dli"}}
-					 {{ end }}
-            			{{ end }}
-        			</ul>
+				<dl id="list">
+					{{ range .Data.Pages.ByDate }}
+						{{ .Render "dli"}}
+					{{ end }}
+				</dl>
 			</div>
+		
 		</div><!-- #content -->
 	</div><!-- #primary -->
 	{{ partial "sidebar.html" . }}

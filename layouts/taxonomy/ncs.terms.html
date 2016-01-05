@@ -10,25 +10,22 @@
 
 				<div class="entry-meta">
 					<span class="cat-links">
-                				<a href="{{ $baseurl}}/calendar/" rel="tag">Calendar</a>
+						<a href="{{ $baseurl}}/calendar/" rel="tag">Calendar</a>
 					</span>
 				</div>
-				<h1 class="entry-title">{{ .Title | singularize }} Dates</h1>
+				<h1 class="entry-title">NCS Roster</h1>
 			</header>
 
 			<div class="entry-content" style="padding-bottom:1em;">
-				{{ if eq ( substr .URL 7 ) "ncs-schedule/" }}
-					{{ $.Scratch.Set "li" "ncsdli" }}
-				{{ else }}
-					{{ $.Scratch.Set "li" "dli" }}
-				{{ end }}
 				<dl id="list">
-					{{ range .Data.Pages.ByDate }}
-						{{ .Render ( $.Scratch.Get "li" ) }}
+					{{ $data := .Data }}
+					{{ range $key, $value := .Data.Terms }}
+					<dt class="twocol" style="width:10em;">{{ $key }}</dt>
+					<dd class="twocol"><a href="{{ $key | urlize }}">{{ len $value }} nets</a></dd>
 					{{ end }}
 				</dl>
 			</div>
-
+		
 		</div><!-- #content -->
 	</div><!-- #primary -->
 	{{ partial "sidebar.html" . }}

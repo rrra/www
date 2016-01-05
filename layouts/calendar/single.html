@@ -5,7 +5,11 @@
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-			{{ .Render "event" }}
+			{{ if gt .Params.ncs "" }}
+				{{ .Render "ncs" }}
+			{{ else }}
+				{{ .Render "event" }}
+			{{ end }}
 
 			{{ template "_internal/disqus.html" . }}
 		

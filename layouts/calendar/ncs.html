@@ -1,0 +1,30 @@
+<article class="post type-post status-publish format-standard hentry">
+<div class="h-event">
+	<header class="entry-header">
+		{{ $baseurl := .Site.BaseURL }}
+
+		<div class="entry-meta">
+			<span class="cat-links">
+				{{ range .Params.dates }}
+                		<a href="{{ $baseurl}}/dates/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+            			{{ end }}
+			</span>
+		</div>
+		<h1 class="p-name entry-title">{{ .Title }}</h1>
+	</header>
+	<div class="entry-content">
+		{{ $w0ilo := chomp ("[W0ILO Repeaters](/radios/)" | markdownify ) }}
+		<dl id="list">	
+		<dt class="twocol header">WHEN:</dt>
+		<dd class="twocol"><time class="dt-start" datetime="{{ .Date.Format "2006-01-02 13:00" }}">{{ .Date.Format "Mon, 02 Jan 2006 15:04 MST" }}</time></dd>
+		<dt class="twocol header">WHERE:</dt>
+		<dd class="twocol"><span class="p-location">{{if eq .Params.location ""}}{{ $w0ilo | safeHTML }}{{ else }}{{ .Params.location }}{{ end }}</span></dd>
+		<dt class="twocol header">NCS:</dt>
+		<dd class="twocol"><span class="p-organizer"><a href="{{ $baseurl }}/ncs/{{ index .Params.ncs 0 | urlize }}">{{ index .Params.ncs 0 }}</a></span></dd>
+		</dl>
+		<p style="clear"></p>
+	</div>
+	<p class="p-summary">{{ .Content }}</p>
+
+</div>
+</article> <!-- #post-## -->
