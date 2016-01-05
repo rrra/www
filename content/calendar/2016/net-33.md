@@ -1,0 +1,9 @@
++++
+ncs = [ "KD0CVZ" ]
+date = "2016-08-14T21:00:00-05:00"
+endTime = ""
+location = ""
+title = "UHF/VHF Net 33"
+categories = [ "ARES" ]
+dates = [ "NCS Schedule" ]
++++
