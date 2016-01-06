@@ -7,18 +7,19 @@
 			<span class="cat-links">
 				{{ range .Params.dates }}
                 		<a href="{{ $baseurl}}/dates/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
-            			{{ end }}
+				{{ end }}
 			</span>
 		</div>
 		<h1 class="p-name entry-title">{{ .Title }}</h1>
 	</header>
 	<div class="entry-content">
-		<div style="margin-bottom:0.5em;"><strong>WHEN:</strong> <time class="dt-start" datetime="{{ .Date.Format "2006-01-02 13:00" }}">{{ .Date.Format "Mon, 02 Jan 2006 15:04 MST" }}</time></div>
-                {{ if gt .Params.endtime "" }}
-			<div style="margin-bottom:0.5em;"><strong>UNTIL:</strong> <time class="dt-end" datetime="{{ dateFormat "2006-01-02 13:00" .Params.endtime }}">{{ dateFormat "Mon, 02 Jan 006 15:04 MST" .Params.endtime }}</time></div>
-		{{ end }}
-		<div style="margin-bottom:0.5em;"><strong>WHERE:</strong> <span class="p-location">{{ .Params.location }}</span></div>
-		<div style="margin-bottom:0.5em;"><strong>CONTACT:</strong> <span class="p-organizer">
+		<dl>
+			<dt class="twocol header">WHEN:</dt><dd class="twocol"><time class="dt-start" datetime="{{ .Date.Format "2006-01-02 13:00" }}">{{ .Date.Format "Mon, 02 Jan 2006 15:04 MST" }}</time></dd>
+			{{ if gt .Params.endtime "" }}
+			<dt class="twocol header">UNTIL:</dt><dd class="twocol"><time class="dt-end" datetime="{{ dateFormat "2006-01-02 13:00" .Params.endtime }}">{{ dateFormat "Mon, 02 Jan 006 15:04 MST" .Params.endtime }}</time></dd>
+			{{ end }}
+			<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location }}</span></dd>
+			<dt class="twocol header">CONTACT:</dt><dd class="twocol"><span class="p-organizer">
 			{{ $sign := .Params.contact }}
 			{{ $recip := index .Site.Data.call $sign }}
   			{{ .Scratch.Set "linktext" $sign }}
@@ -36,8 +37,9 @@
   			  </noscript>
 			{{ else }}
   			  {{ .Scratch.Get "linktext" }}
-			{{ end }}</span></div>
-		<p class="p-summary">{{ .Content }}</p>
+			{{ end }}</span></dd>
+		</dl>
+		<p class="p-summary" style="padding-top:24px;">{{ .Content }}</p>
 	</div>
 
 	<footer class="entry-meta">
