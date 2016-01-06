@@ -10,12 +10,17 @@
 			</header>
 			<div class="entry-content" style="padding-bottom:1em;">
 				<ul id="list">
-            			{{ range .Data.Pages.ByDate }}
-					 {{ if ge .Date.Unix .Now.Unix }}	
-                				{{ .Render "dli"}}
-					 {{ end }}
-            			{{ end }}
-        			</ul>
+					{{ range .Data.Pages.ByDate }}
+						{{ if and (ne ($.Scratch.Get "prevdate") nil) (eq ($.Scratch.Get "prevdate") ( .Date.Format "Mon, Jan 2, 2006" ) ) }}
+							{{ .Render "sameday" }}
+						{{ else }}
+							{{ if ge .Date.Unix .Now.Unix }}
+								{{ .Render "dli"}}
+								{{ $.Scratch.Set "prevdate" (.Date.Format "Mon, Jan 2, 2006") }}
+							{{ end }}
+						{{ end }}
+					{{ end }}
+ 				</ul>
 			</div>
 		</div><!-- #content -->
 	</div><!-- #primary -->
