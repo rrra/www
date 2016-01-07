@@ -7,12 +7,3 @@ title = "UHF/VHF Net 41"
 categories = [ "ARES" ]
 dates = [ "NCS Schedule" ]
 +++
-+++
-ncs = [ "W9NT" ]
-date = "2015-10-16T21:00:00-05:00"
-endTime = ""
-location = ""
-title = "UHF/VHF Net 41"
-categories = [ "ARES" ]
-dates = [ "NCS Schedule" ]
-+++
