@@ -8,7 +8,7 @@ categories = [ "Education" ]
 dates = [ "Winter 2016 Extra" ]
 +++
 
-# Topics
+### Topics
 
 * Questions from Chapter 9, part 2
 * Chapter 10 - Topics in Propagation

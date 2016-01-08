@@ -8,7 +8,7 @@ categories = [ "Education" ]
 dates = [ "Winter 2016 Extra" ]
 +++
 
-# Topics
+### Topics
 
 * Questions from Chapter 6
 * Chapter 7 - Radio Signals and Measurements

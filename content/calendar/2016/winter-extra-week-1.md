@@ -8,7 +8,7 @@ categories = [ "Education" ]
 dates = [ "Winter 2016 Extra" ]
 +++
 
-# Topics
+### Topics
 
 * Sign in
 * Introductions

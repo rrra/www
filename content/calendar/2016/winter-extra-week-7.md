@@ -8,7 +8,7 @@ categories = [ "Education" ]
 dates = [ "Winter 2016 Extra" ]
 +++
 
-# Topics
+### Topics
 
 * Questions from Chapter 7
 * Chapter 8 - Radio Modes and Equipment

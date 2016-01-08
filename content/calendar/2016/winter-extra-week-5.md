@@ -8,7 +8,7 @@ categories = [ "Education" ]
 dates = [ "Winter 2016 Extra" ]
 +++
 
-# Topics 
+### Topics 
 
 * Questions from Chapter 5
 * Chapter 6 - Electronic Circuits

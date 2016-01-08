@@ -8,7 +8,7 @@ categories = [ "Education" ]
 dates = [ "Winter 2016 Extra" ]
 +++
 
-# Topics
+### Topics
 
 Questions from Chapter 4, part 1
 Chapter 4 - Electrical Principles, part 2
