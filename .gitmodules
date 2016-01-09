@@ -3,4 +3,4 @@
 	url = https://github.com/jaden/twentyfourteen.git
 [submodule "data/call"]
 	path = data/call
-	url = /var/lib/git/call.git/
+	url = ssh://git@lists.rrra.org:call.git
