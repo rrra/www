@@ -14,6 +14,8 @@
 					</span>
 				</div>
 				<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
+				{{ $rsstitle := "NCS Assignments " | printf "%s %s" .Title | printf "%s" }}
+				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
 			</header>
 
 			<div class="entry-content" style="padding-bottom:1em;">

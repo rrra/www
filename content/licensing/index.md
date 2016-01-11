@@ -45,8 +45,7 @@ classes and provides useful links for those interested in becoming licensed.
 RRRA offer periodic series of weekly classes in preparation for FCC Amateur
 Radio license tests followed, a week later, by a license testing session.
 Please follow our [education category](/categories/education/)
-\[[RSS](/categories/education/index.xml)\] for the latest news about RRRA
-education programs.
+for the latest news about RRRA education programs.
 
 Our club also holds
 [bi-monthly license testing sessions](/dates/license-testing/)
