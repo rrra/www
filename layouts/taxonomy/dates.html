@@ -29,6 +29,9 @@
 						{{ .Render ( $.Scratch.Get "li" ) }}
 					{{ end }}
 				</dl>
+				{{ if eq ( substr .URL 7 ) "license-testing/" }}
+					{{ partial "bring" }}
+				{{ end }}
 			</div>
 
 		</div><!-- #content -->
