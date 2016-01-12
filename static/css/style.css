@@ -2225,7 +2225,8 @@ p.clear { clear: both; }
 	color: #fff;
 }
 
-.widget a:hover {
+.widget a:hover,
+.social-media a:hover {
 	color: #41a62a;
 }
 
