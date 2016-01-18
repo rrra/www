@@ -31,7 +31,7 @@
 							{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
 								{{ .Render "sameday" }}
 							{{ else }}
-								{{ .Render "dli" }}
+								{{ .Render "listingdli" }}
 								{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
 							{{ end }}
 							{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}

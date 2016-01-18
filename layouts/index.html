@@ -5,6 +5,8 @@
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
+			{{ partial "upcoming.html" . }}
+
 			{{ range first 10 (where .Data.Pages "Section" "post") }}
 				{{ partial "summary.html" . }}
 			{{ end }}
