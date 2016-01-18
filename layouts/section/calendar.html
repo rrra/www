@@ -6,23 +6,20 @@
 		<div id="content" class="site-content" role="main">
 
 			<header class="entry-header">
-				<h1 class="entry-title">RRRA Calendar</h1>
-				{{ partial "rss" ( dict "rsstitle" "RRRA Calendar") }}
+				<h1 class="entry-title">Calendar Index</h1>
 			</header>
+
 			<div class="entry-content" style="padding-bottom:1em;">
-				<ul id="list">
-					{{ range .Data.Pages.ByDate }}
-						{{ if and (ne ($.Scratch.Get "prevdate") nil) (eq ($.Scratch.Get "prevdate") ( .Date.Format "Mon, Jan 2, 2006" ) ) }}
-							{{ .Render "sameday" }}
-						{{ else }}
-							{{ if ge .Date.Unix .Now.Unix }}
-								{{ .Render "dli"}}
-								{{ $.Scratch.Set "prevdate" (.Date.Format "Mon, Jan 2, 2006") }}
-							{{ end }}
-						{{ end }}
-					{{ end }}
- 				</ul>
+				<dl>
+				{{ $name := "calendar" }}
+				{{ $series := index .Site.Taxonomies.series $name }}
+				{{ range $series.Pages }}
+				  {{ $title := .Now.AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
+					<dt class="twocol"><a href="{{ .Permalink }}">{{ $title }}</a></dt>
+				{{ end }}
+				</dl>
 			</div>
+
 		</div><!-- #content -->
 	</div><!-- #primary -->
 	{{ partial "sidebar.html" . }}

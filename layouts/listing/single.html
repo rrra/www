@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			{{ $baseurl := .Site.BaseURL }}
+			{{ $timeperiod := .Now.AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
+
+			<header class="entry-header">
+				<div class="entry-meta">
+				</div>
+
+				<h1 class="entry-title">{{ $timeperiod }}</h1>
+
+				<div class="entry-meta">
+					<span class="cat-links">
+					{{ if ge .Params.offset 0 }}<span class="last-month"><a href="{{ $baseurl }}/calendar/{{sub .Params.offset 1 }}/">Last Month</a></span>{{ else }}Last Month{{ end }}
+							&middot; <a href="{{ $baseurl}}/calendar/">Index</a> &middot;
+					{{ if le .Params.offset 10 }}<span class="next-month"><a href="{{ $baseurl }}/calendar/{{add .Params.offset 1 }}/">Next Month</a></span>{{ else }}Next Month{{ end }}
+					</span>
+				</div>
+
+			</header>
+
+			<div class="entry-content" style="padding-bottom:1em;">
+				<dl>
+			    {{ range where .Site.Pages.ByDate "Section" "calendar" }}
+						{{ if eq $timeperiod ( .Date.Format "January 2006" ) }}
+							{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
+								{{ .Render "sameday" }}
+							{{ else }}
+								{{ .Render "dli" }}
+								{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
+							{{ end }}
+							{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
+						{{ end }}
+					{{ end }}
+				</dl>
+			</div>
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	{{ partial "sidebar.html" . }}
+</div><!-- #main-content -->
+
+{{ partial "footer.html" . }}

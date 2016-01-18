@@ -3189,6 +3189,8 @@ p.clear { clear: both; }
 	.site-content .byline a:before,
 	.site-content .comments-link a:before,
 	.site-content .entry-date a:before,
+	.site-content .last-month a:before,
+	.site-content .next-month a:after,
 	.site-content .featured-post:before,
 	.site-content .full-size-link a:before,
 	.site-content .parent-post-link a:before,
@@ -3247,6 +3249,20 @@ p.clear { clear: both; }
 	.site-content .entry-date a:before,
 	.attachment .site-content span.entry-date:before {
 		content: "\f303";
+		margin-right: 1px;
+		position: relative;
+		top: 1px;
+	}
+
+	.site-content .last-month a:before {
+		content: "\f430";
+		margin-right: 1px;
+		position: relative;
+		top: 1px;
+	}
+
+	.site-content .next-month a:after {
+		content: "\f429";
 		margin-right: 1px;
 		position: relative;
 		top: 1px;
