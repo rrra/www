@@ -44,9 +44,10 @@ p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
 
 * **President**: {{% mailto president name %}}
 * **Vice President**: {{% mailto vicepresident name %}}
-* **Secretary**:
-* **Treasurer**:
-* **At Large**:
+* **Secretary**: {{% mailto secretary name %}}
+* **Librarian**: {{% mailto librarian name %}}
+* **Treasurer**: {{% mailto treasurer name %}}
+* **At Large**: {{% mailto atlarge1 name %}}, {{% mailto atlarge2 name %}}
 
 ### Website Issues
 
