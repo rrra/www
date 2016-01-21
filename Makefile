@@ -67,6 +67,7 @@ help:
 	@echo "pretest: live test the production branch of the site"
 	@echo "test:    live test the currently checked out branch of the site"
 	@echo "publish: upload the master branch to the the web-server"
+	@echo "push:    push the master branch to github"
 
 pretest:
 	${GIT} checkout ${MASTER}
@@ -77,6 +78,9 @@ test:
 
 publish: generate
 	${RSYNC} ${ROPTS} ${SSH} public/ ${REMOTE}
+
+push:
+	${GIT} push --recurse-submodules=on-demand origin master
 
 # Shortcuts
 gen: generate

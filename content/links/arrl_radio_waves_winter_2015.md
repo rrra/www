@@ -8,5 +8,3 @@ title = "ARRL Radio Waves Winter 2015"
 +++
 Featuring a front page article about the Shanley High School Amateur Radio
 Club, KD0TCP, led by {{% mailto K0CRF %}}. Includes a photo of KD0VSX.
-
-Contributed by {{% mailto KA0Q %}}
