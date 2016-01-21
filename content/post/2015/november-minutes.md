@@ -8,17 +8,14 @@ title = "November Business Meeting Minutes"
 toc = "true"
 
 +++
-1900 Meeting called to order by Seth
-
-Introductions: 41 people present
-<!--more-->
-Approve the minutes of previous meeting
+* 1900 Meeting called to order by Seth
+* Introductions: 41 people present<!--more-->
+* Approve the minutes of previous meeting
 
 # Minutes 
 
-Approve order of agenda
-
-Regular agenda
+* Approve order of agenda
+* Regular agenda
 
 ## Monthly reports
 
