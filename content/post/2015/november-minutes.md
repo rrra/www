@@ -1,10 +1,10 @@
 +++
-categories = []
-date = "2015-11-17T22:22:44-06:00"
+categories = [ "Minutes" ]
+date = "2016-01-20T22:22:44-06:00"
 description = ""
 slug = ""
 tags = []
-title = "November Business Meeting Minutes"
+title = "November 2015 Business Meeting Minutes"
 toc = "true"
 
 +++
