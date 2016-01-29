@@ -20,7 +20,7 @@ Frequency | Offset | Tone | Callsign | Location | Notes
 147.090 | + | - | W0HSC | Fargo, ND | NDSU Amateur Radio Society
 444.000 | + | - | KD0SWQ | Fargo, ND | NDSU D-STAR Repeater
 145.490 | - | 82.5Hz | KB0IXM | Fargo, ND | 
-146.895 | - | - | WB0BIN | Sabin, MN | 
+146.895 | - | 100HZ | WB0BIN | Sabin, MN | 
 147.060 | + | 123HZ | KC0SD | Barnesville, MN | Barnesville Superlink - Also tied to Fisher and Karlstad
 146.700 | - | 123HZ | KC0SD | Fisher, MN | Barnesville Superlink - Also tied to Barnesville and Karlstad
 145.470 | - | 123HZ | KA0NWV | Karlstad, MN | Barnesville Superlink - Also tied to Barnesville and Fisher - Echolink Node 23832
