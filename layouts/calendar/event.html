@@ -18,7 +18,10 @@
 			{{ if gt .Params.endtime "" }}
 			<dt class="twocol header">UNTIL:</dt><dd class="twocol"><time class="dt-end" datetime="{{ dateFormat "2006-01-02 13:00" .Params.endtime }}">{{ dateFormat "Mon, 02 Jan 006 15:04 MST" .Params.endtime }}</time></dd>
 			{{ end }}
+			{{ if gt .Params.location "" }}
 			<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location }}</span></dd>
+			{{ end }}
+			{{ if gt .Params.contact "" }}
 			<dt class="twocol header">CONTACT:</dt><dd class="twocol"><span class="p-organizer">
 			{{ $sign := .Params.contact }}
 			{{ $recip := index .Site.Data.call $sign }}
@@ -38,6 +41,7 @@
 			{{ else }}
   			  {{ .Scratch.Get "linktext" }}
 			{{ end }}</span></dd>
+			{{ end }}
 		</dl>
 		<p class="p-summary clear" style="padding-top:24px;">{{ .Content }}</p>
 	</div>
