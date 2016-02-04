@@ -7,4 +7,5 @@ title = "Business Meeting"
 dates = [ "Business Meetings" ]
 
 +++
-
+## Agenda
+* Officer Election
