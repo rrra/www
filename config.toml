@@ -23,7 +23,7 @@ newcontenteditor = "vim"
     url = "/calendar/0/"
 
 [[menu.main]]
-    name = "Links"
-    identifier = "links"
+    name = "Files"
+    identifier = "files"
     url = "/links/"
 
