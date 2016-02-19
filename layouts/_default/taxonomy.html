@@ -12,7 +12,7 @@
 			</header>
 
 			{{ range .Data.Pages }}
-				{{ if ne .Section "calendar" }}
+				{{ if and (ne .Section "calendar") (ne .Section "links") }}
 					{{ partial "summary.html" . }}
 				{{ end }}
 			{{ end }}
