@@ -6,8 +6,7 @@
 {{ end }}
 {{ if and (gt .Params.linkdest "") (eq .Params.filename "") }}
 <span alt="Link" class="genericon genericon-external"></span>
-<a href="{{ .Params.linkdest }}">{{ .Title }}</a>
+<a href="{{ .Params.linkdest }}" rel="nofollow" >{{ .Title }}</a>
 {{ end }}
 </dt>
-<dd><div class="entry-meta entry-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-{{ .Content }}</dd>
+<dd>{{ .Content }}</dd>
