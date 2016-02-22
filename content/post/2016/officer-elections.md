@@ -1,16 +1,23 @@
 +++
-date = "2016-02-04T08:42:51-06:00"
+date = "2016-02-18T06:00:00-06:00"
 title = "2016 Club Officer Elections"
 
 +++
-The RRRA will hold their annual officer elections for 2016 at the [Tuesday,
-February 16, Business Meeting]({{< relref "calendar/2016/february-meeting.md"
->}}).
+The new RRRA Officers for 2016 are:
 
-Only those club members in good standing (i.e. those current on their dues)
-may vote in this election. Please bring your
-[membership application form](/files/membership_application.pdf)
-and dues payment to the meeting if you have not already done so.
+* President: Seth Swanson KC0ODE
+* Vice President: Mark Jensen KK0V
+* Secretary: Brian Geffre KE0BXS
+* Treasurer: Lori Cruft KC0QGE
+* Librarian: Lori Cruft KC0QGE
+* At Large: Mark Johnson KC0SHM
+<!--more-->
 
-Club members interested in running for office, and those with questions,
-should contact {{% mailto KE0BXQ %}}.
+Congratulations to these Hams on their election. And thanks to all who
+supported the governance and operation of our club by stepping forward
+as candiates in this election.
+
+Thanks to our outgoing President, Tim Cruff K0CRF, for two years of service.`
+
+Special thanks to Juliet Geffre KE0BXQ for organizing the 2016 Officer
+Elections.
