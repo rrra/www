@@ -8,8 +8,8 @@ The new RRRA Officers for 2016 are:
 * President: Seth Swanson KC0ODE
 * Vice President: Mark Jensen KK0V
 * Secretary: Brian Geffre KE0BXS
-* Treasurer: Lori Cruft KC0QGE
-* Librarian: Lori Cruft KC0QGE
+* Treasurer: Lori Kruft KC0QGE
+* Librarian: Lori Kruft KC0QGE
 * At Large: Mark Johnson KC0SHM
 <!--more-->
 
