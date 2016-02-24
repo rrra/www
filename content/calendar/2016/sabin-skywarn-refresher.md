@@ -1,7 +1,7 @@
 +++
 contact = "WB0BIN"
-date = "2016-04-26T18:30:00-05:00"
-endTime = "2016-04-26T21:00:00-05:00"
+date = "2016-04-25T18:30:00-05:00"
+endTime = "2016-04-25T21:00:00-05:00"
 location = "Sabin Elmwood Fire District HQ"
 title = "Skywarn Refresher"
 +++
