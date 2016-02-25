@@ -12,7 +12,7 @@
 			{{ range $taxonomy.Pages.ByDate }}
 				{{ if and (ge .Date.Unix .Now.Unix) (eq ($.Scratch.Get "done") "") }}
 					<dt class="twocol" style="width:10em;">{{ if eq $key "NCS Schedule" }}Net{{ else }}{{ $key | singularize }}{{ end }}</dt>
-					<dd class="twocol"><a href="{{ .Permalink}}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
+					<dd class="twocol"><a href="{{ .Permalink}}" title="{{ .Title }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
 					{{ $.Scratch.Set "done" "yes" }}
 				{{ end }}
 			{{ end }}
