@@ -4,6 +4,7 @@ date = "2016-04-25T18:30:00-05:00"
 endTime = "2016-04-25T21:00:00-05:00"
 location = "Sabin Elmwood Fire District HQ"
 title = "Sabin Skywarn Class"
+dates = [ "Public Service" ]
 +++
 Presented by the National Weather Service
 
