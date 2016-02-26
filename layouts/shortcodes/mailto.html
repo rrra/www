@@ -17,11 +17,9 @@
     {{ end }}
     {{ $email := "</a>" | printf "%s%s" ( .Page.Scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
     <script type="text/javascript">
-    <!-- 
     function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
     X=('{{ $email | base64Encode }}')
     document.write(f(X))
-     //-->
     </script>
     <noscript>
     {{ .Page.Scratch.Get "linktext" }}
