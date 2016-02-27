@@ -6,7 +6,7 @@ slug = ""
 title = "2016-2017 Education and Testing Schedule"
 +++
 
-# Amateur Radio Licensing Classes
+### Amateur Radio Licensing Classes
 
 RRRA offer periodic series of weekly classes in preparation for FCC Amateur
 Radio license tests. These classes are
@@ -28,7 +28,7 @@ Winter 2017 Extra | TBD | 10 | TBD
 * General Class Manual [[ARRL](http://www.arrl.org/shop/ARRL-General-Class-License-Manual-8th-Edition/)] [[Amazon](http://www.amazon.com/General-Class-License-Manual-Spiral/dp/1625950314/)] - ISBN 978-1-62595-031-4 (for use until 30 June 2019)
 * Extra Class Manual [[ARRL](http://www.arrl.org/shop/ARRL-Extra-Class-License-Manual-10th-Edition/)] [[Amazon](http://www.amazon.com/Extra-Class-License-Manual-Amateur/dp/087259517X/)] - ISBN 978-0-87256-517-0 (for use until 30 June 2016)
 
-# Amateur Radio License Testing
+### Amateur Radio License Testing
 
 RRRA Volunteer Examiners (VEs) will conduct Amateur Radio license testing
 sessions after the business meetings on the following dates:
