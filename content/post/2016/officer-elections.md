@@ -5,7 +5,7 @@ title = "2016 Club Officer Elections"
 +++
 The new RRRA Officers for 2016 are:
 
-* President: Seth Swanson KC0ODE
+* President: Seth Swenson KC0ODE
 * Vice President: Mark Jensen KK0V
 * Secretary: Brian Geffre KE0BXS
 * Treasurer: Lori Kruft KC0QGE
