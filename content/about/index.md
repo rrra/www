@@ -36,9 +36,7 @@ and dues payment to one of our
 
 ### Mailing Address {#mailing-address}
 
-{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215"
-p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
-
+{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" %}}
 
 ### Officers
 
@@ -54,6 +52,6 @@ p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
 Please direct all comments and questions about this website to the the
 {{< webmaster >}}.
 
-## Site License
+## Site License 
 
 {{< license >}}

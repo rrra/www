@@ -30,10 +30,9 @@ handling of emergency traffic for public welfare.
 
 Donations made to the RRRA are **tax deductible**. If interested please contact:
 
-{{% mailto vicepresident name %}}<br />
+{{% mailto treasurer name %}}<br />
 
 or you can mail a check to:
 
-{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215"
-p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
+{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
 
