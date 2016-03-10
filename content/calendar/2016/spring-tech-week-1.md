@@ -13,7 +13,7 @@ dates = [ "Spring 2016 Technician" ]
 * Registration
 * Introduction to each other
 * Introduction to ham radio and Videos
-* Talk about the books and what to bring to class (paper, pen, calculator)
+* Talk about the [books]({{< relref "post/2015/education-testing-schedule-announcement.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
 * Hand out the syllabus
 * Cover what we will be going over each week
 * Chapter 1 - Welcome to amateur radio

@@ -22,7 +22,9 @@ Fall 2016 General | 28-Sep-2016 to 9-Nov-2016 | 8 | [15-Nov-2016]({{< relref "ca
 Winter 2017 Extra | TBD | 10 | TBD
 
 **There is no charge for instruction; however a textbook is required**
-(approximate cost $30):
+(approximate cost $30)
+
+#### Textbooks
 
 * Technician Class Manual [[ARRL](http://www.arrl.org/shop/ARRL-Ham-Radio-License-Manual-3rd-Edition/)] [[Amazon](http://www.amazon.com/ARRL-Ham-Radio-License-Manual/dp/1625950136/)] - ISBN 978-1-62595-031-0 (for use until 30 June 2018)
 * General Class Manual [[ARRL](http://www.arrl.org/shop/ARRL-General-Class-License-Manual-8th-Edition/)] [[Amazon](http://www.amazon.com/General-Class-License-Manual-Spiral/dp/1625950314/)] - ISBN 978-1-62595-031-4 (for use until 30 June 2019)
