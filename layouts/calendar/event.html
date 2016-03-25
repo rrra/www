@@ -19,13 +19,17 @@
 			<dt class="twocol header">UNTIL:</dt><dd class="twocol"><time class="dt-end" datetime="{{ .Params.endtime }}">{{ dateFormat "Mon, 02 Jan 2006 15:04 MST" .Params.endtime }}</time></dd>
 			{{ end }}
 			{{ if gt .Params.location "" }}
-			<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location }}</span></dd>
+			<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location | safeHTML }}</span></dd>
 			{{ end }}
 			{{ if gt .Params.contact "" }}
 			<dt class="twocol header">CONTACT:</dt><dd class="twocol"><span class="p-organizer">
 			{{ $sign := .Params.contact }}
 			{{ $recip := index .Site.Data.call $sign }}
-  			{{ .Scratch.Set "linktext" $sign }}
+			{{ if gt $recip.office "" }}
+  				{{ .Scratch.Set "linktext" $recip.office }}
+			{{ else }}
+  				{{ .Scratch.Set "linktext" $sign }}
+			{{ end }}
 			{{ if gt  $recip.email "" }}
   			  {{ $email := "</a>" | printf "%s%s" ( .Scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
   			  <script type="text/javascript">
