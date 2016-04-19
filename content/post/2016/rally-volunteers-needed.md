@@ -35,4 +35,4 @@ Registration is also open for the 2016 Ojibwe Forests Rally, August
 competing for the national championship. You'll surely want to see the
 fabulous night stage through the streets of Detroit Lakes!
 
-Please contact {{< mailto KA0Q >>}} if you have any questions.
+Please contact {{% mailto KA0Q %}} if you have any questions.
