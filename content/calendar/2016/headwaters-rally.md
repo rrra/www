@@ -1,5 +1,5 @@
 +++
-contact = ""
+contact = "KA0Q"
 date = "2016-05-21T07:00:00-05:00"
 endTime = ""
 location = "Detroit Lakes, MN"
