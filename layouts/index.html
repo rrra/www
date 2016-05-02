@@ -5,11 +5,15 @@
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-			{{ partial "upcoming.html" . }}
-
-			{{ range first 10 (where .Data.Pages "Section" "post") }}
+			{{ $paginator := .Paginate ( where .Data.Pages "Section" "post") 5 }}
+			{{ partial "pagination.html" . }}
+			{{ if eq .Paginator.PageNumber 1 }}
+				{{ partial "upcoming.html" . }}
+			{{ end }}
+			{{ range $paginator.Pages }}
 				{{ partial "summary.html" . }}
 			{{ end }}
+			{{ partial "pagination.html" . }}
 		
 		</div><!-- #content -->
 	</div><!-- #primary -->

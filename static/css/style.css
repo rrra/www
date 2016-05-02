@@ -3167,6 +3167,46 @@ p.clear { clear: both; }
 	/* STK
  	 */
 	dd.twocol, dd.sameday { margin: 0 0 0.4em 2em; }
+
+	/* http://www.secondpicture.com/tutorials/web_design/css_ul_li_horizontal_css_menu.html
+	 */
+
+	#pager {
+		width: 100%
+		text-align: center;
+	}
+	ul.pagination {
+		/*margin: 0;
+		padding: 0; */
+		list-style-type: none;
+		height: 24px;
+		width: auto;
+		margin: inherit;
+		padding: 12px 0;
+		padding-left:inherit;
+	}
+	ul.pagination li {
+		float:left;
+	}
+	ul.pagination li a {
+		background-repeat: no-repeat;
+		background-position: right;
+		padding-right: 24px;
+		display: block;
+		line-height: 24px;
+		text-decoration: none;
+		font-size: 16px;
+	}
+	ul.pagination li.active a {
+		pointer-events: none;
+		cursor: default;
+		color: #000000;
+	}
+	ul.pagination li.disabled a {
+		pointer-events: none;
+		cursor: default;
+		color: #C8C8C8;
+	}
 }
 
 @media screen and (min-width: 401px) {
@@ -3318,6 +3358,36 @@ p.clear { clear: both; }
 	dt.twocol.header { width: 10em; background-color: #ccc; padding-left: 0.4em;}
 	dd.twocol { margin: 0 0 0.4em 0.4em; float: left; }
 	dd.sameday { clear: both; margin-left: 10.5em; margin-bottom: 0.4em; }
+
+	ul.pagination {
+		list-style-type: none;
+		height: 24px;
+		margin: 0 auto;
+		max-width: 474px;
+		padding: 12px 0 24px 4px;
+	}
+	ul.pagination li {
+		float:left;
+	}
+	ul.pagination li a {
+		background-repeat: no-repeat;
+		background-position: right;
+		padding-right: 24px;
+		display: block;
+		line-height: 24px;
+		text-decoration: none;
+		font-size: 16px;
+	}
+	ul.pagination li.active a {
+		pointer-events: none;
+		cursor: default;
+		color: #000000;
+	}
+	ul.pagination li.disabled a {
+		pointer-events: none;
+		cursor: default;
+		color: #C8C8C8;
+	}
 }
 
 @media screen and (min-width: 594px) {
