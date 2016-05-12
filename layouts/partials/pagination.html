@@ -2,26 +2,30 @@
 	<li{{ if eq .Paginator.PageNumber 1 }} class="disabled"{{ end }}><a href="{{ with .Paginator.First }}{{ .URL }}{{ end }}" >««</a></li>
 	<li{{ if eq .Paginator.HasPrev false }} class="disabled"{{ end }}><a href="{{ with .Paginator.Prev }}{{ .URL }}{{ end }}" >«</a></li>
 
-	{{ $limit := 5 }}
-	{{ .Scratch.Set "mid" (div $limit 2) }}
-	{{ .Scratch.Set "start" 0 }}
+	{{ .Scratch.Set "limit" 5 }}
+	{{ .Scratch.Set "first" 1 }}
 
-	{{ if le $limit .Paginator.TotalPages }}
-		{{ if gt .Paginator.PageNumber (.Scratch.Get "mid") }}
-			{{ if lt (add .Paginator.PageNumber (.Scratch.Get "mid")) .Paginator.TotalPages }}
-				{{ .Scratch.Set "end" (add .Paginator.PageNumber 1) }}
-			{{ else}}
-				{{ .Scratch.Set "end" (sub .Paginator.TotalPages 1) }}
-			{{ end }}
-			{{ .Scratch.Set "start" (sub (.Scratch.Get "end") (mul (.Scratch.Get "mid") 2)) }}
-		{{ else }}
-			{{ .Scratch.Set "end" (sub $limit 1) }}
-		{{ end }}
+	{{ if le .Paginator.TotalPages (.Scratch.Get "limit") }}
+    {{ .Scratch.Set "last" .Paginator.TotalPages }}
 	{{ else }}
-		{{ .Scratch.Set "end" (sub .Paginator.TotalPages 1) }}
+		{{ .Scratch.Set "mid" (div (.Scratch.Get "limit") 2) }}
+		{{ .Scratch.Add "mid" 1 }}
+		{{ if lt .Paginator.PageNumber (.Scratch.Get "mid")}}
+			{{ .Scratch.Set "last" (.Scratch.Get "limit") }}
+		{{ else }}
+			{{ .Scratch.Set "last" (add .Paginator.PageNumber (.Scratch.Get "mid")) }}
+			{{ if gt (.Scratch.Get "last") .Paginator.TotalPages }}
+				{{ .Scratch.Set "last" .Paginator.TotalPages }}
+				{{ .Scratch.Add "last" 1 }}
+			{{ end }}
+			{{ .Scratch.Set "first" (sub (.Scratch.Get "last") (.Scratch.Get "limit")) }}
+			{{ .Scratch.Add "last" -1 }}
+		{{ end }}
 	{{ end }}
 
-	{{ range seq (int (.Scratch.Get "start")) (int (.Scratch.Get "end")) }}
+	{{ $first := (sub (.Scratch.Get "first") 1) }}
+	{{ $last := (sub (.Scratch.Get "last") 1) }}
+	{{ range seq $first $last }}
 		{{ with index $.Paginator.Pagers ( . ) }}
 			<li {{ if eq $.Paginator.PageNumber (.PageNumber) }}class="active"{{ end }}><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
 		{{ end }}
