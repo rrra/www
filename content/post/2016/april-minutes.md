@@ -1,6 +1,6 @@
 +++
 categories = [ "Minutes" ]
-date = "2016-05-25T16:08:38-05:00"
+date = "2016-04-20T21:00:00-05:00"
 description = ""
 slug = ""
 tags = []
