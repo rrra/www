@@ -13,7 +13,7 @@ on Saturday, June 11th, 2016.
 There are 6 rest stops and 2 or 3 SAG (safety and
 gear) vehicles currently planned. The primary need is for the 6 rest
 stop volunteers.
-
+<!--more-->
 Rest stops will be located at:
 
 1. Harwood Community Center, Harwood, ND
