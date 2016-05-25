@@ -25,6 +25,6 @@ Rest stops will be located at:
 
 Rest stop operating times will vary.
 
-Rest stop volunteers should  <a href="http://goo.gl/forms/Hy845NgwpWSTwKL72" rel="nofollow">sign-up on-line</a>.  Rest stop operation times vary.
+Rest stop volunteers should  <a href="http://goo.gl/forms/Hy845NgwpWSTwKL72" rel="nofollow">sign-up on-line</a>. 
 
 Please contact {{< mailto KD0IOE >}} if you have any questions.
