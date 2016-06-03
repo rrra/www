@@ -37,7 +37,7 @@ more information.
 *  May 21 Ojibwa headwaters rally
 *  June 4 Breakfast on the farm. Dave an Joan Herpersonfarm.
 South of Rollag. More information and sign-up at May meeting.
-*  Jared K0JPJ has set up a repeater in cooperation with Clay
+*  Jared W0JPJ has set up a repeater in cooperation with Clay
 County. Check it out at 442.500 + 127.3 tone.
 
 ### Technical
