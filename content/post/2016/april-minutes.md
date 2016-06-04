@@ -12,7 +12,7 @@ title = "April 2016 Business Meeting Minutes"
 # Approve order of agenda
 
 ## Consent Agenda
-* Eli KE0PPE Motions
+* Eli K0PPE Motions
 * N0LKX Seconds
 * Approved
 
