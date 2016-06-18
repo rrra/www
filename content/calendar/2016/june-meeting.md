@@ -1,12 +1,12 @@
 +++
 contact = "president"
-date = "2016-06-21T19:00:00-05:00"
+date = "2016-06-21T17:00:00-05:00"
 endTime = ""
-location = "<a href=\"/places/cass-county-annex/\">Cass County Annex</a>"
+location = "Island Park"
 title = "June Club Meeting"
 dates = [ "Business Meetings" ]
 aliases = [ "/cal/2016/06/21/business-meeting/" ]
 +++
-We meet in the basement meeting room. Please enter through the north
-doors adjacent to the 2nd Ave S parking lot.
+This month's business meeting will be held at the 2016 Fargo Police Picnic,
+Island Park, Second Avenue and Seventh Street South, Fargo
 
