@@ -1,7 +1,7 @@
 +++
 contact = ""
-date = "2016-06-20T06:00:00-05:00"
-endTime = "2016-06-24T18:00:00-05:00"
+date = "2016-07-20T06:00:00-05:00"
+endTime = "2016-07-24T18:00:00-05:00"
 location = "Fergus Falls & Wadena, MN"
 title = "MS TRAM Ride"
 dates = [ "Public Service"]
