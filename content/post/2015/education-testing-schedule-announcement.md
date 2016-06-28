@@ -17,7 +17,7 @@ Class | Dates | Sessions | Testing
 ------|-------|----------|--------
 [Winter 2016 Extra](/dates/winter-2016-extra) | [6-Jan-2017]({{< relref "calendar/2016/winter-extra-week-1.md" >}}) to [9-Mar-2017]({{< relref "calendar/2016/winter-extra-week-10.md" >}}) | 10 | [15-Mar-2016]({{< relref "calendar/2016/march-testing.md" >}})
 [Spring 2016 Technician](/dates/spring-2016-technician) | [6-Apr-2016]({{< relref "calendar/2016/spring-tech-week-1.md" >}}) to [11-May-2016]({{< relref "calendar/2016/spring-tech-week-6.md" >}}) | 6 | [17-May-2016]({{< relref "calendar/2016/may-testing.md" >}})
-Fall 2016 Technician | 3-Aug-2016 to 7-Sep-2016 | 6 | [24-Sep-2016]({{< relref "calendar/2016/september-testing.md" >}})
+[Fall 2016 Technician](/dates/fall-2016-technician) | [3-Aug-2016]({{< relref "calendar/2016/fall-tech-week-1.md" >}}) to [7-Sep-2016]({{< relref "calendar/2016/fall-tech-week-6.md" >}}) | 6 | [24-Sep-2016]({{< relref "calendar/2016/september-testing.md" >}})
 Fall 2016 General | 28-Sep-2016 to 9-Nov-2016 | 8 | [15-Nov-2016]({{< relref "calendar/2016/november-testing.md" >}})
 Winter 2017 Extra | TBD | 10 | TBD
 
