@@ -3,7 +3,7 @@ categories = [ "Public Service" ]
 date = "2016-06-18T15:33:48-05:00"
 description = ""
 slug = ""
-tags = []
+tags = [ "Field Day" ]
 title = "Field Day 2016"
 
 +++
