@@ -11,7 +11,7 @@ Late entries cannot be accepted.
 
 Entries may be submitted to the ARRL in one of three ways:
 
-* [Field Day Web Submission Applet site](www.b4h.net/cabforms/)
+* [Field Day Web Submission Applet site](http://www.b4h.net/cabforms/)
 * E-mail to [fieldday@arrl.org](mailto:fieldday@arrl.org)
 * Land postal or delivery service to {{% hcard p-name="Field Day Entries" p-adr="225 Main St." p-loc="Newington" p-reg="CT" p-zip="06111" %}}
 
