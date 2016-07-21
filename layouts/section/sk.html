@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<header class="entry-header">
+				<h1 class="entry-title">Silent Keys</h1>
+			</header>
+			<div class="entry-content">
+				<dl id="list">
+					{{ range where .Data.Pages "Section" "sk" }}
+					  <dt class="twocol" style="width:8em;"><a href="{{ .Permalink }}">{{ upper .Title }}</a></dt>
+					  <dd class="twocol">{{ .Params.died }}</dd>
+					{{ end }}
+				</dl>
+			</div>
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	{{ partial "sidebar.html" . }}
+</div><!-- #main-content -->
+
+{{ partial "footer.html" . }}

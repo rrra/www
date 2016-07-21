@@ -1,0 +1,59 @@
+<article class="post type-post status-publish format-standard hentry">
+
+	<!-- .entry-header -->
+	<header class="entry-header">
+
+	{{ $baseurl := .Site.BaseURL }}
+  {{ $silentkeybase := "http://silentkeyhq.com/main.php4?p=bin/NSKALookup.php4&dlnk=&" }}
+	{{ $call := upper .Title }}
+
+		<div class="entry-meta">
+			<span class="cat-links">
+                <a href="{{ $baseurl }}/sk/" rel="category">Silent Keys</a>
+			</span>
+		</div>
+
+		<h2 class="entry-title">{{ .Title }} - {{ .Params.name }}</h2>
+
+		<div class="entry-meta">
+			{{ if eq .Section "post" }} 
+			<span class="entry-date">
+				<a href="{{ .Permalink }}" rel="bookmark">
+					<time class="entry-date" datetime="{{ .Date }}">
+						{{ .Date.Format "January 2" }}
+					</time>
+				</a>
+			</span>
+			{{ end }}
+		</div><!-- .entry-meta -->
+
+	</header>
+	
+	<div class="entry-content">
+		<img  src="/images/sk/{{ .Title }}.jpg" />
+		<p style="clear"></p>
+
+		{{ if eq .Params.toc "true" }}{{ .TableOfContents }}{{ end }}
+		<dl id="list">
+			{{ if gt .Params.born "" }}<dt class="twocol header">Born:</dt><dd class="twocol">{{ .Params.born }}</dd>{{ end }}
+			{{ if gt .Params.licensed "" }}<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ .Params.licensed }}</dd>{{ end }}
+			<dt class="twocol header">Silent Key:</dt>
+			<dd class="twocol">{{ .Params.died }}</dd>
+		{{ if gt .Params.silentkeyhq "" }}
+			<dt class="twocol header">Memorial:</dt>
+			<dd class="twocol"><a href="{{ $silentkeybase }}{{ "call=" }}{{ $call }}{{ "&uid=" }}{{ .Params.silentkeyhq }}">National Silent Key Archive</a></dd>
+		{{ end }}
+		</dl>
+		<p style="clear"></p>
+
+		{{ .Content }}
+	</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		<span class="tag-links">		
+			{{ range .Params.tags }}
+                <a href="{{ $baseurl}}/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+            {{ end }}
+		</span>
+	</footer>
+</article> <!-- #post-## -->

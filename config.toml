@@ -27,3 +27,7 @@ newcontenteditor = "vim"
     identifier = "files"
     url = "/links/"
 
+[[menu.main]]
+    name = "SK"
+    identifier = "sk"
+    url = "/sk/"
