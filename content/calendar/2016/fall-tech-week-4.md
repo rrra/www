@@ -7,6 +7,8 @@ title = "Fall Technician Class Week 4"
 categories = [ "Education" ]
 dates = [ "Fall 2016 Technician" ]
 +++
-Registration for RRRA Fall 2016 Techician Classes is now open. Please [register on-line](https://www.eventbrite.com/e/fcc-ham-radio-license-class-tickets-26316726036) (we use Eventbrite to manage our registrations). 
+### Topics
 
-Please see our [2016-2017 Education and Testing Schedule]({{< relref "post/2015/education-testing-schedule-announcement.md" >}}) for links to purchase the required text books along with other information about our licensing classes.
+* Questions for chapter 4
+* Chapter 5 - Amateur Radio Equipment
+* Guest speaker or Hands on
