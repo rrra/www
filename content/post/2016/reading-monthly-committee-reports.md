@@ -8,7 +8,7 @@ The on-line Monthly Reports for RRRA Committees should be available in the
 <!--more-->
 Follow these steps to view the on-line reports:
 
-1. Visit the RRRA ownCloud server by either entering the address
+1. Visit the RRRA ownCloud server by either entering its address
 (http://cloud.rrra.org) in your browser's location bar, or by clicking the
 *cloud* (<span class="genericon genericon-cloud")>&nbsp;</span>) social media icon below the RRRA logo in the upper left corner of any
 page on [our web-site](http://rrra.org/)
