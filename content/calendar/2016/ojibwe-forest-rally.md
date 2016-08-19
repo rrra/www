@@ -6,5 +6,7 @@ location = "Detroit Lakes, MN"
 title = "Ojibwe Forest Rally"
 dates = [ "Public Service" ]
 +++
-Please visit the [event Facebook page](https://www.facebook.com/OjibweForestsRally/) for more information.
+Volunteers are asked to sign-up using the [online registration page](http://www.rallymasterpro.com/workers/?group=3d1)
+
+Event information is also available on the [Ojibwe Forests Rally facebook page](https://www.facebook.com/OjibweForestsRally/).
 
