@@ -1,6 +1,6 @@
 +++
-categories = ["ARES"]
-tags = ["AUXCOMM","DHS"]
+categories = ["Public Service"]
+tags = [ "ARES","AUXCOMM","DHS" ]
 contact = "KC0ODE"
 date = "2016-01-29T08:00:00-08:00"
 endTime = "2016-01-29T18:00:00-16:00"

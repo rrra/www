@@ -1,5 +1,6 @@
 +++
-Categories = ["ARES"]
+Categories = ["Public Service"]
+tags = [ "ARES" ]
 Tags = ["AUXCOMM","DHS"]
 Description = "Sign-up for the DHS January 2016 AUXCOMM course"
 date = "2015-11-20T12:29:10-06:00"

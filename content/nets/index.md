@@ -3,7 +3,8 @@ date = "2015-12-08T14:18:09-06:00"
 title = "Traffic Nets"
 linktitle = "Nets"
 menu = "main"
-categories = [ "ARES" ]
+categories = [ "Public Service" ]
+tags = [ "ARES" ]
 
 +++
 
