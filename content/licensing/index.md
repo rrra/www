@@ -4,7 +4,7 @@ title = "Get Licensed ... Be a Ham"
 linktitle = "Be a Ham"
 menu = "main"
 toc = "true"
-categories = [ "Education", "VE" ]
+categories = [ "Education", "Licence Testing" ]
 
 +++
 
@@ -25,12 +25,6 @@ nationalities. Whether through Morse Code on an old brass telegraph key, voice
 communication on a hand-held radio or computerized messages transmitted via
 satellite, all hams use radio to reach out to the world.
 
-# Would you like to know more?
-
-Visit the [ARRL What is Ham Radio](http://www.arrl.org/what-is-ham-radio)
-page, or come to one of our club meetings, to learn more about this
-multifacted hobby.
-
 # Why should I get licensed?
 
 **Before you can get on the air, you need to be licensed and know the rules to
@@ -40,6 +34,12 @@ are three license classes---Technician, General and Extra. The [ARRL Getting
 Licensed](http://www.arrl.org/getting-licensed) page describes the license
 classes and provides useful links for those interested in becoming licensed.
 
+# Would you like to know more?
+
+Visit the [ARRL What is Ham Radio](http://www.arrl.org/what-is-ham-radio)
+page, or come to one of our [club meetings](/dates/business-meetings)
+to learn more about this multifacted hobby.
+
 # Get started with the Red River Radio Amateurs
 
 RRRA offer periodic series of weekly classes in preparation for FCC Amateur
@@ -47,6 +47,6 @@ Radio license tests followed, a week later, by a license testing session.
 Please follow our [education category](/categories/education/)
 for the latest news about RRRA education programs.
 
-Our club also holds
+Our club holds
 [bi-monthly license testing sessions](/dates/license-testing/)
-for those who prefer independent study.
+which are open to everyone.

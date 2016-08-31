@@ -5,7 +5,7 @@ endTime = ""
 location = "Red River Valley Fairgrounds"
 title = "Hamfest Testing Session"
 dates = [ "License Testing" ]
-categories = [ "VE" ]
+categories = [ "Licence Testing" ]
 +++
 {{% bring %}}
 
