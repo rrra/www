@@ -254,12 +254,11 @@ q:after {
 }
 
 blockquote {
-	color: #767676;
-	font-size: 19px;
+	color: #333;
 	font-style: italic;
 	font-weight: 300;
-	line-height: 1.2631578947;
-	margin-bottom: 24px;
+	line-height: 126%;
+	margin: 0 12px 24px 12px;
 }
 
 blockquote cite,
