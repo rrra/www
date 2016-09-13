@@ -30,7 +30,7 @@
 	</header>
 	
 	<div class="entry-content">
-		<img  src="/images/sk/{{ .Title }}.jpg" />
+		<img  src="/images/sk/{{ .Title }}.jpg" alt="Obituary photo of {{ upper .Title }}"/>
 		<p style="clear"></p>
 
 		{{ if eq .Params.toc "true" }}{{ .TableOfContents }}{{ end }}
