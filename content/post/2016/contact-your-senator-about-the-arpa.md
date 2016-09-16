@@ -27,14 +27,13 @@ Tuesday, September 13, 2016, email to Dakota Division Members:
 >quite done.  Now we need another push for [HR-1303 in the Senate] 
 >to get passed and you can help.
 
-To this end the ARRL have deployed a [Rally
-Congress](https://arrl.rallycongress.net/ctas/urge-senate-to-support-ama
-teur-radio-parity-act) page to simplify the letter writing process. And
+To this end the ARRL have deployed a
+[Rally Congress](https://arrl.rallycongress.net/ctas/urge-senate-to-support-amateur-radio-parity-act)
+page to simplify the letter writing process. And
 Rick Roderick (K5UR, ARRL President)
 sent the following letter to the ARRL Membership requesting their
 support:<!--more-->
 
->
 >Dear ARRL member,
 >
 >I am writing to you today because we are at a crossroad in our efforts

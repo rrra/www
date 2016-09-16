@@ -1,6 +1,6 @@
 <ul class="pagination">
-	<li{{ if eq .Paginator.PageNumber 1 }} class="disabled"{{ end }}><a href="{{ with .Paginator.First }}{{ .URL }}{{ end }}" >««</a></li>
-	<li{{ if eq .Paginator.HasPrev false }} class="disabled"{{ end }}><a href="{{ with .Paginator.Prev }}{{ .URL }}{{ end }}" >«</a></li>
+	<li {{ if eq .Paginator.PageNumber 1 }} class="disabled"{{ end }}><a href="{{ with .Paginator.First }}{{ .URL }}{{ else }}.{{ end }}" >&laquo;&laquo;</a></li>
+	<li {{ if eq .Paginator.HasPrev false }} class="disabled"{{ end }}><a href="{{ with .Paginator.Prev }}{{ .URL }}{{ else }}.{{ end }}" >&laquo;</a></li>
 
 	{{ .Scratch.Set "limit" 5 }}
 	{{ .Scratch.Set "first" 1 }}
@@ -31,7 +31,7 @@
 		{{ end }}
 	{{ end }}
 
-	<li {{ if eq .Paginator.HasNext false }} class="disabled"{{ end }}><a href="{{ with .Paginator.Next }}{{ .URL }}{{ end }}" >»</span></a></li>
-	<li {{ if eq .Paginator.PageNumber .Paginator.TotalPages }} class="disabled"{{ end }} ><a href="{{ with .Paginator.Last }}{{ .URL }}{{ end }}" >»»</span></a></li>
+	<li {{ if eq .Paginator.HasNext false }} class="disabled"{{ end }}><a href="{{ with .Paginator.Next }}{{ .URL }}.{{ end }}" >&raquo;</a></li>
+	<li {{ if eq .Paginator.PageNumber .Paginator.TotalPages }} class="disabled"{{ end }} ><a href="{{ with .Paginator.Last }}{{ .URL }}{{ else }}.{{ end }}">&raquo;&raquo;</a></li>
 </ul>
 
