@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/kostecke
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://rrra.org
+  * I am kostecke (https://keybase.io/kostecke) on keybase.
+  * I have a public key ASCI4XXeKCf5PKE-7RYfDChV99JREOSzdNTAuTxNSzS4bQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012088e175de2827f93ca13eed161f0c2855f7d25110e4b374d4c0b93c4d4b34b86d0a",
+            "host": "keybase.io",
+            "kid": "012088e175de2827f93ca13eed161f0c2855f7d25110e4b374d4c0b93c4d4b34b86d0a",
+            "uid": "790b0382c32e078a979346b20ba9c519",
+            "username": "kostecke"
+        },
+        "service": {
+            "hostname": "rrra.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1474377621,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1474377531,
+        "hash": "a62459983f46fab941f302065fa3a7370d7e3a230f5e2ce27b2fe5f5409686379f1307abd0c5440011e6839de80d39a40e07f39afe3cffa5998d499a841261be",
+        "seqno": 644926
+    },
+    "prev": "b8fc87f92a768770dad4a8e948c9e9a7550951830291de5aa96c76f3f6618b8e",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgiOF13ign+TyhPu0WHwwoVffSURDks3TUwLk8TUs0uG0Kp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwODhlMTc1ZGUyODI3ZjkzY2ExM2VlZDE2MWYwYzI4NTVmN2QyNTExMGU0YjM3NGQ0YzBiOTNjNGQ0YjM0Yjg2ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODhlMTc1ZGUyODI3ZjkzY2ExM2VlZDE2MWYwYzI4NTVmN2QyNTExMGU0YjM3NGQ0YzBiOTNjNGQ0YjM0Yjg2ZDBhIiwidWlkIjoiNzkwYjAzODJjMzJlMDc4YTk3OTM0NmIyMGJhOWM1MTkiLCJ1c2VybmFtZSI6Imtvc3RlY2tlIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJycnJhLm9yZyIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzQzNzc2MjEsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3NDM3NzUzMSwiaGFzaCI6ImE2MjQ1OTk4M2Y0NmZhYjk0MWYzMDIwNjVmYTNhNzM3MGQ3ZTNhMjMwZjVlMmNlMjdiMmZlNWY1NDA5Njg2Mzc5ZjEzMDdhYmQwYzU0NDAwMTFlNjgzOWRlODBkMzlhNDBlMDdmMzlhZmUzY2ZmYTU5OThkNDk5YTg0MTI2MWJlIiwic2Vxbm8iOjY0NDkyNn0sInByZXYiOiJiOGZjODdmOTJhNzY4NzcwZGFkNGE4ZTk0OGM5ZTlhNzU1MDk1MTgzMDI5MWRlNWFhOTZjNzZmM2Y2NjE4YjhlIiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQGflFFJfnTPTIYRwNzKIq+TMveDL4xsnzBtPDfH0IzlQ1ci0dPjqemtZAl753YEIxCq8q1ubq1+Z0mbrOk0X1QCoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAeIvH87zUz3zmCewMpjqDGPEDL0e/SeK6G9j3iqk+Q96N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kostecke
+
+==================================================================
