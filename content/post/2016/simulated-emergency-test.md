@@ -16,7 +16,7 @@ leaders to plan a
 [Simulated Emergency Test](https://en.wikipedia.org/wiki/Simulated_Emergency_Test)
 (SET). In their effort to be as prepared as possible to provide auxiliary
 communications if needed during a disaster, the RRRA ARES group has
-planned an informal nets
+planned informal nets
 [Sunday, October 2nd]({{< relref "calendar/2016/simulated-emergency-test-1.md" >}}) ,
 and
 [Monday, October 3rd]({{< relref "calendar/2016/simulated-emergency-test-2.md" >}})
