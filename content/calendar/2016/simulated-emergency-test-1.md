@@ -3,6 +3,7 @@ date = "2016-10-02T13:00:00-05:00"
 endTime = "2016-10-02T13:00:00-05:00"
 title = "Simulated Emergency Test"
 contact = "KK0V"
+dates = [ "Public Service" ]
 +++
 Join an informal net on one of the following frequencies during this
 [Simulated Emergency Test]({{< relref "post/2016/simulated-emergency-test.md" >}})
