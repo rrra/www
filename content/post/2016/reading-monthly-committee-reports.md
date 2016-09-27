@@ -24,7 +24,6 @@ page on [our web-site](http://rrra.org/)
 
 1. Click on the name of the report you wish to read.  If you're unable to view a report in your browser, or just wish to download it, click the ellipsis ( <span style="font-weight:bold">&#8230;</span> ) to the right of the report name and select *Download* from the pop-up menu
 
-Please contact the
-[webmaster](mailto:webmaster@rrra.org) if you need any assistance 
+Please contact the {{< webmaster >}} if you need any assistance 
 viewing the on-line reports (e.g. never received username/password, can't reset password, nothing works, etc.)
 

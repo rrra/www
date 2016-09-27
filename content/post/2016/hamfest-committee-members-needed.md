@@ -70,5 +70,5 @@ you to the list. This message contains some useful information including
 your list password and some quick links for changing your options, so
 you may want to save it for later reference.
 
-Please contact the {{< mailto webmaster >}} if you need help with the mailing
+Please contact the {{< webmaster >}} if you need help with the mailing
 list.

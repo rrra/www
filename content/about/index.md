@@ -6,6 +6,9 @@ menu = "main"
 toc = "true"
 +++
 
+Please see the [Colophon]({{< relref "about/colophon.md" >}}) for information
+about software and services used to build our website.
+
 # Red River Radio Amateurs
 
 A nonprofit
