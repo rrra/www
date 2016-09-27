@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "August 2016 Business Meeting Minutes"
-
+authors = [ "KE0BXS" ]
 +++
 * 19:00 Meeting called to order 19:06
 * Introductions of members--27 members present

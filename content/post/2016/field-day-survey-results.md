@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "2016 Field Day Survey Results"
+authors = [ "K0STK" ]
 +++
 An on-line survey about Field Day participation was conducted during the
 two week period prior to the July 19th RRRA business meeting.

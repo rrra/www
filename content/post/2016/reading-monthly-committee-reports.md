@@ -1,6 +1,7 @@
 +++
 date = "2016-08-11T13:55:50-05:00"
 title = "Reading Monthly Committee Reports"
+authors = [ "K0STK" ]
 +++
 The on-line Monthly Reports for RRRA Committees should be available in the
 *Committee Reports* folder on the

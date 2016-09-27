@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "Tour de Cure Volunteers Needed"
+authors = [ "K0CRF", "K0STK" ]
 +++
 Volunteers are needed for the
 [ADA Tour de Cure bike ride]({{< relref "calendar/2016/ada-tour-de-cure.md" >}})

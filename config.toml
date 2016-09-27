@@ -12,6 +12,7 @@ newcontenteditor = "vim"
   series = "series"
   dates = "dates"
   ncs = "ncs"
+  authors = "authors"
 
 [permalinks]
 	post = "/post/:year/:month/:day/:slug/"

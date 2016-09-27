@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = [ "ARRL" ]
 title = "Contact Your Senator About The Amateur Radio Parity Act"
+authors = [ "K0STK" ]
 +++
 >*"The bill is passed without objection.*" With those words, Amateur
 >Radio history was made on September 12, when the US House of

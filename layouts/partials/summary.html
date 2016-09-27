@@ -23,6 +23,11 @@
 					</time>
 				</a>
 			</span>
+			<span class="byline">
+				{{ range .Params.authors }}
+					<a href="{{ $baseurl }}/authors/{{ lower . | urlize }}/" rel="author">{{ . }}</a>
+				{{ end }}
+			</span>
 		</div><!-- .entry-meta -->
 
 	</header>

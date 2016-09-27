@@ -5,5 +5,6 @@ description = ""
 slug = ""
 tags = []
 title = "June 2016 Business Meeting Minutes"
+authors = [ "K0STK" ]
 +++
 There was no business meeting this month.

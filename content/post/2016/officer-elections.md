@@ -1,7 +1,7 @@
 +++
 date = "2016-02-18T06:00:00-06:00"
 title = "2016 Club Officer Elections"
-
+authors = [ "K0STK" ]
 +++
 The new RRRA Officers for 2016 are:
 

@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "2016 RRRA Hamfest & ARRL ND Convention"
+authors = [ "K0STK" ]
 +++
 The largest Hamfest in North Dakota; drawing attendees from 3 states and 1
 Canadian province. 

@@ -7,9 +7,9 @@
 
 		<div class="entry-meta">
 			<span class="cat-links">
-                {{ range .Params.categories }}
-                <a href="{{ $baseurl }}/categories/{{ lower . | urlize }}/" rel="category">{{ . }}</a>
-                {{ end }}
+				{{ range .Params.categories }}
+					<a href="{{ $baseurl }}/categories/{{ lower . | urlize }}/" rel="category">{{ . }}</a>
+				{{ end }}
 			</span>
 		</div>
 
@@ -23,6 +23,11 @@
 						{{ .Date.Format "January 2" }}
 					</time>
 				</a>
+			</span>
+			<span class="byline">
+				{{ range .Params.authors }}
+					<a href="{{ $baseurl }}/authors/{{ lower . | urlize }}/" rel="author">{{ . }}</a>
+				{{ end }}
 			</span>
 			{{ end }}
 		</div><!-- .entry-meta -->

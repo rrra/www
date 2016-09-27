@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "Signup for the Spring 2016 Technician Classes"
-
+authors = [ "K0STK" ]
 +++
 Registration for RRRA Spring 2016 Techician Classes is now open. Please [register on-line](https://www.eventbrite.com/e/spring-2016-technician-class-tickets-22130672437) (we use Eventbrite to manage our registrations). **This [series](/dates/spring-2016-technician) of classes begins [6-Apr-2016]({{< relref "calendar/2016/spring-tech-week-1.md" >}})**.
 <!--more-->

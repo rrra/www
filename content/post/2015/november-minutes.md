@@ -6,7 +6,7 @@ slug = ""
 tags = []
 title = "November 2015 Business Meeting Minutes"
 toc = "true"
-
+authors = [ "KE0BXS" ]
 +++
 * 1900 Meeting called to order by Seth
 * Introductions: 41 people present<!--more-->

@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "First Hamfest Planning Meeting"
+authors = [ "W0HNV", "K0STK" ]
 +++
 The [first planning meeting]({{< relref "calendar/2016/hamfest-committee-meeting-1.md" >}}) for the the 2016 ARRL Dakota Division Convention
 and RRRA Hamfest will be held on Sunday, 24 Jul 2016 at 15:00 CDT.

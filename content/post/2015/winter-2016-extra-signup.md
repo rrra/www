@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "Signup for the Winter 2016 Extra Classes"
+authors = [ "K0STK" ]
 +++
 
 Registration for RRRA Winter 2016 Extra Classes is now open. Please [register

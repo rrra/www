@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = [ "ARRL", "Propagation" ]
 title = "Smaller Solar Cycles May Lie Ahead"
-
+authors = [ "K0STK" ]
 +++
 {{< tweet "773926532381192192" >}}
 <!--more-->

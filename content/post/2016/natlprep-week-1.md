@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "National Preparedness Month Week 1"
-
+authors = [ "K0STK" ]
 +++
 {{< tweet "772463014683422723" >}}
 <!--more-->

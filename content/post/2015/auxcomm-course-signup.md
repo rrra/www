@@ -5,7 +5,7 @@ Tags = ["AUXCOMM","DHS"]
 Description = "Sign-up for the DHS January 2016 AUXCOMM course"
 date = "2015-11-20T12:29:10-06:00"
 title = "AUXCOMM Course Signup"
-author = "K0STK"
+authors = [ "K0STK" ]
 +++
 
 The Red River Radio Amateurs are hosting a TRG-AUXCOMM Auxiliary

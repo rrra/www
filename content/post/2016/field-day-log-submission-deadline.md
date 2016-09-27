@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = [ "Field Day" ]
 title = "Field Day Log Submission Deadline"
+authors = [ "K0STK" ]
 +++
 Entries must be postmarked, emailed or submitted by Tuesday, July 26, 2016.
 Late entries cannot be accepted.

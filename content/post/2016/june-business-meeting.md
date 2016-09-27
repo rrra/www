@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "June Business Meeting"
-
+authors = [ "K0STK" ]
 +++
 The June 2016 RRRA Business meeting will be held at the Fargo Police
 Community Picnic on Tuesday, June 21st, near the Island Park Pool.

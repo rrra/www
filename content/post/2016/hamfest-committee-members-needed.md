@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "Hamfest Committee Members Needed"
+authors = [ "W0HNV", "K0STK" ]
 +++
 It's time to start planning for the 2016 ARRL Dakota Division Convention
 and RRRA Hamfest. This is the largest Hamfest in North Dakota drawing

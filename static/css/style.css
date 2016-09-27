@@ -1168,10 +1168,6 @@ a.post-thumbnail:hover {
 	color: #41a62a;
 }
 
-.byline {
-	display: none;
-}
-
 .single .byline,
 .group-blog .byline {
 	display: inline;

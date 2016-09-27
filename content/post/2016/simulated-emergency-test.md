@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = [ "ARES", "ARRL", "AUXCOMM" ]
 title = "Simulated Emergency Test"
-author = "K0STK"
+authors = [ "KC0DCF", "K0STK" ]
 +++
 September is National Preparedness Month.  Every year in September 
 [ARRL](http://arrl.org) encourages

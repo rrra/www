@@ -4,6 +4,7 @@ date = "2015-12-04T21:23:26-06:00"
 description = ""
 slug = ""
 title = "2016-2017 Education and Testing Schedule"
+authors = [ "K0STK" ]
 +++
 
 ### Amateur Radio Licensing Classes

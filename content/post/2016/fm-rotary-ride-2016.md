@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "FM Rotary Ride 2016"
+authors = [ "K0STK" ]
 +++
 Radio Operators are needed to support the
 [FM Rotary Ride 2016](http://www.fmrotaryride.com/) on

@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = [ "Field Day" ]
 title = "Field Day 2016"
-
+authors = [ "K0STK" ]
 +++
 [Field Day](http://www.arrl.org/field-day) is an annual [Amateur
 Radio](http://www.arrl.org/what-is-ham-radio) exercise, dating back to

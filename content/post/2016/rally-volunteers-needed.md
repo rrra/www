@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "Rally Volunteers Needed"
-
+authors = [ "K0STK" ]
 +++
 Volunteers are still needed in all specialties for the 2016 Headwaters
 Rally on May 21. They have a new venue this year, the Northern Lights

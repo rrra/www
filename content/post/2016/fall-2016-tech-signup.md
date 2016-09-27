@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "Signup for the Fall 2016 Technician Classes"
-
+authors = [ "K0STK" ]
 +++
 Registration for RRRA Fall 2016 Techician Classes is now open. Please [register on-line](https://www.eventbrite.com/e/fcc-ham-radio-license-class-tickets-26316726036) (we use Eventbrite to manage our registrations). **This [series](/dates/fall-2016-technician) of classes begins [3-Aug-2016]({{< relref "calendar/2016/fall-tech-week-1.md" >}})**.
 <!--more-->

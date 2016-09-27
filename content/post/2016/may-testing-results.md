@@ -5,6 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "May Testing Results"
+authors = [ "W0HNV" ]
 +++
 Congratulations to former students and newly licensed, or upgraded, hams who
 tested at the May 17th RRRA testing session.

@@ -6,6 +6,7 @@ slug = ""
 tags = []
 title = "February 2016 Business Meeting Minutes"
 toc = "true"
+authors = [ "KE0BXS" ]
 +++
 * Call meeting to order Called to order by Tim Cruff at 1904.
 * Introductions -- -31 members present<!--more-->	
