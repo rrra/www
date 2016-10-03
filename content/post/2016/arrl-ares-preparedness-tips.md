@@ -1,7 +1,7 @@
 +++
 categories = [ "Public Service", "Education" ]
 date = "2016-10-05T09:43:32-05:00"
-#publishdate = "2016-10-05T00:00:00-05:00"
+publishdate = "2016-10-05T00:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "ARES" ]
@@ -109,36 +109,36 @@ Been a while since you cleaned it out or did maintenance? Take an
 evening to go through your Go-Kit from top to bottom; minor problems
 become big issues at the worst possible times
 
-**Safety First**: Whether a routine demonstration or a natural disaster,
+**Safety first**: Whether a routine demonstration or a natural disaster,
 always operate with safety in mind. Corson off areas with bright tape, keep a
 first aid kit on hand, and **always** steer clear of downed power lines. Don't
 become another victim!
 
-**Access to Alkalines**: Keep a supply of alkaline batteries available.
+**Access to alkalines**: Keep a supply of alkaline batteries available.
 They can provide power to many HTs in the event you can't recharge your normal
 power pack. They come in handy for hundreds of other applications, too. If
 stored longterm, check regularly for leakage
 
-**Know Your Gear**: Do you know how to use all the features your radio
+**Know your gear**: Do you know how to use all the features your radio
 offers? Extra memories, special filtering and other settings can make working
 stations easier and reduce fatigue on long shifts, Sit down with the manual
 and try out all your rig can do
 
-**What Else Can You Do?**: Many of us have more skills than
+**What else can you do?**: Many of us have more skills than
 communication. When working with other agencies, let them know if you have any
 other certifications (CPR, IT, etc). You never know how you may be asked to
 help; make yourself valuable!
 
-**Learn From the Master**: If you need to learn a new procedure or skill,
+**Learn from the master**: If you need to learn a new procedure or skill,
 ask an expert to teach you. Whether handling a soldering iron or increasing
 your efficiency as Net Control, working directly with those who have the
 know-how will get you up to speed; soon, you will be doing well
 
-**Find Those Fuses**: Keep a supply of fuses for all your devices in your
+**Find those fuses**: Keep a supply of fuses for all your devices in your
 kit. Don't let a blown fuse keep you from staying on the air during a
 deployment
 
-**Pack Cheat Sheets**: Be sure to document how your Go-Kit is laid out.
+**Pack cheat sheets**: Be sure to document how your Go-Kit is laid out.
 You may have a guest op, or forget how to perform a specific function. Bring
 manuals with you, or condensed versions of them. You could store PDFs of them
 on your phone, too
@@ -148,7 +148,7 @@ group involved in one of the nation's largest training exercises. If you
 aren't involved, contact your local Emergency Coordinator or member of the
 ARRL Field Organization
 
-**Frequent Flyers**: Whenever you are out with Amateur Radio in a public
+**Frequent flyers**: Whenever you are out with Amateur Radio in a public
 setting, keep a supply of promotional flyers on hand. You never know when you
 will get a chance to promote what we do! Free brochures are available at
 [www.arrl.org/shop](http://www.arrl.org/shop)
