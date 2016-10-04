@@ -16,8 +16,9 @@ Radio Programming Webinar on October 19, 2016 at 8PM ET
 Attendees must
 [register on-line](https://attendee.gotowebinar.com/register/693479953177190401)
 for this webinar.
+<!--more-->
+This webinar will discuss:
 
-Attendees will learn:
 * What CHIRP is
 * Which radios are supported
 * How to get CHIRP
