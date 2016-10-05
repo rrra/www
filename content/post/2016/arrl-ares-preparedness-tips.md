@@ -6,7 +6,7 @@ description = ""
 slug = ""
 tags = [ "ARRL", "ARES" ]
 title = "ARRL-ARES Preparedness Tips"
-author = "K0STK"
+authors = [ "K0STK" ]
 +++
 Amateur Radio tips published on the
 [ARRL - ARES twitter page](https://twitter.com/arrl_ares) during [National Preparedness
