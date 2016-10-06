@@ -1,6 +1,6 @@
 +++
 categories = [ "Public Service" ]
-tags = [ "ARES" ]
+tags = [ "ARES", "AUXCOMM", "DHS" ]
 date = "2016-02-12T13:16:08-06:00"
 description = ""
 slug = ""
