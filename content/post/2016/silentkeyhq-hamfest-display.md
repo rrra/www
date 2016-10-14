@@ -13,17 +13,25 @@ was a display about the
 [National Silent Key Archive](http://www.silentkeyhq.com/)&trade;
 featuring North Dakota Amateur Radio Operators from before 1946; back
 when our prefix was "W9."
-{{< figure src="/images/2016/silentkeyhq-rrra-hamfest.png" \
-	preview="/images/2016/silentkeyhq-rrra-hamfest-preview.png" \
-	caption="Screenshot of the National Silent Key Archive website by K0STK" \
+{{< figure src="/images/2016/silentkeyhq-rrra-hamfest-display-1.jpg" \
+	preview="/images/2016/silentkeyhq-rrra-hamfest-display-1-preview.jpg" \
+	caption="Photo by K8CMU"
 >}}
 <!--more-->
 This display was created, and manned, by Gordon Bean, K8MRS, of St.
 Charles, Michigan.
+{{< figure src="/images/2016/silentkeyhq-rrra-hamfest-display-2.jpg" \
+	preview="/images/2016/silentkeyhq-rrra-hamfest-display-2-preview.jpg" \
+	caption="Photo by K8CMU"
+>}}
 
 Gordon introduced convention goers to the National Silent Key
 Archive&trade; and handed out information sheets which encouraged fellow
 radio amateurs to submit known silent keys to the Archive.
+{{< figure src="/images/2016/silentkeyhq-rrra-hamfest.jpg" \
+	preview="/images/2016/silentkeyhq-rrra-hamfest-preview.png" \
+	caption="Screenshot of the National Silent Key Archive website by K0STK" \
+>}}
 
 ### About the National Silent Key Archive&trade;
 
