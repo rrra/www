@@ -1,12 +1,14 @@
 +++
 categories = [ "Public Service" ]
-date = "2016-10-17T09:31:02-05:00"
+date = "2016-10-16T09:31:02-05:00"
 publishdate = "2016-10-17T00:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARES", "ARRL", "MARS" ]
 title = "Amateur Radio-Military Interoperability Exercise"
 authors = [ "K0STK" ]
+aliases = [ "/post/2016/10/17/stop-the-bleeding-introductory-presentation/"
+]
 +++
 An Amateur Radio-military interoperability exercise will take place October 31
 and November 1. The event will begin at 1200 UTC on October 31 and continue
