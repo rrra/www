@@ -18,9 +18,7 @@ Responders*]({{< relref "post/2016/stop-the-bleeding-introduction.md#about-immed
 control for victims at the point of wounding before the arrival of
 professional responders"[[2]({{< relref "post/2016/stop-the-bleeding-introduction.md#footnotes" >}})], are critical for victim survival.
 As Amateur Radio Operators we are often present at incidents where 
-[*Immediate Responders*]({{< relref
-"post/2016/stop-the-bleeding-introduction.md#about-immediate-responders" >}})
-may be needed
+*Immediate Responders* may be needed
 <!--more-->
 During the
 [October 2016 Business Meeting]({{< relref "calendar/2016/october-meeting.md" >}}),
