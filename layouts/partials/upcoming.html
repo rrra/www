@@ -12,7 +12,7 @@
 			{{ range $taxonomy.Pages.ByDate }}
 				{{ if and (ge .Date.Unix .Now.Unix) (eq ($.Scratch.Get "done") "") }}
 					<dt class="twocol" style="width:15em;">
-						{{ if or (eq $key "NCS Schedule") (eq $key "Public Service")}}
+						{{ if in .Site.Params.specials $key }}
 							{{ .Title }}
 						{{ else }}
 							{{ $key | singularize }}
