@@ -5,6 +5,6 @@ endTime = ""
 location = "Cass County Annex"
 title = "January Testing Session"
 dates = [ "License Testing" ]
-categories = [ "Licence Testing" ]
+categories = [ "License Testing" ]
 +++
 {{% bring %}}

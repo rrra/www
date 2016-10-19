@@ -1,5 +1,5 @@
 +++
-categories = [ "Education", "Licence Testing" ]
+categories = [ "Education", "License Testing" ]
 date = "2016-05-25T15:58:17-05:00"
 description = ""
 slug = ""
