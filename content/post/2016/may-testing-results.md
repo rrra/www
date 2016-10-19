@@ -22,8 +22,8 @@ tested at the May 17th RRRA testing session.
 * Adam KE0JHF
 
 ### Upgrades
-* JAMES A. KE0FZC
-* CARRIE KE0FZB
+* James A. KE0FZC
+* Carrie KE0FZB
 
 Thanks to our instructors and VEs.
 <!--more-->
