@@ -7,19 +7,21 @@
 <div class="entry-content">
 
 	<dl>
-		{{ range $key, $taxonomy := .Site.Taxonomies.dates }}
-			{{ $.Scratch.Set "done" "" }}
-			{{ range $taxonomy.Pages.ByDate }}
-				{{ if and (ge .Date.Unix .Now.Unix) (eq ($.Scratch.Get "done") "") }}
+		{{ range .Data.Pages.ByDate }}
+			{{ if ge .Date.Unix .Now.Unix }}
+				{{ $current := chomp (delimit .Params.dates ",") }}
+        {{ $used := chomp ($.Scratch.Get "used") }}
+        {{ if in $used $current }}{{ else }}
 					<dt class="twocol" style="width:15em;">
-						{{ if in .Site.Params.specials $key }}
+						{{ if in .Site.Params.specials $current }}
 							{{ .Title }}
 						{{ else }}
-							{{ $key | singularize }}
+							{{ $current | singularize }}
 						{{ end }}
 					</dt>
 					<dd class="twocol"><a href="{{ .Permalink}}" title="{{ .Title }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
-					{{ $.Scratch.Set "done" "yes" }}
+          {{ $.Scratch.Add "used" (delimit .Params.dates ",") }}
+          {{ $.Scratch.Add "used" "|" }}
 				{{ end }}
 			{{ end }}
 		{{ end }}
