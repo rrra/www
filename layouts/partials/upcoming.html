@@ -9,23 +9,28 @@
 	<dl>
 		{{ range .Data.Pages.ByDate }}
 			{{ if ge .Date.Unix .Now.Unix }}
-				{{ $current := chomp (delimit .Params.dates ",") }}
-        {{ $used := chomp ($.Scratch.Get "used") }}
-        {{ if in $used $current }}{{ else }}
+				{{ $thisdate := chomp (.Date.Format "2006-01-01") }}
+        {{ if ne $thisdate ($.Scratch.Get "lastdate") }}
+					{{ $.Scratch.Set "today" "" }}
+				{{ end }}
+				{{ $series := chomp (delimit .Params.dates ",") }}
+				{{ $seen := chomp ($.Scratch.Get "seen") }}
+				{{ if or (not (in $seen $series)) (in ($.Scratch.Get "today") $series) }}
 					<dt class="twocol" style="width:15em;">
-						{{ if in .Site.Params.specials $current }}
-							{{ .Title }}
-						{{ else }}
-							{{ $current | singularize }}
-						{{ end }}
+						{{ .Title }}
 					</dt>
 					<dd class="twocol"><a href="{{ .Permalink}}" title="{{ .Title }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
-          {{ $.Scratch.Add "used" (delimit .Params.dates ",") }}
-          {{ $.Scratch.Add "used" "|" }}
+					{{ $this := delimit .Params.dates "," | printf "%s|" }}
+					{{ $.Scratch.Add "seen" $this }}
+					{{ $.Scratch.Add "today" $this }}
+					{{ $.Scratch.Set "lastdate" (.Date.Format "2006-01-01") }}
 				{{ end }}
 			{{ end }}
 		{{ end }}
-</dl>
+	</dl>
+
+  <p style="clear:both;"></p>	
+	<p>Please see the <a href="/calendar/0/" >RRRA Calendar</a> for a complete listing of upcoming events.</p>
 
 </div>
 
