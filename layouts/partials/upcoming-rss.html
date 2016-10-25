@@ -1,0 +1,22 @@
+<dl>
+	{{ range .Data.Pages.ByDate }}
+		{{ if ge .Date.Unix .Now.Unix }}
+      {{ $thisdate := chomp (.Date.Format "2006-01-02") }}
+      {{ if ne $thisdate ($.Scratch.Get "lastdate_rss") }}
+        {{ $.Scratch.Set "today_rss" "" }}
+	      {{ end }}
+      {{ $series := chomp (delimit .Params.dates ",") }}
+      {{ $seen := $.Scratch.Get "seen_rss" }}
+			{{ if or (not (in $seen $series)) (in ($.Scratch.Get "today") $series) }}
+				<dt> 
+					{{ .Title }}
+				</dt>
+				<dd><a href="{{ .Permalink}}" title="{{ .Title }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
+        {{ $this := delimit .Params.dates "," | printf "%s|" }}
+        {{ $.Scratch.Add "seen_rss" $this }} 
+        {{ $.Scratch.Add "today_rss" $this }}
+				{{ $.Scratch.Set "lastdate_rss" (.Date.Format "2006-01-02") }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+</dl>
