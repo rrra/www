@@ -2,16 +2,16 @@ baseurl = "http://rrra.org"
 languageCode = "en-us"
 title = "Red River Radio Amateurs"
 
+theme = "twentyfourteen"
+Paginate = 10
+newcontenteditor = "vim"
+
 description = "News from the Red River Radio Amateurs"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
 [author]
 	email = "webmaster@rrra.org"
 	name = "K0STK"
-
-theme = "twentyfourteen"
-Paginate = 10
-newcontenteditor = "vim"
 
 [taxonomies]
   tag = "tags"
