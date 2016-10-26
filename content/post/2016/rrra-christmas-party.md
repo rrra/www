@@ -2,6 +2,7 @@
 authors = [ "KC0GQE" ]
 categories = [ "Social" ]
 date = "2016-11-07T16:39:43-06:00"
+publishdate = "2016-11-07T00:00:00-06:00"
 description = ""
 slug = ""
 tags = []
