@@ -1,5 +1,5 @@
 <dl>
-	{{ range .Data.Pages.ByDate }}
+	{{ range where .Data.Pages.ByDate "Section" "calendar" }}
 		{{ if ge .Date.Unix .Now.Unix }}
       {{ $thisdate := chomp (.Date.Format "2006-01-02") }}
       {{ if ne $thisdate ($.Scratch.Get "lastdate_rss") }}
