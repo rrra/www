@@ -60,7 +60,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 	description = "Blog posts about RRRA activities intended to promote Amateur Radio."
 
 [params.categories.public-service]
-  description = 'Blog posts related to the "voluntary noncommercial communication service, particularly with respect to providing emergency communications" (*["Amateur Radio Service." 47 "CFR" 97.1(a). 2016.](http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&rgn=div5&view=text&node=47:5.0.1.1.6&idno=47#se47.5.97_11)*), provided to the public by Amateur Radio operators. This archive also includes blog posts about the activities of the RRRA ARES Committee.'
+  description = 'Blog posts about the activities of the RRRA ARES Committee and the "voluntary noncommercial communication service, particularly with respect to providing emergency communications" (*["Amateur Radio Service." 47 "CFR" 97.1(a). 2016.](http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&rgn=div5&view=text&node=47:5.0.1.1.6&idno=47#se47.5.97_11)*), provided to the public by Amateur Radio operators.' 
 
 [params.categories.technical]
   description = "Blog posts about the activities of the RRRA Technical Committee and the equipment/systems they maintain. This archive also includes blog posts about technical topics of general interest."
