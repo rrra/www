@@ -9,7 +9,7 @@
 	<dl>
 		{{ range where .Data.Pages.ByDate "Section" "calendar" }}
 			{{ if ge .Date.Unix .Now.Unix }}
-				{{ $thisdate := chomp (.Date.Format "2006-01-01") }}
+				{{ $thisdate := chomp (.Date.Format "2006-01-02") }}
         {{ if ne $thisdate ($.Scratch.Get "lastdate") }}
 					{{ $.Scratch.Set "today" "" }}
 				{{ end }}
@@ -19,11 +19,11 @@
 					<dt class="twocol" style="width:15em;">
 						{{ .Title }}
 					</dt>
-					<dd class="twocol"><a href="{{ .Permalink}}" title="{{ .Title }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
+					<dd class="twocol"><a href="{{ .Permalink}}" title="{{ .Title }} - {{ $series }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
 					{{ $this := delimit .Params.dates "," | printf "%s|" }}
 					{{ $.Scratch.Add "seen" $this }}
 					{{ $.Scratch.Add "today" $this }}
-					{{ $.Scratch.Set "lastdate" (.Date.Format "2006-01-01") }}
+					{{ $.Scratch.Set "lastdate" (.Date.Format "2006-01-02") }}
 				{{ end }}
 			{{ end }}
 		{{ end }}
