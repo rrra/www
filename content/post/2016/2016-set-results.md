@@ -4,7 +4,7 @@ categories = [ "Public Service" ]
 date = "2016-10-26T11:06:09-05:00"
 description = ""
 slug = ""
-tags = [ "ARES" ]
+tags = [ "ARES", "ARRL" ]
 title = "2016 SET Results"
 
 +++
