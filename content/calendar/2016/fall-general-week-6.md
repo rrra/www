@@ -1,7 +1,7 @@
 +++
 contact = "W0HNV"
-date = "2016-11-09T19:00:00-05:00"
-endTime = "2016-11-09T21:00:00-05:00"
+date = "2016-11-02T19:00:00-05:00"
+endTime = "2016-11-02T21:00:00-05:00"
 location = "West Fargo Public Library"
 title = "Fall General Class Week 6"
 categories = [ "Education" ]
