@@ -7,9 +7,14 @@
 
 			<header class="archive-header">
 				<h1 class="archive-title">{{ .Title }} Archive</h1>
+				{{ $cat := index .Site.Params.categories (.Title | urlize) }}
 				{{ $rsstitle := .Title}}
 				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
+				{{ with $cat.description }}
+					<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
+				{{ end }}
 			</header>
+
 
 			{{ range .Data.Pages }}
 				{{ if and (ne .Section "calendar") (ne .Section "links") }}
