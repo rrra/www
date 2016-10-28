@@ -20,7 +20,7 @@ Class | Dates | Sessions | Testing
 [Spring 2016 Technician](/dates/spring-2016-technician) | [6-Apr-2016]({{< relref "calendar/2016/spring-tech-week-1.md" >}}) to [11-May-2016]({{< relref "calendar/2016/spring-tech-week-6.md" >}}) | 6 | [17-May-2016]({{< relref "calendar/2016/may-testing.md" >}})
 [Fall 2016 Technician](/dates/fall-2016-technician) | [3-Aug-2016]({{< relref "calendar/2016/fall-tech-week-1.md" >}}) to [7-Sep-2016]({{< relref "calendar/2016/fall-tech-week-6.md" >}}) | 6 | [24-Sep-2016]({{< relref "calendar/2016/september-testing.md" >}})
 [Fall 2016 General](/dates/fall-2016-general) | [28-Sep-2016]({{< relref "calendar/2016/fall-general-week-1.md" >}}) to [9-Nov-2016]({{< relref "calendar/2016/fall-general-week-7.md" >}}) | 7 | [15-Nov-2016]({{< relref "calendar/2016/november-testing.md" >}})
-[Winter 2017 Extra](/dates/winter-2017-extra) | [11-Jan-2017]({{< relref "calendar/2017/winter-extra-week-1.md" >}}) to [15-Mar-2017]({{< relref "calendar/2017/winter-extra-week-10.md" >}}) | 10 | [21-Mar-2017]({{< relref "calendar/2017/march-testing.md" >}})
+Winter 2017 Extra | 11-Jan-2017 to 15-Mar-2017 | 10 | [21-Mar-2017]({{< relref "calendar/2017/march-testing.md" >}})
 
 **There is no charge for instruction; however a textbook is required**
 (approximate cost $30)
@@ -39,4 +39,4 @@ sessions bi-monthly.
 Please see our [License Testing archive](/dates/license-testing/) for a
 complete list of currently scheduled testing dates.
 
-{{% bring %>>
+{{% bring %}}
