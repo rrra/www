@@ -1,9 +1,9 @@
 +++
 contact = "W0HNV"
-date = "2017-01-16T20:00:00-06:00"
+date = "2018-11-20T20:00:00-06:00"
 endTime = ""
 location = "Cass County Annex"
-title = " January Testing Session"
+title = " November Testing Session"
 dates = [ "License Testing" ]
 categories = [ "License Testing" ]
 +++

@@ -1,9 +1,9 @@
 +++
 contact = "W0HNV"
-date = "2017-01-16T20:00:00-06:00"
+date = "2017-09-30T09:00:00-05:00"
 endTime = ""
-location = "Cass County Annex"
-title = " January Testing Session"
+location = "Red River Valley Fairgrounds"
+title = "Hamfest Testing Session"
 dates = [ "License Testing" ]
 categories = [ "License Testing" ]
 +++
