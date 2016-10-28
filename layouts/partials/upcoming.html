@@ -17,7 +17,7 @@
 				{{ $seen := chomp ($.Scratch.Get "seen") }}
 				{{ if or (not (in $seen $series)) (in ($.Scratch.Get "today") $series) }}
 					<dt class="twocol" style="width:15em;">
-						{{ .Title }}
+						{{ with .LinkTitle }}{{.}}{{else}}{{ .Title }}{{end}}
 					</dt>
 					<dd class="twocol"><a href="{{ .Permalink}}" title="{{ .Title }} - {{ $series }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
 					{{ $this := delimit .Params.dates "," | printf "%s|" }}
