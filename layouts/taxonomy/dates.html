@@ -26,7 +26,9 @@
 				{{ end }}
 				<dl id="list">
 					{{ range .Data.Pages.ByDate }}
-						{{ .Render ( $.Scratch.Get "li" ) }}
+						{{ if ge .Date.Unix .Now.Unix }}
+							{{ .Render ( $.Scratch.Get "li" ) }}
+						{{ end }}
 					{{ end }}
 				</dl>
 				{{ if eq ( substr .URL 7 ) "license-testing/" }}
