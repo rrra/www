@@ -1,6 +1,6 @@
 +++
 authors = [ "K0STK" ]
-categories = []
+categories = [ "Social" ]
 date = "2016-10-18T21:50:43-05:00"
 description = ""
 slug = ""
