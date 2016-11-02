@@ -46,6 +46,9 @@
   			  {{ .Scratch.Get "linktext" }}
 			{{ end }}</span></dd>
 			{{ end }}
+			{{ with .Params.sponsor }}
+				<dt class="twocol header">SPONSOR:</dt><dd class="twocol"><span class="p-location">{{ . | markdownify }}</span></dd>
+		  {{ end }}	
 		</dl>
 		<p class="p-summary clear" style="padding-top:24px;">{{ .Content }}</p>
 	</div>
