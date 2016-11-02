@@ -4,45 +4,68 @@
 	<header class="entry-header">
 
 	{{ $baseurl := .Site.BaseURL }}
-  {{ $silentkeybase := "http://silentkeyhq.com/main.php4?p=bin/NSKALookup.php4&dlnk=&" }}
+  {{ $silentkeybase := .Site.Params.silentkeybase }}
 	{{ $call := upper .Title }}
 
 		<div class="entry-meta">
-			<span class="cat-links">
-                <a href="{{ $baseurl }}/sk/" rel="category">Silent Keys</a>
-			</span>
-		</div>
+
+			<ul class="pagination">
+				{{ range last 1 ( where .Site.Pages "Section" "sk" ) }}
+				<li {{ if not $.PrevInSection }} class="disabled" {{ end }}><a title="Oldest Silent Key - {{ upper .Title }}" href="{{ .RelPermalink }}">&laquo;&laquo;</a></li>
+				{{ end }}
+				<li {{ if not .PrevInSection }} class="disabled" {{ end }}><a title="Previous Silent Key{{ if .PrevInSection}} - {{ upper .PrevInSection.Title }}{{ end }}" href="{{ if .PrevInSection }}{{ .PrevInSection.RelPermalink }}{{ else }}.{{ end }}">&laquo;</a></li></li>
+				<li><a href="{{ $baseurl }}/sk/" rel="category">Silent Keys</a></li>
+				<li {{ if not .NextInSection }} class="disabled" {{ end }}><a title="Next Silent Key{{ if .NextInSection }} - {{ upper .NextInSection.Title }}{{ end }}" href="{{ if .NextInSection }}{{ .NextInSection.RelPermalink }}{{ else }}.{{ end }}">&raquo;</a></li></li>
+				{{ range first 1 ( where .Site.Pages "Section" "sk" ) }}
+				<li {{ if not $.NextInSection }} class="disabled" {{ end }}><a title="Newest Silent Key - {{ upper .Title }}" href="{{ .RelPermalink }}">&raquo;&raquo;</a></li>
+				{{ end }}
+			</ul>
+
+		</div><!-- .entry-meta -->
 
 		<h2 class="entry-title">{{ .Title }} - {{ .Params.name }}</h2>
-
-		<div class="entry-meta">
-			{{ if eq .Section "post" }} 
-			<span class="entry-date">
-				<a href="{{ .Permalink }}" rel="bookmark">
-					<time class="entry-date" datetime="{{ .Date }}">
-						{{ .Date.Format "January 2" }}
-					</time>
-				</a>
-			</span>
-			{{ end }}
-		</div><!-- .entry-meta -->
 
 	</header>
 	
 	<div class="entry-content">
-		<img  src="/images/sk/{{ .Title }}.jpg" alt="Obituary photo of {{ upper .Title }}"/>
-		<p style="clear"></p>
+		{{ $imgfiles := readDir "static/images/sk/" }}
+		{{ range $imgfiles }}
+			{{ if in .Name ( lower $call ) }}
+				{{ $.Scratch.Set "headshot" .Name }}
+			{{ end }}
+		{{ end }}
 
-		{{ if eq .Params.toc "true" }}{{ .TableOfContents }}{{ end }}
+		{{ with ( $.Scratch.Get "headshot" ) }}
+			<img  src="/images/sk/{{ . }}" alt="Obituary photo of {{ $call }}"/>
+			<p style="clear"></p>
+		{{ end }}
+
 		<dl id="list">
-			{{ if gt .Params.born "" }}<dt class="twocol header">Born:</dt><dd class="twocol">{{ .Params.born }}</dd>{{ end }}
-			{{ if gt .Params.licensed "" }}<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ .Params.licensed }}</dd>{{ end }}
+			{{ with .Params.born }}<dt class="twocol header">Born:</dt><dd class="twocol">{{ . }}</dd>{{ end }}
+			{{ with .Params.licensed }}<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ . }}</dd>{{ end }}
 			<dt class="twocol header">Silent Key:</dt>
 			<dd class="twocol">{{ .Params.died }}</dd>
-		{{ if gt .Params.silentkeyhq "" }}
-			<dt class="twocol header">Memorial:</dt>
-			<dd class="twocol"><a href="{{ $silentkeybase }}{{ "call=" }}{{ $call }}{{ "&uid=" }}{{ .Params.silentkeyhq }}">National Silent Key Archive</a></dd>
-		{{ end }}
+			{{ with .Params.silentkeyhq }}
+				{{ $href :=  "\">National Silent Key Archive</a>" | printf "%s%s" (.) | printf "%s%s" "&uid=" | printf "%s%s" $call | printf "%s%s" "call=" | printf "%s%s" $silentkeybase | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
+				{{ $.Scratch.Set "memorial" $href }}
+			{{ else }}
+				{{ with .Params.obituary }}
+					{{ $url := (.) }}
+					{{ $url := replace $url "https://" "" }}
+					{{ $url := replace $url "http://" "" }}
+					{{ $url := split $url "/" }}
+
+					{{ if ge (len $url) 1 }}
+						{{ $href := "</a>" | printf "%s%s" ( index $url 0 ) | printf "%s%s" "\">" | printf "%s%s" (.) | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
+						{{ $.Scratch.Set "memorial" $href }}
+					{{ end }}
+				{{ end }}
+			{{ end }}
+			{{ with $.Scratch.Get "memorial" }}
+				<dt class="twocol header">Memorial:</dt>
+				<dd class="twocol">{{.}}</dd>
+				{{ $.Scratch.Set "memorial" "" }}
+			{{ end }}
 		</dl>
 		<p style="clear"></p>
 

@@ -41,6 +41,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
     url = "/sk/"
 
 [params]
+	silentkeybase = "http://silentkeyhq.com/main.php4?p=bin/NSKALookup.php4&dlnk=&"
 
 [params.categories]
 
