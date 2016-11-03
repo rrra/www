@@ -3191,6 +3191,7 @@ p.clear { clear: both; }
 		line-height: 24px;
 		text-decoration: none;
 		font-size: 16px;
+		color: #24890d;
 	}
 	ul.pagination li.active a {
 		pointer-events: none;
@@ -3372,6 +3373,7 @@ p.clear { clear: both; }
 		line-height: 24px;
 		text-decoration: none;
 		font-size: 16px;
+		color: #24890d;
 	}
 	ul.pagination li.active a {
 		pointer-events: none;

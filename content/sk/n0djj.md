@@ -4,6 +4,7 @@ date = "2015-09-21T15:27:07-05:00"
 died = "September 20, 2015"
 licensed = ""
 name = "Donald J. Jenson"
+photocredit = "West Funeral Home & Life Tribute Center"
 silentkeyhq = "0701445358291496"
 title = "n0djj"
 +++

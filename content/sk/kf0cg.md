@@ -4,6 +4,7 @@ date = "2014-06-09T15:22:47-05:00"
 died = "June 8, 2014"
 licensed = ""
 name = "Mark S. Carlisle"
+photocredit = "Boulger Funeral Home of Fargo, ND"
 silentkeyhq = "1301402489652916"
 title = "kf0cg"
 +++
