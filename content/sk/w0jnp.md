@@ -6,7 +6,7 @@ licensed = ""
 name = "Harley G. Softing"
 obituary = "http://www.wrightfuneral.com/obituary/Harley-G.-Softing/_/1153209"
 photocredit = "Wright Funeral Home"
-silentkeyhq = ""
+silentkeyhq = "0071451675134052"
 title = "w0jnp"
 
 +++
