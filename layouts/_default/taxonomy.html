@@ -13,14 +13,20 @@
 				{{ with $cat.description }}
 					<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
 				{{ end }}
+				{{ $paginator := .Paginate (where .Data.Pages "Type" "post") 5 }}
+				{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
 			</header>
 
-
-			{{ range .Data.Pages }}
-				{{ if and (ne .Section "calendar") (ne .Section "links") }}
-					{{ partial "summary.html" . }}
-				{{ end }}
+			{{ range $paginator.Pages }}
+				{{ partial "summary.html" . }}
 			{{ end }}
+
+			{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	{{ partial "sidebar.html" . }}
+</div><!-- #main-content -->
 		
 		</div><!-- #content -->
 	</div><!-- #primary -->
