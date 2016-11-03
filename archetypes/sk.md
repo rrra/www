@@ -1,9 +1,11 @@
 +++
-date = ""
-title = ""
-name = ""
 born = ""
+date = ""
 died = ""
-silentkeyhq = ""
 licensed = ""
+name = ""
+obituary = ""
+photocredit = ""
+silentkeyhq = ""
+title = ""
 +++
