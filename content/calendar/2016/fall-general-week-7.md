@@ -8,10 +8,10 @@ categories = [ "Education" ]
 dates = [ "Fall 2016 General" ]
 +++
 ### Topics
-Question for chapters 6 & 8
-Chapter 2---Procedures and Practices
-Chapter 9---Electrical and RF Safety
-Course review
+* Question for chapters 6 & 8
+* Chapter 2---Procedures and Practices
+* Chapter 9---Electrical and RF Safety
+* Course review
 
 ### Contacts
 * {{< mailto W0CZ name >}}
