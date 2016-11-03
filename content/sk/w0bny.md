@@ -5,7 +5,7 @@ died = "January 8, 2013"
 licensed = ""
 name = "David Hatchard"
 photocredit = ""
-silentkeyhq = ""
+silentkeyhq = "0681469235009482"
 obituary = "http://www.tributes.com/obituary/show/David-Hatchard-95105431"
 title = "w0bny"
 +++
