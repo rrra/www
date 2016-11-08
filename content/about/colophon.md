@@ -4,6 +4,10 @@ title = "Colophon"
 
 +++
 
+[<img src="/images/hugo_80x15.png" title="A fast & modern static website engine" alt="Webbadge for Hugo"
+/>](http://gohugo.io)
+[<img src="/images/markdown_80x15.png" title="Plain text formatting syntax" alt="Webbadge for Markdown" />](https://en.wikipedia.org/wiki/Markdown)
+[<img src="/images/github_80x15.png" title="How people build software" alt="Webbadge for GitHub" />](https://github.com/)
 
 The framework of this website is [Hugo](http://gohugo.io);
 a fast and modern static website engine written in the 
@@ -32,4 +36,8 @@ via email to the {{< webmaster >}}.
 This website features a [Blank Page](/blankpage.html) according to the
 recommendations of the
 [TPILB-Project](http://www.this-page-intentionally-left-blank.org/). 
+
+The web-badges used on this page are &copy;2012--2016 {{< mailto K0STK >}}
+and are based on
+[Adam Kalsey's Button Maker](http://kalsey.com/tools/buttonmaker/).
 
