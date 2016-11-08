@@ -11,7 +11,7 @@ title = "RRRA 2016 Christmas Party"
 +++
 The
 [RRRA Christmas Party]({{< relref "calendar/2016/rrra-christmas-party.md" >}})
-will be held on Wednesday, December 7, 2016, at
+will be held on Wednesday, December 7, at
 [Pizza Ranch, Fargo]({{< relref "places/pizza-ranch-fargo.md" >}}) starting at
 5pm.
 
