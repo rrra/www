@@ -24,9 +24,9 @@
 					</time>
 				</a>
 			</span>
-			<span class="byline">
+			<span class="author byline">
 				{{ range .Params.authors }}
-					<a href="{{ $baseurl }}/authors/{{ lower . | urlize }}/" rel="author">{{ . }}</a>
+					<a class="url nickname" href="{{ $baseurl }}/authors/{{ lower . | urlize }}/" rel="author">{{ . }}</a>
 				{{ end }}
 			</span>
 			{{ end }}
