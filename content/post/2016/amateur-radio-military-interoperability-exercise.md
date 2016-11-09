@@ -20,7 +20,7 @@ with stations in as many of the 3007 US counties as possible. Radio amateurs
 providing "county status" information will receive a US Department of
 Defense "interoperability QSL card."
 
-[Contact the Military Auxiliary Radio Service (MARS)](mars.exercises@gmail.com)
+[Contact the Military Auxiliary Radio Service (MARS)](mailto:mars.exercises@gmail.com)
 for more information.
 
 <span style="font-size:small;">*(From: [ARRL: Amateur Radio-Military Interoperability Exercise Set for October 31-November 1](http://www.arrl.org/news/amateur-radio-military-interoperability-exercise-set-for-october-31-november-1))*</span>
