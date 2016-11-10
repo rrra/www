@@ -2211,9 +2211,7 @@ p.clear { clear: both; }
 }
 
 .social-media a {
-	font-size: 18px;
 	color: #eee;
-	padding: 12px 6px 24px 6px;
 }
 
 .widget a {
@@ -3126,8 +3124,8 @@ p.clear { clear: both; }
 
 	.list-view .site-content .entry-title {
 		clear: none;
-		font-size: 15px;
-		font-weight: 900;
+		font-size: 22px;
+		font-weight: 500;
 		line-height: 1.2;
 		margin-bottom: 6px;
 		text-transform: none;
@@ -3161,15 +3159,18 @@ p.clear { clear: both; }
 
 	/* STK
  	 */
+
+	.social-media a {
+		font-size: 36px;
+		margin: 24px;
+		padding-bottom: 36px;
+	}
+	#colophon { text-align: center; }
 	dd.twocol, dd.sameday { margin: 0 0 0.4em 2em; }
 
 	/* http://www.secondpicture.com/tutorials/web_design/css_ul_li_horizontal_css_menu.html
 	 */
 
-	#pager {
-		width: 100%
-		text-align: center;
-	}
 	ul.pagination {
 		/*margin: 0;
 		padding: 0; */
@@ -3350,6 +3351,11 @@ p.clear { clear: both; }
 
 	/* STK
  	 */
+	.social-media a {
+		font-size: 36px;
+		margin: 24px;
+		padding-bottom: 36px;
+	}
 	dt.twocol { clear: both; font-weight: bold; float: left; margin-bottom: 0.4em }
 	dt.twocol.header { width: 10em; background-color: #ccc; padding-left: 0.4em;}
 	dd.twocol { margin: 0 0 0.4em 0.4em; float: left; }
@@ -4104,6 +4110,13 @@ p.clear { clear: both; }
 
 	.grid .featured-content .entry-header {
 		height: 120px;
+	}
+
+	/* STK
+	 */
+	.social-media a {
+		font-size: 18px;
+		margin: 12px 6px 24px 6px;
 	}
 }
 
