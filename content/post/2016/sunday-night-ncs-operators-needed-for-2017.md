@@ -3,7 +3,6 @@ authors = [ "K0STK" ]
 categories = [ "Public Service" ]
 date = "2016-11-14T10:47:26-06:00"
 description = ""
-publishdate = ""
 slug = ""
 tags = [ "ARES" ]
 title = "Sunday Night NCS Operators Needed For 2017"
