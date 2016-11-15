@@ -9,12 +9,14 @@
 	</header>
 
 <div class="entry-content">
-
+{{ $.Scratch.Set "today" "" }}
+{{ $.Scratch.Set "seen" " " }}
+{{ $.Scratch.Set "lastdate" "" }} 
 	<dl>
 		{{ range where .Data.Pages.ByDate "Section" "calendar" }}
 			{{ if ge .Date.Unix .Now.Unix }}
 				{{ $thisdate := chomp (.Date.Format "2006-01-02") }}
-        {{ if ne $thisdate ($.Scratch.Get "lastdate") }}
+        			{{ if ne $thisdate ($.Scratch.Get "lastdate") }}
 					{{ $.Scratch.Set "today" "" }}
 				{{ end }}
 				{{ $series := (chomp (delimit .Params.dates ",") | urlize | printf "|%s") }}
