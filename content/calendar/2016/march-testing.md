@@ -7,4 +7,6 @@ title = "March Testing Session"
 dates = [ "License Testing" ]
 categories = [ "License Testing" ]
 +++
+We meet in the basement meeting room. Please enter through the north
+doors adjacent to the 2nd Ave S parking lot.
 {{% bring %}}
