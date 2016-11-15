@@ -18,7 +18,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ partial "upcoming-rss.html" . | html }}</description>
     </item>
-    {{ range first 15 (where .Site.Pages "Section" "post") }}
+    {{ range first 15 (where .Site.Pages.ByDate "Section" "post").Reverse }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>

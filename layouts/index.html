@@ -5,7 +5,7 @@
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-			{{ $paginator := .Paginate ( where .Data.Pages "Section" "post") 5 }}
+			{{ $paginator := .Paginate ( where .Data.Pages.ByDate "Section" "post").Reverse 5 }}
 			{{ partial "pagination.html" . }}
 			{{ if eq .Paginator.PageNumber 1 }}
 				{{ partial "upcoming.html" . }}
