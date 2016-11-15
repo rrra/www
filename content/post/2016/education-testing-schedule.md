@@ -5,6 +5,7 @@ description = ""
 slug = ""
 title = "2017-2018 Education and Testing Schedule"
 authors = [ "K0STK" ]
+weight = -1
 +++
 
 RRRA offer periodic series of weekly classes in preparation for FCC Amateur
