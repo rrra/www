@@ -2,7 +2,7 @@
 contact = "KK0V"
 date = "2017-04-18T18:00:00-05:00"
 endTime = "2017-04-18T19:00:00-05:00"
-location = "<a href=\"/places/cass-county-annex/\">Cass County Annex</a>"
+location = "[Cass County Annex](/places/cass-county-annex/)"
 title = "April ARES Meeting"
 dates = [ "ARES Meetings" ]
 +++

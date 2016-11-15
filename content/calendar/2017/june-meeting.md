@@ -2,7 +2,7 @@
 contact = "president"
 date = "2017-06-20T17:00:00-05:00"
 endTime = ""
-location = "<a href=\"/places/cass-county-annex/\">Cass County Annex</a>"
+location = "[Cass County Annex](/places/cass-county-annex/)"
 title = "June Club Meeting"
 dates = [ "Business Meetings" ]
 +++
