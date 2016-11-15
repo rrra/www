@@ -6,7 +6,7 @@
 		<div id="content" class="site-content" role="main">
 
 			<header class="archive-header">
-				<h1 class="archive-title">{{ .Title }} Archive</h1>
+				<h1 class="archive-title">{{ .Title }} Blog</h1>
 				{{ $cat := index .Site.Params.categories (.Title | urlize) }}
 				{{ $rsstitle := .Title}}
 				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
