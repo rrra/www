@@ -1,8 +1,8 @@
-## RRRA Web-site
+## RRRA Website
 
-Web-site for the Red River Radio Amateurs in Fargo, North Dakota.
+Website for the Red River Radio Amateurs in Fargo, North Dakota.
 
-A responsive (i.e. mobile friendly) web-site using
+A responsive (i.e. mobile friendly) website using
 [Hugo](http://gohugo.io) as its framework.
 
 Contributions and corrections are welcome in the form of pull requests
