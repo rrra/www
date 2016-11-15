@@ -4,7 +4,7 @@ tags = [ "ARES","AUXCOMM","DHS" ]
 contact = "KC0ODE"
 date = "2016-01-30T08:00:00-08:00"
 endTime = "2016-01-30T18:00:00-16:00"
-location = "Cass County Annex"
+location = "[Cass County Annex](/places/cass-county-annex/)"
 title = "DHS AUXCOMM Course"
 dates = [ "AUXCOMM 2016" ]
 
