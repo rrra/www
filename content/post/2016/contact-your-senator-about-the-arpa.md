@@ -3,7 +3,7 @@ categories = [ "Outreach" ]
 date = "2016-09-13T20:48:09-05:00"
 description = ""
 slug = ""
-tags = [ "ARRL" ]
+tags = [ "ARPA", "ARRL" ]
 title = "Contact Your Senator About The Amateur Radio Parity Act"
 authors = [ "K0STK" ]
 +++
