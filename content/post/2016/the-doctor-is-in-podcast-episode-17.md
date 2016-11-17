@@ -1,25 +1,27 @@
 +++
 authors = [ "K0STK" ]
 categories = [ "Education" ]
-date = "2016-11-04T12:37:51-05:00"
+date = "2016-11-17T08:37:59-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 16"
+title = "The Doctor Is In Podcast Episode 17"
 
 +++
-Enjoy a lively and informative discussion about
-[*Anderson PowerPoles and Antenna Polarization*](https://www.blubrry.com/arrl_the_doctor_is_in/17966281/anderson-powerpoles-and-antenna-polarization/)
+"Sometimes the best antenna is the *least* antenna."
+[[1]({{< relref "post/2016/the-doctor-is-in-podcast-episode-17.md#footnotes" >}})]
+
+Learn about some of your options for 
+[Stealth Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/17966282/stealth-antennas/)
 in this episode of the
 [*ARRL The Doctor is In*](http://www.arrl.org/doctor/) podcast.
 
-<iframe
-src="http://player.blubrry.com?media_url=http%3A%2F%2Fmedia.blubrry.com%2Farrl_the_doctor_is_in%2Fcontent.blubrry.com%2Farrl_the_doctor_is_in%2FNov_3_-_PowerPoles_and_Polarization_with_DX_Eng_Spot.mp3"
-scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+<iframe src="http://player.blubrry.com?media_url=http%3A%2F%2Fmedia.blubrry.com%2Farrl_the_doctor_is_in%2Fcontent.blubrry.com%2Farrl_the_doctor_is_in%2FNov_17_-_Stealth_Antennas_With_DX_Eng_Spot.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 <!--more-->
 These short podcasts are an approachable way of learning about technical topics related to Amateur Radio. The following topics have been discussed 
 since the first epsode on April 7, 2016:
 
+* [Anderson PowerPoles and Antenna Polarization](https://www.blubrry.com/arrl_the_doctor_is_in/17966281/anderson-powerpoles-and-antenna-polarization/)
 * [HF Mobile Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/16707017/hf-mobile-antennas/)
 * [Bits vs Baud](https://www.blubrry.com/arrl_the_doctor_is_in/16483938/bits-vs-baud/)
 * [Coping with the Solar Minimum](https://www.blubrry.com/arrl_the_doctor_is_in/16482224/coping-with-the-solar-minimum/)
@@ -61,10 +63,13 @@ or at
 [Stitcher](https://www.stitcher.com/)
 (free registration required, or browse the site as a guest) and through
 the free Stitcher app for iOS, Kindle, or Android devices.
-[[1]({{< relref "#footnotes" >}})]
+[[2]({{< relref "#footnotes" >}})]
 
 ### Footnotes
 
-[1] "The Doctor Will See You Now!",
+[1] "ARRL The Doctor is In - Stealth Antennas", blubrry, 
+accessed November 17 2016, https://www.blubrry.com/arrl_the_doctor_is_in/17966282/stealth-antennas/.
+
+[2] "The Doctor Will See You Now!",
 ARRL The national association for Amateur Radio, last modified November 11 2016,
 http://www.arrl.org/news/the-doctor-will-see-you-now-7.
