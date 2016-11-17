@@ -20,7 +20,7 @@ after the completion of each series of weekly classes, in conjunction with the
 ### Amateur Radio Licensing Classes
 Class | Dates | Sessions | Testing
 ------|-------|----------|--------
-[Winter 2017 Extra](dates/winter-2017-extra) | [11-Jan-2017]({{< relref "calendar/2017/winter-extra-week-1.md" >}}) to [15-Mar-2017]({{< relref "calendar/2017/winter-extra-week-10.md" >}}) | 10 | [21-Mar-2017]({{< relref "calendar/2017/march-testing.md" >}})
+[Winter 2017 Extra](/dates/winter-2017-extra) | [11-Jan-2017]({{< relref "calendar/2017/winter-extra-week-1.md" >}}) to [15-Mar-2017]({{< relref "calendar/2017/winter-extra-week-10.md" >}}) | 10 | [21-Mar-2017]({{< relref "calendar/2017/march-testing.md" >}})
 Spring 2017 Technician | 5-Apr-2017 to 10-May-2017 | 6 | [16-May-2017]({{< relref "calendar/2017/may-testing.md" >}})
 Fall 2017 Technician | 2-Aug-2017 to 6-Sep-2017 | 6 | [30-Sep-2017]({{< relref "calendar/2017/hamfest-testing.md" >}})
 Fall 2017 General | 27-Sep-2017 to 22-Nov-2017 | 9 | TBD
