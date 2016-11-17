@@ -29,7 +29,7 @@
 					{{ if ge .Key $thisyear }}	
 						<h3>{{ .Key }}</h3>
 						<dl id="list">
-							{{ range .Pages }}
+							{{ range .Pages.Reverse }}
 								{{ .Render ( $.Scratch.Get "li" ) }}
 							{{ end }}
 						</dl>
