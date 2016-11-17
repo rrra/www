@@ -41,7 +41,6 @@ Winter 2018 Extra | 10-Jan-2018 to 14-Mar-2018 | 10 | [16-Jan-2018]({{< relref "
 RRRA Volunteer Examiners (VEs) conduct Amateur Radio license testing
 sessions bi-monthly. 	
 
-Please see our [License Testing archive](/dates/license-testing/) for a
-complete list of currently scheduled testing dates.
-
-{{% bring %}}
+Please see our index of [License Testing dates](/dates/license-testing/) for a
+complete list of currently scheduled testing dates along with information
+about *License Test Prerequisites* and *Checking Your License Status*.
