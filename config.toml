@@ -52,7 +52,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 	description = "Blog posts about RRRA Hamfests and the activities of the RRRA Hamfest Committee."
 
 [params.categories.license-testing]
-	description = "Blog posts about the activities of the RRRA Volunteer Examiner (VE) Committee."
+	description = "Blog posts about the activities of the RRRA Volunteer Examiner (VE) Committee and topics related to FCC license testing. Please visit the [License Testing Dates](/dates/license-testing/) page for information about what to bring to a testing session and how to find out when your license is granted."
 
 [params.categories.minutes]
 	description = "Minutes recorded by the RRRA Secretary during the club's monthly business meetings. The minutes posted here are converted from the original source documents to Markdown; the source documents are archived on the [RRRA file sharing server](http://cloud.rrra.org) in the *Secretary's Reports* folder."
