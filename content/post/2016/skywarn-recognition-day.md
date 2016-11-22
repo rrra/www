@@ -19,6 +19,7 @@ title = "Skywarn Recognition Day"
 >communications become inoperative. During the SKYWARN Special Event operators
 >will visit NWS offices and contact other radio operators across the world.
 [[1]({{< relref "post/2016/skywarn-recognition-day.md" >}})]
+
 2016 Skywarn Recognition Day is scheduled for December 3, 2016.
 <!--more-->
 The [Grand Forks NWS Office](http://www.weather.gov/fgf/) is not
