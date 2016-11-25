@@ -16,6 +16,6 @@ Volunteers will be stationed outside along the course and should meet at
 the [Courts Plus](/places/courts-plus-community-fitness/) fireplace at
 8:15 AM to obtain their assignments. The race starts at 9:00 AM.
 
-Please contact {{% mailto KC0GQE %}} if you would like to volunteer for, or
+Please contact {{% mailto KC0GQE %}}&nbsp;if you would like to volunteer for, or
 have any questions about, this event.
 <!--more-->
