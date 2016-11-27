@@ -4,6 +4,7 @@ location = "[Courts Plus Community Fitness, Fargo](/places/courts-plus-community
 title = "Jingle Bell Run"
 contact = "KC0GQE"
 dates = [ "Public Service" ]
+aliases = [ "/cal/2016/12/12/jingle-bell-run/index.html" ]
 +++
 Volunteers should meet at the fireplace in the lobby to obtain their
 assignments. The race starts at 9:00 AM and should be over by 1PM.
