@@ -1,9 +1,9 @@
 +++
 authors = [ "K0STK" ]
 categories = [ "License Testing" ]
-date = "2016-12-07T09:18:35-06:00"
+date = "2016-12-03T09:18:35-06:00"
 description = ""
-publishdate = "2016-12-07T00:00:00"
+publishdate = "2016-12-03T00:00:00"
 slug = ""
 tags = [ "ARRL" ]
 title = "Help Improve The Technician Question Pool"
