@@ -6,7 +6,7 @@ slug = ""
 tags = []
 title = "New Hams from the RRRA Fall Technician Class"
 authors = [ "W0HNV" ]
-aliases = [ "http://rrra.org/post/2016/10/06/new-hams-from-the-rrra-fall-techician-class/index.html" ]
+aliases = [ "/post/2016/10/06/new-hams-from-the-rrra-fall-techician-class/index.html" ]
 +++
 Congratulations to the newly minted Hams who are graduates of the RRRA Fall
 Technician class.
