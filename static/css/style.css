@@ -1162,10 +1162,17 @@ a.post-thumbnail:hover {
 
 .cat-links a {
 	color: #2b2b2b;
+	padding-right: 6px;
 }
 
 .cat-links a:hover {
 	color: #41a62a;
+}
+
+.cat-links a.disabled {
+	pointer-effects: none;
+	cursor: default;
+	color: #C8C8C8;
 }
 
 .single .byline,
