@@ -9,17 +9,17 @@
 
 		<div class="entry-meta">
 
-			<ul class="pagination">
+			<div class="cat-links">
 				{{ range last 1 ( where .Site.Pages "Section" "sk" ) }}
-				<li {{ if not $.PrevInSection }} class="disabled" {{ end }}><a title="Oldest Silent Key - {{ upper .Title }}" href="{{ .RelPermalink }}">&laquo;&laquo;</a></li>
+				<a {{ if not $.PrevInSection }} class="disabled" {{ else }} title="Oldest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&laquo;&laquo;</a>
 				{{ end }}
-				<li {{ if not .PrevInSection }} class="disabled" {{ end }}><a title="Previous Silent Key{{ if .PrevInSection}} - {{ upper .PrevInSection.Title }}{{ end }}" href="{{ if .PrevInSection }}{{ .PrevInSection.RelPermalink }}{{ else }}.{{ end }}">&laquo;</a></li></li>
-				<li><a href="{{ $baseurl }}/sk/" rel="category">RRRA Silent Keys</a></li>
-				<li {{ if not .NextInSection }} class="disabled" {{ end }}><a title="Next Silent Key{{ if .NextInSection }} - {{ upper .NextInSection.Title }}{{ end }}" href="{{ if .NextInSection }}{{ .NextInSection.RelPermalink }}{{ else }}.{{ end }}">&raquo;</a></li></li>
+				<a {{ if not .PrevInSection }} class="disabled" {{ else }} title="Previous Silent Key - {{ upper .PrevInSection.Title }}" {{ end }}  href="{{ if .PrevInSection }}{{ .PrevInSection.RelPermalink }}{{ else }}.{{ end }}">&laquo;</a>
+				<a href="{{ $baseurl }}/sk/" title="Silent Key List" rel="category">RRRA Silent Keys</a>
+				<a {{ if not .NextInSection }} class="disabled" {{ else }} title="Next Silent Key - {{ upper .NextInSection.Title }}" {{ end }} href="{{ if .NextInSection }}{{ .NextInSection.RelPermalink }}{{ else }}.{{ end }}">&raquo;</a>
 				{{ range first 1 ( where .Site.Pages "Section" "sk" ) }}
-				<li {{ if not $.NextInSection }} class="disabled" {{ end }}><a title="Newest Silent Key - {{ upper .Title }}" href="{{ .RelPermalink }}">&raquo;&raquo;</a></li>
+				<a {{ if not $.NextInSection }} class="disabled" {{ else }} title="Newest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&raquo;&raquo;</a>
 				{{ end }}
-			</ul>
+			</div>
 
 		</div><!-- .entry-meta -->
 
