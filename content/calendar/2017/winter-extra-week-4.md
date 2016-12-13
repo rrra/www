@@ -9,3 +9,8 @@ categories = [ "Education" ]
 dates = [ "Winter 2017 Extra" ]
 +++
 
+### Topics
+
+* Questions from Chapter 4, part 2
+* Chapter 5 - Components and Building Blocks
+

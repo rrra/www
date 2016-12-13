@@ -9,3 +9,8 @@ categories = [ "Education" ]
 dates = [ "Winter 2017 Extra" ]
 +++
 
+### Topics 
+
+* Questions from Chapter 5
+* Chapter 6 - Radio Circuits and Systems
+

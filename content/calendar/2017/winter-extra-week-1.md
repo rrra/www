@@ -10,11 +10,19 @@ dates = [ "Winter 2017 Extra" ]
 +++
 Registration for RRRA Winter 2017 Extra Classes is now open. Please [register
 on-line](https://www.eventbrite.com/e/ham-radio-extra-license-class-tickets-30213486351)
-(we use Eventbrite to manage our registrations).
-
-There is no charge for instruction; however a textbook is required
+(we use Eventbrite to manage our registrations).  There is no charge for instruction; however a textbook is required
 (approximate cost $30).
 
-Detailed class information, including links to purchase the required
-text books, is available on our
+Links to purchase the required text book are available on our
 [2017-2018 Education and Testing Schedule]({{< relref "post/2016/education-testing-schedule.md" >}}).
+
+### Topics
+
+* Sign in
+* Introductions
+* Talk about the books & what to bring to class: paper, pen, calculator
+* Hand out the syllabus
+* Cover what we will be going over each week
+* Chapter 2 - Operating Practices
+* Chapter 3 - Rules and Regulations
+

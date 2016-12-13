@@ -9,3 +9,8 @@ categories = [ "Education" ]
 dates = [ "Winter 2017 Extra" ]
 +++
 
+### Topics
+
+* Questions from Chapter 7
+* Chapter 8 - Modulation, Protocols and Modes
+

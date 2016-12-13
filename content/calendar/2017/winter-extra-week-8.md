@@ -9,3 +9,8 @@ categories = [ "Education" ]
 dates = [ "Winter 2017 Extra" ]
 +++
 
+### Topics
+
+* Questions from Chapter 8
+* Chapter 9 - Antennas and Feed Lines
+

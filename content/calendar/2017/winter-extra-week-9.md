@@ -9,3 +9,8 @@ categories = [ "Education" ]
 dates = [ "Winter 2017 Extra" ]
 +++
 
+### Topics
+
+* Questions from Chapter 9
+* Chapter 10 - Topics in Propagation
+* Chapter 11 - Safety
