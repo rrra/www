@@ -2,11 +2,42 @@
 <div class="h-event">
 	<header class="entry-header">
 		{{ $baseurl := .Site.BaseURL }}
+		{{ $relpermalink := .RelPermalink }}
 
 		<div class="entry-meta">
 			<span class="cat-links">
 				{{ range .Params.dates }}
-                		<a href="{{ $baseurl}}/dates/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+					{{ $dates := . }}
+					{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
+						{{ if eq $key $dates }}
+
+							{{ range $taxonomy.Pages.Reverse }}
+								{{ if and (ne ($.Scratch.Get "this") nil) (eq ($.Scratch.Get "next") nil) }}
+									{{ $.Scratch.Set "next" .RelPermalink }}
+								{{ end }}
+								{{ if eq ($.Scratch.Get "this") nil }}
+									{{ if eq .RelPermalink $relpermalink }}
+										{{ $.Scratch.Set "this" .RelPermalink }}
+									{{ else }}
+										{{ $.Scratch.Set "prev" .RelPermalink }}
+									{{ end }}
+								{{ end }}
+							{{ end }}
+
+							{{ range first 1 $taxonomy.Pages.Reverse }}
+								<a {{ if eq .RelPermalink $relpermalink }}class="disabled"{{ end }} title="First" href="{{ .RelPermalink }}">&laquo;&laquo;</a>
+								<a {{ if eq .RelPermalink $relpermalink }}class="disabled"{{ end }} title="Previous" href="{{ $.Scratch.Get "prev" }}">&laquo;</a>
+							{{ end }}
+
+							<a	 href="{{ $baseurl}}/dates/{{ lower $key | urlize }}/" rel="tag">{{ $key }}</a>
+
+							{{ range last 1 $taxonomy.Pages.Reverse }}
+								<a {{ if eq .RelPermalink $relpermalink }}class="disabled"{{ end }} title="Next" href="{{ $.Scratch.Get "next" }}">&raquo;</a>
+								<a {{ if eq .RelPermalink $relpermalink }}class="disabled"{{ end }} title="Last" href="{{ .RelPermalink }}">&raquo;&raquo;</a>
+							{{ end }}
+
+						{{ end }}
+					{{ end }}
 				{{ end }}
 			</span>
 		</div>
