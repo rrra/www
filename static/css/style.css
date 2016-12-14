@@ -1175,6 +1175,10 @@ a.post-thumbnail:hover {
 	color: #C8C8C8;
 }
 
+.cat-links a.nav {
+	font-size: 140%;
+}
+
 .single .byline,
 .group-blog .byline {
 	display: inline;
@@ -3172,6 +3176,21 @@ p.clear { clear: both; }
 		margin: 24px;
 		padding-bottom: 36px;
 	}
+	div.cat-links {
+		width: 100%;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+        .cat-links a.nav {
+		font-size: 36px;
+		padding: 24px;
+	}
+	.cat-links a.taxonomy {
+		position: absolute;
+		top: 60px;
+		left: 0;
+		font-size: 110%;
+	}
 	#colophon { text-align: center; }
 	dd.twocol, dd.sameday { margin: 0 0 0.4em 2em; }
 
@@ -3362,6 +3381,21 @@ p.clear { clear: both; }
 		font-size: 36px;
 		margin: 24px;
 		padding-bottom: 36px;
+	}
+	div.cat-links {
+		width: 100%;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+        .cat-links a.nav {
+		font-size: 36px;
+		padding: 24px;
+	}
+	.cat-links a.taxonomy {
+		position: absolute;
+		top: 60px;
+		left: 32px;
+		font-size: 110%;
 	}
 	dt.twocol { clear: both; font-weight: bold; float: left; margin-bottom: 0.4em }
 	dt.twocol.header { width: 10em; background-color: #ccc; padding-left: 0.4em;}
@@ -4124,6 +4158,18 @@ p.clear { clear: both; }
 	.social-media a {
 		font-size: 18px;
 		margin: 12px 6px 24px 6px;
+	}
+	div.cat-links {
+		text-align: left;
+		padding-bottom: 0;
+	}
+        .cat-links a.nav {
+		font-size: 140%;
+		padding: 0 12px 0 2px;
+	}
+	.cat-links a.taxonomy {
+		position: inherit;
+		padding-right: 12px;
 	}
 }
 

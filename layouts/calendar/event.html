@@ -5,7 +5,7 @@
 		{{ $relpermalink := .RelPermalink }}
 
 		<div class="entry-meta">
-			<span class="cat-links">
+			<div class="cat-links">
 				{{ range .Params.dates }}
 					{{ $dates := . }}
 					{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
@@ -25,21 +25,21 @@
 							{{ end }}
 
 							{{ range first 1 $taxonomy.Pages.Reverse }}
-								<a {{ if eq .RelPermalink $relpermalink }}class="disabled"{{ end }} title="First" href="{{ .RelPermalink }}">&laquo;&laquo;</a>
-								<a {{ if eq .RelPermalink $relpermalink }}class="disabled"{{ end }} title="Previous" href="{{ $.Scratch.Get "prev" }}">&laquo;</a>
+								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else}}"{{ end }} title="First" href="{{ .RelPermalink }}">&laquo;&laquo;</a>
+								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Previous" href="{{ $.Scratch.Get "prev" }}">&laquo;</a>
 							{{ end }}
 
-							<a	 href="{{ $baseurl}}/dates/{{ lower $key | urlize }}/" rel="tag">{{ $key }}</a>
+							<a class="taxonomy" href="{{ $baseurl}}/dates/{{ lower $key | urlize }}/" rel="tag">{{ $key }}</a>
 
 							{{ range last 1 $taxonomy.Pages.Reverse }}
-								<a {{ if eq .RelPermalink $relpermalink }}class="disabled"{{ end }} title="Next" href="{{ $.Scratch.Get "next" }}">&raquo;</a>
-								<a {{ if eq .RelPermalink $relpermalink }}class="disabled"{{ end }} title="Last" href="{{ .RelPermalink }}">&raquo;&raquo;</a>
+								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Next" href="{{ $.Scratch.Get "next" }}">&raquo;</a>
+								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Last" href="{{ .RelPermalink }}">&raquo;&raquo;</a>
 							{{ end }}
 
 						{{ end }}
 					{{ end }}
 				{{ end }}
-			</span>
+			</div>
 		</div>
 		<h1 class="p-name entry-title">{{ .Title }}</h1>
 	</header>
@@ -81,7 +81,7 @@
 				<dt class="twocol header">SPONSOR:</dt><dd class="twocol"><span class="p-location">{{ . | markdownify }}</span></dd>
 		  {{ end }}	
 		</dl>
-		<p class="p-summary clear" style="padding-top:24px;">{{ .Content }}</p>
+		<p class="p-summary clear">{{ .Content }}</p>
 	</div>
 
 	<footer class="entry-meta">
