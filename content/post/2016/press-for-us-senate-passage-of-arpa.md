@@ -3,7 +3,7 @@ categories = [ "Outreach" ]
 date = "2016-11-15T23:15:09-05:00"
 description = ""
 slug = ""
-tags = [ "ARPA", "ARRL" ]
+tags = [ "ARRL", "Parity" ]
 title = "Press for US Senate Passage of Amateur Radio Parity Act"
 authors = [ "K0STK" ]
 +++

@@ -3,7 +3,7 @@ categories = [ "Outreach" ]
 date = "2016-09-27T16:02:41-05:00"
 description = ""
 slug = ""
-tags = [ "ARPA", "ARRL" ]
+tags = [ "ARRL", "Parity" ]
 title = "Every Letter Counts"
 authors = [ "K0STK" ]
 +++
