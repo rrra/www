@@ -7,7 +7,7 @@ slug = ""
 tags = [ "Parity" ]
 title = "Amateur Radio Parity Act Passes House, Heads To Senate"
 +++
-{{< figure src="http://cloud.rrra.org/s/kWcslg6MyTSWFsf/download" >}}
+[<img src="http://cloud.rrra.org/s/kWcslg6MyTSWFsf/download" alt="H.R. 555 Status" />](https://www.congress.gov/bill/115th-congress/house-bill/555/all-actions?r=27&overview=closed#tabs)
 <!--more-->
 >Just 10 days after being introduced, the 2017 Amateur Radio Parity Act
 >legislation,
@@ -20,7 +20,7 @@ title = "Amateur Radio Parity Act Passes House, Heads To Senate"
 >sponsored by Rep. Adam Kinzinger (R-IL), was introduced on January 13 with
 >initial co-sponsorship by Rep. Joe Courtney (D-CT) and Rep. Greg Walden,
 >W7EQI (R-OR), who chairs the influential House Committee on Energy and
->Commerce. [ [1]({{< relref "#footnotes" >}}) ]
+>Commerce. <span style="font-style: normal">[ [1]({{< relref "#footnotes" >}}) ]</span>
 
 A [complete list of all actions on H.R.
 555](https://www.congress.gov/bill/115th-congress/house-bill/555/all-actions?r=27&overview=closed#tabs)
@@ -35,4 +35,3 @@ Senate",
 ARRL The national association for Amateur Radio, last modified January 24
 2017,
 http://www.arrl.org/news/amateur-radio-parity-act-speeds-to-u-s-house-passage-heads-to-u-s-senate.
-
