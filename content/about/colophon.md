@@ -37,7 +37,8 @@ This website features a [Blank Page](/blankpage.html) according to the
 recommendations of the
 [TPILB-Project](http://www.this-page-intentionally-left-blank.org/). 
 
-The web-badges used on this page are &copy;2012--2016 {{< mailto K0STK >}}
+The web-badges used on this site are
+&copy;2012--{{ .Now | dateFormat "2006" }} {{< mailto K0STK >}}
 and are based on
 [Adam Kalsey's Button Maker](http://kalsey.com/tools/buttonmaker/).
 

@@ -4,7 +4,7 @@ date = "2017-01-18T15:17:48-06:00"
 description = ""
 slug = ""
 tags = []
-title = "january minutes"
+title = "January Minutes"
 toc = "true"
 +++
 * 19:00 Meeting called to order  
