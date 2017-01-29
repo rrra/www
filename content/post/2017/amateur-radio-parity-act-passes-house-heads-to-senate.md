@@ -9,6 +9,7 @@ title = "Amateur Radio Parity Act Passes House, Heads To Senate"
 +++
 [<img src="http://cloud.rrra.org/s/kWcslg6MyTSWFsf/download" alt="H.R. 555 Status" />](https://www.congress.gov/bill/115th-congress/house-bill/555/all-actions?r=27&overview=closed#tabs)
 <!--more-->
+
 >Just 10 days after being introduced, the 2017 Amateur Radio Parity Act
 >legislation,
 >[H.R. 555](https://www.congress.gov/bill/115th-congress/house-bill/555?r=27),
