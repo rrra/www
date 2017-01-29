@@ -1,0 +1,36 @@
+{{ partial "header.html" . }}
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<header class="entry-header">
+				{{ $baseurl := .Site.BaseURL }}
+
+			<header class="archive-header">
+				<h1 class="archive-title">{{ .Title }}</h1>
+				{{ $cat := index .Site.Params.categories (.Title | urlize) }}
+				{{ $rsstitle := .Title}}
+				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
+				{{ with $cat.description }}
+					<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
+				{{ end }}
+			</header>
+
+			<div class="entry-content" style="padding-bottom:1em;">
+				<dl id="list">
+					{{ $data := .Data }}
+					{{ range $key, $value := .Data.Terms }}
+					<dt class="twocol" style="width:10em;">{{ $key }}</dt>
+					<dd class="twocol"><a href="{{ $key | urlize }}">{{ len $value }}</a></dd>
+					{{ end }}
+				</dl>
+			</div>
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	{{ partial "sidebar.html" . }}
+</div><!-- #main-content -->
+
+{{ partial "footer.html" . }}
