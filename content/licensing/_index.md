@@ -5,7 +5,6 @@ linktitle = "Be a Ham"
 menu = "main"
 toc = "true"
 categories = [ "Education", "License Testing" ]
-
 +++
 
 # What is Ham Radio?

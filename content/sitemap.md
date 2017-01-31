@@ -26,16 +26,16 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 
 ### About Our Club
 * [Business Meeting Dates](/dates/business-meetings)
-* [Business Meeting Location]({{< relref "about/index.md#red-river-radio-amateurs" >}})
+* [Business Meeting Location](/about/#red-river-radio-amateurs)
 * [Bylaws]({{< relref "about/bylaws.md" >}})
-* [Description]({{< relref "about/index.md#red-river-radio-amateurs" >}})
+* [Description](/about/#red-river-radio-amateurs)
 * [Donations]({{< relref "about/mission.md" >}})
-* [Joining Our Club]({{< relref "about/index.md#join-our-club" >}})
-* [Mailing Address]({{< relref "about/index.md#mailing-address" >}})
+* [Joining Our Club](/about/#join-our-club)
+* [Mailing Address](/about/#mailing-address)
 * [Mission Statement]({{< relref "about/mission.md" >}})
-* [Officers and their e-mail adresses]({{< relref "about/index.md#officers" >}})
+* [Officers and their e-mail adresses](/about/#officers)
 * [Social Event Dates](/dates/social/)
-* [Telephone Number]({{< relref "about/index.md#mailing-address" >}})
+* [Telephone Number](/about/#mailing-address)
 
 ### ARES 
 * [Events](/dates/public-service)
@@ -63,7 +63,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Regional Hamfest Dates](/dates/regional-hamfests/)
 
 ### Licensing
-* [About getting licensed]({{< relref "licensing/index.md" >}})
+* [About getting licensed]({{< relref "licensing/" >}})
 * [License Testing Dates](/dates/license-testing/)
 
 ### Mailing Lists
@@ -73,7 +73,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [NCS Operators](/ncs/)
 * [NCS Schedule](/dates/ncs-schedule)
 * [Net Preamble]({{< relref "nets/preamble.md" >}})
-* [Traffic Nets]({{< relref "nets/index.md" >}})
+* [Traffic Nets]({{< relref "nets/" >}})
 
 ### News
 * [Current Headlines](/)
@@ -87,8 +87,8 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Technical](/categories/techinical/)
 
 ### Radio Systems
-* [Club (W0ILO) 10M Beacon]({{< relref "radios/index.md#w0ilo-beacon" >}})
-* [Club (W0ILO) Repeaters]({{< relref "radios/index.md#w0ilo-repeaters" >}})
+* [Club (W0ILO) 10M Beacon](/radios/#w0ilo-10m-beacon)
+* [Club (W0ILO) Repeaters](/radios/#w0ilo-repeaters)
 * [Red River Valley Repeater List]({{< relref "radios/red-river-valley-repeaters.md" >}})
 * [SuperLink]({{< relref "radios/superlink.md" >}})
 
@@ -104,6 +104,6 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 ### Website
 <!--* [How to contribute](/) -->
 * [Colophon]({{< relref "about/colophon.md" >}})
-* [Site License]({{< relref "about/index.md#site-license" >}})
+* [Site License](/about/#site-license)
 * {{< webmaster >}} contact address
-* [Where to report problems]({{< relref "about/index.md#website-issues" >}})
+* [Where to report problems](/about/#website-issues)
