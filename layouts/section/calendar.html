@@ -9,12 +9,14 @@
 				<h1 class="entry-title">Calendar Index</h1>
 			</header>
 
+			{{ $thismonth := printf "%s-01" (.Now | dateFormat "01") | printf "%s-%s" (.Now | dateFormat "2006") | printf "%s" }}
+
 			<div class="entry-content" style="padding-bottom:1em;">
 				<dl>
 				{{ $name := "calendar" }}
 				{{ $series := index .Site.Taxonomies.series $name }}
-				{{ range $series.Pages }}
-				  {{ $title := .Now.AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
+				{{ range $series.Pages.ByDate }}
+				  {{ $title := (time $thismonth).AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
 					<dt class="twocol"><a href="{{ .Permalink }}">{{ $title }}</a></dt>
 				{{ end }}
 				</dl>
