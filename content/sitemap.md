@@ -63,7 +63,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Regional Hamfest Dates](/dates/regional-hamfests/)
 
 ### Licensing
-* [About getting licensed]({{< relref "licensing/" >}})
+* [About getting licensed](/licensing/)
 * [License Testing Dates](/dates/license-testing/)
 
 ### Mailing Lists
@@ -73,7 +73,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [NCS Operators](/ncs/)
 * [NCS Schedule](/dates/ncs-schedule)
 * [Net Preamble]({{< relref "nets/preamble.md" >}})
-* [Traffic Nets]({{< relref "nets/" >}})
+* [Traffic Nets](/nets/)
 
 ### News
 * [Current Headlines](/)
