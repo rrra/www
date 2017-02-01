@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
+	{{ if eq .URL "/" }}<meta name="description" content="{{ .Site.Params.sitedesc}}" /> {{ end }}
 	<title>{{ if .IsPage }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}</title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	{{ "<!--[if lt IE 9]>" | safeHTML }}
