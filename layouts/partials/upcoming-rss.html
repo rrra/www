@@ -8,17 +8,23 @@
 			{{ if ne $thisdate ($.Scratch.Get "lastdate") }}
 				{{ $.Scratch.Set "today" "" }}
 			{{ end }}
-			{{ $series := chomp ((delimit .Params.dates " ") | printf "%s" | urlize| printf "|%s") }}
-			{{ $seen := chomp ($.Scratch.Get "seen") }}
-			{{ if or (not (in $seen $series)) (in ($.Scratch.Get "today") $series) }}
-				<dt>
-					{{ with .LinkTitle }}{{.}}{{else}}{{ .Title }}{{end}}
-				</dt>
-				<dd><a href="{{ .Permalink}}" title="{{ .Title }} - {{ chomp (delimit .Params.dates ",") }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
-				{{ $this := (chomp (delimit .Params.dates " ") | printf "%s" | urlize | printf "|%s") }}
-				{{ $.Scratch.Add "seen" $this }}
-				{{ $.Scratch.Add "today" $this }}
-				{{ $.Scratch.Set "lastdate" (.Date.Format "2006-01-02") }}
+			{{ $.Scratch.Set "upcoming" "" }}
+			{{ with .Params.upcoming }}
+				{{ $.Scratch.Set "upcoming" (. | lower) }}
+			{{ end }}
+			{{ if ne ($.Scratch.Get "upcoming") "hide" }}
+				{{ $series := chomp ((delimit .Params.dates " ") | printf "%s" | urlize| printf "|%s") }}
+				{{ $seen := chomp ($.Scratch.Get "seen") }}
+				{{ if or (not (in $seen $series)) (or (eq ($.Scratch.Get "upcoming") "force") (in ($.Scratch.Get "today") $series)) }}
+					<dt>
+						{{ with .LinkTitle }}{{.}}{{else}}{{ .Title }}{{end}}
+					</dt>
+					<dd><a href="{{ .Permalink}}" title="{{ .Title }} - {{ chomp (delimit .Params.dates ",") }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
+					{{ $this := (chomp (delimit .Params.dates " ") | printf "%s" | urlize | printf "|%s") }}
+					{{ $.Scratch.Add "seen" $this }}
+					{{ $.Scratch.Add "today" $this }}
+					{{ $.Scratch.Set "lastdate" (.Date.Format "2006-01-02") }}
+				{{ end }}
 			{{ end }}
 		{{ end }}
 	{{ end }}
