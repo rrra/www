@@ -5,6 +5,7 @@ endTime = "2017-03-28T21:00:00-05:00"
 location = "Fargo Public Safety Building"
 title = "Fargo Skywarn Class"
 dates = [ "Public Service" ]
+upcoming = "force"
 +++
 * Presented by the National Weather Service
 * Sponsored by the [Red River Radio Amateurs](/)
