@@ -2,11 +2,11 @@
 <dt style="vertical-align:baseline;">
 {{ if and (gt .Params.filename "") (eq .Params.linkdest "") }}
 <span alt="File:" class="genericon genericon-document"></span>
-<a href="{{ $baseurl }}/files/{{ .Params.filename | urlize }}">{{ .Title }}</a>
+<a href="{{ $baseurl }}/files/{{ .Params.filename | urlize }}">{{ .Title | safeHTML }}</a>
 {{ end }}
 {{ if and (gt .Params.linkdest "") (eq .Params.filename "") }}
 <span alt="Link" class="genericon genericon-external"></span>
-<a href="{{ .Params.linkdest }}" rel="nofollow" >{{ .Title }}</a>
+<a href="{{ .Params.linkdest }}" rel="nofollow" >{{ .Title | safeHTML }}</a>
 {{ end }}
 </dt>
 <dd>{{ .Content }}</dd>
