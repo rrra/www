@@ -3,7 +3,7 @@ description = ""
 date = "2017-02-06T16:38:50-06:00"
 categories = [ "Public Service" ]
 authors = [ "K0STK" ]
-title = "Save the date for SKYWARN&reg; Training"
+title = "Save The Date For SKYWARN&reg; Training"
 tags = [ "Skywarn" ]
 slug = ""
 +++
