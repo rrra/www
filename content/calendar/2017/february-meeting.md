@@ -8,3 +8,7 @@ dates = [ "Business Meetings" ]
 +++
 We meet in the basement meeting room. Please enter through the north
 doors adjacent to the 2nd Ave S parking lot.
+
+## Agenda
+
+* Annual Officer Elections
