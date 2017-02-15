@@ -16,10 +16,10 @@ Therefore, all RRRA Members are encouraged to attend the
 to vote in the 2017 Officer Elections.
 
 Inactive members (i.e. those who have not paid their dues
-for the current year) may bring their
+for the current year) must bring their
 [membership / renewal form](/s/3iOnHKqxHlaDxxv)
 <span style="font-size:smaller">(PDF)</span>
-and dues payment to the meeting.
+and dues payment to the meeting to restore their voting rights.
 <!--more-->
 
 Please contact the Club Treasurer, {{<mailto treasurer >}}, if you have
