@@ -34,7 +34,7 @@
 	
 	<div class="entry-content">
 		{{ .Summary }}
-		{{ if .Truncated }}
+		{{ if and .Truncated (gt .WordCount (.Summary | countwords)) }}
   			<div class="read-more-link">
     				<a href="{{ .RelPermalink }}">Read More...</a>
   			</div>
