@@ -12,9 +12,11 @@
 				<dl id="list">
 					{{ range where .Data.Pages "Section" "sk" }}
 					  <dt class="twocol" style="width:8em;"><a href="{{ .Permalink }}">{{ upper .Title }}</a></dt>
-					  <dd class="twocol">{{ .Params.died }}</dd>
+					  <dd class="twocol">{{ with .Params.died }}{{ . }}{{ else }}<span style="color:red;font-weight:bold;">Information needed</span>{{ end }}</dd>
 					{{ end }}
 				</dl>
+				<p style="clear:both;"></p>
+				<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you know about any RRRA Silent Keys not listed on this page.</p>
 			</div>
 		</div><!-- #content -->
 	</div><!-- #primary -->

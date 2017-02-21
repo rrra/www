@@ -28,6 +28,7 @@
 	</header>
 	
 	<div class="entry-content">
+		{{ $.Scratch.Set "needed" "photo|" }}
 		{{ $imgfiles := readDir "static/images/sk/" }}
 		{{ range $imgfiles }}
 			{{ if in .Name ( lower $call ) }}
@@ -37,18 +38,21 @@
 						<figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
 					{{ end }}
 				</figure>
+				{{ $.Scratch.Set "needed" "" }}
 			{{ end }}
 		{{ end }}
 
 		<dl id="list">
-			{{ with .Params.born }}<dt class="twocol header">Born:</dt><dd class="twocol">{{ . }}</dd>{{ end }}
-			{{ with .Params.licensed }}<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ . }}</dd>{{ end }}
-			<dt class="twocol header">Silent Key:</dt>
-			<dd class="twocol">{{ .Params.died }}</dd>
+			{{ with .Params.born }}<dt class="twocol header">Born:</dt><dd class="twocol">{{ . }}</dd>
+				{{ else }}{{ $.Scratch.Add "needed" "birth|" }}{{ end }}
+			{{ with .Params.licensed }}<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ . }}</dd>{{ end}}
+			{{ with .Params.died }}<dt class="twocol header">Silent Key:</dt><dd class="twocol">{{ . }}</dd>
+				{{ else }}{{ $.Scratch.Add "needed" "death|" }}{{ end }}
 			{{ with .Params.silentkeyhq }}
 				{{ $href :=  "\">National Silent Key Archive</a>" | printf "%s%s" (.) | printf "%s%s" "&uid=" | printf "%s%s" $call | printf "%s%s" "call=" | printf "%s%s" $silentkeybase | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
 				{{ $.Scratch.Set "memorial" $href }}
 			{{ else }}
+				{{ $.Scratch.Add "needed" "skhq|" }}
 				{{ with .Params.obituary }}
 					{{ $url := (.) }}
 					{{ $url := replace $url "https://" "" }}
@@ -68,6 +72,22 @@
 			{{ end }}
 		</dl>
 		<p class="clear"></p>
+
+		{{ $needed := $.Scratch.Get "needed" }}
+		{{ if gt $needed "" }}
+			<h3>Information Needed</h3>
+			<p>Can you contribute any of the information needed to complete this Silent Key listing?</p>
+			<ul>
+				{{ if in $needed "photo|" }}<li>Obituary Photo</li>{{ end }}
+				{{ if in $needed "birth|" }}<li>Date of Birth</li>{{ end }}
+				{{ if in $needed "death|" }}<li>Date of Death</li>{{ end }}
+				{{ if in $needed "skhq|" }}<li>A memorial at the <a href="http://silentkeyhq.com">National Silent Key Archive</a></li>{{ end }}
+			</ul>
+			{{ if not (in $needed "skhq|") }}
+				<p>{{ .Title | upper }}'s National Silent Key Archive Memorial (linked above) was incomplete as of {{ .Lastmod | dateFormat "2006-01-02" }}.</p>
+			{{ end }}	
+      <p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you can help complete this Silent Key Listing.</p>
+		{{ end }}
 
 		{{ .Content }}
 	</div><!-- .entry-content -->
