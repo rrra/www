@@ -4,8 +4,9 @@ date = "2017-01-18T15:17:48-06:00"
 description = ""
 slug = ""
 tags = []
-title = "January Minutes"
+title = "January 2017 Business Meeting Minutes"
 toc = "true"
+authors = [ "KE0BXS" ]
 +++
 * 19:00 Meeting called to order  
 * Introductions of members 42 total members and guests
