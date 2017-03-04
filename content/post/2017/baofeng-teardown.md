@@ -12,7 +12,7 @@ Inexpensive Chinese radios, such as those produced by
 are popular as starter radios due to their low cost.
 They are also used as disposable or spare/back-up radios.
 
-Learn about the internal architecture of these Baofeng UV-5RB in the
+Learn about the internal architecture of the Baofeng UV-5RB in the
 [Teardown Tuesday: Baofeng Amateur Radio Transceiver](https://www.allaboutcircuits.com/news/teardown-tuesday-baofeng-amateur-radio-transceiver/)
 article on the 
 [All About Circuits](https://www.allaboutcircuits.com/) website.
