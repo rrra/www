@@ -21,7 +21,7 @@ after the completion of each series of weekly classes, in conjunction with the
 Class | Dates | Sessions | Testing
 ------|-------|----------|--------
 [Winter 2017 Extra](/dates/winter-2017-extra) | [11-Jan-2017]({{< relref "calendar/2017/winter-extra-week-1.md" >}}) to [15-Mar-2017]({{< relref "calendar/2017/winter-extra-week-10.md" >}}) | 10 | [21-Mar-2017]({{< relref "calendar/2017/march-testing.md" >}})
-Spring 2017 Technician | 5-Apr-2017 to 10-May-2017 | 6 | [16-May-2017]({{< relref "calendar/2017/may-testing.md" >}})
+[Spring 2017 Technician](/dates/spring-2017-technician) | [5-Apr-2017]({{<relref "calendar/2017/spring-tech-week-1.md">}}) to [10-May-2017]({{< relref "calendar/2017/spring-tech-week-6.md" >}}) | 6 | [16-May-2017]({{< relref "calendar/2017/may-testing.md" >}})
 Fall 2017 Technician | 2-Aug-2017 to 6-Sep-2017 | 6 | [30-Sep-2017]({{< relref "calendar/2017/hamfest-testing.md" >}})
 Fall 2017 General | 27-Sep-2017 to 15-Nov-2017 | 8 | [21-Nov-2017]({{< relref "calendar/2017/november-testing.md" >}})
 Winter 2018 Extra | 10-Jan-2018 to 14-Mar-2018 | 10 | [16-Jan-2018]({{< relref "calendar/2018/january-testing.md" >}})
