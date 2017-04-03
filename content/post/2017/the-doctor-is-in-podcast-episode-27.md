@@ -8,7 +8,7 @@ tags = [ "ARRL", "podcast" ]
 title = "The Doctor Is In Podcast Episode 27"
 +++
 Learn about how you can sound better on the air, and help your signal get
-through a pileup in the
+through a pileup, in the
 [Speech Equalization, Compression and Processing](https://www.blubrry.com/arrl_the_doctor_is_in/21698901/speech-equalization-compression-and-processing/)
 episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast.
