@@ -1,6 +1,6 @@
 +++
 contact = "KA0ZLG"
-location = "[Veterans Memorial Auditorium](places/west-fargo-veterans-memorial-arena/)"
+location = "[Veterans Memorial Auditorium](/places/west-fargo-veterans-memorial-arena/)"
 title = "Walk MS: Fargo 2017"
 endTime = ""
 date = "2017-04-29T08:30:00-05:00"
