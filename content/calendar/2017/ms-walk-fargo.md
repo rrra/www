@@ -8,7 +8,9 @@ dates = [ "Public Service" ]
 +++
 The Red River Radio Amateurs club will be providing communications support for the  [Walk MS: Fargo 2017](http://main.nationalmssociety.org/site/TR/Walk/MNMWalkEvents?pg=entry&fr_id=28630).
 
-### Event Schedule
-* Walker check-in: 8:30am
+### Radio Operator Schedule
+* Check-in / set-up: 9:00am
 * Walk begins: 10:00am
-* Radio Operator check-in time and location: TBD
+* Walk ends: between Noon and 1:00pm
+
+The event support net will operate simplex.
