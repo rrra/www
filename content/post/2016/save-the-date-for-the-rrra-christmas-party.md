@@ -1,10 +1,11 @@
 +++
+categories = [ "Membership" ]
 authors = [ "K0STK" ]
-categories = [ "Social" ]
+tags = [ "Social" ]
+dates = [ "Social" ]
 date = "2016-10-18T21:50:43-05:00"
 description = ""
 slug = ""
-tags = []
 title = "Save The Date for the RRRA Christmas Party"
 +++
 The

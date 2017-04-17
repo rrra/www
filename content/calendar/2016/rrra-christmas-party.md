@@ -4,7 +4,8 @@ date = "2016-12-07T17:00:00-06:00"
 endTime = ""
 location = "[Pizza Ranch, Fargo](/places/pizza-ranch-fargo/)"
 title = "RRRA Christmas Party"
-categories = [ "Social" ]
+tags = [ "Social" ]
+categories = [ "Membership" ]
 dates = [ "Social" ]
 +++
 We have reserved the back two rooms.
