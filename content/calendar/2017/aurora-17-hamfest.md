@@ -6,6 +6,7 @@ location = "[White Bear Lake, MN](https://www.google.com/maps/place/First+Luther
 title = "Aurora '17 Hamfest"
 sponsor = "[Northern Lights Radio Society](http://www.nlrs.org/)"
 dates = [ "Regional Hamfests" ]
+upcoming = "force"
 +++
 Please visit the 
 [ARRL Aurora '17 Hamfest page](http://www.arrl.org/hamfests/aurora-17)
