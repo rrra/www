@@ -20,7 +20,7 @@ Please see the
 [Fargo Marathon 2017]({{< relref "calendar/2017/fargo-marathon.md" >}})
 page for the event schedule, equipment list, etc.
 
-RRRA Communications Support for the Fargo Marathon will be coordinated through
+RRRA communications support for the Fargo Marathon will be coordinated through
 the
 [Marathon Mailing List](https://lists.rrra.org/mailman/listinfo/marathon).
 So all operators who wish to volunteer for this event must subscribe to the

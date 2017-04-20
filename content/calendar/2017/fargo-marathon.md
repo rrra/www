@@ -1,13 +1,12 @@
 +++
-endTime = ""
 date = "2017-05-20T06:00:00-05:00"
-endDate = "2017-05-20T15:00:00-05:00"
+endTime = "2017-05-20T15:00:00-05:00"
 contact = "KD0IOE"
 location = "Fargo / Moorhead Area"
 title = "Fargo Marathon 2017"
 dates = [ "Public Service" ]
 +++
-RRRA Communications Support for the Fargo Marathon will be coordinated through
+RRRA communications support for the Fargo Marathon will be coordinated through
 the
 [Marathon Mailing List](https://lists.rrra.org/mailman/listinfo/marathon).
 So all operators who wish to volunteer for this event must subscribe to the
@@ -38,11 +37,15 @@ list.
 
 ### Equipment Needed
 
-* Radio able to communicate with [W0ILO](/radios/) and [W0RRW](/radios/red-river-valley-repeaters/). VHF at a minimum, dual-band prefered
+* Radio (VHF at a minimum, dual-band prefered) able to communicate with [W0ILO](/radios/) and [W0RRW](/radios/red-river-valley-repeaters/)
 * Power supply for 8 hours of operation (ample batteries or other power source)
+* Safety Equipment (e.g. reflectorized vest)
+* RRRA credentials
+* Water
 
 #### Optional items
 * Shelter or rain gear (the race runs rain or shine)
 * Chair
 * Table
 * Reading material
+* Snacks
