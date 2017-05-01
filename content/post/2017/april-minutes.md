@@ -68,8 +68,8 @@ has not been an issue
 #### Media
 * Steve K
 * Alert list
-* Process text your call sign to alert@lists.rrra.org
-* You will then be alerted to any emergencies where we are put into action
+* Used to send SMS (text) messages for radio operator activations
+* Sign up process: text your call sign to alert@lists.rrra.org
 
 ### Old Business
 
@@ -82,7 +82,7 @@ has not been an issue
 * Mark J.
 * Marathon needs are about the same
 * Did change the location of the command center to the sheriff facility (old guard building)
-* Ambulance will have handhelds in the rigs
+* FM Ambulance will have handhelds in their rigs
 
 ### New Business
 
@@ -108,6 +108,10 @@ has not been an issue
 ### LDS Preparedness Fest
 * Coming up in September
 
+### RRRA Training Survey
+* Handed out at meeting
+* Will be available on-line
+
 ### Field Day
 * Coming up
 * County site west Main Ave.in city garage just to the east of the fair grounds
@@ -124,7 +128,7 @@ has not been an issue
 * Buffalo state park?
 
 ### Adjournment
-* Motion by C0CRF
+* Motion by K0CRF
 * Seconded by N0TSZ
 * Motion passed
 * Adjourned at 7:45
