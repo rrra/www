@@ -22,9 +22,9 @@ for more information about our organization's purpose and goals, or if
 you would like to make a donation.
 
 Our [business meetings](/dates/business-meetings) are on the third
-Tuesday of each month at 7PM in the basement of the
-[{{% hcard p-name="Cass County Annex" p-adr="1010 2nd Ave South" p-loc="Fargo" p-reg="ND" p-zip="58103" %}}]({{< relref "places/cass-county-annex.md" >}}).
-Please enter through the north doors adjacent to the 2nd Ave S parking lot.
+Tuesday of each month at 7PM in the 
+[{{% hcard p-name="West Fargo City Hall" p-adr="800 4th Ave E #1" p-loc="West Fargo" p-reg="ND" p-zip="58078" %}}]({{< relref "places/west-fargo-city-hall.md" >}}).
+Please enter through the north doors adjacent to the 4th Avenue East parking lot.
 
 While these meetings are open to the general public, only registered members
 in good standing (i.e. current on their dues) are able to vote on club
