@@ -8,6 +8,7 @@ photocredit = ""
 silentkeyhq = ""
 died = ""
 title = "KG0IB"
+weight = -1
 
 +++
 

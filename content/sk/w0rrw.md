@@ -8,6 +8,7 @@ date = "2017-02-21T14:40:45-06:00"
 born = ""
 name = "Ernest G Anderson"
 licensed = ""
+weight = -1
 
 +++
 

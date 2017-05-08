@@ -8,6 +8,7 @@ photocredit = ""
 licensed = ""
 born = ""
 name = "Frank Cook"
+weight = -1
 
 +++
 

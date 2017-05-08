@@ -8,6 +8,7 @@ licensed = ""
 obituary = ""
 died = ""
 title = "W0FJZ"
+weight = -1
 
 +++
 
