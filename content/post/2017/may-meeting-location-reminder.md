@@ -9,7 +9,7 @@ tags = []
 slug = ""
 
 +++
-The May [ARES Meeting]({{< relref "calendar/2017/may-ares-meeting.md" >}})
+The May [ARES Meeting]({{< relref "calendar/2017/may-ares-meeting.md" >}}),
 [Club Meeting]({{< relref "calendar/2017/may-meeting.md" >}}), and
 [Testing Session]({{< relref "calendar/2017/may-testing.md" >}}) will be
 held at 
