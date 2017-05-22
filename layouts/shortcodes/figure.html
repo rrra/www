@@ -1,4 +1,10 @@
 <figure class="wp-caption alignnone">
-	<a href="{{ .Get "src" }}"><img src=" {{ if gt ( .Get "preview" ) "" }}{{ .Get "preview" }}{{ else }}{{ .Get "src" }}{{ end }}" alt="{{ .Get "alt" }}" /></a>
+	{{ if ne ( .Get "link" ) "none" }}
+		<a href="{{ .Get "src" }}">
+	{{ end }}
+<img src=" {{ if gt ( .Get "preview" ) "" }}{{ .Get "preview" }}{{ else }}{{ .Get "src" }}{{ end }}" alt="{{ .Get "alt" }}" />
+	{{ if ne ( .Get "link" ) "none" }}
+		</a>
+	{{ end }}
 	<figcaption class="wp-caption-text">{{ .Get "caption" }}</figcaption>
 </figure>

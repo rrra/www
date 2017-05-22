@@ -13,9 +13,11 @@ Radio](http://www.arrl.org/what-is-ham-radio)'s *open house*.
 It is a picnic, a campout, practice for emergencies, an informal contest and,
 most of all, *fun*!
 
-{{< figure src="http://www.arrl.org/files/file/Field-Day/2017/2017%20Field%20Day%20Logo%20Web%20FINAL.jpg" >}}
+[{{< figure src="http://www.arrl.org/files/file/Field-Day/2017/2017%20Field%20Day%20Logo%20Web%20FINAL.jpg" link="none" >}}]({{< relref "post/2017/be-a-part-of-field-day.md#about-field-day" >}})
 
 <!--more-->
+## About Field Day
+
 Field Day is held on the 4th weekend in June; in 2017 that
 is 7:00PM CDT Friday, June 23rd, to 6:59PM CDT Sunday, June 25th. 
 
@@ -46,3 +48,4 @@ PDF flyer and on the [ARRL Field Day page](http://www.arrl.org/field-day).
 Please use the
 [ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator)
 to find other Field Day sites.
+
