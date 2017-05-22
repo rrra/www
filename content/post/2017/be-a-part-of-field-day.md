@@ -3,11 +3,9 @@ title = "Be a part of Field Day 2017"
 tags = [ "Field Day" ]
 slug = ""
 description = ""
-publishdate = "2017-05-21T10:06:45-05:00"
 date = "2017-05-21T10:06:45-05:00"
 categories = [ "Outreach" ]
 authors = [ "K0STK" ]
-draft = false
 +++
 
 [Field Day](http://www.arrl.org/field-day) is [Amateur
