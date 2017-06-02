@@ -1,5 +1,5 @@
 +++
-ncs = [ "AI0Q" ]
+ncs = [ "KD0TGA" ]
 date = "2017-06-25T21:00:00-05:00"
 endTime = ""
 location = ""
