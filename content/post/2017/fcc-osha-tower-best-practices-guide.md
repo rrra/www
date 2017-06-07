@@ -1,6 +1,6 @@
 +++
 title = "FCC & OSHA Communications Tower Best Practices Guide"
-tags = [ "ARRL", "Safety" ]
+tags = [ "FCC", "OSHA", "Safety" ]
 slug = ""
 description = ""
 date = "2017-06-07T16:11:10-05:00"
