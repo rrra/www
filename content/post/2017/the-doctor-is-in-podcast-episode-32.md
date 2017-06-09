@@ -1,7 +1,7 @@
 +++
 authors = [ "K0STK" ]
 categories = [ "Education" ]
-date = "2017-06-08T12:00:00-05:00"
+date = "2017-06-09T12:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
