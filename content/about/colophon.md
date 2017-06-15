@@ -38,7 +38,7 @@ recommendations of the
 [TPILB-Project](http://www.this-page-intentionally-left-blank.org/). 
 
 The web-badges used on this site are
-&copy;2012--{{ .Now | dateFormat "2006" }} {{< mailto K0STK >}}
+&copy;2012--{{< year >}} {{< mailto K0STK >}}
 and are based on
 [Adam Kalsey's Button Maker](http://kalsey.com/tools/buttonmaker/).
 
