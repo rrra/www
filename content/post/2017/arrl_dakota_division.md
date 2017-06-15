@@ -6,6 +6,7 @@ tags = [ "ARRL" ]
 slug = ""
 description = ""
 date = "2017-06-15T11:34:22-05:00"
+publishdate = "2017-06-16T01:00:00-05:00"
 
 +++
 <a data-flickr-embed="true"  href="http://www.arrldakota.org/" title="The ARRL Dakota Division - Proudly serving Minnesota, North and South Dakota"><img src="https://c1.staticflickr.com/5/4195/34938853000_64aafa82c8_o.jpg" width="474" height="248" alt="The ARRL Dakota Division"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
