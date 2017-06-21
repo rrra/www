@@ -1,10 +1,11 @@
 +++
 contact = "KA0Q"
-date = "2017-07-19T06:00:00-05:00"
+date = "2017-07-21T06:00:00-05:00"
 endTime = "2017-07-23T18:00:00-05:00"
 location = "Fergus Falls & Wadena, MN"
 title = "MS TRAM Ride"
 dates = [ "Public Service"]
+aliases = [ "/cal/2017/07/19/ms-tram-ride/" ]
 +++
 Amateur Radio Operators who wish to support this event are
 encouraged to visit the [MS SCRAM website](https://ms-scram.org/) and learn
