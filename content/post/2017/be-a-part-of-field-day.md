@@ -42,8 +42,8 @@ PDF flyer and on the [ARRL Field Day page](http://www.arrl.org/field-day).
 
 ## Fargo / Moorhead Area Field Day Sites
 
-* [Red River Radio Amateurs---West Fargo, ND]({{ relref "calendar/2017/field-day.md" >}})
-* Clay County ARES---Sabin, MN
+* [Red River Radio Amateurs---West Fargo, ND]({{< relref "calendar/2017/field-day.md" >}})
+* [Clay County ARES---Sabin, MN]({{< relref "calendar/2017/sabin-field-day.md" >}})
 
 Please use the
 [ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator)
