@@ -2,10 +2,12 @@
 contact = "president"
 date = "2017-07-18T19:00:00-05:00"
 endTime = ""
-location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
-title = "July Club Meeting"
+location = ""
+title = "July Club Meeting Cancelled"
 dates = [ "Business Meetings" ]
+upcoming = "hide"
+aliases = [ "/cal/2017/06/20/june-club-meeting/" ]
 +++
-Please enter through the north
-doors adjacent to the 4th Ave E parking lot.
+This meeting was canceled by a motion passed at the
+[June Club Meeting]({{< relref "calendar/2017/june-meeting.md" >}}).
 
