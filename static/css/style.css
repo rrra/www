@@ -3170,27 +3170,37 @@ p.clear { clear: both; }
 
 	/* STK
  	 */
-
-	.social-media a {
+	aside.widget.social-media {
+		text-align: center;
+	}
+	#site-logo {
+		margin-bottom: 24px;
+	}	
+	.widget.social-media a {
 		font-size: 36px;
 		margin: 24px;
-		padding-bottom: 36px;
+		padding: 12px;
 	}
-	div.cat-links {
-		width: 100%;
+	a.genericon {
+		padding: 2px 20px 16px 0 !important;
+	}
+	div.pagination {
+		width: auto;
 		text-align: center;
-		padding-bottom: 30px;
 	}
-        .cat-links a.nav {
+        .cat-links.a.nav .pagination,a.nav {
 		font-size: 36px;
 		padding: 24px;
 	}
-	.cat-links a.taxonomy {
+	.cat-links.a.taxonomy {
 		position: absolute;
 		top: 60px;
 		left: 0;
 		font-size: 110%;
 	}
+	a.nav.other, a.nav.active {
+		display: none;
+	}	
 	#colophon { text-align: center; }
 	dd.twocol, dd.sameday { margin: 0 0 0.4em 2em; }
 
@@ -3367,7 +3377,7 @@ p.clear { clear: both; }
 
 	.archive-header,
 	.page-header {
-		margin: 0 auto 60px;
+		margin: 0 auto 24px;
 		padding: 0 10px;
 	}
 
@@ -3377,10 +3387,19 @@ p.clear { clear: both; }
 
 	/* STK
  	 */
-	.social-media a {
+	aside.widget.social-media {
+		text-align: center;
+	}
+	#site-logo {
+		margin-bottom: 12px;
+	}	
+	.widget.social-media a {
 		font-size: 36px;
 		margin: 24px;
-		padding-bottom: 36px;
+		padding: 12px;
+	}
+	a.genericon {
+		padding: 2px 20px 16px 0 !important;
 	}
 	div.cat-links {
 		width: 100%;
@@ -3443,6 +3462,10 @@ p.clear { clear: both; }
 	.site-content .has-post-thumbnail .entry-header {
 		margin-top: -48px;
 	}
+
+	/* STK
+	 */
+	div.clear.notmedium { display: none; }
 }
 
 @media screen and (min-width: 673px) {
@@ -3577,6 +3600,7 @@ p.clear { clear: both; }
 	.site-info {
 		padding: 15px 30px;
 	}
+
 }
 
 @media screen and (min-width: 783px) {
@@ -4155,9 +4179,20 @@ p.clear { clear: both; }
 
 	/* STK
 	 */
-	.social-media a {
+	aside.widget.social-media {
+		text-align: center;
+	}
+	#site-logo {
+		margin-bottom: 12px;
+	}	
+	.widget.social-media a {
 		font-size: 18px;
-		margin: 12px 6px 24px 6px;
+		margin: 12px;
+		padding: 0;
+	}
+	a.genericon {
+		padding: 0 !important;
+		margin: 6px !important;
 	}
 	div.cat-links {
 		text-align: left;
@@ -4171,6 +4206,7 @@ p.clear { clear: both; }
 		position: inherit;
 		padding-right: 12px;
 	}
+	div.clear.notmedium { display: block; }
 }
 
 @media screen and (min-width: 1040px) {
