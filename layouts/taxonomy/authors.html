@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+			<header class="archive-header">
+				<h1 class="archive-title">Articles contributed by {{ .Title | upper }}</h1>
+				<ul><li><a href="/authors/">Index of contributing authors</a></li></ul>
+				{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") 50 }}
+				{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+			</header>
+
+			<div class="entry-content">
+				<dl>
+				{{ range $paginator.Pages }}
+					<dt class="twocol"><a href="{{ .URL }}" title="Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}" >{{ .Title | safeHTML }}</a></dt>
+					<dd style="display: none;">Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}</dd>
+				{{ end }}
+				</dl>
+			
+				{{ partial "clear.html" }}
+				{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+			</div><!-- #entry-content -->
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	{{ partial "sidebar.html" . }}
+</div><!-- #main-content -->
+
+{{ partial "footer.html" . }}

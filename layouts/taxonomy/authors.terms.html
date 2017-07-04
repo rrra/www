@@ -9,7 +9,7 @@
 				{{ $baseurl := .Site.BaseURL }}
 
 			<header class="archive-header">
-				<h1 class="archive-title">{{ .Title | singularize }} Index</h1>
+				<h1 class="archive-title">Index of contributing authors</h1>
 				{{ $cat := index .Site.Params.categories (.Title | urlize) }}
 				{{ with $cat.description }}
 					<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
@@ -19,7 +19,7 @@
 			<div class="entry-content" style="padding-bottom:1em;">
 				<dl id="list">
 					<dt class="twocol" style="width:10em; font-weight: normal;">{{ .Title | singularize }}</dt>
-					<dd class="twocol">Entries</dd>
+					<dd class="twocol">Contributions</dd>
 					{{ $data := .Data }}
 					{{ range $key, $value := .Data.Terms }}
 					<dt class="twocol" style="width:10em;"><a href="{{ $key | urlize }}">{{ $key | upper }}</a></dt>
