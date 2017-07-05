@@ -4183,16 +4183,16 @@ p.clear { clear: both; }
 		text-align: center;
 	}
 	#site-logo {
-		margin-bottom: 12px;
+		margin-bottom: 6px;
 	}	
 	.widget.social-media a {
-		font-size: 18px;
+		/* font-size: 30px; */
 		margin: 12px;
 		padding: 0;
 	}
 	a.genericon {
 		padding: 0 !important;
-		margin: 6px !important;
+		margin: 20px !important;
 	}
 	div.cat-links {
 		text-align: left;
@@ -4206,7 +4206,6 @@ p.clear { clear: both; }
 		position: inherit;
 		padding-right: 12px;
 	}
-	div.clear.notmedium { display: block; }
 }
 
 @media screen and (min-width: 1040px) {
@@ -4302,6 +4301,16 @@ p.clear { clear: both; }
 		top: 6px;
 		left: 6px;
 	}
+	.widget.social-media a {
+		font-size: 28px;
+		margin: 12px;
+		padding: 0;
+	}
+	a.genericon {
+		padding: 0 !important;
+		margin: 14px !important;
+	}
+	div.clear.notmedium { display: block; }
 }
 
 @media screen and (min-width: 1110px) {
