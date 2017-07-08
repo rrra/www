@@ -7,12 +7,21 @@ tags = []
 title = "Signup for the Fall 2017 Technician Classes"
 authors = [ "K0STK" ]
 +++
-Registration for RRRA Fall 2017 Techician Classes is now open. Please
+Registration for RRRA Fall 2017 Technician Classes is now open. Please
 [register on-line](https://www.eventbrite.com/e/fcc-ham-radio-license-class-tickets-36013428133)
-(we use Eventbrite to manage our registrations). **This
+(we use Eventbrite to manage our registrations).
+
+**This
 [series](/dates/fall-2017-technician)
 of classes begins
-[August 2, 2017]({{< relref "calendar/2017/fall-tech-week-1.md" >}})**.
+[August 2, 2017]({{< relref "calendar/2017/fall-tech-week-1.md" >}})**
+and will prepare you to pass the FCC Technician Class Amateur Radio
+License exam. A
+[License Testing session]({{< relref "calendar/2017/hamfest-testing.md" >}})
+will be
+conducted by Volunteer Examiners at the
+[RRRA Hamfest]({{< relref "calendar/2017/rrra-hamfest.md" >}})
+on September 30, 2017.
 <!--more-->
 
 Our Amateur Radio license classes are
