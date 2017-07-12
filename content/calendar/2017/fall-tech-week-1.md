@@ -8,6 +8,19 @@ categories = [ "Education" ]
 dates = [ "Fall 2017 Technician" ]
 
 +++
+### Signup & General Information
+
+Please
+[register
+on-line](https://www.eventbrite.com/e/fcc-ham-radio-license-class-tickets-36013428133)
+for this series of classes
+(we use Eventbrite to manage our registrations).
+
+There is no charge for instruction; however a textbook is required
+(approximate cost $30).  Links to purchase the required
+text books are available on our
+[2017-2018 Education and Testing Schedule]({{< relref "post/2016/education-testing-schedule.md#textbooks" >}}).
+
 ### Topics
 
 * Registration
