@@ -56,6 +56,6 @@ QSB may make fast and reliable completion of QSOs desirable.
 
 ### Footnotes
 
-[ 1 ] "WSJT-X",
+[ 1 ] "WSJT-X Release Notes",
 Joe Taylor K1JT, retrieved July 18 2017,
 https://physics.princeton.edu/pulsar/k1jt/Release_Notes_1.8.0.txt.
