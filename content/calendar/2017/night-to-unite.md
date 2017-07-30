@@ -1,7 +1,7 @@
 +++
 title = "Night To Unite 2017"
-endTime = "2017-09-01T20:00:00-05:00"
-date = "2017-09-01T17:00:00-05:00"
+endTime = "2017-08-01T20:00:00-05:00"
+date = "2017-08-01T17:00:00-05:00"
 contact = "N0TSZ"
 location = "[Elmwood Park](/places/west-fargo-elmwood-park/)"
 dates = [ "Outreach" ]
