@@ -15,7 +15,7 @@ the LDS Preparedness Fair.
 * Hosted by the
 [Provident Home Companion](http://www.providenthomecompanion.com/)
 * More information is available on the
-[event Facebook page](http://www.providenthomecompanion.com/)
+[event Facebook page](https://www.facebook.com/events/296554294086353/?active_tab=about)
 
 Volunteers are needed to staff an Amateur Radio information table and, if
 possible, the RRRA Communication Trailer.
