@@ -2,7 +2,7 @@
 location = "Gooseberry & Lindenwood Parks"
 title = "Cass Clay Zombie Fun Run"
 date = "2017-09-10T12:00:00-05:00"
-endTime = "2017-09-10T12:00:00-05:00"
+endTime = "2017-09-10T16:00:00-05:00"
 contact = "KC0DCF"
 dates = [ "Public Service" ]
 categories = [ "Public Service", "Outreach" ]
