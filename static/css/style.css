@@ -3173,14 +3173,19 @@ p.clear { clear: both; }
 	aside.widget.social-media {
 		text-align: center;
 	}
-	#site-logo {
-		margin-bottom: 24px;
-	}	
 	.widget.social-media a {
 		font-size: 36px;
 		margin: 24px;
 		padding: 12px;
 	}
+	#home-link {
+		margin: 0;
+	}
+	#site-logo {
+		margin-bottom: 24px;
+		width: 162px;
+		height: 148px;
+	}	
 	a.genericon {
 		padding: 2px 20px 16px 0 !important;
 	}
@@ -3390,14 +3395,19 @@ p.clear { clear: both; }
 	aside.widget.social-media {
 		text-align: center;
 	}
-	#site-logo {
-		margin-bottom: 12px;
-	}	
 	.widget.social-media a {
 		font-size: 36px;
 		margin: 24px;
 		padding: 12px;
 	}
+	#home-link {
+		margin: 0;
+	}
+	#site-logo {
+		margin-bottom: 12px;
+		width: 162px;
+		height: 148px;
+	}	
 	a.genericon {
 		padding: 2px 20px 16px 0 !important;
 	}
@@ -4179,14 +4189,13 @@ p.clear { clear: both; }
 
 	/* STK
 	 */
-	aside.widget.social-media {
-		text-align: center;
-	}
 	#site-logo {
 		margin-bottom: 6px;
 	}	
+	aside.widget.social-media {
+		text-align: center;
+	}
 	.widget.social-media a {
-		/* font-size: 30px; */
 		margin: 12px;
 		padding: 0;
 	}
@@ -4194,6 +4203,10 @@ p.clear { clear: both; }
 		padding: 0 !important;
 		margin: 20px !important;
 	}
+	aside.widget.social-media a.genericon {
+		position: relative;
+		left: -4px;
+	}	
 	div.cat-links {
 		text-align: left;
 		padding-bottom: 0;
