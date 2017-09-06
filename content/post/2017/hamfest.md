@@ -1,13 +1,16 @@
 +++
-contact = "W0HNV"
-date = "2017-09-30T08:00:00-05:00"
-endTime	 = "2017-09-30T14:00:00-05:00"
-location = "[RRV Fairgrounds Hartl Building](/places/rrv-fairgrounds-hartl-building)"
-title = "RRRA Hamfest & ARRL ND State Convention"
-linkTitle = "RRRA Hamfest"
-dates = [ "Hamfest" ]
-aliases = [ "/cal/2017/hamfest/" ]
+title = "Red River Radio Amateurs 2017 Hamfest and ARRL ND State Convention"
+tags = []
+slug = ""
+description = ""
+date = "2017-09-06T11:32:11-05:00"
+categories = [ "Hamfest" ]
+authors = [ "K0STK" ]
 +++
+
+* [Saturday, September 30, 2017 8AM to 2PM]({{< relref "calendar/2017/rrra-hamfest.md" >}})
+* [Red River Valley Fairgrounds, West Fargo, ND](/places/rrv-fairgrounds-hartl-building/)
+
 ### Featuring
 
 * ARRL Card Checking by W9NT
@@ -20,6 +23,7 @@ aliases = [ "/cal/2017/hamfest/" ]
 * Flea Market
 * Food
 
+<!--more-->
 ### Ticket and Flea Market Table Pricing
 * Admission Tickets
     * Adults: $9.00 each
@@ -99,3 +103,4 @@ Please contact [hamfest@rrra.org](mailto:hamfest@rrra.org) if you have any quest
 <div style="text-align:center;"><strong><a href="http://cloud.rrra.org/s/jG5otq2CDhFLNDh">Download the RRRA 2017 Hamfest Flyer</a></strong> (PDF)</div>
 
 <a href="http://cloud.rrra.org/s/jG5otq2CDhFLNDh"><img src="https://farm5.staticflickr.com/4405/36233657494_8edcbb4979_z.jpg" alt="2017-rrra-hamfest-flyer-page-1"></a>
+
