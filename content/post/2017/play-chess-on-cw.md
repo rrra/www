@@ -1,5 +1,5 @@
 +++
-categories = [ "Educational" ]
+categories = [ "Education" ]
 authors = [ "K0STK" ]
 title = "Playing Chess on CW"
 tags = [ "CW" ]
