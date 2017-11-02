@@ -12,7 +12,7 @@
 			{{ with .Params.upcoming }}
 				{{ $.Scratch.Set "upcoming" (. | lower) }}
 			{{ end }}
-			{{ if ne ($.Scratch.Get "upcoming") "hide" }}
+			{{ if and (ne ($.Scratch.Get "upcoming") "hide") (gt .Params.dates "") }}
 				{{ $series := chomp ((delimit .Params.dates " ") | printf "%s" | urlize | printf "%s|") }}
 				{{ $seen := chomp ($.Scratch.Get "seen") }}
 				{{ if or (not (in $seen $series)) (or (eq ($.Scratch.Get "upcoming") "force") (in ($.Scratch.Get "today") $series)) }}
