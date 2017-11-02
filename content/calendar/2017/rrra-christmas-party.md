@@ -1,6 +1,6 @@
 +++
 contact = "KC0GQE"
-date = "2017-12-05T17:00:00-06:00"
+date = "2017-12-06T17:00:00-06:00"
 endTime = ""
 location = "[Pizza Ranch, Fargo](/places/pizza-ranch-fargo/)"
 title = "RRRA Christmas Party"
