@@ -1,6 +1,7 @@
 +++
 date = "2017-12-02T08:00:00-06:00"
 location = "[Courts Plus Community Fitness, Fargo](/places/courts-plus-community-fitness/)"
+publishDate = "2017-01-01T01:00:00-06:00"
 title = "Jingle Bell Run"
 contact = "KC0GQE"
 dates = [ "Public Service" ]

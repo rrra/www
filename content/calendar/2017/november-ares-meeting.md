@@ -1,6 +1,7 @@
 +++
 contact = "KK0V"
 date = "2017-11-21T18:00:00-06:00"
+publishDate = "2017-01-01T01:00:00-06:00"
 endTime = "2017-11-21T19:00:00-06:00"
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "November ARES Meeting"
