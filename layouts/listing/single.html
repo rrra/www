@@ -6,7 +6,7 @@
 		<div id="content" class="site-content" role="main">
 
 			{{ $baseurl := .Site.BaseURL }}
-			{{ $thismonth := printf "%s-01" (.Now | dateFormat "01") | printf "%s-%s" (.Now | dateFormat "2006") | printf "%s" }}
+			{{ $thismonth := printf "%s-01" (now | dateFormat "01") | printf "%s-%s" (now | dateFormat "2006") | printf "%s" }}
 			{{ $timeperiod := (time $thismonth).AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
 
 			<header class="entry-header">

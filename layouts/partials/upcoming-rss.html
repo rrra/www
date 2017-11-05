@@ -3,7 +3,7 @@
 {{ $.Scratch.Set "lastdate" "" }} 
 <dl>
 	{{ range where .Site.Pages.ByDate "Section" "calendar" }}
-		{{ if ge .Date.Unix .Now.Unix }}
+		{{ if ge .Date.Unix now.Unix }}
 			{{ $thisdate := chomp (.Date.Format "2006-01-02") }}
 			{{ if ne $thisdate ($.Scratch.Get "lastdate") }}
 				{{ $.Scratch.Set "today" "" }}

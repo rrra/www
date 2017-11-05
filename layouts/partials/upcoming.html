@@ -3,7 +3,7 @@
 	<header class="entry-header">
 		<h2 class="entry-title">Upcoming Events</h2>
 		<span style="display: none;">
-			<time class="updated">{{ .Now }}</time>
+			<time class="updated">{{ now }}</time>
 			<author class="vcard author"><span class="email">webmaster@rrra.org</span></author>
 		</span>
 	</header>
@@ -14,7 +14,7 @@
 {{ $.Scratch.Set "lastdate" "" }} <!-- the last date we used -->
 	<dl>
 		{{ range where .Data.Pages.ByDate "Section" "calendar" }}
-			{{ if ge .Date.Unix .Now.Unix }}
+			{{ if ge .Date.Unix now.Unix }}
 				{{ $thisdate := chomp (.Date.Format "2006-01-02") }}
        	{{ if ne $thisdate ($.Scratch.Get "lastdate") }}
 					<!-- Started looking at a new day, clear the daily scratch pad -->

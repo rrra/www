@@ -17,7 +17,7 @@
 
 		{{ range $name,$taxonomy := .Site.Taxonomies.dates }}
 			{{ range last 1 $taxonomy.Pages.ByDate }}
-				{{ if ge .Date.Unix .Now.Unix }}
+				{{ if ge .Date.Unix now.Unix }}
 					{{ $page := . }}
 					{{ if gt ($.Scratch.Get "filter") "" }}
 						{{ $filter := $.Scratch.Get "filter" }}

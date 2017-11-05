@@ -24,7 +24,7 @@
 				{{ else }}
 					{{ $.Scratch.Set "li" "dli" }}
 				{{ end }}
-				{{ $thisyear := .Now | dateFormat "2006" }}
+				{{ $thisyear := now | dateFormat "2006" }}
 				{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
 					{{ if ge .Key $thisyear }}	
 						<h3>{{ .Key }}</h3>

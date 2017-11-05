@@ -9,7 +9,7 @@
 				<h1 class="entry-title">Calendar Index</h1>
 			</header>
 
-			{{ $thismonth := printf "%s-01" (.Now | dateFormat "01") | printf "%s-%s" (.Now | dateFormat "2006") | printf "%s" }}
+			{{ $thismonth := printf "%s-01" (now | dateFormat "01") | printf "%s-%s" (now | dateFormat "2006") | printf "%s" }}
 
 			<div class="entry-content" style="padding-bottom:1em;">
 				<dl>
