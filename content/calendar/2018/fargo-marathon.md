@@ -9,10 +9,9 @@ dates = [ "Public Service" ]
 +++
 RRRA communications support for the Fargo Marathon will be coordinated through
 the
-[Marathon Mailing List](https://lists.rrra.org/mailman/listinfo/marathon).
-So all operators who wish to volunteer for this event must subscribe to the
-Marathon Mailing List; even those who who signed up on paper at the May club
-meeting.
+[Marathon Mailing List](https://lists.rrra.org/mailman/listinfo/marathon);
+all operators who wish to volunteer for this event must subscribe to the
+Marathon Mailing List.
 
 ### Subscribing to the mailing list
 
