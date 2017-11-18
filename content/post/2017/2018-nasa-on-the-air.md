@@ -24,6 +24,8 @@ The planned major events, which will involve most of the NASA clubs, are:
 And there will be other special event operations by the various centers
 commemorating and celebrating specific events.
 
-Amateur Radio Operators interested in participating in this event are encouraged to read the
-[2018 NASA On The Air Event](https://nn4sa.wordpress.com/2017/10/09/975/comment-page-1/)
-blog post for more information.
+Amateur Radio Operators interested in participating in this event are
+encouraged to visit the
+[NASA On The Air](https://nasaontheair.wordpress.com/) website and the NN4SA
+[2018 NASA On The Air Event blog post](https://nn4sa.wordpress.com/2017/10/09/975/comment-page-1/)
+for more information.
