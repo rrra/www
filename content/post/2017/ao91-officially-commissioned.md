@@ -23,9 +23,15 @@ title = "AO-91 Officially Commissioned"
 >software.
 <span style="font-style:normal;">[ [1]({{< relref "#references" >}}) ]</span>
 
-The AO-91 radio programming chart has been published in the
+An AO-91 radio programming chart has been published in the
 [AO-91 Commissioned, Declared Open for Amateur Use](https://www.amsat.org/ao-91-commissioned-declared-open-for-amateur-use/) article on the 
 [AMSAT](https://www.amsat.org/) website.
+
+Helpful links and comments from hams working this satellite have been
+posted in a
+"[AO-91 is officially open](https://www.reddit.com/r/amateurradio/comments/7exzh8/ao91_is_officially_open/)"
+discussion on the
+[Amateur Radio Subreddit](https://www.reddit.com/r/amateurradio/).
 
 {{< tweet "933730321924804610" >}}
 
