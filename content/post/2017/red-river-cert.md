@@ -1,13 +1,13 @@
 +++
 authors = [ "K0STK" ]
-categories = [ "Outreach" ]
+categories = [ "Education" ]
 date = "2017-12-03T12:50:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARES", "CERT" ]
 title = "CERT Training In Fargo"
 +++
-<!--{{< figure src="http://download.fargond.gov/resize/474/355/0/cert_triage.jpg" >}}-->
+{{< figure src="http://download.fargond.gov/resize/474/355/0/cert_triage.jpg" >}}
 
 "[The Community Emergency Response Team (CERT)]({{< relref "post/2017/red-river-cert.md#about-cert" >}})
 program educates volunteers about disaster preparedness for the hazards
@@ -60,7 +60,7 @@ Please email {{< mailto redrivercert name >}} or call [701-476-5991](tel:701-476
 
 Please [register on-line](tinyurl.com/CassClayCERT)
 
-<!--{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg/640px-FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg" >}}-->
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg/640px-FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg" >}}
 
 ## On-line Introduction To CERT 
 
