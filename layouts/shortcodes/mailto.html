@@ -8,6 +8,8 @@
         {{ $linktext := $recip.call | printf "%s %s" $recip.name | printf "%s" }}
         {{ .Page.Scratch.Set "linktext" $linktext }}
       {{ end }}
+    {{ else if eq $recip.call "none" }}
+      {{ .Page.Scratch.Set "linktext" $recip.name }} 
     {{ else }}
       {{ .Page.Scratch.Set "linktext" $sign }}
       {{ if isset .Params 1 }}
