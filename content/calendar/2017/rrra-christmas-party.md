@@ -1,8 +1,8 @@
 +++
 contact = "KC0GQE"
-date = "2017-12-06T17:00:00-06:00"
+date = "2017-12-06T17:30:00-06:00"
 publishDate = "2017-01-01T01:00:00-06:00"
-endTime = ""
+endTime = "2017-12-06T20:00:00-06:00"
 location = "[Pizza Ranch, Fargo](/places/pizza-ranch-fargo/)"
 title = "RRRA Christmas Party"
 tags = [ "Social" ]
