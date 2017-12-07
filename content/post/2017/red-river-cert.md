@@ -7,7 +7,7 @@ slug = ""
 tags = [ "ARES", "CERT" ]
 title = "CERT Training In Fargo"
 +++
-{{< figure src="http://download.fargond.gov/resize/474/355/0/cert_triage.jpg" >}}
+{{< figure src="http://download.fargond.gov/resize/474/355/0/cert_triage.jpg" attr="City of Fargo, ND" attrlink="http://www.fargond.gov/city-government/departments/emergency-management/community-emergency-response-team-cert" caption="CERT Triage" >}}
 
 "[The Community Emergency Response Team (CERT)]({{< relref "post/2017/red-river-cert.md#about-cert" >}})
 program educates volunteers about disaster preparedness for the hazards
@@ -60,7 +60,9 @@ Please email {{< mailto redrivercert name >}} or call [701-476-5991](tel:701-476
 
 Please [register on-line](tinyurl.com/CassClayCERT)
 
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg/640px-FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg" >}}
+{{< figure
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg/640px-FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg"
+caption="A CERT volunteer practices using a fire extinguisher" attr="Jocelyn Augustino/FEMA News Photo" attrlink="https://en.wikipedia.org/wiki/File:FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg" >}}
 
 ## On-line Introduction To CERT 
 
