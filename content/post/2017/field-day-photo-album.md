@@ -5,8 +5,7 @@ date = "2017-06-28T11:26:44-05:00"
 categories = [ "Outreach" ]
 authors = [ "K0STK" ]
 title = "2017 Field Day Photo Album"
-tags = [ "ARRL", "Field Day", "Photo Album" ]
-
+tags = [ "ARRL", "Field Day", "Photos" ]
 +++
 <a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/147076354@N03/albums/72157680842703504" title="Field Day 2017"><img src="https://c1.staticflickr.com/5/4239/35168602470_cfdfea0873_z.jpg" width="749" height="574" alt="Field Day 2017"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
