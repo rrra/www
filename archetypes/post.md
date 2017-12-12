@@ -1,10 +1,8 @@
 +++
-authors = []
+date = "{{ .Date }}"
+#publishdate = "{{ .Date }}"
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+authors = [ "K0STK" ]
 categories = []
-date = ""
-description = ""
-publishdate = ""
-slug = ""
 tags = []
-title = ""
 +++

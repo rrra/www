@@ -7,5 +7,6 @@ name = ""
 obituary = ""
 photocredit = ""
 silentkeyhq = ""
-title = ""
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+#created = "{{ .Date }}"
 +++

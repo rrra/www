@@ -1,7 +1,7 @@
 +++
-date = ""
+date = "{{ .Date }}"
 endTime = ""
-title = ""
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
 location = ""
 contact = ""
 +++
