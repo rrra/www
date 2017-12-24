@@ -24,7 +24,7 @@ Class | Dates | Sessions | Testing
 [Spring 2017 Technician](/dates/spring-2017-technician) | [April 5, 2017]({{<relref "calendar/2017/spring-tech-week-1.md">}}) to [May 10, 2017]({{< relref "calendar/2017/spring-tech-week-6.md" >}}) | 6 | [May 16, 2017]({{< relref "calendar/2017/may-testing.md" >}})
 [Fall 2017 Technician](/dates/fall-2017-technician) | [August 2, 2017]({{<relref "calendar/2017/fall-tech-week-1.md">}}) to [September 6, 2017]({{< relref "calendar/2017/fall-tech-week-6.md" >}}) | 6 | [September 30, 2017]({{< relref "calendar/2017/hamfest-testing.md" >}})
 [Fall 2017 General](/dates/fall-2017-general) | [September 27, 2017]({{<relref "calendar/2017/fall-general-week-1.md">}}) to [November 15, 2017]({{< relref "calendar/2017/fall-general-week-6.md" >}}) | 8 | [November 21, 2017]({{< relref "calendar/2017/november-testing.md" >}})
-Winter 2018 Extra | January 10, 2018 to March 14, 2018 | 10 | [January 16, 2018]({{< relref "calendar/2018/january-testing.md" >}})
+[Winter 2018 Extra](/dates/winter-2018-extra) | [January 10, 2018]({{< relref "calendar/2018/winter-extra-week-1.md" >}}) to [March 14, 2018]({{< relref "calendar/2018/winter-extra-week-10.md" >}}) | 10 | [March 20, 2018]({{< relref "calendar/2018/january-testing.md" >}})
 
 
 **There is no charge for instruction; however a textbook is required**
