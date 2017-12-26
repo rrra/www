@@ -1,11 +1,12 @@
 +++
 categories = [ "Education", "License Testing" ]
-date = "2017-12-24T09:40:26-06:00"
+date = "2017-12-21T09:40:26-06:00"
 description = ""
 slug = ""
 title = "2018-2019 Education and Testing Schedule"
 authors = [ "K0STK" ]
 weight = -1
+aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/" ]
 +++
 
 RRRA offer periodic series of weekly classes in preparation for FCC Amateur
@@ -33,8 +34,12 @@ Winter 2019 Extra | January 2, 2019 to March 14, 2019 | 10 | TBD
 #### Textbooks
 
 * Technician Class Manual **for use before 30 June 2018** [[ARRL](http://www.arrl.org/shop/ARRL-Ham-Radio-License-Manual-3rd-Edition/)] [[Amazon](http://www.amazon.com/ARRL-Ham-Radio-License-Manual/dp/1625950136/)] - ISBN 978-1-62595-031-0 
-* General Class Manual [[ARRL](http://www.arrl.org/shop/ARRL-General-Class-License-Manual-8th-Edition/)] [[Amazon](http://www.amazon.com/General-Class-License-Manual-Spiral/dp/1625950314/)] - ISBN 978-1-62595-031-4 (for use until 30 June 2019)
-* Extra Class Manual [[ARRL](http://www.arrl.org/shop/ARRL-Extra-Class-License-Manual-11th-Edition/)] [[Amazon](http://www.amazon.com/Extra-Class-License-Manual-Amateur/dp/1625950454/)] - ISBN 978-1-62595-045-1 (for use until June 30, 2020)
+* General Class Manual 8th Edition (for use through 30 June 2019)
+    * Soft Cover ISBN 978-1-62595-030-7 [[ARRL](http://www.arrl.org/shop/ARRL-General-Class-License-Manual-8th-Edition/)] [[Amazon](http://www.amazon.com/General-Class-License-Manual-Spiral/dp/1625950306/)]
+    * Spiral Bound ISBN 978-1-62595-031-4 [[ARRL](http://www.arrl.org/shop/ARRL-General-Class-License-Manual-Spiral-Bound)] [[Amazon](https://www.amazon.com/General-Class-License-Manual-Spiral/dp/1625950314/)]
+* Extra Class Manual 11th Edition (for use beginning July 1, 2016)
+    * Soft Cover ISBN 978-1-62595-045-1 [[ARRL](http://www.arrl.org/shop/ARRL-Extra-Class-License-Manual-11th-Edition/)] [[Amazon](http://www.amazon.com/Extra-Class-License-Manual-Amateur/dp/1625950454/)]
+    * Spiral Bound 978-1-62595-055-0 [[ARRL](http://www.arrl.org/shop/ARRL-Extra-Class-License-Manual-Spiral-Bound)] [[Amazon](https://www.amazon.com/Extra-Class-License-Manual-Spiral/dp/1625950551/)]
 
 ### Amateur Radio License Testing
 
