@@ -1,6 +1,6 @@
 +++
 categories = [ "Education", "License Testing" ]
-date = "2017-12-25T09:40:26-06:00"
+date = "2017-12-24T09:40:26-06:00"
 description = ""
 slug = ""
 title = "2018-2019 Education and Testing Schedule"
