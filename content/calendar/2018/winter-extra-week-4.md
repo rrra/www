@@ -14,3 +14,4 @@ dates = [ "Winter 2018 Extra" ]
 * Questions from Chapter 4, part 2
 * Chapter 5 - Components and Building Blocks
 
+{{< readfile file="data/education/resources.md" markdown="true" >}}

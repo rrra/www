@@ -14,3 +14,4 @@ dates = [ "Winter 2018 Extra" ]
 * Questions from Chapter 5
 * Chapter 6 - Radio Circuits and Systems
 
+{{< readfile file="data/education/resources.md" markdown="true" >}}

@@ -21,7 +21,7 @@ instruction; however a textbook is required (approximate cost $30).
 Links to purchase the required text book are available on our
 [2018-2019 Education and Testing Schedule]({{< relref "post/2017/education-testing-schedule.md" >}}).
 
-### Topics
+## Topics
 
 * Sign in
 * Introductions
@@ -30,4 +30,7 @@ Links to purchase the required text book are available on our
 * Cover what we will be going over each week
 * Chapter 2 - Operating Practices
 * Chapter 3 - Rules and Regulations
+
+{{< readfile file="data/education/resources.md" markdown="true" >}}
+
 
