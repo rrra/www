@@ -1,7 +1,7 @@
 +++
 contact = "W0HNV"
-date = "2018-9-12T19:00:00-05:00"
-endTime = "2018-9-12T21:00:00-05:00"
+date = "2018-09-12T19:00:00-05:00"
+endTime = "2018-09-12T21:00:00-05:00"
 publishDate = "2018-05-03T00:00:00-05:00"
 location = "West Fargo Public Library"
 title = "Fall Technician Class Week 5"
