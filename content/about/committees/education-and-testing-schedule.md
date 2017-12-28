@@ -1,12 +1,15 @@
 +++
 categories = [ "Education", "License Testing" ]
-date = "2017-12-21T09:40:26-06:00"
+date = "2017-12-27T19:58:24-06:00"
 description = ""
 slug = ""
-title = "2018-2019 Education and Testing Schedule"
+title = "Education and Testing Schedule"
 authors = [ "K0STK" ]
 weight = -1
-aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/" ]
+aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/",
+	"/post/2017/12/21/2018-2019-education-and-testing-schedule/",
+	"/post/2016/11/14/2017-2018-education-and-testing-schedule/",
+	"/post/2015/12/04/2016-2017-education-and-testing-schedule/" ]
 +++
 
 RRRA offer periodic series of weekly classes in preparation for FCC Amateur
