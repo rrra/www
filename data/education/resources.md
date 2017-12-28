@@ -13,7 +13,7 @@ provides a paper based means of reviewing the exam questions.
 On-line practice tests and study tools (e.g. flash cards) can help you
 review and reinforce material covered in class. The best flash card
 sites track your correct answers and allow you to concentrate on your
-areas of weekness. Practice tests also provide a gauge of your mastery
+areas of weakness. Practice tests also provide a gauge of your mastery
 of the subject matter.
 
 Some of these sites require registration, which can allow you to track
