@@ -12,7 +12,7 @@ dates = [ "Fall 2018 General" ]
 * Registration
 * Introduction to each other
 * Introduction to ham radio and videos 
-* Talk about the [books]({{< relref "post/2017/education-testing-schedule.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
+* Talk about the [books]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
 * Hand out the syllabus
 * Cover what we will be going over each week
 * Chapter 1---Welcome to Amateur Radio
