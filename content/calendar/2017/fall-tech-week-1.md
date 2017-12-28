@@ -19,14 +19,14 @@ for this series of classes
 There is no charge for instruction; however a textbook is required
 (approximate cost $30).  Links to purchase the required
 text books are available on our
-[2017-2018 Education and Testing Schedule]({{< relref "post/2016/education-testing-schedule.md#textbooks" >}}).
+[Education and Testing Schedule]({{< relref "/about/committees/education-and-testing-schedule.md#textbooks" >}}).
 
 ### Topics
 
 * Registration
 * Introduction to each other
 * Introduction to ham radio and Videos
-* Talk about the [books]({{< relref "post/2016/education-testing-schedule.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
+* Talk about the [books]({{< relref "/about/committees/education-and-testing-schedule.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
 * Hand out the syllabus
 * Cover what we will be going over each week
 * Chapter 1 - Welcome to amateur radio

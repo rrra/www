@@ -14,7 +14,7 @@ on-line](https://www.eventbrite.com/e/ham-radio-extra-license-class-tickets-3021
 (approximate cost $30).
 
 Links to purchase the required text book are available on our
-[2017-2018 Education and Testing Schedule]({{< relref "post/2016/education-testing-schedule.md" >}}).
+[Education and Testing Schedule]({{< relref "/about/committees/education-and-testing-schedule.md#textbooks" >}}).
 
 ### Topics
 

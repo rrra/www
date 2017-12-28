@@ -1,4 +1,5 @@
 +++
+expiryDate = "2017-01-01T00:00:00-05:00"
 categories = [ "Education" ]
 date = "2016-12-12T00:48:05-06:00"
 description = ""
@@ -23,6 +24,6 @@ There is no charge for instruction; however a textbook is required
 
 Detailed class information, including links to purchase the required
 text books, is available on our
-[2017-2018 Education and Testing Schedule]({{< relref "post/2016/education-testing-schedule.md" >}}).
+[2017-2018 Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}).
 
 Please contact {{% mailto W0HNV name %}} if you have any questions.
