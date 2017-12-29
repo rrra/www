@@ -1,6 +1,6 @@
 +++
 date = "2017-12-30T09:00:00-06:00"
-publishdate = "2017-12-20T09:00:00-06:00"
+publishdate = "2017-12-30T09:00:00-06:00"
 title = "Hamvention - The End Of An Era at Hara Arena"
 authors = [ "K0STK" ]
 categories = []
