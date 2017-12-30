@@ -1,5 +1,5 @@
 +++
-date = "2018-01-01T03:38:52-06:00"
+date = "2018-01-02T03:38:52-06:00"
 title = "Start the New Year with a new antenna"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
