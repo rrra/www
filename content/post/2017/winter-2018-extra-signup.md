@@ -9,7 +9,7 @@ authors = [ "K0STK" ]
 +++
 Registration for RRRA Winter 2018 Extra Classes is now open.  This
 [series of classes](/dates/winter-2018-extra") begins
-[10-Jan-2018]({{< relref "calendar/2018/winter-extra-week-1.md" >}})
+[January 10, 2018]({{< relref "calendar/2018/winter-extra-week-01.md" >}}),
 and are held Wednesday evenings, from 7:00pm to 9:00pm, on the 3rd floor
 of the
 {{% hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" %}}
