@@ -1,0 +1,10 @@
++++
+name = "Spring 2018 Technician"
+base = "spring-tech"
+publish = "2018-03-15"
+first = "2018-03-28"
+last = "2018-05-02"
+count = "6"
+testdate = "2018-05-15"
+testname = "may"
++++

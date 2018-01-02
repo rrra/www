@@ -1,0 +1,10 @@
++++
+name = "Fall 2018 Technician"
+base = "fall-tech"
+publish = "2018-07-16"
+first = "2018-08-15"
+last = "2018-09-19"
+count = "6"
+testdate = "2018-09-29"
+testname = "hamfest"
++++

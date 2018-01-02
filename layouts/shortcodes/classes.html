@@ -1,0 +1,43 @@
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Dates</th>
+<th>Sessions</th>
+<th>Testing</th>
+</tr>
+</thead>
+
+<tbody>
+{{ range $.Site.Data.education.classes }}
+{{ if ge ( .last | dateFormat "2006" ) ( now.Format "2006" ) }}
+<tr>
+{{ if gt ( now.Format "2006-01-02" ) .publish }}
+{{ $tl := "-class-week-1/" | printf "%s%s" ( .base ) | printf "%s/%s" ( replace ( .first ) "-" "/" ) | printf "%s%s" "/cal/" }}
+{{ $tt := ( .first | dateFormat "Jan 02, 2006" ) }}
+{{ $ll :=  ( .count ) | printf "%s-class-week-%s/" ( .base ) | printf "%s/%s" ( replace ( .last ) "-" "/" ) | printf "%s%s" "/cal/" }}
+{{ $lt := ( .last | dateFormat "Jan 02, 2006" ) }}
+{{ $tl :=  "-testing-session" | printf "%s%s/" ( .testname ) | printf "%s/%s" ( replace ( .testdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
+	<td><a href="/dates/{{ .name | urlize }}">{{ .name }}</a></td>
+	<td><a href="{{ $tl }}">{{ $tt }}</a> to<br /><a href="{{ $ll }}">{{ $lt }}</a></td> 
+	<td>{{ .count }}</td>
+	{{ if gt ( .testdate ) "" }}
+		{{ $tt := ( .testdate | dateFormat "Jan 02, 2006" ) }}
+		<td><a href="{{ $tl }}">{{ $tt }}</a></td>
+	{{ else }}<td>{{ .testname }}</td>{{ end }}
+{{ else }}
+	<td>{{ .name }}</td>
+	<td>{{ .first | dateFormat "Jan 02, 2006" }} to<br \>{{ .last | dateFormat "Jan 02, 2006" }}</td>
+	<td>{{ .count }}</td>
+	{{ if gt ( .testdate ) "" }}
+		{{ $tt := ( .testdate | dateFormat "Jan 02, 2006" ) }}
+		<td>{{ $tt }}</td>
+	{{ else }}<td>{{ .testname }}</td>{{ end }}
+{{ end }}
+</tr>
+{{ end }}
+{{ end }}
+</tbody>
+
+</table>
+

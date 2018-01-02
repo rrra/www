@@ -22,14 +22,7 @@ after the completion of each series of weekly classes, in conjunction with the
 [RRRA Hamfest](/dates/hamfest/), and at other times during the year.
 <!--more-->
 ### Amateur Radio Licensing Classes
-Class | Dates | Sessions | Testing
-------|-------|----------|--------
-[Winter 2018 Extra](/dates/winter-2018-extra) | [January 10, 2018]({{< relref "calendar/2018/winter-extra-week-1.md" >}}) to [March 14, 2018]({{< relref "calendar/2018/winter-extra-week-10.md" >}}) | 10 | [March 20, 2018]({{< relref "calendar/2018/march-testing.md" >}})
-Spring 2018 Technician | March 28, 2018 to May 2, 2018 | 6 | May 15, 2018
-Fall 2018 Technician | August 15, 2018 to September 19, 2018 | 6 | September 29, 2018
-Fall 2018 General | October 3, 2018 to November 21, 2018 | 8 | TBD
-Winter 2019 Extra | January 2, 2019 to March 14, 2019 | 10 | TBD
-
+{{< classes >}}
 
 **There is no charge for instruction; however a textbook is required**
 (approximate cost $30)
