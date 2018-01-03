@@ -4,7 +4,7 @@ publishdate = "2017-12-30T09:00:00-06:00"
 title = "Hamvention - The End Of An Era at Hara Arena"
 authors = [ "K0STK" ]
 categories = []
-tags = []
+tags = [ "Hamvention", "YouTube" ]
 +++
 {{< youtube "hXbQzTD9qgk" >}}
 <!--more-->

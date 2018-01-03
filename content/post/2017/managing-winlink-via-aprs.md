@@ -2,7 +2,7 @@
 categories = [ "Technical" ]
 authors = [ "K0STK" ]
 title = "Managing Winlink via APRS"
-tags = [ "APRS", "Winlink" ]
+tags = [ "APRS", "Winlink", "YouTube" ]
 slug = ""
 description = ""
 date = "2017-07-29T09:52:03-05:00"

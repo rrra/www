@@ -2,7 +2,7 @@
 categories = [ "Public Service" ]
 authors = [ "K0STK" ]
 title = "Ham Radio Now Interviews Past FEMA Administrator"
-tags = [ "ARES", "FEMA", "podcast" ]
+tags = [ "ARES", "FEMA", "HRN", "YouTube" ]
 slug = ""
 description = ""
 date = "2017-03-14T10:11:41-05:00"

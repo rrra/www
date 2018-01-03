@@ -1,6 +1,6 @@
 +++
 title = "Introducing AREDN"
-tags = [ "AREDN", "ARES" ]
+tags = [ "AREDN", "ARES", "HRN", "YouTube" ]
 slug = ""
 publishdate = "2017-03-30T01:41:32-05:00"
 description = ""

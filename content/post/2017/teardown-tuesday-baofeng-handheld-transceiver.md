@@ -2,7 +2,7 @@
 categories = [ "Technical" ]
 authors = [ "K0STK" ]
 title = "Teardown Tuesday: Baofeng UV-5RB Handheld Transceiver"
-tags = [ "Teardown" ]
+tags = [ "Teardown", "YouTube" ]
 slug = ""
 description = ""
 date = "2017-04-25T12:53:50-05:00"
