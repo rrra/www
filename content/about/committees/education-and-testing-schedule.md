@@ -11,21 +11,22 @@ aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/",
 	"/post/2016/11/14/2017-2018-education-and-testing-schedule/",
 	"/post/2015/12/04/2016-2017-education-and-testing-schedule/" ]
 +++
+### Amateur Radio Licensing Classes
 
 RRRA offer periodic series of weekly classes in preparation for FCC Amateur
 Radio license tests.  These classes are
 held Wednesday evenings, from 7:00pm to 9:00pm, on the 3rd floor of the 
 {{% hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" %}}
 
-RRRA also offer [Amateur Radio license testing sessions](/dates/license-testing)
-after the completion of each series of weekly classes, in conjunction with the
-[RRRA Hamfest](/dates/hamfest/), and at other times during the year.
-<!--more-->
-### Amateur Radio Licensing Classes
 {{< classes >}}
+<!--more-->
 
 **There is no charge for instruction; however a textbook is required**
 (approximate cost $30)
+
+RRRA offer [Amateur Radio license testing sessions](/dates/license-testing)
+after the completion of each series of weekly classes, in conjunction with the
+[RRRA Hamfest](/dates/hamfest/), and at other times during the year.
 
 #### Textbooks
 

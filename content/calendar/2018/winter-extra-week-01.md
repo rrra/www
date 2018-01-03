@@ -19,7 +19,7 @@ on-line](https://www.eventbrite.com/e/ham-radio-extra-license-level-3-class-tick
 instruction; however a textbook is required (approximate cost $30).
 
 Links to purchase the required text book are available on our
-[2018-2019 Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}).
+[Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}).
 
 ## Topics
 
