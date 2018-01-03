@@ -16,6 +16,10 @@ variable resistive and reactive components.)
 {{< youtube "gw1TYWwfvGk" >}}
 <!--more-->
 
+The [notes used in the
+video](http://www.dorkage.com%2Fyoutube%2FSmith_Chart_Basics-Impedance_and_Admittance.pdf)
+are available.
+
 ### About W2AEW
 
 >[W2AEW] was originally licensed as a novice in the late seventies (KA2IZZ),
