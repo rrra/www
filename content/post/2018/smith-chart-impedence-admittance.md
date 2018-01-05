@@ -1,5 +1,5 @@
 +++
-date = "2018-01-05T10:10:01-06:00"
+date = "2018-01-06T10:10:01-06:00"
 title = "Smith Chart Basics - Impedence and Admittance curves and convesions"
 authors = [ "K0STK" ]
 categories = [ "Education", "Technical" ]
