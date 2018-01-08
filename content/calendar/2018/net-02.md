@@ -7,4 +7,5 @@ location = ""
 title = "UHF/VHF Net 2"
 categories = [ "ARES" ]
 dates = [ "NCS Schedule" ]
+aliases = [ "/cal/2018/01/14/uhf/vhf-net-02/" ]
 +++
