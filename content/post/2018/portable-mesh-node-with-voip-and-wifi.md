@@ -1,12 +1,13 @@
 +++
 date = "2018-01-08T18:58:18-06:00"
+publishDate = "2018-01-08T00:00:00-06:00"
 title = "Portable Mesh Node With VOIP and Wifi"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
-tags = [ "AREDN" ]
+tags = [ "AREDN", "Mesh Node" ]
 +++
 Purchasing an AREDN compatible radio and antenna is only the first step in
-Assembling a useful, deployable, personal node.
+assembling a useful, deployable, personal node.
 
 Additional parts and equipment to support planned network
 capabilities---including provisions for portable power---must be
@@ -20,12 +21,12 @@ served agency policy restrictions which prohibit permanent installation
 of equipment in their buildings.
 <!--more-->
 
-[K7FPV's node](http://www.trevorsbench.com/portable-mesh-node-with-voip-and-wifi/),
+[K7FPV's portable node](http://www.trevorsbench.com/portable-mesh-node-with-voip-and-wifi/),
  documented in an article in the
-[Trevor's Bench Blog](https://www.aredn.org/bio/K7FPV), features
+[Trevor's Bench Blog](https://www.aredn.org/bio/K7FPV), features:
 
-* WiFi access from the vicinity of the node to the mesh network
-* [VOIP Analog Telephone Adapter \(ATA\)](https://en.wikipedia.org/wiki/Analog_telephone_adapter) to connect two phones to the mesh network Asterisk server
+* WiFi access to the mesh network
+* Telephone service through a [VOIP Analog Telephone Adapter \(ATA\)](https://en.wikipedia.org/wiki/Analog_telephone_adapter) connected to the mesh network Asterisk server 
 * Power for 5 days from a 122 amp hour deep cycle battery
 * Battery charger/PSU for operation when commercial power is available
 
