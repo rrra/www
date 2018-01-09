@@ -32,7 +32,7 @@ business.
 
 ## Join Our Club
 
-Bring your [membership application](/files/membership_application.pdf)
+Bring your [membership application](/s/3iOnHKqxHlaDxxv)
 and dues payment to one of our
 [business meetings](/dates/business-meetings) or send them to our
 [mailing address]({{< relref "#mailing-address" >}}).
