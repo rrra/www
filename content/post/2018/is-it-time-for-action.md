@@ -18,10 +18,18 @@ positive change." [^1]
 
 [^1]: "About Us", myARRLvoice, retrieved January 10 2018, https://www.myarrlvoice.org/about-us/.
 
+Subsequent to the formation of myARRLvoice a
+[Facebook Group](https://www.facebook.com/groups/myarrlvoice/)
+and [Twitter Feed](https://twitter.com/myarrlvoice)
+were established to provide venues for discussion about, and to raise
+awareness of, these issues.
+<!--more-->
+
+### The Issues
+
 [myARRLvoice](https://www.myarrlvoice.com/) consider 
 [these actions](https://www.myarrlvoice.org/the-issues/) to be issues of
 concern:
-<!--more-->
 
 >* The Amateur Radio Parity Act was renegotiated to favor HOA positions
 >* The new ARRL [Board of Directors] Code of Conduct limits what you get to know
@@ -34,10 +42,7 @@ concern:
 
 [^2]: "The Issues", myARRLvoice, Retrieved January 10 2018, https://www.myarrlvoice.org/the-issues/.
 
-A [Facebook Group](https://www.facebook.com/groups/myarrlvoice/)
-and [Twitter Feed](https://twitter.com/myarrlvoice) were
-established to provide venues for discussion about, and to raise
-awareness of, these issues.
+### Other Voices
 
 The
 [myARRLvoice "Other Voices" page](https://www.myarrlvoice.org/other-voices/)
@@ -57,7 +62,10 @@ Find out if you agree with the position held by myARRLvoice, and many other conc
 1. [Learning about the issues](https://www.myarrlvoice.org/the-issues/)
 1. [Finding out what "other voices" are saying](https://www.myarrlvoice.org/other-voices/) (including the ARRL rebuttal)
 
-**If you feel that the Board of Directors actions are not in the best interests of the League** [send a letter to your director](https://actionnetwork.org/letters/myarrlvoice-member-letter-to-directors) as soon as possible.
+If you feel that the Board of Directors actions are not in the best interests
+of the League
+[send a letter to your director](https://actionnetwork.org/letters/myarrlvoice-member-letter-to-directors)
+**before the January 19 Board Meeting**.
 
 {{< tweet "950811411877212160" >}}
 
