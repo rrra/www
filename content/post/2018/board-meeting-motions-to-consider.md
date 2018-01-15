@@ -32,6 +32,6 @@ board meeting** about the various motions which will be presented.
 * [ARRL By-Laws](http://www.arrl.org/arrl-by-laws)
 * [ARRL Articles of Association](http://www.arrl.org/arrl-articles-of-association)
 
-[^1]: "Board Meeting Motions To Consider", The ARRL Dakota Division, Retrieved January 14 2018, https://www.arrldakota.org/dakota-division-news/board-meeting-motions-to-consider.
-
 <!--more-->
+
+[^1]: "Board Meeting Motions To Consider", The ARRL Dakota Division, Retrieved January 14 2018, https://www.arrldakota.org/dakota-division-news/board-meeting-motions-to-consider.
