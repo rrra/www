@@ -1,6 +1,6 @@
 +++
-date = "2018-01-18T10:56:57-06:00"
-#publishdate = "2018-01-18T10:56:57-06:00"
+date = "2018-01-19T10:56:57-06:00"
+publishdate = "2018-01-20T00:00:00-06:00"
 title = "2017 Ham of the Year Award Presented To KC0SHM"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
