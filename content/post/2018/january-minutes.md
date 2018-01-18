@@ -8,7 +8,7 @@ authors = [ "KE0BXS" ]
 draft = true
 +++
 * Meeting called to order at 19:00 
-* Introductions of members; 30 present
+* Introductions of members; 28 present
 * Approve order of agenda
 <!--more-->
 	
