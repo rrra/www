@@ -8,8 +8,6 @@ title = "November 2017 Business Meeting Minutes"
 toc = "true"
 authors = [ "KE0BXS" ]
 +++
-
-
 * Meeting called to order at 19:02 
 * Introductions of members; 30 present
 * Approve order of agenda
@@ -88,11 +86,16 @@ authors = [ "KE0BXS" ]
 * Will turn over the cost of repairs to the club
 * President will look into taking over insurance and tag
 
-#### Cass Clay Vo-Ed Club
-* Cass/Clay vo-ed dues $25.00
+#### Cass Clay Volunteer Organization Active in Disaster (VOAD) club
+* Dues are $25.00
+* We are heavily involved in VOAD
 * Motion to pay dues by N0TSZ 
 * Seconded by KC0DCF
 * Motion passed
+
+#### Stop The Bleeding
+* KK0V is suggesting that those interested in the Stop The Bleeding should sign up for the CERT class instead
+* KK0V will supplement the medical components
 
 #### Net Control Operators
 * Net Control Operators are needed
