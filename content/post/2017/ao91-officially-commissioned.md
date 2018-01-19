@@ -33,8 +33,6 @@ posted in a
 discussion on the
 [Amateur Radio Subreddit](https://www.reddit.com/r/amateurradio/).
 
-{{< tweet "933730321924804610" >}}
-
 ## References
 
 [ 1 ] "AO-91 Commissioned, Declared Open for Amateur Use",
