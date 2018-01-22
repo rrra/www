@@ -1,22 +1,34 @@
 +++
-date = "2018-01-18T09:48:58-06:00"
-#publishdate = "2018-01-18T09:48:58-06:00"
+date = "2018-01-22T09:15:34-06:00"
+#publishdate = "2018-01-22T09:15:34-06:00"
 title = "January 2018 Business Meeting Minutes"
 categories = [ "Minutes" ]
 toc = "true"
 authors = [ "KE0BXS" ]
-draft = true
 +++
 * Meeting called to order at 19:00 
 * Introductions of members; 28 present
 * Approve order of agenda
+
 <!--more-->
-	
+
+---
+
+These minutes have been converted to a mobile friendly format; some light
+editing for clarity and consistency was performed. The Secretary's original
+minutes document may be found in the "**Committee Reports | Secretary
+Reports**" folder on the [RRRA File Sharing Server](https://cloud.rrra.org/). 
+
+**Items marked with :new: have been added, or corrected, pending
+acceptance by the Secretary**
+
+---
+
 ## Consent Agenda 
 
 ### Secretary's report
-* Corrections submitted
-* Motion to approve with corrections by KC0DCF
+* :new: Corrections submitted
+* :new: Motion to approve with corrections by KC0DCF
 * Seconded by KD0TGA
 * Motion passed
 
@@ -26,7 +38,7 @@ draft = true
 * Motion passed
 
 ### Librarian's report
-* No report this month
+* :new: No report this month
 
 ## Regular Agenda
 
@@ -37,7 +49,7 @@ draft = true
 
 #### Clay RRRAES
 * Bob G
-* Time to update ARES spreadsheet. Will bring it to the next meeting
+* :new: Time to update ARES spreadsheet. Will bring it to the next meeting
 
 #### Technical
 * Bob K
@@ -57,22 +69,22 @@ draft = true
 
 #### Media
 * Steve K.
-* Need to reconfirm Google Voice forwarding tonight
-* If you have questions please contact K0STK at a meeting or email webmaster@rrra.org
+* :new: Need to reconfirm Google Voice forwarding tonight
+* :new: If you have questions please contact K0STK at a meeting or email webmaster@rrra.org
 
 ### Old Business
 
 #### Jingle Bell Run
 * Turnout was good and the event went well
-* Picture of operators posted at https://rrra.org/post/2017/12/11/rrra-at-the-2017-jingle-bell-run/
+* :new: Picture of operators posted at https://rrra.org/post/2017/12/11/rrra-at-the-2017-jingle-bell-run/
 
 #### AREDN (Amateur Radio Digital Emergency Digital Network)
 * Information Update
-* Grant cancelled due to funding issues. Looking for more grant opportunities
+* :new: Grant cancelled due to funding issues. Looking for more grant opportunities
 
 #### Christmas Party
 * Follow-up
-* Congratulations to KC0SHM; winner of *Ham Of The Year*.
+* :new: Congratulations to KC0SHM; winner of *Ham Of The Year*.
 
 ### New Business
 
