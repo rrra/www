@@ -5,6 +5,7 @@ title = "Red River Radio Amateurs"
 theme = "twentyfourteen"
 Paginate = 10
 newcontenteditor = "vim"
+enableEmoji = true
 
 description = "News from the Red River Radio Amateurs"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
