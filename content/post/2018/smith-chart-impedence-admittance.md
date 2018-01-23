@@ -1,9 +1,10 @@
 +++
 date = "2018-01-06T10:10:01-06:00"
-title = "Smith Chart Basics - Impedence and Admittance curves and convesions"
+title = "Smith Chart Basics - Impedence and Admittance curves and conversions"
 authors = [ "K0STK" ]
 categories = [ "Education", "Technical" ]
 tags = [ "Smith Chart", "W2AEW", "YouTube" ]
+aliases = [ "/post/2018/01/06/smith-chart-basics---impedence-and-admittance-curves-and-convesions/" ]
 +++
 An introductory video by
 [W2AEW]({{< relref "post/2018/smith-chart-impedence-admittance.md#about-w2aew" >}})
