@@ -1,7 +1,7 @@
 +++
-born = "November 23, 1963"
-date = "2013-01-08T15:17:54-05:00"
-died = "January 8, 2013"
+born = "1963-11-23"
+created = "2016-07-21T15:17:54-05:00"
+date = "2013-01-08"
 licensed = ""
 name = "David Hatchard"
 photocredit = ""

@@ -1,12 +1,12 @@
 +++
 title = "W0GB"
 silentkeyhq = "1011484270425710"
-died = "2003"
+date = "2003-02-15"
 obituary = ""
-date = "2003-01-01T14:38:24-06:00"
+created = "2017-02-21T14:38:24-06:00"
 photocredit = ""
 licensed = ""
-born = "1914"
+born = "1914-07-13"
 name = "Frank Cook"
 
 +++

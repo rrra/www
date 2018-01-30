@@ -1,12 +1,11 @@
 +++
 born = ""
-date = ""
-died = ""
+date = "" # SK Date YYYY-MM-DD
 licensed = ""
 name = ""
 obituary = ""
 photocredit = ""
 silentkeyhq = ""
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
-#created = "{{ .Date }}"
+created = "{{ .Date }}"
 +++

@@ -1,7 +1,7 @@
 +++
-born = "January 12, 1944"
-date = "2016-10-13T08:10:43-05:00"
-died = "October 12, 2016"
+born = "1944-01-12"
+created = "2016-10-13T08:10:43-05:00"
+date = "2016-10-12"
 licensed = ""
 name = "Gene Wicklund"
 photocredit = "Boulger Funeral Home of Fargo, ND"

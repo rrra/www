@@ -1,7 +1,7 @@
 +++
-born = "October 3, 1944"
-date = "2015-09-21T15:27:07-05:00"
-died = "September 20, 2015"
+born = "1944-10-03"
+created = "2016-07-21T15:27:07-05:00"
+date = "2015-09-20"
 licensed = ""
 name = "Donald J. Jenson"
 photocredit = "West Funeral Home & Life Tribute Center"

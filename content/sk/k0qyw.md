@@ -1,7 +1,7 @@
 +++
-born = "December 20, 1941"
-date = "2015-06-06T15:25:00-05:00"
-died = "July 5, 2015"
+born = "1941-12-20"
+created = "2016-07-21T15:25:00-05:00"
+date = "2015-07-05"
 licensed = ""
 name = "Val G. Tareski"
 photocredit = "Boulger Funeral Home"

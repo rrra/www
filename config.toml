@@ -42,6 +42,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
     url = "/sk/"
 
 [params]
+  sitedate = "January 2, 2006"
 	sitedesc = "A nonprofit ARRL affiliated Amateur Radio club serving Fargo, ND; Moorhead, MN; and the surrounding area with communications support and educational outreach."
 
 	silentkeybase = "http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&"

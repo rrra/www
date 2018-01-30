@@ -1,7 +1,7 @@
 +++
-born = "November 3, 1909"
-date = "2005-02-08T08:51:12-06:00"
-died = "February 8, 2005"
+born = "1909-11-03"
+created = "2016-11-14T08:51:12-06:00"
+date = "2005-02-08"
 licensed = ""
 name = "Mary G. Dosland"
 obituary = ""

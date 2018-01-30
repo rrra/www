@@ -4,7 +4,8 @@
 	<header class="entry-header">
 
 	{{ $baseurl := .Site.BaseURL }}
-  {{ $silentkeybase := .Site.Params.silentkeybase }}
+	{{ $silentkeybase := .Site.Params.silentkeybase }}
+	{{ $sitedate := .Site.Params.sitedate }}
 	{{ $call := upper .Title }}
 
 		<div class="entry-meta">
@@ -43,10 +44,10 @@
 		{{ end }}
 
 		<dl id="list">
-			{{ with .Params.born }}<dt class="twocol header">Born:</dt><dd class="twocol">{{ . }}</dd>
+			{{ with .Params.born }}<dt class="twocol header">Born:</dt><dd class="twocol">{{ . | dateFormat ( $sitedate ) }}</dd>
 				{{ else }}{{ $.Scratch.Add "needed" "birth|" }}{{ end }}
 			{{ with .Params.licensed }}<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ . }}</dd>{{ end}}
-			{{ with .Params.died }}<dt class="twocol header">Silent Key:</dt><dd class="twocol">{{ . }}</dd>
+			{{ if gt .Date "" }}<dt class="twocol header">Silent Key:</dt><dd class="twocol">{{ .Date.Format ( $sitedate ) }}</dd>
 				{{ else }}{{ $.Scratch.Add "needed" "death|" }}{{ end }}
 			{{ with .Params.silentkeyhq }}
 				{{ $href :=  "\">National Silent Key Archive</a>" | printf "%s%s" (.) | printf "%s%s" "&uid=" | printf "%s%s" $call | printf "%s%s" "call=" | printf "%s%s" $silentkeybase | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
@@ -85,7 +86,7 @@
 				{{ if in $needed "skhq|" }}<li>A memorial at the <a href="http://silentkeyhq.com">National Silent Key Archive</a></li>{{ end }}
 			</ul>
 			{{ if (in $needed "skhq|") }}
-				<p>{{ .Title | upper }}'s National Silent Key Archive Memorial (linked above) was incomplete as of {{ .Lastmod | dateFormat "2006-01-02" }}.</p>
+				<p>{{ .Title | upper }}'s National Silent Key Archive Memorial (linked above) was incomplete as of {{ .Lastmod | dateFormat ( $sitedate ) }}.</p>
 			{{ end }}	
       <p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you can help complete this Silent Key Listing.</p>
 		{{ end }}

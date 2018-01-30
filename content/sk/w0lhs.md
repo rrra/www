@@ -1,7 +1,7 @@
 +++
-born = "October 5, 1916"
-date = "2007-09-14T10:30:17-05:00"
-died = "September 14, 2007"
+born = "1916-10-05"
+created = "2016-11-03T10:30:17-05:00"
+date = "2007-09-14"
 licensed = ""
 name = "William D. Snyder"
 obituary = ""

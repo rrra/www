@@ -1,5 +1,7 @@
 {{ partial "header.html" . }}
 
+{{ $sitedate := $.Param "sitedate" }}
+
 <div id="main-content" class="main-content">
 
 	<div id="primary" class="content-area">
@@ -10,9 +12,9 @@
 			</header>
 			<div class="entry-content">
 				<dl id="list">
-					{{ range where .Data.Pages "Section" "sk" }}
+    			{{ range .Data.Pages }}
 					  <dt class="twocol" style="width:8em;"><a href="{{ .Permalink }}">{{ upper .Title }}</a></dt>
-					  <dd class="twocol">{{ with .Params.died }}{{ . }}{{ else }}<span style="color:red;font-weight:bold;">Information needed</span>{{ end }}</dd>
+					  <dd class="twocol">{{ if gt .Date "" }}{{ .Date.Format ( $sitedate ) }}{{ else }}<span style="color:red;font-weight:bold;">Information needed</span>{{ end }}</dd>
 					{{ end }}
 				</dl>
 				<p style="clear:both;"></p>

@@ -1,7 +1,7 @@
 +++
-born = "August 4, 1919"
-date = "2016-06-28T14:51:01-05:00"
-died = "June 28, 2016"
+born = "1919-08-04"
+created = "2016-07-21T14:51:01-05:00"
+date = "2016-06-28"
 licensed = ""
 name = "Dr. Mark Covey"
 photocredit = "Korsmo Funeral Home"
