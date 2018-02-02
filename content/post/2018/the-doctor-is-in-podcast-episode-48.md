@@ -5,7 +5,8 @@ date = "2018-01-18T00:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 47"
+title = "The Doctor Is In Podcast Episode 48"
+aliases = [ "/post/2018/01/18/the-doctor-is-in-podcast-episode-47/" ]
 +++
 Learn about the type of wire to use when building your antenna in the
 [Antenna Wire](https://www.blubrry.com/arrl_the_doctor_is_in/29580861/antenna-wire/)
