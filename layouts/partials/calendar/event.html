@@ -53,29 +53,9 @@
 			<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location | markdownify }}</span></dd>
 			{{ end }}
 			{{ if gt .Params.contact "" }}
-			<dt class="twocol header">CONTACT:</dt><dd class="twocol"><span class="p-organizer">
-			{{ $sign := .Params.contact }}
-			{{ $recip := index .Site.Data.call $sign }}
-			{{ if gt $recip.office "" }}
-  				{{ .Scratch.Set "linktext" $recip.office }}
-			{{ else }}
-  				{{ .Scratch.Set "linktext" $sign }}
-			{{ end }}
-			{{ if gt  $recip.email "" }}
-  			  {{ $email := "</a>" | printf "%s%s" ( .Scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
-  			  <script type="text/javascript">
-  			  <!-- 
-  			  function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
-  			  X=('{{ $email | base64Encode }}')
-  			  document.write(f(X))
-   			  //-->
-  			  </script>
-  			  <noscript>
-  			  {{ .Scratch.Get "linktext" }}
-  			  </noscript>
-			{{ else }}
-  			  {{ .Scratch.Get "linktext" }}
-			{{ end }}</span></dd>
+			<dt class="twocol header">CONTACT:</dt><dd class="twocol"><div id="contact" class="p-organizer">
+				{{ partial "contact.html" (dict "context" . "sign" .Params.contact ) }}
+			</div></dd>
 			{{ end }}
 			{{ with .Params.sponsor }}
 				<dt class="twocol header">SPONSOR:</dt><dd class="twocol"><span class="p-location">{{ . | markdownify }}</span></dd>

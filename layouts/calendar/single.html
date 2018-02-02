@@ -6,9 +6,9 @@
 		<div id="content" class="site-content" role="main">
 
 			{{ if gt .Params.ncs "" }}
-				{{ .Render "ncs" }}
+				{{ partial "calendar/ncs.html" . }}
 			{{ else }}
-				{{ .Render "event" }}
+				{{ partial "calendar/event.html" . }}
 			{{ end }}
 
 			{{ template "_internal/disqus.html" . }}

@@ -2148,6 +2148,72 @@ p.clear { clear: both; }
 	margin-bottom: 0;
 }
 
+/**
+ *
+ * 6.14 Dropdown Menu (STK)
+ * Based on https://www.w3schools.com/howto/howto_js_dropdown.asp
+ * -----------------------------------------------------------------------------
+ */
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #24890d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #41a62a;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding-right: 24px;
+    white-space: nowrap;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: inherit;
+    word-wrap: normal;
+}
+
+.dropdown span.genericon {
+    font-size: inherit;
+    padding-top: 0.25em;
+    padding-left: 0.25em;
+}
+
+.dropdown-content div.genericon {
+    font-size: 16px;
+    padding: 10px 6px 12px 12px;
+    float: left;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
 /**
  * 7.0 Sidebars
@@ -3186,7 +3252,7 @@ p.clear { clear: both; }
 		width: 162px;
 		height: 148px;
 	}	
-	a.genericon {
+	aside.widget.social-media a.genericon {
 		padding: 2px 20px 16px 0 !important;
 	}
 	div.pagination {
@@ -3408,7 +3474,7 @@ p.clear { clear: both; }
 		width: 162px;
 		height: 148px;
 	}	
-	a.genericon {
+	aside.widget.social-media a.genericon {
 		padding: 2px 20px 16px 0 !important;
 	}
 	div.cat-links {
@@ -3460,6 +3526,16 @@ p.clear { clear: both; }
 		pointer-events: none;
 		cursor: default;
 		color: #C8C8C8;
+	}
+	/* STK
+         */
+	.dropbtn {
+    		padding: 0.2em;
+	}
+
+	.dropdown span.genericon {
+    		padding-top: 0.15em;
+    		padding-right: 0.2em;
 	}
 }
 
@@ -4199,7 +4275,7 @@ p.clear { clear: both; }
 		margin: 12px;
 		padding: 0;
 	}
-	a.genericon {
+	aside.widget.social-media a.genericon {
 		padding: 0 !important;
 		margin: 20px !important;
 	}
@@ -4319,7 +4395,7 @@ p.clear { clear: both; }
 		margin: 12px;
 		padding: 0;
 	}
-	a.genericon {
+	aside.widget.social-media a.genericon {
 		padding: 0 !important;
 		margin: 14px !important;
 	}
