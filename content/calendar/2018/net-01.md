@@ -5,7 +5,7 @@ publishDate = "2017-12-21T12:47:37-06:00"
 endTime = ""
 location = ""
 title = "UHF/VHF Net 1"
-categories = [ "ARES" ]
+categories = [ "Public Service" ]
 dates = [ "NCS Schedule" ]
 aliases = [ "/cal/2018/01/07/uhf/vhf-net-01/" ]
 +++
