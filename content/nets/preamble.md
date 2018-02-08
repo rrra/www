@@ -83,7 +83,7 @@ appropriate information.
 
 ___
 
-July 17, 2008; N0DJJ (SK); retrieved from
+July 17, 2008; [N0DJJ](/sk/n0djj) (SK); retrieved from
 [archive.org](https://web.archive.org/web/20091118053838/http://www.rrra.org/traffic_nets_2/)
 on 8-Dec-2015
 
