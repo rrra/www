@@ -21,7 +21,7 @@
 			<div class="entry-content" style="padding-bottom:1em;">
 				{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 				{{ if ne $contact nil }}
-					<span class="cat-links">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+					<span class="cat-links vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
 				{{ end }}
 				{{ if eq ( substr .URL 7 ) "ncs-schedule/" }}
 					{{ $.Scratch.Set "li" "ncsdli" }}

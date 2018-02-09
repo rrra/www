@@ -634,6 +634,10 @@ span > object {
 	margin-right: auto;
 }
 
+.vertmiddle {
+  vertical-align: middle;
+}
+
 blockquote.alignleft,
 figure.wp-caption.alignleft,
 img.alignleft {
@@ -3540,6 +3544,7 @@ p.clear { clear: both; }
 	}
 	.dropdown {
 		display: inline-block;
+		vertical-align: middle;
 	}
 }
 

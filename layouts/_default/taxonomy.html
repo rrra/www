@@ -17,7 +17,7 @@
 
 				{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 				{{ if ne $contact nil }}
-					<br /><span class="cat-links">contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
 				{{ end }}
 
 				{{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "calendar") 5 }}
