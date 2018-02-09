@@ -7,12 +7,19 @@
 
 			<header class="archive-header">
 				{{ $cat := index .Site.Params.categories (.Title | urlize) }}
-				{{ $rsstitle := .Title}}
+				{{ $rsstitle := .Title }}
+				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
 				
-				<h1 class="archive-title">{{ if in .URL "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}Content in the {{ .Title | humanize | upper }} category{{ end }}  {{ partial "rss" ( dict "rsstitle" $rsstitle ) }}</h1>
+				<h1 class="archive-title">{{ if in .URL "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}Content in the {{ .Title | humanize | upper }} category{{ end }}</h1>
 				{{ with $cat.description }}
 					<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
 				{{ end }}
+
+				{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
+				{{ if ne $contact nil }}
+					<br /><span class="cat-links">contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+				{{ end }}
+
 				{{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "calendar") 5 }}
 				{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
 			</header>

@@ -17,7 +17,7 @@
         {{ .Page.Scratch.Set "linktext" $linktext }}
       {{ end }}
     {{ end }}
-    {{ $email := "</a>" | printf "%s%s" ( .Page.Scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
+    {{ $email := "</a><span class=\"genericon genericon-mail\"></span>" | printf "%s%s" ( .Page.Scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
     <script type="text/javascript">
     function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
     X=('{{ $email | base64Encode }}')

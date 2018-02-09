@@ -13,9 +13,9 @@
 						<a href="{{ $baseurl}}/ncs/" rel="tag">NCS Roster</a>
 					</span>
 				</div>
-				<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
 				{{ $rsstitle := "NCS Assignments " | printf "%s %s" .Title | printf "%s" }}
 				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
+				<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
 			</header>
 
 			<div class="entry-content" style="padding-bottom:1em;">

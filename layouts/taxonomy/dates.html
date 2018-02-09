@@ -9,16 +9,20 @@
 				{{ $baseurl := .Site.BaseURL }}
 
 				<div class="entry-meta">
+				{{ $rsstitle := .Title }}
+				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
 					<span class="cat-links">
                 				<a href="{{ $baseurl}}/calendar/" rel="tag">Calendar</a>
 					</span>
 				</div>
-				<h1 class="entry-title">{{ .Title | singularize | humanize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
-				{{ $rsstitle := .Title }}
-				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
+				<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
 			</header>
 
 			<div class="entry-content" style="padding-bottom:1em;">
+				{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
+				{{ if ne $contact nil }}
+					<span class="cat-links">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+				{{ end }}
 				{{ if eq ( substr .URL 7 ) "ncs-schedule/" }}
 					{{ $.Scratch.Set "li" "ncsdli" }}
 				{{ else }}
@@ -36,6 +40,7 @@
 						{{ partial "clear" }}
 					{{ end }}
 				{{ end }}
+
 				{{ if eq ( substr .URL 7 ) "license-testing/" }}
 					{{ partial "bring" }}
 					{{ partial "status" }}

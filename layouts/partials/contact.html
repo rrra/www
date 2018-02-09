@@ -2,18 +2,33 @@
 
 {{ if ne $recip nil }}
 
-	{{ $clubtel := "701-526-4426" }}
-
-	{{ $ddopen := "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" ( .sign ) | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\"><button onclick=\"toggleDropdown()\" class=\"dropbtn\">" | printf "%s" }}
 			<script type="text/javascript">
 			<!-- 
 			function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
-			var myDiv = document.getElementById("contact");
+			var scripts = document.getElementsByTagName( 'script' );
+			var me = scripts[ scripts.length - 1 ];	
+			var myDiv = me.parentNode;
+			//-->
+			</script>
+			<noscript>{{ .sign }}</noscript>
+
+	{{ if gt $recip.office "" }}
+		{{ $ddopen := "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" $recip.office | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\"><button onclick=\"toggleDropdown()\" class=\"dropbtn\">" | printf "%s" }}
+			<script type="text/javascript">
+			<!-- 
 			myDiv.innerHTML += f({{ $ddopen | base64Encode }});
 			var myDiv = document.getElementById("contact-dropdown")
 			//-->
 			</script>
-			<noscript>{{ .sign }}</noscript>
+	{{ else }}
+		{{ $ddopen := "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" .sign | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\"><button onclick=\"toggleDropdown()\" class=\"dropbtn\">" | printf "%s" }}
+			<script type="text/javascript">
+			<!-- 
+			myDiv.innerHTML += f({{ $ddopen | base64Encode }});
+			var myDiv = document.getElementById("contact-dropdown")
+			//-->
+			</script>
+	{{ end }}
 
 	{{ if gt $recip.email "" }}
 			{{ $email := "</a></div>" | printf "%s%s" $recip.email | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<div><div class=\"genericon genericon-mail\"></div><a href=\"mailto:" | printf "%s" }}
@@ -32,7 +47,7 @@
 			//-->
 			</script>
 	{{ else }}
-			{{ $tel := "</a>" | printf "%s%s" $clubtel | printf "%s%s" "\">" | printf "%s%s" $clubtel | printf "%s%s" "<div class=\"genericon genericon-phone\"></div><a href=\"tel:" | printf "%s" }}
+			{{ $tel := "</a>" | printf "%s%s" .context.Site.Params.tel | printf "%s%s" "\">" | printf "%s%s" .context.Site.Params.tel | printf "%s%s" "<div class=\"genericon genericon-phone\"></div><a href=\"tel:" | printf "%s" }}
 			<script type="text/javascript">
 			<!--
 			myDiv.innerHTML += f({{ $tel | base64Encode }})
