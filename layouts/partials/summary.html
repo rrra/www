@@ -32,14 +32,14 @@
 
 	</header>
 	
-	<div class="entry-content">
+	<div class="entry-summary">
 		{{ .Summary }}
 		{{ if and .Truncated (gt .WordCount (.Summary | countwords)) }}
   			<div class="read-more-link">
     				<a href="{{ .RelPermalink }}">Read More...</a>
   			</div>
  		{{ end }} 
-	</div><!-- .entry-content -->
+	</div><!-- .entry-summary -->
 
 	<footer class="entry-meta">
 		<span class="tag-links">		
