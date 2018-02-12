@@ -13,10 +13,9 @@ was part of the payload successfully launched from
 aboard a
 [Soyuz-2.1a]({{< relref "post/2018/first-d-star-satellite-launched.md#soyuz-2-1a" >}})
 rocket.
+<!--more-->
 
 {{< figure src="http://www.orbitalsystems.de/wp-content/uploads/2018/01/Phoenix-Logo-e1516697610485.png" attr="German Orbital Systems" attrlink="http://www.orbitalsystems.de/d-star-one-second-birth/" >}}
-
-<!--more-->
 
 >Developed by [German Orbital Systems](http://www.orbitalsystems.de/)
 in Berlin in cooperation with the Czech company

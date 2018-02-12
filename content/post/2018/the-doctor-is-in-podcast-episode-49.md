@@ -11,9 +11,9 @@ Learn how to improve your radio listening experience in the
 [Automatic Gain Control](https://www.blubrry.com/arrl_the_doctor_is_in/29822174/automatic-gain-control/)
 episode of the 
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
+<!--more-->
 
 <iframe src="http://player.blubrry.com?media_url=http://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/February_1_2018_-_AGC.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
-<!--more-->
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:

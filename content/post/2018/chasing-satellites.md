@@ -11,8 +11,8 @@ tags = [ "AMSAT" ]
 >satellites at the 2018 Winter Hamfest hosted by Northern Colorado Amateur
 >Radio Club. [^1]
 
-{{< youtube "FJoh7g8BWok" >}}
 <!--more-->
+{{< youtube "FJoh7g8BWok" >}}
 
 This video is on the
 [NCARC YouTube channel](https://www.youtube.com/channel/UCtv6spmBf6UNCZhJRsbIo1g)
