@@ -19,11 +19,10 @@
 
 			<div class="entry-content" style="padding-bottom:1em;">
 				<dl id="list">
-					{{ $data := .Data }}
 					{{ range $key, $value := .Data.Terms }}
 					<dt class="twocol" style="width:10em;">{{ $key }}</dt>
 					<dd class="twocol"><a href="{{ $key | urlize }}">{{ len $value }} nets</a></dd>
-					{{ end }}
+					{{ end }}	
 				</dl>
 			</div>
 		
