@@ -3194,7 +3194,7 @@ p.clear { clear: both; }
 	}
 
 	.list-view .content-area {
-		padding: 0 10px;
+		padding: 24px 10px 0 10px;
 	}
 
 	.list-view .site-content .hentry {
