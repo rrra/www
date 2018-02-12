@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width" />
 	{{ if eq .URL "/" }}<meta name="description" content="{{ .Site.Params.sitedesc}}" /> {{ end }}
 	<title>{{ if .IsPage }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}</title>
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<!--<link rel="profile" href="http://gmpg.org/xfn/11" />-->
 	{{ "<!--[if lt IE 9]>" | safeHTML }}
 	<script src="{{ .Site.BaseURL }}/js/html5.js"></script>
 	{{ "<![endif]-->" | safeHTML }}
@@ -20,7 +20,7 @@
 	<!--[if lt IE 9]>
 	<link rel='stylesheet' id='twentyfourteen-ie-css'  href='/css/ie.css' type='text/css' media='all' />
 	<![endif]-->
-	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	<!--<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>-->
 </head>
 
 <body class="home blog masthead-fixed list-view full-width grid">
