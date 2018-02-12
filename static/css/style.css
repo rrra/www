@@ -1174,7 +1174,7 @@ a.post-thumbnail:hover {
 }
 
 .cat-links a.disabled {
-	pointer-effects: none;
+	pointer-events: none;
 	cursor: default;
 	color: #C8C8C8;
 }
@@ -3156,6 +3156,12 @@ p.clear { clear: both; }
 	width: auto;
 }
 
+div.entry-summary .footnote-ref a {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	color: inherit;
+}
 
 /**
  * 11.0 Media Queries
