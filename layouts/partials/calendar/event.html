@@ -52,14 +52,14 @@
 			{{ if gt .Params.location "" }}
 			<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location | markdownify }}</span></dd>
 			{{ end }}
+			{{ with .Params.sponsor }}
+				<dt class="twocol header">SPONSOR:</dt><dd class="twocol"><span class="p-location">{{ . | markdownify }}</span></dd>
+		  {{ end }}	
 			{{ if gt .Params.contact "" }}
 			<dt class="twocol header">CONTACT:</dt><dd class="twocol"><div id="contact" class="p-organizer">
 				{{ partial "contact.html" (dict "context" . "sign" .Params.contact ) }}
 			</div></dd>
 			{{ end }}
-			{{ with .Params.sponsor }}
-				<dt class="twocol header">SPONSOR:</dt><dd class="twocol"><span class="p-location">{{ . | markdownify }}</span></dd>
-		  {{ end }}	
 		</dl>
 		<p class="p-summary clear">{{ .Content }}</p>
 	</div>
