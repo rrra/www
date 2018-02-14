@@ -1,3 +1,4 @@
+{{ $images := $.Site.Data.images.url }}
 <div id="secondary">
 
 	{{ if isset .Site.Params "Description" }} 
@@ -17,9 +18,9 @@
 		{{ partial "categories.html" . }}
 
 		<div style="text-align: center; padding-bottom: 24px;">
-		<a href="http://arrl.org"><img src="https://images.rrra.org/www/sprites.gif" alt="ARRL Logo" title="ARRL - The national association for Amateur Radio&reg;" style="object-fit:none;object-position:-80px -148px;width: 39px;height: 87px"/></a>
+		<a href="http://arrl.org"><img src="{{ $images }}/sprites.gif" alt="ARRL Logo" title="ARRL - The national association for Amateur Radio&reg;" style="object-fit:none;object-position:-80px -148px;width: 39px;height: 87px"/></a>
 		<p></p>
-		<a href="http://www.arrldakota.org/"><img src="https://images.rrra.org/www/sprites.gif" alt="The ARRL Dakota Division" title="The ARRL Dakota Division - Proudly serving Minnesota, North and South Dakota" style="object-fit:none;object-position:0 -163px;width: 80px;height: 15px"/></a>
+		<a href="http://www.arrldakota.org/"><img src="{{ $images }}/sprites.gif" alt="The ARRL Dakota Division" title="The ARRL Dakota Division - Proudly serving Minnesota, North and South Dakota" style="object-fit:none;object-position:0 -163px;width: 80px;height: 15px"/></a>
 		</div>
 
 	</div>
