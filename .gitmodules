@@ -1,6 +1,6 @@
 [submodule "themes/twentyfourteen"]
 	path = themes/twentyfourteen
-	url = https://github.com/jaden/twentyfourteen.git
+	url = git@github.com:rrra/twentyfourteen.git
 [submodule "data/call"]
 	path = data/call
 	url = git@lists.rrra.org:call.git
