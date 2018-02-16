@@ -23,7 +23,7 @@ of equipment in their buildings.
 
 [K7FPV's portable node](http://www.trevorsbench.com/portable-mesh-node-with-voip-and-wifi/),
  documented in an article in the
-[Trevor's Bench Blog](https://www.aredn.org/bio/K7FPV), features:
+[Trevor's Bench Blog](http://www.trevorsbench.com/), features:
 
 * WiFi access to the mesh network
 * Telephone service through a [VOIP Analog Telephone Adapter \(ATA\)](https://en.wikipedia.org/wiki/Analog_telephone_adapter) connected to the mesh network Asterisk server 
