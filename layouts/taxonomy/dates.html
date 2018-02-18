@@ -12,7 +12,7 @@
 				{{ $rsstitle := .Title }}
 				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
 					<span class="cat-links">
-                				<a href="{{ $baseurl}}/calendar/" rel="tag">Calendar</a>
+                				<a href="/dates/" rel="tag">Dates</a>
 					</span>
 				</div>
 				<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
@@ -23,14 +23,18 @@
 				{{ if ne $contact nil }}
 					<span class="cat-links vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
 				{{ end }}
-				{{ if eq ( substr .URL 7 ) "ncs-schedule/" }}
+
+				{{ if eq ( .Title | urlize ) "ncs-schedule" }}
 					{{ $.Scratch.Set "li" "ncsdli" }}
 				{{ else }}
 					{{ $.Scratch.Set "li" "dli" }}
 				{{ end }}
 				{{ $thisyear := now | dateFormat "2006" }}
+				{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
+				{{ $edu := intersect $classes  (split .Title " ")  }}
+
 				{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
-					{{ if ge .Key $thisyear }}	
+					{{ if or ($edu) (ge .Key $thisyear) }}	
 						<h3>{{ .Key }}</h3>
 						<dl id="list">
 							{{ range .Pages.Reverse }}
@@ -41,7 +45,7 @@
 					{{ end }}
 				{{ end }}
 
-				{{ if eq ( substr .URL 7 ) "license-testing/" }}
+				{{ if eq ( .Title | urlize )  "license-testing" }}
 					{{ partial "bring" }}
 					{{ partial "status" }}
 				{{ end }}
