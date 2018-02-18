@@ -12,7 +12,7 @@
 				{{ $rsstitle := .Title }}
 				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
 					<span class="cat-links">
-                				<a href="/dates/" rel="tag">Dates</a>
+                				<a href="/dates/" rel="tag">Dates</a>{{ if eq ( .Title | urlize ) "ncs-schedule" }} <a href="/nets/">Nets</a>{{ end }}
 					</span>
 				</div>
 				<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>

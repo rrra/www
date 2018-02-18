@@ -11,6 +11,7 @@
 
 			<header class="entry-header">
 				<div class="entry-meta">
+					<span class="cat-links"><a href="/">Home</a></span>
 				</div>
 
 				<h1 class="entry-title">{{ $timeperiod }}</h1>
@@ -18,8 +19,8 @@
 				<div class="entry-meta">
 					<span class="cat-links">
 					{{ if ge .Params.offset 0 }}<span class="last-month"><a href="{{ $baseurl }}/calendar/{{sub .Params.offset 1 }}/">Last Month</a></span>{{ else }}Last Month{{ end }}
-							&middot; <a href="{{ $baseurl}}/calendar/">Index</a> &middot;
-					{{ if le .Params.offset 10 }}<span class="next-month"><a href="{{ $baseurl }}/calendar/{{add .Params.offset 1 }}/">Next Month</a></span>{{ else }}Next Month{{ end }}
+							<span>&middot; <a style="padding-left:6px;" href="{{ $baseurl}}/calendar/">Index</a> &middot; </span>
+					{{ if le .Params.offset 10 }}<span class="next-month"><a style="padding-left:6px;" href="{{ $baseurl }}/calendar/{{add .Params.offset 1 }}/">Next Month</a></span>{{ else }}Next Month{{ end }}
 					</span>
 				</div>
 
