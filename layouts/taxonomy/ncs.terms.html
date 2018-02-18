@@ -10,7 +10,7 @@
 
 				<div class="entry-meta">
 					<span class="cat-links">
-						<a href="{{ $baseurl}}/calendar/" rel="tag">Calendar</a>
+						<a href="/nets">Nets</a>
 					</span>
 					{{ partial "rss" ( dict "rsstitle" "NCS Roster" )  }}
 				</div>
@@ -19,9 +19,9 @@
 
 			<div class="entry-content" style="padding-bottom:1em;">
 				<dl id="list">
-					{{ range $key, $value := .Data.Terms }}
-					<dt class="twocol" style="width:10em;">{{ $key }}</dt>
-					<dd class="twocol"><a href="{{ $key | urlize }}">{{ len $value }} nets</a></dd>
+					{{ range $key, $value := .Data.Terms.ByCount }}
+					<dt class="twocol" style="width:10em;">{{ $value.Name }}</dt>
+					<dd class="twocol"><a href="{{ $value.Name | urlize }}">{{ $value.Count }} nets</a></dd>
 					{{ end }}	
 				</dl>
 			</div>
