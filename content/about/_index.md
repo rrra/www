@@ -51,7 +51,9 @@ and dues payment to one of our
 * **Secretary**: {{% mailto secretary name %}}
 * **Librarian**: {{% mailto librarian name %}}
 * **Treasurer**: {{% mailto treasurer name %}}
-* **At Large**: {{% mailto atlarge1 name %}}, {{% mailto atlarge2 name %}}
+* **At Large**:
+    * {{% mailto atlarge1 name %}}
+    * {{% mailto atlarge2 name %}}
 
 ### Website Issues
 
