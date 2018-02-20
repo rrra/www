@@ -22,7 +22,6 @@ held Wednesday evenings, from 7:00pm to 9:00pm, on the 3rd floor of the
 <!--more-->
 
 **There is no charge for instruction; however a textbook is required**
-(approximate cost $30)
 
 RRRA offer [Amateur Radio license testing sessions](/dates/license-testing)
 after the completion of each series of weekly classes, in conjunction with the
@@ -30,13 +29,29 @@ after the completion of each series of weekly classes, in conjunction with the
 
 #### Textbooks
 
-* Technician Class Manual **for use before 30 June 2018** [[ARRL](http://www.arrl.org/shop/ARRL-Ham-Radio-License-Manual-3rd-Edition/)] [[Amazon](http://www.amazon.com/ARRL-Ham-Radio-License-Manual/dp/1625950136/)] - ISBN 978-1-62595-031-0 
-* General Class Manual 8th Edition (for use through 30 June 2019)
-    * Soft Cover ISBN 978-1-62595-030-7 [[ARRL](http://www.arrl.org/shop/ARRL-General-Class-License-Manual-8th-Edition/)] [[Amazon](http://www.amazon.com/General-Class-License-Manual-Spiral/dp/1625950306/)]
-    * Spiral Bound ISBN 978-1-62595-031-4 [[ARRL](http://www.arrl.org/shop/ARRL-General-Class-License-Manual-Spiral-Bound)] [[Amazon](https://www.amazon.com/General-Class-License-Manual-Spiral/dp/1625950314/)]
-* Extra Class Manual 11th Edition (for use beginning July 1, 2016)
-    * Soft Cover ISBN 978-1-62595-045-1 [[ARRL](http://www.arrl.org/shop/ARRL-Extra-Class-License-Manual-11th-Edition/)] [[Amazon](http://www.amazon.com/Extra-Class-License-Manual-Amateur/dp/1625950454/)]
-    * Spiral Bound 978-1-62595-055-0 [[ARRL](http://www.arrl.org/shop/ARRL-Extra-Class-License-Manual-Spiral-Bound)] [[Amazon](https://www.amazon.com/Extra-Class-License-Manual-Spiral/dp/1625950551/)]
+##### Technician License Course
+
+* [HamRadioSchool.com](http://www.hamradioschool.com/)---June 11, 2012
+* ISBN-10: 1477595457
+* ISBN-13: 978-1477595459
+
+**Purchasing links:**
+
+* [Amazon](https://www.amazon.com/HamRadioSchool-com-Technician-License-Course-Turner/dp/1477595457)
+* [Cheapest Textbooks](https://www.cheapesttextbooks.com/subjects/9781477595459.html)
+* [DX Engineering](https://www.dxengineering.com/search/brand/ham-radio-school/product-line/ham-radio-school-technician-class-license-course-book)
+
+##### General License Course
+
+* [HamRadioSchool.com](http://www.hamradioschool.com/)---April 29, 2013
+* ISBN-10: 1484847156
+* ISBN-13: 978-1484847152
+
+**Purchasing links:**
+
+* [Amazon](https://www.amazon.com/HamRadioSchool-com-General-License-Course-Turner/dp/1484847156)
+* [Cheapest Textbooks](https://www.cheapesttextbooks.com/subjects/9781484847152.html)
+* [DX Engineering](https://www.dxengineering.com/search/brand/ham-radio-school/product-line/ham-radio-school-general-class-license-course-book)
 
 ### Amateur Radio License Testing
 
