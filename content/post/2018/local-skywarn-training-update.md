@@ -6,8 +6,8 @@ authors = [ "K0STK" ]
 categories = [ "Public Service" ]
 tags = [ "Skywarn" ]
 +++
-There are now two SKYWARN&reg; training opportunities the Fargo/Moorhead
-scheduled during 2018:
+There are now two SKYWARN&reg; training opportunities scheduled in the
+Fargo/Moorhead area during 2018:
 
 * [Fargo - Tuesday, April 3]({{< relref "calendar/2018/fargo-skywarn-class.md"  >}})
 * [Sabin - Monday, March 12]({{< relref "calendar/2018/sabin-skywarn-refresher.md" >}})
