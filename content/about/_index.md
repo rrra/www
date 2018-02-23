@@ -61,7 +61,7 @@ and dues payment to one of our
 
 #### Trustee
 
-* Joe Greg N0RF
+* {{% mailto trustee name %}}
 
 ### Website Issues
 
