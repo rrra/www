@@ -45,6 +45,6 @@ Fargo, North Dakota. The transmitter is a
 [Kenwood TS-50](http://www.rigpix.com/kenwood/ts50s.htm)
 set to 5 watts. The antenna is an 
 [Antron 99](http://www.universal-radio.com/catalog/hamants/1001.html),
-140 feet above the ground. Reception
-reports are welcome. Mailed reports and QSL card requests can be sent to
-W0HNV, and email reports can be sent to {{% mailto AI0Q %}}
+140 feet above the ground. [Email reception reports](mailto:beacon@rrra.org)
+are welcome; "snail-mail" reports and QSL card requests may be sent to
+the [club mailing address](/about/#mailing-address).
