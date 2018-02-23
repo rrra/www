@@ -44,15 +44,24 @@ and dues payment to one of our
 
 {{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" %}}
 
-### Officers
+### Board of Directors
+
+#### Officers
 
 * **President**: {{% mailto president name %}}
 * **Vice President**: {{% mailto vicepresident name %}}
 * **Secretary**: {{% mailto secretary name %}}
 * **Treasurer**: {{% mailto treasurer name %}}
-* **At Large**:
-    * {{% mailto atlarge1 name %}}
-    * {{% mailto atlarge2 name %}}
+* **Ex-officio (2018):** {{% mailto KK0V name %}}
+
+#### Members At Large
+
+* {{% mailto atlarge1 name %}}
+* {{% mailto atlarge2 name %}}
+
+#### Trustee
+
+* Joe Greg N0RF
 
 ### Website Issues
 
