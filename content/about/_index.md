@@ -49,7 +49,6 @@ and dues payment to one of our
 * **President**: {{% mailto president name %}}
 * **Vice President**: {{% mailto vicepresident name %}}
 * **Secretary**: {{% mailto secretary name %}}
-* **Librarian**: {{% mailto librarian name %}}
 * **Treasurer**: {{% mailto treasurer name %}}
 * **At Large**:
     * {{% mailto atlarge1 name %}}
