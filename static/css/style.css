@@ -3260,8 +3260,6 @@ div.entry-summary .footnote-ref a {
 	}
 	#site-logo {
 		margin-bottom: 24px;
-		width: 162px;
-		height: 148px;
 	}	
 	aside.widget.social-media a.genericon {
 		padding: 2px 20px 16px 0 !important;
@@ -3482,8 +3480,6 @@ div.entry-summary .footnote-ref a {
 	}
 	#site-logo {
 		margin-bottom: 12px;
-		width: 162px;
-		height: 148px;
 	}	
 	aside.widget.social-media a.genericon {
 		padding: 2px 20px 16px 0 !important;
@@ -4282,11 +4278,15 @@ div.entry-summary .footnote-ref a {
 	 */
 	#site-logo {
 		margin-bottom: 6px;
+		content: url(/images/rrra_logo-2.2.png);
+		object-fit: contain !important;
+		height: auto !important;
 	}	
 	aside.widget.social-media {
 		text-align: center;
 	}
 	.widget.social-media a {
+		font-size: 28px;
 		margin: 12px;
 		padding: 0;
 	}
@@ -4405,15 +4405,15 @@ div.entry-summary .footnote-ref a {
 		top: 6px;
 		left: 6px;
 	}
-	.widget.social-media a {
-		font-size: 28px;
-		margin: 12px;
-		padding: 0;
-	}
 	aside.widget.social-media a.genericon {
-		padding: 0 !important;
 		margin: 14px !important;
 	}
+	#site-logo {
+		margin-bottom: 6px;
+		content: url(/images/sprites.gif);
+		object-fit: none !important;
+		height: 148px !important;
+	}	
 	div.clear.notmedium { display: block; }
 }
 
