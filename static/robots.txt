@@ -1,5 +1,4 @@
 Sitemap: http://rrra.org/sitemap.xml
 
 User-agent: *
-Allow:
 Disallow: /s/
