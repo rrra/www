@@ -16,7 +16,7 @@
     <link rel='stylesheet' id='twentyfourteen-lato-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
 
     <link rel='stylesheet' id='genericons-css' href='{{ .Site.BaseURL }}/genericons/genericons.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='twentyfourteen-style-css' href='{{ .Site.BaseURL }}/css/style.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='twentyfourteen-style-css' href='{{ .Site.BaseURL }}/css/style{{ partial "stamp.html" (dict "file" "static/css") }}.css' type='text/css' media='all' />
 	<!--[if lt IE 9]>
 	<link rel='stylesheet' id='twentyfourteen-ie-css'  href='/css/ie.css' type='text/css' media='all' />
 	<![endif]-->

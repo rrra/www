@@ -1,0 +1,8 @@
+{{- $tgt := index .file -}}
+{{- $src := chomp ((replace $tgt "/" "-") | printf "%s-%s" "data/stamp") -}}
+{{- if (fileExists $src) -}}
+	{{- $stamp := (readFile $src | chomp) -}}
+	{{- if gt $stamp "" -}}
+		{{- $stamp | printf ".%s" -}}
+	{{- end -}}
+{{- end -}}
