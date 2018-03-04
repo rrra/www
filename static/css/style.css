@@ -830,6 +830,62 @@ span + .edit-link:before,
 	width: 100%;
 }
 
+/**
+ * 3.1 Images and Icons
+ * -----------------------------------------------------------------------------
+ */
+
+/* Set primary configuration here. Adjust in @media sections as needed. */
+
+
+#site-logo {
+	margin-bottom: 24px;
+	height: 148px;
+	width: 162px;
+	background: url(/images/sprites.gif) 0 0;
+}	
+
+#arrl-logo {
+	height: 87px;
+	width: 39px;
+	background: url(/images/sprites.gif) -80px -148px;
+}
+
+#cc-by-sa-badge {
+	height: 15px;
+	width: 80px;
+	background: url(/images/sprites.gif) 0 -178px;
+}
+
+#dakota-division-badge {
+	height: 15px;
+	width: 80px;
+	background: url(/images/sprites.gif) 0 -163px;
+}
+
+#hosted-at-badge {
+	height: 15px;
+	width: 80px;
+	background: url(/images/sprites.gif) 0 -148px;
+}
+
+#hugo-badge {
+	height: 15px;
+	width: 80px;
+	background: url(/images/sprites.gif) 0 -193px;
+}
+
+#markdown-badge {
+	height: 15px;
+	width: 80px;
+	background: url(/images/sprites.gif) 0 -208px;
+}
+
+#github-badge {
+	height: 15px;
+	width: 80px;
+	background: url(/images/sprites.gif) 0 -223px;
+}
 
 /**
  * 4.0 Header
@@ -933,7 +989,6 @@ span + .edit-link:before,
 	padding: 2px 2px 3px 6px;
 	width: 100%;
 }
-
 
 /**
  * 5.0 Navigation
@@ -3258,9 +3313,6 @@ div.entry-summary .footnote-ref a {
 	#home-link {
 		margin: 0;
 	}
-	#site-logo {
-		margin-bottom: 24px;
-	}	
 	aside.widget.social-media a.genericon {
 		padding: 2px 20px 16px 0 !important;
 	}
@@ -3477,6 +3529,7 @@ div.entry-summary .footnote-ref a {
 	}
 	#home-link {
 		margin: 0;
+		padding: 0;
 	}
 	#site-logo {
 		margin-bottom: 12px;
@@ -4278,9 +4331,9 @@ div.entry-summary .footnote-ref a {
 	 */
 	#site-logo {
 		margin-bottom: 6px;
-		content: url(/images/rrra_logo-2.2.png);
-		object-fit: contain !important;
-		height: auto !important;
+		height: auto;
+		width: 122px;
+		background: url(/images/rrra-logo-2017.gif) no-repeat;
 	}	
 	aside.widget.social-media {
 		text-align: center;
@@ -4410,9 +4463,9 @@ div.entry-summary .footnote-ref a {
 	}
 	#site-logo {
 		margin-bottom: 6px;
-		content: url(/images/sprites.gif);
-		object-fit: none !important;
-		height: 148px !important;
+		height: 148px;
+		width: 162px;
+		background: url(/images/sprites.gif) 0 0;
 	}	
 	div.clear.notmedium { display: block; }
 }

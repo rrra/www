@@ -4,12 +4,11 @@ title = "Colophon"
 
 +++
 
-[<img src="/images/hugo_80x15.png" title="A fast & modern static website engine" alt="Webbadge for Hugo"
-/>](http://gohugo.io)
-[<img src="/images/markdown_80x15.png" title="Plain text formatting syntax" alt="Webbadge for Markdown" />](https://en.wikipedia.org/wiki/Markdown)
-[<img src="/images/github_80x15.png" title="How people build software" alt="Webbadge for GitHub" />](https://github.com/)
+[<img id="hugo-badge" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" title="A fast & modern static website engine"  alt="Webbadge for Hugo" />](http://gohugo.io)
+[<img id="markdown-badge" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" title="Plain text formatting syntax" alt="Webbadge for Markdown" />](https://en.wikipedia.org/wiki/Markdown)
+[<img id="github-badge" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" title="How people build software" alt="Webbadge for GitHub" />](https://github.com/)
 
-The framework of this website is [Hugo](http://gohugo.io);
+This website is generated with [Hugo](http://gohugo.io);
 a fast and modern static website engine written in the 
 [Go Programming Language](https://golang.org/).
 
@@ -25,7 +24,7 @@ two-column Hugo theme based on the
 [Wordpress theme](https://wordpress.org/themes/twentyfourteen)
 of the same name.
 
-Source for this website is version controlled with
+Source for this website is managed with
 [git](http://www.git-scm.com/). Our
 [public repository](http://github.com/rrra/www) is stored on
 [GitHub](https://github.com/).
