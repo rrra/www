@@ -1,4 +1,3 @@
-{{ $images := $.Site.Data.images.url }}
 <article class="post type-post status-publish format-standard hentry">
 
 	<!-- .entry-header -->
@@ -35,7 +34,7 @@
 		{{ range $imgfiles }}
 			{{ if in .Name ( lower $call ) }}
 				<figure class="wp-caption alignnone">
-					<img  src="{{ $images }}/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}"/>
+					<img  src="/images/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}"/>
 					{{ with $.Params.photocredit }}
 						<figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
 					{{ end }}
