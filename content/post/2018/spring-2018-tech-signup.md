@@ -7,7 +7,7 @@ tags = []
 title = "Signup for the Spring 2018 Technician Classes"
 authors = [ "K0STK" ]
 +++
-Registration for RRRA Spring 2018 Techician Classes is now open. Please
+Registration for RRRA Spring 2018 Technician Classes is now open. Please
 [register on-line](https://www.eventbrite.com/e/technician-license-class-tickets-43414216089)
 (we use Eventbrite to manage our registrations). **This
 [series](/dates/spring-2018-technician)
