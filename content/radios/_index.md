@@ -40,11 +40,8 @@ Winnipeg, Canada.
 # W0ILO 10M Beacon
 
 The W0ILO 10 meter propagation beacon operates on 28286.5
-KHz in Sabin, Minnesota, approximately 8 miles SE of
-Fargo, North Dakota. The transmitter is a
-[Kenwood TS-50](http://www.rigpix.com/kenwood/ts50s.htm)
-set to 5 watts. The antenna is an 
-[Antron 99](http://www.universal-radio.com/catalog/hamants/1001.html),
-140 feet above the ground. [Email reception reports](mailto:beacon@rrra.org)
-are welcome; "snail-mail" reports and QSL card requests may be sent to
-the [club mailing address](/about/#mailing-address).
+KHz in Sabin, Minnesota. Please see the
+[10M Beacon Page]({{< relref "10m-beacon.md" >}}) for technical details and
+a description of the beacon message.
+
+{{< beacon-reports >}}

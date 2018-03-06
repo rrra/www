@@ -21,9 +21,7 @@ On June 2nd AI0Q received several reports of reception: one from North
 Carolina and one from Alabama. Both stations received the W0ILO 10M
 Beacon via sporadic E propagation.
 
-Beacon reception reports are welcome. Please send mailed reports and QSL card
-requests to [W0HNV care of RRRA](/about/#mailing-address).
-Emailed reception reports may be sent to {{% mailto AI0Q %}}.
+{{< beacon-reports >}}
 
 ## About the W0ILO 10M Beacon
 
