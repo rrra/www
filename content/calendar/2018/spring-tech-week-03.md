@@ -11,6 +11,4 @@ dates = [ "Spring 2018 Technician" ]
 +++
 ### Topics
 
-* Questions for chapter 3
-* Chapter 4 - Propagation, Antennas and Feed Lines
-* Guest speaker or Hands on
+* ...

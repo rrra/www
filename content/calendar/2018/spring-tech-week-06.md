@@ -11,7 +11,4 @@ dates = [ "Spring 2018 Technician" ]
 +++
 ### Topics
 
-* Questions for chapter 6
-* Chapter 8 - Operating Regulations Chapter
-* Chapter 9 - Electrical Safety
-* Course review
+* ...

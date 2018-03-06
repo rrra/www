@@ -11,6 +11,4 @@ dates = [ "Spring 2018 Technician" ]
 +++
 ### Topics
 
-* Questions for chapter 4
-* Chapter 5 - Amateur Radio Equipment
-* Guest speaker or Hands on
+* ...

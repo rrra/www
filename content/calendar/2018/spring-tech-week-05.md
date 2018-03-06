@@ -11,6 +11,4 @@ dates = [ "Spring 2018 Technician" ]
 +++
 ### Topics
 
-* Questions for chapter 5
-* Chapter 6 - Communicating with Other Hams
-* Guest speaker or Hands on
+* ...

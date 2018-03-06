@@ -11,6 +11,4 @@ dates = [ "Spring 2018 Technician" ]
 +++
 ### Topics
 
-* Questions for chapters 2 & 7
-* Chapter 3 - Electricity, Components and Circuits
-* Guest speaker or Hands on
+* ...

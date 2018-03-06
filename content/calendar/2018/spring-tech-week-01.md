@@ -9,6 +9,14 @@ categories = [ "Education" ]
 dates = [ "Spring 2018 Technician" ]
 
 +++
+---
+
+Registration for RRRA Spring 2018 Techician Classes is now open. Please
+[register on-line](https://www.eventbrite.com/e/technician-license-class-tickets-43414216089)
+(we use Eventbrite to manage our registrations).
+
+---
+
 ### Topics
 
 * Registration
@@ -17,7 +25,3 @@ dates = [ "Spring 2018 Technician" ]
 * Talk about the [books]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
 * Hand out the syllabus
 * Cover what we will be going over each week
-* Chapter 1 - Welcome to amateur radio
-* Chapter 2 - Radio and Signals Fundamentals
-* Chapter 7 - Licensing Regulations
-* Chapter 10 - Glossary
