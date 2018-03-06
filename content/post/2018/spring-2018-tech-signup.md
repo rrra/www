@@ -13,6 +13,18 @@ Registration for RRRA Spring 2018 Technician Classes is now open. Please
 [series](/dates/spring-2018-technician)
 of classes begins
 [28-Mar-2018]({{< relref "calendar/2018/spring-tech-week-01.md" >}})**.
+
+---
+
+The required textbook has changed, beginning with the Spring 2018 Technician
+Classes, to the
+*HamRadioSchool.com Technician License Course book*.
+Students are strongly encouraged to visit our
+[Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}).
+before purchasing their textbook.
+
+---
+
 <!--more-->
 
 Our Amateur Radio license classes are
