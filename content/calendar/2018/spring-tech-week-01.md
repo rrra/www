@@ -16,12 +16,19 @@ Registration for RRRA Spring 2018 Techician Classes is now open. Please
 (we use Eventbrite to manage our registrations).
 
 ---
+### Prerequisites
+
+* Purchase the [testbook]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}) 
+* Read textbook pages 1 to 51
 
 ### Topics
 
-* Registration
-* Introduction to each other
-* Introduction to ham radio and Videos
-* Talk about the [books]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
-* Hand out the syllabus
-* Cover what we will be going over each week
+* Course Overview
+* Chapter 0: Welcome!
+* Chapter 1: Operating your radio
+* Chapter 2: FCC Rules and Regs
+
+### Homework
+
+* Read textbook pages 52 to 80 (for the [next class]({{< relref "calendar/2018/spring-tech-week-02.md" >}}))
+

@@ -11,4 +11,10 @@ dates = [ "Spring 2018 Technician" ]
 +++
 ### Topics
 
-* ...
+* Chapter 8: It's electric!
+* Chapter 9: Hamtronics
+
+### Homework
+
+* Read textbook pages 161 to 188 (for the [next class]({{< relref "calendar/2018/spring-tech-week-05.md" >}}))
+

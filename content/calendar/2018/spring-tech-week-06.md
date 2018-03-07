@@ -11,4 +11,22 @@ dates = [ "Spring 2018 Technician" ]
 +++
 ### Topics
 
-* ...
+* Chapter 13: Safety and course review
+
+### Homework
+
+Following the completion of the course you should:
+
+* Review the textbook
+* Take practice tests
+* [Obtain an FRN](http://wireless.fcc.gov/uls/index.htm?job=about_getting_started) so that you do not have to provide your SSN at the testing session
+
+### License Testing
+
+A [license testing session]({{< relref "calendar/2018/may-testing.md" >}})
+is scheduled for May 15, 2018.
+
+Please visit our index of [License Testing dates](/dates/license-testing/)
+for a complete list of currently scheduled testing dates along with
+information about **License Test Prerequisites** and **Checking Your License
+Status**.

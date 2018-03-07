@@ -11,4 +11,10 @@ dates = [ "Spring 2018 Technician" ]
 +++
 ### Topics
 
-* ...
+* Chapter 3: Things to do
+* Chapter 4: Wavelength, frequency and bands
+* Chapter 5: Signal propagation
+
+### Homework
+
+* Read textbook pages 81 to 126 (for the [next class]({{< relref "calendar/2018/spring-tech-week-03.md" >}}))

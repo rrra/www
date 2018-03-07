@@ -11,4 +11,11 @@ dates = [ "Spring 2018 Technician" ]
 +++
 ### Topics
 
-* ...
+* Chapter 10: Digital modes
+* Chapter 11: Space contacts
+* Chapter 12: Avoiding interference
+
+### Homework
+
+* Read textbook pages 189 to 205 (for the [next class]({{< relref "calendar/2018/spring-tech-week-06.md" >}}))
+
