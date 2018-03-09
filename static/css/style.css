@@ -842,49 +842,49 @@ span + .edit-link:before,
 	margin-bottom: 24px;
 	height: 148px;
 	width: 162px;
-	background: url(/images/sprites.gif) 0 0;
+	background: url(/images/sprites.gif) 0 0 no-repeat;
 }	
 
 #arrl-logo {
-	height: 87px;
-	width: 39px;
-	background: url(/images/sprites.gif) -80px -148px;
+	height: 117px;
+	width: 70px;
+	background: url(/images/sprites.gif) -82px -150px;
 }
 
 #cc-by-sa-badge {
 	height: 15px;
 	width: 80px;
-	background: url(/images/sprites.gif) 0 -178px;
+	background: url(/images/sprites.gif) 0 -184px;
 }
 
 #dakota-division-badge {
 	height: 15px;
 	width: 80px;
-	background: url(/images/sprites.gif) 0 -163px;
+	background: url(/images/sprites.gif) 0 -167px;
 }
 
 #hosted-at-badge {
 	height: 15px;
 	width: 80px;
-	background: url(/images/sprites.gif) 0 -148px;
+	background: url(/images/sprites.gif) 0 -150px;
 }
 
 #hugo-badge {
 	height: 15px;
 	width: 80px;
-	background: url(/images/sprites.gif) 0 -193px;
+	background: url(/images/sprites.gif) 0 -201px;
 }
 
 #markdown-badge {
 	height: 15px;
 	width: 80px;
-	background: url(/images/sprites.gif) 0 -208px;
+	background: url(/images/sprites.gif) 0 -218px;
 }
 
 #github-badge {
 	height: 15px;
 	width: 80px;
-	background: url(/images/sprites.gif) 0 -223px;
+	background: url(/images/sprites.gif) 0 -235px;
 }
 
 /**
@@ -4331,9 +4331,8 @@ div.entry-summary .footnote-ref a {
 	 */
 	#site-logo {
 		margin-bottom: 6px;
-		height: auto;
-		width: 122px;
-		background: url(/images/rrra-logo-2017.gif) no-repeat;
+		background-size: 100%;
+		height: 112px;
 	}	
 	aside.widget.social-media {
 		text-align: center;
