@@ -31,9 +31,9 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Description](/about/#red-river-radio-amateurs)
 * [Donations]({{< relref "about/mission.md" >}})
 * [Joining Our Club](/about/#join-our-club)
-* [Mailing Address](/about/#mailing-address)
+* [Mailing Address](/about/contact#mailing-address)
 * [Mission Statement]({{< relref "about/mission.md" >}})
-* [Officers and their e-mail adresses](/about/#officers)
+* [Officers and their e-mail adresses](/about/contact#officers)
 * [Social Event Dates](/dates/social/)
 * [Telephone Number](/about/#mailing-address)
 
@@ -84,7 +84,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Outreach](/categories/outreach/)
 * [Public Service](/categories/public-service/)
 * [Social](/categories/social/)
-* [Technical](/categories/techinical/)
+* [Technical](/categories/technical/)
 
 ### Radio Systems
 * [Club (W0ILO) 10M Beacon](/radios/#w0ilo-10m-beacon)
@@ -100,10 +100,11 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 
 ### Social Media
 * [RRRA Facebook](https://www.facebook.com/W0ILO)
+* [RRRA Twitter](http://twitter.com/w0ilo)
 
 ### Website
 <!--* [How to contribute](/) -->
 * [Colophon]({{< relref "about/colophon.md" >}})
-* [Site License](/about/#site-license)
+* [Site License]({{< relref "about/contact.md#site-license" >}})
 * {{< webmaster >}} contact address
-* [Where to report problems](/about/#website-issues)
+* [Where to report problems]({{< relref "about/contact.md#website-issues" >}})

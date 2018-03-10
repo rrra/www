@@ -3,71 +3,32 @@ date = "2015-11-21T10:15:34-06:00"
 title = "About our club"
 linktitle = "About"
 menu = "main"
-toc = "true"
 +++
-
-Please see the [Colophon]({{< relref "about/colophon.md" >}}) for information
-about software and services used to build our website.
-
-# Red River Radio Amateurs
-
-A nonprofit
+Red River Radio Amateurs is a nonprofit
 [ARRL affiliated Amateur Radio club](http://www.arrl.org/Groups/view/red-river-radio-amateurs-inc/type:club)
-serving Fargo, Moorhead, and the surrounding area, with communications
-support and [educational outreach](/categories/education/).
-Our [bylaws]({{< relref "about/bylaws.md" >}})
-provide the framework for operation and management of our club. Please see
-our [mission statement]({{< relref "about/mission.md" >}})
-for more information about our organization's purpose and goals, or if
-you would like to make a donation.
+serving Fargo, Moorhead, and the surrounding area, with communication
+support and
+[educational outreach]({{< relref "about/committees/education-and-testing-schedule.md" >}}).
 
-Our [business meetings](/dates/business-meetings) are on the third
-Tuesday of each month at 7PM in the 
-[{{% hcard p-name="West Fargo City Hall" p-adr="800 4th Ave E #1" p-loc="West Fargo" p-reg="ND" p-zip="58078" %}}]({{< relref "places/west-fargo-city-hall.md" >}}).
-Please enter through the north doors adjacent to the 4th Avenue East parking lot.
-
-While these meetings are open to the general public, only registered members
-in good standing (i.e. current on their dues) are able to vote on club
-business.
+* [Board of Directors \(Club Officers\)]({{< relref "about/contact.md" >}})
+* [Bylaws]({{< relref "about/bylaws.md" >}})
+* [Club Meetings](/dates/business-meetings)
+* [Contact Information]({{< relref "about/contact.md" >}})
+* [Mission Statement]({{< relref "about/mission.md" >}})
+* [Online Media and Hosting]({{< relref "about/online-media-and-hosting.md" >}})
 
 ## Join Our Club
 
 Bring your [membership application](/s/3iOnHKqxHlaDxxv)
 and dues payment to one of our
 [business meetings](/dates/business-meetings) or send them to our
-[mailing address]({{< relref "#mailing-address" >}}).
+[mailing address]({{< relref "about/contact.md#mailing-address" >}}).
 
+## Support Our Club
 
-## Contact Information {#contact}
+Donations made to the Red River Radio Amateurs are **tax deductible**.
+If you would like to support our club please contact
+{{% mailto treasurer name %}}
+or mail your check to:
 
-### Mailing Address {#mailing-address}
-
-{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" %}}
-
-### Board of Directors
-
-#### Officers
-
-* **President**: {{% mailto president name %}}
-* **Vice President**: {{% mailto vicepresident name %}}
-* **Secretary**: {{% mailto secretary name %}}
-* **Treasurer**: {{% mailto treasurer name %}}
-* **Ex-officio (2018):** {{% mailto KK0V name %}}
-
-#### Members At Large
-
-* {{% mailto atlarge1 name %}}
-* {{% mailto atlarge2 name %}}
-
-#### Trustee
-
-* {{% mailto trustee name %}}
-
-### Website Issues
-
-Please direct all comments and questions about this website to the the
-{{< webmaster >}}.
-
-## Site License 
-
-{{< license >}}
+{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}

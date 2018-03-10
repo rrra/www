@@ -18,14 +18,14 @@ Radio license tests.  These classes are
 held Wednesday evenings, from 7:00pm to 9:00pm, on the 3rd floor of the 
 {{% hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" %}}
 
+**There is no charge for instruction; however a
+[textbook]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}})
+is required** (approximate cost $30)
+
+#### Class Schedule
+
 {{< classes >}}
 <!--more-->
-
-**There is no charge for instruction; however a textbook is required**
-
-RRRA offer [Amateur Radio license testing sessions](/dates/license-testing)
-after the completion of each series of weekly classes, in conjunction with the
-[RRRA Hamfest](/dates/hamfest/), and at other times during the year.
 
 #### Textbooks
 
@@ -56,8 +56,14 @@ after the completion of each series of weekly classes, in conjunction with the
 ### Amateur Radio License Testing
 
 RRRA Volunteer Examiners (VEs) conduct Amateur Radio license testing
-sessions bi-monthly. 	
+sessions on an approximately bi-monthly basis---including after the
+completion of each series of weekly classes and in conjunction with the
+[RRRA Hamfest](/dates/hamfest/).
 
 Please see our index of [License Testing dates](/dates/license-testing/) for a
 complete list of currently scheduled testing dates along with information
 about *License Test Prerequisites* and *Checking Your License Status*.
+
+Use the ARRL 
+[Find an Amateur Radio License Exam Session](http://www.arrl.org/find-an-amateur-radio-license-exam-session)
+page to locate testing opportunities offered by other organizations.

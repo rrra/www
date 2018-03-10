@@ -3,7 +3,6 @@ date = "2015-12-08T14:03:37-06:00"
 title = "Colophon"
 
 +++
-
 [<img id="hugo-badge" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" title="A fast & modern static website engine"  alt="Webbadge for Hugo" />](http://gohugo.io)
 [<img id="markdown-badge" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" title="Plain text formatting syntax" alt="Webbadge for Markdown" />](https://en.wikipedia.org/wiki/Markdown)
 [<img id="github-badge" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" title="How people build software" alt="Webbadge for GitHub" />](https://github.com/)
@@ -12,7 +11,7 @@ This website is generated with [Hugo](http://gohugo.io);
 a fast and modern static website engine written in the 
 [Go Programming Language](https://golang.org/).
 
-Most of the content source files for this website are authored in the
+The content source files for this website are authored in the
 [Markdown](https://en.wikipedia.org/wiki/Markdown)
 lightweight markup language (markup with simple unobtrusive syntax).
 
