@@ -1,7 +1,7 @@
 +++
 date = "2015-11-21T10:15:34-06:00"
-title = "About our club"
-linktitle = "About"
+title = "About Our Club"
+linktitle = "About<span style=\"display:none;\"> Our Club</span>"
 menu = "main"
 +++
 Red River Radio Amateurs is a nonprofit

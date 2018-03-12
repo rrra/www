@@ -21,8 +21,8 @@
 					  <dd class="twocol">{{ if gt .Date "" }}{{ .Date.Format ( $sitedate ) }}{{ else }}<span style="color:red;font-weight:bold;">Information needed</span>{{ end }}</dd>
 					{{ end }}
 				</dl>
-				<p style="clear:both;"></p>
-				<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you know about any RRRA Silent Keys not listed on this page.</p>
+			
+				{{ .Content }}
 			</div>
 		</div><!-- #content -->
 	</div><!-- #primary -->

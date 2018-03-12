@@ -1,11 +1,26 @@
 +++
 date = "2015-12-08T14:23:55-06:00"
 title = "Get Licensed ... Be a Ham"
-linktitle = "Be a Ham"
+linktitle = "Be<span style=\"display:none;\">come</span> a Ham<span style=\"display:none;\"> Radio Operator</span>"
 menu = "main"
-toc = "true"
 categories = [ "Education", "License Testing" ]
 +++
+* [Get started with the Red River Radio Amateurs](#get-started-with-the-red-river-Radio-Amateurs)
+* [What is Ham Radio?](#what-is-ham-radio)
+* [Who is the Typical Ham?](#who-is-the-typical-ham)
+* [Why should I get licensed?](#why-should-I-get-licensed)
+* [Would you like to know more?](#would-you-like-to-know-more)
+
+# Get started with the Red River Radio Amateurs
+
+RRRA offer periodic series of weekly classes in preparation for FCC Amateur
+Radio license tests followed, a week later, by a license testing session.
+Please follow our [education category](/categories/education/)
+for the latest news about RRRA education programs.
+
+Our club holds
+[bi-monthly license testing sessions](/dates/license-testing/)
+which are open to everyone.
 
 # What is Ham Radio?
 
@@ -38,14 +53,3 @@ classes and provides useful links for those interested in becoming licensed.
 Visit the [ARRL What is Ham Radio](http://www.arrl.org/what-is-ham-radio)
 page, or come to one of our [club meetings](/dates/business-meetings)
 to learn more about this multifacted hobby.
-
-# Get started with the Red River Radio Amateurs
-
-RRRA offer periodic series of weekly classes in preparation for FCC Amateur
-Radio license tests followed, a week later, by a license testing session.
-Please follow our [education category](/categories/education/)
-for the latest news about RRRA education programs.
-
-Our club holds
-[bi-monthly license testing sessions](/dates/license-testing/)
-which are open to everyone.

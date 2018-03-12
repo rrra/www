@@ -1,14 +1,11 @@
 +++
 date = "2015-12-08T14:18:09-06:00"
 title = "Traffic Nets"
-linktitle = "Nets"
+linktitle = "Nets<span style=\"display:none;\">, Preamble and NCS Roster</span>"
 menu = "main"
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
-
 +++
-
-
 ## RRRA Sunday VHF/UHF Net
 
 This net meets every Sunday night at 9:00 pm local time on the

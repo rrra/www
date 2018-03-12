@@ -26,21 +26,6 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 	post = "/post/:year/:month/:day/:slug/"
 	calendar = "/cal/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "Calendar"
-    identifier = "calendar"
-    url = "/calendar/0/"
-
-[[menu.main]]
-    name = "Files"
-    identifier = "files"
-    url = "/links/"
-
-[[menu.main]]
-    name = "SK"
-    identifier = "sk"
-    url = "/sk/"
-
 [params]
   tel = "701-526-4426"         # Club Phone Number
   sitedate = "January 2, 2006" # Sitewide Date Format
@@ -75,3 +60,26 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 
 [params.categories.technical]
   description = "Content (e.g. blog posts, information pages, and files/links) about the activities of the RRRA Technical Committee and the equipment/systems they maintain, along with technical topics of general interest."
+
+[params.tooltips]
+
+[params.tooltips.about]
+  title="Information about RRRA and how to contact the club"
+
+[params.tooltips.licensing]
+  title="Get started in Amateur Radio with RRRA"
+
+[params.tooltips.calendar]
+  title="Club and regional events"
+
+[params.tooltips.links]
+  title="File downloads"
+
+[params.tooltips.nets]
+  title="Net Schedule, Preamble, and NCS Roster"
+
+[params.tooltips.radios]
+  title="W0ILO Beacon, Repeaters and SuperLINK"
+
+[params.tooltips.sk]
+  title="Memorials of RRRA Members who are Silent Keys"

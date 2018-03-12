@@ -9,7 +9,7 @@
 				<div class="entry-meta">
 					<span class="cat-links"><a href="/">Home</a></span>
 				</div>
-				<h1 class="entry-title">Files and Links</h1>
+				<h1 class="entry-title">{{ .Title }}</h1>
 			</header>
 			<div class="entry-content">
 				<!--// range .Data.Pages.GroupByParam
@@ -21,6 +21,8 @@
 					{{ end }}
 					</dl>
 				<!--// end }}-->
+
+				{{ .Content }}
 			</div>
 		</div><!-- #content -->
 	</div><!-- #primary -->

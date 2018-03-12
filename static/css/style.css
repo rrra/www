@@ -3302,6 +3302,9 @@ div.entry-summary .footnote-ref a {
 
 	/* STK
  	 */
+	.page_item a span {
+		display: inline !important;
+	}
 	aside.widget.social-media {
 		text-align: center;
 	}
@@ -3519,6 +3522,9 @@ div.entry-summary .footnote-ref a {
 
 	/* STK
  	 */
+	.page_item a span {
+		display: inline !important;
+	}
 	aside.widget.social-media {
 		text-align: center;
 	}
@@ -3911,6 +3917,9 @@ div.entry-summary .footnote-ref a {
 		content: "\f501";
 		right: 8px;
 		top: 20px;
+	}
+	.page_item a span {
+		display: none !important;
 	}
 }
 

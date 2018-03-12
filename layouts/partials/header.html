@@ -39,8 +39,9 @@
 				<div class="nav-menu">
 					<ul>
 						{{ range .Site.Menus.main }}
+						{{ $section := index $.Site.Params.tooltips (replace .URL "/" "") }}
 						<li class="page_item"> 
-							<a href="{{ .URL }}index.html">{{ .Name }}</a>
+							<a href="{{ .URL }}index.html"{{ with $section.title }} title="{{ . }}"{{ end }}>{{ .Name | safeHTML }}</a>
 						</li>
 						{{ end }}
 					</ul>
