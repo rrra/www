@@ -1,7 +1,7 @@
 +++
 title = "Contact Information"
 date = "2017-11-05T19:09:00-06:00"
-aliases = [ "/mailing-address" ]
+aliases = [ "/mailing-address", /about/mailing-address" ]
 +++
 * [Board of Directors](#board-of-directors) (includes officers)
 * [Mailing Address](#mailing-address)
