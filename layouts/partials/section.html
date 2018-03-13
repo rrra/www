@@ -12,6 +12,11 @@
 						<a href="/">Home</a>
 					{{ end }}
 			</span>
+			<span class="vcard author" style="display;none;">
+				{{ range .Params.authors }}
+					<span="fn">{{ . }}</span>
+				{{ end }}
+			</span>
 		</div>
 
 		<h1 class="entry-title">{{ .Title | safeHTML }}</h1>

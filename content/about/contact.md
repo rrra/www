@@ -34,3 +34,17 @@ aliases = [ "/mailing-address", /about/mailing-address" ]
 
 Please direct all comments and questions about this website to the the
 {{< webmaster >}}.
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://rrra.org/",
+  "logo": "https://rrra.org/images/rrra-logo-2017.gif",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+1-701-526-4426",
+    "contactType": "customer service"
+  }]
+}
+</script>

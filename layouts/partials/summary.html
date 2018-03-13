@@ -25,7 +25,7 @@
 			</span>
 			<span class="vcard author byline">
 				{{ range .Params.authors }}
-					<a class="url nickname" href="{{ $baseurl }}/authors/{{ lower . | urlize }}/" rel="author">{{ . }}</a>
+					<a class="url nickname" href="{{ $baseurl }}/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</a></a>
 				{{ end }}
 			</span>
 		</div><!-- .entry-meta -->
