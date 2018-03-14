@@ -20,7 +20,7 @@ The required textbook has changed, beginning with the Spring 2018 Technician
 Classes, to the
 *HamRadioSchool.com Technician License Course book*.
 Students are strongly encouraged to visit our
-[Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}).
+[Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}})
 before purchasing their textbook.
 
 ---
