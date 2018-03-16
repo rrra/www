@@ -10,7 +10,8 @@
 
 				<div class="entry-meta">
 				{{ $rsstitle := .Title }}
-				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
+				{{ $rsspath := printf "/dates/%s" ( .Title | urlize ) }}
+				{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 					<span class="cat-links">
                 				<a href="/dates/" rel="tag">Dates</a>{{ if eq ( .Title | urlize ) "ncs-schedule" }} <a href="/nets/">Nets</a>{{ end }}
 					</span>

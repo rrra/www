@@ -21,7 +21,7 @@ extraneous words.
 One such tactical traffic net protocol is illustrated in a
 [Tactical Communications Exercise](http://www.rickscholz.net/aen-mar/Recordings2/?name=2012-03-18_20120227__aenmar.mp3)
 conducted during an 
- [AEN-MAR](post/2018/aen-mar-tactical-communications-exercise.md#about-aen-mar)
+ [AEN-MAR]({{< relref "post/2018/aen-mar-tactical-communications-exercise.md#about-aen-mar" >}})
 net. In this recording you will hear net participants practicing their tactical communication protocol as they check-in, submit their reports, and engage in discussion.
 
 <audio style="width:80%;" controls preload="none"> <source src="http://www.rickscholz.net/aen-mar/Recordings2/media/2012-03-18_20120227__aenmar.mp3" type="audio/mpeg">

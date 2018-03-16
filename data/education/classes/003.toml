@@ -1,6 +1,6 @@
 +++
 name = "Fall 2018 Technician"
-base = "fall-tech"
+base = "fall-technician"
 publish = "2018-07-16"
 first = "2018-08-15"
 last = "2018-09-19"

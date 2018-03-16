@@ -6,10 +6,10 @@ menu = "main"
 tags = [ "Repeaters", "Beacons" ]
 categories = [ "Technical" ]
 +++
-* [W0ILO Repeaters](/radios/_index.md#repeaters)
-* [W0ILO 10M Beacon](/radios/_index.md#10m-beacon)
-* [Red River Valley Repeater List](/radios/_index.md#red-river-valley-repeater-list)
-* [SuperLINK](/radios/_index.md#superlink)
+* [W0ILO Repeaters](/radios/#repeaters)
+* [W0ILO 10M Beacon](/radios/#10m-beacon)
+* [Red River Valley Repeater List](/radios/#red-river-valley-repeater-list)
+* [SuperLINK](/radios/#superlink)
 
 ### W0ILO 
 

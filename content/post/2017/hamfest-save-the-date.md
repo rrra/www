@@ -30,7 +30,7 @@ This is the largest Hamfest in North Dakota drawing attendees from 3 states and
 
 ### Where
 
-* [Red River Valley Fairgrounds Hartl Building, West Fargo, ND](/places/rrrv-fairgrounds-hartl-building/)
+* [Red River Valley Fairgrounds Hartl Building, West Fargo, ND](/places/rrv-fairgrounds-hartl-building/)
 
 ### Flea Market Vendors
 

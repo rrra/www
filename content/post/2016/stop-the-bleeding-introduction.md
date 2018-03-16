@@ -73,7 +73,7 @@ developed it, and what the training is for.
 >a protocol for national policy to enhance survivability from active shooter
 >and intentional mass casualty events. The committee's recommendations are
 >called the Hartford Consensus, and currently consist of four
->reports.[[4]({< relref "post/2016/stop-the-bleeding-introduction.md#footnotes" >}})]
+>reports.[[4]({{< relref "post/2016/stop-the-bleeding-introduction.md#footnotes" >}})]
 
 ### Footnotes
 

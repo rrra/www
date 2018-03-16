@@ -41,10 +41,10 @@ will be elected for a two year term.
 
 #### Officers
 
-A [President]({{relref "post/2018/officer-elections.md#president" >}}),
-[Vice-President]({{relref "post/2018/officer-elections.md#vice-president" >}}),
-[Secretary]({{relref "post/2018/officer-elections.md#secretary" >}}), and
-[Treasurer]({{relref "post/2018/officer-elections.md#treasurer" >}})
+A [President]({{< relref "post/2018/officer-elections.md#president" >}}),
+[Vice-President]({{< relref "post/2018/officer-elections.md#vice-president" >}}),
+[Secretary]({{< relref "post/2018/officer-elections.md#secretary" >}}), and
+[Treasurer]({{< relref "post/2018/officer-elections.md#treasurer" >}})
 will be elected for a one year term. In addition to serving as
 [members of the Board of Directors]({{< relref "bylaws.md#article-vi-board-of-directors" >}}),
 these Officers have the following responsibilities:

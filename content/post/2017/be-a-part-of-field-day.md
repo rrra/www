@@ -13,7 +13,7 @@ Radio](http://www.arrl.org/what-is-ham-radio)'s *open house*.
 It is a picnic, a campout, practice for emergencies, an informal contest and,
 most of all, *fun*!
 
-[{{< figure src="http://www.arrl.org/files/file/Field-Day/2017/2017%20Field%20Day%20Logo%20Web%20FINAL.jpg" link="none" >}}]({{< relref "post/2017/be-a-part-of-field-day.md#about-field-day" >}})
+[{{< figure src="http://www.arrl.org/files/file/Field-Day/2017/2017%20Field%20Day%20Logo%20Web%20FINAL.jpg">}}]({{< relref "post/2017/be-a-part-of-field-day.md#about-field-day" >}})
 
 <!--more-->
 ## About Field Day

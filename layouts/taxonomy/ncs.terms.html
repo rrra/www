@@ -12,7 +12,8 @@
 					<span class="cat-links">
 						<a href="/nets">Nets</a>
 					</span>
-					{{ partial "rss" ( dict "rsstitle" "NCS Roster" )  }}
+					{{ $rsspath := "/ncs" }}
+					{{ partial "rss" ( dict "rsstitle" "NCS Roster" "rsspath" $rsspath ) }}
 				</div>
 				<h1 class="entry-title">NCS Roster</h1>
 			</header>

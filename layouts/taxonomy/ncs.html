@@ -13,7 +13,8 @@
 						<a href="{{ $baseurl}}/ncs/" rel="tag">NCS Roster</a>
 					</span>
 					{{ $rsstitle := "NCS Assignments " | printf "%s %s" .Title | printf "%s" }}
-					{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
+					{{ $rsspath := printf "/ncs/%s" ( .Title | urlize ) }}
+					{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 				</div>
 				<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
 			</header>

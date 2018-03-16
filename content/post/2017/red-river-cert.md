@@ -58,7 +58,7 @@ Please email {{< mailto redrivercert name >}} or call [701-476-5991](tel:701-476
 
 ### Registration
 
-Please [register on-line](tinyurl.com/CassClayCERT)
+Please [register on-line](http://tinyurl.com/CassClayCERT)
 
 {{< figure
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg/640px-FEMA_-_7756_-_Photograph_by_Jocelyn_Augustino_taken_on_03-10-2003_in_Maryland.jpg"

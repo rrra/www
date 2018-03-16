@@ -8,7 +8,8 @@
 			<header class="archive-header">
 				{{ $cat := index .Site.Params.categories (.Title | urlize) }}
 				{{ $rsstitle := .Title }}
-				{{ partial "rss" ( dict "rsstitle" $rsstitle ) }}
+				{{ $rsspath := printf ( .Title | urlize ) | printf "/%s/%s" ( .Data.Plural ) }}
+				{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 				
 				<h1 class="archive-title">{{ if in .URL "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}Content in the {{ .Title | humanize | upper }} category{{ end }}</h1>
 				{{ with $cat.description }}
