@@ -30,7 +30,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   tel = "701-526-4426"         # Club Phone Number
   sitedate = "January 2, 2006" # Sitewide Date Format
 
-	sitedesc = "A nonprofit ARRL affiliated Amateur Radio club serving Fargo, ND; Moorhead, MN; and the surrounding area with communications support and educational outreach."
+	description = "A nonprofit ARRL affiliated Amateur Radio club serving Fargo, ND; Moorhead, MN; and the surrounding area with communications support and educational outreach."
 
 	# Used for SK pages
 	silentkeybase = "http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&"
