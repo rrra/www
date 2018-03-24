@@ -822,6 +822,7 @@ span + .edit-link:before,
 
 .site {
 	background-color: #fff;
+	margin: 0 auto;
 	max-width: 1260px;
 	position: relative;
 }
