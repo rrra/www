@@ -21,6 +21,12 @@ Registration for RRRA Spring 2018 Techician Classes is now open. Please
 * Purchase the [testbook]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}) 
 * Read textbook pages 1 to 51
 
+### Syllabus
+
+The 2018 Spring Technician Class Syllabus may be downloaded from the
+[Class Syllabus](https://cloud.rrra.org/index.php/s/2xabO1oD5mbpVRh)
+folder on the RRRA File Sharing Server.
+
 ### Topics
 
 * Course Overview
