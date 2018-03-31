@@ -7,7 +7,6 @@ endTime = "2018-05-05T13:00:00-05:00"
 location = "[Heritage Village, East Grand Forks MN](/places/heritage-village-east-grand-forks/)"
 title = "FORX Hamfest"
 dates = [ "Regional Hamfests" ]
-upcoming = "force"
 +++
 More information about this Hamfest is available at:
 

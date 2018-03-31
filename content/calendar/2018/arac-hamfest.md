@@ -1,13 +1,12 @@
 +++
 contact = "[arac_hamfest@charter.net](mailto:arac_hamfest@charter.net)"
 date = "2018-05-05T09:00:00-06:00"
-endTime = "2018-05-05T14:00:00-06:00"
+endTime = "2018-05-05T13:00:00-06:00"
 publishDate = "2017-12-01T00:00:00-05:00"
 location = "Head of the Lakes Fairgrounds, Superior, WI"
 title = "ARAC Hamfest"
 sponsor = "[Arrowhead Amateur Radio Club](http://www.thearac.org/)"
 dates = [ "Regional Hamfests" ]
-upcoming = "force"
 +++
 More information about this Hamfest is available at:
 
