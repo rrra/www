@@ -1,7 +1,7 @@
 +++
 date = "2018-04-02T13:11:09-05:00"
 #publishdate = "2018-04-05T13:11:09-05:00"
-title = "Lotw WAZ Support Goes Live"
+title = "LoTW WAZ Support Goes Live"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = [ "ARRL", "LoTW" ]
