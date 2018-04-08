@@ -1,7 +1,7 @@
 +++
 date = "2015-11-24T20:31:25-06:00"
 title = "Radio Systems in the Red River Valley"
-linktitle = "Radios<span style=\"display:none;\"> - beacon, repeaters & SuperLINK</span>"
+linktitle = "Radios<span style=\"display:none;\"> - repeaters & SuperLINK</span>"
 menu = "main"
 tags = [ "Repeaters", "Beacons" ]
 categories = [ "Technical" ]
@@ -29,12 +29,8 @@ Wheatland | 147.255 MHz | + | 123 Hz
 
 #### 10M Beacon
 
-The W0ILO 10 meter propagation beacon operates on 28286.5
-KHz in Sabin, Minnesota. Please see the
-[10M Beacon Page]({{< relref "10m-beacon.md" >}}) for technical details and
-a description of the beacon message.
-
-{{< beacon-reports >}}
+The W0ILO 10 meter propagation beacon, previously operating on 28286.5
+KHz, was deactivated on April 7, 2018.
 
 ### Red River Valley Repeater List
 
