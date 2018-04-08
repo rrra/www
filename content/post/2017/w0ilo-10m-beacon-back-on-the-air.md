@@ -21,8 +21,6 @@ On June 2nd AI0Q received several reports of reception: one from North
 Carolina and one from Alabama. Both stations received the W0ILO 10M
 Beacon via sporadic E propagation.
 
-{{< beacon-reports >}}
-
 ## About the W0ILO 10M Beacon
 
 * Operating frequency: 28286.5 KHz
