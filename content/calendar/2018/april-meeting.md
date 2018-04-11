@@ -9,3 +9,11 @@ dates = [ "Business Meetings" ]
 +++
 Please enter through the north
 doors adjacent to the 4th Ave E parking lot.
+
+### Presentation
+
+Power Point briefing about
+[FT8](https://www.wsjtx.net/home/ft8-mode.html)
+by {{< mailto KA0LDG >}} followed by a live
+demonstration using his portable station.
+
