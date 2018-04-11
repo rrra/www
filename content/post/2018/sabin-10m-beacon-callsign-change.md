@@ -11,7 +11,7 @@ The 10M Propagation Beacon; located in Sabin, MN, and operating at
 
 A *new* 10M Propagation Beacon using the call-sign WB0BIN, operating
 on the same frequency and from the same location in Sabin, was activated
-on April 9, 2018, at 02:00 UTC.
+on April 9, 2018, at 14:00 UTC.
 
 Please send beacon reception reports to {{< mailto AI0Q >}}.
 <!--more-->
