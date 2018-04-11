@@ -1,7 +1,7 @@
 +++
 title = "10M Beacon"
 date = "2018-02-27T09:53:00-06:00"
-tags = [ "Beacon" ]
+tags = [ "Beacons" ]
 categories = [ "Technical" ]
 aliases = [ "/beacon", "/10m-beacon" ]
 +++
