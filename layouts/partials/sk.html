@@ -85,9 +85,6 @@
 				{{ if in $needed "death|" }}<li>Date of Death</li>{{ end }}
 				{{ if in $needed "skhq|" }}<li>A memorial at the <a href="http://silentkeyhq.com">National Silent Key Archive</a></li>{{ end }}
 			</ul>
-			{{ if (in $needed "skhq|") }}
-				<p>{{ .Title | upper }}'s National Silent Key Archive Memorial (linked above) was incomplete as of {{ .Lastmod | dateFormat ( $sitedate ) }}.</p>
-			{{ end }}	
       <p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you can help complete this Silent Key Listing.</p>
 		{{ end }}
 
