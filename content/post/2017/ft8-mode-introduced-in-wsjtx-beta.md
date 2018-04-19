@@ -1,7 +1,7 @@
 +++
 authors = [ "K0STK" ]
 title = "New FT8 Mode included in WSJT-X Beta Release"
-tags = [ "ARRL", "WSJTX" ]
+tags = [ "ARRL", "Digital", "FT8", "WSJTX" ]
 slug = ""
 publishdate = "2017-07-20T01:40:50-05:00"
 description = ""
