@@ -8,4 +8,5 @@ photocredit = ""
 silentkeyhq = "0361523714113255"
 title = "W0UTT"
 created = "2018-04-13T21:52:42-05:00"
+tags = [ "RRRA Founder" ]
 +++

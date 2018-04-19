@@ -6,6 +6,6 @@ licensed = ""
 name = "Dr. Mark Covey"
 photocredit = "Korsmo Funeral Home"
 silentkeyhq = "0771467318704539"
-tags = [ "Founder: RRRA"]
+tags = [ "RRRA Founder"]
 title = "w0zqj"
 +++
