@@ -8,9 +8,10 @@ location = "[Heritage Village, East Grand Forks MN](/places/heritage-village-eas
 title = "FORX Hamfest"
 dates = [ "Regional Hamfests" ]
 +++
+{{< figure src="http://wa0jxt.org/2018%20Hamfest%20Flyer.jpg" attr="Forx Amateur Radio Club" attrlink="http://wa0jxt.org/" alt="FORX Hamfest Flyer" >}}
+
 More information about this Hamfest is available at:
 
 * [FORX Amateur Radio Club website](http://wa0jxt.org/)
 * [FORX Facebook page](https://www.facebook.com/ForxAmateurRadioClub/)
 
-<!-- or read the [hamfest flyer](http://wa0jxt.org/flyer.docx) -->
