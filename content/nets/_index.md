@@ -5,6 +5,8 @@ linktitle = "Nets<span style=\"display:none;\">, Preamble and NCS Roster</span>"
 menu = "main"
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
+description = "Take part in an RRRA traffic net. Includes links to NCS resources: net preamble, NCS schdule and roster."
+contact = "KD0TGA"
 +++
 ## RRRA Sunday VHF/UHF Net
 

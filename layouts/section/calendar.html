@@ -11,6 +11,10 @@
 
 			<header class="entry-header">
 				<h1 class="entry-title">Calendar Index</h1>
+				{{ $contact := .Params.contact }}
+				{{ if ne $contact nil }}
+					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+				{{ end }}
 			</header>
 
 			{{ $thismonth := printf "%s-01" (now | dateFormat "01") | printf "%s-%s" (now | dateFormat "2006") | printf "%s" }}
@@ -25,6 +29,7 @@
 				{{ end }}
 				</dl>
 
+			<p class="clear"></p>
 			{{ .Content }}
 			</div>
 

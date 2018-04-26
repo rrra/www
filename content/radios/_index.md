@@ -5,6 +5,7 @@ linktitle = "Radios<span style=\"display:none;\"> - repeaters & SuperLINK</span>
 menu = "main"
 tags = [ "Repeaters", "Beacons" ]
 categories = [ "Technical" ]
+contact = "W0HNV"
 +++
 * [W0ILO Repeaters](/radios/#repeaters)
 * [W0ILO 10M Beacon](/radios/#10m-beacon)

@@ -4,6 +4,8 @@ title = "Get Licensed ... Be a Ham"
 linktitle = "Be<span style=\"display:none;\">come</span> a Ham<span style=\"display:none;\"> Radio Operator</span>"
 menu = "main"
 categories = [ "Education", "License Testing" ]
+description = "Get started in Amateur Radio, or upgrade your current license, with the RRRA."
+contact = "W0HNV"
 +++
 * [Get started with the Red River Radio Amateurs](#get-started-with-the-red-river-Radio-Amateurs)
 * [What is Ham Radio?](#what-is-ham-radio)
@@ -13,14 +15,15 @@ categories = [ "Education", "License Testing" ]
 
 # Get started with the Red River Radio Amateurs
 
-RRRA offer periodic series of weekly classes in preparation for FCC Amateur
-Radio license tests followed, a week later, by a license testing session.
-Please follow our [education category](/categories/education/)
-for the latest news about RRRA education programs.
+RRRA offer periodic series of weekly classes in preparation for FCC
+Amateur Radio license tests followed, approximately a week later, by a
+license testing session.
 
-Our club holds
+Please see our [Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md" >}}) to find out about upcoming classes.
+
+Our club's
 [bi-monthly license testing sessions](/dates/license-testing/)
-which are open to everyone.
+are open to everyone. Reservations are appreciated but not required.
 
 # What is Ham Radio?
 

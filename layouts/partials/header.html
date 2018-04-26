@@ -4,8 +4,8 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
-	{{ if .IsHome }}<meta name="description" content="{{ .Site.Params.description}}" /> {{ end }}
-	<title>{{ if .IsPage }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }}</title>
+	{{ if .IsHome }}<meta name="description" content="{{ .Site.Params.description}}" />{{ else }}{{ with .Description }}<meta name="description" content="{{ . }}" />{{ end }}{{ end }}
+	<title>{{ if not .IsHome }}{{ with .Title }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Title }}</title>
 	<!--<link rel="profile" href="http://gmpg.org/xfn/11" />-->
 	{{ "<!--[if lt IE 9]>" | safeHTML }}
 	<script src="{{ .Site.BaseURL }}/js/html5.js"></script>

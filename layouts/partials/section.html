@@ -21,6 +21,11 @@
 
 		<h1 class="entry-title">{{ .Title | safeHTML }}</h1>
 
+		{{ $contact := .Params.contact }}
+		{{ if ne $contact nil }}
+			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+		{{ end }}
+
 		<div class="entry-meta">
 		</div><!-- .entry-meta -->
 

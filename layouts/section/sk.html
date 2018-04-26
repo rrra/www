@@ -12,6 +12,10 @@
 					<span class="cat-links"><a href="/">Home</a></span>
 				</div>
 				<h1 class="entry-title">RRRA Silent Keys</h1>
+				{{ $contact := .Params.contact }}
+				{{ if ne $contact nil }}
+					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+				{{ end }}
 			</header>
 
 			<div class="entry-content">

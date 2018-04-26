@@ -4,7 +4,6 @@ date = "2017-12-27T19:58:24-06:00"
 description = ""
 slug = ""
 title = "Education and Testing Schedule"
-authors = [ "K0STK" ]
 weight = -1
 aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/",
 	"/post/2017/12/21/2018-2019-education-and-testing-schedule/",

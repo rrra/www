@@ -3,6 +3,8 @@ date = "2015-11-21T10:15:34-06:00"
 title = "About Our Club"
 linktitle = "About<span style=\"display:none;\"> Our Club</span>"
 menu = "main"
+description = "Information about the RRRA: board of directors, bylaws, contact addresses, how to join, how to make a tax deductible donation, mission statement, and more ..."
+contact = "president"
 +++
 Red River Radio Amateurs is a nonprofit
 [ARRL affiliated Amateur Radio club](http://www.arrl.org/Groups/view/red-river-radio-amateurs-inc/type:club)
