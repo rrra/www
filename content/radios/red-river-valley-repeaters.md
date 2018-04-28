@@ -3,16 +3,14 @@ date = "2015-11-27T21:49:01-06:00"
 title = "Red River Valley Repeaters"
 tags = [ "Repeaters" ]
 categories = [ "Technical" ]
-
 +++
+2m and 70cm repeaters in the Red River Valley. 
 
-A list of 2m and 70cm repeaters in the Red River Valley. 
-<!--more-->
 Please contact the {{< webmaster >}}  with corrections and updates.
 
 Frequency | Offset | Tone | Callsign | Location | Notes
 ----------|--------|------|----------|----------|------
-145.350 | - | 123 | W0ILO | Moorhead, MN | Red River Radio Amatuers
+145.350 | - | 123 | W0ILO | Moorhead, MN | Red River Radio Amateurs
 444.875 | + | 123 | W0ILO | Moorhead, MN | Red River Radio Amateurs
 146.760 | - | 123 | W0ILO | Grandin, ND | Red River Radio Amateurs
 147.255 | + | 123 | W0ILO | Wheatland, ND | Red River Radio Amateurs
