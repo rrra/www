@@ -21,12 +21,12 @@ that covers Fargo-Moorhead and the surrounding area. The call-sign for these
 repeaters is the RRRA club call-sign, W0ILO. The following 
 RRRA sponsored repeaters available for use:
 
-Location | Frequency | Offset | Tone
----------|-----------|--------|------
-Moorhead VHF | 145.350 MHz | - | 123 Hz
-Moorhead UHF | 444.875 MHz | + | 123 Hz
-Grandin | 146.760 MHz | - | 123 Hz
-Wheatland | 147.255 MHz | + | 123 Hz
+Location | Frequency | Tone
+---------|-----------|-----
+Moorhead, MN | 145.350 MHz - | 123 Hz
+Moorhead, MN | 444.875 MHz + | 123 Hz
+Grandin, ND | 146.760 MHz - | 123 Hz
+Wheatland, ND | 147.255 MHz + | 123 Hz
 
 #### 10M Beacon
 
