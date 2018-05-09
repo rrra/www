@@ -4,35 +4,34 @@ title = "Red River Valley Repeaters"
 tags = [ "Repeaters" ]
 categories = [ "Technical" ]
 +++
-2m and 70cm repeaters in the Red River Valley. 
+Location | Callsign | Frequency | Notes
+---------|----------|-----------|------
+Barnesville, MN | KC0SD | {{< repeaterbook  "147.060 + T123" 27 113 >}} | [SuperLINK]({{< relref "radios/superlink.md" >}})
+Detroit Lakes, MN | W0EMZ | {{< repeaterbook  "147.195 +" 27 133 >}} | [Detroit Lakes ARC](http://w0emz.com/)
+Fargo, ND | KD0SWQ | 444.000 + | NDSU D-STAR Repeater
+Fargo, ND | KB0IXM | {{< repeaterbook  "145.490 - T82.5" 38 45 >}} | 
+Fargo, ND | W0HSC | {{< repeaterbook  "147.090 +" 38 22 >}} | NDSU Amateur Radio Society
+Fargo, ND | W0RRW | {{< repeaterbook  "146.970 -" 38 29 >}} | Ernie Anderson Memorial Station
+Fergus Falls, MN | K0QIK | {{< repeaterbook  "146.640 -" 27 51 >}} | [Lake Region ARC](https://lrarc.wordpress.com/)
+Fisher, MN | KC0SD | {{< repeaterbook  "146.700 - T123" 27 113 >}} | [SuperLINK]({{< relref "radios/superlink.md" >}})
+Grand Forks, ND | WA0JXT | {{< repeaterbook  "146.940 - T123" 38 17 >}} | [FORX ARC](wa0jxt.org)
+Grandin, ND | [W0ILO](/radios/) | {{< repeaterbook "146.760 - T123" 38 15 >}} | [RRRA](/)
+Karlstad, MN | KA0NWV | {{< repeaterbook  "145.470 - T123" 27 43 >}} | [SuperLINK]({{< relref "radios/superlink.md" >}}), [Echolink Node 23832](https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=23832&type=search)
+Mayville, ND | W0ZKU | {{< repeaterbook  "146.910 -" 38 38 >}} | 
+Moorhead, MN | [W0ILO](/radios/) | {{< repeaterbook "145.350 - T123" 27 33 >}} | [RRRA](/)
+Moorhead, MN | [W0ILO](/radios/) | {{< repeaterbook "444.875 + T123" 27 267 >}} | [RRRA](/)
+Sabin, MN | WB0BIN | {{< repeaterbook  "146.895 - T100" 27 11491 >}} | 
+Sisseton, SD | W0WM | {{< repeaterbook  "146.880 -" 46 7080 >}} | 
+Valley City, ND | W0SRH | {{< repeaterbook  "146.790 -" 38 44 >}} | 
+Wahpeton, ND | W0END | {{< repeaterbook  "147.375 +" 38 23 >}} | NDSCS Amateur Station
+Wahpeton, ND | W0END | {{< repeaterbook  "443.800 +" 38 25 >}} | NDSCS Amateur Station
+Wheatland, ND | [W0ILO](/radios/) | {{< repeaterbook "147.255 + T123" 38 6641 >}} | [RRRA](/)
 
-Please contact the {{< webmaster >}}  with corrections and updates.
+<span class="genericon genericon-warning"></span>
+**Please contact the {{< webmaster >}} with additions or corrections for
+this list.**
 
-Frequency | Offset | Tone | Callsign | Location | Notes
-----------|--------|------|----------|----------|------
-145.350 | - | 123 | W0ILO | Moorhead, MN | Red River Radio Amateurs
-444.875 | + | 123 | W0ILO | Moorhead, MN | Red River Radio Amateurs
-146.760 | - | 123 | W0ILO | Grandin, ND | Red River Radio Amateurs
-147.255 | + | 123 | W0ILO | Wheatland, ND | Red River Radio Amateurs
-146.970 | - | - | W0RRW | Fargo, ND | Ernie Anderson Memorial Station
-147.090 | + | - | W0HSC | Fargo, ND | NDSU Amateur Radio Society
-444.000 | + | - | KD0SWQ | Fargo, ND | NDSU D-STAR Repeater
-145.490 | - | 82.5 | KB0IXM | Fargo, ND | 
-146.895 | - | 100 | WB0BIN | Sabin, MN | 
-147.060 | + | 123 | KC0SD | Barnesville, MN | Barnesville Superlink - Also tied to Fisher and Karlstad
-146.700 | - | 123 | KC0SD | Fisher, MN | Barnesville Superlink - Also tied to Barnesville and Karlstad
-145.470 | - | 123 | KA0NWV | Karlstad, MN | Barnesville Superlink - Also tied to Barnesville and Fisher - Echolink Node 23832
-147.375 | + | - | W0END | Wahpeton, ND | NDSCS Amateur Station
-146.880 | - | - | W0WM | Sisseton, SD | 
-146.640 | - | - | K0QIK | Fergus Falls, MN | Fergus Falls Lake Region ARC
-147.195 | + | - | W0EMZ | Detroit Lakes, MN Detroit Lakes ARC
-146.940 | - | 123 | WA0JXT | Grand Forks, ND | FORX ARC
-146.910 | - | - | W0ZKU | Mayville, ND | 
-146.790 | - | - | W0SRH | Valley City, ND | 
-
-# Other Repeater Lists
+## Repeater Search
 
 * [Repeater Book - North Dakota](https://www.repeaterbook.com/repeaters/index.php?state_id=38)
-* [artsci - North Dakota Repeaters](http://www.artscipub.com/repeaters/search/index.asp?state=North-Dakota)
-* [K1IW Amateur Repeater and Broadcast Transmitters Database Websearch](http://rptr.amateur-radio.net/)
-* [K1IW Amateur Repeater and Broadcast Transmitters Database Websearch (mobile version)](http://rptr.amateur-radio.net/mobile.html)
+* [Repeater Book - Minnesota](https://www.repeaterbook.com/repeaters/index.php?state_id=27)

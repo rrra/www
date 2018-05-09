@@ -10,12 +10,33 @@
 
 <tbody>
 {{ range sort $.Site.Data.nets ".sort" }}
-<tr>
-	<td>{{ .date | markdownify }}</td>
-	<td>{{ .id | markdownify }}</td> 
-	<td>{{ .freq | markdownify }}</td>
-	<td>{{ .contact }}</td>
-</tr>
+
+	<tr>
+		<td>{{ .date | markdownify }}</td>
+		<td>{{ .id | markdownify }}</td> 
+		<td>{{ .freq | markdownify }}</td>
+		<td>
+		{{ $sign := .contact }}
+		{{ $recip := index $.Page.Site.Data.call $sign }}
+		{{ if ne $recip nil }}
+  		{{ if gt  $recip.email "" }}
+    		{{ $email := "</a><span class=\"genericon genericon-mail\"></span>" | printf "%s%s" ( $sign ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
+    		<script type="text/javascript">
+    		function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
+    		X=('{{ $email | base64Encode }}')
+    		document.write(f(X))
+    		</script>
+    		<noscript>
+    		{{ $sign }}
+    		</noscript>
+  		{{ else }}
+    		{{ $sign }}
+  		{{ end }}
+		{{ else }}
+			{{ $sign }}
+		{{ end }}
+		</td>
+	</tr>
 {{ end }}
 </tbody>
 

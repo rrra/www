@@ -9,12 +9,10 @@ contact = "W0HNV"
 +++
 * [W0ILO Repeaters](/radios/#repeaters)
 * [W0ILO 10M Beacon](/radios/#10m-beacon)
-* [Red River Valley Repeater List](/radios/#red-river-valley-repeater-list)
-* [SuperLINK](/radios/#superlink)
+* [Red River Valley Repeater List]({{< relref "radios/red-river-valley-repeaters.md" >}})
+* [SuperLINK]({{< relref "radios/superlink.md" >}})
 
-### W0ILO 
-
-#### Repeaters
+## W0ILO Repeaters 
 
 The Red River Radio Amateurs operate and maintain a linked repeater system
 that covers Fargo-Moorhead and the surrounding area. The call-sign for these
@@ -28,20 +26,21 @@ Moorhead, MN | 444.875 MHz + | 123 Hz
 Grandin, ND | 146.760 MHz - | 123 Hz
 Wheatland, ND | 147.255 MHz + | 123 Hz
 
-#### 10M Beacon
+## 10M Beacon
 
 The W0ILO 10 meter propagation beacon, previously operating on 28286.5
 KHz, was deactivated on April 7, 2018.
 
+
 ### Red River Valley Repeater List
 
-[2m and 70cm repeaters in the Red River Valley]({{< relref "radios/red-river-valley-repeaters.md" >}})
+A list of [repeaters in the Red River Valley]({{< relref "radios/red-river-valley-repeaters.md" >}}) which are accessible from the Fargo/Moorhead area.
 
 ### SuperLINK
 
-[SuperLINK]({{< relref "radios/superlink.md" >}}) is a Amateur Radio
-repeater linking system that links together 2 meter repeaters located
+[SuperLINK]({{< relref "radios/superlink.md" >}}) is an Amateur Radio
+repeater linking system which links together 2 meter repeaters located
 along Interstate 94 from the Western Border of North Dakota, through
-Minnesota and into Wisconsin. It also has links that go north to
+Minnesota, and into Wisconsin. It also has links extending north to
 Winnipeg, Canada.
-
+ 
