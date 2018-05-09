@@ -15,6 +15,8 @@ most of all, *fun*!
 Field Day is held on the 4th weekend in June; in 2018 that
 is 1:00PM CDT Saturday, June 23rd, to 3:59PM CDT Sunday, June 24th. 
 
+<!--more-->
+
 ## Fargo / Moorhead Area Field Day Sites
 
 * [Red River Radio Amateurs---West Fargo, ND]({{< relref "calendar/2018/field-day.md" >}})
@@ -23,8 +25,6 @@ is 1:00PM CDT Saturday, June 23rd, to 3:59PM CDT Sunday, June 24th.
 Please use the
 [ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator)
 to find other Field Day sites.
-
-<!--more-->
 
 {{< figure src="http://www.arrl.org/files/file/Field-Day/2018/2018%20ARRL%20Field%20Day%20Logo%20DOWNLOAD.jpg" attr="ARRL" attrlink="http://www.arrl.org/field-day" >}}
 
@@ -40,7 +40,8 @@ expedient antennas and off-the-grid power such as solar or generators.
 
 Social media users may
 [follow Field Day on Facebook](https://www.facebook.com/events/1753742661610196/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A20069212407%2C%22action_history%22%3A%5B%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A20069212407%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D%5D%2C%22has_source%22%3Atrue%7D) and on Twitter using the
-[#ARRLFD](https://twitter.com/search?q=%23arrlfd&src=typd) hash tag. 
+[#ARRLFD](https://twitter.com/search?q=%23arrlfd&src=typd) or
+[#IGC](https://twitter.com/search?q=%23igc&src=typd) hash tags. 
 
 Amateur Radio operators who will not be at a Field Day site are
 encouraged to get *on the air* and contact those sites.
