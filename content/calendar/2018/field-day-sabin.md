@@ -1,7 +1,7 @@
 +++
 location = "Sabin, MN"
 title = "Field Day 2018 Sabin"
-endTime = "2018-06-24T18:59:00-05:00"
+endTime = "2018-06-24T15:59:00-05:00"
 date = "2018-06-23T13:00:00-05:00"
 publishDate = "2017-11-01T01:00:00-05:00"
 contact = "KA0ZLG"

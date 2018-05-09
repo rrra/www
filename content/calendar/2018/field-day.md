@@ -2,7 +2,7 @@
 location = "[Cass County Highway Department](/places/cass-county-highway-department/)"
 title = "Field Day 2018 West Fargo"
 date = "2018-06-23T13:00:00-05:00"
-endTime = "2018-06-24T18:59:00-05:00"
+endTime = "2018-06-24T15:59:00-05:00"
 publishDate = "2017-11-01T01:00:00-05:00"
 contact = "KK0V"
 dates = [ "Outreach" ]
