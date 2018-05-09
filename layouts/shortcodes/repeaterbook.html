@@ -1,0 +1,4 @@
+{{ $call := index .Params 0 }}
+{{ $state := index .Params 1 }}
+{{ $id := index .Params 2 }}
+<a href="https://www.repeaterbook.com/repeaters/details.php?state_id={{ $state }}&ID={{ $id }}">{{ $call }}</a>
