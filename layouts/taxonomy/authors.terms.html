@@ -8,15 +8,12 @@
 			<header class="entry-header">
 				{{ $baseurl := .Site.BaseURL }}
 
-			<header class="archive-header">
-				<h1 class="archive-title">Index of contributing authors</h1>
-				{{ $cat := index .Site.Params.categories (.Title | urlize) }}
-				{{ with $cat.description }}
-					<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
-				{{ end }}
+			<header class="entry-header">
+				<h3 class="entry-title">Contributing Authors</h3>
 			</header>
 
 			<div class="entry-content" style="padding-bottom:1em;">
+				<!--<p>Prospective authors are encouraged to read the contribution guidelines.</p>-->
 				<dl id="list">
 					<dt class="twocol" style="width:10em; font-weight: normal;">{{ .Title | singularize }}</dt>
 					<dd class="twocol">Contributions</dd>
