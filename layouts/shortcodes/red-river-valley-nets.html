@@ -1,0 +1,23 @@
+<table>
+<thead>
+<tr>
+<th>Day &amp; Time</th>
+<th>ID</th>
+<th>Frequency</th>
+<th>Contact</th>
+</tr>
+</thead>
+
+<tbody>
+{{ range sort $.Site.Data.nets ".sort" }}
+<tr>
+	<td>{{ .date | markdownify }}</td>
+	<td>{{ .id | markdownify }}</td> 
+	<td>{{ .freq | markdownify }}</td>
+	<td>{{ .contact }}</td>
+</tr>
+{{ end }}
+</tbody>
+
+</table>
+
