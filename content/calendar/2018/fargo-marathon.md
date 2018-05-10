@@ -7,13 +7,19 @@ location = "Fargo / Moorhead Area"
 title = "Fargo Marathon 2018"
 dates = [ "Public Service" ]
 +++
-RRRA communications support for the Fargo Marathon will be coordinated through
-the
+RRRA communication support for the Fargo Marathon will be coordinated
+through the
 [Marathon Mailing List](https://lists.rrra.org/mailman/listinfo/marathon);
 all operators who wish to volunteer for this event must subscribe to the
 Marathon Mailing List.
 
-### Subscribing to the mailing list
+The RRRA Marathon Operations Plan, along with other related documents,
+will be available for download from the ***Marathon 2018*** folder on the
+[RRRA File Sharing Server](https://cloud.rrra.org/index.php/login).
+Availability of these documents will be announced on the Marathon
+Mailing List.
+
+## Subscribing to the mailing list
 
 1. Visit the
 [Marathon List Information
@@ -35,7 +41,7 @@ request has been approved.
 Please contact the {{< webmaster >}} if you need help with the mailing
 list.
 
-### Equipment Needed
+## Required Equipment 
 
 * Radio (VHF at a minimum, dual-band prefered) able to communicate with [W0ILO](/radios/) and [W0RRW](/radios/red-river-valley-repeaters/)
 * Power supply for 8 hours of operation (ample batteries or other power source)
@@ -43,7 +49,9 @@ list.
 * RRRA credentials
 * Water
 
-#### Optional items
+### Optional items
+
+* [ICS 309 Communication Log Forms](http://www.minnesotaares.org/files/ICS%20309.pdf), pens, clipboard
 * Shelter or rain gear (the race runs rain or shine)
 * Chair
 * Table
