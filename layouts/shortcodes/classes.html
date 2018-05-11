@@ -9,7 +9,7 @@
 </thead>
 
 <tbody>
-{{ range $.Site.Data.education.classes }}
+{{ range sort $.Site.Data.education.classes ".first" }}
 {{ if ge ( .last | dateFormat "2006" ) ( now.Format "2006" ) }}
 <tr>
 {{ if gt ( now.Format "2006-01-02" ) .publish }}
