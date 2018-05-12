@@ -2,11 +2,10 @@
 
 	<header class="entry-header">
 		<h2 class="entry-title">Upcoming Events</h2>
-		<span style="display: none;">
-			<time class="updated">{{ now }}</time>
-			<author class="vcard author"><span class="email">webmaster@rrra.org</span></author>
-		</span>
 	</header>
+
+	<time class="updated" datetime="{{ now | dateFormat "2006-01-02T03:04:05-07:00" }}" ></time>
+	<author class="vcard author" style="display:none;"><span class="email">webmaster@rrra.org</span></author>
 
 <div class="entry-content">
 {{ $.Scratch.Set "today" "" }} <!-- daily date sequence scratch pad-->
