@@ -852,10 +852,10 @@ span + .edit-link:before,
 	background: url(/images/sprites.001.gif) -82px -150px;
 }
 
-#cc-by-sa-badge {
+#hosted-at-badge {
 	height: 15px;
 	width: 80px;
-	background: url(/images/sprites.001.gif) 0 -184px;
+	background: url(/images/sprites.001.gif) 0 -150px;
 }
 
 #dakota-division-badge {
@@ -864,10 +864,10 @@ span + .edit-link:before,
 	background: url(/images/sprites.001.gif) 0 -167px;
 }
 
-#hosted-at-badge {
+#cc-by-sa-badge {
 	height: 15px;
 	width: 80px;
-	background: url(/images/sprites.001.gif) 0 -150px;
+	background: url(/images/sprites.001.gif) 0 -184px;
 }
 
 #hugo-badge {
@@ -887,6 +887,12 @@ span + .edit-link:before,
 	width: 80px;
 	background: url(/images/sprites.001.gif) 0 -235px;
 }
+#nd-section-badge {
+	height: 15px;
+	width: 80px;
+	background: url(/images/sprites.001.gif) 0 -252px;
+}
+
 
 /**
  * 4.0 Header
