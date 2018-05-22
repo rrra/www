@@ -7,15 +7,20 @@ categories = [ "Public Service" ]
 tags = [ "Photos" ]
 +++
 On April 28 a group of RRRA members---led by N0IPC---provided
-communication support in the vicinity of West Fargo Veterans Memorial Arena
-for the 2018 MS Walk.
+communication support in the vicinity of West Fargo Veterans Memorial
+Arena for the 2018 MS Walk.
+
+Five stations and a SAG vehicle were staffed by these operators. The SAG
+vehicle was donated by
+[Gateway Chevrolet](https://www.gatewayfargo.com/).
+
 <!--more-->
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/rrra-fargo/28239411088/" title="2018 MS WALK Radio Operators"><img src="https://farm1.staticflickr.com/955/28239411088_b01128096c.jpg" width="500" height="281" alt="2018 MS WALK Radio Operators"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 The operators for this event were (l to r):
 
-* N0IPC
+* N0IPC (NCS operator)
 * KC0GQE
 * KC0HIG
 * N0TSZ
