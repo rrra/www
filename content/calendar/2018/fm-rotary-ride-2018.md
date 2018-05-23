@@ -9,5 +9,5 @@ dates = [ "Public Service" ]
 +++
 More information about the FM Rotary Ride 2018 is available on the
 [RRRA announcement page]({{< relref "post/2018/fm-rotary-ride-2018.md" >}})
-or at the [event web-site](http://www.fmrotaryride.com/).
+or at the [event website](http://www.fmrotaryride.com/).
 
