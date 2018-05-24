@@ -7,6 +7,7 @@ publishDate = "2017-11-01T01:00:00-05:00"
 contact = "KA0ZLG"
 dates = [ "Outreach" ]
 upcoming = "force"
+draft = true
 +++
 
 ## Field Day Site Location
