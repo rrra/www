@@ -9,6 +9,8 @@ dates = [ "Outreach" ]
 +++
 <!--
 The RRRA Communications Trailer will be set up to promote Amateur Radio.
-
 Set up time is 3pm.
 -->
+More information about this event is available on the
+[City of Fargo Annual Community Picnic](http://fargond.gov/city-government/departments/police/community-programs/annual-community-picnic)
+page.
