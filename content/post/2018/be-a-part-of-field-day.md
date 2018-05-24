@@ -15,8 +15,6 @@ most of all, *fun*!
 Field Day is held on the 4th weekend in June; in 2018 that
 is 1:00PM CDT Saturday, June 23rd, to 3:59PM CDT Sunday, June 24th. 
 
-<!--more-->
-
 ## Fargo / Moorhead Area Field Day Sites
 
 * [Red River Radio Amateurs---West Fargo, ND]({{< relref "calendar/2018/field-day.md" >}})
@@ -25,6 +23,8 @@ is 1:00PM CDT Saturday, June 23rd, to 3:59PM CDT Sunday, June 24th.
 Please use the
 [ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator)
 to find other Field Day sites.
+
+<!--more-->
 
 {{< figure src="http://www.arrl.org/files/file/Field-Day/2018/2018%20ARRL%20Field%20Day%20Logo%20DOWNLOAD.jpg" attr="ARRL" attrlink="http://www.arrl.org/field-day" >}}
 
