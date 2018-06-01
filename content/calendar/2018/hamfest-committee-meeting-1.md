@@ -3,11 +3,9 @@ contact = "W0HNV"
 date = "2018-06-10T15:00:00-05:00"
 endTime = "2018-06-10T16:00:00-05:00"
 publishDate = "2018-05-01"
-endTime = ""
 location = "Mom's Diner"
 title = "Hamfest Committee Meeting"
 dates = [ "Hamfest Committee" ]
-#outputs = [ "HTML", "Calendar" ]
 +++
 It's time to start planning for the 2018 ARRL Dakota Division Convention
 and RRRA Hamfest. This is the largest Hamfest in North Dakota drawing
