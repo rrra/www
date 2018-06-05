@@ -7,6 +7,7 @@ location = "Head of the Lakes Fairgrounds, Superior, WI"
 title = "ARAC Hamfest"
 sponsor = "[Arrowhead Amateur Radio Club](http://www.thearac.org/)"
 dates = [ "Regional Hamfests" ]
+outputs = [ "HTML", "Calendar" ]
 +++
 More information about this Hamfest is available at:
 

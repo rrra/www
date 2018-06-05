@@ -7,6 +7,7 @@ location = "[Mountrail Courthouse](https://www.google.com/maps/place/101+N+Main+
 title = "Stanley Hamfest"
 sponsor = "Prairie Hills Ham Radio Association (K0PHH)"
 dates = [ "Regional Hamfests" ]
+outputs = [ "HTML", "Calendar" ]
 +++
 More information about this Hamfest is available at:
 

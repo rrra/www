@@ -1,0 +1,18 @@
+{{ if eq "calendar" .Section -}}
+BEGIN:VCALENDAR
+PRODID:-//hugo-{{ .Hugo.Version }}//Calendar//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+{{ partial "ics-tzid.html" -}}
+BEGIN:VEVENT
+UID:{{ .Permalink | md5 }}@{{ .Site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
+CREATED:{{ with .Params.created -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}{{ with .PublishDate -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}.Date.Format "20060102T150405\n" }}{{ end -}}{{ end -}}
+DTSTAMP:{{ .PublishDate.Format "20060102T150405" }}
+DTSTART;TZID=America/Chicago;VALUE=DATE-TIME:{{ .Date.Format "20060102T150405" }}
+{{ with .Params.endTime -}}DTEND;TZID=America/Chicago;VALUE=DATE-TIME:{{ . | dateFormat "20060102T150405\n" }}{{ end -}}
+SUMMARY;ENCODING=QUOTED-PRINTABLE:RRRA {{ .Title }}
+{{ with .Params.location -}}LOCATION;ENCODING=QUOTED-PRINTABLE:{{ . | replaceRE "\\(.*\\)" "" | replaceRE "[\\[\\]]" "" | printf "%s\n" }}{{ end -}}
+URL:{{ .Permalink }}
+END:VEVENT
+END:VCALENDAR
+{{ end -}}

@@ -7,4 +7,5 @@ location = ""
 title = "UHF/VHF Net 41"
 categories = [ "Public Service" ]
 dates = [ "NCS Schedule" ]
+outputs = [ "HTML", "Calendar" ]
 +++

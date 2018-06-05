@@ -30,3 +30,18 @@
 </div><!-- #main-content -->
 
 {{ partial "footer.html" . }}
+
+{{/*
+
+nested where clauses to drill down
+{{ range where (where .Data.Pages "Section" "blog" ) ".Params.featured" "!="  "true" }}
+
+testing for this year
+{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
+{{ if or ($edu) (ge .Key $thisyear) }}
+
+counting pages
+{{ $posts := (where .Site.RegularPages "Section" "==" "post") }}
+{{ $postCount := len $posts }}
+
+*/}}

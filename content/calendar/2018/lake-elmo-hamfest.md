@@ -7,6 +7,7 @@ location = "Lake Elmo, MN"
 title = "Lake Elmo Hamfest"
 sponsor = "[St. Paul Radio Club](http://www.stpaulradioclub.org/)"
 dates = [ "Regional Hamfests" ]
+outputs = [ "HTML", "Calendar" ]
 +++
 **Times are not confirmed**
 

@@ -7,6 +7,7 @@ location = "[St. Cloud Armory](https://goo.gl/maps/4gKAVWyTLAE2)"
 title = "Cabin Fever Reliever"
 sponsor = "[St. Cloud Amateur Radio Club](http://www.w0sv.net/)"
 dates = [ "Regional Hamfests" ]
+outputs = [ "HTML", "Calendar" ]
 +++
 Please visit the
 [ARRL Cabin Fever Reliever Hamfest page](http://www.arrl.org/hamfests/cabin-fever-reliever-hamfest-4)

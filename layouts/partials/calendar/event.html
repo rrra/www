@@ -42,6 +42,9 @@
 			</div>
 		</div>
 		<h1 class="p-name entry-title">{{ .Title }}</h1>
+		{{ with  .OutputFormats.Get "calendar" -}}
+			<span class="genericon genericon-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Subscribe to automatic calendar updates for this single event using webcal" href="{{ .Permalink | safeURL }}">Subscribe</a> &bull; <a style="text-decoration: none;" title="Import this single event to your calendar (ICS)" href="{{ .RelPermalink | safeURL }}">Import to your calendar</a>
+		{{- end }}
 	</header>
 	<div class="entry-content">
 		<dl>

@@ -17,6 +17,9 @@
 					</span>
 				</div>
 				<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
+    		{{ with  .OutputFormats.Get "calendar" -}}
+      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Subscribe to automatic calendar updates for this series of events using webcal" href="{{ .Permalink | safeURL }}">Subscribe</a> &bull; <a style="text-decoration: none;" title="Import this series of events to your calendar (ICS)" href="{{ .RelPermalink | safeURL }}">Import to your calendar</a></dd>
+    		{{- end }}
 			</header>
 
 			<div class="entry-content" style="padding-bottom:1em;">
@@ -33,6 +36,7 @@
 				{{ $thisyear := now | dateFormat "2006" }}
 				{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
 				{{ $edu := intersect $classes  (split .Title " ")  }}
+
 
 				{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
 					{{ if or ($edu) (ge .Key $thisyear) }}	

@@ -1,7 +1,11 @@
 +++
+created = "{{ .Date }}"
 date = "{{ .Date }}"
-endTime = ""
+#endTime = "{{ .Date }}"
+#publishDate = "{{ .Date }}"
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 location = ""
 contact = ""
+dates = [ "" ]
+outputs = [ "HTML", "Calendar" ]
 +++

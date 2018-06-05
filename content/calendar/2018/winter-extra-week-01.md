@@ -7,6 +7,7 @@ location = "West Fargo Public Library"
 title = "Winter Extra Class Week 1"
 categories = [ "Education" ]
 dates = [ "Winter 2018 Extra" ]
+outputs = [ "HTML", "Calendar" ]
 topics = [ "Sign in", "Introductions" ]
 +++
 Registration for RRRA Winter 2018 Extra Classes is now open. This series of

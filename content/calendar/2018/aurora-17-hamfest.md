@@ -7,6 +7,7 @@ location = "[White Bear Lake, MN](https://www.google.com/maps/place/Community+of
 title = "Aurora '18 Hamfest"
 sponsor = "[Northern Lights Radio Society](http://www.nlrs.org/)"
 dates = [ "Regional Hamfests" ]
+outputs = [ "HTML", "Calendar" ]
 +++
 Please visit the 
 [ARRL Aurora '18 Hamfest page](http://www.arrl.org/hamfests/aurora-18)

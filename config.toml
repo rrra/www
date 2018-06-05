@@ -22,6 +22,10 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   ncs = "ncs"
   authors = "authors"
 
+[outputs]
+	taxonomy = [ "HTML", "Calendar" ]
+	taxonomyTerm = [ "HTML", "Calendar" ]
+
 [permalinks]
 	post = "/post/:year/:month/:day/:slug/"
 	calendar = "/cal/:year/:month/:day/:slug/"
