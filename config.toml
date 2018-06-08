@@ -23,8 +23,11 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   authors = "authors"
 
 [outputs]
-	taxonomy = [ "HTML", "Calendar" ]
-	taxonomyTerm = [ "HTML", "Calendar" ]
+	page = [ "HTML" ]
+	home = [ "HTML", "RSS" ]
+	section = [ "HTML", "RSS" ]
+	taxonomy = [ "Calendar", "HTML", "RSS" ]
+	taxonomyTerm = [ "Calendar", "HTML", "RSS" ]
 
 [permalinks]
 	post = "/post/:year/:month/:day/:slug/"
