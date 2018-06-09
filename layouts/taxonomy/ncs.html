@@ -10,13 +10,16 @@
 
 				<div class="entry-meta">
 					<span class="cat-links">
-						<a href="{{ $baseurl}}/ncs/" rel="tag">NCS Roster</a>
+						<a href="{{ $baseurl}}/ncs/" rel="tag">NCS Roster</a> 
 					</span>
 					{{ $rsstitle := "NCS Assignments " | printf "%s %s" .Title | printf "%s" }}
 					{{ $rsspath := printf "/ncs/%s" ( .Title | urlize ) }}
 					{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 				</div>
 				<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
+    		{{ with  .OutputFormats.Get "calendar" -}}
+      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these NCS assignments" href="{{ .Permalink | safeURL }}">Subscribe to these assignments</a> &bull; <a style="text-decoration: none;" title="Import these NCS assignments as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
+    		{{- end }}
 			</header>
 
 			<div class="entry-content" style="padding-bottom:1em;">

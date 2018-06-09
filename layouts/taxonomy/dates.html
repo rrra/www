@@ -18,7 +18,7 @@
 				</div>
 				<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
     		{{ with  .OutputFormats.Get "calendar" -}}
-      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic updates for iCalendar" href="{{ .Permalink | safeURL }}">Subscribe to these dates</a> &bull; <a style="text-decoration: none;" title="Import these dates as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
+      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these {{ $.Title | singularize }} dates" href="{{ .Permalink | safeURL }}">Subscribe to these dates</a> &bull; <a style="text-decoration: none;" title="Import these {{ $.Title | singularize }} dates as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
     		{{- end }}
 			</header>
 
