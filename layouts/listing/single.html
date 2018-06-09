@@ -19,7 +19,7 @@
 				</div>
 
 				<h1 class="entry-title">{{ $timeperiod }}</h1>
-      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for the RRRA Annual Calendar" href="{{ .Permalink | safeURL }}">Subscribe to calendar</a> &bull; <a style="text-decoration: none;" title="Import the RRRA Annual Calendar as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
+      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for the RRRA Annual Calendar" href="{{ "/calendar/index.ics" | printf "%s%s" ( $baseurl | replaceRE "^https?:" "webcal:" ) | safeURL }}">Subscribe to calendar</a> &bull; <a style="text-decoration: none;" title="Import the RRRA Annual Calendar as an ICS file" href="{{ safeURL "/calendar/index.ics" }}">ICS download</a>
 			</header>
 
 			<div class="entry-content" style="padding-bottom:1em;">
