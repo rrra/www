@@ -4,6 +4,7 @@ title = "Calendar of events"
 linktitle = "Calendar<span style=\"display:none;\"> Of Events</span>"
 description = "Club and regional events."
 contact = "webmaster"
+outputs = [ "Calendar", "HTML", "RSS" ]
 [menu.main]
 url = "/calendar/0/"
 +++
