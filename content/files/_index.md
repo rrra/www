@@ -8,3 +8,4 @@ contact = "webmaster"
 +++
 :information_source: Club members have access to more resources on the
 [RRRA File Sharing Server](https://cloud.rrra.org/)
+<!--more-->

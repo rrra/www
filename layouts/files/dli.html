@@ -1,12 +1,11 @@
-{{ $baseurl := .Site.BaseURL }}
+{{ $baseurl := .Site.BaseURL -}}
 <dt style="vertical-align:baseline;">
-{{ if and (gt .Params.filename "") (eq .Params.linkdest "") }}
+{{ if eq "" .Params.linkdest -}}
 <span alt="File:" class="genericon genericon-document"></span>
-<a href="{{ $baseurl }}/files/{{ .Params.filename | urlize }}">{{ .Title | safeHTML }}</a>
-{{ end }}
-{{ if and (gt .Params.linkdest "") (eq .Params.filename "") }}
+<a href="{{ if eq "" .Params.filename -}}{{ .RelPermalink -}}{{ else -}}{{ .Params.filename -}}{{ end -}}">{{ .Title | safeHTML -}}</a>
+{{ else -}}
 <span alt="Link" class="genericon genericon-external"></span>
-<a href="{{ .Params.linkdest }}" rel="nofollow" >{{ .Title | safeHTML }}</a>
-{{ end }}
+<a href="{{ .Params.linkdest -}}" rel="nofollow" >{{ .Title | safeHTML -}}</a>
+{{ end -}}
 </dt>
-<dd>{{ .Content }}</dd>
+<dd>{{ .Summary -}}</dd>
