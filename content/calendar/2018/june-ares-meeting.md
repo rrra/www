@@ -8,5 +8,16 @@ title = "June ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-Please enter through the north
-doors adjacent to the 4th Ave E parking lot.
+Please enter through the north doors adjacent to the 4th Ave E parking lot.
+
+### Agenda
+
+#### AREDN Equipment Check
+
+* Check RRRA and personal AREDN equipment (assembly and programming) to ensure it is usable
+* Test equipment operation, if possible
+
+#### Field Day Testing
+
+* Discuss, and make a decision about, conducting an AREDN test in conjunction with [Field Day 2018]({{< relref "calendar/2018/field-day.md" >}})
+(Saturday, June 23rd)
