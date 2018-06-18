@@ -7,7 +7,7 @@ categories = [ "Public Service" ]
 tags = [ "ARES" ]
 +++
 Cass County will be issuing new Radio Operator ID Badges for RRRA ARES
-participants. The issuance process for these badges includes a backgound
+participants. The issuance process for these badges includes a background
 check.
 
 While these badges are not required for participation in ARES, they
