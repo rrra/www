@@ -87,7 +87,6 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Technical](/categories/technical/)
 
 ### Radio Systems
-* [Club (W0ILO) 10M Beacon](/radios/#w0ilo-10m-beacon)
 * [Club (W0ILO) Repeaters](/radios/#w0ilo-repeaters)
 * [Red River Valley Repeater List]({{< relref "radios/red-river-valley-repeaters.md" >}})
 * [SuperLink]({{< relref "radios/superlink.md" >}})
@@ -99,8 +98,9 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [RRRA Silent Key List](/sk/)
 
 ### Social Media
-* [RRRA Facebook](https://www.facebook.com/W0ILO)
-* [RRRA Twitter](http://twitter.com/w0ilo)
+* [Facebook](https://www.facebook.com/W0ILO)
+* [Photo Album \(Flickr\)](https://www.flickr.com/photos/rrra-fargo/)
+* [Twitter](http://twitter.com/w0ilo)
 
 ### Website
 <!--* [How to contribute](/) -->
