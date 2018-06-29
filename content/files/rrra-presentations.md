@@ -4,5 +4,6 @@ title = "RRRA Presentations"
 filename = ""
 linkdest = "/s/5pdgDL0RqKChvOY"
 contact = "webmaster@rrra.org"
+categories = [ "Membership" ]
 +++
 Supporting documents for presentations given at RRRA club meetings.

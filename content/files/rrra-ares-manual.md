@@ -6,7 +6,6 @@ linkdest = ""
 title = "RRRA ARES Manual"
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
-
 +++
 RRRA Operations Manual for ARES deployments.
 
