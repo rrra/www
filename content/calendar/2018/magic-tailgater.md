@@ -8,6 +8,7 @@ title = "MAGIC Tailgater"
 sponsor = "[M.A.G.I.C. Repeater Group](http://www.magicrepeater.net/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
+upcoming = "force"
 +++
 Please visit the [ARRL MAGIC Tailgater page](http://www.arrl.org/hamfests/magic-tailgater-3)
 or the
