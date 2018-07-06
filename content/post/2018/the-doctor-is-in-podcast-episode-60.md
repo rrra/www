@@ -7,7 +7,7 @@ slug = ""
 tags = [ "ARRL", "podcast" ]
 title = "The Doctor Is In Podcast Episode 60"
 +++
-Listen to a discssion about
+Listen to a discussion about
 [Software Defined Radios \(SDR\)](https://www.blubrry.com/arrl_the_doctor_is_in/34737871/arrls-the-doctor-is-in/)
 in this episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
