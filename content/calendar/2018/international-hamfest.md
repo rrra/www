@@ -25,5 +25,6 @@ for more information.
 * Swap meeting on Friday and Saturday out in the open field area  Bring your Amateur Radio gear to sell or trade
 <span style="font-style:normal;">[^1]</span>
 
-[^1]: Lynn Nelson W0ND <w0nd@srt.com>, "International Peace Garden Hamfest" (email to 140 recipients),  July 11 2018, 5DADC6CFDB094AF89ADA629F9B633686@MidwestHiTech.
+[^1]: Nelson, Lynn, W0ND. "International Peace Garden Hamfest." E-mail. July 11, 2018.
+
 
