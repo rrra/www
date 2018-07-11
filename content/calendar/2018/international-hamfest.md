@@ -1,5 +1,5 @@
 +++
-contact = "[w0nd@arrl.org](w0nd@arrl.org)"
+contact = "W0ND"
 date = "2018-07-14T09:00:00-05:00"
 publishDate = "2017-12-01T00:00:00-05:00"
 location = "[International Peace Garden](https://goo.gl/maps/teHWPUnioC72)"
