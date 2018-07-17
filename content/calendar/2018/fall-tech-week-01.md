@@ -12,6 +12,14 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Signup & General Information
 
+---
+
+Registration for RRRA Fall 2018 Technician Classes is now open. Please
+[register on-line](https://www.eventbrite.com/e/level-1-ham-radio-license-class-tickets-47439265119) 
+through Eventbrite.
+
+---
+
 There is no charge for instruction; however a textbook is required
 (approximate cost $30).  Links to purchase the required
 text books are available on our
