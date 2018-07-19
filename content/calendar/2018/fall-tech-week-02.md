@@ -12,6 +12,15 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Topics
 
-* Questions for chapters 2 & 7
-* Chapter 3 - Electricity, Components and Circuits
-* Guest speaker or Hands on
+* Chapter 2: FCC Rules and Regs
+* Chapter 3: Things to do
+* Chapter 4: Wavelength, frequency and bands
+
+### Homework
+
+* Read textbook pages 75 to 108 (for the [next class]({{< relref "calendar/2018/spring-tech-week-03.md" >}}))
+
+### Resources
+
+* [Course Supplement]({{< relref "rrra-course-supplement.md" >}})
+* [Syllabus](/s/2xabO1oD5mbpVRh)

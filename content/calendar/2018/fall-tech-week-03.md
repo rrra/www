@@ -12,6 +12,14 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Topics
 
-* Questions for chapter 3
-* Chapter 4 - Propagation, Antennas and Feed Lines
-* Guest speaker or Hands on
+* Chapter 5: Signal propagation
+* Chapter 6: How radio works
+
+### Homework
+
+* Read textbook pages 109 to 148 (for the [next class]({{< relref "calendar/2018/spring-tech-week-04.md" >}}))
+
+### Resources
+
+* [Course Supplement]({{< relref "rrra-course-supplement.md" >}})
+* [Syllabus](/s/2xabO1oD5mbpVRh)

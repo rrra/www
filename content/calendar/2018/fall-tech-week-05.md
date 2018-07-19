@@ -12,6 +12,15 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Topics
 
-* Questions for chapter 5
-* Chapter 6 - Communicating with Other Hams
-* Guest speaker or Hands on
+* Chapter 9: Hamtronics
+* Chapter 10: Digital modes
+* Chapter 11: Space contacts
+
+### Homework
+
+* Read textbook pages 181 to 209 (for the [next class]({{< relref "calendar/2018/spring-tech-week-06.md" >}}))
+
+### Resources
+
+* [Course Supplement]({{< relref "rrra-course-supplement.md" >}})
+* [Syllabus](/s/2xabO1oD5mbpVRh)

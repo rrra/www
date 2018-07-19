@@ -12,6 +12,14 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Topics
 
-* Questions for chapter 4
-* Chapter 5 - Amateur Radio Equipment
-* Guest speaker or Hands on
+* Chapter 7: Antennas
+* Chapter 8: It's electric!
+
+### Homework
+
+* Read textbook pages 146 to 180 (for the [next class]({{< relref "calendar/2018/spring-tech-week-05.md" >}}))
+
+### Resources
+
+* [Course Supplement]({{< relref "rrra-course-supplement.md" >}})
+* [Syllabus](/s/2xabO1oD5mbpVRh)

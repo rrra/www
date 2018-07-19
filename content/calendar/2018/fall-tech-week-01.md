@@ -10,7 +10,6 @@ dates = [ "Fall 2018 Technician" ]
 outputs = [ "HTML", "Calendar" ]
 
 +++
-### Signup & General Information
 
 ---
 
@@ -20,20 +19,22 @@ through Eventbrite.
 
 ---
 
-There is no charge for instruction; however a textbook is required
-(approximate cost $30).  Links to purchase the required
-text books are available on our
-[Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}).
+### Prerequisites
+
+* Purchase the [testbook]({{< relref "education-and-testing-schedule.md#textbooks" >}}) 
+* Read textbook pages 1 to 28
 
 ### Topics
 
-* Registration
-* Introduction to each other
-* Introduction to ham radio and Videos
-* Talk about the [books]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
-* Hand out the syllabus
-* Cover what we will be going over each week
-* Chapter 1 - Welcome to amateur radio
-* Chapter 2 - Radio and Signals Fundamentals
-* Chapter 7 - Licensing Regulations
-* Chapter 10 - Glossary
+* Course Overview
+* Chapter 0: Welcome!
+* Chapter 1: Operating your radio
+
+### Homework
+
+* Read textbook pages 29 to 74 (for the [next class]({{< relref "calendar/2018/spring-tech-week-02.md" >}}))
+
+### Resources
+
+* [Course Supplement]({{< relref "rrra-course-supplement.md" >}})
+* [Syllabus](/s/2xabO1oD5mbpVRh)
