@@ -17,7 +17,7 @@ outputs = [ "HTML", "Calendar" ]
 
 ### Homework
 
-* Read textbook pages 146 to 180 (for the [next class]({{< relref "calendar/2018/spring-tech-week-05.md" >}}))
+* Read textbook pages 146 to 180 (for the [next class]({{< relref "calendar/2018/fall-tech-week-05.md" >}}))
 
 ### Resources
 

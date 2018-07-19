@@ -32,7 +32,7 @@ through Eventbrite.
 
 ### Homework
 
-* Read textbook pages 29 to 74 (for the [next class]({{< relref "calendar/2018/spring-tech-week-02.md" >}}))
+* Read textbook pages 29 to 74 (for the [next class]({{< relref "calendar/2018/fall-tech-week-02.md" >}}))
 
 ### Resources
 
