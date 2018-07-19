@@ -11,12 +11,12 @@ Supplementary information for students taking
 
 <!--more-->
 
-* [Study Guides and Test Preparation]({{< relref "files/rrra-course-supplement.md#study-guides-and-test-preparation" >}})
-* [Shopping For Amateur Radio Equipment]({{< relref "files/rrra-course-supplement.md#shopping-for-amateur-radio-equipment" >}})
-* [Get On The Air]({{< relref "files/rrra-course-supplement.md#get-on-the-air" >}})
-* [Amateur Radio Information And Discussion]({{< relref "files/rrra-course-supplement.md#amateur-radio-information-and-discussion" >}})
+* [Prepare For Your License Test](#prepare-for-your-license-test)
+* [Buy A Radio](#buy-a-radio)
+* [Use Your Radio](#use-your-radio)
+* [Learn More](#learn-more)
 
-### Study Guides and Test Preparation
+### Prepare For Your License Test
 
 * [ARRL Tech Prep Resource Library](http://www.arrl.org/tech-prep-resource-library)
 * [HamStudy.org Study Tips](https://hamstudy.org/content/study_tips)
@@ -54,7 +54,7 @@ preparation app by searching for "ham radio prep", "ham radio test", or
 
 There are many free and non-free ham radio related apps to choose from.
 
-### Shopping For Amateur Radio Equipment
+### Buy A Radio
 
 #### Amateur Radio Stores
 
@@ -83,11 +83,17 @@ There are many free and non-free ham radio related apps to choose from.
 * [Amazon](https://www.amazon.com/)
 * [ebay](https://www.ebay.com/)
 
-### Amateur Radio Information and Discussion 
+### Use Your Radio
 
-* [Amateur Radio sub-reddit](https://reddit.com/r/amateur-radio) 
+* [Help your community](/dates/public-service) in a [Public Service](http://www.arrl.org/public-service) event
+* [Participate in a net](/nets/)
+* [Use a repeater]({{< relref "red-river-valley-repeaters.md" >}})
+
+### Learn More 
+
 * [ARRL \(The national association for amateur radio\)](http://www.arrl.org/)
 * [ARRL Forum](http://www.arrl.org/forums)
+* [Amateur Radio sub-reddit](https://reddit.com/r/amateur-radio) 
 * [DX Zone](https://www.dxzone.com/)
 * [eHam](https://www.eham.net/)
 
