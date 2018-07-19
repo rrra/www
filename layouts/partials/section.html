@@ -12,14 +12,26 @@
 						<a href="/">Home</a>
 					{{ end }}
 			</span>
-			<span class="vcard author" style="display;none;">
-				{{ range .Params.authors }}
-					<span class="fn">{{ . }}</span>
-				{{ end }}
-			</span>
 		</div>
 
 		<h1 class="entry-title">{{ .Title | safeHTML }}</h1>
+
+		{{ if .IsPage }} 
+		<div class="entry-meta">
+			<span class="entry-date">
+				<a href="{{ .Permalink }}" rel="bookmark">
+					<time class="entry-date updated" datetime="{{ .Date }}">
+						{{ .Date.Format "January 2, 2006" }}
+					</time>
+				</a>
+			</span>
+			<span class="vcard author byline">
+				{{ range .Params.authors }}
+					<a class="url nickname" href="{{ $baseurl }}/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
+				{{ end }}
+			</span>
+		</div><!-- .entry-meta -->
+		{{ end }}
 
 		{{ $contact := .Params.contact }}
 		{{ if ne $contact nil }}
