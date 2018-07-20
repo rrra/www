@@ -6,7 +6,7 @@ authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = []
 +++
-RRRA members are encouraged to help raise awareness of Amateur Radio
+RRRA members are invited to help raise community awareness of Amateur Radio
 at the
 [2018 Night to Unite]({{< relref "calendar/2018/night-to-unite.md" >}}) in
 West Fargo.
