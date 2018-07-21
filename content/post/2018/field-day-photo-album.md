@@ -13,6 +13,7 @@ Field Day Photos contributed by these RRRA Members:
 * KD0CVZ
 * KE0OP
 * KA0LDG
+* W0CZ
 
 <!--more-->
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/rrra-fargo/albums/72157670464943768" title="Field Day 2018"><img src="https://farm2.staticflickr.com/1833/42084272645_aff9e2beb0.jpg" width="500" height="281" alt="Field Day 2018"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
