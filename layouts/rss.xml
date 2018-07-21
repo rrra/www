@@ -1,33 +1,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RRRA News</title>
-    <link>{{ .Permalink }}</link>
-    <description>{{ .Site.Title }}</description>
-    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
-    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
-    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
-    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    <atom:link href="{{.URL}}" rel="self" type="application/rss+xml" />
+    <link>{{ .Permalink -}}</link>
+    <description>{{ .Site.Title -}}</description>
+		<generator>Hugo -- gohugo.io</generator>
+		{{ with .Site.LanguageCode -}}<language>{{ . -}}</language>{{ end -}}
+		{{ with .Site.Author.email -}}<managingEditor>{{ . -}}{{ with $.Site.Author.name -}} ({{ . -}}){{ end -}}</managingEditor>{{ end -}}
+		{{ with .Site.Author.email -}}<webMaster>{{ . -}}{{ with $.Site.Author.name -}} ({{ . -}}){{ end -}}</webMaster>{{ end -}}
+		{{ with .Site.Copyright -}}<copyright>{{ . -}}</copyright>{{ end -}}
+		{{ if not .Date.IsZero -}}<lastBuildDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</lastBuildDate>{{ end -}}
+    <atom:link href="{{ .RSSLink }}" rel="self" type="application/rss+xml" />
     <item>
       <title>Upcoming Events</title>
-      <link>{{ .Site.BaseURL }}</link>
-      <pubDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ with .Site.Author.email }}
-      <author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ .Permalink }}</guid>
-      <description>{{ partial "upcoming-rss.html" . | html }}</description>
+      <link>{{ .Site.BaseURL -}}</link>
+      <pubDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</pubDate>
+			{{ with .Site.Author.email -}} <author>{{ . -}}{{ with $.Site.Author.name -}} ({{ . -}}){{ end -}}</author>{{ end -}}
+      <guid>{{ .Permalink -}}</guid>
+      <description>{{ partial "upcoming-rss.html" . | html -}}</description>
     </item>
-    {{ range first 15 (where .Site.Pages.ByDate "Section" "post").Reverse }}
-    <item>
-      <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ with .Site.Author.email }}
-      <author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }}{{ if .Truncated }}&lt;a href=&#34;{{ .Permalink }}&#34;&gt;Read More...&lt;/a&gt;{{ end }}</description>
-    </item>
-    {{ end }}
+    {{ range first 15 (where .Site.Pages.ByDate "Section" "post").Reverse -}}
+      {{ if ne "Posts" .Title -}}
+				<item>
+					<title>{{ .Title -}}</title>
+					<link>{{ .Permalink -}}</link>
+					<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</pubDate>
+					{{ with .Site.Author.email -}}<author>{{ . -}}{{ with $.Site.Author.name }} ({{ . -}}){{ end -}}</author>{{ end -}}
+					<guid>{{ .Permalink -}}</guid>
+					<description>{{ .Summary | replaceRE "\n" "" | replaceRE "<script type.*</script>" "" | replaceRE "</?noscript>" "" }}{{ if .Truncated -}}&lt;p&gt;&lt;a href=&#34;{{ .Permalink -}}&#34;&gt;Read More&lt;/a&gt;...&lt;/p&gt;{{ end -}}</description>
+				</item>
+      {{ end -}}
+    {{ end -}}
   </channel>
 </rss>
 
