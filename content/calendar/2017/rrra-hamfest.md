@@ -6,7 +6,7 @@ location = "[RRV Fairgrounds Hartl Building](/places/rrv-fairgrounds-hartl-build
 title = "RRRA Hamfest & ARRL ND State Convention"
 linkTitle = "RRRA Hamfest"
 dates = [ "Hamfest" ]
-aliases = [ "/cal/2017/hamfest/" ]
+aliases = [ "/cal/2017/hamfest/", "/hamfest/2017/" ]
 +++
 ### Featuring
 
@@ -96,6 +96,5 @@ Some of the accomodations available in the Fargo area include:
 Please contact [hamfest@rrra.org](mailto:hamfest@rrra.org) if you have any questions about this event.
 
 ### Hamfest Flyer
-<div style="text-align:center;"><strong><a href="http://cloud.rrra.org/s/jG5otq2CDhFLNDh">Download the RRRA 2017 Hamfest Flyer</a></strong> (PDF)</div>
 
-<a href="http://cloud.rrra.org/s/jG5otq2CDhFLNDh"><img src="https://farm5.staticflickr.com/4405/36233657494_8edcbb4979_z.jpg" alt="2017-rrra-hamfest-flyer-page-1"></a>
+<img src="https://farm5.staticflickr.com/4405/36233657494_8edcbb4979_z.jpg" alt="2017-rrra-hamfest-flyer-page-1">
