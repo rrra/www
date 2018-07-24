@@ -35,14 +35,14 @@ outputs = [ "HTML", "Calendar" ]
 
 *Schedule subject to change without notice*
 
-#### Friday, September 29th
+#### Friday, September 28th
 
 Time |      |
 -----|------|
 4PM | Flea Market setup in Main Hall
 7PM | Building closes for the night
 
-#### Saturday, September 30th
+#### Saturday, September 29th
 
 Time |      |
 -----|------|
