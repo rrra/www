@@ -6,7 +6,7 @@ location = "[RRV Fairgrounds Hartl Building](/places/rrv-fairgrounds-hartl-build
 title = "RRRA Hamfest & ARRL ND State Convention"
 linkTitle = "RRRA Hamfest"
 dates = [ "Hamfest" ]
-aliases = [ "/cal/2017/hamfest/", "/hamfest/2017/" ]
+aliases = [ "/cal/2017/hamfest/" ]
 +++
 ### Featuring
 

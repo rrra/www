@@ -14,7 +14,7 @@ outputs = [ "HTML", "Calendar" ]
 ### Featuring
 
 * ARRL Card Checking by W9NT
-* Over $450 in cash and merchandise door prizes
+* Cash and merchandise door prizes
 * Special YL only prizes
 * Talk-In on 145.350-, 147.255+, and 444.875+; PL 123 Hz
 * [Seminars]({{< relref "post/2017/hamfest.md#seminars" >}})
