@@ -1,7 +1,7 @@
 +++
-date = "2018-07-25T15:34:43-05:00"
+date = ""
 #publishdate = "2018-06-16T15:34:43-05:00"
-title = "Cass County ID Badges"
+title = "KD0IOE DMR Repeater Available For Public Use"
 authors = [ "KD0IOE" ]
 categories = [ "Public Service" ]
 tags = [ "DMR", "Brandmeister", "Repeater" ]
@@ -11,13 +11,8 @@ There is now another digital option available in the Fargo-Moorhead metro area. 
 More information is available [at my website](https://kd0ioe.com/repeater/). You can also visit these websites for more general Brandmeister and DMR.
 
 * [DMR for Dummies](http://www.dmrfordummies.com/)
+* [Brandmeister](http://brandmeister.network)
 
+If you have any specific questions about my setup, you may contact me here: {{< mailto KD0IOE >}}.
 
-
-
-[ID Card Application and Background Check Consent form](https://cloud.rrra.org/index.php/s/IAt6lD08IQ1mc5D)
-and return it at an upcoming
-[business](/dates/business-meetings) or [ARES](/dates/ares-meetings) meeting.
-
-Please contact {{< mailto KC0DCF >}} with any questions.
 <!--more-->
