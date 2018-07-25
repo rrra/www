@@ -20,7 +20,7 @@ outputs = [ "HTML", "Calendar" ]
 * [Seminars]({{< relref "post/2017/hamfest.md#seminars" >}})
 * [License Testing]({{< relref "post/2017/hamfest.md#license-testing" >}}) (aka *VE Testing*)
 * Flea Market
-* Food
+* Food & Beverages
 
 ### Ticket and Flea Market Table Pricing
 * Admission Tickets
