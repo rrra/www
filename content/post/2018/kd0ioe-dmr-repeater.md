@@ -1,6 +1,5 @@
 +++
 date = "2018-07-25T18:01:32Z"
-#publishdate = "2018-06-16T15:34:43-05:00"
 title = "KD0IOE DMR Repeater Available For Public Use"
 authors = [ "KD0IOE" ]
 categories = [ "Public Service" ]
