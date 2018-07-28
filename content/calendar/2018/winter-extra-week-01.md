@@ -10,19 +10,6 @@ dates = [ "Winter 2018 Extra" ]
 outputs = [ "HTML", "Calendar" ]
 topics = [ "Sign in", "Introductions" ]
 +++
-Registration for RRRA Winter 2018 Extra Classes is now open. This series of
-classes will help you prepare for the Amateur Extra Class license examination
-(element 4).
-
-Please
-[register
-on-line](https://www.eventbrite.com/e/ham-radio-extra-license-level-3-class-tickets-41538432570?aff=es2)
-(we use Eventbrite to manage our registrations). There is no charge for
-instruction; however a textbook is required (approximate cost $30).
-
-Links to purchase the required text book are available on our
-[Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}).
-
 ## Topics
 
 * Sign in

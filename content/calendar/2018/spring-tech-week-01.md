@@ -10,13 +10,6 @@ dates = [ "Spring 2018 Technician" ]
 outputs = [ "HTML", "Calendar" ]
 
 +++
----
-
-Registration for RRRA Spring 2018 Techician Classes is now open. Please
-[register on-line](https://www.eventbrite.com/e/technician-license-class-tickets-43414216089)
-(we use Eventbrite to manage our registrations).
-
----
 ### Prerequisites
 
 * Purchase the [testbook]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}) 
