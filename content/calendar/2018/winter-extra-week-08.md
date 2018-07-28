@@ -14,5 +14,3 @@ outputs = [ "HTML", "Calendar" ]
 
 * Questions from Chapter 8
 * Chapter 9 - Antennas and Feed Lines
-
-{{< readfile file="data/education/resources.md" markdown="true" >}}

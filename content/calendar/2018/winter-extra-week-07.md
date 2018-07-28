@@ -14,5 +14,3 @@ outputs = [ "HTML", "Calendar" ]
 
 * Questions from Chapter 7
 * Chapter 8 - Modulation, Protocols and Modes
-
-{{< readfile file="data/education/resources.md" markdown="true" >}}

@@ -15,5 +15,3 @@ outputs = [ "HTML", "Calendar" ]
 * Questions from Chapter 9
 * Chapter 10 - Topics in Propagation
 * Chapter 11 - Safety
-
-{{< readfile file="data/education/resources.md" markdown="true" >}}

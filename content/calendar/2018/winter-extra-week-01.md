@@ -33,6 +33,3 @@ Links to purchase the required text book are available on our
 * Chapter 2 - Operating Practices
 * Chapter 3 - Rules and Regulations
 
-{{< readfile file="data/education/resources.md" markdown="true" >}}
-
-

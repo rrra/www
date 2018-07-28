@@ -14,5 +14,3 @@ outputs = [ "HTML", "Calendar" ]
 
 * Questions from Chapters 2 & 3
 * Chapter 4 - Electrical Principles, part 1
-
-{{< readfile file="data/education/resources.md" markdown="true" >}}

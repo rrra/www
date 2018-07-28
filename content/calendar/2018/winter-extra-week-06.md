@@ -14,5 +14,3 @@ outputs = [ "HTML", "Calendar" ]
 
 * Questions from Chapter 6
 * Chapter 7 - Radio Signals and Measurements
-
-{{< readfile file="data/education/resources.md" markdown="true" >}}
