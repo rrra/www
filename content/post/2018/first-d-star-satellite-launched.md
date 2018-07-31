@@ -11,7 +11,7 @@ On February 1, 2018, the
 was part of the payload successfully launched from
 [Vostochny Cosmodrome](https://en.wikipedia.org/wiki/Vostochny_Cosmodrome)
 aboard a
-[Soyuz-2.1a]({{< relref "post/2018/first-d-star-satellite-launched.md#soyuz-2-1a" >}})
+[Soyuz-2.1a]({{< relref "/post/2018/first-d-star-satellite-launched.md#soyuz-2-1a" >}})
 rocket.
 <!--more-->
 

@@ -12,7 +12,7 @@ publishdate = "2017-03-04T01:00:00-06:00"
 [Continuous Tone-Coded Squelch System](https://en.wikipedia.org/wiki/Continuous_Tone-Coded_Squelch_System)
 (CTCSS), a method of using low-frequency subaudible tones to share a single
 radio channel among multiple users."
-[ [1]({{< relref "post/2017/the-doctor-is-in-podcast-episode-25.md#footnotes" >}}) ]
+[ [1]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-25.md#footnotes" >}}) ]
 
 Learn about the technical background of this squelch tone system in the
 [CTCSS, DTMF and More](https://www.blubrry.com/arrl_the_doctor_is_in/21251298/ctcss-dtmf-and-more/)
@@ -75,7 +75,7 @@ or at
 [Stitcher](https://www.stitcher.com/)
 (free registration required, or browse the site as a guest) and through
 the free Stitcher app for iOS, Kindle, or Android devices.
-<span style="font-style:normal;">[ [2]({{< relref "#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [2]({{< relref "/#footnotes" >}}) ]</span>
 
 ### Footnotes
 

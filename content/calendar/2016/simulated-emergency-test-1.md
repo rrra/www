@@ -6,7 +6,7 @@ contact = "KK0V"
 dates = [ "Public Service" ]
 +++
 Join an informal net on one of the following frequencies during this
-[Simulated Emergency Test]({{< relref "post/2016/simulated-emergency-test.md" >}})
+[Simulated Emergency Test]({{< relref "/post/2016/simulated-emergency-test.md" >}})
 to test communication links used for auxiliary communications during
 disasters and other incidents:
 
@@ -15,5 +15,5 @@ disasters and other incidents:
 * 3.860 Mhz (75m) LSB, the ND net frequency; net control will be
 [W0HSC](http://www.w0hsc.org/) at [NDSU](https://www.ndsu.edu/).
 
-This test will also be conducted on [Monday, October 3rd]({{< relref
-"calendar/2016/simulated-emergency-test-2.md" >}}).
+This test will also be conducted on
+[Monday, October 3rd]({{< relref "/calendar/2016/simulated-emergency-test-2.md" >}}).

@@ -22,7 +22,7 @@ microwave spectrum:
 * 122.25--123.0 GHz
 * 134--141 GHz
 * 241--250 GHz
-* All above 275.0 GHz <span style="font-style:normal;">[ [1]({{< relref "post/2017/inexpensive-microwave-transceiver.md#footnotes" >}}) ]</span>
+* All above 275.0 GHz <span style="font-style:normal;">[ [1]({{< relref "/post/2017/inexpensive-microwave-transceiver.md#footnotes" >}}) ]</span>
 
 This spectrum is available to all Hams, Technician class and up, and is a great place to contribute to the advancement of the radio art through experimentation and homebrewing. It also needs to be used or it will be given away.
 

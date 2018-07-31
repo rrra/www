@@ -9,10 +9,10 @@ description = ""
 
 +++
 Volunteers are needed to staff an RRRA information table at the 18th annual
-[Breakfast On The Farm]({{< relref "post/2018/breakfast-on-the-farm.md#about-breakfast-on-the-farm" >}})
+[Breakfast On The Farm]({{< relref "/post/2018/breakfast-on-the-farm.md#about-breakfast-on-the-farm" >}})
 at
 [Herbranson Farms, Hawley, Minnesota](/places/hawley-mn-herbranson-farms/), on
-[Saturday, June 2, 2018]({{< relref "calendar/2018/breakfast-on-the-farm.md" >}}).
+[Saturday, June 2, 2018]({{< relref "/calendar/2018/breakfast-on-the-farm.md" >}}).
 
 RRRA members interested on helping to raise awareness about our club, and Amateur Radio in the Red River Valley, are encouraged to contact {{< mailto KA0Q >}}.
 <!--more-->

@@ -12,7 +12,7 @@ The ARRL Simulated Emergency Test (SET), conducted on October 1st and
 2nd, 2016, was a national emergency exercise "aimed at testing the
 skills and preparedness of Amateur Radio Emergency Service (ARES) and
 other organizations that are called into action in actual emergency
-situations."[[1]({{< relref "post/2016/2016-set-results.md#footnotes" >}})]
+situations."[[1]({{< relref "/post/2016/2016-set-results.md#footnotes" >}})]
 
 During the 2016 SET the Red River Radio Amateurs (RRRA) conducted tests
 of HF and VHF coverage in the Red River Valley. The Net Control Stations

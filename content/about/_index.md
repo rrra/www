@@ -10,21 +10,21 @@ Red River Radio Amateurs is a nonprofit
 [ARRL affiliated Amateur Radio club](http://www.arrl.org/Groups/view/red-river-radio-amateurs-inc/type:club)
 serving Fargo, Moorhead, and the surrounding area, with communication
 support and
-[educational outreach]({{< relref "about/committees/education-and-testing-schedule.md" >}}).
+[educational outreach]({{< relref "/about/committees/education-and-testing-schedule.md" >}}).
 
-* [Board of Directors \(Club Officers\)]({{< relref "about/contact.md" >}})
-* [Bylaws]({{< relref "about/bylaws.md" >}})
+* [Board of Directors \(Club Officers\)]({{< relref "/about/contact.md" >}})
+* [Bylaws]({{< relref "/about/bylaws.md" >}})
 * [Club Meetings](/dates/business-meetings)
-* [Contact Information]({{< relref "about/contact.md" >}})
-* [Mission Statement]({{< relref "about/mission.md" >}})
-* [Online Media and Hosting]({{< relref "about/online-media-and-hosting.md" >}})
+* [Contact Information]({{< relref "/about/contact.md" >}})
+* [Mission Statement]({{< relref "/about/mission.md" >}})
+* [Online Media and Hosting]({{< relref "/about/online-media-and-hosting.md" >}})
 
 ## Join Our Club
 
 Bring your [membership application](/s/3iOnHKqxHlaDxxv)
 and dues payment to one of our
 [business meetings](/dates/business-meetings) or send them to our
-[mailing address]({{< relref "about/contact.md#mailing-address" >}}).
+[mailing address]({{< relref "/about/contact.md#mailing-address" >}}).
 
 ## Support Our Club
 

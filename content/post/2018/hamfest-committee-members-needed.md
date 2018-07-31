@@ -12,7 +12,7 @@ and RRRA Hamfest. This is the largest Hamfest in North Dakota drawing
 attendees from 3 states and 1 Canadian province. Committee members
 are needed to plan and run this major fund raising activity for our
 club. Lots of volunteers will make the work easy for everyone.
-[Planning meetings will begin June 10th]({{< relref "calendar/2018/hamfest-committee-meeting-1.md" >}}).
+[Planning meetings will begin June 10th]({{< relref "/calendar/2018/hamfest-committee-meeting-1.md" >}}).
 
 The Hamfest Committee will use a mailing list for coordination and to
 assist the planning process. A shared folder is available to committee
@@ -20,7 +20,7 @@ members at the <a href="https://cloud.rrra.org" rel="nofollow">RRRA
 File Sharing Server</a> for document sharing and archiving.
 
 Hamfest Committee volunteers are asked to
-[subscribe to the hamfest mailing list]({{< relref "post/2018/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
+[subscribe to the hamfest mailing list]({{< relref "/post/2018/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
 so that they can stay informed and be a part of the conversation.
 **Returning volunteers must re-subscribe to the hamfest list to confirm
 their participation.** <!--more-->Volunteers may subscribe multiple

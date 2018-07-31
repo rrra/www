@@ -6,7 +6,7 @@ categories = [ "Public Service" ]
 tags = [ "ARES", "AUXCOMM" ]
 +++
 RRRA Members who were not able to attend the Jan
-[TRG-AUXCOMM]({{< relref "post/2018/auxcomm-explained.md#about-auxcomm" >}})
+[TRG-AUXCOMM]({{< relref "/post/2018/auxcomm-explained.md#about-auxcomm" >}})
 workshop hosted by the club in January 2016, might like to view the 
 [Auxcomm ... Explained](https://www.youtube.com/watch?v=PcHVWTVzw7Y&list=PL24Rak2jsMJRnG5zKTeJ7H4vL44lTf_BA&index=7) 
 HamRadioNow episode (HRN 330, EmComm Extra #13, June 21 2017) for an

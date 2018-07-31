@@ -34,12 +34,12 @@ move the library to the new home
 
 #### Cass RRRAES
 * Don G/Mark J
-* [SKYWARN&reg; in Public Safety building in Fargo March 28th]({{< relref "calendar/2017/fargo-skywarn-class.md" >}})
+* [SKYWARN&reg; in Public Safety building in Fargo March 28th]({{< relref "/calendar/2017/fargo-skywarn-class.md" >}})
 * FM Ambulance would like to go ahead
 
 #### Clay RRRAES
 * Bob G
-* [SKYWARN&reg; in Sabin March 27th]({{< relref "calendar/2017/sabin-skywarn-refresher.md" >}})
+* [SKYWARN&reg; in Sabin March 27th]({{< relref "/calendar/2017/sabin-skywarn-refresher.md" >}})
 
 #### Technical
 * Bob K
@@ -91,7 +91,7 @@ move the library to the new home
 
 ### Good of the Order
 
-* [Buffalo Hamfest 25th of March]({{< relref "calendar/2017/midwinter-madness-hamfest.md" >}})
+* [Buffalo Hamfest 25th of March]({{< relref "/calendar/2017/midwinter-madness-hamfest.md" >}})
 * DX Engineering offered Skype presentation for the club
 
 ### Adjournment

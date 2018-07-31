@@ -24,15 +24,15 @@ This training is ***free*** and open to the public.
 [Edgewood Vista, 4420 37th Ave S, Fargo, ND 58104](https://maps.google.com/?daddr=Edgewood+Vista,+4420+37th+Ave+S,+Fargo,+ND+58104), 
 from 1pm  to 3pm on these dates:
 
-* June 6: [Class Introduction & General Emergency Preparedness]({{< relref "calendar/2018/summer-cert-week-01.md" >}})
-* June 13: [CERT organization]({{< relref "calendar/2018/summer-cert-week-02.md" >}})
-* June 20: [Fire Safety/Extinguisher Use]({{< relref "calendar/2018/summer-cert-week-03.md" >}})
-* June 27: [Disaster Medical Operations---Part 1]({{< relref "calendar/2018/summer-cert-week-04.md" >}})
-* July 11: [Disaster Medical Operations---Part 2]({{< relref "calendar/2018/summer-cert-week-05.md" >}})
-* July 18: [Light Search and Rescue Operations]({{< relref "calendar/2018/summer-cert-week-06.md" >}})
-* July 25: [Disaster Psychology]({{< relref "calendar/2018/summer-cert-week-07.md" >}})
-* August 1: [Terrorism/Active Aggressor Options Based Response]({{< relref "calendar/2018/summer-cert-week-08.md" >}})
-* August 8: [Final Exercise]({{< relref "calendar/2018/summer-cert-week-09.md" >}})
+* June 6: [Class Introduction & General Emergency Preparedness]({{< relref "/calendar/2018/summer-cert-week-01.md" >}})
+* June 13: [CERT organization]({{< relref "/calendar/2018/summer-cert-week-02.md" >}})
+* June 20: [Fire Safety/Extinguisher Use]({{< relref "/calendar/2018/summer-cert-week-03.md" >}})
+* June 27: [Disaster Medical Operations---Part 1]({{< relref "/calendar/2018/summer-cert-week-04.md" >}})
+* July 11: [Disaster Medical Operations---Part 2]({{< relref "/calendar/2018/summer-cert-week-05.md" >}})
+* July 18: [Light Search and Rescue Operations]({{< relref "/calendar/2018/summer-cert-week-06.md" >}})
+* July 25: [Disaster Psychology]({{< relref "/calendar/2018/summer-cert-week-07.md" >}})
+* August 1: [Terrorism/Active Aggressor Options Based Response]({{< relref "/calendar/2018/summer-cert-week-08.md" >}})
+* August 8: [Final Exercise]({{< relref "/calendar/2018/summer-cert-week-09.md" >}})
 
 Visit the
 [Red River CERT page](http://fargond.gov/city-government/departments/emergency-management/community-emergency-response-team-cert)

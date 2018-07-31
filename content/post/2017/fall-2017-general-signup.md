@@ -12,7 +12,7 @@ Registration for RRRA Fall 2017 General Classes is now open. Please
 (we use Eventbrite to manage our registrations). **This
 [series](/dates/fall-2017-general)
 of classes begins
-[5-Apr-2017]({{< relref "calendar/2017/fall-general-week-1.md" >}})**.
+[5-Apr-2017]({{< relref "/calendar/2017/fall-general-week-1.md" >}})**.
 <!--more-->
 
 Our Amateur Radio license classes are
@@ -24,6 +24,6 @@ There is no charge for instruction; however a textbook is required
 
 Detailed class information, including links to purchase the required
 text books, is available on our
-[2017-2018 Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}).
+[2017-2018 Education and Testing Schedule]({{< relref "/about/committees/education-and-testing-schedule.md#textbooks" >}}).
 
 Please contact {{% mailto W0HNV name %}} if you have any questions.

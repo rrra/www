@@ -10,18 +10,18 @@ title = "Stop The Bleeding Introductory Presentation"
 "All too often, victims of active shooter or mass-casualty incidents bleed to
 death waiting for medical treatment. ... Most of these shooting events
 are over in 15 minutes and people can bleed to death within five minutes
-from these severe injuries."[[1]({{< relref "post/2016/stop-the-bleeding-introduction.md#footnotes" >}})]
+from these severe injuries."[[1]({{< relref "/post/2016/stop-the-bleeding-introduction.md#footnotes" >}})]
 
 Unfortunately it can take more than five minutes for professional first
 responders to arrive at an incident scene; this is where [*Immediate
-Responders*]({{< relref "post/2016/stop-the-bleeding-introduction.md#about-immediate-responders" >}}), "civilian bystanders ... who perform external bleeding
+Responders*]({{< relref "/post/2016/stop-the-bleeding-introduction.md#about-immediate-responders" >}}), "civilian bystanders ... who perform external bleeding
 control for victims at the point of wounding before the arrival of
-professional responders"[[2]({{< relref "post/2016/stop-the-bleeding-introduction.md#footnotes" >}})], are critical for victim survival.
+professional responders"[[2]({{< relref "/post/2016/stop-the-bleeding-introduction.md#footnotes" >}})], are critical for victim survival.
 As Amateur Radio Operators we are often present at incidents where 
 *Immediate Responders* may be needed
 <!--more-->
 During the
-[October 2016 Business Meeting]({{< relref "calendar/2016/october-meeting.md" >}}),
+[October 2016 Business Meeting]({{< relref "/calendar/2016/october-meeting.md" >}}),
 Everett Patterson from the
 [Fargo Fire Department](http://www.cityoffargo.com/CityInfo/Departments/Fire/)
 will present an Introduction to their "Stop the Bleeding" training
@@ -54,7 +54,7 @@ developed it, and what the training is for.
 >involved in the immediate response to a victim of cardiac arrest or choking by
 >the initiation of cardiopulmonary resuscitation and the Heimlich maneuver,
 >respectively. The Hartford Consensus recommends that these legal protections
->be extended to include the provision of bleeding control.[[3]({{< relref "post/2016/stop-the-bleeding-introduction.md#footnotes" >}})]
+>be extended to include the provision of bleeding control.[[3]({{< relref "/post/2016/stop-the-bleeding-introduction.md#footnotes" >}})]
 
 ### About the Hartford Consensus
 
@@ -73,7 +73,7 @@ developed it, and what the training is for.
 >a protocol for national policy to enhance survivability from active shooter
 >and intentional mass casualty events. The committee's recommendations are
 >called the Hartford Consensus, and currently consist of four
->reports.[[4]({{< relref "post/2016/stop-the-bleeding-introduction.md#footnotes" >}})]
+>reports.[[4]({{< relref "/post/2016/stop-the-bleeding-introduction.md#footnotes" >}})]
 
 ### Footnotes
 

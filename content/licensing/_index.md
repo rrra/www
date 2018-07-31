@@ -19,7 +19,7 @@ RRRA offer periodic series of weekly classes in preparation for FCC
 Amateur Radio license tests followed, approximately a week later, by a
 license testing session.
 
-Please see our [Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md" >}}) to find out about upcoming classes.
+Please see our [Education and Testing Schedule]({{< relref "/about/committees/education-and-testing-schedule.md" >}}) to find out about upcoming classes.
 
 Our club's
 [bi-monthly license testing sessions](/dates/license-testing/)

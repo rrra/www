@@ -10,7 +10,7 @@ categories = [ "Public Service" ]
 +++
 More amateur radio operators (hams) are needed to provide
 communications support for the
-[2017 Fargo Marathon on May 20th]({{< relref "calendar/2017/fargo-marathon.md" >}}).
+[2017 Fargo Marathon on May 20th]({{< relref "/calendar/2017/fargo-marathon.md" >}}).
 
 RRRA communications support for the Fargo Marathon will be coordinated through
 the
@@ -19,7 +19,7 @@ So all operators who wish to volunteer for this event must subscribe to the
 that mailing list.
 
 Please visit the
-[Fargo Marathon 2017]({{< relref "calendar/2017/fargo-marathon.md" >}})
+[Fargo Marathon 2017]({{< relref "/calendar/2017/fargo-marathon.md" >}})
 page for the event schedule, equipment list, etc.
 
 <!--more-->

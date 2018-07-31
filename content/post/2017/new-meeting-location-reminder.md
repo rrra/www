@@ -8,9 +8,9 @@ tags = []
 slug = ""
 
 +++
-The March [ARES Meeting]({{< relref "calendar/2017/march-ares-meeting.md" >}}),
-[Club Meeting]({{< relref "calendar/2017/march-meeting.md" >}}), and
-[Testing Session]({{< relref "calendar/2017/march-testing.md" >}}) will be
+The March [ARES Meeting]({{< relref "/calendar/2017/march-ares-meeting.md" >}}),
+[Club Meeting]({{< relref "/calendar/2017/march-meeting.md" >}}), and
+[Testing Session]({{< relref "/calendar/2017/march-testing.md" >}}) will be
 held at club's new meeting location:
 [West Fargo City Hall](/places/west-fargo-city-hall/).
 

@@ -10,7 +10,7 @@ All Hams interested in
 [FT8](https://www.wsjtx.net/home/ft8-mode.html)
 are encouraged to attend 
 KA0LDG's presentation about this mode at the
-[April RRRA Club Meeting]({{< relref "calendar/2018/april-meeting.md" >}})
+[April RRRA Club Meeting]({{< relref "/calendar/2018/april-meeting.md" >}})
 
 KA0LDG is planning to present a Power Point briefing about FT8 followed
 by a live demonstration of the mode using his portable station.

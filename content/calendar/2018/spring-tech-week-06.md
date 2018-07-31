@@ -24,7 +24,7 @@ Following the completion of the course you should:
 
 ### License Testing
 
-A [license testing session]({{< relref "calendar/2018/may-testing.md" >}})
+A [license testing session]({{< relref "/calendar/2018/may-testing.md" >}})
 is scheduled for May 15, 2018.
 
 Please visit our index of [License Testing dates](/dates/license-testing/)

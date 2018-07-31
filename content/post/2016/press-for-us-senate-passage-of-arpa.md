@@ -18,7 +18,7 @@ process will have to be repeated. ARRL Hudson Division Director Mike Lisenco,
 N2YBB, who chairs the ARRL Board's Legislative Advocacy Committee and has
 been heavily involved in efforts to move H.R. 1301 forward, said today,
 "The clock is ticking!"
-[[1]({{< relref "post/2016/press-for-us-senate-passage-of-arpa.md#footnotes" >}})]
+[[1]({{< relref "/post/2016/press-for-us-senate-passage-of-arpa.md#footnotes" >}})]
 
 Contacting your US Senators about the Amateur Radio Parity Act is quick
 and easy:

@@ -17,7 +17,7 @@ is 1:00PM CDT Saturday, June 23rd, to 3:59PM CDT Sunday, June 24th.
 
 ## Fargo / Moorhead Area Field Day Sites
 
-* [Red River Radio Amateurs---West Fargo, ND]({{< relref "calendar/2018/field-day.md" >}})
+* [Red River Radio Amateurs---West Fargo, ND]({{< relref "/calendar/2018/field-day.md" >}})
 
 Please use the
 [ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator)

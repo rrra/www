@@ -6,11 +6,11 @@ categories = [ "Membership" ]
 tags = []
 +++
 The July Club (*i.e. business*) and ARES meetings were cancelled by a
-[motion passed at the May Club Meeting]({{< relref "post/2018/may-minutes.md#july-meeting-cancellation" >}}).  
+[motion passed at the May Club Meeting]({{< relref "/post/2018/may-minutes.md#july-meeting-cancellation" >}}).  
 
 Our normal meeting schedule resumes with the
-[August ARES Meeting]({{< relref "calendar/2018/august-ares-meeting.md" >}})
+[August ARES Meeting]({{< relref "/calendar/2018/august-ares-meeting.md" >}})
 and
-[August Club Meeting]({{< relref "calendar/2018/august-meeting.md" >}})
+[August Club Meeting]({{< relref "/calendar/2018/august-meeting.md" >}})
 on Tuesday, August 21, 2018.
 <!--more-->

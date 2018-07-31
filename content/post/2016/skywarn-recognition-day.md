@@ -32,7 +32,7 @@ Using these modes:
 The suggested exchange is: call sign, signal report, QTH, and a one or two word
 description of the weather occurring at your site ("sunny", "partly cloudy",
 "windy", etc.).
-[ [1]({{< relref "post/2016/skywarn-recognition-day.md#footnotes" >}}) ]
+[ [1]({{< relref "/post/2016/skywarn-recognition-day.md#footnotes" >}}) ]
 
 Please QSL to: 
 
@@ -49,7 +49,7 @@ Please QSL to:
 >communication between the NWS and emergency management if normal
 >communications become inoperative. During the SKYWARN Special Event operators
 >will visit NWS offices and contact other radio operators across the world.
-[ [2]({{< relref "post/2016/skywarn-recognition-day.md" >}}) ]
+[ [2]({{< relref "/post/2016/skywarn-recognition-day.md" >}}) ]
 
 Event certificates will be [electronic and
 printable](http://www.wrh.noaa.gov/mtr/hamradio/certificate/certificate.php)

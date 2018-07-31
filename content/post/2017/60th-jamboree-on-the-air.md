@@ -18,7 +18,7 @@ on October 20--22, 2017.
 is held annually the third full weekend in October. JOTA uses amateur radio to
 link Scouts and hams around the world, around the nation, and [across
 communities]."
-[ [1]({{< relref "post/2017/60th-jamboree-on-the-air.md#footnotes" >}}) ]
+[ [1]({{< relref "/post/2017/60th-jamboree-on-the-air.md#footnotes" >}}) ]
 
 ## Participating as an Amateur Radio Operator
 
@@ -33,7 +33,7 @@ communities]."
 >stations that will be on the air. A good resource to find a local Scout
 >unit is the
 >[Be-A-Scout website](https://beascout.scouting.org/BeAScoutMap.aspx)
-<span style="font-style:normal;">[ [2]({{< relref "#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [2]({{< relref "/#footnotes" >}}) ]</span>
 
 ## References
 

@@ -9,7 +9,7 @@ date = "2017-03-31T07:36:11-05:00"
 +++
 Seven amateur radio operators (hams) are needed to provide
 communications support for
-[*Walk MS: Fargo 2017* on April 29th, 2017]({{< relref "calendar/2017/ms-walk-fargo.md" >}}).
+[*Walk MS: Fargo 2017* on April 29th, 2017]({{< relref "/calendar/2017/ms-walk-fargo.md" >}}).
 
 New hams are encouraged to participate in this event to gain experience in
 [Public Service Communication](http://www.arrl.org/public-service) operations.

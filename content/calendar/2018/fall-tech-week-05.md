@@ -18,9 +18,9 @@ outputs = [ "HTML", "Calendar" ]
 
 ### Homework
 
-* Read textbook pages 181 to 209 (for the [next class]({{< relref "calendar/2018/fall-tech-week-06.md" >}}))
+* Read textbook pages 181 to 209 (for the [next class]({{< relref "/calendar/2018/fall-tech-week-06.md" >}}))
 
 ### Resources
 
-* [Course Supplement]({{< relref "rrra-course-supplement.md" >}})
+* [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
 * [Syllabus](/s/2xabO1oD5mbpVRh)

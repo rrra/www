@@ -13,7 +13,7 @@ dates = [ "AUXCOMM 2016" ]
 The Red River Radio Amateurs are hosting a TRG-AUXCOMM Auxiliary
 Communications Workshop which will be provided by the Department of Homeland
 Security on
-[January 29]({{< relref "calendar/2016/auxcomm-course-0129.md" >}}) and
+[January 29]({{< relref "/calendar/2016/auxcomm-course-0129.md" >}}) and
 January 30, 2016.
 Please see the
 [AUXCOMM Course Description](http://www.kc0ode.com/resources/AuxComm++Course+Description.pdf)

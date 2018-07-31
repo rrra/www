@@ -17,9 +17,9 @@ leaders to plan a
 (SET). In their effort to be as prepared as possible to provide auxiliary
 communications if needed during a disaster, the RRRA ARES group has
 planned informal nets
-[Sunday, October 2nd]({{< relref "calendar/2016/simulated-emergency-test-1.md" >}}) ,
+[Sunday, October 2nd]({{< relref "/calendar/2016/simulated-emergency-test-1.md" >}}) ,
 and
-[Monday, October 3rd]({{< relref "calendar/2016/simulated-emergency-test-2.md" >}})
+[Monday, October 3rd]({{< relref "/calendar/2016/simulated-emergency-test-2.md" >}})
 on VHF and HF bands with relays between these bands handled by the net
 controllers.
 <!--more-->
@@ -30,9 +30,9 @@ success future SETs will be planned including additional times, other
 bands, sending messages and emergency scenarios.
 
 The ND SET will occur between 13:00 and 14:00 CDT on
-[Sunday, October 2nd]({{< relref "calendar/2016/simulated-emergency-test-1.md" >}}) ,
+[Sunday, October 2nd]({{< relref "/calendar/2016/simulated-emergency-test-1.md" >}}) ,
 and
-[Monday, October 3rd]({{< relref "calendar/2016/simulated-emergency-test-2.md" >}}) using the following frequencies:
+[Monday, October 3rd]({{< relref "/calendar/2016/simulated-emergency-test-2.md" >}}) using the following frequencies:
 
 * [W0ILO Repeaters](/radios/)
 * 146.52 Mhz (2m) simplex FM

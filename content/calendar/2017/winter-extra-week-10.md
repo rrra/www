@@ -12,5 +12,5 @@ dates = [ "Winter 2017 Extra" ]
 ### Topics
 
 * Questions from Chapters 9 & 10
-* Review for [21 Mar 2017 test date]({{< relref "calendar/2017/march-testing.md" >}})
+* Review for [21 Mar 2017 test date]({{< relref "/calendar/2017/march-testing.md" >}})
 

@@ -9,7 +9,7 @@ authors = [ "KE0BXS" ]
 toc = "true"
 +++
 * 19:17 Meeting called to order (secretary was late)
-* Moment of silence for [Gene Wicklund---W0ZOK]({{< relref "sk/w0zok.md" >}})
+* Moment of silence for [Gene Wicklund---W0ZOK]({{< relref "/sk/w0zok.md" >}})
     * Club sen[t] card with a donation to the Boy Scout troop 274 in his honor
 * Introductions of members 
 * Approve order of agenda

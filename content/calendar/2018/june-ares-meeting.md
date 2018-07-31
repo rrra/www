@@ -19,5 +19,5 @@ Please enter through the north doors adjacent to the 4th Ave E parking lot.
 
 #### Field Day Testing
 
-* Discuss, and make a decision about, conducting an AREDN test in conjunction with [Field Day 2018]({{< relref "calendar/2018/field-day.md" >}})
+* Discuss, and make a decision about, conducting an AREDN test in conjunction with [Field Day 2018]({{< relref "/calendar/2018/field-day.md" >}})
 (Saturday, June 23rd)

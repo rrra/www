@@ -43,5 +43,5 @@ Find content on this site using the:
 
 #### Technical Details
 
-Learn about the software and services used to build and maintain this website in our [Colophon]({{< relref "about/colophon.md" >}})
+Learn about the software and services used to build and maintain this website in our [Colophon]({{< relref "/about/colophon.md" >}})
 

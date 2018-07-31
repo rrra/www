@@ -7,7 +7,7 @@ tags = [ "Smith Chart", "W2AEW", "YouTube" ]
 aliases = [ "/post/2018/01/06/smith-chart-basics---impedence-and-admittance-curves-and-convesions/" ]
 +++
 An introductory video by
-[W2AEW]({{< relref "post/2018/smith-chart-impedence-admittance.md#about-w2aew" >}})
+[W2AEW]({{< relref "/post/2018/smith-chart-impedence-admittance.md#about-w2aew" >}})
 describing how complex impedance and admittance are represented on the
 Smith Chart, and how to convert between them. Includes a demonstration using a
 [VNA](https://en.wikipedia.org/wiki/Network_analyzer_(electrical)

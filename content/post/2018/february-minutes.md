@@ -50,7 +50,7 @@ acceptance by the Secretary**
 
 #### Clay RRRAES
 * Bob G
-* Check the website for information about the [March 12 SKYWARN class \[in Sabin\]]({{< relref "calendar/2018/sabin-skywarn-refresher.md" >}})
+* Check the website for information about the [March 12 SKYWARN class \[in Sabin\]]({{< relref "/calendar/2018/sabin-skywarn-refresher.md" >}})
 * ARES contact list is available for review and information update. Check with KA0Q if you want to be included on, or removed from, the list
 * KA0Q is stepping down as Clay County Emergency Coordinator; KC0ODE will take his place
 * Highlights of KA0Q's tenure as Clay County EC:
@@ -81,7 +81,7 @@ acceptance by the Secretary**
 
 #### VEs
 * Pete
-* Testing [next month]({{< relref "calendar/2018/march-testing.md" >}}) after the meeting
+* Testing [next month]({{< relref "/calendar/2018/march-testing.md" >}}) after the meeting
 
 #### Media
 * Steve K.

@@ -13,7 +13,7 @@ Radio](http://www.arrl.org/what-is-ham-radio)'s *open house*.
 It is a picnic, a campout, practice for emergencies, an informal contest and,
 most of all, *fun*!
 
-[{{< figure src="http://www.arrl.org/files/file/Field-Day/2017/2017%20Field%20Day%20Logo%20Web%20FINAL.jpg">}}]({{< relref "post/2017/be-a-part-of-field-day.md#about-field-day" >}})
+[{{< figure src="http://www.arrl.org/files/file/Field-Day/2017/2017%20Field%20Day%20Logo%20Web%20FINAL.jpg">}}]({{< relref "/post/2017/be-a-part-of-field-day.md#about-field-day" >}})
 
 <!--more-->
 ## About Field Day
@@ -42,8 +42,8 @@ PDF flyer and on the [ARRL Field Day page](http://www.arrl.org/field-day).
 
 ## Fargo / Moorhead Area Field Day Sites
 
-* [Red River Radio Amateurs---West Fargo, ND]({{< relref "calendar/2017/field-day.md" >}})
-* [Clay County ARES---Sabin, MN]({{< relref "calendar/2017/field-day-sabin.md" >}})
+* [Red River Radio Amateurs---West Fargo, ND]({{< relref "/calendar/2017/field-day.md" >}})
+* [Clay County ARES---Sabin, MN]({{< relref "/calendar/2017/field-day-sabin.md" >}})
 
 Please use the
 [ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator)

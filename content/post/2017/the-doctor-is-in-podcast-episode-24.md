@@ -10,7 +10,7 @@ title = "The Doctor Is In Podcast Episode 24"
 +++
 "Many amateurs swear by large loop antennas for the HF bands, but what makes
 them so special?
-[ [1]({{< relref "post/2017/the-doctor-is-in-podcast-episode-24.md#footnotes" >}}) ]
+[ [1]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-24.md#footnotes" >}}) ]
 
 Find out why in the
 [HF Loop Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/21223739/hf-loop-antennas/)
@@ -74,7 +74,7 @@ or at
 [Stitcher](https://www.stitcher.com/)
 (free registration required, or browse the site as a guest) and through
 the free Stitcher app for iOS, Kindle, or Android devices.
-<span style="font-style:normal;">[ [2]({{< relref "#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [2]({{< relref "/#footnotes" >}}) ]</span>
 
 ### Footnotes
 

@@ -15,5 +15,5 @@ This is a free class for Emergency Responders and members of the public. No
 registration is required.
 
 Individuals unable to attend this session may be interested in the
-[Sabin Skywarn Class]({{< relref "calendar/2017/sabin-skywarn-refresher.md" >}})
+[Sabin Skywarn Class]({{< relref "/calendar/2017/sabin-skywarn-refresher.md" >}})
 on Monday, March 27, 2017.

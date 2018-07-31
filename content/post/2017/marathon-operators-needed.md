@@ -17,7 +17,7 @@ to last year's. One main difference is starting inside the
 Fargodome instead of out on University.
 
 Please see the
-[Fargo Marathon 2017]({{< relref "calendar/2017/fargo-marathon.md" >}})
+[Fargo Marathon 2017]({{< relref "/calendar/2017/fargo-marathon.md" >}})
 page for the event schedule, equipment list, etc.
 
 RRRA communications support for the Fargo Marathon will be coordinated through

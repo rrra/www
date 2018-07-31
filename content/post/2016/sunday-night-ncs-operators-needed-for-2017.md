@@ -16,7 +16,7 @@ periodically call for participants to join, listen for check-ins, keep
 track of the roster of stations for that particular net session, and
 generally orchestrate the operation of the net.
 <!--more-->
-A [Net Preamble]({{< relref "nets/preamble.md" >}}) (or script) is provided
+A [Net Preamble]({{< relref "/nets/preamble.md" >}}) (or script) is provided
 to aid NCSes in operating their nets.
 
 Serving as an NCS is a great way to overcome *mic-fright*, prepare for

@@ -20,12 +20,12 @@ outputs = [ "HTML", "Calendar" ]
 Following the completion of the course you should:
 
 * Review the textbook
-* [Take practice tests]({{<relref "rrra-course-supplement.md#practice-tests-and-study-tools" >}})
+* [Take practice tests]({{<relref "/rrra-course-supplement.md#practice-tests-and-study-tools" >}})
 * [Obtain an FRN](http://wireless.fcc.gov/uls/index.htm?job=about_getting_started) so that you do not have to provide your SSN at the testing session
 
 ### License Testing
 
-A [license testing session]({{< relref "calendar/2018/may-testing.md" >}})
+A [license testing session]({{< relref "/calendar/2018/may-testing.md" >}})
 is scheduled for May 15, 2018.
 
 Please visit our index of [License Testing dates](/dates/license-testing/)
@@ -35,5 +35,5 @@ Status**.
 
 ### Resources
 
-* [Course Supplement]({{< relref "rrra-course-supplement.md" >}})
+* [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
 * [Syllabus](/s/2xabO1oD5mbpVRh)

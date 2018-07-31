@@ -9,7 +9,7 @@ aliases = [ "/post/2018/07/20/support-ham-radio-at-the-night-to-unite/", "/post/
 +++
 RRRA members are invited to help raise community awareness of Amateur Radio
 at the
-[West Fargo 2018 Night to Unite]({{< relref "calendar/2018/night-to-unite.md" >}}) on Tuesday, August 7th, in West Fargo.
+[West Fargo 2018 Night to Unite]({{< relref "/calendar/2018/night-to-unite.md" >}}) on Tuesday, August 7th, in West Fargo.
 
 Please contact {{< mailto N0TSZ >}} to volunteer for this event.
 <!--more-->

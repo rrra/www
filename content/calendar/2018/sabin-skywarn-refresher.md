@@ -13,7 +13,7 @@ upcoming = "force"
 * Sponsored by Clay County Emergency Services, [Sabin-Elmwood Fire and Rescue](http://www.sabin-elmwoodfire.com/), and Clay County Amateur Radio Emergency Services (CCARES)
 
 Individuals unable to attend this session may be interested in the
-[Fargo Skywarn Class]({{< relref "calendar/2018/fargo-skywarn-class.md" >}})
+[Fargo Skywarn Class]({{< relref "/calendar/2018/fargo-skywarn-class.md" >}})
 on Tuesday, April 3, 2018.
 
 <div style="border:1px solid black">

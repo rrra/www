@@ -10,7 +10,7 @@ title = "Volunteers Needed for the 2018 FM Rotary Ride"
 +++
 Radio Operators are needed to support the
 [FM Rotary Ride 2018](http://www.fmrotaryride.com/) on
-[Saturday, September 8, 2018]({{< relref "calendar/2018/fm-rotary-ride-2018.md" >}}). Please contact {{< mailto K0CRF >}} if you would like to volunteer for
+[Saturday, September 8, 2018]({{< relref "/calendar/2018/fm-rotary-ride-2018.md" >}}). Please contact {{< mailto K0CRF >}} if you would like to volunteer for
 this [Public Service](/categories/public-service/) event.
 <!--more-->
 

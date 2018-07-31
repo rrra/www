@@ -22,8 +22,8 @@ preparation for Field Day 2017.
 * [Copy The Bulletin](https://twitter.com/arrl/status/875322268750159872)
 
 For previous tips see
-[Field Day 2017 Tips]({{< relref "post/2017/arrl-field-day-tips.md" >}}) and
-[Field Day 2017 Tips Week 2]({{< relref "post/2017/arrl-field-day-tips-week-2.md" >}}).
+[Field Day 2017 Tips]({{< relref "/post/2017/arrl-field-day-tips.md" >}}) and
+[Field Day 2017 Tips Week 2]({{< relref "/post/2017/arrl-field-day-tips-week-2.md" >}}).
 
 Twitter users can follow [@arrl](https://twitter.com/arrl) for a new field day tip every day and use [#ARRLFD](https://twitter.com/hashtag/ARRLFD) to join in the conversation.
 

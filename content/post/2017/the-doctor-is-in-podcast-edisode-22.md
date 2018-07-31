@@ -10,7 +10,7 @@ title = "The Doctor Is In Podcast Episode 22"
 +++
 Listen to a discussion about
 [Meteor Scatter](https://www.blubrry.com/arrl_the_doctor_is_in/20039322/meteor-scatter/)
-"a radio propagation mode that exploits the ionized trails of meteors during atmospheric entry to establish brief communications paths between radio stations up to 2,250 kilometres (1,400 mi) apart." [ [1]({{< relref "post/2017/the-doctor-is-in-podcast-edisode-22.md#footnotes" >}}) ]
+"a radio propagation mode that exploits the ionized trails of meteors during atmospheric entry to establish brief communications paths between radio stations up to 2,250 kilometres (1,400 mi) apart." [ [1]({{< relref "/post/2017/the-doctor-is-in-podcast-edisode-22.md#footnotes" >}}) ]
 in this episode of the
 [*ARRL The Doctor is In*](http://www.arrl.org/doctor/) podcast.
 
@@ -67,7 +67,7 @@ or at
 [Stitcher](https://www.stitcher.com/)
 (free registration required, or browse the site as a guest) and through
 the free Stitcher app for iOS, Kindle, or Android devices.
-<span style="font-style:normal;">[ [2]({{< relref "#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [2]({{< relref "/#footnotes" >}}) ]</span>
 
 ### Footnotes
 

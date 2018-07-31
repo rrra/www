@@ -22,7 +22,7 @@ south-east parking area (the red marker shown below.)
 
 ## Other Field Day Site Locations
 
-* [Cass/Clay ARES---Sabin, MN]({{< relref "calendar/2018/field-day-sabin.md" >}}) (WB0BIN)
+* [Cass/Clay ARES---Sabin, MN]({{< relref "/calendar/2018/field-day-sabin.md" >}}) (WB0BIN)
 
 More Field Day sites in the area may be found with the 
 [ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator).

@@ -9,10 +9,10 @@ description = ""
 
 +++
 Volunteers are needed to staff an RRRA information table at the 17th annual
-[Breakfast On The Farm]({{< relref "post/2017/breakfast-on-the-farm.md#about-breakfast-on-the-farm" >}})
+[Breakfast On The Farm]({{< relref "/post/2017/breakfast-on-the-farm.md#about-breakfast-on-the-farm" >}})
 at
 [Kasin Farms, Hawley, Minnesota](/places/hawley-mn-kasin-farms/), on
-[Saturday, June 3, 2017]({{< relref "calendar/2017/breakfast-on-the-farm.md" >}}).
+[Saturday, June 3, 2017]({{< relref "/calendar/2017/breakfast-on-the-farm.md" >}}).
 
 RRRA members interested on helping to raise awareness about our club, and Amateur Radio in the Red River Valley, are encouraged to contact {{< mailto KA0Q >}}.
 <!--more-->

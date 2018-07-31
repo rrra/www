@@ -20,7 +20,7 @@ members at the <a href="https://cloud.rrra.org" rel="nofollow">RRRA
 ownCloud</a> for document sharing and archiving.
 
 Hamfest Committee volunteers are asked to [subscribe to the hamfest
-mailing list]({{< relref "post/2016/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
+mailing list]({{< relref "/post/2016/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
 so that they can stay informed and be a part of the
 conversation. <!--more-->Volunteers may subscribe multiple addresses
 (e.g. work and home e-mail) if desired.
@@ -31,8 +31,8 @@ event.
 ### Subscribing to the mailing list
 
 There are two ways to subscribe to the hamfest mailing list: the
-[web interface]({{< relref "#using-the-web-interface" >}}) and the
-[e-mail interface]({{< relref "#using-the-e-mail-interface" >}})
+[web interface]({{< relref "/#using-the-web-interface" >}}) and the
+[e-mail interface]({{< relref "/#using-the-e-mail-interface" >}})
 (you don't need to use both).
 
 #### Using the web interface:

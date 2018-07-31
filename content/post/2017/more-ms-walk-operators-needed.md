@@ -10,7 +10,7 @@ slug = ""
 +++
 Three amateur radio operators (hams) are still needed to provide
 communications support for
-[*Walk MS: Fargo 2017* on April 29th, 2017]({{< relref "calendar/2017/ms-walk-fargo.md" >}}). And a  cross-band repeater is needed for the Start/Finish Line position.
+[*Walk MS: Fargo 2017* on April 29th, 2017]({{< relref "/calendar/2017/ms-walk-fargo.md" >}}). And a  cross-band repeater is needed for the Start/Finish Line position.
 
 New hams are encouraged to participate in this event to gain experience in
 Amateur Radio

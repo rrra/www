@@ -14,14 +14,14 @@ upon the same few individuals in perpetuity. It is, therefore, well past
 time for new Officers to step forward from within our membership.
 
 As specified in 
-[Article III] ({{< relref "bylaws.md#article-iii-fiscal-year" >}}) of the
-[RRRA Bylaws]({{< relref "bylaws.md" >}}),
+[Article III] ({{< relref "/bylaws.md#article-iii-fiscal-year" >}}) of the
+[RRRA Bylaws]({{< relref "/bylaws.md" >}}),
 a leadership election will be conducted during the
-[February Meeting]({{< relref "calendar/2018/february-meeting.md" >}}).
+[February Meeting]({{< relref "/calendar/2018/february-meeting.md" >}}).
 
-* [What positions must be filled?]({{< relref "post/2018/officer-elections.md#what-positions-must-be-filled" >}})
-* [Where do you fit in?]({{< relref "post/2018/officer-elections.md#where-do-you-fit-in" >}})
-* [How do you run for office?]({{< relref "post/2018/officer-elections.md#how-do-you-run-for-office" >}})
+* [What positions must be filled?]({{< relref "/post/2018/officer-elections.md#what-positions-must-be-filled" >}})
+* [Where do you fit in?]({{< relref "/post/2018/officer-elections.md#where-do-you-fit-in" >}})
+* [How do you run for office?]({{< relref "/post/2018/officer-elections.md#how-do-you-run-for-office" >}})
 
 <!--more-->
 
@@ -29,24 +29,24 @@ a leadership election will be conducted during the
 
 Four Officers and one At-Large Member of the Board of Directors are to be
 elected; with responsibilities are documented in
-[Article VI---Board of Directors]({{< relref "bylaws.md#article-vi-board-of-directors" >}}) and
-[Article VII---Officers]({{< relref "bylaws.md#article-vii-officers" >}})
+[Article VI---Board of Directors]({{< relref "/bylaws.md#article-vi-board-of-directors" >}}) and
+[Article VII---Officers]({{< relref "/bylaws.md#article-vii-officers" >}})
 of the RRRA Bylaws.
 
 #### At-Large Member of the Board of Directors
 
 One **At-Large Member** of the
-[Board of Directors]({{< relref "bylaws.md#article-vi-board-of-directors" >}})
+[Board of Directors]({{< relref "/bylaws.md#article-vi-board-of-directors" >}})
 will be elected for a two year term.
 
 #### Officers
 
-A [President]({{< relref "post/2018/officer-elections.md#president" >}}),
-[Vice-President]({{< relref "post/2018/officer-elections.md#vice-president" >}}),
-[Secretary]({{< relref "post/2018/officer-elections.md#secretary" >}}), and
-[Treasurer]({{< relref "post/2018/officer-elections.md#treasurer" >}})
+A [President]({{< relref "/post/2018/officer-elections.md#president" >}}),
+[Vice-President]({{< relref "/post/2018/officer-elections.md#vice-president" >}}),
+[Secretary]({{< relref "/post/2018/officer-elections.md#secretary" >}}), and
+[Treasurer]({{< relref "/post/2018/officer-elections.md#treasurer" >}})
 will be elected for a one year term. In addition to serving as
-[members of the Board of Directors]({{< relref "bylaws.md#article-vi-board-of-directors" >}}),
+[members of the Board of Directors]({{< relref "/bylaws.md#article-vi-board-of-directors" >}}),
 these Officers have the following responsibilities:
 
 ##### President
@@ -110,7 +110,7 @@ Candidates must be members in good standing. Please bring your
 [membership / renewal form](/s/3iOnHKqxHlaDxxv)
 <span style="font-size:smaller">(PDF)</span>
 and dues payment to the
-[February Meeting]({{< relref "calendar/2018/february-meeting.md" >}}).
+[February Meeting]({{< relref "/calendar/2018/february-meeting.md" >}}).
 if you have not already renewed for 2018.
 
 Questions about your membership status should be directed to

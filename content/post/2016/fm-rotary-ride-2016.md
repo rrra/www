@@ -9,7 +9,7 @@ authors = [ "K0STK" ]
 +++
 Radio Operators are needed to support the
 [FM Rotary Ride 2016](http://www.fmrotaryride.com/) on
-[Saturday, September 10, 2016]({{< relref "calendar/2016/fm-rotary-ride-2016.md" >}}). Please contact {{< mailto K0CRF >}} if you would like to volunteer for
+[Saturday, September 10, 2016]({{< relref "/calendar/2016/fm-rotary-ride-2016.md" >}}). Please contact {{< mailto K0CRF >}} if you would like to volunteer for
 this [Public Service](/categories/public-service/) event.
 <!--more-->
 ### About The Ride
@@ -18,7 +18,7 @@ This is the fourth annual cycling celebration for all ages and all abilities
 and part of
 [Greater Moorhead Days](http://www.fargomoorhead.org/calender-detail.html?eventid=14608).
 
-Four different fun [ride routes]({{< relref "#routes" >}}) start and end at Lindenwood Park Rotary Shelter.  
+Four different fun [ride routes]({{< relref "/#routes" >}}) start and end at Lindenwood Park Rotary Shelter.  
 
 This vibrant community event and fundraiser has raised money to support the FM Miracle Field, a rubber-surfaced baseball field in Moorhead, and Gigi's Playhouse Fargo, a Down Syndrome Achievement Center. 
 

@@ -19,7 +19,7 @@ localized fiber-optic cable cut to regional severe weather events.
 
 As past FEMA Administrator Craig Fugate,
 KK4INZ, said in
-[Ham Radio Now Emcomm Extra #8]({{< relref "post/2017/hamradionow-interview-with-craig-fugate.md" >}}),
+[Ham Radio Now Emcomm Extra #8]({{< relref "/post/2017/hamradionow-interview-with-craig-fugate.md" >}}),
  when an incident occurs "they just want their email to work."
 
 Traditional public service (aka *Emcomm*) messaging often does not

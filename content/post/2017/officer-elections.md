@@ -11,8 +11,8 @@ According to the [RRRA Bylaws](/about/bylaws), "Officers shall be
 elected by a majority vote of the membership present and voting ..."
 
 Therefore, all RRRA Members are encouraged to attend the
-[February Club Meeting]({{< relref "calendar/2017/february-meeting.md" >}}) on
-[Tuesday, February 21, 2017]({{< relref "calendar/2017/february-meeting.md" >}})
+[February Club Meeting]({{< relref "/calendar/2017/february-meeting.md" >}}) on
+[Tuesday, February 21, 2017]({{< relref "/calendar/2017/february-meeting.md" >}})
 to vote in the 2017 Officer Elections.
 
 Inactive members (i.e. those who have not paid their dues

@@ -21,9 +21,9 @@ reminders, has been posted on the
 * [Time to Set Up!](https://twitter.com/arrl/status/877895213762584577)
 
 For previous tips see
-[Field Day 2017 Tips]({{< relref "post/2017/arrl-field-day-tips.md" >}}),
-[Field Day 2017 Tips Week 2]({{< relref "post/2017/arrl-field-day-tips-week-2.md" >}}), and
-[Field Day 2017 Tips Week 2]({{< relref "post/2017/arrl-field-day-tips-week-2.md" >}}).
+[Field Day 2017 Tips]({{< relref "/post/2017/arrl-field-day-tips.md" >}}),
+[Field Day 2017 Tips Week 2]({{< relref "/post/2017/arrl-field-day-tips-week-2.md" >}}), and
+[Field Day 2017 Tips Week 2]({{< relref "/post/2017/arrl-field-day-tips-week-2.md" >}}).
 
 Twitter users can follow [@arrl](https://twitter.com/arrl) for a new field day tip every day and use [#ARRLFD](https://twitter.com/hashtag/ARRLFD) to join in the conversation.
 

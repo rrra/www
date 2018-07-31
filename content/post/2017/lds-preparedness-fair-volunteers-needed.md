@@ -10,7 +10,7 @@ authors = [ "K0STK" ]
 +++
 Volunteers are needed to staff an Amateur Radio information table and, if
 possible the RRRA Communication Trailer, at the
-[2017 LDS Preparedness Fair]({{< relref "calendar/2017/lds-preparedness-fair.md" >}}).
+[2017 LDS Preparedness Fair]({{< relref "/calendar/2017/lds-preparedness-fair.md" >}}).
 
 Please contact {{< mailto KE0LDS >}} if you wish to assist with this event.
 <!--more-->

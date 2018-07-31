@@ -18,7 +18,7 @@ held Wednesday evenings, from 7:00pm to 9:00pm, on the 3rd floor of the
 {{% hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" %}}
 
 **There is no charge for instruction; however a
-[textbook]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}})
+[textbook]({{< relref "/about/committees/education-and-testing-schedule.md#textbooks" >}})
 is required** (approximate cost $30)
 
 #### Class Schedule

@@ -7,7 +7,7 @@ tags = []
 title = "Ojibwe Forests Rally Help Needed"
 authors = [ "K0STK" ]
 +++
-Volunteers are still needed in all specialties for the [2016 Ojibwe Forests Rally]({{< relref "calendar/2016/ojibwe-forest-rally.md" >}}) on August 26 & 27.
+Volunteers are still needed in all specialties for the [2016 Ojibwe Forests Rally]({{< relref "/calendar/2016/ojibwe-forest-rally.md" >}}) on August 26 & 27.
 
 The most operators are needed for the Saturday evening stage on
 Northshore Drive in Detroit Lakes.

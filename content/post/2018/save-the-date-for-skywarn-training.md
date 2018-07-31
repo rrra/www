@@ -11,11 +11,11 @@ interested in becoming SKYWARN&reg; weather spotters; and current spotters who
 wish to refresh their skills; are encouraged to save the date for <!--one of
 the two training opportunities to be offered in the Fargo/Moorhead area 
 during 2018.--> a training opportunity on
-[Monday, March 12, in Sabin, MN]({{< relref "calendar/2018/sabin-skywarn-refresher.md" >}})
+[Monday, March 12, in Sabin, MN]({{< relref "/calendar/2018/sabin-skywarn-refresher.md" >}})
 
 <!--
-* [Fargo - Tuesday, March 28]({{< relref "calendar/2017/fargo-skywarn-class.md" >}})
-* [Sabin - Monday, March 27]({{< relref "calendar/2017/sabin-skywarn-refresher.md" >}})
+* [Fargo - Tuesday, March 28]({{< relref "/calendar/2017/fargo-skywarn-class.md" >}})
+* [Sabin - Monday, March 27]({{< relref "/calendar/2017/sabin-skywarn-refresher.md" >}})
 -->
 <!--more-->
 These free classes are presented by the National Weather Service and last about 2 1/2 hours. Participants will learn about:

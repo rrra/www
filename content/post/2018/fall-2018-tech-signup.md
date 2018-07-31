@@ -12,7 +12,7 @@ Registration for RRRA Fall 2018 Technician Classes is now open. Please
 through Eventbrite.
 
 **This [series](/dates/fall-2018-technician) of classes begins
-[August 15, 2018]({{< relref "calendar/2018/fall-tech-week-01.md" >}})**.
+[August 15, 2018]({{< relref "/calendar/2018/fall-tech-week-01.md" >}})**.
 <!--more-->
 
 Our Amateur Radio license classes are
@@ -24,6 +24,6 @@ There is no charge for instruction; however a textbook is required
 
 Detailed class information, including links to purchase the required
 text books, is available on our
-[Education and Testing Schedule]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}).
+[Education and Testing Schedule]({{< relref "/about/committees/education-and-testing-schedule.md#textbooks" >}}).
 
 Please contact {{% mailto W0HNV name %}} if you have any questions.

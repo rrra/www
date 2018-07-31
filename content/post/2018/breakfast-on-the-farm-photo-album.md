@@ -7,7 +7,7 @@ categories = [ "Outreach" ]
 tags = [ "Photos" ]
 +++
 On June 2, 2018, RRRA promoted Amateur Radio at the
-[18th Breakfast On The Farm]({{< relref "calendar/2018/breakfast-on-the-farm.md" >}})
+[18th Breakfast On The Farm]({{< relref "/calendar/2018/breakfast-on-the-farm.md" >}})
 with a booth staffed by KA0Q and W0HNV.
 <!--more-->
 

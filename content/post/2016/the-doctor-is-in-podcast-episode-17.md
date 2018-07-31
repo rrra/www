@@ -9,7 +9,7 @@ title = "The Doctor Is In Podcast Episode 17"
 
 +++
 "Sometimes the best antenna is the *least* antenna."
-[[1]({{< relref "post/2016/the-doctor-is-in-podcast-episode-17.md#footnotes" >}})]
+[[1]({{< relref "/post/2016/the-doctor-is-in-podcast-episode-17.md#footnotes" >}})]
 
 Learn about some of your options for 
 [Stealth Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/17966282/stealth-antennas/)
@@ -63,7 +63,7 @@ or at
 [Stitcher](https://www.stitcher.com/)
 (free registration required, or browse the site as a guest) and through
 the free Stitcher app for iOS, Kindle, or Android devices.
-[[2]({{< relref "#footnotes" >}})]
+[[2]({{< relref "/#footnotes" >}})]
 
 ### Footnotes
 

@@ -12,7 +12,7 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Prerequisites
 
-* Purchase the [testbook]({{< relref "about/committees/education-and-testing-schedule.md#textbooks" >}}) 
+* Purchase the [testbook]({{< relref "/about/committees/education-and-testing-schedule.md#textbooks" >}}) 
 * Read textbook pages 1 to 51
 
 ### Syllabus
@@ -30,5 +30,5 @@ folder on the RRRA File Sharing Server.
 
 ### Homework
 
-* Read textbook pages 52 to 80 (for the [next class]({{< relref "calendar/2018/spring-tech-week-02.md" >}}))
+* Read textbook pages 52 to 80 (for the [next class]({{< relref "/calendar/2018/spring-tech-week-02.md" >}}))
 

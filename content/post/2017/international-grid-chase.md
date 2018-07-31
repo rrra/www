@@ -15,7 +15,7 @@ tags = [ "ARRL", "LoTW" ]
 >The objective of the ARRL International Grid Chase is simple: Work stations in as many grid squares as possible and upload your log data to ARRL's Logbook of The World. If you are not currently registered with Logbook of The World, this is a good reason to get started. Go to https://lotw.arrl.org/lotw-help/getting-started/. Registration and uploading are free.
 
 >Every new grid square contact confirmed through Logbook of The World counts toward your monthly total, so you have an incentive to start the chase as soon as you ring in the New Year.
-<span style="font-style:normal;">[ [1]({{< relref "post/2017/international-grid-chase.md#references" >}}) ]</span>
+<span style="font-style:normal;">[ [1]({{< relref "/post/2017/international-grid-chase.md#references" >}}) ]</span>
 
 Please visit the [ARRL International Grid Chase 2018 page](https://www.arrl.org/aigc2018) to learn about
 
@@ -38,7 +38,7 @@ to the Utilities Technology Council
 formerly the Utilities Telecom Council, of their intention to operate
 on one or both bands. If UTC does not respond within 30 days or
 specifically denies access, these stations may commence operation there.
-<span style="font-style:normal;">[ [2]({{< relref "post/2017/international-grid-chase.md#references" >}}) ]</span>
+<span style="font-style:normal;">[ [2]({{< relref "/post/2017/international-grid-chase.md#references" >}}) ]</span>
 
 Please see the
 [November 16, 2017, ARRL Letter](http://www.arrl.org/arrlletter?issue=2017-11-16)

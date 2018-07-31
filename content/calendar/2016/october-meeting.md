@@ -12,7 +12,7 @@ doors adjacent to the 2nd Ave S parking lot.
 
 ### Tonight's Presentation
 
-[**Stop the Bleeding**]({{< relref "post/2016/stop-the-bleeding-introduction.md" >}})
+[**Stop the Bleeding**]({{< relref "/post/2016/stop-the-bleeding-introduction.md" >}})
 presented by Everett Patterson from the Fargo Fire
 Department.
 

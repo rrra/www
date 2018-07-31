@@ -8,8 +8,8 @@ categories = [ "Technical" ]
 contact = "W0HNV"
 +++
 * [W0ILO Repeaters](/radios/#repeaters)
-* [Red River Valley Repeater List]({{< relref "radios/red-river-valley-repeaters.md" >}})
-* [SuperLINK]({{< relref "radios/superlink.md" >}})
+* [Red River Valley Repeater List]({{< relref "/radios/red-river-valley-repeaters.md" >}})
+* [SuperLINK]({{< relref "/radios/superlink.md" >}})
 
 ## W0ILO Repeaters 
 
@@ -27,11 +27,11 @@ Wheatland, ND | 147.255 MHz + | 123 Hz
 
 ### Red River Valley Repeater List
 
-A list of [repeaters in the Red River Valley]({{< relref "radios/red-river-valley-repeaters.md" >}}) which are accessible from the Fargo/Moorhead area.
+A list of [repeaters in the Red River Valley]({{< relref "/radios/red-river-valley-repeaters.md" >}}) which are accessible from the Fargo/Moorhead area.
 
 ### SuperLINK
 
-[SuperLINK]({{< relref "radios/superlink.md" >}}) is an Amateur Radio
+[SuperLINK]({{< relref "/radios/superlink.md" >}}) is an Amateur Radio
 repeater linking system which links together 2 meter repeaters located
 along Interstate 94 from the Western Border of North Dakota, through
 Minnesota, and into Wisconsin. It also has links extending north to

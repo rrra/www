@@ -11,8 +11,8 @@ title = "2017 SKYWARN&reg; Training"
 There are two SKYWARN&reg; training opportunities in the Fargo/Moorhead area in
 March 2017:
 
-* [Fargo - Tuesday, March 28]({{< relref "calendar/2017/fargo-skywarn-class.md" >}})
-* [Sabin - Monday, March 27]({{< relref "calendar/2017/sabin-skywarn-refresher.md" >}})
+* [Fargo - Tuesday, March 28]({{< relref "/calendar/2017/fargo-skywarn-class.md" >}})
+* [Sabin - Monday, March 27]({{< relref "/calendar/2017/sabin-skywarn-refresher.md" >}})
 
 These free classes, presented by the National Weather Service, will
 train First Responders, Amateur Radio Operators, and members of the
@@ -60,7 +60,7 @@ page to find other regional training opportunities.
 >Nation's first line of defense against severe weather. There can be no
 >finer reward than to know that their efforts have given communities the
 >precious gift of time--seconds and minutes that can help save lives.
-<span style="font-style:normal;">[ [1]({{< relref "#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [1]({{< relref "/#footnotes" >}}) ]</span>
 
 Please visit the *Frequently Asked Questions About SKYWARN&reg;* section of
 the [NWS WFO Grand Forks, ND](http://www.weather.gov/fgf/skywarn) 

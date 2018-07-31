@@ -26,12 +26,12 @@ and [Randy Cole, KN6W](http://vibroplexcollector.net/).
 >brings together material which would otherwise be lost to posterity,
 >providing an invaluable source of interest, reference and record
 >relating to the traditions and practice of Morse
-<span style="font-style:normal;">[ [1]({{< relref "post/2017/morsum-magnificat-free-download.md#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [1]({{< relref "/post/2017/morsum-magnificat-free-download.md#footnotes" >}}) ]</span>
 
 <!--more-->
 "All copies of *Morsum Magnificat* or associated publications downloaded
 from the N7CFO website are for personal use only and may not be
-downloaded or distributed for any commercial purpose." [ [2]({{< relref "post/2017/morsum-magnificat-free-download.md#footnotes" >}}) ]
+downloaded or distributed for any commercial purpose." [ [2]({{< relref "/post/2017/morsum-magnificat-free-download.md#footnotes" >}}) ]
 
 {{< tweet "865269536328749058" >}}
 

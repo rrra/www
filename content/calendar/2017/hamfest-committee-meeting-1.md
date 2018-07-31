@@ -16,7 +16,7 @@ This will be our first Hamfest planning meeting. All RRRA members who are
 interested in helping with the 2017 Hamfest are encouraged to attend.
 
 Hamfest Committee volunteers are asked to [subscribe to the hamfest
-mailing list]({{< relref "post/2017/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
+mailing list]({{< relref "/post/2017/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
 so that they can stay informed and be a part of the
 conversation. Volunteers may subscribe multiple addresses
 (e.g. work and home e-mail) if desired.

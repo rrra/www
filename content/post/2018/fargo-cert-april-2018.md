@@ -22,14 +22,14 @@ This training is ***free*** and open to the public.
 [CERT Classes](/dates/cert/) will take place at West Acres Shopping Center
 from 8:00 a.m. to 10:00 a.m. on these dates:
 
-* April 3: [Class Intro, General Preparedness]({{< relref "calendar/2018/spring-cert-week-01.md" >}})
-* April 10: [Fire Safety/Fire Extinguishers]({{< relref "calendar/2018/spring-cert-week-02.md" >}})
-* April 17: [Search & Rescue]({{< relref "calendar/2018/spring-cert-week-03.md" >}})
-* April 24: [Medical Operations Part 1]({{< relref "calendar/2018/spring-cert-week-04.md" >}})
-* May 1: [Medical Operations Part 2]({{< relref "calendar/2018/spring-cert-week-05.md" >}})
-* May 8: [Disaster Psychology]({{< relref "calendar/2018/spring-cert-week-06.md" >}})
-* May 15: [Terrorism/Active Shooter]({{< relref "calendar/2018/spring-cert-week-07.md" >}})
-* May 22: [Wrap Up/Exercise]({{< relref "calendar/2018/spring-cert-week-08.md" >}})
+* April 3: [Class Intro, General Preparedness]({{< relref "/calendar/2018/spring-cert-week-01.md" >}})
+* April 10: [Fire Safety/Fire Extinguishers]({{< relref "/calendar/2018/spring-cert-week-02.md" >}})
+* April 17: [Search & Rescue]({{< relref "/calendar/2018/spring-cert-week-03.md" >}})
+* April 24: [Medical Operations Part 1]({{< relref "/calendar/2018/spring-cert-week-04.md" >}})
+* May 1: [Medical Operations Part 2]({{< relref "/calendar/2018/spring-cert-week-05.md" >}})
+* May 8: [Disaster Psychology]({{< relref "/calendar/2018/spring-cert-week-06.md" >}})
+* May 15: [Terrorism/Active Shooter]({{< relref "/calendar/2018/spring-cert-week-07.md" >}})
+* May 22: [Wrap Up/Exercise]({{< relref "/calendar/2018/spring-cert-week-08.md" >}})
 
 Visit the
 [Red River CERT page](http://fargond.gov/city-government/departments/emergency-management/community-emergency-response-team-cert)

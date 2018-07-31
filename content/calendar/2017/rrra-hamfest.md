@@ -15,8 +15,8 @@ aliases = [ "/cal/2017/hamfest/" ]
 * Special YL only prizes
 * Free Yaesu promotional items to first 100 attendees (or while supply lasts)
 * Talk-In on 145.350-, 147.255+, and 444.875+; PL 123 Hz
-* [Seminars]({{< relref "post/2017/hamfest.md#seminars" >}})
-* [License Testing]({{< relref "post/2017/hamfest.md#license-testing" >}}) (aka *VE Testing*)
+* [Seminars]({{< relref "/post/2017/hamfest.md#seminars" >}})
+* [License Testing]({{< relref "/post/2017/hamfest.md#license-testing" >}}) (aka *VE Testing*)
 * Flea Market
 * Food
 

@@ -6,17 +6,17 @@ categories = [ "Technical" ]
 +++
 Location | Callsign | Frequency | Notes
 ---------|----------|-----------|------
-Barnesville, MN | KC0SD | {{< repeaterbook  "147.060 + T123" 27 113 >}} | [SuperLINK]({{< relref "radios/superlink.md" >}})
+Barnesville, MN | KC0SD | {{< repeaterbook  "147.060 + T123" 27 113 >}} | [SuperLINK]({{< relref "/radios/superlink.md" >}})
 Detroit Lakes, MN | W0EMZ | {{< repeaterbook  "147.195 +" 27 133 >}} | [Detroit Lakes ARC](http://w0emz.com/)
 Fargo, ND | KB0IXM | {{< repeaterbook  "145.490 - T82.5" 38 45 >}} | [IRLP #4549](http://status.irlp.net/index.php?PSTART=11&nodeid=4549)
 Fargo, ND | KD0SWQ | 444.000 + | NDSU D-STAR Repeater
 Fargo, ND | W0HSC | {{< repeaterbook  "147.090 +" 38 22 >}} | [NDSU Amateur Radio Society](http://www.w0hsc.org/)
 Fargo, ND | [W0RRW](/sk/w0rrw) | {{< repeaterbook  "146.970 -" 38 29 >}} | Ernie Anderson Memorial Station
 Fergus Falls, MN | K0QIK | {{< repeaterbook  "146.640 -" 27 51 >}} | [Lake Region ARC](https://lrarc.wordpress.com/)
-Fisher, MN | KC0SD | {{< repeaterbook  "146.700 - T123" 27 113 >}} | [SuperLINK]({{< relref "radios/superlink.md" >}})
+Fisher, MN | KC0SD | {{< repeaterbook  "146.700 - T123" 27 113 >}} | [SuperLINK]({{< relref "/radios/superlink.md" >}})
 Grand Forks, ND | WA0JXT | {{< repeaterbook  "146.940 - T123" 38 17 >}} | [FORX ARC](wa0jxt.org)
 Grandin, ND | [W0ILO](/radios/) | {{< repeaterbook "146.760 - T123" 38 15 >}} | [RRRA](/)
-Karlstad, MN | KA0NWV | {{< repeaterbook  "145.470 - T123" 27 43 >}} | [SuperLINK]({{< relref "radios/superlink.md" >}}), [Echolink #23832](https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=23832&type=search)
+Karlstad, MN | KA0NWV | {{< repeaterbook  "145.470 - T123" 27 43 >}} | [SuperLINK]({{< relref "/radios/superlink.md" >}}), [Echolink #23832](https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=23832&type=search)
 Mayville, ND | W0ZKU | {{< repeaterbook  "146.910 -" 38 38 >}} | 
 Moorhead, MN | [W0ILO](/radios/) | {{< repeaterbook "145.350 - T123" 27 33 >}} | [RRRA](/)
 Moorhead, MN | [W0ILO](/radios/) | {{< repeaterbook "444.875 + T123" 27 267 >}} | [RRRA](/)

@@ -9,7 +9,7 @@ There is now another digital repeater available in the Fargo-Moorhead
 metro area: the
 [KD0IOE DMR/YSF repeater at 444.625+ CC1](https://kd0ioe.com/repeater/). This
 repeater is an
-[MMDVM]({{< relref "post/2018/kd0ioe-dmr-and-ysf-repeater-available-for-public-use.md#about-mmdvm">}})
+[MMDVM]({{< relref "/post/2018/kd0ioe-dmr-and-ysf-repeater-available-for-public-use.md#about-mmdvm">}})
 based system that currently has
 [DMR](https://en.wikipedia.org/wiki/Digital_mobile_radio) and
 [YSF](https://systemfusion.yaesu.com/what-is-system-fusion/)

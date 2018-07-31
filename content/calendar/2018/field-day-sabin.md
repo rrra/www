@@ -19,7 +19,7 @@ The [Sabin, MN Field Day 2018 site](https://goo.gl/maps/3LZgFLksDvk) will be loc
 
 ## Other Field Day Site Locations
 
-* [Red River Radio Amateurs---West Fargo, ND]({{< relref "calendar/2018/field-day.md" >}}) (W0ILO)
+* [Red River Radio Amateurs---West Fargo, ND]({{< relref "/calendar/2018/field-day.md" >}}) (W0ILO)
 
 More Field Day sites in the area may be found with the 
 [ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator).

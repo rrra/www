@@ -9,7 +9,7 @@ description = ""
 
 +++
 Volunteers are needed for outreach and public service activities during the
-[2017 Zombie Run]({{< relref "calendar/2017/zombie-run.md" >}})
+[2017 Zombie Run]({{< relref "/calendar/2017/zombie-run.md" >}})
 on September 10th:
 
 * Set up the RRRA Communication Trailer

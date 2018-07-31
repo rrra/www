@@ -13,4 +13,4 @@ outputs = [ "HTML", "Calendar" ]
 ### Topics
 
 * Questions from Chapters 10 & 11
-* Review for [20 Mar 2018 test session]({{< relref "calendar/2018/march-testing.md" >}})
+* Review for [20 Mar 2018 test session]({{< relref "/calendar/2018/march-testing.md" >}})

@@ -9,7 +9,7 @@ title = "Jingle Bell Run Volunteers Needed"
 
 +++
 Volunteers are still needed to provide communication support for the [2016
-Jungle Bell Run]({{< relref "calendar/2016/jingle-bell-run.md" >}}) on
+Jungle Bell Run]({{< relref "/calendar/2016/jingle-bell-run.md" >}}) on
 Saturday, December 3rd.
 
 Volunteers will be stationed outside along the course and should meet at

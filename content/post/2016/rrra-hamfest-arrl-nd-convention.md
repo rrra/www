@@ -10,17 +10,17 @@ authors = [ "K0STK" ]
 The largest Hamfest in North Dakota; drawing attendees from 3 states and 1
 Canadian province. 
 
-[Saturday, September 24th, 2016 8am--2pm]({{< relref "calendar/2016/rrra-hamfest.md" >}})
+[Saturday, September 24th, 2016 8am--2pm]({{< relref "/calendar/2016/rrra-hamfest.md" >}})
 at the
 [Red River Valley Fairgrounds, West Fargo, North Dakota](/places/rrv-fairgrounds-hartl-building).
 
 ### Featuring
-* [Flea Market]({{< relref "#flea-market" >}})
-* [Seminars]({{< relref "#seminars" >}})
-* [License Testing]({{< relref "#license-testing" >}}) (aka VE testing)
-* [ARRL Card Checking]({{< relref "#arrl-card-checking" >}})
-* [Talk-in]({{< relref "#talk-in" >}})
-* [Food]({{< relref "#food" >}})
+* [Flea Market]({{< relref "/#flea-market" >}})
+* [Seminars]({{< relref "/#seminars" >}})
+* [License Testing]({{< relref "/#license-testing" >}}) (aka VE testing)
+* [ARRL Card Checking]({{< relref "/#arrl-card-checking" >}})
+* [Talk-in]({{< relref "/#talk-in" >}})
+* [Food]({{< relref "/#food" >}})
 * **and over $450 in Door Prizes**
 
 ### Hamfest Tickets

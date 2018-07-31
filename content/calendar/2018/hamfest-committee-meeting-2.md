@@ -16,7 +16,7 @@ aliases = [ "/cal/2018/07/15/hamfest-committee-meeting/" ]
 ---
 
 Hamfest Committee volunteers are asked to [subscribe to the hamfest
-mailing list]({{< relref "post/2018/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
+mailing list]({{< relref "/post/2018/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
 so that they can stay informed and be a part of the
 conversation. Volunteers may subscribe multiple addresses
 (e.g. work and home e-mail) if desired.

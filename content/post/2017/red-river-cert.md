@@ -9,15 +9,15 @@ title = "CERT Training In Fargo"
 +++
 {{< figure src="http://download.fargond.gov/resize/474/355/0/cert_triage.jpg" attr="City of Fargo, ND" attrlink="http://www.fargond.gov/city-government/departments/emergency-management/community-emergency-response-team-cert" caption="CERT Triage" >}}
 
-"[The Community Emergency Response Team (CERT)]({{< relref "post/2017/red-river-cert.md#about-cert" >}})
+"[The Community Emergency Response Team (CERT)]({{< relref "/post/2017/red-river-cert.md#about-cert" >}})
 program educates volunteers about disaster preparedness for the hazards
 that may impact their area and trains them in basic disaster response
 skills, such as fire safety, light search and rescue, team organization,
 and disaster medical operations."
-[ [1]({{< relref "post/2017/red-river-cert.md#references" >}}) ]
+[ [1]({{< relref "/post/2017/red-river-cert.md#references" >}}) ]
 "CERT training provides life saving skills and techniques for people who
 will rely on each other for help in the time of need"
-[ [2]({{< relref "post/2017/red-river-cert.md#references" >}}) ]
+[ [2]({{< relref "/post/2017/red-river-cert.md#references" >}}) ]
 and can be a useful addition to the skill sets of Amateur Radio
 operators engaged in providing Public Service Communication support.
 
@@ -30,7 +30,7 @@ Fargo/Moorhead area by
 [Red River CERT](http://www.fargond.gov/city-government/departments/emergency-management/community-emergency-response-team-cert).
 
 Classes are from 6PM--9PM at
-[Cass County Emergency Management]({{< relref "places/cass-county-emergency-management.md" >}}) (aka *Fargo Public Safety Building*),
+[Cass County Emergency Management]({{< relref "/places/cass-county-emergency-management.md" >}}) (aka *Fargo Public Safety Building*),
 4630 15th Ave. N Fargo, ND 58102
 
 A downloadable [PDF flyer for the 2017 classes](https://cloud.rrra.org/index.php/s/FpBg4W3yD4XZzzC) is available.
@@ -89,7 +89,7 @@ caption="A CERT volunteer practices using a fire extinguisher" attr="Jocelyn Aug
 >to learn about the local education and training opportunities available
 >to you. Let this person know about your interest in taking CERT
 >training.
-<span style="font-style:normal;">[ [1]({{< relref "#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [1]({{< relref "/#footnotes" >}}) ]</span>
 
 * [Start Introduction to Community Emergency Response Teams, IS-317](https://training.fema.gov/EMIWeb/IS/courseOverview.aspx?code=IS-317)
 
@@ -123,7 +123,7 @@ caption="A CERT volunteer practices using a fire extinguisher" attr="Jocelyn Aug
 > * Promote preparedness by hosting and participating in community events
 > * [Find a CERT program near you](https://www.citizencorps.fema.gov/cc/searchCouncil.do?submitByZip)
 > * [Register a CERT Program](https://www.citizencorps.fema.gov/cc/CertRegWizard.do)
-<span style="font-style:normal;">[ [1]({{< relref "#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [1]({{< relref "/#footnotes" >}}) ]</span>
 
 ## References
 

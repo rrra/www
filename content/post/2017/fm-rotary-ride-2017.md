@@ -9,7 +9,7 @@ authors = [ "K0STK" ]
 +++
 Radio Operators are needed to support the
 [FM Rotary Ride 2017](http://www.fmrotaryride.com/) on
-[Saturday, September 9, 2017]({{< relref "calendar/2017/fm-rotary-ride-2017.md" >}}). Please contact {{< mailto K0CRF >}} if you would like to volunteer for
+[Saturday, September 9, 2017]({{< relref "/calendar/2017/fm-rotary-ride-2017.md" >}}). Please contact {{< mailto K0CRF >}} if you would like to volunteer for
 this [Public Service](/categories/public-service/) event.
 <!--more-->
 
