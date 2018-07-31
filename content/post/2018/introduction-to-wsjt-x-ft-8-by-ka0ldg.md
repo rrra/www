@@ -14,15 +14,13 @@ propagation. Although FT8 does not support rag-chewing or contesting
 exchanges it is, none the less, well worth trying out in the Amateur Radio
 spirit of learning and experimentation.
 
-<!--more-->
-
-These slides are from my presentation after the adjournment of the April 17,
-2018, RRRA Business Meeting.
-They are also available for download from the **Training and Education
+The slides from my presentation after the adjournment of the April 17,
+2018, RRRA Business Meeting
+are available for download from the **Training and Education
 | Presentations** folder on the
 [RRRA File Sharing server](https://cloud.rrra.org/).
 
-{{< speakerdeck 6b0af891c359491ebc96584294c26664 >}}
+<!--more-->
 
 ### About FT8
 
