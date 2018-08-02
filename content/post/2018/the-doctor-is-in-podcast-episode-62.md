@@ -9,7 +9,7 @@ title = "The Doctor Is In Podcast Episode 62"
 +++
 Get some advice from The Doctor about
 [Antenna Rotators](https://www.blubrry.com/arrl_the_doctor_is_in/35777517/antenna-rotators/)
-in the July 19, 2018, episode of the
+in this episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
 <!--more-->
 
