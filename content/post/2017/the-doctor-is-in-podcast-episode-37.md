@@ -11,9 +11,9 @@ Learn about what your signal strength meter is *really* telling you in the
 [S Units](https://www.blubrry.com/arrl_the_doctor_is_in/25197956/s-units/)
 episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast.
-
-<iframe src="http://player.blubrry.com?media_url=http://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/August_17_-_S_Units.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 <!--more-->
+
+<iframe src="https://player.blubrry.com?media_url=https://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/August_17_-_S_Units.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:

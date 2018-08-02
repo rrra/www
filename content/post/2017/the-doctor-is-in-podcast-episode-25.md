@@ -18,9 +18,9 @@ Learn about the technical background of this squelch tone system in the
 [CTCSS, DTMF and More](https://www.blubrry.com/arrl_the_doctor_is_in/21251298/ctcss-dtmf-and-more/)
 episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast.
-
-<iframe src="http://player.blubrry.com?media_url=http://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/March_2_2017_-_CTCSS_and_DTMF.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 <!--more-->
+
+<iframe src="https://player.blubrry.com?media_url=https://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/March_2_2017_-_CTCSS_and_DTMF.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 
 These short podcasts are an approachable way of learning about technical topics related to Amateur Radio. The following topics have been discussed 
 since the first epsode on April 7, 2016:
