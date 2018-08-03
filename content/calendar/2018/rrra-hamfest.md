@@ -13,9 +13,10 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Featuring
 
-* ARRL Card Checking by W9NT
+* ARRL Card Checking by K0QQ
 * Cash and merchandise door prizes
 * Special YL only prizes
+* Free Yaesu promotional items while supply lasts
 * Talk-In on 145.350-, 147.255+, and 444.875+; PL 123 Hz
 * [Seminars]({{< relref "/post/2017/hamfest.md#seminars" >}})
 * [License Testing]({{< relref "/post/2017/hamfest.md#license-testing" >}}) (aka *VE Testing*)
@@ -71,11 +72,11 @@ Noon to 1PM | ND and National Traffic Net System | Dave Heintzleman ND0CW
 *aka VE Testing*
 
 * Registration starts at 10AM
-* No tests may be started after 12 Noon
-* Test takers must bring:
-    1. Copy of current license for upgrades
+* [Test takers must bring](http://www.arrl.org/what-to-bring-to-an-exam-session):
+    1. [Copy of current license](http://www.arrl.org/obtain-license-copy) for upgrades
     1. $15 cash or check (made out to ARRL VEC)
-    1. FRN or SSN, and Photo ID
+    1.  [FRN](https://www.fcc.gov/wireless/support/universal-licensing-system-uls-resources/new-users-guide-getting-started-universal) or SSN, and Photo ID
+* **No tests may be started after 12 Noon**
 
 ### Directions
 
