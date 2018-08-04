@@ -1,5 +1,6 @@
 {{ $sign := index .Params 0 }}
-{{ if (fileExists "data/call/*") }}
+{{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
+{{ if (fileExists $filename) }}
 	{{ $recip := index .Page.Site.Data.call $sign }}
 	{{ if ne $recip nil }}
 		{{ if gt  $recip.email "" }}

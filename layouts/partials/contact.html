@@ -1,4 +1,5 @@
-{{ if (fileExists "data/call/*") }}
+{{ $filename := "toml" | printf "%s.%s" .sign | printf "%s/%s" "data/call" }}
+{{ if (fileExists $filename) }}
 	{{ $recip :=  index .context.Site.Data.call .sign }}
 
 	{{ if ne $recip nil }}
