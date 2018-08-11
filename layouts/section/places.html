@@ -1,0 +1,36 @@
+{{ partial "header.html" . }}
+
+{{ $sitedate := $.Param "sitedate" }}
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<header class="entry-header">
+				<div class="entry-meta">
+					<span class="cat-links"><a href="/">Home</a></span>
+				</div>
+				<h1 class="entry-title">{{ .Title }}</h1>
+				{{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+				{{ $contact := .Params.contact }}
+				{{ if ne $contact nil }}
+					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+				{{ end }}
+			</header>
+
+			<div class="entry-content">
+				<ul id="list">
+    			{{ range .Data.Pages.ByTitle }}
+					  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+					{{ end }}
+				</ul>
+				<p style="clear:both;"></p>			
+				{{ .Content }}
+			</div>
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	{{ partial "sidebar.html" . }}
+</div><!-- #main-content -->
+
+{{ partial "footer.html" . }}
