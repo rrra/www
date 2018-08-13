@@ -4,6 +4,7 @@ title = "2018 West Fargo Night To Unite Photo Album"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "Photos" ]
+twitter_image = "https://farm2.staticflickr.com/1777/29026942327_e2e4bd1198_m_d.jpg"
 +++
 On August 7, 2018, RRRA promoted Amateur Radio at the
 [West Fargo Night To Unite]({{< relref "/calendar/2018/night-to-unite.md" >}})
