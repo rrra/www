@@ -41,8 +41,8 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Events](/dates/public-service)
 * [Meeting Dates](/dates/ares-meetings)
 * [News](/categories/public-service/)
-* [RRRA ARES Manual](/links/)
-* [RRRA ARES Trailer SOP](/links/)
+* [RRRA ARES Manual](/files/)
+* [RRRA ARES Trailer SOP](/files/)
 
 ### Calendar
 * [Calendar Index](/calendar/)
@@ -55,7 +55,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [RRRA File Sharing Server](http://cloud.rrra.org/)
 
 ### Files and Links
-* [Index of Files and Links](/links/)
+* [Index of Files and Links](/files/)
 
 ### Hamfest
 * [RRRA Hamfest Dates](/dates/hamfest/)

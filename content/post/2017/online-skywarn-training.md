@@ -22,4 +22,4 @@ who would like to review the training material, may wish to take these
 * [Role of the SKYWARN&reg; Spotter](https://www.meted.ucar.edu/training_module.php?id=817)
 * [SKYWARN&reg; Spotter Convective Basics](https://www.meted.ucar.edu/training_module.php?id=816)
 
-The [Weather Spotter's Field Guide](http://www.nws.noaa.gov/os/brochures/SGJune6-11.pdf) <span style="smaller">(PDF)</span> is available from the [NWS WFO Grand Forks, ND](http://www.weather.gov/fgf/skywarn) page and the [RRRA Files and Links](/links/) page.
+The [Weather Spotter's Field Guide](http://www.nws.noaa.gov/os/brochures/SGJune6-11.pdf) <span style="smaller">(PDF)</span> is available from the [NWS WFO Grand Forks, ND](http://www.weather.gov/fgf/skywarn) page and the [RRRA Files and Links](/files/) page.

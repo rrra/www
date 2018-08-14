@@ -14,7 +14,7 @@ Fargo, ND | W0HSC | {{< repeaterbook  "147.090 +" 38 22 >}} | [NDSU Amateur Radi
 Fargo, ND | [W0RRW](/sk/w0rrw) | {{< repeaterbook  "146.970 -" 38 29 >}} | Ernie Anderson Memorial Station
 Fergus Falls, MN | K0QIK | {{< repeaterbook  "146.640 -" 27 51 >}} | [Lake Region ARC](https://lrarc.wordpress.com/)
 Fisher, MN | KC0SD | {{< repeaterbook  "146.700 - T123" 27 113 >}} | [SuperLINK]({{< relref "/radios/superlink.md" >}})
-Grand Forks, ND | WA0JXT | {{< repeaterbook  "146.940 - T123" 38 17 >}} | [FORX ARC](wa0jxt.org)
+Grand Forks, ND | WA0JXT | {{< repeaterbook  "146.940 - T123" 38 17 >}} | [FORX ARC](https://wa0jxt.org)
 Grandin, ND | [W0ILO](/radios/) | {{< repeaterbook "146.760 - T123" 38 15 >}} | [RRRA](/)
 Karlstad, MN | KA0NWV | {{< repeaterbook  "145.470 - T123" 27 43 >}} | [SuperLINK]({{< relref "/radios/superlink.md" >}}), [Echolink #23832](https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=23832&type=search)
 Mayville, ND | W0ZKU | {{< repeaterbook  "146.910 -" 38 38 >}} | 
