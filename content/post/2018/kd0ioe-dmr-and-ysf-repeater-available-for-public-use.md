@@ -3,7 +3,7 @@ date = "2018-07-25T18:01:32Z"
 title = "KD0IOE DMR And YSF Repeater Available For Public Use"
 authors = [ "KD0IOE" ]
 categories = [ "Technical" ]
-tags = [ "Repeaters" ]
+tags = [ "Repeaters", "DMR", "YSF" ]
 +++
 There is now another digital repeater available in the Fargo-Moorhead
 metro area: the
