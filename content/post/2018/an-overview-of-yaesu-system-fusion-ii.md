@@ -43,3 +43,9 @@ Questions specific to firware, software, or future features were not answered du
 
 * [System Fusion Forum Hamvention 2018](https://www.youtube.com/watch?v=cAUZRdnMNrU): *Advancing Digital Voice Technologies*
 * [Y.E.S. Network - Episode 201807 - Product Education Series](https://www.youtube.com/watch?v=MFcZYrLCmf0): AOR AR-DV10 SDR Handheld Receiver
+
+### Resources
+
+* [WIRES-X HRI-200 Instruction Manual](http://www.yaesu.com/downloadFile.cfm?FileID=13449&FileCatID=41&FileName=WIRES%2DX%5FManual%5FENG%5F1706%2DF.pdf&FileContentType=application%2Fpdf)
+* [HRI-200 Product Page](http://www.yaesu.com/indexVS.cfm?cmd=DisplayProducts&ProdCatID=249&encProdID=1D23D01F7B34D76072988D9857AA1A7C&DivisionID=65&isArchived=0)
+* [WIRES-X - Ham Operator Activities and Information](https://www.hamoperator.com/Fusion/FusionFiles/WB7OEV-Fusion-PDF-0018_WiRESX-Install.pdf)
