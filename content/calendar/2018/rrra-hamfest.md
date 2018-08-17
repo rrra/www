@@ -16,7 +16,6 @@ outputs = [ "HTML", "Calendar" ]
 * ARRL Card Checking by K0QQ
 * Cash and merchandise door prizes
 * Special YL only prizes
-* Free Yaesu promotional items while supply lasts
 * Talk-In on 145.350-, 147.255+, and 444.875+; PL 123 Hz
 * [Seminars]({{< relref "/post/2017/hamfest.md#seminars" >}})
 * [License Testing]({{< relref "/post/2017/hamfest.md#license-testing" >}}) (aka *VE Testing*)
