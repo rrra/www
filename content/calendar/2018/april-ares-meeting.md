@@ -7,6 +7,7 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "April ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
+aliases = [ "/cal/2018/04/20/april-ares-meeting/" ]
 +++
 Please enter through the north
 doors adjacent to the 4th Ave E parking lot.
