@@ -12,7 +12,7 @@ USA---presented
 a Yaseu Education System (YES Network) webinar.
 
 This hour long webinar covered a variety of System Fusion, Wires-X, and IMRS
-[topics]({{< relref "post/2018/an-overview-of-yaesu-system-fusion-ii.md#webinar-topics" >}}) including an explanation of
+[topics]({{< relref "/post/2018/an-overview-of-yaesu-system-fusion-ii.md#webinar-topics" >}}) including an explanation of
 [the difference between System Fusion and System Fusion II](https://www.youtube.com/watch?v=t9VVkx0ANas 18:54t=1134s).
 
 Questions specific to firmware, software, or future features were not answered during the webinar.
