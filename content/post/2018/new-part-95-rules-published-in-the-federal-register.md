@@ -28,7 +28,7 @@ re-classification of currently available hybrid FRS/GMRS *Blister Pack*,
 or *Bubble Pack*, transceivers with an Effective Radiated Power (ERP) of
 2 watts, or less, as FRS devices. This re-classification, in conjunction
 with other changes to Part 95B, authorizes the license free use of these
-low power transceivers on all built channels (1--22) and increased the
+low power transceivers on all built in channels (1--22) and increased the
 power on certain FRS channels from 0.5 to 2 watts ERP.
 
 Although
