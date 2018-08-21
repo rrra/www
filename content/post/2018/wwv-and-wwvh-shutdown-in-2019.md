@@ -8,7 +8,7 @@ tags = [ "NIST", "WWV" ]
 The [NIST FY 2019 Presidential Budget Request](https://www.nist.gov/fy-2019-presidential-budget-request-summary) includes funding for the ***"shutdown of NIST radio stations in Colorado and Hawaii."*** [^1]
 
 NIST plans to shut down these valuable resources even though
-[their WWV page](https://www.nist.gov/pml/time-and-frequency-division/radio-stations/wwv) boasts of the station having **millions of listeners worldwide**.
+[their own WWV page](https://www.nist.gov/pml/time-and-frequency-division/radio-stations/wwv) boasts of the station having **millions of listeners worldwide**.
 
 Everyone who uses [WWV](https://en.wikipedia.org/wiki/WWV_\(radio_station\))/[WWVH](https://en.wikipedia.org/wiki/WWVH), or just recognizes the value of these resources to our nation, is encouraged to sign the [White House petition to maintain funding for NIST stations WWV & WWVH](https://petitions.whitehouse.gov/petition/maintain-funding-nist-stations-wwv-wwvh) and to [contact their elected representatives in Congress](https://www.usa.gov/elected-officials/).
 <!--more-->
