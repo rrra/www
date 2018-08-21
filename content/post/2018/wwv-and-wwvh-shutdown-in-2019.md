@@ -66,6 +66,6 @@ warnings---on HF bands from 2.5--20 Mhz.
 
 * [NIST FY 2019 Presidential Budget Request](https://www.nist.gov/fy-2019-presidential-budget-request-summary)
 * [WWV at NIST](https://www.nist.gov/pml/time-and-frequency-division/radio-stations/wwv)
-* [WWV at Wikipedia](https://en.wikipedia.org/wiki/WWV_(\radio_station\))
+* [WWV at Wikipedia](https://en.wikipedia.org/wiki/WWV_\(radio_station\))
 * [WWVH at NIST](https://www.nist.gov/pml/time-and-frequency-division/radio-stations/wwvh)
 * [WWVH at Wikipedia](https://en.wikipedia.org/wiki/WWVH)
