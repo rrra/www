@@ -4,15 +4,15 @@
 
 	{{ if ne $recip nil }}
 
-				<script type="text/javascript">
-				<!-- 
-				function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
-				var scripts = document.getElementsByTagName( 'script' );
-				var me = scripts[ scripts.length - 1 ];	
-				var myDiv = me.parentNode;
-				//-->
-				</script>
-				<noscript>{{ .sign }}</noscript>
+		<script type="text/javascript">
+		<!-- 
+		function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
+		var scripts = document.getElementsByTagName( 'script' );
+		var me = scripts[ scripts.length - 1 ];	
+		var myDiv = me.parentNode;
+		//-->
+		</script>
+		<noscript>{{ with $recip.office }}{{ . }}{{ else }}{{ with $recip.name }}{{ . }}{{ else }}{{ .sign }}{{ end }}{{ end }}</noscript>
 
 		{{ if gt $recip.office "" }}
 			{{ $ddopen := "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" $recip.office | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\"><button onclick=\"toggleDropdown()\" class=\"dropbtn\">" | printf "%s" }}
