@@ -1,7 +1,7 @@
 +++
 contact = "hamfest"
 date = "2018-09-29T08:00:00-05:00"
-publishDate = "2017-01-01T01:00:00-06:00"
+publishDate = "2018-01-01T01:00:00-06:00"
 endTime	 = "2018-09-29T14:00:00-05:00"
 location = "[RRV Fairgrounds Hartl Building](/places/rrv-fairgrounds-hartl-building)"
 title = "RRRA Hamfest & ARRL ND State Convention"
@@ -17,8 +17,8 @@ outputs = [ "HTML", "Calendar" ]
 * Cash and merchandise door prizes
 * Special YL only prizes
 * Talk-In on 145.350-, 147.255+, and 444.875+; PL 123 Hz
-* [Seminars]({{< relref "/post/2017/hamfest.md#seminars" >}})
-* [License Testing]({{< relref "/post/2017/hamfest.md#license-testing" >}}) (aka *VE Testing*)
+* [Seminars]({{< relref "/post/2018/hamfest.md#seminars" >}})
+* [License Testing]({{< relref "/post/2018/hamfest.md#license-testing" >}}) (aka *VE Testing*)
 * Flea Market
 * Food & Beverages
 
@@ -97,3 +97,9 @@ Some of the accomodations available in the Fargo area include:
 ### Still have questions?
 
 Please contact [hamfest@rrra.org](mailto:hamfest@rrra.org) if you have any questions about this event.
+
+<!--
+### Hamfest Flyer
+
+<img src="https://farm5.staticflickr.com/4405/36233657494_8edcbb4979_z.jpg" alt="2017-rrra-hamfest-flyer-page-1">
+-->
