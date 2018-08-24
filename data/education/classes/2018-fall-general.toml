@@ -1,10 +1,10 @@
 +++
 name = "Fall 2018 General"
 base = "fall-general"
-publish = "2018-09-04"
-first = "2018-10-03"
-last = "2018-11-07"
-count = "6"
+publish = "2018-08-18"
+first = "2018-09-26"
+last = "2018-11-14"
+count = "8"
 testdate = "2018-11-20"
 testname = "november"
 +++

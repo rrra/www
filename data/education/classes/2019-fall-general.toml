@@ -1,0 +1,10 @@
++++
+name = "Fall 2019 General"
+base = "fall-general"
+publish = "2019-08-18"
+first = "2019-09-18"
+last = "2019-11-13"
+count = "8"
+testdate = "2019-11-19"
+testname = "november"
++++
