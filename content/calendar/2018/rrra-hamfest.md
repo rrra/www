@@ -62,7 +62,7 @@ Noon | License Testing cut off
 
 Time | Subject | Presented by
 -----|---------|-------------
-9AM to 10AM | Improve Your Antenna Efficiency | Ken Glazer K7GC0
+9AM to 10AM | Improve Your Antenna Efficiency | Ken Glanzer K7GCO
 10AM to 11AM | ARRL Forum | Matt Holden K0BBC<br />Lynn Nelson W0ND
 11AM to Noon | Skywarn | Greg Gust KC0TIY
 Noon to 1PM | ND and National Traffic Net System | Dave Heintzleman ND0CW
