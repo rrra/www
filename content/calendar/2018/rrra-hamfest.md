@@ -30,6 +30,7 @@ outputs = [ "HTML", "Calendar" ]
     * Cost: $15.00 each
     * Minimum 1 admission ticket purchase required per vendor
 * Special for 2018: $3.00 off total vendor table(s) cost with each additional admission ticket purchase
+* Please contact the {{< mailto hamfest name >}} to reserve your table
 
 ### Schedule
 
