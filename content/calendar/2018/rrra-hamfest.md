@@ -16,7 +16,7 @@ outputs = [ "HTML", "Calendar" ]
 * ARRL Card Checking by K0QQ
 * Cash and merchandise door prizes
 * Special YL only prizes
-* Talk-In on 145.350-, 147.255+, and 444.875+; PL 123 Hz
+* Talk-In on 145.350-T123, 147.255+T123, and 444.875+T123; APRS: HFEST-29R
 * [Seminars]({{< relref "/calendar/2018/rrra-hamfest.md#seminars" >}})
 * [License Testing]({{< relref "/calendar/2018/rrra-hamfest.md#license-testing" >}}) (aka *VE Testing*)
 * Flea Market
