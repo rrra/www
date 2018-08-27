@@ -15,12 +15,13 @@ outputs = [ "HTML", "Calendar" ]
 
 * ARRL Card Checking by K0QQ
 * Cash and merchandise door prizes
-* Special YL only prizes
-* Talk-In on 145.350-T123, 147.255+T123, and 444.875+T123; APRS: HFEST-29R
-* [Seminars]({{< relref "/calendar/2018/rrra-hamfest.md#seminars" >}})
-* [License Testing]({{< relref "/calendar/2018/rrra-hamfest.md#license-testing" >}}) (aka *VE Testing*)
 * Flea Market
 * Food & Beverages
+* [Hamfest Flyer](#hamfest-flyer)
+* [License Testing]({{< relref "/calendar/2018/rrra-hamfest.md#license-testing" >}}) (aka *VE Testing*)
+* [Seminars]({{< relref "/calendar/2018/rrra-hamfest.md#seminars" >}})
+* Special YL only prizes
+* Talk-In on 145.350-T123, 147.255+T123, and 444.875+T123; APRS: HFEST-29R
 
 ### Ticket and Flea Market Table Pricing
 * Admission Tickets
@@ -97,10 +98,14 @@ Some of the accomodations available in the Fargo area include:
 
 ### Still have questions?
 
-Please contact [hamfest@rrra.org](mailto:hamfest@rrra.org) if you have any questions about this event.
+Please contact the {{< mailto hamfest name >}} if you have any questions about this event.
 
-<!--
 ### Hamfest Flyer
 
-<img src="https://farm5.staticflickr.com/4405/36233657494_8edcbb4979_z.jpg" alt="2017-rrra-hamfest-flyer-page-1">
--->
+<div style="text-align: center;"><strong><a href="https://rrra.org/s/zeMMKG7K3iWPQ3P">Download the 2018 RRRA Hamfest PDF Flyer</a></strong></div>
+<br />
+<div style="border:1px solid black">
+{{< figure src="https://farm2.staticflickr.com/1877/30437534908_6f4852ecc5_o_d.jpg" link="https://rrra.org/s/zeMMKG7K3iWPQ3P" alt="2018 RRRA Hamfest Flyer Page 1" >}}
+</div>
+<p class="clear"></p>
+<div style="text-align: center;"><strong><a href="https://rrra.org/s/zeMMKG7K3iWPQ3P">Download the 2018 RRRA Hamfest PDF Flyer</a></strong></div>
