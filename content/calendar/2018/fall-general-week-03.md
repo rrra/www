@@ -9,3 +9,15 @@ categories = [ "Education" ]
 dates = [ "Fall 2018 General" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+### Topics
+
+* TBD
+
+### Homework
+
+* TBD
+
+### Resources
+
+* [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
+* Syllabus
