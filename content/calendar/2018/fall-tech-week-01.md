@@ -21,7 +21,7 @@ through Eventbrite.
 
 ### Prerequisites
 
-* Purchase the [testbook]({{< relref "/education-and-testing-schedule.md#textbooks" >}}) 
+* Purchase the [textbook]({{< relref "/education-and-testing-schedule.md#textbooks" >}}) 
 * Read textbook pages 1 to 28
 
 ### Topics
