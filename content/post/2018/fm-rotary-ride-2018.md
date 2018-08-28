@@ -1,12 +1,13 @@
 +++
 authors = [ "K0STK" ]
 categories = [ "Public Service" ]
-date = "2018-05-21T13:57:11-05:00"
+date = "2018-08-28T13:57:11-05:00"
+#originalDate = "2018-05-21T13:57:11-05:00"
 description = ""
 slug = ""
 tags = []
 title = "Volunteers Needed for the 2018 FM Rotary Ride"
-#publishdate = "2018-05-21T13:57:11-05:00"
+aliases = [ "/post/2018/05/21/volunteers-needed-for-the-2018-fm-rotary-ride/" ]
 +++
 Radio Operators are needed to support the
 [FM Rotary Ride 2018](http://www.fmrotaryride.com/) on
