@@ -11,13 +11,14 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Topics
 
-* TBD
+* Chapter 5: Antennas
+* Guest speaker or hands-on activity
 
 ### Homework
 
-* TBD
+* Read textbook pages 168--204 (for the [next class]({{< relref "/calendar/2018/fall-general-week-05.md" >}}))
 
 ### Resources
 
 * [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
-* Syllabus
+* [Syllabus](/s/fXT3KpheEuGOXBG)

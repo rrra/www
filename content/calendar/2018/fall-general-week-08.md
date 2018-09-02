@@ -11,7 +11,8 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Topics
 
-* TBD
+* Chapter 7: Safety
+* Course review
 
 ### Homework
 
@@ -34,4 +35,4 @@ Status**.
 ### Resources
 
 * [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
-* Syllabus
+* [Syllabus](/s/fXT3KpheEuGOXBG)

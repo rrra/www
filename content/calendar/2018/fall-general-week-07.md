@@ -11,13 +11,16 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Topics
 
-* TBD
+* Chapter 6.7: Hamtronics
+* Chapter 6.8: Hamtronics
+* Chapter 6.9: Hamtronics
+* Guest speaker or hands-on activity
 
 ### Homework
 
-* TBD
+* Read textbook pages 255--274 (for the [next class]({{< relref "/calendar/2018/fall-general-week-08.md" >}}))
 
 ### Resources
 
 * [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
-* Syllabus
+* [Syllabus](/s/fXT3KpheEuGOXBG)

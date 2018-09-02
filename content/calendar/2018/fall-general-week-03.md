@@ -11,13 +11,14 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Topics
 
-* TBD
+* Chapter 4: How Radio Works
+* Guest speaker or hands-on activity
 
 ### Homework
 
-* TBD
+* Read textbook pages 125--167 (for the [next class]({{< relref "/calendar/2018/fall-general-week-04.md" >}}))
 
 ### Resources
 
 * [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
-* Syllabus
+* [Syllabus](/s/fXT3KpheEuGOXBG)
