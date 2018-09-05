@@ -8,8 +8,7 @@ title = "Signup for the Fall 2018 General Classes"
 authors = [ "K0STK" ]
 +++
 Registration for RRRA Fall 2018 General Classes is now open. Please
-[register on-line](https://www.eventbrite.com/e/level-2-general-class-ham-radio-license-class-tickets-49538015538) 
-through Eventbrite.
+[register on-line](https://www.eventbrite.com/e/level-2-general-class-ham-radio-license-class-tickets-49538015538).
 
 **This [series](/dates/fall-2018-general) of classes begins
 [September 26, 2018]({{< relref "/calendar/2018/fall-general-week-01.md" >}})**.
