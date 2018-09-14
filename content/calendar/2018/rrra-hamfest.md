@@ -21,7 +21,7 @@ outputs = [ "HTML", "Calendar" ]
 * [License Testing]({{< relref "/calendar/2018/rrra-hamfest.md#license-testing" >}}) (aka *VE Testing*)
 * [Seminars]({{< relref "/calendar/2018/rrra-hamfest.md#seminars" >}})
 * Special YL only prizes
-* Talk-In on 145.350-T123, 147.255+T123, and 444.875+T123; APRS: HFEST-29R
+* Talk-In on 145.350-T123, 147.255+T123, and 444.875+T123; APRS: HFEST-29r
 
 ### Ticket and Flea Market Table Pricing
 * Admission Tickets
