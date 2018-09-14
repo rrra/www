@@ -20,12 +20,14 @@ Karlstad, MN | KA0NWV | {{< repeaterbook  "145.470 - T123" 27 43 >}} | [SuperLIN
 Mayville, ND | W0ZKU | {{< repeaterbook  "146.910 -" 38 38 >}} | 
 Moorhead, MN | [W0ILO](/radios/) | {{< repeaterbook "145.350 - T123" 27 33 >}} | [RRRA](/)
 Moorhead, MN | [W0ILO](/radios/) | {{< repeaterbook "444.875 + T123" 27 267 >}} | [RRRA](/)
+Moorhead, MN | W0JPJ | 145.150 - | Digital only, Wires-X primary link: [MNWIS](https://mnwis.com) ([listen on-line](http://www.broadcastify.com/listen/feed/24449))
+Moorhead, MN | W0JPJ | {{< repeaterbook "442.500 + D065" 27 14620 >}} | Analog / Digital, Wires-X primary link: [DARC](http://kd0ylg-darc.byethost8.com/open-forum/?i=1)
 Sabin, MN | WB0BIN | {{< repeaterbook  "146.895 - T100" 27 11491 >}} | 
 Sisseton, SD | W0WM | {{< repeaterbook  "146.880 -" 46 7080 >}} | 
 Valley City, ND | W0SRH | {{< repeaterbook  "146.790 -" 38 44 >}} | 
 Wahpeton, ND | W0END | {{< repeaterbook  "147.375 +" 38 23 >}} | NDSCS Amateur Station
 Wahpeton, ND | W0END | {{< repeaterbook  "443.800 +" 38 25 >}} | NDSCS Amateur Station
-West Fargo, ND | KD0IOE | 444.625 + CC1 | [DMR/YSF Digital](https://kd0ioe.com/repeater/)
+West Fargo, ND | KD0IOE | {{< repeaterbook "444.625 + CC1" 38 14594 >}} | [DMR/YSF Digital](https://kd0ioe.com/repeater/)
 Wheatland, ND | [W0ILO](/radios/) | {{< repeaterbook "147.255 + T123" 38 6641 >}} | [RRRA](/)
 
 <span class="genericon genericon-warning"></span>
