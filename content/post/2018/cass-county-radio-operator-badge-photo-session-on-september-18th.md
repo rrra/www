@@ -6,7 +6,7 @@ authors = [ "K0STK" ]
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
 +++
-A photo session for the new Cass County (*ARES*) Radio Operator badges
+A [photo session for the new Cass County (*ARES*) Radio Operator badges]({{< relref "/calendar/2018/radio-operator-badge-photos.md" >}})
 will be held from 5:30pm to 7:30pm (during the ARES and Business meetings) on
 Tuesday, September 18th.
 

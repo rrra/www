@@ -8,6 +8,10 @@ title = "September Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-Please enter through the north
+### Agenda
+
+* [Cass County \(*ARES*\) Radio Operator badge photo session]({{< relref "/calendar/2018/radio-operator-badge-photos.md" >}}) 
+
+<span class="genericon genericon-info"></span>Please enter through the north
 doors adjacent to the 4th Ave E parking lot.
 
