@@ -7,7 +7,7 @@ categories = [ "Public Service" ]
 tags = [ "ARES", "ICS", "Training" ]
 +++
 The City of Moorhead is presenting a free
-[ICS 700 / 100 class on October 2nd, 2018, at the Minnesota State University M:Setoorhead Center of Business]({{< relref "/calendar/2018/moorhead-ics-700-100-fall-class.md" >}}),
+[ICS 700 / 100 class on October 2nd, 2018, at the Minnesota State University Center of Business]({{< relref "/calendar/2018/moorhead-ics-700-100-fall-class.md" >}}),
 721 11th St S, Room 105.
 
 This class is an introduction to the Incident Command System and is
