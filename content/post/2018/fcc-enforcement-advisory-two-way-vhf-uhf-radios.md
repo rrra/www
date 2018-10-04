@@ -28,7 +28,7 @@ Radio Service (ARS) licensees.
 
 The Advisory "follows an [August 1 Citation and Order](https://docs.fcc.gov/public/attachments/DA-18-801A1.pdf) to [Amcrest Industries, LLC](https://amcrest.com/) (formerly Foscam Digital Technologies, LLC), an importer and marketer of popular and inexpensive BaoFeng handheld transceivers, alleging that the company violated FCC rules and the Communications Act by illegally marketing unauthorized RF devices." [^3]
 
-[^3]: "via the ARRL: FCC Enforcement Advisory Targets Noncompliant Imported VHF/UHF Transceivers", This Week in Amateur Radio, retrieved october 3 2018, http://twiar.net/2018/09/29/via-the-arrl-fcc-enforcement-advisory-targets-noncompliant-imported-vhf-uhf-transceivers/.
+[^3]: "via the ARRL: FCC Enforcement Advisory Targets Noncompliant Imported VHF/UHF Transceivers", This Week in Amateur Radio, retrieved October 3 2018, http://twiar.net/2018/09/29/via-the-arrl-fcc-enforcement-advisory-targets-noncompliant-imported-vhf-uhf-transceivers/.
 
 The Advisory was inspired in part, as evidenced by footnote 4 on page
 2, by a
