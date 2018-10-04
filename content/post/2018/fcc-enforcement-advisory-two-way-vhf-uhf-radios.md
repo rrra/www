@@ -69,7 +69,7 @@ On-line mentions of the Advisory include:
 * [FCC Back pedals---All transceivers capable of transmitting on frequencies that require certification must be certified and can not be used on Amateur radio](https://medium.com/@lucky225/fcc-back-peddles-all-transceivers-capable-of-transmitting-on-frequencies-that-require-40377a3722c5) (Medium)
 * [FCC Back peddles - Baofengs illegal to operate on ham, as well as ANY radio capable of transmitting outside the ham band (homebrew or otherwise) that is not certificated](https://old.reddit.com/r/amateurradio/comments/9joahd/fcc_back_peddles_baofengs_illegal_to_operate_on/) (r/amateurradio)
 * [Did the fcc just make baofengs illegal? Email correspondents clarification from the FCC](https://old.reddit.com/r/amateurradio/comments/9je48g/did_the_fcc_just_make_baofengs_illegal_email/) (r/amateurradio)
-* [So you can't even operate a Baofeng, says FCC](https://old.reddit.com/r/amateurradio/comments/9ikepw/so_you_cant_even_operate_a_baofeng_says_fcc/) (Amateur Radio subReddit)
+* [So you can't even operate a Baofeng, says FCC](https://old.reddit.com/r/amateurradio/comments/9ikepw/so_you_cant_even_operate_a_baofeng_says_fcc/) (r/amateurradio)
 * [FCC cracking down on Boafeng and similar radios that can transmit outside of amateur frequencies](https://old.reddit.com/r/preppers/comments/9iubtn/fcc_cracking_down_on_boafeng_and_similar_radios/) (r/preppers)
 * [Twitter search: "fcc enforcement advisory"](https://twitter.com/search?q=fcc%20enforcement%20advisory&src=typd)
 * [FCC citation for selling Baofengs](https://forums.qrz.com/index.php?threads/fcc-citation-for-selling-baofengs.622760/) (QRZ)
@@ -92,5 +92,5 @@ On-line mentions of the Advisory include:
 * [Amateur Radio Rules](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service)
 * [Equipment Marketing](https://www.fcc.gov/engineering-technology/laboratory-division/general/equipment-authorization)
 * [Consumer Complaint Center](https://consumercomplaints.fcc.gov)
-* Consumer Complaint *hotline*: [1-888-CALL-FCC](tel:+18882255322)
+* Consumer Complaint *Hotline*: [1-888-CALL-FCC](tel:+18882255322)
 
