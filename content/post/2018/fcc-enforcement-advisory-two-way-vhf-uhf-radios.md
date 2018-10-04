@@ -7,12 +7,12 @@ categories = [ "Technical" ]
 tags = [ "FCC" ]
 +++
 On September 24, 2018, the Federal Communications Commisssion (FCC) published
-[Enforcement Advisory No.  2018-03](https://docs.fcc.gov/public/attachments/DA-18-980A1.pdf) (the Advisory)
-titled *Two-way VHF/UHF radios may not be imported, advertised, or sold in the
-United States unless they comply with the Commission's rules*
-in response to "an increase  in the manufacturing, importation, advertising,
-and sale of two-way VHF/UHF radios that are not authorized in accordance with
-the Commission's rules." [^1]
+[Enforcement Advisory No.  2018-03](https://docs.fcc.gov/public/attachments/DA-18-980A1.pdf)
+(the Advisory)---titled *Two-way VHF/UHF radios may not be imported,
+advertised, or sold in the United States unless they comply with the
+Commission's rules*---in response to "an increase in the manufacturing,
+importation, advertising, and sale of two-way VHF/UHF radios that are
+not authorized in accordance with the Commission's rules." [^1]
 The Advisory has been published in
 [PDF](https://docs.fcc.gov/public/attachments/DA-18-980A1.pdf),
 [DOC](https://docs.fcc.gov/public/attachments/DA-18-980A1.doc), and
