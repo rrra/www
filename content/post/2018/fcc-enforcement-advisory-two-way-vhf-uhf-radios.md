@@ -4,7 +4,7 @@ date = "2018-10-03T08:20:34-05:00"
 title = "FCC Enforcement Advisory Concerning Two-Way VHF&sol;UHF Radios"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
-tags = [ "FCC" ]
+tags = [ "FCC", "Enforcement" ]
 +++
 On September 24, 2018, the Federal Communications Commisssion (FCC) published
 [Enforcement Advisory No.  2018-03](https://docs.fcc.gov/public/attachments/DA-18-980A1.pdf)
