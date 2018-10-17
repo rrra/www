@@ -17,11 +17,12 @@
 		<td>{{ .freq | markdownify }}</td>
 		<td>
 		{{ $sign := .contact }}
-		{{ if (fileExists "data/call/*") }}
+		{{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
+		{{ if (fileExists $filename) }}
 			{{ $recip := index $.Page.Site.Data.call $sign }}
 			{{ if ne $recip nil }}
 				{{ if gt  $recip.email "" }}
-					{{ $email := "</a><span class=\"genericon genericon-mail\"></span>" | printf "%s%s" ( $sign ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
+					{{ $email := "</a>" | printf "%s%s" ( $sign ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
 					<script type="text/javascript">
 					function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
 					X=('{{ $email | base64Encode }}')
