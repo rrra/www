@@ -13,7 +13,7 @@ support for the
 [2018 Jungle Bell Run]({{< relref "/calendar/2018/jingle-bell-run.md" >}})
 on Saturday, December 1st.
 
-Operators will be stationed outside along the course and should meet at
+Operators will be stationed along the course and should meet at
 the [Courts Plus](/places/courts-plus-community-fitness/) fireplace at
 8:15 AM to obtain their assignments. The race starts at 9:00 AM.
 
