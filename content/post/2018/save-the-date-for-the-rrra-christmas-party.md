@@ -8,11 +8,16 @@ description = ""
 slug = ""
 title = "Save The Date for the 2018 RRRA Christmas Party"
 +++
-The
-[RRRA Christmas Party]({{< relref "/calendar/2018/rrra-christmas-party.md" >}})
-will be held on Wednesday, December 5, 2018, at
+Save the date for an evening of fun and fellowship
+at the 
+[2018 RRRA Christmas Party]({{< relref "/calendar/2018/rrra-christmas-party.md" >}})
+on Wednesday, December 5, 2018, at
 [Pizza Ranch, Fargo]({{< relref "/places/pizza-ranch-fargo.md" >}}).
 
-Save the date for an evening of fun and fellowship with the members of the Red
-River Amateur Radio club and their families.
+Please see the
+[2018 RRRA Christmas Party calendar entry]({{< relref "/calendar/2018/rrra-christmas-party.md" >}})
+for more details.
+
+Please contact {{% mailto KC0GQE %}}&nbsp;if you have any questions
+about this event.
 <!--more-->
