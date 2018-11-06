@@ -5,7 +5,9 @@ date = "2018-02-15T00:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 50"
+title = "The Doctor is In: Vacuum Tubes"
+aliases = [ "/post/2018/02/15/the-doctor-is-in-podcast-episode-50" ]
+
 +++
 Listen to a discussion about some classic technology in the
 [Vacuum Tubes](https://www.blubrry.com/arrl_the_doctor_is_in/31217015/vacuum-tubes/)

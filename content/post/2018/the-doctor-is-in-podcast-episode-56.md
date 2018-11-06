@@ -5,7 +5,9 @@ date = "2018-05-10T14:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 56"
+title = "The Doctor is In: RF Loss"
+aliases = [ "/post/2018/05/10/the-doctor-is-in-podcast-episode-56" ]
+
 +++
 Learn how
 [RF Loss](https://www.blubrry.com/arrl_the_doctor_is_in/33471495/rf-loss/)

@@ -5,10 +5,12 @@ date = "2018-05-24T14:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 57"
+title = "The Doctor is In: Coping with poor HF conditions"
+aliases = [ "/post/2018/05/24/the-doctor-is-in-podcast-episode-57" ]
+
 +++
 Learn about
-[coping with poor HF conditions](https://www.blubrry.com/arrl_the_doctor_is_in/33492377/coping-with-poor-hf-conditions/)
+[Coping with poor HF conditions](https://www.blubrry.com/arrl_the_doctor_is_in/33492377/coping-with-poor-hf-conditions/)
 in this episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
 <!--more-->

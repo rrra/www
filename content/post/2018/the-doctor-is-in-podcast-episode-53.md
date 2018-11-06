@@ -5,7 +5,9 @@ date = "2018-03-30T00:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 53"
+title = "The Doctor is In: Filters"
+aliases = [ "/post/2018/03/30/the-doctor-is-in-podcast-episode-53" ]
+
 +++
 Listen to the Doctor discuss an important part of receiver architecture and
 discover some interesting historical facts

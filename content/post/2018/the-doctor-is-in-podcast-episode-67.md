@@ -5,7 +5,9 @@ date = "2018-10-11T09:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 67"
+title = "The Doctor is In: Winterizing"
+aliases = [ "/post/2018/10/11/the-doctor-is-in-podcast-episode-67" ]
+
 +++
 Every year Hams must spend some time
 [Winterizing](https://www.blubrry.com/arrl_the_doctor_is_in/36578448/winterizing/)

@@ -5,7 +5,9 @@ date = "2018-03-04T00:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 51"
+title = "The Doctor is In: S units"
+aliases = [ "/post/2018/03/04/the-doctor-is-in-podcast-episode-51" ]
+
 +++
 A legal limit (i.e. 1,500 watts for US Amateur Radio Operators)
 amplifier can increase your transmitted signal strength by 2

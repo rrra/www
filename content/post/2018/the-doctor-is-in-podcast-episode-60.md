@@ -5,7 +5,9 @@ date = "2018-07-05T10:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 60"
+title = "The Doctor is In: Software Defined Radios (SDR)"
+aliases = [ "/post/2018/07/05/the-doctor-is-in-podcast-episode-60" ]
+
 +++
 Listen to a discussion about
 [Software Defined Radios \(SDR\)](https://www.blubrry.com/arrl_the_doctor_is_in/34737871/arrls-the-doctor-is-in/)
@@ -20,7 +22,7 @@ topics related to Amateur Radio. Recent podcast topics include:
 
 * [Amateur Radio on Summer Vacation](https://www.blubrry.com/arrl_the_doctor_is_in/34737799/arrls-the-doctor-is-in/)
 * [Field Day Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/33498188/field-day-antennas/)
-* [coping with poor HF conditions](https://www.blubrry.com/arrl_the_doctor_is_in/33492377/coping-with-poor-hf-conditions/)
+* [Coping with poor HF conditions](https://www.blubrry.com/arrl_the_doctor_is_in/33492377/coping-with-poor-hf-conditions/)
 * [RF Loss](https://www.blubrry.com/arrl_the_doctor_is_in/33471495/rf-loss/)
 * [Kits and Kit Building](https://www.blubrry.com/arrl_the_doctor_is_in/32708952/kits-and-kit-building/)
 * [Microphones](https://www.blubrry.com/arrl_the_doctor_is_in/32621786/microphones/)

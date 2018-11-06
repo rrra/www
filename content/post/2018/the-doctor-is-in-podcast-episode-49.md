@@ -5,7 +5,9 @@ date = "2018-02-02T00:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 49"
+title = "The Doctor is In: Automatic Gain Control"
+aliases = [ "/post/2018/02/02/the-doctor-is-in-podcast-episode-49" ]
+
 +++
 Learn how to improve your radio listening experience in the
 [Automatic Gain Control](https://www.blubrry.com/arrl_the_doctor_is_in/29822174/automatic-gain-control/)

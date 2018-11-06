@@ -5,7 +5,9 @@ date = "2018-04-12T09:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 54"
+title = "The Doctor is In: Microphones"
+aliases = [ "/post/2018/04/12/the-doctor-is-in-podcast-episode-54" ]
+
 +++
 Phone operators have many choices of
 [Microphones](https://www.blubrry.com/arrl_the_doctor_is_in/32621786/microphones/) ... PTT vs VOX, headset vs hand held vs boom stand, cardioid vs omni directional, crystal vs dynamic vs electret ...

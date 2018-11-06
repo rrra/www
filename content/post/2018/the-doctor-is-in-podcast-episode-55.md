@@ -5,7 +5,9 @@ date = "2018-04-26T14:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 55"
+title = "The Doctor is In: Kits and Kit Building"
+aliases = [ "/post/2018/04/26/the-doctor-is-in-podcast-episode-55" ]
+
 +++
 Pick up some tips about a fun activity enjoyed by many Amateur Radio
 Operators in the

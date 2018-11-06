@@ -5,16 +5,18 @@ date = "2018-01-05T00:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 47"
+title = "The Doctor is In: Keeping Cool"
+aliases = [ "/post/2018/01/05/the-doctor-is-in-podcast-episode-47" ]
+
 +++
 Listen to a discussion about maintaining proper equipment temperature in the
 [Keeping Cool](https://www.blubrry.com/arrl_the_doctor_is_in/29579091/keeping-cool/)
 episode of the 
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast and learn some
 interesting facts.
+<!--more-->
 
 <iframe src="https://player.blubrry.com?media_url=https://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/January_4_2018_-_Keeping_Cool.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
-<!--more-->
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:

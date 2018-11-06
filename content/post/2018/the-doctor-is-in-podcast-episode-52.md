@@ -5,7 +5,9 @@ date = "2018-03-15T00:30:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 52"
+title = "The Doctor is In: Mailbag"
+aliases = [ "/post/2018/03/15/the-doctor-is-in-podcast-episode-52" ]
+
 +++
 The Doctor answers listener questions in the 
 [Mailbag](https://www.blubrry.com/arrl_the_doctor_is_in/31241283/mailbag/)
