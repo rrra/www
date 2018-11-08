@@ -5,7 +5,8 @@ date = "2017-09-14T10:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 39"
+title = "The Doctor is In: How High is High Enough?"
+aliases = [ "/post/2017/09/14/the-doctor-is-in-podcast-episode-39" ]
 +++
 [How High is High Enough?](https://www.blubrry.com/arrl_the_doctor_is_in/26176938/how-high-is-high-enough/)
 

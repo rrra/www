@@ -5,7 +5,8 @@ date = "2017-08-03T10:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 36"
+title = "The Doctor is In: Keys and Keyers"
+aliases = [ "/post/2017/08/03/the-doctor-is-in-podcast-episode-36" ]
 +++
 Listen to a discussion about Morse Code
 [Keys and Keyers](https://www.blubrry.com/arrl_the_doctor_is_in/25197955/keys-and-keyers/)

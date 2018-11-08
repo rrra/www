@@ -5,11 +5,11 @@ date = "2017-04-27T12:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 29"
+title = "The Doctor is In: End-Fed Antennas"
+aliases = [ "/post/2017/04/27/the-doctor-is-in-podcast-episode-29" ]
 +++
 Listen to the Doctor separate antenna myth from reality in the
-[End-Fed
-Antenna](https://www.blubrry.com/arrl_the_doctor_is_in/22982375/end-fed-antennas/)
+[End-Fed Antenna](https://www.blubrry.com/arrl_the_doctor_is_in/22982375/end-fed-antennas/)
 episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast.
 <!--more-->

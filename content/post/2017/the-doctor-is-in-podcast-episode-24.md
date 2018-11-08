@@ -5,8 +5,8 @@ date = "2017-02-21T15:28:15-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 24"
-
+title = "The Doctor is In: HF Loop Antennas"
+aliases = [ "/post/2017/02/21/the-doctor-is-in-podcast-episode-24" ]
 +++
 "Many amateurs swear by large loop antennas for the HF bands, but what makes
 them so special?

@@ -5,8 +5,8 @@ date = "2016-12-15T07:56:49-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 19"
-
+title = "The Doctor is In: Antenna System Troubleshooting"
+aliases = [ "/post/2016/12/15/the-doctor-is-in-podcast-episode-19" ]
 +++
 Listen to a discussion about
 [Antenna System Troubleshooting](https://www.blubrry.com/arrl_the_doctor_is_in/18616415/antenna-system-troubleshooting/)

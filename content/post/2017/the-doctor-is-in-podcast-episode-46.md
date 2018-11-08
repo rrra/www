@@ -5,7 +5,8 @@ date = "2017-12-21T14:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 46"
+title = "The Doctor is In: Handheld Transceiver Antennas"
+aliases = [ "/post/2017/12/21/the-doctor-is-in-podcast-episode-46" ]
 +++
 Ever wonder about the "rubber duck" antenna on your hand held transceiver?
 Listen to the

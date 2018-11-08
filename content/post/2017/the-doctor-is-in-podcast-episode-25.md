@@ -5,7 +5,8 @@ date = "2017-03-02T22:28:15-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 25"
+title = "The Doctor is In: Continuous Tone-Coded Squelch System"
+aliases = [ "/post/2017/03/02/the-doctor-is-in-podcast-episode-25" ]
 publishdate = "2017-03-04T01:00:00-06:00"
 +++
 "In radio or wireless telephony, *Private Line* is a term trademarked by Motorola to describe their implementation of 

@@ -5,7 +5,8 @@ date = "2017-06-09T12:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 32"
+title = "The Doctor is In: The Mystery of Sporadic E"
+aliases = [ "/post/2017/06/09/the-doctor-is-in-podcast-episode-32" ]
 +++
 Learn about propagation on the *Magic Band* in 
 [The Mystery of Sporadic E](https://www.blubrry.com/arrl_the_doctor_is_in/24141660/the-mystery-of-sporadic-e/)

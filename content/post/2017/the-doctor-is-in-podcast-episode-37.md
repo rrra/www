@@ -5,7 +5,8 @@ date = "2017-08-17T10:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 37"
+title = "The Doctor is In: S Units"
+aliases = [ "/post/2017/08/17/the-doctor-is-in-podcast-episode-37" ]
 +++
 Learn about what your signal strength meter is *really* telling you in the
 [S Units](https://www.blubrry.com/arrl_the_doctor_is_in/25197956/s-units/)

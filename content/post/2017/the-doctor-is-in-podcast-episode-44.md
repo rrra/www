@@ -5,7 +5,8 @@ date = "2017-11-24T14:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 44"
+title = "The Doctor is In: Coaxial Cable vs Balanced Lines"
+aliases = [ "/post/2017/11/24/the-doctor-is-in-podcast-episode-44" ]
 +++
 Learn about the advantages of various types of feed lines in the 
 [Coaxial Cable vs Balanced Lines](https://www.blubrry.com/arrl_the_doctor_is_in/28796716/coaxial-cable-vs-balanced-lines/)

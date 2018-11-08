@@ -6,10 +6,11 @@ publishdate = "2017-07-22T01:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 35"
+title = "The Doctor is In: Power Supplies"
+aliases = [ "/post/2017/07/22/the-doctor-is-in-podcast-episode-35" ]
 +++
 Listen to a discussion about
-[Poer Supplies](https://www.blubrry.com/arrl_the_doctor_is_in/25177012/power-supplies/)
+[Power Supplies](https://www.blubrry.com/arrl_the_doctor_is_in/25177012/power-supplies/)
 in this episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast.
 scrolling="no" width="100%" height="138px" frameborder="0"></iframe>

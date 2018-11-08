@@ -5,12 +5,11 @@ date = "2017-01-12T07:56:49-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 21"
-
+title = "The Doctor is In: Long Delayed Echoes"
+aliases = [ "/post/2017/01/12/the-doctor-is-in-podcast-episode-21" ]
 +++
 Listen to a discussion about
-[Long Delayed
-Echoes](https://www.blubrry.com/arrl_the_doctor_is_in/20038525/long-delayed-echoes/)
+[Long Delayed Echoes](https://www.blubrry.com/arrl_the_doctor_is_in/20038525/long-delayed-echoes/)
 (radio echoes which return to the sender several seconds after a
 transmission has occurred)
 in this episode of the

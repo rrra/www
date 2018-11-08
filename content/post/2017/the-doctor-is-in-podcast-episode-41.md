@@ -5,7 +5,8 @@ date = "2017-10-12T10:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 41"
+title = "The Doctor is In: Dirty Transmitters"
+aliases = [ "/post/2017/10/12/the-doctor-is-in-podcast-episode-41" ]
 +++
 There's more than one way to clean up
 [Dirty Transmitters](https://www.blubrry.com/arrl_the_doctor_is_in/27798350/dirty-transmitters/)

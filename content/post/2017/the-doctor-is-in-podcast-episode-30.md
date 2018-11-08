@@ -5,7 +5,8 @@ date = "2017-05-11T12:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 30"
+title = "The Doctor is In: Optimizing Receiver Performance"
+aliases = [ "/post/2017/05/11/the-doctor-is-in-podcast-episode-30" ]
 +++
 Listen to a discussion about
 [Optimizing Receiver Performance](https://www.blubrry.com/arrl_the_doctor_is_in/23002541/optimizing-receiver-performance/)

@@ -5,8 +5,8 @@ date = "2016-12-29T07:56:49-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 20"
-
+title = "The Doctor is In: Restoring Old Radios"
+aliases = [ "/post/2016/12/29/the-doctor-is-in-podcast-episode-20" ]
 +++
 End the year with a fond remembrance of rigs gone by and a discussion about
 [Restoring Old Radios](https://www.blubrry.com/arrl_the_doctor_is_in/18617168/restoring-old-radios/)

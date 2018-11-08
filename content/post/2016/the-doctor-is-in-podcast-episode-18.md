@@ -5,8 +5,8 @@ date = "2016-12-01T07:56:49-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 18"
-
+title = "The Doctor is In: Yagi Antennas"
+aliases = [ "/post/2016/12/01/the-doctor-is-in-podcast-episode-18" ]
 +++
 Listen to a discussion of how
 [Yagi Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/17966282/stealth-antennas/)

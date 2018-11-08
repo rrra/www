@@ -5,8 +5,8 @@ date = "2016-11-17T08:37:59-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 17"
-
+title = "The Doctor is In: Stealth Antennas"
+aliases = [ "/post/2016/11/17/the-doctor-is-in-podcast-episode-17" ]
 +++
 "Sometimes the best antenna is the *least* antenna."
 [[1]({{< relref "/post/2016/the-doctor-is-in-podcast-episode-17.md#footnotes" >}})]

@@ -5,8 +5,8 @@ date = "2016-11-04T12:37:51-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 16"
-
+title = "The Doctor is In: Anderson PowerPoles and Antenna Polarization"
+aliases = [ "/post/2016/11/04/the-doctor-is-in-podcast-episode-16" ]
 +++
 Enjoy a lively and informative discussion about
 [*Anderson PowerPoles and Antenna Polarization*](https://www.blubrry.com/arrl_the_doctor_is_in/17966281/anderson-powerpoles-and-antenna-polarization/)

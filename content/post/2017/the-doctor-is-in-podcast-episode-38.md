@@ -5,7 +5,8 @@ date = "2017-08-31T10:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 38"
+title = "The Doctor is In: Antenna Analyzers"
+aliases = [ "/post/2017/08/31/the-doctor-is-in-podcast-episode-38" ]
 +++
 Learn how an
 [Antenna Analyzer](https://www.blubrry.com/arrl_the_doctor_is_in/26176937/antenna-analyzers/)

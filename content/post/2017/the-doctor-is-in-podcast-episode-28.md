@@ -5,7 +5,8 @@ date = "2017-04-13T22:28:15-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 28"
+title = "The Doctor is In: Grounding"
+aliases = [ "/post/2017/04/13/the-doctor-is-in-podcast-episode-28" ]
 +++
 Listen to a discussion about grounds for electrical safety, RF problems, and lightning protection in the
 [Grounding](https://www.blubrry.com/arrl_the_doctor_is_in/21811067/grounding/)

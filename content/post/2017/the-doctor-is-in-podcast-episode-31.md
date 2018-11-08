@@ -5,7 +5,8 @@ date = "2017-05-25T12:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 31"
+title = "The Doctor is In: Flea Market Tips"
+aliases = [ "/post/2017/05/25/the-doctor-is-in-podcast-episode-31" ]
 +++
 Pick up some 
 [Flea Market Tips](https://www.blubrry.com/arrl_the_doctor_is_in/23098298/flea-market-tips/) for smart Hamfest shopping

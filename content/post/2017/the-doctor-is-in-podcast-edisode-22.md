@@ -5,8 +5,8 @@ date = "2017-01-26T15:12:13-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 22"
-
+title = "The Doctor is In: Meteor Scatter"
+aliases = [ "/post/2017/01/26/the-doctor-is-in-podcast-episode-22" ]
 +++
 Listen to a discussion about
 [Meteor Scatter](https://www.blubrry.com/arrl_the_doctor_is_in/20039322/meteor-scatter/)

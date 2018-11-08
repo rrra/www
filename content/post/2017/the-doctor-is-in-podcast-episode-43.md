@@ -5,7 +5,8 @@ date = "2017-11-09T10:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 43"
+title = "The Doctor is In: NVIS (Near Vertical Incidence Skywave)"
+aliases = [ "/post/2017/11/09/the-doctor-is-in-podcast-episode-43" ]
 +++
 Learn about one propagation mode for short-range HF communication in the
 [NVIS: Near Vertical Incidence Skywave](https://www.blubrry.com/arrl_the_doctor_is_in/27798352/nvis-near-vertical-incidence-skywave/)

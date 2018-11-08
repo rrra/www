@@ -5,13 +5,13 @@ date = "2017-03-16T22:28:15-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 26"
+title = "The Doctor is In: Remote Antenna Tuners"
+aliases = [ "/post/2017/03/16/the-doctor-is-in-podcast-episode-26" ]
 publishdate = "2017-03-04T01:00:00-06:00"
 +++
 An antenna tuner in the shack can be useful for matching non-resonant antennas.
 But these tuners may not always be the best solution. Find out why in the
-[Remote Antenna
-Tuners](https://www.blubrry.com/arrl_the_doctor_is_in/21698899/remote-antenna-tuners/)
+[Remote Antenna Tuners](https://www.blubrry.com/arrl_the_doctor_is_in/21698899/remote-antenna-tuners/)
 episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast.
 <!--more-->

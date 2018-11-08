@@ -5,7 +5,8 @@ date = "2017-09-28T10:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 40"
+title = "The Doctor is In: Soldering and Unsoldering"
+aliases = [ "/post/2017/09/28/the-doctor-is-in-podcast-episode-40" ]
 +++
 Learn about [Soldering and Unsoldering](https://www.blubrry.com/arrl_the_doctor_is_in/26176939/soldering-and-unsoldering/)
 in the current episode of the

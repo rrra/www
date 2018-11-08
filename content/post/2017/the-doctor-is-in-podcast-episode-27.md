@@ -5,7 +5,8 @@ date = "2017-03-31T22:28:15-06:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 27"
+title = "The Doctor is In: Speech Equalization, Compression and Processing"
+aliases = [ "/post/2017/03/31/the-doctor-is-in-podcast-episode-27" ]
 +++
 Learn about how you can sound better on the air, and help your signal get
 through a pileup, in the

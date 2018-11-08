@@ -5,7 +5,8 @@ date = "2017-06-22T12:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "Field Day", "podcast" ]
-title = "The Doctor Is In Podcast Episode 33"
+title = "The Doctor is In: Generators"
+aliases = [ "/post/2017/06/22/the-doctor-is-in-podcast-episode-33" ]
 +++
 Planning on using portable power at your Field Day site? You may be interested in the
 [Generators](https://www.blubrry.com/arrl_the_doctor_is_in/24141661/generators/)

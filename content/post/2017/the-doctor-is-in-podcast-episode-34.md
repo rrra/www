@@ -5,7 +5,8 @@ date = "2017-07-06T12:00:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "The Doctor Is In Podcast Episode 34"
+title = "The Doctor is In: APRS"
+aliases = [ "/post/2017/07/06/the-doctor-is-in-podcast-episode-34" ]
 +++
 The Automatic Packet Reporting System can be used for much more than
 vehicle tracking. Listen to a discussion of these capabilities, and revisit
