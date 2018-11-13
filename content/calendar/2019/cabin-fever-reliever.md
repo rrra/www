@@ -9,9 +9,9 @@ sponsor = "[St. Cloud Amateur Radio Club](https://w0sv.club/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-[ARRL Cabin Fever Reliever Hamfest page](http://www.arrl.org/hamfests/cabin-fever-reliever-hamfest-3)
+[ARRL Cabin Fever Reliever Hamfest page](http://www.arrl.org/hamfests/cabin-fever-reliever-3)
  or the
-[W0SV Cabin Fever Reliever Ham Fest  page](https://w0sv.club/hamfest/)
+[W0SV Hamfest page](https://w0sv.club/hamfest/)
 for more details.
 
 ### Vendor Registration
