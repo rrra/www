@@ -23,7 +23,7 @@
 			</header>
 
 			<div class="entry-content" style="padding-bottom:1em;">
-				{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
+				{{ range (.Data.Pages.GroupByDate "2006") }}
 					<h3>{{ .Key }}</h3>
 					<dl id="list">
 						{{ range .Pages.Reverse }}
