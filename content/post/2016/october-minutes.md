@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "October 2016 Business Meeting Minutes"
-authors = [ "KE0BXS" ]
+authors = [ "K0GEF" ]
 toc = "true"
 +++
 * 19:17 Meeting called to order (secretary was late)

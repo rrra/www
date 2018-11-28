@@ -6,7 +6,7 @@ slug = ""
 tags = []
 title = "March 2017 Business Meeting Minutes"
 toc = "true"
-authors = [ "KE0BXS" ]
+authors = [ "K0GEF" ]
 +++
 * 19:00 Meeting called to order
 * Introductions of members

@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "July 2016 Business Meeting Minutes"
-authors = [ "KE0BXS" ]
+authors = [ "K0GEF" ]
 +++
 * 19:00  Meeting called to order (Seth calls to order at 1907)
 * Introduction of members<!--more-->

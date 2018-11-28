@@ -6,7 +6,7 @@ slug = ""
 tags = []
 title = "January 2016 Business Meeting Minutes"
 toc = "true"
-authors = [ "KE0BXS" ]
+authors = [ "K0GEF" ]
 +++
 * Call meeting to order by Seth at 7:03
 * Introductions<!--more-->

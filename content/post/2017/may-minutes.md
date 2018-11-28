@@ -6,7 +6,7 @@ slug = ""
 tags = []
 title = "May 2017 Business Meeting Minutes"
 toc = "true"
-authors = [ "KE0BXS" ]
+authors = [ "K0GEF" ]
 +++
 * 19:07 Meeting called to order by KK0V 
 * Introductions of members: 33 members present

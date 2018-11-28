@@ -6,7 +6,7 @@ slug = ""
 tags = []
 title = "October 2017 Business Meeting Minutes"
 toc = "true"
-authors = [ "KE0BXS" ]
+authors = [ "K0GEF" ]
 +++
 * Meeting called to order at 19:05 by KK0V
 * Introductions of members: 34 people in attendance

@@ -4,7 +4,7 @@ date = "2018-11-08T09:22:45-05:00"
 title = "October 2018 Business Meeting Minutes"
 categories = [ "Minutes" ]
 toc = "true"
-authors = [ "KE0BXS" ]
+authors = [ "K0GEF" ]
 +++
 * Meeting called to order at 19:00
 * Introductions of members---22 members present

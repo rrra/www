@@ -5,7 +5,7 @@ description = ""
 slug = ""
 tags = []
 title = "April 2016 Business Meeting Minutes"
-authors = [ "KE0BXS" ]
+authors = [ "K0GEF" ]
 +++
 * 19:00  Meeting called to order
 * Introduction of members<!--more-->
