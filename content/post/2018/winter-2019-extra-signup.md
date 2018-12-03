@@ -1,6 +1,6 @@
 +++
 categories = [ "Education" ]
-date = "2017-12-03T14:02:00-06:00"
+date = "2018-12-03T14:02:00-06:00"
 description = ""
 slug = ""
 tags = []
