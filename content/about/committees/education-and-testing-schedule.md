@@ -52,6 +52,22 @@ is required** (approximate cost $30)
 * [Cheapest Textbooks](https://www.cheapesttextbooks.com/subjects/9781484847152.html)
 * [DX Engineering](https://www.dxengineering.com/search/brand/ham-radio-school/product-line/ham-radio-school-general-class-license-course-book)
 
+##### Extra License Course
+
+* ARRL Extra Class License Manual 11th Edition---April 2016
+* Includes all the Exam Questions with Answer Key, for use through June 30, 2020
+* Available as:
+   * Regular Paperback (ISBN: 978-1-62595-045-1)
+   * Spiral Bound (ISBN: 978-1-62595-055-0)
+
+**Purchasing Links**
+
+* ARRL Store: [Regular](http://www.arrl.org/shop/ARRL-Extra-Class-License-Manual-11th-Edition), [Spiral Bound](http://www.arrl.org/shop/ARRL-Extra-Class-License-Manual-Spiral-Bound/)
+* Amazon: [Regular](https://www.amazon.com/ARRL-Extra-Class-License-Manual/dp/1625950454/), [Spiral Bound](https://www.amazon.com/Extra-Class-License-Manual-Spiral/dp/1625950551/)
+* Cheapest Textbooks: [Regular](https://www.cheapesttextbooks.com/subjects/The-ARRL-Extra-Class-License-Manual-9781625950451.html), [Spiral Bound](https://www.cheapesttextbooks.com/subjects/The-ARRL-Extra-Class-License-Manual-Spiral-11th-Edition-9781625950550.html)
+* DX Engineering: [Regular](https://www.dxengineering.com/parts/arr-0451), [Spiral Bound](https://www.dxengineering.com/parts/arr-0550)
+* Search for other vendors: [Regular](https://duckduckgo.com/?q=ISBN+9781625950451&t=ffnt&ia=web), [Spiral Bound](https://duckduckgo.com/?q=ISBN+9781625950550&t=ffnt&ia=web)
+
 ### Amateur Radio License Testing
 
 RRRA Volunteer Examiners (VEs) conduct Amateur Radio license testing
