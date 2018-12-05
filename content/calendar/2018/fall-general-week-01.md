@@ -9,14 +9,6 @@ categories = [ "Education" ]
 dates = [ "Fall 2018 General" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-
----
-
-Registration for RRRA Fall 2018 General Classes is now open. Please
-[register on-line](https://www.eventbrite.com/e/level-2-general-class-ham-radio-license-class-tickets-49538015538).
-
----
-
 ### Prerequisites
 
 * Purchase the [textbook]({{< relref "/education-and-testing-schedule.md#textbooks" >}}) 
