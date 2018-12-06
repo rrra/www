@@ -8,7 +8,8 @@ weight = -1
 aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/",
 	"/post/2017/12/21/2018-2019-education-and-testing-schedule/",
 	"/post/2016/11/14/2017-2018-education-and-testing-schedule/",
-	"/post/2015/12/04/2016-2017-education-and-testing-schedule/" ]
+	"/post/2015/12/04/2016-2017-education-and-testing-schedule/",
+	"/education-and-testing-schedule/" ]
 +++
 ### Amateur Radio Licensing Classes
 
@@ -18,7 +19,7 @@ held Wednesday evenings, from 7:00pm to 9:00pm, on the 3rd floor of the
 {{% hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" %}}
 
 **There is no charge for instruction; however a
-[textbook]({{< relref "/about/committees/education-and-testing-schedule.md#textbooks" >}})
+[textbook]({{< relref "/education-and-testing-schedule.md#textbooks" >}})
 is required** (approximate cost $30)
 
 #### Class Schedule
