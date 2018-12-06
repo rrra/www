@@ -9,7 +9,7 @@ aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/",
 	"/post/2017/12/21/2018-2019-education-and-testing-schedule/",
 	"/post/2016/11/14/2017-2018-education-and-testing-schedule/",
 	"/post/2015/12/04/2016-2017-education-and-testing-schedule/",
-	"/education-and-testing-schedule/" ]
+	"/about/committees/education-and-testing-schedule/" ]
 +++
 ### Amateur Radio Licensing Classes
 
