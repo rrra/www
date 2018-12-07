@@ -7,7 +7,7 @@ categories = [ "Education" ]
 authors = [ "W0HNV", "K0STK" ]
 +++
 Supplementary information for students taking
-[RRRA Amateur Radio Licensing Classes]({{< relref "education-and-testing-schedule.md" >}})
+[RRRA Amateur Radio Licensing Classes]({{< relref "/education-and-testing-schedule.md" >}})
 
 <!--more-->
 
