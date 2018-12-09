@@ -14,3 +14,12 @@ outputs = [ "HTML", "Calendar" ]
 
 * Questions from Chapter 8
 * Chapter 9 - Antennas and Feed Lines
+
+## Homework
+
+* Review textbook Chapter 9
+
+## Resources
+
+* [ARRL Extra Class Manual Study Guide](http://www.arrl.org/files/file/Extra%20Class%20License%20Manual/ECLM%2011th%20edition/ECLM%202016%20Studyguide.pdf)
+* [RRRA Course Supplement]({{< relref "/files/rrra-course-supplement.md" >}})

@@ -18,13 +18,25 @@ Registration for RRRA Winter 2019 Extra Classes is now open.  Please
 
 ---
 
+### Prerequisites
+
+* Purchase the [textbook]({{< relref "/education-and-testing-schedule.md#extra-license-course-textbook" >}})
+
 ## Topics
 
 * Sign in
 * Introductions
-* Talk about the [books]({{< relref "/education-and-testing-schedule.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
+* Talk about the textbook, study guide, and what to bring to class (paper, pen, calculator)
 * Hand out the syllabus
 * Cover what we will be going over each week
 * Chapter 2 - Operating Practices
 * Chapter 3 - Rules and Regulations
 
+## Homework
+
+* Review textbook chapters 2 & 3
+
+## Resources
+
+* [ARRL Extra Class Manual Study Guide](http://www.arrl.org/files/file/Extra%20Class%20License%20Manual/ECLM%2011th%20edition/ECLM%202016%20Studyguide.pdf)
+* [RRRA Course Supplement]({{< relref "/files/rrra-course-supplement.md" >}})
