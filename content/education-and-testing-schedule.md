@@ -29,7 +29,7 @@ is required** (approximate cost $30)
 
 #### Textbooks
 
-##### Technician License Course
+##### Technician License Course Textbook
 
 * [HamRadioSchool.com](http://www.hamradioschool.com/)---June 11, 2012
 * ISBN-10: 1477595457
@@ -41,7 +41,7 @@ is required** (approximate cost $30)
 * [Cheapest Textbooks](https://www.cheapesttextbooks.com/subjects/9781477595459.html)
 * [DX Engineering](https://www.dxengineering.com/search/brand/ham-radio-school/product-line/ham-radio-school-technician-class-license-course-book)
 
-##### General License Course
+##### General License Course Textbook
 
 * [HamRadioSchool.com](http://www.hamradioschool.com/)---April 29, 2013
 * ISBN-10: 1484847156
@@ -53,7 +53,7 @@ is required** (approximate cost $30)
 * [Cheapest Textbooks](https://www.cheapesttextbooks.com/subjects/9781484847152.html)
 * [DX Engineering](https://www.dxengineering.com/search/brand/ham-radio-school/product-line/ham-radio-school-general-class-license-course-book)
 
-##### Extra License Course
+##### Extra License Course Textbook
 
 * ARRL Extra Class License Manual 11th Edition---April 2016
 * Includes all the Exam Questions with Answer Key, for use through June 30, 2020
