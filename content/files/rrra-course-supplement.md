@@ -1,5 +1,5 @@
 +++
-date = "2018-07-19T07:41:00-05:00"
+date = "2018-12-08T19:20:00-05:00"
 filename = ""
 linkdest = ""
 title = "RRRA Course Supplement"
@@ -18,9 +18,11 @@ Supplementary information for students taking
 
 ### Prepare For Your License Test
 
+* [ARRL Extra Class Manual Study Guide](http://www.arrl.org/files/file/Extra%20Class%20License%20Manual/ECLM%2011th%20edition/ECLM%202016%20Studyguide.pdf) 
 * [ARRL Tech Prep Resource Library](http://www.arrl.org/tech-prep-resource-library)
 * [HamStudy.org Study Tips](https://hamstudy.org/content/study_tips)
 * [No-Nonsense Study Guide \(KB6NU\)](https://www.kb6nu.com/study-guides/)
+* [ARRL Extra Class Manual Study Guide](http://www.arrl.org/files/file/Extra%20Class%20License%20Manual/ECLM%2011th%20edition/ECLM%202016%20Studyguide.pdf)
 
 #### Practice Tests And Study Tools
 
@@ -61,7 +63,6 @@ There are many free and non-free ham radio related apps to choose from.
 * [DX Engineering](https://www.dxengineering.com/)
 * [HamCity](https://hamcity.com/)
 * [Ham Radio Outlet](https://www.hamradio.com/)
-* [Radio City](https://www.radioinc.com/) - [Mounds View, MN](https://www.mapquest.com/us/minnesota/radio-city-350742739) <span class="genericon genericon-phone"></span>[763-786-4475](tel:763-786-4475)
 * [R&L Electronics](http://www.randl.com/shop/catalog/index.php)
 * [Universal Radio](https://www.universal-radio.com/)
 
