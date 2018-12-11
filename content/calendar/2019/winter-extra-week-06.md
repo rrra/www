@@ -1,8 +1,8 @@
 +++
-publishdate = "2016-11-10T00:00:00-06:00"
 contact = "W0HNV"
 date = "2019-02-06T19:00:00-06:00"
 endTime = "2019-02-06T21:00:00-06:00"
+publishDate = "2016-11-10T00:00:00-06:00"
 location = "West Fargo Public Library"
 title = "Winter Extra Class Week 6"
 categories = [ "Education" ]
