@@ -44,7 +44,7 @@
 							{{ $tl :=  "-testing-session" | printf "%s%s/" ( .testmonth ) | printf "%s/%s" ( replace ( $testdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
 							<td><a href="{{ $tl }}">{{ $tt }}</a></td>
 						{{ else }}<td>&nbsp;</td>{{ end }}
-					{{ else }}<td>&nbsp;</td>{{ end }}
+					{{ else }}<td>{{ with $testdate }}{{ . | dateFormat "Jan 02, 2006" }}{{ end }}</td>{{ end }}
 				{{ end }}{{/* end: series published or not */}}
 				</tr>
 			{{ end }}{{/* end: drop series after test date */}}
