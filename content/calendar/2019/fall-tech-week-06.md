@@ -2,7 +2,7 @@
 contact = "W0HNV"
 date = "2019-09-11T19:00:00-05:00"
 endTime = "2019-09-11T21:00:00-05:00"
-publishDate = "2019-03-09"
+publishDate = "2019-05-09"
 location = "West Fargo Public Library"
 title = "Fall Technician Class Week 6"
 categories = [ "Education" ]
