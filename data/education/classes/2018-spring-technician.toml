@@ -1,10 +1,9 @@
 +++
-name = "Spring 2018 Technician"
-base = "spring-technician"
+season = "Spring"
+year = "2018"
+class = "Technician"
 publish = "2018-02-28"
-first = "2018-03-28"
-last = "2018-05-02"
 count = "6"
-testdate = "2018-05-15"
-testname = "may"
+testmonth = "may"
+testyear = "2018"
 +++

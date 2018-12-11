@@ -1,11 +1,9 @@
 +++
-name = "Winter 2018 Extra"
-base = "winter-extra"
+season = "Winter"
+year = "2018"
+class = "Extra"
 publish = "2017-12-25"
-first = "2018-01-10"
-last = "2018-03-14"
 count = "10"
-testdate = "2018-03-20"
-testname = "march"
+testmonth = "march"
+testyear = "2018"
 +++
-

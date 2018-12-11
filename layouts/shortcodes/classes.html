@@ -1,43 +1,56 @@
 <table>
 <thead>
-<tr>
-<th>Class</th>
-<th>Dates</th>
-<th>Sessions</th>
-<th>Testing</th>
-</tr>
+<tr><th>Class</th><th>Dates</th><th>Sessions</th><th>Testing</th></tr>
 </thead>
-
 <tbody>
-{{ range sort $.Site.Data.education.classes ".first" }}
-{{ if ge ( .last | dateFormat "2006" ) ( now.Format "2006" ) }}
-<tr>
-{{ if gt ( now.Format "2006-01-02" ) .publish }}
-{{ $fl := "-class-week-1/" | printf "%s%s" ( .base ) | printf "%s/%s" ( replace ( .first ) "-" "/" ) | printf "%s%s" "/cal/" }}
-{{ $ft := ( .first | dateFormat "Jan 02, 2006" ) }}
-{{ $ll :=  ( .count ) | printf "%s-class-week-%s/" ( .base ) | printf "%s/%s" ( replace ( .last ) "-" "/" ) | printf "%s%s" "/cal/" }}
-{{ $lt := ( .last | dateFormat "Jan 02, 2006" ) }}
-{{ $tl :=  "-testing-session" | printf "%s%s/" ( .testname ) | printf "%s/%s" ( replace ( .testdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
-	<td><a href="/dates/{{ .name | urlize }}">{{ .name }}</a></td>
-	<td><a href="{{ $fl }}">{{ $ft }}</a> to<br /><a href="{{ $ll }}">{{ $lt }}</a></td> 
-	<td>{{ .count }}</td>
-	{{ if gt ( .testdate ) "" }}
-		{{ $tt := ( .testdate | dateFormat "Jan 02, 2006" ) }}
-		<td><a href="{{ $tl }}">{{ $tt }}</a></td>
-	{{ else }}<td>{{ .testname }}</td>{{ end }}
-{{ else }}
-	<td>{{ .name }}</td>
-	<td>{{ .first | dateFormat "Jan 02, 2006" }} to<br \>{{ .last | dateFormat "Jan 02, 2006" }}</td>
-	<td>{{ .count }}</td>
-	{{ if gt ( .testdate ) "" }}
-		{{ $tt := ( .testdate | dateFormat "Jan 02, 2006" ) }}
-		<td>{{ $tt }}</td>
-	{{ else }}<td>{{ .testname }}</td>{{ end }}
-{{ end }}
-</tr>
-{{ end }}
-{{ end }}
-</tbody>
+{{ range sort $.Site.Data.education.classes ".publish" }}
+	{{ if ge ( .year ) ( now.Format "2006" ) }}
+		{{ $base := (.class | lower | replaceRE "(nician)?" "") | printf "%s-%s" (.season | lower) }}
+		{{ $path := "week" | printf "%s-%s" $base | printf "%s/%s" .year | printf "%s/%s" "/calendar" }}
+		{{ $firstpath := "md" | printf "%02d.%s" 1 | printf "%s-%s" $path }}
+		{{ $lastpath := "md" | printf "%02.f.%s" (.count | float) | printf "%s-%s" $path }}
+		{{ $testingpath := "-testing.md" | printf "%s%s" .testmonth | printf "%s/%s" .testyear | printf "%s/%s" "/calendar" }}
 
+		{{ if and (and (fileExists $firstpath) (fileExists $lastpath)) (fileExists $testingpath) }}
+			{{ $testdate := readFile $testingpath | findRE "date = .*" | printf "%s" | replaceRE "([[]date = )?(T.*)?(\")?" "" }}
+
+			{{ if lt ( now.Format "2006-01-02" ) $testdate }}
+				<tr>
+				{{ $series := (.class | humanize) | printf "%s %s" .year | printf "%s %s" (.season | humanize ) }}
+				{{ $firstdate := readFile $firstpath | findRE "date = .*" | printf "%s" | replaceRE "([[]date = )?(T.*)?(\")?" "" }}
+				{{ $lastdate := readFile $lastpath | findRE "date = .*" | printf "%s" | replaceRE "([[]date = )?(T.*)?(\")?" "" }}
+				{{ $ft := ( $firstdate | dateFormat "Jan 02, 2006" ) }}
+				{{ $lt := ( $lastdate | dateFormat "Jan 02, 2006" ) }}
+
+				{{ if gt ( now.Format "2006-01-02" ) .publish }}
+					{{ $fl := "-class-week-1/" | printf "%s%s" ( $base ) | printf "%s/%s" ( replace ( $firstdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
+					{{ $ll :=  ( .count ) | printf "%s-class-week-%s/" ( $base ) | printf "%s/%s" ( replace ( $lastdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
+					<td><a href="/dates/{{ $series | urlize }}">{{ $series }}</a></td>
+					<td><a href="{{ $fl }}">{{ $ft }}</a> to<br /><a href="{{ $ll }}">{{ $lt }}</a></td> 
+					<td>{{ .count }}</td>
+					{{ if gt ( $testdate ) "" }}
+						{{ $tt := $testdate | dateFormat "Jan 02, 2006" }}
+						{{ $tl :=  "-testing-session" | printf "%s%s/" ( .testmonth ) | printf "%s/%s" ( replace ( $testdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
+						<td><a href="{{ $tl }}">{{ $tt }}</a></td>
+					{{ else }}<td>&nbsp;</td>{{ end }}
+				{{ else }}
+					<td>{{ $series }}</td>
+					<td>{{ $ft }} to<br \>{{ $lt }}</td>
+					<td>{{ .count }}</td>
+					{{ $testpub := readFile $testingpath | findRE "publishDate = .*" | printf "%s" | replaceRE "([[]publishDate = )?(T.*)?(\")?" "" }}
+					{{ if gt ( now.Format "2006-01-02" ) $testpub }}
+						{{ if gt ( $testdate ) "" }}
+							{{ $tt := $testdate | dateFormat "Jan 02, 2006" }}
+							{{ $tl :=  "-testing-session" | printf "%s%s/" ( .testmonth ) | printf "%s/%s" ( replace ( $testdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
+							<td><a href="{{ $tl }}">{{ $tt }}</a></td>
+						{{ else }}<td>&nbsp;</td>{{ end }}
+					{{ else }}<td>&nbsp;</td>{{ end }}
+				{{ end }}{{/* end: series published or not */}}
+				</tr>
+			{{ end }}{{/* end: drop series after test date */}}
+		{{ end }}{{/* end: source file checks */}}
+	{{ end }}{{/* end: ignore previous years */}}
+{{ end }}{{/* end: range over classes */}}
+</tbody>
 </table>
 
