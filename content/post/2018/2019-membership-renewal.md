@@ -7,7 +7,7 @@ slug = ""
 tags = []
 title = "2019 Membership Renewal"
 +++
-Membership renewals for 2019 are due by the
+Membership renewals for 2019 are due at the
 [January club meeting]({{< relref "/calendar/2019/january-meeting.md" >}}).
 Dues (unchanged from 2018) are:
 
