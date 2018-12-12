@@ -1,20 +1,14 @@
 +++
-contact = "president"
-date = "2019-01-15T19:00:00-06:00"
-publishDate = "2018-03-01T01:00:00-06:00"
-endTime = ""
-location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
-title = "January Club Meeting"
-dates = [ "Business Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+authors = [ "K0STK" ]
+categories = [ "Membership" ]
+date = "2018-12-11T20:47:00-06:00"
+description = ""
+slug = ""
+tags = []
+title = "2019 Membership Renewal"
 +++
-Please enter through the north
-doors adjacent to the 4th Ave E parking lot.
-
-### Membership Renewal
-
-Membership renewals for 2019 are due at this meeting.
-
+Membership renewals for 2019 are due by the
+[January club meeting]({{< relref "/calendar/2019/january-meeting.md" >}}).
 Dues (unchanged from 2018) are:
 
 * Individual membership: $25
@@ -22,7 +16,7 @@ Dues (unchanged from 2018) are:
 
 Please print out the
 [membership application](http://rrra.org/s/3iOnHKqxHlaDxxv) and bring it,
-along with your dues payment (cash, check or money order), to the a
+along with your dues payment (cash, check or money order) to the next
 [club meeting](http://rrra.org/dates/business-meetings).
 
 You may mail your membership application and dues payment if you are not
@@ -33,4 +27,4 @@ able to attend a club meeting. Our mailing address is:
 <p style="clear;both"></p>
 Please contact the [RRRA Treasurer](mailto:treasurer@rrra.org) if your have any
 questions about renewing your membership.
-
+<!--more-->
