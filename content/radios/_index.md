@@ -23,7 +23,6 @@ Location | Frequency | Tone
 Moorhead, MN | 145.350 MHz - | 123 Hz
 Moorhead, MN | 444.875 MHz + | 123 Hz
 Grandin, ND | 146.760 MHz - | 123 Hz
-Wheatland, ND | 147.255 MHz + | 123 Hz
 
 ### Red River Valley Repeater List
 
