@@ -13,5 +13,6 @@ Please refer to
 [KD0IOE's announcement on the Club Announcement and Discussion mailing lists](https://lists.rrra.org/pipermail/announce/2018-December/000145.html)
 for more information.
 
-Please contact the {{< mailto president >}} if you can assist with a new location for this repeater.
+Please contact the RRRA President, {{< mailto president >}},
+if you can assist with a new location for this repeater.
 <!--more-->
