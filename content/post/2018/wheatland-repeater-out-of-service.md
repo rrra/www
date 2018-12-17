@@ -14,3 +14,4 @@ Please refer to
 for more information.
 
 Please contact the {{< mailto president >}} if you can assist with a new location for this repeater.
+<!--more-->
