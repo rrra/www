@@ -2,20 +2,18 @@
 date = "2015-11-19T08:51:16-06:00"
 title = "RRRA Sunday VHF Net Preamble"
 categories = [ "Public Service" ]
-tags = [ "ARES" ]
-
+tags = [ "ARES", "NCS" ]
 +++
 
-> Good evening!  This is (**call**) opening the Red River Radio Amateurs'
-> Sunday Night VHF/UHF Net.  My name is (**first name**), and I will be your
-> net control operator this evening.
-> 
-> This net meets every Sunday night at 9:00 p.m. local time on the
-> frequency of 145.350 MHz and 444.875 MHz on a repeater with a 123.0 Hz
-> PL tone.  It is intended for the passing of traffic and in general for
-> the betterment of amateur radio.  This is a public service net
-> affiliated with the Amateur Radio Emergency Service, the ARES Division
-> of the American Radio Relay League.
+> Good evening! This is (**call**) opening the Red River Radio Amateurs
+> Sunday Night VHF/UHF Net. My name is (**first name**), and I will be
+> your net control operator this evening.
+>
+> This net meets every Sunday night at 9:00 p.m. local time on the W0ILO
+> linked repeater system. It is intended for the passing of traffic
+> and in general for the betterment of amateur radio. This is a public
+> service net affiliated with the Amateur Radio Emergency Service, the
+> ARES Division of the American Radio Relay League.
 > 
 > This net will be conducted in two parts: a formal portion to handle
 > traffic and an informal portion for general comments.  This is a
