@@ -39,14 +39,32 @@
 
 
 				{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
-					{{ if or ($edu) (ge .Key $thisyear) }}	
+					{{ if ($edu) }}	
 						<h3>{{ .Key }}</h3>
 						<dl id="list">
 							{{ range .Pages.Reverse }}
 								{{ .Render ( $.Scratch.Get "li" ) }}
 							{{ end }}
 						</dl>
-						{{ partial "clear" }}
+					{{ else }}
+						{{ if ge .Key $thisyear }}	
+							{{ $group := .Key }}
+							{{ range .Pages.Reverse }}
+								{{ if ge .Date.Unix now.Unix }}
+									{{ if not (gt ($.Scratch.Get "group") "") }}{{/* no header for empty collection */}}
+										<h3>{{ $group }}</h3>
+										<dl id="list">
+										{{ $.Scratch.Set "group" 1 }}
+									{{ end }}
+									{{ .Render ( $.Scratch.Get "li" ) }}
+								{{ end }}
+							{{ end }}
+							{{ if gt ( $.Scratch.Get "group" ) ""  }}
+								</dl>
+								{{ partial "clear" }}
+								{{ $.Scratch.Set "group" "" }}
+							{{ end }}
+						{{ end }}
 					{{ end }}
 				{{ end }}
 
