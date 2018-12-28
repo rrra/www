@@ -3245,6 +3245,12 @@ div.entry-summary .footnote-ref a {
 }
 
 @media screen and (max-width: 400px) {
+	.noscreen, .noscreen * {
+		display: none !important;
+	}
+	#col {
+		column-count: 1;
+	}
 	.list-view .site-content .post-thumbnail {
 		background: none;
 		width: auto;
@@ -3386,6 +3392,12 @@ div.entry-summary .footnote-ref a {
 }
 
 @media screen and (min-width: 401px) {
+	.noscreen, .noscreen * {
+		display: none !important;
+	}
+	#col {
+		column-count: 1;
+	}
 	a.post-thumbnail:hover img {
 		opacity: 0.85;
 	}
@@ -4559,6 +4571,14 @@ div.entry-summary .footnote-ref a {
 		font-size: 12pt;
 	}
 
+	#col {
+		column-count: 2;
+	}
+	dt.twocol { clear: both; font-weight: bold; float: left; margin-bottom: 0.4em; width: 7em; }
+	dt.twocol.header { width: 10em; background-color: #ccc; padding-left: 0.4em;}
+	dd.twocol { margin: 0 0 0.4em 0; }
+	dd.sameday { clear: both; margin-left: 10.5em; margin-bottom: 0.4em; }
+
 	.site,
 	.site-header,
 	.hentry,
@@ -4575,6 +4595,10 @@ div.entry-summary .footnote-ref a {
 		max-width: 100%;
 	}
 
+	#page-contact,
+	#ical-links,
+	.noprint,
+	.entry-meta,
 	#site-header img,
 	.search-toggle,
 	.site-navigation,
@@ -4619,9 +4643,6 @@ div.entry-summary .footnote-ref a {
 		background: transparent;
 	}
 
-	.header-main {
-		padding: 48px 10px;
-	}
 
 	.site-title {
 		float: none;
