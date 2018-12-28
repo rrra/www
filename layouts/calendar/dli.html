@@ -1,2 +1,11 @@
-<dt class="twocol" style="width:10em;">{{ .Date.Format "Jan 2" }}</dt>
-<dd class="twocol"><a href="{{ .Permalink }}">{{ .Title }}</a></dd>
+{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
+{{ $edu := intersect $classes  (split .Title " ")  }}
+{{ if or ($edu) (ge .Date.Unix now.Unix) }}
+	{{ .Scratch.Set "css-class" "" }}
+{{ else }}
+	{{ .Scratch.Set "css-class" "noscreen " }}
+{{ end }}
+{{ $class := ( .Scratch.Get "css-class" ) }}
+
+<dt class="{{ $class }}twocol">{{ .Date.Format "Jan 2" }}</dt>
+<dd class="{{ $class }}twocol"><a href="{{ .Permalink }}">{{ .Title }}</a></dd>
