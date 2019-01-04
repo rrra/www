@@ -3,17 +3,9 @@ title = "Online Media and Hosting"
 date = "2017-11-05T19:20:00-06:00"
 aliases = [ "about/hosting/" ]
 +++
-* [Hosting](#hosting)
 * [Online Media Contact Address](#online-media-contact-address)
 * [Social Media](#social-media)
 * [Website](#website)
-
-### Hosting
-{{< figure src="http://www.ictc.com/wp-content/uploads/2016/08/Okay-this-is-the-final.png" alt="ICTC Logo" link="http://www.ictc.com/" >}}
-
-Hosting for some RRRA on-line assets, including this website, 
-provided by
-[Inter-Community Telephone Company, LLC](http://www.ictc.com/).
 
 ### Online Media Contact Address
 
