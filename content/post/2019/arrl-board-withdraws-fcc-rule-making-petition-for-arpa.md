@@ -3,7 +3,7 @@ date = "2019-01-24T20:07:16-06:00"
 #publishdate = "2019-01-24T20:07:16-06:00"
 title = "ARRL Board Withdraws FCC Rule Making Petition for Parity Act Provisions"
 authors = [ "K0STK" ]
-categories = [ "membership" ]
+categories = [ "Outreach" ]
 tags = [ "ARRL", "Parity" ]
 +++
 >At its annual meeting January 18--19, the ARRL Board of Directors
