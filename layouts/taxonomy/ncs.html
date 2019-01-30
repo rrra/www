@@ -27,7 +27,7 @@
 					<h3>{{ .Key }}</h3>
 					<dl class="list">
 						{{ range .Pages.Reverse }}
-							{{ .Render "dli" }}
+							{{ .Render "alldli" }}
 						{{ end }}
 					</dl>
 					{{ partial "clear" }}
