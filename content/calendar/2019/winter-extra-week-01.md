@@ -10,14 +10,6 @@ dates = [ "Winter 2019 Extra" ]
 outputs = [ "HTML", "Calendar" ]
 topics = [ "Sign in", "Introductions" ]
 +++
-
----
-
-Registration for RRRA Winter 2019 Extra Classes is now open.  Please
-[register on-line](https://www.eventbrite.com/e/level-3-extra-class-tickets-53228213018)
-
----
-
 ### Prerequisites
 
 * Purchase the [textbook]({{< relref "/education-and-testing-schedule.md#extra-license-course-textbook" >}})
