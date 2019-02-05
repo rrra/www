@@ -25,9 +25,9 @@
 			<div class="entry-content" style="padding-bottom:1em;">
 				{{ range (.Data.Pages.GroupByDate "2006") }}
 					<h3>{{ .Key }}</h3>
-					<dl id="list">
+					<dl class="list">
 						{{ range .Pages.Reverse }}
-							{{ .Render "dli" }}
+							{{ .Render "alldli" }}
 						{{ end }}
 					</dl>
 					{{ partial "clear" }}
