@@ -15,7 +15,7 @@ authors = [ "K0GEF" ]
 
 These minutes have been converted to a mobile friendly format; some light
 editing for clarity and consistency was performed. The Secretary's original
-minutes document (2018-10 Minutes.docx) may be found in the
+minutes document (2019-01 Minutes.docx) may be found in the
 "**Committee Reports | Secretary Reports**" folder on the
 [RRRA File Sharing Server](https://cloud.rrra.org/). 
 
@@ -37,7 +37,7 @@ revised, pending acceptance by the Secretary**
 * Motion passed
 
 ### Librarian's report
-* Bag of old Radio Flyer magazines presented (donated?) to the library
+* :new: Bag of old Radio Flyer magazines donated to the library
 
 ## Regular Agenda
 
@@ -84,7 +84,7 @@ the repeaters.
 
 #### Jingle Bell Run
 * Successful event
-* Next year is [1st Saturday in December]({{< relref "/calendar/2019/jingle-bell-run.md" >}})
+* :new: Next year is [1st Saturday in December]({{< relref "/calendar/2019/jingle-bell-run.md" >}})
 
 #### Christmas Party
 * Good turnout
@@ -124,7 +124,7 @@ additional term
 
 ### General Discussion
 * Paperwork for the FCC trustee change on the club callsigns had not yet been submitted
-* New hamfest coordinator needed. Rental payment for the space is normally paid in February
+* :new: New hamfest coordinator needed. Rental payment for the space is normally paid in February
 * Bismark Hamfest is Feb 23rd
 * St. Cloud Hamfest is Feb 9th
 
