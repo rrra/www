@@ -4,7 +4,7 @@ date = "2019-02-13T08:04:02-06:00"
 title = "Area Hams meet K9EID during Hamcation 2019"
 authors = [ "K0OP", "K0STK" ]
 categories = [ "Membership" ]
-tags = [ "Photos" ]
+tags = [ "Social" ]
 moretext = "View Photo"
 +++
 Current and former area Hams with Bob Heil K9EID at the
