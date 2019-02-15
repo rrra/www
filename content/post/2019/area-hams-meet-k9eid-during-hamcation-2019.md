@@ -4,12 +4,14 @@ date = "2019-02-13T08:04:02-06:00"
 title = "Area Hams meet K9EID during Hamcation 2019"
 authors = [ "K0OP", "K0STK" ]
 categories = [ "Membership" ]
-tags = []
+tags = [ "Photos" ]
+moretext = "View Photo"
 +++
-Current and former area Hams met Bob Heil K9EID at the
+Current and former area Hams with Bob Heil K9EID at the
 [Heil Sound](https://heilsound.com/heil-amateur-radio/) booth during
 [HamCation 2019](https://www.hamcation.com/) in 
-[this photo](https://www.flickr.com/photos/rrra-fargo/40117338173/in/dateposted/) provided by
+[this photo]({{< relref "/post/2019/area-hams-meet-k9eid-during-hamcation-2019.md" >}})
+provided by
 [K0OP](/authors/k0op/).
 
 <!--more-->
