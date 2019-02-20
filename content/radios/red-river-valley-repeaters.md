@@ -4,8 +4,8 @@ title = "Red River Valley Repeaters"
 tags = [ "Repeaters" ]
 categories = [ "Technical" ]
 +++
-Location | Callsign | Frequency | Notes
----------|----------|-----------|------
+Location | ID  | Mode | Notes
+---------|-----|-----------|------
 Barnesville, MN | KC0SD | {{< repeaterbook  "147.060 + T123" 27 113 >}} | [SuperLINK]({{< relref "/radios/superlink.md" >}})
 Detroit Lakes, MN | W0EMZ | {{< repeaterbook  "147.195 +" 27 133 >}} | [Detroit Lakes ARC](http://w0emz.com/)
 Fargo, ND | KB0IXM | {{< repeaterbook  "145.490 - T82.5" 38 45 >}} | [IRLP #4549](http://status.irlp.net/index.php?PSTART=11&nodeid=4549)

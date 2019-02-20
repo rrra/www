@@ -97,7 +97,7 @@ speaking on RFI issues.  Tnx to KA0LDG to facilitate this speaker
 the latest news in the Dakota Division
 * For RRRA activities and events, take pics and let K0STK know so he can post
 them
-* Facebook is current and up to date---KD0TGA
+* Facebook is current and up to date---K0RQ
 
 ### Old Business
 

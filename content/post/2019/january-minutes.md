@@ -114,7 +114,7 @@ additional term
     * KC0SHM and KC0PFS were seeking a term as member-at-large
 
 #### Repeater Committee
-* KC0ODE asked for a motion to establish a Repeater Committee consisting of himself, KC0SHM, KD0TGA, and W0HNV
+* KC0ODE asked for a motion to establish a Repeater Committee consisting of himself, KC0SHM, K0RQ, and W0HNV
     * Motion by KC0HIG
     * Seconded by KC0PFS
     * Motion passed

@@ -29,7 +29,7 @@ acceptance by the Secretary**
 ### Secretary's report
 * :new: Corrections submitted
 * :new: Motion to approve with corrections by KC0DCF
-* Seconded by KD0TGA
+* Seconded by K0RQ
 * Motion passed
 
 ### Treasurer's report

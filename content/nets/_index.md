@@ -6,7 +6,7 @@ menu = "main"
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
 description = "Take part in an radio net. Includes links to NCS resources: net preamble, NCS schedule and roster; and a list of Red River Valley nets."
-contact = "KD0TGA"
+contact = "K0RQ"
 +++
 ## RRRA Sunday VHF/UHF Net
 
@@ -19,7 +19,7 @@ This net is affiliated with the
 the ARES Division of the American Radio Relay League.
 
 NCS Operator volunteers are always appreciated. Please contact
-{{% mailto KD0TGA %}} for more information.
+{{% mailto K0RQ %}} for more information.
 
 ### NCS Resources
 

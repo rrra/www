@@ -87,7 +87,7 @@ and
     * We are not allowed to use the annex space for meeting space
     * We are looking into more suggestions on space available. 
     * Feb 6 KC0ODE will be appearing before the county commission to ask
-* KD0TGA will write up the ballot
+* K0RQ will write up the ballot
 
 ### Discovery Event
 * None tonight with the VE testing
