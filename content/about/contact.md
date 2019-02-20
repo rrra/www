@@ -9,10 +9,6 @@ aliases = [ "/mailing-address", "/about/mailing-address" ]
 
 ### Board of Directors
 
-#### At Large Members
-
-* {{% mailto atlarge1 name %}}
-* {{% mailto atlarge2 name %}}
 
 #### Officers
 
@@ -20,7 +16,12 @@ aliases = [ "/mailing-address", "/about/mailing-address" ]
 * **Vice President**: {{% mailto vicepresident name %}}
 * **Secretary**: {{% mailto secretary name %}}
 * **Treasurer**: {{% mailto treasurer name %}}
-* **Ex-officio (2018)**: {{% mailto KK0V name %}}
+
+#### Ex-officio
+
+* **2019**: {{% mailto KC0SHM name %}}
+* **At-Large**:{{% mailto atlarge1 name %}}
+* **At-Large**:{{% mailto atlarge2 name %}}
 
 #### W0ILO Trustee
 
