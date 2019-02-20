@@ -36,7 +36,7 @@ aliases = [ "/mailing-address", "/about/mailing-address" ]
 
 ### Questions, Comments, and Issue Reports {#reports}
 
-Please direct all questions, comments, and issue reports about all 
+Please direct all questions, comments, and issue reports about 
 RRRA on-line services to the the {{< webmaster >}}.
 
 Please direct all other communications pertaining to the club to the
