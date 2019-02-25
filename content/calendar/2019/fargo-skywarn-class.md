@@ -7,7 +7,6 @@ location = "Fargo Public Safety Building"
 title = "Fargo SKYWARN Class"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
-upcoming = "force"
 +++
 * Presented by the National Weather Service
 * Sponsored by the [Red River Radio Amateurs](/)

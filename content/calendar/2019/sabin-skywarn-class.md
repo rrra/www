@@ -7,7 +7,6 @@ location = "[Sabin Elmwood Fire District HQ](/places/sabin-elmwood-fire-district
 title = "Sabin SKYWARN Class"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
-upcoming = "force"
 +++
 * Presented by the National Weather Service
 

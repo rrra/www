@@ -6,7 +6,6 @@ location = "Red River Marksmanship Center"
 title = "West Fargo SKYWARN Class"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
-upcoming = "force"
 +++
 * Presented by the National Weather Service
 
