@@ -2,7 +2,7 @@
 categories = [ "Public Service" ]
 authors = [ "K0STK" ]
 title = "Radio Operators needed for Walk MS Fargo 2017"
-tags = [ ]
+tags = [ "Walk MS" ]
 slug = ""
 description = ""
 date = "2017-03-31T07:36:11-05:00"
