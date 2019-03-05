@@ -1,7 +1,7 @@
 +++
 contact = "NY0MN"
-date = "2019-03-10T15:00:00-05:00"
-endTime = "2019-03-10T16:00:00-05:00"
+date = "2019-03-10T16:30:00-05:00"
+endTime = "2019-03-10T17:30:00-05:00"
 publishDate = "2019-03-01"
 location = "Mom's Diner"
 title = "Hamfest Committee Meeting"
