@@ -6,7 +6,7 @@ date = "2019-03-13T20:16:00-05:00"
 description = ""
 slug = ""
 tags = [ "ARRL", "podcast" ]
-title = "So Now What: Introduction"
+title = "So Now What? Introduction"
 +++
 ARRL has launched the [*So Now What?*](http://www.arrl.org/so-now-what)
 (bi-weekly) podcast for hams getting started in Amateur Radio or
