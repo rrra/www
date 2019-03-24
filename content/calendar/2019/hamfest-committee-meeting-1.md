@@ -3,12 +3,19 @@ contact = "NY0MN"
 date = "2019-03-24T16:30:00-05:00"
 endTime = "2019-03-24T17:30:00-05:00"
 publishDate = "2019-03-01"
-location = "Mom's Diner"
+location = "[Fargo Fryn' Pan Family Restaurant](/places/fargo-fryn-pan-family-restaurant/)"
 title = "Hamfest Committee Meeting"
 dates = [ "Hamfest Committee" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2019/03/10/hamfest-committee-meeting/" ]
 +++
+
+---
+
+**The meeting location has been changed.**
+
+---
+
 It's time to start planning for the 2019 ARRL Dakota Division Convention
 and RRRA Hamfest. This is the largest Hamfest in North Dakota drawing
 attendees from 3 states and 1 Canadian province. Committee members
