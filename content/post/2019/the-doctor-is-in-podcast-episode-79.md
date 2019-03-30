@@ -17,7 +17,7 @@ episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
 <!--more-->
 
-<iframe src="http://player.blubrry.com?media_url=http%3A%2F%2Fmedia.blubrry.com%2Farrl_the_doctor_is_in%2Fcontent.blubrry.com%2Farrl_the_doctor_is_in%2FMarch_28_-_WSPR.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+<iframe src="http://player.blubrry.com?media_url=http://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/March_28_-_WSPR.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:
