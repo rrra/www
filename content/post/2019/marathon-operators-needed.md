@@ -46,5 +46,5 @@ request has been approved.
 Please contact the {{< webmaster >}} if you need help with the mailing
 list.
 
-Please contact {{< mailto KD0IOE >}} if you have any questions about this
+Please contact {{< mailto KC0SHM >}} or {{< mailto K0RQ >}} if you have any questions about this
 event.
