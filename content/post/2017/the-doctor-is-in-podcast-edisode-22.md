@@ -16,7 +16,7 @@ in this episode of the
 [*ARRL The Doctor is In*](http://www.arrl.org/doctor/) podcast.
 <!--more-->
 
-<iframe src="//player.blubrry.com?media_url=http://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/December_29_-_Restoring_Radios.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+<iframe src="//player.blubrry.com?media_url=//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/December_29_-_Restoring_Radios.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 
 These short podcasts are an approachable way of learning about technical topics related to Amateur Radio. The following topics have been discussed 
 since the first epsode on April 7, 2016:
