@@ -5,7 +5,7 @@ licensed = ""
 name = "Gurnee K Bridgman"
 obituary = "https://www.hansonrunsvold.com/obituaries/Gurnee-Bridgman/#!/Obituary"
 photocredit = "Hanson-Runsvold Funeral Home, Fargo, ND"
-silentkeyhq = ""
+silentkeyhq = "0991555725179696"
 title = "W9NT"
 created = "2019-04-19T21:04:33-05:00"
 +++
