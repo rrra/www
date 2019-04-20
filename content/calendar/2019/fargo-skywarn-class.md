@@ -8,6 +8,7 @@ title = "Fargo SKYWARN Class"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2019/04/09/fargo-skywarn-class/" ]
+upcoming = "force"
 +++
 
 ---
