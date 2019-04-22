@@ -1,5 +1,5 @@
 +++
-date = "2015-11-27T21:49:01-06:00"
+date = "2019-04-22T15:00:00-05:00"
 title = "Red River Valley Repeaters"
 tags = [ "Repeaters" ]
 categories = [ "Technical" ]
