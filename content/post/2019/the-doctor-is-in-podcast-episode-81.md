@@ -62,6 +62,6 @@ or at
 (free registration required, or browse the site as a guest) and through
 the free Stitcher app for iOS, Kindle, or Android devices. [^2]
 
-[^1]: "ARRL The Doctor is In - Listening Outside the Ham Bands", Blubrry, retrieved April 11 2019, https://www.blubrry.com/arrl_the_doctor_is_in/42685409/listening-outside-the-ham-bands/.
+[^1]: "ARRL The Doctor is In - Handheld Transceivers", Blubrry, retrieved April 25 2019, https://www.blubrry.com/arrl_the_doctor_is_in/42685410/handheld-transceivers/.  
 
-e^2]: "The Dctor Will See You Now!", ARRL The national association for Amateur Radio, retrieved April 25 2019, http://www.arrl.org/news/the-doctor-will-see-you-now-108.
+[^2]: "The Dctor Will See You Now!", ARRL The national association for Amateur Radio, retrieved April 25 2019, http://www.arrl.org/news/the-doctor-will-see-you-now-108.
