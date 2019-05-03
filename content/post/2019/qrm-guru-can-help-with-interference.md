@@ -4,7 +4,7 @@ date = "2019-03-15T08:52:41-05:00"
 title = "QRM.guru Can Help With Interference"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
-tags = [ "Interference", "RASA", "QRM" ]
+tags = [ "RASA", "RFI", "QRM" ]
 +++
 Do you need help resolving Amateur Radio intereference issues? [QRM.guru](https://qrm.guru/)
 is here to help!
