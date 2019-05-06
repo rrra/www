@@ -26,7 +26,7 @@ Traditional public service (aka *Emcomm*) messaging often does not
 meet the expectations of today's served agencies (our customers).
 Amateur Radio operators typically utilize *indirect* communication paths
 with paper forms for origination / delivery and transcription style
-transfer methods (e.g. voice or CW); this does not provide the type of
+transfer methods (e.g. voice or CW); this is not the *direct* style of
 communication preferred by our customers.
 <!--more-->
 
