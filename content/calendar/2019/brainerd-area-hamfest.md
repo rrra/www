@@ -9,6 +9,8 @@ sponsor = "[Brainerd Area Amateur Radio Club](http://brainerdham.org/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 Please visit the
 [ARRL Brainerd Area Hamfest page](http://www.arrl.org/hamfests/brainerd-area-hamfest-5)
 for more information.

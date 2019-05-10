@@ -9,6 +9,8 @@ dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
 +++
+:warning: **Times are unconfirmed**
+
 Please visit the [ARRL 56th International Hamfest page](http://www.arrl.org/hamfests/56th-international-hamfest)
 or the
 [International Hamfest page](http://www.internationalhamfest.ca/)

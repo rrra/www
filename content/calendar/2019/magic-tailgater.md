@@ -9,6 +9,8 @@ sponsor = "[Minnesota Amateur Group of Independent Communicators](http://www.mag
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 Please visit the [ARRL M.A.G.I.C Tailgater page](http://www.arrl.org/hamfests/m-a-g-i-c-tailgater)
 or the
 [Magic Yard Sale page](http://www.magicrepeater.net/fest.htm) 

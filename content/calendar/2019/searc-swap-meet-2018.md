@@ -9,4 +9,6 @@ sponsor = "[Sioux Empire Amateur Radio Club](http://www.w0zwy.org/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 Please visit the [ARRL Tailgate Swapfest page](http://www.arrl.org/hamfests/tailgate-swapfest-5) for more information.

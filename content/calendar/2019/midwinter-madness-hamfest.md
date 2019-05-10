@@ -9,6 +9,8 @@ sponsor = "[Maple Grove Radio Club](http://k0ltc.org)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 Please visit the
 [ARRL Midwinter Madness Hobby Electronics Show page](http://www.arrl.org/hamfests/midwinter-madness-hobby-electronics-show-7)
 <!--

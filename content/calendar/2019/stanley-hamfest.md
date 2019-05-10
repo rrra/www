@@ -9,6 +9,8 @@ sponsor = "[Prairie Hills Ham Radio Association / K0PHH](http://www.phhra.org/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 More information about this Hamfest is available at:
 
 * [ARRL Stanley ND PHHRA Hamfest Picnic page](http://www.arrl.org/hamfests/stanley-nd-phhra-hamfest-picnic)

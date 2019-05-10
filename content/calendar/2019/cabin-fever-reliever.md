@@ -9,6 +9,8 @@ sponsor = "[St. Cloud Amateur Radio Club](https://w0sv.club/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 Please visit the 
 [ARRL Cabin Fever Reliever page](http://www.arrl.org/hamfests/cabin-fever-reliever-3)
  or the
@@ -17,8 +19,3 @@ for more details.
 
 ### Vendor Registration
 Vendors must [pre-register and pay on-line](https://w0sv.club/vendor-registration/) to reserve their spot.
-
-### Hamfest Flyer
-<div style="text-align:center;"><span class="genericon genericon-document"></span> <strong><a href="https://w0sv.club/wp-content/uploads/2018/11/Hamfest-2019-2.pdf">Download the 2019 Cabin Fever Reliever Hamfest Flyer</a></strong> (PDF)</div>
-
-{{< figure src="https://farm5.staticflickr.com/4905/44045453190_60b2f2ced4_o_d.png" link="https://w0sv.club/wp-content/uploads/2018/11/Hamfest-2019-2.pdf" alt="2019 Cabin Fever Reliever Hamfest Flyer" attr="Saint Cloud Amateur Radio Club" attrlink="https://w0sv.club/hamfest" >}}

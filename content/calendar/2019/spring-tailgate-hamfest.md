@@ -9,6 +9,8 @@ sponsor = "[Twin City FM Club](http://tcfmc.org)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 More information about this Hamfest is available at:
 
 <!-- * [Twin City FM Club Website](http://tcfmc.org)-->

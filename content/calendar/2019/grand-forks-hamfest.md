@@ -9,6 +9,8 @@ title = "Grand Forks Area Hamfest"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 Please contact {{< mailto N0GFK >}} to reserve a flea market table.
 
 More information about this Hamfest is available in the

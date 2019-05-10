@@ -9,6 +9,8 @@ sponsor = "[Arrowhead Amateur Radio Club](http://www.thearac.org/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 More information about this Hamfest is available at:
 
 * [ARRL ARAC Hamfest page](http://www.arrl.org/hamfests/arac-hamfest-14)
