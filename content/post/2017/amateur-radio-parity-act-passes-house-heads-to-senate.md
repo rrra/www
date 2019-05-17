@@ -7,14 +7,13 @@ slug = ""
 tags = [ "Parity" ]
 title = "Amateur Radio Parity Act Passes House, Heads To Senate"
 +++
-[<img src="http://cloud.rrra.org/s/kWcslg6MyTSWFsf/download" alt="H.R. 555 Status" />](https://www.congress.gov/bill/115th-congress/house-bill/555/all-actions?r=27&overview=closed#tabs)
-<!--more-->
-
 >Just 10 days after being introduced, the 2017 Amateur Radio Parity Act
 >legislation,
 >[H.R. 555](https://www.congress.gov/bill/115th-congress/house-bill/555?r=27),
 >passed the U.S. House of Representatives this week on
->unanimous consent under a suspension of House rules. The bill's language
+>unanimous consent under a suspension of House rules.
+<!--more-->
+>The bill's language
 >is identical to that of the 2015 measure, H.R. 1301, which won House approval
 >late last summer after attracting 126 co-sponsors, but failed to clear the
 >U.S. Senate last fall as the 114th Congress wound down. The new bill, again

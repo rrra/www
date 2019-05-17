@@ -99,7 +99,7 @@ authors = [ "K0GEF" ]
 
 #### Net Control Operators
 * Net Control Operators are needed
-* Contact KD0TGA
+* Contact K0RQ
 
 ### Good of the Order
 

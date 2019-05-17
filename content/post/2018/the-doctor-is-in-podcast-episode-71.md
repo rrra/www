@@ -1,4 +1,5 @@
 +++
+moretext = "Listen To The Podcast"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 date = "2018-12-07T09:30:00-05:00"
@@ -14,7 +15,7 @@ Learn more in this episode of the
 
 [^1]: "ARRL The Doctor is in - RF Safety", Blubrry Podcasting, retrieved December 7 2018, https://www.blubrry.com/arrl_the_doctor_is_in/39442944/rf-safety/.
 
-<iframe src="http://player.blubrry.com?media_url=http://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/December_6_2018_-_RF_Safety.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+<iframe src="https://player.blubrry.com?media_url=https://media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/December_6_2018_-_RF_Safety.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:

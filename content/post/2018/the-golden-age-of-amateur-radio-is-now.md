@@ -5,6 +5,7 @@ title = "The Golden Age of Amateur Radio is Now"
 authors = [ "K0STK", "VK6FLAB" ]
 categories = [ "Education" ]
 tags = [ "Podcast" ]
+moretext = "Listen To The Podcast"
 +++
 In episode 179 of the 
 [Foundations of Amateur Radio](http://podcasts.itmaze.com.au/foundations/)

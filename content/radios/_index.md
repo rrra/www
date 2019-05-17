@@ -13,9 +13,9 @@ contact = "W0HNV"
 
 ## W0ILO Repeaters 
 
-The Red River Radio Amateurs operate and maintain a linked repeater system
+The Red River Radio Amateurs operate and maintain a linked Analog FM repeater system
 that covers Fargo-Moorhead and the surrounding area. The call-sign for these
-repeaters is the RRRA club call-sign, W0ILO. The following 
+repeaters is W0ILO, the RRRA club call-sign. These
 RRRA sponsored repeaters available for use:
 
 Location | Frequency | Tone

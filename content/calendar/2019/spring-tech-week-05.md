@@ -2,7 +2,7 @@
 contact = "W0HNV"
 date = "2019-05-01T19:00:00-05:00"
 endTime = "2019-05-01T21:00:00-05:00"
-publishDate = "2019-03-07T00:00:00-05:00"
+publishDate = "2019-03-03"
 location = "West Fargo Public Library"
 title = "Spring Technician Class Week 5"
 categories = [ "Education" ]
@@ -20,3 +20,6 @@ outputs = [ "HTML", "Calendar" ]
 
 * Read textbook pages 189 to 205 (for the [next class]({{< relref "/calendar/2019/spring-tech-week-06.md" >}}))
 
+### Resources
+
+* [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})

@@ -1,18 +1,14 @@
 +++
 title = "Contact Information"
-date = "2017-11-05T19:09:00-06:00"
+date = "2019-02-20T10:00:00-06:00"
 aliases = [ "/mailing-address", "/about/mailing-address" ]
 +++
 * [Board of Directors](#board-of-directors) (includes officers)
 * [Mailing Address](#mailing-address)
-* [Website and other on-line media Issues](#website-issues)
+* [Questions, Comments, and Issue Reports](#reports)
 
 ### Board of Directors
 
-#### At Large Members
-
-* {{% mailto atlarge1 name %}}
-* {{% mailto atlarge2 name %}}
 
 #### Officers
 
@@ -20,17 +16,28 @@ aliases = [ "/mailing-address", "/about/mailing-address" ]
 * **Vice President**: {{% mailto vicepresident name %}}
 * **Secretary**: {{% mailto secretary name %}}
 * **Treasurer**: {{% mailto treasurer name %}}
-* **Ex-officio (2018)**: {{% mailto KK0V name %}}
 
-#### W0ILO Trustee
+#### Ex-officio
 
-* {{% mailto N0RF name %}}
+* **2019**:
+    *  {{% mailto K0GEF name %}}
+* **At-Large**:
+    * 2018--2020 {{% mailto atlarge1 name %}}
+    * 2019--2021 {{% mailto atlarge2 name %}}
+
+#### Trustees
+
+* **KC0KAE**: {{% mailto N0RF name %}}
+* **W0ILO**: {{% mailto N0RF name %}}
 
 ### Mailing Address {#mailing-address}
 
 {{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" %}}
 
-### Website Issues
+### Questions, Comments, and Issue Reports {#reports}
 
-Please direct all comments and questions about this website to the the
-{{< webmaster >}}.
+Please direct all questions, comments, and issue reports about 
+RRRA on-line services to the the {{< webmaster >}}.
+
+Please direct all other communications pertaining to the club to the
+appropriate [officer\(s\)](#officers).

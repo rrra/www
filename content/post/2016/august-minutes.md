@@ -14,7 +14,7 @@ authors = [ "K0GEF" ]
 ## Consent Agenda
 
 ### Secretary's report
-* KD0TGA moved
+* K0RQ moved
 * K0CRF seconded
 * Motion passed
 

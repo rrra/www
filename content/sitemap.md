@@ -19,7 +19,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Repeaters]({{< relref "#radio-systems" >}})
 * [RSS]({{< relref "#rss" >}})
 * [Silent Keys]({{< relref "#silent-keys" >}})
-* [Social Media]({{< relref "#social-media" >}})
+* [Social Media]({{< relref "#social" >}})
 * [Webmaster]({{< relref "#website">}})
 * [Website]({{< relref "#website">}})
 
@@ -97,7 +97,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 ### Silent Keys
 * [RRRA Silent Key List](/sk/)
 
-### Social Media
+### Social Media {#social}
 * [Facebook](https://www.facebook.com/W0ILO)
 * [Photo Album \(Flickr\)](https://www.flickr.com/photos/rrra-fargo/)
 * [Twitter](http://twitter.com/w0ilo)

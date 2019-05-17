@@ -2,7 +2,7 @@
 contact = "W0HNV"
 date = "2019-05-08T19:00:00-05:00"
 endTime = "2019-05-08T21:00:00-05:00"
-publishDate = "2019-03-07T00:00:00-05:00"
+publishDate = "2019-03-03"
 location = "West Fargo Public Library"
 title = "Spring Technician Class Week 6"
 categories = [ "Education" ]
@@ -30,4 +30,7 @@ is scheduled for May 15, 2019.
 Please visit our index of [License Testing dates](/dates/license-testing/)
 for a complete list of currently scheduled testing dates along with
 information about **License Test Prerequisites** and **Checking Your License
-Status**.
+S
+### Resources
+
+* [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})tatus**.

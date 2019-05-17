@@ -4,7 +4,8 @@ date = "2018-05-14T16:14:44-05:00"
 title = "2018 MS Walk Radio Operators Group Photo"
 authors = [ "K0STK" ]
 categories = [ "Public Service" ]
-tags = [ "Photos" ]
+tags = [ "Walk MS", "Photos" ]
+moretext = "View Photo"
 +++
 On April 28 a group of RRRA members---led by N0IPC---provided
 communication support in the vicinity of West Fargo Veterans Memorial

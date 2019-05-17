@@ -9,6 +9,8 @@ sponsor = "[Central Dakota Amateur Radio Club](http://www.cdarcnd.com/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+:warning: **Times are unconfirmed**
+
 Please visit the
 [ARRL Central Dakota Amateur Radio Club Hamfest
 page](http://www.arrl.org/hamfests/central-dakota-arc-hamfest-1)

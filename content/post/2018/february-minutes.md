@@ -132,6 +132,6 @@ acceptance by the Secretary**
     * Vice President: W0JPJ
     * Treasurer: KC0GQE
     * Secretary: KE0BXS
-    * Member at Large: KD0TGA 
+    * Member at Large: K0RQ 
 
 ### Adjournment

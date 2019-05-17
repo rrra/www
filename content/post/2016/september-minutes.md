@@ -104,7 +104,7 @@ last year. If you are interested in helping, Contact Dave N0WQZ
     * More research is needed
 * Motion to transfer $1000.00 to the dedicated fund
     * Ken Moves W0CZ
-    * Jake KD0TGA seconded
+    * Jake K0RQ seconded
 * Motion to table action on the use of the funds until next month after the more nformation is available
     * Motion withdrawn
 * Presentation Next month
