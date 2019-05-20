@@ -20,7 +20,7 @@ in this episode of the
 follow-up to to the [Magnetic Loop Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/14382199/magnetic-loop-antennas/) episode.
 <!--more-->
 
-<iframe src="https://player.blubrry.com?media_url=http%3A%2F%2Fmedia.blubrry.com%2Farrl_the_doctor_is_in%2Fcontent.blubrry.com%2Farrl_the_doctor_is_in%2FFeb_21_2017_-_Loop_Antennas.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+<iframe src="//player.blubrry.com?media_url=//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/Feb_21_2017_-_Loop_Antennas.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 
 
 These short podcasts are an approachable way of learning about technical topics related to Amateur Radio. The following topics have been discussed 

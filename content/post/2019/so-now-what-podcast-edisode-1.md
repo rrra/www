@@ -22,7 +22,7 @@ The first episode is an
 to the podcast hosts and to their plans for content.
 <!--more-->
 
-<iframe src="http://player.blubrry.com?media_url=http://media.blubrry.com/arrlnowwhat/d/content.blubrry.com/arrlnowwhat/So_Now_What_Episode_1_track_mixdown.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+<iframe src="//player.blubrry.com?media_url=//media.blubrry.com/arrlnowwhat/d/content.blubrry.com/arrlnowwhat/So_Now_What_Episode_1_track_mixdown.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
 
 ### About the ARRL So Now What? Podcast
 
