@@ -7,7 +7,6 @@ title = "56th International Hamfest"
 sponsor = "Internatonal Hamfest Committee"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-upcoming = "force"
 +++
 :warning: **Times are unconfirmed**
 
