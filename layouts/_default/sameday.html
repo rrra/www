@@ -1,1 +1,1 @@
-<dd class="sameday"><a href="{{ .Permalink }}">{{ .Title }}</a></dd>
+<dd class="sameday"><a href="{{ .Permalink }}">{{ .LinkTitle }}{{ if eq true .Params.cancelled }} <span style="color: red;">CANCELLED</span>{{ end }}</a></dd>

@@ -8,4 +8,4 @@
 {{ $class := ( .Scratch.Get "css-class" ) }}
 
 <dt class="{{ $class }}twocol">{{ .Date.Format "Jan 2" }}</dt>
-<dd class="{{ $class }}twocol"><a href="{{ .Permalink }}">{{ if eq true .Params.cancelled }}CANCELLED - {{ end }}{{ .Title }}</a></dd>
+<dd class="{{ $class }}twocol"><a href="{{ .Permalink }}">{{ .Title }}{{ if eq true .Params.cancelled }} <span style="color: red;">CANCELLED</span>{{ end }}</a></dd>
