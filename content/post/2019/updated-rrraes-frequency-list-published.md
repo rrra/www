@@ -7,7 +7,7 @@ categories = [ "Technical" ]
 tags = [ "ARES", "CHIRP", "RRRAES"]
 +++
 The updated RRRAES Frequency list discussed by KD0IOE at the
-[May 2019 RRRA business meeting]({{< relref "/calendar/2019/may-meeting.md" >}})
+[May 2019 ARES meeting]({{< relref "/calendar/2019/may-ares-meeting.md" >}})
  has been published on-line. This list is
 available as an Excel spreadsheet, PDF and CSV files.
 
