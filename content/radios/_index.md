@@ -30,13 +30,14 @@ A list of [repeaters in the Red River Valley]({{< relref "/radios/red-river-vall
 
 ### SuperLINK
 
-[SuperLINK]({{< relref "/radios/superlink.md" >}}) is an Amateur Radio
-repeater linking system which links together 2 meter repeaters located
-along Interstate 94 from the Western Border of North Dakota, through
-Minnesota, and into Wisconsin. It also has links extending north to
-Winnipeg, Canada.
+SuperLINK was an Amateur Radio repeater linking system linking together
+2 meter repeaters located along Interstate 94 from the Western Border of
+North Dakota, through Minnesota, and into Wisconsin. It also had links
+extending north to Winnipeg, Canada.
+
+SuperLINK is reportedly no longer operational.
  
-## 10M Beacon---Deactivated {#10m-beacon}
+### 10M Beacon---Deactivated {#10m-beacon}
 
 The W0ILO 10 meter propagation beacon, previously operating on 28286.5
 KHz, was deactivated on April 7, 2018.

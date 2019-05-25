@@ -87,7 +87,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   title="Net Schedule, Preamble, and NCS Roster"
 
 [params.tooltips.radios]
-  title="Repeaters and SuperLINK"
+  title="Repeaters and IRLP"
 
 [params.tooltips.sk]
   title="Memorials of RRRA Members who are Silent Keys"
