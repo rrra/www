@@ -8,12 +8,12 @@ tags = [ "Simplex" ]
 moretext = "View The Map"
 +++
 How can Amateur Radio Operators find out who---in their vicinity or at 
-another location--- might be monitoring the 146.520 MHz National FM
+another location---might be monitoring the 146.520 MHz National FM
 Simplex Calling Frequency?
 
 Jeremy KK4FPK can help answer this question with his
 [map of stations](https://www.kk4fpk.net/146520.html)
-whose operators claim that they routinely monitor the 146.520 MHz.
+whose operators claim that they routinely monitor 146.520 MHz.
 
 <!--more-->
 
