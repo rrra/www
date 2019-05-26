@@ -14,7 +14,9 @@
 				<h1 class="entry-title">RRRA Silent Keys</h1>
 				{{ $contact := .Params.contact }}
 				{{ if ne $contact nil }}
+				<div id="contact">
 					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+				</div>
 				{{ end }}
 			</header>
 

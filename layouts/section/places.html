@@ -15,7 +15,9 @@
 				{{ with .Params.description }}<p>{{ . }}</p>{{ end }}
 				{{ $contact := .Params.contact }}
 				{{ if ne $contact nil }}
+				<div id="contact">
 					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+				</div>
 				{{ end }}
 			</header>
 
