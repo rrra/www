@@ -37,7 +37,7 @@
 		myDiv.innerHTML += f({{ "</div></div>" | base64Encode }});
 		//-->
 		</script>
-		<noscript>{{ with $recip.office }}{{ . }}{{ else }}{{ with $recip.name }}{{ . }} {{ end }}{{ .sign }}{{ end }}</noscript>
+		<noscript>{{ with $recip.office }}{{ . }}{{ else }}{{ with $recip.name  | replaceRE " .*" "" }}{{ . }} {{ end }}{{ .sign }}{{ end }}</noscript>
 
 	{{ else }}
 			{{ .sign | markdownify }}
