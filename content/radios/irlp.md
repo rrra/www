@@ -30,9 +30,9 @@ categories = [ "Technical" ]
 >"Keeping the Radio in Amateur Radio".[^1] 
 
 IRLP users are able to communicate worldwide using their VHF/UHF radios
-though simplex or repeater based *nodes*. These nodes can be connected
-to one other station (i.e. single connection) node or to a *reflector*
-node (e.g. a party-line node).
+though simplex or repeater based station *nodes*. These nodes can be
+connected to one other station (i.e. single connection) node or to a
+*reflector* node (e.g. a party-line node).
 
 The first IRLP nodes were installed in British Columbia during November of
 1998.
