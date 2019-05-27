@@ -22,7 +22,9 @@
     		{{- end }}
 				{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 				{{ if ne $contact nil }}
-					<div id="page-contact"><span class="vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }}</div>
+					<div id="contact">
+						<br /><span class="vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }}
+					</div>
 				{{ end }}
 
 			</header>
