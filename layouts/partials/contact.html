@@ -8,7 +8,7 @@
 		{{ if gt $recip.office "" }}
 			{{ $scratch.Set "ddopen" $recip.office  }}
 		{{ else }}
-			{{ $contact := .sign | printf "%s %s" ( $recip.name | replaceRE " .*" "" )  }}
+			{{ $contact := .sign | upper | printf "%s %s" ( $recip.name | replaceRE " .*" "" )  }}
 			{{ $scratch.Set "ddopen" $contact }}
 		{{ end }}
 

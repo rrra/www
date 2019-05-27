@@ -512,7 +512,6 @@ input[type="submit"] {
 	font-size: 12px;
 	font-weight: 700;
 	padding: 10px 30px 11px;
-	text-transform: uppercase;
 	vertical-align: bottom;
 }
 
@@ -1306,6 +1305,15 @@ a.post-thumbnail:hover {
 	top: 8px;
 	left: -2px;
 	width: 4px;
+}
+
+#tag-cloud {
+	hyphens: none;
+	text-align: justify;
+}
+
+#tag-cloud a {
+	text-decoration-line: inherit;
 }
 
 
