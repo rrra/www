@@ -5,8 +5,8 @@
 <tbody>
 {{ range sort $.Site.Data.education.classes ".publish" }}
 	{{ if ge ( .year ) ( now.Format "2006" ) }}
-		{{ $base := (.class | lower | replaceRE "(nician)?" "") | printf "%s-%s" (.season | lower) }}
-		{{ $path := "week" | printf "%s-%s" $base | printf "%s/%s" .year | printf "%s/%s" "/calendar" }}
+		{{ $base := (.class | lower) | printf "%s-%s" (.season | lower) }}
+		{{ $path := "week" | printf "%s-%s" ($base | replaceRE "(nician)?" "")  | printf "%s/%s" .year | printf "%s/%s" "/calendar" }}
 		{{ $firstpath := "md" | printf "%02d.%s" 1 | printf "%s-%s" $path }}
 		{{ $lastpath := "md" | printf "%02.f.%s" (.count | float) | printf "%s-%s" $path }}
 		{{ $testingpath := "-testing.md" | printf "%s%s" .testmonth | printf "%s/%s" .testyear | printf "%s/%s" "/calendar" }}
