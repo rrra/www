@@ -35,7 +35,7 @@
 		myDiv.innerHTML += f({{ $email | base64Encode }});
 		myDiv.innerHTML += f({{ $tel | base64Encode }});
 		myDiv.innerHTML += f({{ "</div></div>" | base64Encode }});
-		//-->
+		{{ "// -->" | safeJS }}
 		</script>
 		<noscript>{{ with $recip.office }}{{ . }}{{ else }}{{ with $recip.name  | replaceRE " .*" "" }}{{ . }} {{ end }}{{ .sign }}{{ end }}</noscript>
 
