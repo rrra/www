@@ -19,8 +19,8 @@
 			{{ if eq .Section "post" }} 
 			<span class="entry-date">
 				<a href="{{ .Permalink }}" rel="bookmark">
-					<time class="entry-date updated" datetime="{{ .Date }}">
-						{{ .Date.Format "January 2, 2006" }}
+					<time class="entry-date updated" datetime="{{ .Lastmod.Format "January 2, 2006" }}">
+						{{ .Lastmod.Format "January 2, 2006" }}
 					</time>
 				</a>
 			</span>
