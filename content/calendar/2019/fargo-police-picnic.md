@@ -1,12 +1,14 @@
 +++
 location = "Island Park"
 title = "Fargo Police Community Picnic 2019"
+linkTitle = "Fargo Police Picnic"
 date = "2019-06-18T17:00:00-05:00"
 endTime = "2019-06-18T20:00:00-05:00"
 publishDate = "2019-05-01"
 contact = "KC0ODE"
 dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
+aliases = [ "/cal/2019/06/18/fargo-police-community-picnic-2019/" ]
 +++
 RRRA Members will conduct outreach activities during this event. Please
 contact {{< mailto KC0ODE >}} to volunteer.
