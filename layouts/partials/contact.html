@@ -19,6 +19,7 @@
 		{{ else }}
 			{{ $scratch.Set "tel" .context.Site.Params.tel }}
 		{{ end }}
+
 			
 		{{ $ddopen :=  "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" ( $scratch.Get "ddopen" ) | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\"><button onclick=\"toggleDropdown()\" class=\"dropbtn\">" | printf "%s" }}
 
@@ -33,7 +34,9 @@
 		myParent.innerHTML += f({{ $ddopen | base64Encode }});
 		var myDiv = document.getElementById("contact-dropdown");
 		myDiv.innerHTML += f({{ $email | base64Encode }});
+		{{- if ne $recip.tel "none" -}}
 		myDiv.innerHTML += f({{ $tel | base64Encode }});
+		{{- end -}}
 		myDiv.innerHTML += f({{ "</div></div>" | base64Encode }});
 		{{ "// -->" | safeJS }}
 		</script>
