@@ -1208,6 +1208,10 @@ a.post-thumbnail:hover {
 	text-transform: uppercase;
 }
 
+#contact {
+	text-transform: none;
+}
+
 .entry-meta a {
 	color: #767676;
 }
