@@ -1,7 +1,7 @@
 +++
 contact = "WD0EGC"
-date = "2019-09-18T19:00:00-05:00"
-endTime = "2019-09-18T21:00:00-05:00"
+date = "2019-09-25T19:00:00-05:00"
+endTime = "2019-09-25T21:00:00-05:00"
 publishDate = "2019-08-18"
 location = "West Fargo Public Library"
 title = "Fall General Class Week 1"
