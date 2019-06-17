@@ -1,5 +1,5 @@
 +++
-ncs = [ "NK0A" ]
+ncs = [ "KA0LDG" ]
 date = "2019-06-16T21:00:00-05:00"
 publishDate = "2018-12-18"
 endTime = ""
