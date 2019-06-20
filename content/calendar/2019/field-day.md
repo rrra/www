@@ -9,17 +9,32 @@ dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
 +++
-## Field Day Site Location
+### Field Day Site Location
 
-The [RRRA Field Day 2019 site](https://www.google.com/maps/place/46%C2%B052'28.9%22N+96%C2%B055'10.3%22W/@46.8747819,-96.9205021,1303m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d46.874694!4d-96.919525?hl=en-US) will be located in the
-[Cass County Highway Department](/places/cass-county-highway-department/)
-south-east parking area (the red marker shown below.)
+The [RRRA Field Day 2019 site](https://www.google.com/maps/place/46%C2%B052'33.7%22N+96%C2%B055'11.2%22W/@46.8758746,-96.9215708,274m/data=!3m1!1e3!4m14!1m7!3m6!1s0x52cf34bb7797e871:0xb83bd0531febdbda!2sWest+Fargo,+ND!3b1!8m2!3d46.8769487!4d-96.8999057!3m5!1s0x0:0x0!7e2!8m2!3d46.8760285!4d-96.9197808)
+will be at the north-west corner of the [Cass County Highway Department](/places/cass-county-highway-department/) garage
+(the red marker shown below.)
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/147076354@N03/34609732591/in/dateposted-public/" title="2017 Field Day Site"><img src="https://c1.staticflickr.com/5/4172/34609732591_016d02837b_o.jpg" width="474" height="474" alt="2017 Field Day Site"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+Visitors and participants should park in the Cass County Highway Department parking lot on the
+west side of 12th Street NW (across the street from the Field Day site).
 
-[View the RRRA Field Day 2019 site on Google Maps](https://www.google.com/maps/place/46%C2%B052'28.9%22N+96%C2%B055'10.3%22W/@46.8747819,-96.9205021,1303m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d46.874694!4d-96.919525?hl=en-US)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/147076354@N03/34609732591/in/dateposted-public/" title="W0ILO West Fargo Field Day Site"><img src="https://live.staticflickr.com/65535/34609732591_bb422a376e.jpg" width="474" height="474" alt="W0ILO West Fargo Field Day Site"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-## Other Field Day Site Locations
+<span class="genericon genericon-location"></span>
+{{% hcard p-name="Cass County Highway Department" p-adr="1201 Main Ave W" p-loc="West Fargo" p-reg="ND" p-zip="58078" %}}
+
+[View the RRRA Field Day 2019 site on Google Maps](https://www.google.com/maps/place/46%C2%B052'33.7%22N+96%C2%B055'11.2%22W/@46.8758746,-96.9215708,274m/data=!3m1!1e3!4m14!1m7!3m6!1s0x52cf34bb7797e871:0xb83bd0531febdbda!2sWest+Fargo,+ND!3b1!8m2!3d46.8769487!4d-96.8999057!3m5!1s0x0:0x0!7e2!8m2!3d46.8760285!4d-96.9197808)
+
+### Schedule
+
+Day | Time | 
+----|------|-----
+Saturday | 08:00&nbsp;AM | Set-up
+&nbsp; | 1:00&nbsp;PM | Beginning of operation
+&nbsp; | 5:00&nbsp;PM | [Free meal provided by the Salvation Army]({{< relref "/post/2019/field-day-2019-joint-press-release.md" >}}) <br/>(burgers, chips, snacks and water)
+Sunday | TBD | End of operation
+
+### Other Field Day Site Locations
 
 * [Cass/Clay ARES---Sabin, MN]({{< relref "/calendar/2019/field-day-sabin.md" >}}) (WC0G)
 
