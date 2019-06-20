@@ -27,11 +27,13 @@ west side of 12th Street NW (across the street from the Field Day site).
 
 ### Schedule
 
+*Schedule subject to change without notice*
+
 Day | Time | 
 ----|------|-----
-Saturday | 08:00&nbsp;AM | Set-up
-&nbsp; | 1:00&nbsp;PM | Beginning of operation
-&nbsp; | 5:00&nbsp;PM | [Free meal provided by the Salvation Army]({{< relref "/post/2019/field-day-2019-joint-press-release.md" >}}) <br/>(burgers, chips, snacks and water)
+Saturday | 8 AM | Set-up
+&nbsp; | 1 PM | Beginning of operation
+&nbsp; | 5 PM | [Free meal provided by the Salvation Army]({{< relref "/post/2019/field-day-2019-joint-press-release.md" >}}) <br/>(burgers, chips, snacks and water)
 Sunday | TBD | End of operation
 
 ### Other Field Day Site Locations
