@@ -6,6 +6,7 @@ endTime = "2019-06-23T15:59:00-05:00"
 publishDate = "2019-03-01T01:00:00-05:00"
 contact = "KK0V"
 dates = [ "Outreach" ]
+aliases = [ "/cal/2019/field-day/" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
 +++
