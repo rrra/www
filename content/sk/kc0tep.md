@@ -5,7 +5,7 @@ licensed = "October 7, 2004"
 name = "Paul R Heidebrink"
 obituary = "https://www.korsmofuneralservice.com/obituaries/Paul-Heidebrink/#!/Obituary"
 photocredit = "Korsmo Funeral Service"
-silentkeyhq = ""
+silentkeyhq = "0661562015970465"
 title = "KC0TEP"
 created = "2019-07-01T16:37:38-05:00"
 +++
