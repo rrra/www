@@ -5,9 +5,8 @@ title = "w0it"
 obituary = ""
 date = "2004-08-22"
 photocredit = ""
-born = ""
+born = "1910-09-03"
 licensed = "1931"
 silentkeyhq = "0381304478747267"
 
 +++
-<!--born = "1910"-->
