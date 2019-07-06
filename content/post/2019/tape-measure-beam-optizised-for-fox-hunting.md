@@ -19,7 +19,7 @@ displayed some of the gear he uses during these activities:
 Plans for *home-brew* antennas suitable for Fox Hunting have been published in
 various media, both print and on-line; prebuilt antennas are available from a
 number of vendors.  Those wishing to build their own Fox Hunting antenna may
-wish to use the design Joe Leggio WB2HOL in his
+wish to use the design by Joe Leggio WB2HOL described in his
 [Tape Measure Beam Optimized for Radio Direction Finding](http://theleggios.net/wb2hol/projects/rdf/tape_bm.htm)
 article.
 
