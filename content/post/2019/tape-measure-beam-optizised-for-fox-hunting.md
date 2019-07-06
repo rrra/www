@@ -16,21 +16,22 @@ displayed some of the gear he uses during these activities:
 * [Directional antenna](https://en.wikipedia.org/wiki/Directional_antenna) with an [offset attenuator](https://nt1k.com/my-offset-attenuator-project/)
 * Fox hunt transmitter
 
-Plans for *home-brew* antennas suitable for Fox Hunting have been published in
-various media, both print and on-line; prebuilt antennas are available from a
-number of vendors.  Those wishing to build their own Fox Hunting antenna may
-wish to use the design by Joe Leggio WB2HOL described in his
+Plans for *home-brew* antennas suitable for Fox Hunting are widely available
+and prebuilt antennas may be purchased from a number of vendors.  Those wishing
+to build their own Fox Hunting antenna may wish to use the design by Joe Leggio
+WB2HOL described in his
 [Tape Measure Beam Optimized for Radio Direction Finding](http://theleggios.net/wb2hol/projects/rdf/tape_bm.htm)
 article.
+
 
 <!--more-->
 
 >This antenna evolved during my search for a beam with a really great
 >front-to-back ratio to use in hidden transmitter hunts. This design exhibits
 >a very clean pattern and is perfect for RDF use. It trades a bit of forward
->gain in exchange for a very deep notch in the pattern toward the rear.[^2]
+>gain in exchange for a very deep notch in the pattern toward the rear.[^1]
 
-[^2]: "Tape Measure Beam Optimized For Radio Direction Finding", Joe Leggio WB2HOL, Retrieved June 22 2019, http://theleggios.net/wb2hol/projects/rdf/tape_bm.htm.
+[^1]: "Tape Measure Beam Optimized For Radio Direction Finding", Joe Leggio WB2HOL, Retrieved June 22 2019, http://theleggios.net/wb2hol/projects/rdf/tape_bm.htm.
 
 According to a simulation performed using
 [YagiCAD \(4.1\)](https://www.yagicad.com/) WB2HOL's antenna has the
@@ -46,7 +47,7 @@ Front-to-Back Ratio | >50 db
 WB2H0L's antenna uses a 1 inch wide steel tape-measure and other easy to
 obtain materials. It can be easily constructed using common tools.
 
-His 
+WB2HOL's
 [Tape Measure Beam Optimized for Radio Direction Finding](http://theleggios.net/wb2hol/projects/rdf/tape_bm.htm)
 article discusses
 
@@ -54,14 +55,25 @@ article discusses
 * Construction
 * Antenna performance including a plot of a measured sensitivity pattern
 
+Marvin KE6HTS notes a useful addition to the WB2HOL antenna:
+"A choke balun consisting of 6 - 8 turns of coax around the beam will help reduce the pattern skew significantly. It is not shown on the plans for the WB2HOL Tape Measure Beam, but should still be added to the antenna."[^2]
+
+[^2]: "WB2HOL Tape Measure Beam Kit", KE6HTS ARDF Page, Retrieved July 6 2019, http://www.west.net/~marvin/wb2hol.htm.
+
+ARDF kits available from KE6HTS:
+
+* [WB2HOL Tape Measure Beam kit](http://www.west.net/~marvin/wb2hol.htm)
+* [K0OV Offset Attenuator](http://www.west.net/~marvin/k0ov.htm)
+* [Complete WB2HOL Tape Measure Beam Kit](http://www.west.net/~marvin/complete.htm) (includes assembled/tested K0OV offset attenuator w/enclosure)
+
 ### About Fox Hunting Antennas 
 
 The *nulls* provided by Fox Hunting antennas---unidirectional for Yagi-Uda and
 bidirectional for Delta-Loops---are the feature that allows hunters to
 determine the direction to a hidden transmitter.
 
-Dave
-[N1RF](https://www.qrz.com/db/N1RF/) indirectly demonstrates the Yagi-Uda null in his
+Dave [N1RF](https://www.qrz.com/db/N1RF/)
+indirectly demonstrates the Yagi-Uda null in his
 [Yagi Antenna Teaching Construct Part #3: Directional Gain and Front to Back Ratio](https://www.n1fd.org/2016/11/08/yagi-antenna-3/) article on the
 [Nashua Area Radio Society](https://www.n1fd.org/) website.
 
@@ -89,8 +101,10 @@ Other Fox Hunting related projects may be found on the WB2HOL
 * [Designing a Fox-hunt antenna \(Rolfje\)](https://rolfje.wordpress.com/2016/06/19/designing-a-fox-hunt-antenna/)
 * [Fox Hunting \(Everything Ham Radio\)](https://www.everythinghamradio.com/2014/07/fox-hunting/)
 * [Foxhunting \(KC9ON\)](https://kc9on.com/ham-radio/fox-hunting/)
+* [Homing In](http://www.homingin.com/)
+* [KE6HTS ARDF Page](http://www.west.net/~marvin/)
+* [My Offset Attenuator Project \(NT1K\)](https://nt1k.com/my-offset-attenuator-project/)
 * [Tape-Measure Antenna \(ARRL / PDF\)](http://www.arrl.org/files/file/ETP/The%20tape%20measure%20antenna.pdf)
 * [Transmitter Hunting \(Wikipedia\)](https://en.wikipedia.org/wiki/Transmitter_hunting)
 * [Yagi Antenna Gain & Directivity \(electronicsnotes\)](https://www.electronics-notes.com/articles/antennas-propagation/yagi-uda-antenna-aerial/gain-directivity.php)
 * [Yagi Antenna Teaching Construct Part #3: Directional Gain and Front to Back Ratio \(Nashua Area Radio Society\)](https://www.n1fd.org/2016/11/08/yagi-antenna-3/)
-
