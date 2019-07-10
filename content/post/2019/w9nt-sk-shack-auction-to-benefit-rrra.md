@@ -9,8 +9,8 @@ moretext = "View the Terms and Conditions..."
 +++
 [Gurnee Bridgman, W9NT, became a Silent Key April 17, 2019](https://rrra.org/sk/w9nt/) ([obituary](http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&call=W9NT&uid=0991555725179696)) and generously remembered RRRA in his will.
 
-A silent auction to liquidate station equipment willed to RRRA will be
-held immediately following the
+A silent auction to liquidate W9NT station equipment willed to RRRA will
+be held immediately following the
 [club's July business meeting]({{< relref "/calendar/2019/july-meeting.md" >}})
 16 July, 2019, at the
 [West Fargo City Hall building]({{< relref "/places/west-fargo-city-hall.md" >}}),
