@@ -64,9 +64,9 @@ Noon | License Testing cut off
 
 Time | Subject | Presented by
 -----|---------|-------------
-9AM to 10AM | Digital Voice Modes | Andy KD0IOE<br /> Jarod W0JPJ
-10AM to 11AM | IRLP, the Superlink and Beyond | Bill Ockert NB0B
-11AM to Noon | ARRL Forum | Lynn Nelson N0ND
+9AM to 10AM | Digital Voice Modes | Andy Lynch KD0IOE<br /> Jarod Jacobsen W0JPJ
+10AM to 11AM | IRLP, the Superlink and Beyond | Bill Ockert ND0B
+11AM to Noon | ARRL Forum | Lynn Nelson W0ND
 
 ### License Testing
 
@@ -87,13 +87,11 @@ Time | Subject | Presented by
 * **From 13th Ave S** (e. g. West Acres): Take I-29 south to exit 63B for I-94W toward Bismarck, Follow I-94 instructions above
 * **On-line directions**: Search for "Red River Valley Fair Hartl Ag Building West Fargo" in Google Maps or visit http://rrra.org/places/rrv-fairgrounds-hartl-building
 
+<!--
 ### Accomodations
 
 Accomodations available in the Fargo area include:
 
-***(section under development)***
-
-<!--
 * [C'mon Inn](https://www.cmoninn.com/fargo)
 * [Choice Hotels](https://www.choicehotels.com/north-dakota/fargo/hotels?checkInDate=2019-09-27&checkOutDate=2019-09-28)
 * [Wyndham Hotels](https://www.wyndhamhotels.com/)
@@ -106,21 +104,18 @@ Howard Johnson | [701-281-0000](tel:701-281-0000) &bull; [Wyndham Hotels](https:
 Super 8 | [701-282-7121](tel:701-282-7121) &bull; [Wyndham Hotels](https://www.wyndhamhotels.com/super-8)
 -->
 
-
 ### Still have questions?
 
 Please contact the {{< mailto hamfest name >}} if you have any questions about this event.
 
 ### Hamfest Flyer
 
-***(under development)***
-
-<!--
-<div style="text-align: center;"><strong><a href="https://rrra.org/s/zeMMKG7K3iWPQ3P">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>
+<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/WCFgu4TFaTDHfMp">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>
 <br />
 <div style="border:1px solid black">
-Image markup here
+
+{{< figure src="https://cloud.rrra.org/index.php/s/WCFgu4TFaTDHfMp/download" >}}
+
 </div>
 <br />
-<div style="text-align: center;"><strong><a href="https://rrra.org/s/zeMMKG7K3iWPQ3P">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>
--->
+<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/WCFgu4TFaTDHfMp">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>
