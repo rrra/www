@@ -27,7 +27,7 @@ outputs = [ "HTML", "Calendar" ]
 ### Ticket and Flea Market Table Pricing
 * Admission Tickets
     * Adults: $9.00 each
-    * 12 years and under admitted free with parent
+    * 12 years and under admitted free with accompanying adult
 * 8' Flea Market Tables - limited electricity available
     * Cost: $15.00 each
     * Minimum 1 admission ticket purchase required per vendor
@@ -110,7 +110,7 @@ Please contact the {{< mailto hamfest name >}} if you have any questions about t
 
 ### Hamfest Flyer
 
-<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/WCFgu4TFaTDHfMp">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>
+<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/UaIoMbRAVna2Php">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>
 <br />
 <div style="border:1px solid black">
 
@@ -118,4 +118,4 @@ Please contact the {{< mailto hamfest name >}} if you have any questions about t
 
 </div>
 <br />
-<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/WCFgu4TFaTDHfMp">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>
+<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/UaIoMbRAVna2Php">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>
