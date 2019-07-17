@@ -43,15 +43,13 @@ is required** (approximate cost $30)
 
 ##### General License Course Textbook
 
-* [HamRadioSchool.com](http://www.hamradioschool.com/)---April 29, 2013
-* ISBN-10: 1484847156
-* ISBN-13: 978-1484847152
+* [HamRadioSchool.com](http://www.hamradioschool.com/)---June 3, 2019
+* ISBN-10: 1072023512
+* ISBN-13: 978-1072023512
 
 **Purchasing links:**
 
-* [Amazon](https://www.amazon.com/HamRadioSchool-com-General-License-Course-Turner/dp/1484847156)
-* [Cheapest Textbooks](https://www.cheapesttextbooks.com/subjects/9781484847152.html)
-* [DX Engineering](https://www.dxengineering.com/search/brand/ham-radio-school/product-line/ham-radio-school-general-class-license-course-book)
+* [Amazon](https://www.amazon.com/HamRadioSchool-com-General-License-Course-Turner/dp/1072023512)
 
 ##### Extra License Course Textbook
 
