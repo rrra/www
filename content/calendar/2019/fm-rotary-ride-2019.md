@@ -1,5 +1,5 @@
 +++
-contact = "K0CRF"
+contact = "K0GEF"
 sponsor = "[The Rotary Foundation of Fargo-Moorhead](https://fmrotaryfoundation.org/)"
 publishDate = "2019-04-25T11:15:00-05:00"
 date = "2019-09-07T07:30:00-05:00"
