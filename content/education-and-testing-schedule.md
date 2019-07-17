@@ -32,6 +32,7 @@ is required** (approximate cost $30)
 ##### Technician License Course Textbook
 
 * [HamRadioSchool.com](http://www.hamradioschool.com/)---June 11, 2012
+* For the 2018-2022 question pool
 * ISBN-10: 1477595457
 * ISBN-13: 978-1477595459
 
@@ -44,6 +45,7 @@ is required** (approximate cost $30)
 ##### General License Course Textbook
 
 * [HamRadioSchool.com](http://www.hamradioschool.com/)---June 3, 2019
+* For the 2019-2023 question pool
 * ISBN-10: 1072023512
 * ISBN-13: 978-1072023512
 
