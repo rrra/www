@@ -9,11 +9,8 @@ title = "FM Rotary Ride 2019"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-<!--
 Information for radio operators is available on the
-[RRRA *Rotary Ride 2019* announcement page]({{/* relref "/post/2019/fm-rotary-ride-2019.md" */}})
-or at the
--->
+[RRRA *Rotary Ride 2019* announcement page]({{< relref "/post/2019/fm-rotary-ride.md" >}})
 
 General information about the FM Rotary Ride 2019 is available on the
 [event website](http://www.fmrotaryride.com/).
