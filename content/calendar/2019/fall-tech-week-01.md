@@ -14,7 +14,7 @@ outputs = [ "HTML", "Calendar" ]
 ---
 
 Registration for RRRA Fall 2019 Technician Classes is now open.  Please
-[register on-line](https://www.eventbrite.com/e/level-1technician-class-ham-radio-license-class-tickets-57836713166A)
+[register on-line](https://www.eventbrite.com/e/amateur-ham-radio-license-class-tickets-65744430361)
 
 ---
 

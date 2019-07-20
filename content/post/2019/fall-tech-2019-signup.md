@@ -8,7 +8,7 @@ title = "Signup for the Fall 2019 Technician Classes"
 authors = [ "K0STK" ]
 +++
 Registration for RRRA Fall 2019 Technician Classes is now open. Please
-[register on-line](https://www.eventbrite.com/e/level-1technician-class-ham-radio-license-class-tickets-57836713166A)
+[register on-line](https://www.eventbrite.com/e/amateur-ham-radio-license-class-tickets-65744430361)
 for these classes. **This
 [series](/dates/fall-2019-technician)
 of classes begins
