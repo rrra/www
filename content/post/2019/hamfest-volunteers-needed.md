@@ -53,7 +53,7 @@ at Deaner's Diner at Noon of the set-up day (Friday, September 27th)
 
 * Volunteer helpers who assist in clearing and cleaning the Hartl and
 Schollander building rooms. The published Hamfest/Convention ending time is
-2PM, but the event usuall starts to *wind down* shortly after 1PM
+2PM, but the event usually starts to *wind down* shortly after 1PM
 
 ---
 
