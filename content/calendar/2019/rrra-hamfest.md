@@ -87,22 +87,11 @@ Time | Subject | Presented by
 * **From 13th Ave S** (e. g. West Acres): Take I-29 south to exit 63B for I-94W toward Bismarck, Follow I-94 instructions above
 * **On-line directions**: Search for "Red River Valley Fair Hartl Ag Building West Fargo" in Google Maps or visit http://rrra.org/places/rrv-fairgrounds-hartl-building
 
-<!--
 ### Accomodations
 
-Accomodations available in the Fargo area include:
-
-* [C'mon Inn](https://www.cmoninn.com/fargo)
-* [Choice Hotels](https://www.choicehotels.com/north-dakota/fargo/hotels?checkInDate=2019-09-27&checkOutDate=2019-09-28)
-* [Wyndham Hotels](https://www.wyndhamhotels.com/)
-
-Hotel | Contact
-------|-------
-C'mon Inn | [701-277-9944](tel:701-277-9944) &bull; [C'mon Inn](https://www.cmoninn.com/fargo)
-Sleep Inn | [701-281-8240](tel:701-281-8240) &bull; [Choice Hotels](https://www.choicehotels.com/sleep-inn)
-Howard Johnson | [701-281-0000](tel:701-281-0000) &bull; [Wyndham Hotels](https://www.wyndhamhotels.com/hojo/west-fargo-north-dakota/howard-johnson-west-fargo/overview)
-Super 8 | [701-282-7121](tel:701-282-7121) &bull; [Wyndham Hotels](https://www.wyndhamhotels.com/super-8)
--->
+There are more than 40 hotels within approximately 5 miles of the Red River Valley Fair
+Grounds. [Use this search page \(at trivago\)](https://www.trivago.com/?aDateRange%5Barr%5D=2019-09-27&aDateRange%5Bdep%5D=2019-09-28&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=14776%2F200%2C1322%2F105%2C1320%2F105%2C1318%2F105%2C1316%2F105%2C1314%2F105&iViewType=0&bIsSeoPage=0&sortingId=3&slideoutsPageItemId=&iGeoDistanceLimit=8183&address=Main%20Ave%20W%201805&addressGeoCode%5B0%5D=46.8748448&addressGeoCode%5B1%5D=-96.9254856&offset=0&ra=)
+to choose the lodging which suits your needs.
 
 ### Still have questions?
 
