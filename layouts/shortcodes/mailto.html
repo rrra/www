@@ -5,11 +5,7 @@
 	{{ if ne $recip nil }}
 		{{ if gt  $recip.email "" }}
 			{{ if gt $recip.office "" }}
-				{{ .Page.Scratch.Set "linktext" $recip.call }}
-				{{ if isset .Params 1 }}
-					{{ $linktext := $recip.call | printf "%s %s" $recip.name | printf "%s" }}
-					{{ .Page.Scratch.Set "linktext" $linktext }}
-				{{ end }}
+				{{ .Page.Scratch.Set "linktext" $recip.office }}
 			{{ else if eq $recip.call "none" }}
 				{{ .Page.Scratch.Set "linktext" $recip.name }} 
 			{{ else }}
