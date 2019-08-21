@@ -27,11 +27,11 @@ outputs = [ "HTML", "Calendar" ]
 ### Sponsors & Donors
 * [ARRL](http://www.arrl.org/)
 * [4 Square QRP Club](http://www.4sqrp.com/index.php)
-* [Blarney Stone](www.blarneyirishpub.com)
+* [Blarney Stone](https://www.blarneyirishpub.com)
 * [Elecraft](https://elecraft.com/)
 * [MFJ](http://www.mfjenterprises.com/)
 * [Parks Digital, LLC](https://parksdigital.com/)
-* [West Mountain Radio](www.westmountainradio.com)
+* [West Mountain Radio](http://www.westmountainradio.com)
 
 Promotional merchandise courtesy of [Yaesu](http://yaesu.com/)
 
