@@ -24,6 +24,17 @@ outputs = [ "HTML", "Calendar" ]
 * Talk-In on 145.350-T123 and 444.875+T123
 * APRS Object: HFEST-28r
 
+### Sponsors & Donors
+* [ARRL](http://www.arrl.org/)
+* [4 Square QRP Club](http://www.4sqrp.com/index.php)
+* [Blarney Stone](www.blarneyirishpub.com)
+* [Elecraft](https://elecraft.com/)
+* [MFJ](http://www.mfjenterprises.com/)
+* [Parks Digital, LLC](https://parksdigital.com/)
+* [West Mountain Radio](www.westmountainradio.com)
+
+Promotional merchandise courtesy of [Yaesu](http://yaesu.com/)
+
 ### Ticket and Flea Market Table Pricing
 * Admission Tickets
     * Adults: $9.00 each
