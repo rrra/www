@@ -10,14 +10,6 @@ dates = [ "Fall 2019 Technician" ]
 outputs = [ "HTML", "Calendar" ]
 
 +++
-
----
-
-Registration for RRRA Fall 2019 Technician Classes is now open.  Please
-[register on-line](https://www.eventbrite.com/e/amateur-ham-radio-license-class-tickets-65744430361)
-
----
-
 ### Prerequisites
 
 * Purchase the [textbook]({{< relref "/education-and-testing-schedule.md#textbooks" >}}) 
