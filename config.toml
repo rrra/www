@@ -58,7 +58,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   description = "Content (e.g. blog posts, information pages, and files/links) about membership in the RRRA. Please visit the [social dates page](/dates/social/), or check the *Upcoming Events* section of our [home page](/) for upcoming events." 
 
 [params.categories.minutes]
-	description = "Minutes recorded by the RRRA Secretary during the club's monthly business meetings. The minutes posted here are converted from the original source documents to Markdown; the source documents are archived on the [RRRA file sharing server](http://cloud.rrra.org) in the *Secretary's Reports* folder."
+	description = "Minutes recorded by the RRRA Secretary during the club's monthly business meetings. The minutes posted here are converted from the original source documents to Markdown; the source documents are archived on the [RRRA file server](http://cloud.rrra.org) in the *Secretary's Reports* folder."
 
 [params.categories.outreach]
 	description = "Content (e.g. blog posts, information pages, and files/links) about RRRA activities intended to promote or advocate for Amateur Radio to the public, our government, and our served agencies."
