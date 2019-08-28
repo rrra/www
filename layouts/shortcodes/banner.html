@@ -1,0 +1,8 @@
+{{ $expires := dateFormat "2006-01-02" (.Get "expires") }}
+{{ $body := .Get "body" }}
+{{ $today := now.Format "2006-01-02" }}
+{{ if lt $today $expires }}
+<div id="banner">
+{{ $body | markdownify }}
+</div>
+{{ end }}
