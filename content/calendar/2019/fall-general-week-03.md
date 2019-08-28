@@ -21,4 +21,3 @@ outputs = [ "HTML", "Calendar" ]
 ### Resources
 
 * [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
-* [Syllabus](/s/fXT3KpheEuGOXBG)
