@@ -3413,7 +3413,7 @@ div.entry-summary .footnote-ref a {
 		font-size: 110%;
 	}
 	dt.twocol { clear: both; font-weight: bold; float: left; margin-bottom: 0.4em }
-	dt.twocol.header { width: 10em; background-color: #ccc; padding-left: 0.4em;}
+	dt.twocol.header { width: 10em; background-color: #c1cdc2; padding-left: 0.4em;}
 	dd.twocol { margin: 0 0 0.4em 10.6em; }
 	dd.sameday { clear: both; margin-left: 10.5em; margin-bottom: 0.4em; }
 
@@ -4409,7 +4409,7 @@ div.entry-summary .footnote-ref a {
 		column-count: 2;
 	}
 	dt.twocol { clear: both; font-weight: bold; float: left; margin-bottom: 0.4em; width: 7em; }
-	dt.twocol.header { width: 10em; background-color: #ccc; padding-left: 0.4em;}
+	dt.twocol.header { width: 10em; background-color: #c1cdc2; padding-left: 0.4em;}
 	dd.twocol { margin: 0 0 0.4em 0; }
 	dd.sameday { clear: both; margin-left: 10.5em; margin-bottom: 0.4em; }
 
