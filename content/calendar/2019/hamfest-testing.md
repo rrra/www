@@ -9,6 +9,9 @@ dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
 categories = [ "License Testing" ]
 +++
+Earn your first Amateur Radio license, or an upgrade, at the
+[2019 RRRA Hamfest & ARRL Dakota Division Convention]({{< relref "/calendar/2019/rrra-hamfest.md" >}}).
+
 {{% bring %}}
 {{% status %}}
 
