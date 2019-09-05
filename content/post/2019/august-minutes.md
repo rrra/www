@@ -58,7 +58,7 @@ revisions/corrections---pending acceptance by the Secretary.**
 * Door prizes are coming in and there will be some *good ones*
 * Several seminars organized
 * A sign up sheet was passed around the room
-* License testing---no walkins after 10am
+* [License] testing---no walkins after [Noon]
 
 ## Old Business
 
