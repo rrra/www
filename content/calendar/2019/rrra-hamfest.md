@@ -30,6 +30,7 @@ outputs = [ "HTML", "Calendar" ]
 * [4 Square QRP Club](http://www.4sqrp.com/index.php)
 * [ARRL](http://www.arrl.org/)
 * [Blarney Stone](https://www.blarneyirishpub.com/)
+* [Buckmaster International, LLC](http://www.hamcall.net/)
 * [Easy Way Ham Books](https://www.easywayhambooks.com/)
 * [Elecraft](https://elecraft.com/)
 * [Hammond Manufacturing](https://www.hammfg.com)
