@@ -41,6 +41,7 @@ outputs = [ "HTML", "Calendar" ]
 * [RT Systems, Inc.](http://www.rtsystems.com)
 * [Seminole Wire & Cable](http://www.seminolewire.com)
 * [West Mountain Radio](http://www.westmountainradio.com/)
+* Tim Gooding, KD0YX
 
 Promotional merchandise courtesy of <a href="http://yaesu.com/">Yaesu</a>
 {{% /banner %}}
