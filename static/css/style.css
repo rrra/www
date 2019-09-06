@@ -3016,7 +3016,7 @@ p.clear { clear: both; }
 	box-sizing:         border-box;
 	position: relative;
 	width: 100%;
-	padding-top: 24px;
+	padding: 24px 24px;
 	border-top: thin solid;
 	border-bottom: thin solid;
 }
