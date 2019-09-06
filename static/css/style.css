@@ -3016,14 +3016,9 @@ p.clear { clear: both; }
 	box-sizing:         border-box;
 	position: relative;
 	width: 100%;
-	padding: 24px 24px;
-	margin: 1.4em 0 1.4em 0;
+	padding-top: 24px;
 	border-top: thin solid;
 	border-bottom: thin solid;
-}
-
-#banner p {
-	margin-bottom: 0;
 }
 
 /**
