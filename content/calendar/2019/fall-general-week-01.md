@@ -9,7 +9,10 @@ categories = [ "Education" ]
 dates = [ "Fall 2019 General" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-{{% banner expires="2019-09-26" body="Registration for RRRA Fall 2019 General Classes is now open.  Please [register on-line](https://www.eventbrite.com/e/general-class-amateur-radio-licence-class-tickets-71153023609)." %}}
+{{% banner %}}
+Registration for RRRA Fall 2019 General Classes is now open.  Please
+[register on-line](https://www.eventbrite.com/e/general-class-amateur-radio-licence-class-tickets-71153023609).
+{{% /banner %}}
 
 
 ### Prerequisites

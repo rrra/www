@@ -24,28 +24,26 @@ outputs = [ "HTML", "Calendar" ]
 * Talk-In on 145.350-T123 and 444.875+T123
 * APRS Object: HFEST-28r
 
-<div id="banner">
-<h3 id="sponsors-donors">Sponsors & Donors</h3>
-<ul>
-<li><a href="http://www.4sqrp.com/index.php">4 Square QRP Club</a></li>
-<li><a href="http://www.arrl.org/">ARRL</a></li>
-<li><a href="https://www.blarneyirishpub.com/">Blarney Stone</a></li>
-<li><a href="https://www.easywayhambooks.com/">Easy Way Ham Books</a></li>
-<li><a href="https://elecraft.com/">Elecraft</a></li>
-<li><a href="https://www.hammfg.com">Hammond Manufacturing</a></li>
-<li><a href="http://www.mastrant.com/">Mastrant Antenna Guying</a></li>
-<li><a href="http://www.mfjenterprises.com/">MFJ</a></li>
-<li><a href="https://www.n3znkeys.com">N3ZN Keys, LLC</a></li>
-<li><a href="http://www.cometantenna.com">NCG Company (Comet Antennas)</a></li>
-<li><a href="https://parksdigital.com/">Parks Digital, LLC</a></li>
-<li><a href="http://www.rtsystems.com">RT Systems, Inc.</a></li>
-<li><a href="http://www.seminolewire.com">Seminole Wire & Cable</a></li>
-<li><a href="http://www.westmountainradio.com/">West Mountain Radio</a></li>
-</ul>
-<div>
+{{% banner %}}
+### Sponsors & Donors
+
+* [4 Square QRP Club](http://www.4sqrp.com/index.php)
+* [ARRL](http://www.arrl.org/)
+* [Blarney Stone](https://www.blarneyirishpub.com/)
+* [Easy Way Ham Books](https://www.easywayhambooks.com/)
+* [Elecraft](https://elecraft.com/)
+* [Hammond Manufacturing](https://www.hammfg.com)
+* [Mastrant Antenna Guying](http://www.mastrant.com/)
+* [MFJ](http://www.mfjenterprises.com/)
+* [N3ZN Keys, LLC](https://www.n3znkeys.com)
+* [NCG Company (Comet Antennas)](http://www.cometantenna.com)
+* [Parks Digital, LLC](https://parksdigital.com/)
+* [RT Systems, Inc.](http://www.rtsystems.com)
+* [Seminole Wire & Cable](http://www.seminolewire.com)
+* [West Mountain Radio](http://www.westmountainradio.com/)
+
 Promotional merchandise courtesy of <a href="http://yaesu.com/">Yaesu</a>
-</div>
-</div>
+{{% /banner %}}
 
 ### Ticket and Flea Market Table Pricing
 * Admission Tickets
