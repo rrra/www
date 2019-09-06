@@ -3022,6 +3022,10 @@ p.clear { clear: both; }
 	border-bottom: thin solid;
 }
 
+#banner p {
+	margin-bottom: 0;
+}
+
 /**
  * 10.0 Multisite
  * -----------------------------------------------------------------------------
