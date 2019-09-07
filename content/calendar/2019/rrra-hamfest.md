@@ -41,6 +41,7 @@ outputs = [ "HTML", "Calendar" ]
 * [Parks Digital, LLC](https://parksdigital.com/)
 * [RT Systems, Inc.](http://www.rtsystems.com)
 * [Seminole Wire & Cable](http://www.seminolewire.com)
+* [Tigertronics](http://tigertronics.com/)
 * [West Mountain Radio](http://www.westmountainradio.com/)
 * Tim Gooding, KD0YX
 
