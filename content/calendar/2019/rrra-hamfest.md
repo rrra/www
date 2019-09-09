@@ -24,29 +24,7 @@ outputs = [ "HTML", "Calendar" ]
 * Talk-In on 145.350-T123 and 444.875+T123
 * APRS Object: HFEST-28r
 
-{{% banner %}}
-### Sponsors & Donors
-
-* [4 Square QRP Club](http://www.4sqrp.com/index.php)
-* [ARRL](http://www.arrl.org/)
-* [Blarney Stone](https://www.blarneyirishpub.com/)
-* [Buckmaster International, LLC](http://www.hamcall.net/)
-* [Easy Way Ham Books](https://www.easywayhambooks.com/)
-* [Elecraft](https://elecraft.com/)
-* [Hammond Manufacturing](https://www.hammfg.com)
-* [Mastrant Antenna Guying](http://www.mastrant.com/)
-* [MFJ](http://www.mfjenterprises.com/)
-* [N3ZN Keys, LLC](https://www.n3znkeys.com)
-* [NCG Company (Comet Antennas)](http://www.cometantenna.com)
-* [Parks Digital, LLC](https://parksdigital.com/)
-* [RT Systems, Inc.](http://www.rtsystems.com)
-* [Seminole Wire & Cable](http://www.seminolewire.com)
-* [Tigertronics](http://tigertronics.com/)
-* [West Mountain Radio](http://www.westmountainradio.com/)
-* Tim Gooding, KD0YX
-
-Promotional merchandise courtesy of <a href="http://yaesu.com/">Yaesu</a>
-{{% /banner %}}
+{{< hamfest-donors 2019 >}}
 
 ### Ticket and Flea Market Table Pricing
 * Admission Tickets
