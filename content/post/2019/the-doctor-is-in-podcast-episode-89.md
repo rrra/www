@@ -15,7 +15,7 @@ in this episode of the
 
 <!--more-->
 
-<iframe src="//player.blubrry.com?media_url=//media.blubrry.com/arrl_the_doctor_is_in/d/content.blubrry.com/arrl_the_doctor_is_in/August_15_-_G5RV.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+{{< blubrry "//media.blubrry.com/arrl_the_doctor_is_in/d/content.blubrry.com/arrl_the_doctor_is_in/August_15_-_G5RV.mp3" >}}
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:
