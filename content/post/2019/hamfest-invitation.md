@@ -10,7 +10,7 @@ a flea market, and more, at the largest Hamfest in North Dakota.
 
 The [Red River Radio Amateurs Hamfest and ARRL Dakota Division Convention](http://hamfest.rrra.org/2019)
 runs from 8AM to 2PM at the Red River Valley Fairgrounds on Saturday,
-September 29, 2018.
+September 28, 2018.
 
 {{< hamfest-donors >}}
 <br />
