@@ -4,7 +4,7 @@ date = "2019-08-24T13:14:31-05:00"
 title = "Enjoy FT8 From Almost Anywhere"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
-tags = [ "ARRL", "FT8", "QST" ]
+tags = [ "ARRL", "FT8", "QST", "Preview" ]
 +++
 Having the ability to experiment with operating your equipment in new
 ways is an aspect of Amateur Radio which sets our hobby apart from
