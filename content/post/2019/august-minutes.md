@@ -103,11 +103,11 @@ revisions/corrections---pending acceptance by the Secretary.**
 * Bob W0HNV commented he is OK with the LDS church class. Also commented that there was an AED demo after the meeting
 
 ### Christmas Party
-* [Marva] KC0HIG
+* [Lori KC0GQE]
 * :new: The room is booked for 5:50pm on December 4th at Pizza Ranch Fargo. Bring food donation
 
 ### Jingle Bell Run
-* [Marva] KC0HIG
+* [Lori KC0GQE]
 * December 7th ... more to come
 
 ### Adjournment
