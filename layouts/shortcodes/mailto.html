@@ -1,10 +1,13 @@
 {{ $sign := index .Params 0 }}
+{{ $option := index .Params 1 }}
 {{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
 {{ if (fileExists $filename) }}
 	{{ $recip := index .Page.Site.Data.call $sign }}
 	{{ if ne $recip nil }}
 		{{ if gt  $recip.email "" }}
-			{{ if gt $recip.office "" }}
+			{{ if and ( eq $option "name" ) ( gt $recip.name "" ) }}
+				{{ .Page.Scratch.Set "linktext" $recip.name }}
+			{{ else if gt $recip.office "" }}
 				{{ .Page.Scratch.Set "linktext" $recip.office }}
 			{{ else if eq $recip.call "none" }}
 				{{ .Page.Scratch.Set "linktext" $recip.name }} 
