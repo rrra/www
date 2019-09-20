@@ -1,0 +1,24 @@
+{{ $body := .Get "body" }}
+{{ if or (gt .Inner "") (gt $body "") }}
+	{{ with .Get "expires" }}
+		{{ $today := now.Format "2006-01-02" }}
+		{{ $expires := dateFormat "2006-01-02" ( . ) }}
+		{{ if lt $today $expires }}
+			<div id="banner">
+			{{ with .Inner }}
+				{{ . | markdownify }}
+			{{ else }}
+				{{ $body | markdownify }}
+			{{ end }}
+			</div>
+		{{ end }}
+	{{ else }}
+		<div id="banner">
+		{{ with .Inner }}
+			{{ . | markdownify }}
+		{{ else }}
+			{{ $body | markdownify }}
+		{{ end }}
+		</div>
+	{{ end }}
+{{ end }}

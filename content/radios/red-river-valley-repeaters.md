@@ -8,7 +8,7 @@ Location | ID & Mode | Frequency | Notes
 ---------|-----------|-----------|------
 Barnesville, MN | KC0SD<br />Analog | {{< repeaterbook  "147.060 + T123" 27 113 >}} | [SuperLINK]({{< relref "/radios/superlink.md" >}})
 Detroit Lakes, MN | W0EMZ<br />Analog | {{< repeaterbook  "147.195 +" 27 133 >}} | [Detroit Lakes ARC](http://w0emz.com/)
-Fargo, ND | KB0IXM<br />Analog | {{< repeaterbook  "145.490 - T82.5" 38 45 >}} | [IRLP #4549](http://status.irlp.net/index.php?PSTART=11&nodeid=4549)
+Fargo, ND | K0EED<br />Analog | {{< repeaterbook  "145.490 - T82.5" 38 45 >}} | [IRLP #4549](http://status.irlp.net/index.php?PSTART=11&nodeid=4549)
 Fargo, ND | KD0SWQ<br />D-STAR | 444.000 + | NDSU 
 Fargo, ND | W0HSC<br />Analog | {{< repeaterbook  "147.090 +" 38 22 >}} | [NDSU Amateur Radio Society](http://www.w0hsc.org/)
 Fargo, ND | [W0RRW](/sk/w0rrw)<br />Analog | {{< repeaterbook  "146.970 -"  38 29 >}} | Ernie Anderson Memorial Station

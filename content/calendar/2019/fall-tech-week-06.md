@@ -1,7 +1,7 @@
 +++
-contact = "W0HNV"
-date = "2019-09-11T19:00:00-05:00"
-endTime = "2019-09-11T21:00:00-05:00"
+contact = "WD0EGC"
+date = "2019-09-18T19:00:00-05:00"
+endTime = "2019-09-18T21:00:00-05:00"
 publishDate = "2019-05-09"
 location = "West Fargo Public Library"
 title = "Fall Technician Class Week 6"
@@ -25,8 +25,8 @@ Following the completion of the course you should:
 
 ### License Testing
 
-A [license testing session]({{< relref "/calendar/2019/may-testing.md" >}})
-is scheduled for May 15, 2019.
+A [license testing session]({{< relref "/calendar/2019/hamfest-testing.md" >}})
+is scheduled for September 28, 2019.
 
 Please visit our index of [License Testing dates](/dates/license-testing/)
 for a complete list of currently scheduled testing dates along with
@@ -36,4 +36,4 @@ Status**.
 ### Resources
 
 * [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
-* [Syllabus](/s/2xabO1oD5mbpVRh)
+<!--* [Syllabus](/s/2xabO1oD5mbpVRh)-->

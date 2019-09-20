@@ -1,0 +1,5 @@
+{{ with .Get 0 }}
+{{ $media := ( . ) | replaceRE "^https?:" "" }}
+<iframe src="//player.blubrry.com?media_url={{ $media }}"
+scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+{{ end }}

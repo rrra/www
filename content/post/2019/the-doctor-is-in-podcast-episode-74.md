@@ -16,12 +16,12 @@ Jahnke, W9JJ, in this episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
 <!--more-->
 
-<iframe src="//player.blubrry.com?media_url=//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/Doctor-Weak_Signals_-_Bart.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+{{< blubrry "//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/Doctor-Weak_Signals_-_Bart.mp3" >}}
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:
 
-* [Log Periodic Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/39781083/log-periodic-antennas/),
+* [Log Periodic Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/39781083/log-periodic-antennas/)
 * [Ground Plane Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/39442945/ground-plane-antennas/)
 * [RF Safety](https://www.blubrry.com/arrl_the_doctor_is_in/39442944/rf-safety/)
 * [Station Computers](https://www.blubrry.com/arrl_the_doctor_is_in/38424687/station-computers/)

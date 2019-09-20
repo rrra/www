@@ -1,7 +1,7 @@
 +++
-contact = "W0HNV"
-date = "2019-08-07T19:00:00-05:00"
-endTime = "2019-08-07T21:00:00-05:00"
+contact = "WD0EGC"
+date = "2019-08-14T19:00:00-05:00"
+endTime = "2019-08-14T21:00:00-05:00"
 publishDate = "2019-05-09"
 location = "West Fargo Public Library"
 title = "Fall Technician Class Week 1"
@@ -28,4 +28,4 @@ outputs = [ "HTML", "Calendar" ]
 ### Resources
 
 * [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
-* [Syllabus](/s/2xabO1oD5mbpVRh)
+<!--* [Syllabus](/s/2xabO1oD5mbpVRh)-->

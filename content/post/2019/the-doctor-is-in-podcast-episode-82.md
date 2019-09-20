@@ -15,7 +15,7 @@ episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
 <!--more-->
 
-<iframe src="//player.blubrry.com?media_url=//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/May_9_2019_-_It_is_about_Time.mp3" scrolling="no" width="100%" height="138px" frameborder="0"></iframe>
+{{< blubrry "//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/May_9_2019_-_It_is_about_Time.mp3" >}}
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:
@@ -27,8 +27,8 @@ topics related to Amateur Radio. Recent podcast topics include:
 * [Meet the Raspberry Pi](https://www.blubrry.com/arrl_the_doctor_is_in/41981724/meet-the-raspberry-pi/)
 * [Are we entering a Maunder Minimum?](https://www.blubrry.com/arrl_the_doctor_is_in/41574941/are-we-entering-a-maunder-minimum/)
 * [FT8](https://www.blubrry.com/arrl_the_doctor_is_in/40986567/ft8/)
-* [Life Above 50 MHz](https://www.blubrry.com/arrl_the_doctor_is_in/40986137/life-above-50-mhz).
-* [Log Periodic Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/39781083/log-periodic-antennas/),
+* [Life Above 50 MHz](https://www.blubrry.com/arrl_the_doctor_is_in/40986137/life-above-50-mhz)
+* [Log Periodic Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/39781083/log-periodic-antennas/)
 * [Ground Plane Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/39442945/ground-plane-antennas/)
 
 A complete podcast archive and a contact form for submitting questions

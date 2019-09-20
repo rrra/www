@@ -22,7 +22,9 @@
     		{{- end }}
 				{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 				{{ if ne $contact nil }}
-					<div id="page-contact"><span class="vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }}</div>
+					<div id="contact">
+						<br /><span class="vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }}
+					</div>
 				{{ end }}
 
 			</header>
@@ -37,7 +39,6 @@
 				{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
 				{{ $edu := intersect $classes  (split .Title " ")  }}
 
-
 				<div id="col">
 				{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
 					{{ if or ($edu) (ge .Key $thisyear) }}	
@@ -50,7 +51,7 @@
 							{{ end }}
 							{{ .Render ( $.Scratch.Get "li" ) }}
 						{{ end }}
-						{{ if eq ( $.Scratch.Get "group" ) ""  }}
+						{{ if and (not $edu) (eq ( $.Scratch.Get "group" ) "")  }}
 							<dt class="noprint">No upcoming dates this year</dt>
 						{{ end }}
 						</dl>

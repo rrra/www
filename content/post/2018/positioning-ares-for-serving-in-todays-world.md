@@ -1,10 +1,10 @@
 +++
-date = "2018-08-05T019:30:49-05:00"
+date = "2018-08-05T19:30:49-05:00"
 #publishdate = "2018-08-02T09:30:49-05:00"
 title = "Positioning ARES for Serving in Todays World"
 authors = [ "K0STK" ]
 categories = [ "Public Service" ]
-tags = [ "ARES", "ARRL", "QST" ]
+tags = [ "ARES", "ARRL", "QST", "Preview" ]
 +++
 Providing service to others (e.g. Public Service communication support)
 requires adaptation to the evolving needs of those being served.  

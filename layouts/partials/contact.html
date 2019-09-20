@@ -1,68 +1,47 @@
 {{ $filename := "toml" | printf "%s.%s" .sign | printf "%s/%s" "data/call" }}
 {{ if (fileExists $filename) }}
 	{{ $recip :=  index .context.Site.Data.call .sign }}
+	{{ $scratch := newScratch }}
 
-	{{ if ne $recip nil }}
+	{{ if and ( ne $recip nil ) ( gt $recip.email "" )  }}
+
+		{{ if gt $recip.office "" }}
+			{{ $scratch.Set "ddopen" $recip.office  }}
+		{{ else }}
+			{{ $contact := .sign | upper | printf "%s %s" ( $recip.name | replaceRE " .*" "" )  }}
+			{{ $scratch.Set "ddopen" $contact }}
+		{{ end }}
+
+		{{ $scratch.Set "email" $recip.email }}
+
+		{{ if gt $recip.tel "" }}
+			{{ $scratch.Set "tel" $recip.tel }}
+		{{ else }}
+			{{ $scratch.Set "tel" .context.Site.Params.tel }}
+		{{ end }}
+
+			
+		{{ $ddopen :=  "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" ( $scratch.Get "ddopen" ) | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\"><button onclick=\"toggleDropdown()\" class=\"dropbtn\">" | printf "%s" }}
+
+		{{ $email := "</a></div>" | printf "%s%s" ( $scratch.Get "email" ) | printf "%s%s" "\">" | printf "%s%s" ( $scratch.Get "email" ) | printf "%s%s" "<div><div class=\"genericon genericon-mail\"></div><a href=\"mailto:" | printf "%s" }}
+
+		{{ $tel := "</a></div>" | printf "%s%s" ( $scratch.Get "tel" ) | printf "%s%s" "\">" | printf "%s%s" ( $scratch.Get "tel" ) | printf "%s%s" "<div><div class=\"genericon genericon-phone\"></div><a href=\"tel:" | printf "%s" }}
 
 		<script type="text/javascript">
 		<!-- 
 		function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
-		var scripts = document.getElementsByTagName( 'script' );
-		var me = scripts[ scripts.length - 1 ];	
-		var myDiv = me.parentNode;
-		//-->
+    		var myParent = document.getElementById("contact");
+		myParent.innerHTML += f({{ $ddopen | base64Encode }});
+		var myDiv = document.getElementById("contact-dropdown");
+		myDiv.innerHTML += f({{ $email | base64Encode }});
+		{{- if ne $recip.tel "none" -}}
+		myDiv.innerHTML += f({{ $tel | base64Encode }});
+		{{- end -}}
+		myDiv.innerHTML += f({{ "</div></div>" | base64Encode }});
+		{{ "// -->" | safeJS }}
 		</script>
-		<noscript>{{ with $recip.office }}{{ . }}{{ else }}{{ with $recip.name }}{{ . }}{{ else }}{{ .sign }}{{ end }}{{ end }}</noscript>
+		<noscript>{{ with $recip.office }}{{ . }}{{ else }}{{ with $recip.name  | replaceRE " .*" "" }}{{ . }} {{ end }}{{ .sign }}{{ end }}</noscript>
 
-		{{ if gt $recip.office "" }}
-			{{ $ddopen := "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" $recip.office | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\"><button onclick=\"toggleDropdown()\" class=\"dropbtn\">" | printf "%s" }}
-				<script type="text/javascript">
-				<!-- 
-				myDiv.innerHTML += f({{ $ddopen | base64Encode }});
-				var myDiv = document.getElementById("contact-dropdown")
-				//-->
-				</script>
-		{{ else }}
-			{{ $ddopen := "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" .sign | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\"><button onclick=\"toggleDropdown()\" class=\"dropbtn\">" | printf "%s" }}
-				<script type="text/javascript">
-				<!-- 
-				myDiv.innerHTML += f({{ $ddopen | base64Encode }});
-				var myDiv = document.getElementById("contact-dropdown")
-				//-->
-				</script>
-		{{ end }}
-
-		{{ if gt $recip.email "" }}
-				{{ $email := "</a></div>" | printf "%s%s" $recip.email | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<div><div class=\"genericon genericon-mail\"></div><a href=\"mailto:" | printf "%s" }}
-				<script type="text/javascript">
-				<!-- 
-				myDiv.innerHTML += f({{ $email | base64Encode }})
-				//-->
-				</script>
-		{{ end }}
-
-		{{ if gt $recip.tel "" }}
-				{{ $tel := "</a>" | printf "%s%s" $recip.tel | printf "%s%s" "\">" | printf "%s%s" $recip.tel | printf "%s%s" "<div class=\"genericon genericon-phone\"></div><a href=\"tel:" | printf "%s" }}
-				<script type="text/javascript">
-				<!--
-				myDiv.innerHTML += f({{ $tel | base64Encode }})
-				//-->
-				</script>
-		{{ else }}
-				{{ $tel := "</a>" | printf "%s%s" .context.Site.Params.tel | printf "%s%s" "\">" | printf "%s%s" .context.Site.Params.tel | printf "%s%s" "<div class=\"genericon genericon-phone\"></div><a href=\"tel:" | printf "%s" }}
-				<script type="text/javascript">
-				<!--
-				myDiv.innerHTML += f({{ $tel | base64Encode }})
-				//-->
-				</script>
-		{{ end }}
-
-		{{ $ddclose := "</div></div>" }}
-				<script type="text/javascript">
-				<!--
-				myDiv.innerHTML += f({{ $ddclose | base64Encode }})
-				//-->
-				</script>
 	{{ else }}
 			{{ .sign | markdownify }}
 	{{ end }}

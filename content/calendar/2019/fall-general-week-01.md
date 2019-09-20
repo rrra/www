@@ -1,7 +1,7 @@
 +++
-contact = "W0HNV"
-date = "2019-09-18T19:00:00-05:00"
-endTime = "2019-09-18T21:00:00-05:00"
+contact = "WD0EGC"
+date = "2019-09-25T19:00:00-05:00"
+endTime = "2019-09-25T21:00:00-05:00"
 publishDate = "2019-08-18"
 location = "West Fargo Public Library"
 title = "Fall General Class Week 1"
@@ -9,6 +9,12 @@ categories = [ "Education" ]
 dates = [ "Fall 2019 General" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+{{% banner %}}
+Registration for RRRA Fall 2019 General Classes is now open.  Please
+[register on-line](https://www.eventbrite.com/e/general-class-amateur-radio-licence-class-tickets-71153023609).
+{{% /banner %}}
+
+
 ### Prerequisites
 
 * Purchase the [textbook]({{< relref "/education-and-testing-schedule.md#textbooks" >}}) 
@@ -28,4 +34,3 @@ outputs = [ "HTML", "Calendar" ]
 ### Resources
 
 * [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
-* [Syllabus](/s/fXT3KpheEuGOXBG)

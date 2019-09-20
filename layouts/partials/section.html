@@ -20,8 +20,8 @@
 		<div class="entry-meta">
 			<span class="entry-date">
 				<a href="{{ .Permalink }}" rel="bookmark">
-					<time class="entry-date updated" datetime="{{ .Date }}">
-						{{ .Date.Format "January 2, 2006" }}
+					<time class="entry-date updated" datetime="{{ .Lastmod.Format "January 2, 2006" }}">
+						{{ .Lastmod.Format "January 2, 2006" }}
 					</time>
 				</a>
 			</span>
@@ -35,7 +35,9 @@
 
 		{{ $contact := .Params.contact }}
 		{{ if ne $contact nil }}
+		<div id="contact">
 			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+		</div>
 		{{ end }}
 
 		<div class="entry-meta">

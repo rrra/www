@@ -1,7 +1,7 @@
 +++
-contact = "W0HNV"
-date = "2019-11-06T19:00:00-06:00"
-endTime = "2019-11-06T21:00:00-06:00"
+contact = "WD0EGC"
+date = "2019-11-13T19:00:00-06:00"
+endTime = "2019-11-13T21:00:00-06:00"
 publishDate = "2019-08-18"
 location = "West Fargo Public Library"
 title = "Fall General Class Week 8"
@@ -35,4 +35,3 @@ Status**.
 ### Resources
 
 * [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
-* [Syllabus](/s/fXT3KpheEuGOXBG)

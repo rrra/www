@@ -24,7 +24,7 @@
 				{{ $series := index .Site.Taxonomies.series $name }}
 				{{ range $series.Pages.ByDate }}
 				  {{ $title := (time $thismonth).AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
-					<dt class="twocol"><a href="{{ .Permalink }}">{{ $title }}</a></dt>
+					<dt class="twocol"><a href="{{ .Permalink }}">{{ $title  }}</a></dt>
 				{{ end }}
 				</dl>
 

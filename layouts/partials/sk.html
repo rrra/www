@@ -1,52 +1,53 @@
 <article class="post type-post status-publish format-standard hentry">
 
-	<!-- .entry-header -->
-	<header class="entry-header">
+<!-- .entry-header -->
+<header class="entry-header">
 
-	{{ $baseurl := .Site.BaseURL }}
-	{{ $silentkeybase := .Site.Params.silentkeybase }}
-	{{ $sitedate := .Site.Params.sitedate }}
-	{{ $call := upper .Title }}
+{{ $baseurl := .Site.BaseURL }}
+{{ $silentkeybase := .Site.Params.silentkeybase }}
+{{ $sitedate := .Site.Params.sitedate }}
+{{ $call := upper .Title }}
+{{ $licensed := findRE "[12][0-9]{3}-[01]?[0-9]-[0-9]{2}" (.Params.licensed) 1}}
 
-		<div class="entry-meta">
+<div class="entry-meta">
 
-			<div class="cat-links">
-				{{ range last 1 ( where .Site.Pages "Section" "sk" ) }}
-				<a class="nav {{ if not $.PrevInSection }}disabled" {{ else }}" title="Oldest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&laquo;&laquo;</a>
-				{{ end }}
-				<a class="nav {{ if not .PrevInSection }}disabled" {{ else }}" title="Previous Silent Key - {{ upper .PrevInSection.Title }}" {{ end }}  href="{{ if .PrevInSection }}{{ .PrevInSection.RelPermalink }}{{ else }}.{{ end }}">&laquo;</a>
-				<a class="taxonomy" href="{{ $baseurl }}/sk/" title="Silent Key List" rel="category">RRRA Silent Keys</a>
-				<a class="nav {{ if not .NextInSection }} disabled" {{ else }}" title="Next Silent Key - {{ upper .NextInSection.Title }}" {{ end }} href="{{ if .NextInSection }}{{ .NextInSection.RelPermalink }}{{ else }}.{{ end }}">&raquo;</a>
-				{{ range first 1 ( where .Site.Pages "Section" "sk" ) }}
-				<a class="nav {{ if not $.NextInSection }}disabled" {{ else }}" title="Newest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&raquo;&raquo;</a>
-				{{ end }}
-			</div>
+<div class="cat-links">
+{{ range last 1 ( where .Site.Pages "Section" "sk" ) }}
+<a class="nav {{ if not $.PrevInSection }}disabled" {{ else }}" title="Oldest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&laquo;&laquo;</a>
+{{ end }}
+<a class="nav {{ if not .PrevInSection }}disabled" {{ else }}" title="Previous Silent Key - {{ upper .PrevInSection.Title }}" {{ end }}  href="{{ if .PrevInSection }}{{ .PrevInSection.RelPermalink }}{{ else }}.{{ end }}">&laquo;</a>
+<a class="taxonomy" href="{{ $baseurl }}/sk/" title="Silent Key List" rel="category">RRRA Silent Keys</a>
+<a class="nav {{ if not .NextInSection }} disabled" {{ else }}" title="Next Silent Key - {{ upper .NextInSection.Title }}" {{ end }} href="{{ if .NextInSection }}{{ .NextInSection.RelPermalink }}{{ else }}.{{ end }}">&raquo;</a>
+{{ range first 1 ( where .Site.Pages "Section" "sk" ) }}
+<a class="nav {{ if not $.NextInSection }}disabled" {{ else }}" title="Newest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&raquo;&raquo;</a>
+{{ end }}
+</div>
 
-		</div><!-- .entry-meta -->
+</div><!-- .entry-meta -->
 
-		<h2 class="entry-title">{{ .Title | upper }}<br />{{ .Params.name }}</h2>
+<h2 class="entry-title">{{ .Title | upper }}<br />{{ .Params.name }}</h2>
 
-	</header>
-	
-	<div class="entry-content">
-		{{ $.Scratch.Set "needed" "photo|" }}
-		{{ $imgfiles := readDir "static/images/sk/" }}
-		{{ range $imgfiles }}
-			{{ if in .Name ( lower $call ) }}
-				<figure class="wp-caption alignnone">
-					<img  src="/images/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}"/>
-					{{ with $.Params.photocredit }}
-						<figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
-					{{ end }}
-				</figure>
-				{{ $.Scratch.Set "needed" "" }}
-			{{ end }}
-		{{ end }}
+</header>
 
+<div class="entry-content">
+{{ $.Scratch.Set "needed" "photo|" }}
+{{ $imgfiles := readDir "static/images/sk/" }}
+{{ range $imgfiles }}
+{{ if in .Name ( lower $call ) }}
+<figure class="wp-caption alignnone">
+<img  src="/images/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}"/>
+{{ with $.Params.photocredit }}
+<figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
+{{ end }}
+</figure>
+{{ $.Scratch.Set "needed" "" }}
+{{ end }}
+{{ end }}
+		
 		<dl id="list">
 			{{ with .Params.born }}<dt class="twocol header">Born:</dt><dd class="twocol">{{ . | dateFormat ( $sitedate ) }}</dd>
 				{{ else }}{{ $.Scratch.Add "needed" "birth|" }}{{ end }}
-			{{ with .Params.licensed }}<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ . }}</dd>{{ end}}
+			{{ if gt .Params.licensed "" }}<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if gt $licensed "" }}{{ .Params.licensed | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>{{ end}}
 			{{ if gt .Date "" }}<dt class="twocol header">Silent Key:</dt><dd class="twocol">{{ .Date.Format ( $sitedate ) }}</dd>
 				{{ else }}{{ $.Scratch.Add "needed" "death|" }}{{ end }}
 			{{ with .Params.silentkeyhq }}

@@ -19,8 +19,8 @@
 			{{ if eq .Section "post" }} 
 			<span class="entry-date">
 				<a href="{{ .Permalink }}" rel="bookmark">
-					<time class="entry-date updated" datetime="{{ .Date }}">
-						{{ .Date.Format "January 2, 2006" }}
+					<time class="entry-date updated" datetime="{{ .Lastmod.Format "January 2, 2006" }}">
+						{{ .Lastmod.Format "January 2, 2006" }}
 					</time>
 				</a>
 			</span>
@@ -38,13 +38,24 @@
 		{{ if eq .Params.toc "true" }}{{ .TableOfContents }}{{ end }}
 
 		{{ .Content }}
+
+		{{ if eq .Section "post" }} 
+			{{ if gt (.Date.Unix) (sub now.Unix 2592000) }}
+				<div class="noprint">
+				<hr>
+				<span class="genericon genericon-comment alignright"></span>
+				<a href="mailto:rrra@lists.rrra.org?subject={{ .Title }}&body=RE: {{ .Permalink }}%0D%0A%0D%0A">Discuss this blog post on the RRRA Club Discussions Mailing List</a>
+				<span class="alignright">(free subscription required)</span>
+				</div>
+			{{ end }}
+		{{ end }}
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
 		<span class="tag-links">		
 			{{ range .Params.tags }}
-                <a href="{{ $baseurl}}/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
-            {{ end }}
+                		<a href="{{ $baseurl}}/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+            		{{ end }}
 		</span>
 	</footer>
 </article> <!-- #post-## -->

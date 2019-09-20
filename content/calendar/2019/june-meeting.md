@@ -9,6 +9,5 @@ dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 cancelled = true
 +++
-Please enter through the north
-doors adjacent to the 4th Ave E parking lot.
-
+Please join us at
+[another meeting](/dates/business-meetings).
