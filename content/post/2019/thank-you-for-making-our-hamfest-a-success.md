@@ -5,7 +5,7 @@ title = "Thank You for Making Our Hamfest a Success"
 authors = [ "K0STK" ]
 categories = [ "Hamfest" ]
 tags = []
-moretext = "Subscribe to our mailing list..."
+moretext = "Subscribe to our mailing list"
 +++
 Thank-you to the sponsors, donors, attendees, seminar speakers, vendors
 and volunteers who made the 2019 RRRA Hamfest and RRRA Dakota Division
@@ -15,6 +15,7 @@ Convention a success. See you next year!
 if you did not receive e-mail announcements about the 2019 RRRA Hamfest.
 
 {{< hamfest-donors 2019 >}}
+<p class="clear"></p>
 
 <!--more-->
 
