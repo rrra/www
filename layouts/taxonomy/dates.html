@@ -44,19 +44,11 @@
 					{{ if or ($edu) (ge .Key $thisyear) }}	
 						<h3>{{ .Key }}</h3>
 						<dl id="list">
-						{{ $.Scratch.Set "group" "" }}
 						{{ range .Pages.Reverse }}
-							{{ if ge .Date.Unix now.Unix }}
-								{{ $.Scratch.Set "group" 1 }}
-							{{ end }}
 							{{ .Render ( $.Scratch.Get "li" ) }}
-						{{ end }}
-						{{ if and (not $edu) (eq ( $.Scratch.Get "group" ) "")  }}
-							<dt class="noprint">No upcoming dates this year</dt>
 						{{ end }}
 						</dl>
 						{{ partial "clear" }}
-						{{ $.Scratch.Set "group" "" }}
 					{{ end }}
 				{{ end }}
 				</div>
