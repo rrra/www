@@ -9,12 +9,12 @@
   {{ with .Get "p-reg" }}<span class="p-region">{{.}}</span>{{ end }}
   {{ with .Get "p-zip" }}<span class="p-postal-code">{{.}}</span>{{ end }}
   {{ if .Get "block" }}</div><div>{{ end }}
-  {{ if and (.Get "block") (.Get "p-url") }}<br />{{ else if .Get "p-url" }},{{ end }}
-  {{ with .Get "p-url" }}<span class="genericon genericon-website" style="width:auto;font-size:inherit;"><a class="p-url" href="{{.}}">{{.}}</a></span>{{ end }}
-  {{ if and (.Get "block") (.Get "p-email") }}<br />{{ else if .Get "p-email" }},{{ end }}
-  {{ with .Get "p-email" }}<span class="genericon genericon-mail" style="width:auto;font-size:inherit;"> <a class="p-email" href="mailto:{{.}}">{{.}}</a></span>{{ end }}
-  {{ if and (.Get "block") (.Get "p-tel") }}<br />{{ else if .Get "p-tel" }},{{ end }}
-  {{ with .Get "p-tel" }}<span class="genericon genericon-phone" style="width:auto;font-size:inherit;"> <a class="p-tel" href="tel:{{.}}">{{.}}</a></span>{{ end }}
+  {{ if and (.Get "block") (.Get "p-url") }}<br /><span class="genericon genericon-website"></span>{{ else if .Get "p-url" }},{{ end }}
+  {{ with .Get "p-url" }}<a class="p-url" href="{{.}}">{{.}}</a>{{ end }}
+  {{ if and (.Get "block") (.Get "p-email") }}<br /><span class="genericon genericon-mail"></span>{{ else if .Get "p-email" }},{{ end }}
+  {{ with .Get "p-email" }}<a class="p-email" href="mailto:{{.}}">{{.}}</a>{{ end }}
+  {{ if and (.Get "block") (.Get "p-tel") }}<br /><span class="genericon genericon-phone"></span>{{ else if .Get "p-tel" }},{{ end }}
+  {{ with .Get "p-tel" }}<a class="p-tel" href="tel:{{.}}">{{.}}</a>{{ end }}
 {{ if .Get "block" }}
 </div>
 {{ else }}
