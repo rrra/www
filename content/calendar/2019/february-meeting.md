@@ -8,5 +8,3 @@ title = "February Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-Please enter through the north
-doors adjacent to the 4th Ave E parking lot.
