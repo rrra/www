@@ -1,8 +1,7 @@
 +++
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
-date = "2019-10-09T22:12:00-06:00"
-publishDate = "2019-12-01T04:00:00-05:00"
+date = "2019-12-01T04:00:00-05:00"
 description = ""
 slug = ""
 tags = []
@@ -10,6 +9,7 @@ title = "2020 Membership Renewal"
 +++
 Membership renewals for 2020 are due at the
 [January club meeting]({{< relref "/calendar/2020/january-meeting.md" >}}).
+
 Dues (unchanged from 2019) are:
 
 * Individual membership: $25
