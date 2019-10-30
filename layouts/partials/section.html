@@ -3,7 +3,6 @@
 	<!-- .entry-header -->
 	<header class="entry-header">
 
-	{{ $baseurl := .Site.BaseURL }}
 		<div class="entry-meta">
 			<span class="cat-links">
 					{{ if ne ( trim .RelPermalink "/") (.Section | urlize ) }}
@@ -19,7 +18,7 @@
 		{{ if .IsPage }} 
 		<div class="entry-meta">
 			<span class="entry-date">
-				<a href="{{ .Permalink }}" rel="bookmark">
+				<a href="{{ .RelPermalink }}" rel="bookmark">
 					<time class="entry-date updated" datetime="{{ .Lastmod.Format "January 2, 2006" }}">
 						{{ .Lastmod.Format "January 2, 2006" }}
 					</time>
@@ -27,7 +26,7 @@
 			</span>
 			<span class="vcard author byline">
 				{{ range .Params.authors }}
-					<a class="url nickname" href="{{ $baseurl }}/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
+					<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
 				{{ end }}
 			</span>
 		</div><!-- .entry-meta -->

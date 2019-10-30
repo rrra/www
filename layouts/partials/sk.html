@@ -3,7 +3,6 @@
 <!-- .entry-header -->
 <header class="entry-header">
 
-{{ $baseurl := .Site.BaseURL }}
 {{ $silentkeybase := .Site.Params.silentkeybase }}
 {{ $sitedate := .Site.Params.sitedate }}
 {{ $call := upper .Title }}
@@ -16,7 +15,7 @@
 <a class="nav {{ if not $.PrevInSection }}disabled" {{ else }}" title="Oldest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&laquo;&laquo;</a>
 {{ end }}
 <a class="nav {{ if not .PrevInSection }}disabled" {{ else }}" title="Previous Silent Key - {{ upper .PrevInSection.Title }}" {{ end }}  href="{{ if .PrevInSection }}{{ .PrevInSection.RelPermalink }}{{ else }}.{{ end }}">&laquo;</a>
-<a class="taxonomy" href="{{ $baseurl }}/sk/" title="Silent Key List" rel="category">RRRA Silent Keys</a>
+<a class="taxonomy" href="/sk/" title="Silent Key List" rel="category">RRRA Silent Keys</a>
 <a class="nav {{ if not .NextInSection }} disabled" {{ else }}" title="Next Silent Key - {{ upper .NextInSection.Title }}" {{ end }} href="{{ if .NextInSection }}{{ .NextInSection.RelPermalink }}{{ else }}.{{ end }}">&raquo;</a>
 {{ range first 1 ( where .Site.Pages "Section" "sk" ) }}
 <a class="nav {{ if not $.NextInSection }}disabled" {{ else }}" title="Newest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&raquo;&raquo;</a>
@@ -95,7 +94,7 @@
 	<footer class="entry-meta">
 		<span class="tag-links">		
 			{{ range .Params.tags }}
-                <a href="{{ $baseurl}}/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+                <a href="/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
             {{ end }}
 		</span>
 	</footer>

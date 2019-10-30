@@ -3,12 +3,11 @@
 	<!-- .entry-header -->
 	<header class="entry-header">
 
-	{{ $baseurl := .Site.BaseURL }}
 
 		<div class="entry-meta">
 			<span class="cat-links">
                 {{ range .Params.categories }}
-                <a href="{{ $baseurl }}/categories/{{ lower . | urlize }}/index.html" rel="category">{{ . }}</a>
+                <a href="/categories/{{ lower . | urlize }}/index.html" rel="category">{{ . }}</a>
                 {{ end }}
 			</span>
 		</div>
@@ -17,7 +16,7 @@
 
 		<div class="entry-meta">
 			<span class="entry-date">
-				<a href="{{ .Permalink }}" rel="bookmark">
+				<a href="{{ .RelPermalink }}" rel="bookmark">
 					<time class="entry-date updated" datetime="{{ .Lastmod.Format "2006-01-02 15:04" }}">
 						{{ .Lastmod.Format "January 2, 2006" }}
 					</time>
@@ -25,7 +24,7 @@
 			</span>
 			<span class="vcard author byline">
 				{{ range .Params.authors }}
-					<a class="url nickname" href="{{ $baseurl }}/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
+					<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
 				{{ end }}
 			</span>
 		</div><!-- .entry-meta -->
@@ -44,7 +43,7 @@
 	<footer class="entry-meta">
 		<span class="tag-links">		
 			{{ range .Params.tags }}
-                <a href="{{ $baseurl}}/tags/{{ lower . | urlize }}/index.html" rel="tag">{{ . }}</a>
+                <a href="/tags/{{ lower . | urlize }}/index.html" rel="tag">{{ . }}</a>
             {{ end }}
 		</span>
 	</footer>

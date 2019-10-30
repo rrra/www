@@ -8,14 +8,14 @@ METHOD:PUBLISH
 {{ range .Pages -}}
 {{ if ge (.Date.Format "2006") $today -}}
 BEGIN:VEVENT
-UID:{{ .Permalink | md5 }}@{{ .Site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
+UID:{{ .RelPermalink | md5 }}@{{ .Site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
 CREATED:{{ with .Params.created -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}{{ with .PublishDate -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}.Date.Format "20060102T150405\n" }}{{ end -}}{{ end -}}
 DTSTAMP:{{ .PublishDate.Format "20060102T150405" }}
 DTSTART;TZID=America/Chicago;VALUE=DATE-TIME:{{ .Date.Format "20060102T150405" }}
 {{ with .Params.endTime -}}DTEND;TZID=America/Chicago;VALUE=DATE-TIME:{{ . | dateFormat "20060102T150405\n" }}{{ end -}}
 SUMMARY;ENCODING=QUOTED-PRINTABLE:{{ if eq true .Params.cancelled }}CANCELLED - {{ end }}{{ .Title }}
 {{ with .Params.location -}}LOCATION;ENCODING=QUOTED-PRINTABLE:{{ . | replaceRE "\\(.*\\)" "" | replaceRE "[\\[\\]]" "" | printf "%s\n" }}{{ end -}}
-URL:{{ .Permalink }}
+URL:{{ .RelPermalink }}
 END:VEVENT
 {{ end -}}
 {{ end -}}

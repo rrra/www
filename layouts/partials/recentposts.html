@@ -5,7 +5,7 @@
 		<ul>
 			{{ range first 5 (where .Data.Pages.ByDate "Section" "post").Reverse }}
 			<li>
-				<a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a>
+				<a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
 			</li>
 			{{ end }}
 		</ul>
