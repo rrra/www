@@ -18,16 +18,18 @@ generally orchestrate the operation of the net.
 
 Serving as an NCS operator is a great way to overcome *mic-fright*,
 prepare for Public Service Communication events or deployments, and hone
-your skills as a radio operator. And it's a great way to move up our [NCS
-Operator Leader Board](/ncs/).
-
-Our Net Coordinator, {{< mailto K0RQ >}}, will be putting the
-2020 NCS roster together during November and December 2019.
+your skills as a radio operator. Your service will be acknowledged on
+the [RRRA NCS Operator Leader Board](/ncs/).
 
 <!--more-->
+
+Our Net Coordinator, Jake K0RQ, will be putting the
+2020 NCS roster together during November and December 2019.
+
+Please contact {{< mailto K0RQ >}} if you have any questions or to
+volunteer as an NCS for the 2020 season.
 
 A [Net Preamble]({{< relref "/nets/preamble.md" >}}) (or script) is provided
 to aid NCS operators in operating their nets.
 
-Please contact {{< mailto K0RQ >}} if you have any questions or to
-volunteer as an NCS for the 2020 season.
+The [RRRA Nets information page](/nets/) is https://rrra.org/nets/
