@@ -1,8 +1,2 @@
-{{ if lt .Date.Unix now.Unix }}
-	{{ .Scratch.Set "css-class" "noscreen " }}
-{{ else }}
-	{{ .Scratch.Set "css-class" "" }}
-{{ end }}
-{{ $class := ( .Scratch.Get "css-class" ) }}
-<dt class="{{ $class }}twocol">{{ .Date.Format "Jan 2" }}</dt>
-<dd class="{{ $class }}twocol"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if eq true .Params.cancelled }} <span style="color: red;">CANCELLED</span>{{ end }}</a>{{ if gt .Params.ncs "" }} - <a href="/ncs/{{ index .Params.ncs 0 | urlize }}">{{ index .Params.ncs 0 }}</a>{{ end }}</dd>
+<dt class="twocol">{{ .Date.Format "Jan 2" }}</dt>
+<dd class="twocol"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if eq true .Params.cancelled }} <span style="color: red;">CANCELLED</span>{{ end }}</a>{{ if gt .Params.ncs "" }} - <a href="/ncs/{{ index .Params.ncs 0 | urlize }}">{{ index .Params.ncs 0 }}</a>{{ end }}</dd>
