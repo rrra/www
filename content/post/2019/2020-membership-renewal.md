@@ -26,6 +26,6 @@ able to attend a club meeting. Our mailing address is:
 {{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
 
 <p style="clear;both"></p>
-Please contact the [RRRA Treasurer](mailto:treasurer@rrra.org) if your have any
+Please contact the [RRRA Treasurer](mailto:treasurer@rrra.org) if you have any
 questions about renewing your membership.
 <!--more-->
