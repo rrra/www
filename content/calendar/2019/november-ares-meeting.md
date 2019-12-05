@@ -9,5 +9,3 @@ dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 tags = [ "ARES" ]
 +++
-Please enter through the north
-doors adjacent to the 4th Ave E parking lot.

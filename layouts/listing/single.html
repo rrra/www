@@ -12,9 +12,9 @@
 			<header class="entry-header">
 				<div class="entry-meta">
 						<span class="cat-links">
-					{{ if ge .Params.offset 0 }}<span class="last-month"><a href="{{ $baseurl }}/calendar/{{sub .Params.offset 1 }}/">Last Month</a></span>{{ else }}Last Month{{ end }}
+					{{ if ge .Params.offset 0 }}<span class="last-month"><a href="/calendar/{{sub .Params.offset 1 }}/">Last Month</a></span>{{ else }}Last Month{{ end }}
 							<span>&middot; <a style="padding-left:6px;" href="{{ $baseurl}}/calendar/">Index</a> &middot; </span>
-					{{ if le .Params.offset 10 }}<span class="next-month"><a style="padding-left:6px;" href="{{ $baseurl }}/calendar/{{add .Params.offset 1 }}/">Next Month</a></span>{{ else }}Next Month{{ end }}
+					{{ if le .Params.offset 10 }}<span class="next-month"><a style="padding-left:6px;" href="/calendar/{{add .Params.offset 1 }}/">Next Month</a></span>{{ else }}Next Month{{ end }}
 					</span>
 				</div>
 

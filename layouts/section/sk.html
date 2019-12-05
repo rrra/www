@@ -10,6 +10,8 @@
 			<header class="entry-header">
 				<div class="entry-meta">
 					<span class="cat-links"><a href="/">Home</a></span>
+					{{ $rsspath := "/sk" }}
+					{{ partial "rss" ( dict "rsstitle" .Title "rsspath" $rsspath ) }}
 				</div>
 				<h1 class="entry-title">RRRA Silent Keys</h1>
 				{{ $contact := .Params.contact }}
@@ -23,7 +25,7 @@
 			<div class="entry-content">
 				<dl id="list">
     			{{ range .Data.Pages }}
-					  <dt class="twocol" style="width:8em;"><a href="{{ .Permalink }}">{{ upper .Title }}</a></dt>
+					  <dt class="twocol" style="width:8em;"><a href="{{ .RelPermalink }}">{{ upper .Title }}</a></dt>
 					  <dd class="twocol">{{ if gt .Date "" }}{{ .Date.Format ( $sitedate ) }}{{ else }}<span style="color:red;font-weight:bold;">Information needed</span>{{ end }}</dd>
 					{{ end }}
 				</dl>

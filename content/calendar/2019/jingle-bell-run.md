@@ -5,6 +5,7 @@ publishDate = "2018-12-01T01:00:00-06:00"
 title = "Jingle Bell Run"
 contact = "KC0GQE"
 dates = [ "Public Service" ]
+upcoming = "force"
 +++
 Volunteers should meet at the fireplace in the lobby to obtain their
 assignments. The race starts at 9:00 AM and should be over by 1PM.

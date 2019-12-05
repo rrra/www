@@ -6,11 +6,10 @@
 		<div id="content" class="site-content" role="main">
 
 			<header class="entry-header">
-				{{ $baseurl := .Site.BaseURL }}
 
 				<div class="entry-meta">
 					<span class="cat-links">
-						<a href="{{ $baseurl}}/ncs/" rel="tag">NCS Operators</a> 
+						<a href="/ncs/" rel="tag">NCS Operators</a> 
 					</span>
 					{{ $rsstitle := "NCS Assignments " | printf "%s %s" .Title | printf "%s" }}
 					{{ $rsspath := printf "/ncs/%s" ( .Title | urlize ) }}
@@ -18,7 +17,7 @@
 				</div>
 				<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
     		{{ with  .OutputFormats.Get "calendar" -}}
-      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these NCS assignments" href="{{ .Permalink | safeURL }}">Subscribe to these assignments</a> &bull; <a style="text-decoration: none;" title="Import these NCS assignments as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
+      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these NCS assignments" href="{{ .RelPermalink | safeURL }}">Subscribe to these assignments</a> &bull; <a style="text-decoration: none;" title="Import these NCS assignments as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
     		{{- end }}
 			</header>
 

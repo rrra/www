@@ -1,7 +1,7 @@
 +++
 title = "Contact Information"
 date = "2019-02-20T10:00:00-06:00"
-aliases = [ "/mailing-address", "/about/mailing-address" ]
+aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 +++
 * [Board of Directors](#board-of-directors) (includes officers)
 * [Mailing Address](#mailing-address)
@@ -16,14 +16,14 @@ aliases = [ "/mailing-address", "/about/mailing-address" ]
 * **Vice President**: {{% mailto vicepresident name %}}
 * **Secretary**: {{% mailto secretary name %}}
 * **Treasurer**: {{% mailto treasurer name %}}
+* **At-Large**:
+    * 2018--2020 {{% mailto atlarge1 name %}}
+    * 2019--2021 {{% mailto atlarge2 name %}}
 
 #### Ex-officio
 
 * **2019**:
-    *  {{% mailto K0GEF name %}}
-* **At-Large**:
-    * 2018--2020 {{% mailto atlarge1 name %}}
-    * 2019--2021 {{% mailto atlarge2 name %}}
+    *  {{% mailto K0GEF name %}} (Secretary)
 
 #### Trustees
 

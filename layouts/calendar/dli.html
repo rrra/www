@@ -1,11 +1,2 @@
-{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
-{{ $edu := intersect $classes  (split .Title " ")  }}
-{{ if or ($edu) (ge .Date.Unix now.Unix) }}
-	{{ .Scratch.Set "css-class" "" }}
-{{ else }}
-	{{ .Scratch.Set "css-class" "noscreen " }}
-{{ end }}
-{{ $class := ( .Scratch.Get "css-class" ) }}
-
-<dt class="{{ $class }}twocol">{{ .Date.Format "Jan 2" }}</dt>
-<dd class="{{ $class }}twocol"><a href="{{ .Permalink }}">{{ .Title }}{{ if eq true .Params.cancelled }} <span style="color: red;">CANCELLED</span>{{ end }}</a></dd>
+<dt class="twocol">{{ .Date.Format "Jan 2" }}</dt>
+<dd class="twocol"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if eq true .Params.cancelled }} <span style="color: red;">CANCELLED</span>{{ end }}</a></dd>

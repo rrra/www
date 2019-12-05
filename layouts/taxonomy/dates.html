@@ -6,7 +6,6 @@
 		<div id="content" class="site-content" role="main">
 
 			<header class="entry-header">
-				{{ $baseurl := .Site.BaseURL }}
 
 				<div class="entry-meta">
 				{{ $rsstitle := .Title }}
@@ -18,7 +17,7 @@
 				</div>
 				<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
     		{{ with  .OutputFormats.Get "calendar" -}}
-      		<div id="ical-links"><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these {{ $.Title | singularize }} dates" href="{{ .Permalink | safeURL }}">Subscribe to these dates</a> &bull; <a style="text-decoration: none;" title="Import these {{ $.Title | singularize }} dates as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></div>
+      		<div id="ical-links"><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these {{ $.Title | singularize }} dates" href="{{ .RelPermalink | safeURL }}">Subscribe to these dates</a> &bull; <a style="text-decoration: none;" title="Import these {{ $.Title | singularize }} dates as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></div>
     		{{- end }}
 				{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 				{{ if ne $contact nil }}
@@ -44,19 +43,11 @@
 					{{ if or ($edu) (ge .Key $thisyear) }}	
 						<h3>{{ .Key }}</h3>
 						<dl id="list">
-						{{ $.Scratch.Set "group" "" }}
 						{{ range .Pages.Reverse }}
-							{{ if ge .Date.Unix now.Unix }}
-								{{ $.Scratch.Set "group" 1 }}
-							{{ end }}
 							{{ .Render ( $.Scratch.Get "li" ) }}
-						{{ end }}
-						{{ if and (not $edu) (eq ( $.Scratch.Get "group" ) "")  }}
-							<dt class="noprint">No upcoming dates this year</dt>
 						{{ end }}
 						</dl>
 						{{ partial "clear" }}
-						{{ $.Scratch.Set "group" "" }}
 					{{ end }}
 				{{ end }}
 				</div>

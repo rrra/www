@@ -9,5 +9,3 @@ dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2019/05/14/may-ares-meeting/" ]
 +++
-Please enter through the north
-doors adjacent to the 4th Ave E parking lot.

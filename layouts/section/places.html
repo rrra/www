@@ -24,7 +24,7 @@
 			<div class="entry-content">
 				<ul id="list">
     			{{ range .Data.Pages.ByTitle }}
-					  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+					  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 					{{ end }}
 				</ul>
 				<p style="clear:both;"></p>			

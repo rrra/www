@@ -19,7 +19,7 @@
 					<dt>
 					{{ if eq true .Params.cancelled -}}CANCELLED {{ end -}}{{ with .LinkTitle -}}{{ . -}}{{ else -}}{{ .Title -}}{{ end -}}
 					</dt>
-					<dd><a href="{{ .Permalink -}}" title="{{ .Title }} - {{ chomp (delimit .Params.dates ",") }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
+					<dd><a href="{{ .RelPermalink -}}" title="{{ .Title }} - {{ chomp (delimit .Params.dates ",") }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</a></dd>
 					{{ $this := (chomp (delimit .Params.dates " ") | printf "%s" | urlize | printf "%s|") -}}
 					{{ $.Scratch.Add "seen" $this -}}
 					{{ $.Scratch.Add "today" $this -}}

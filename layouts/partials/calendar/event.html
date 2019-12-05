@@ -1,7 +1,6 @@
 <article class="post type-post status-publish format-standard hentry">
 <div class="h-event">
 	<header class="entry-header">
-		{{ $baseurl := .Site.BaseURL }}
 		{{ $relpermalink := .RelPermalink }}
 
 		<div class="entry-meta">
@@ -29,7 +28,7 @@
 								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Previous" href="{{ $.Scratch.Get "prev" }}">&laquo;</a>
 							{{ end }}
 
-							<a class="taxonomy" href="{{ $baseurl}}/dates/{{ lower $key | urlize }}/" rel="tag">{{ $key }}</a>
+							<a class="taxonomy" href="/dates/{{ lower $key | urlize }}/" rel="tag">{{ $key }}</a>
 
 							{{ range last 1 $taxonomy.Pages.Reverse }}
 								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Next" href="{{ $.Scratch.Get "next" }}">&raquo;</a>
@@ -43,7 +42,7 @@
 		</div>
 		<h1 class="p-name entry-title">{{ .Title }}{{ if eq true .Params.cancelled }} CANCELLED{{ end }}</h1>
 		{{ with  .OutputFormats.Get "calendar" -}}
-			<span class="genericon genericon-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .Permalink | safeURL }}">Subscribe to this single event</a> &bull; <a style="text-decoration: none;" title="Import this single event as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a>
+			<span class="genericon genericon-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .RelPermalink | safeURL }}">Subscribe to this single event</a> &bull; <a style="text-decoration: none;" title="Import this single event as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a>
 		{{- end }}
 	</header>
 	<div class="entry-content">

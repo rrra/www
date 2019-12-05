@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RRRA Silent Keys</title>
-    <link>{{ .Permalink }}</link>
+    <link>{{ .RelPermalink }}</link>
     <description>In memoriam</description>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
@@ -14,10 +14,10 @@
     {{ range .Data.Pages }}
     <item>
       <title>{{ .Title | upper }}{{ if gt .Date "" }} - {{ .Date.Format ( $sitedate ) }}{{ end }}</title>
-      <link>{{ .Permalink }}</link>
+      <link>{{ .RelPermalink }}</link>
       <pubDate>{{ .Params.created | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ .Permalink }}</guid>
+      <guid>{{ .RelPermalink }}</guid>
       <description></description>
     </item>
     {{ end }}
