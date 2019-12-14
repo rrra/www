@@ -25,7 +25,7 @@ NCS Operator volunteers are always appreciated. Please contact
 
 * [Net Preamble]({{< relref "/nets/preamble.md" >}})
 * [NCS Schedule](/dates/ncs-schedule/)
-* [NCS Operator List](/ncs/)
+* [NCS Leader Board](/ncs/)
 
 ## Red River Valley Nets <a class="genericon genericon-print" style="text-decoration:none;" href="{{< relref "/nets/red-river-valley-nets.md" >}}" title="Printable Red River Valley net list"></a>
 
