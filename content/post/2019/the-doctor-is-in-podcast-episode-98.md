@@ -45,11 +45,9 @@ to the Doctor are available on the ARRL's
 technical. Listen on your computer, tablet, or smartphone---whenever and
 wherever you like!
 
->Every 2 weeks, your host, QST Editor in Chief Steve Ford, WB8IMY, and the
-Doctor himself, Joel Hallas, W1ZR, will discuss a broad range of technical
-topics. You can also e-mail your questions
-[doctor@arrl.org](mailto:doctor@arrl.org),
-and the Doctor may answer them in a future podcast.
+>Every 2 weeks since 2016, your host, QST Editor-in-Chief Steve Ford, WB8IMY,
+>and the Doctor himself, Joel Hallas, W1ZR, have discussed a broad range of
+>technical topics and answered listeners' questions.
 
 >Enjoy
 *ARRL The Doctor is In* on
@@ -62,4 +60,4 @@ or at
 (free registration required, or browse the site as a guest) and through
 the free Stitcher app for iOS, Kindle, or Android devices. [^1]
 
-[^1]: "The Doctor Will See You Now!", ARRL The national association for Amateur Radio, retrieved December 5 2019, http://www.arrl.org/news/the-doctor-will-see-you-now-127.
+[^1]: "The Doctor Will See You Now!", ARRL The national association for Amateur Radio, retrieved December 19 2019, http://www.arrl.org/news/the-doctor-will-see-you-now-127.
