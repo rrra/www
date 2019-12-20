@@ -28,6 +28,19 @@ use"[^2] and, in Sec. 5.3(a), specifically requires review of the
 
 <!--more-->
 
+>The FCC said it is seeking comment on relocating non-federal licensees
+>to another band. With respect to amateur operations, the FCC invited
+>comments on whether sufficient amateur spectrum exists in other bands
+>that can support the operations currently conducted at 3.3 - 3.5
+>GHz. The 3.40 - 3.41 GHz segment is earmarked for amateur satellite
+>communication. "We seek comment on the extent to which the band
+>is used for this purpose, whether existing satellites can operate
+>on other amateur satellite bands, and on an appropriate timeframe
+>for terminating these operations in this band," the FCC said. If
+>non-federal licensees are relocated to 3.1 - 3.3 GHz band, the FCC
+>proposes that they continue to operate on a secondary basis to federal
+>operations, consistent with current band allocations.[^3]
+
 Reallocation of the 3.3--3.55 GHz band will impact RRRA's partially
 deployed---and yet to be utilized---AREDN backbone by requiring the
 replacement of equipment supporting several 3.4 GHz links. And it calls
@@ -50,18 +63,12 @@ comments pertaining to this matter.
 >[FCC's Electronic Comment Filing Service \(Express\)](https://www.fcc.gov/ecfs/filings/express).
 >Visit the FCC
 >[How to Comment on FCC Proceedings page](https://www.fcc.gov/consumers/guides/how-comment)
->for information on filing extended comments.[^3]
-
-The FCC has clearly solicted comments pertaining **only** to
-how Amateur Radio and other non-federal users will be moved
-out of the 3.1--3.55 GHZ band. Anyone interested in commenting
-on this NPRM is reminded that the Commission has a history of
-ignoring public comments in deference to the forces of
-[regulatory capture](https://en.wikipedia.org/wiki/Regulatory_capture)
-(e.g.  commercial interests).
+>for information on filing extended comments.[^4]
 
 [^1]: "FCC Formally Adopts Proposals to Remove Amateur 3-GHz Band, Invites Comments", ARRL The national association for Amateur Radio, retrieved December 18 2019, http://www.arrl.org/news/fcc-formally-adopts-proposals-to-remove-amateur-3-ghz-band-invites-comments.
 
 [^2]: "S. 19 (115th): MOBILE NOW Act", govtrack, accessed December 18 2019, https://www.govtrack.us/congress/bills/115/s19/text.
 
-[^3]: "FCC Formally Adopts Proposals to Remove Amateur 3-GHz Band, Invites Comments", ARRL The national association for Amateur Radio, retrieved December 18 2019, http://www.arrl.org/news/fcc-formally-adopts-proposals-to-remove-amateur-3-ghz-band-invites-comments.
+[^3]: "ARRL General Bulletin ARLB024 (2019)", ARRL The national association for Amateur Radio, retrieved December 19 2019, http://www.arrl.org/w1aw-bulletins-archive/ARLB024/2019.
+
+[^4]: "FCC Formally Adopts Proposals to Remove Amateur 3-GHz Band, Invites Comments", ARRL The national association for Amateur Radio, retrieved December 18 2019, http://www.arrl.org/news/fcc-formally-adopts-proposals-to-remove-amateur-3-ghz-band-invites-comments.
