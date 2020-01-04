@@ -6,7 +6,7 @@ authors = [ "K0STK" ]
 categories = [ "Technical" ]
 tags = [ "Propagation" ]
 +++
-On January 3, 2019, [K7UV](https://www.reddit.com/user/peteF64)
+On January 3, 2019, [K7UV](https://www.hamqth.com/k7uv)
 [started a discussion in the Amateur Radio sub-reddit](https://www.reddit.com/r/amateurradio/comments/ejk1ez/solar_cycle_25_appears_to_have_begun/)
 about a report by K7RA---in the first
 [ARRL Propagation Bulletin](http://www.arrl.org/w1aw-bulletins-archive/ARLP001/2020)
