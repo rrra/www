@@ -3,7 +3,7 @@ date = "2018-11-01T13:22:48-05:00"
 #publishdate = "2018-11-01T13:22:48-05:00"
 title = "New CEO Wants ARRL to Serve All Ages and Amateur Radio Interests"
 authors = [ "K0STK" ]
-categories = [ "membership" ]
+categories = [ "Membership" ]
 tags = [ "ARRL" ]
 +++
 >Newly elected ARRL CEO Howard Michel, WB2ITX, is still on the

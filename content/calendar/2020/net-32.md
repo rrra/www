@@ -5,6 +5,6 @@ publishDate = "2019-12-14T11:15:47-06:00"
 endTime = ""
 location = ""
 title = "UHF/VHF Net 32"
-categories = [ "ARES" ]
+categories = [ "" ]
 dates = [ "NCS Schedule" ]
 +++
