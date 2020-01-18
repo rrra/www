@@ -9,10 +9,9 @@ sponsor = "[Central Dakota Amateur Radio Club](http://www.cdarcnd.com/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+More information about this Hamfest is available at:
 
-Please visit the
-[ARRL Central Dakota Amateur Radio Club Hamfest
-page](http://www.arrl.org/hamfests/central-dakota-amateur-radio-club-hamfest-1)
-<!--or read the
-[CDARC 2019 Hamfest Flyer](http://www.cdarcnd.com/uploads/2/0/3/8/20389489/2017_hamfest_flyer__final_.pdf)-->
-for more information.
+* [ARRL Central Dakota Amateur Radio Club Hamfest page](http://www.arrl.org/hamfests/central-dakota-amateur-radio-club-hamfest-1)
+* [CDARC 2020 Hamfest page](http://www.cdarcnd.com/hamfest.html)
+
+{{< figure src="http://www.cdarcnd.com/uploads/2/0/3/8/20389489/2020-hamfest-flyer-ver4_orig.png" link="http://www.cdarcnd.com/uploads/2/0/3/8/20389489/2020_hamfest_flyer_ver4.pdf" height="632" width="474" alt="2020 CDARC Hamfest flyer" >}}
