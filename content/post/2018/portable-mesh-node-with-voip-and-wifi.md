@@ -4,7 +4,7 @@ publishDate = "2018-01-08T00:00:00-06:00"
 title = "Portable Mesh Node With VOIP and Wifi"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
-tags = [ "AREDN", "Mesh Node" ]
+tags = [ "AREDN" ]
 +++
 Purchasing an AREDN compatible radio and antenna is only the first step in
 assembling a useful, deployable, personal node.
