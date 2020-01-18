@@ -5,60 +5,32 @@ categories = [ "Education" ]
 date = "2018-05-10T14:00:00-05:00"
 description = ""
 slug = ""
-tags = [ "ARRL", "podcast" ]
+tags = [ "ARRL", "doctor", "podcast" ]
 title = "The Doctor is In: RF Loss"
 aliases = [ "/post/2018/05/10/the-doctor-is-in-podcast-episode-56" ]
-
 +++
 Learn how
-[RF Loss](https://www.blubrry.com/arrl_the_doctor_is_in/33471495/rf-loss/)
+*RF Loss*
 can affect your station and pick up some tips from the Doctor
 in this episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
+
 <!--more-->
 
-{{< blubrry "//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/May_10_2018_-_Loss.mp3" >}}
+{{< audio "http://www.arrl.org/files/file/DoctorPodcast/2018/May%2010%202018%20-%20Loss.mp3" "Download the podcast" >}}
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:
 
-* [Kits and Kit Building](https://www.blubrry.com/arrl_the_doctor_is_in/32708952/kits-and-kit-building/)
-* [Microphones](https://www.blubrry.com/arrl_the_doctor_is_in/32621786/microphones/)
-* [Filters](https://www.blubrry.com/arrl_the_doctor_is_in/32567809/filters)
-* [Mailbag](https://www.blubrry.com/arrl_the_doctor_is_in/31241283/mailbag/)
-* [Adding an Amplifier to your Station](https://www.blubrry.com/arrl_the_doctor_is_in/31236538/adding-an-amplifier-to-your-station/)
-* [Vacuum Tubes](https://www.blubrry.com/arrl_the_doctor_is_in/31217015/vacuum-tubes/)
-* [Automatic Gain Control](https://www.blubrry.com/arrl_the_doctor_is_in/29822174/automatic-gain-control/)
-* [Antenna Wire](https://www.blubrry.com/arrl_the_doctor_is_in/29580861/antenna-wire/)
-* [Keeping Cool](https://www.blubrry.com/arrl_the_doctor_is_in/29579091/keeping-cool/)
-* [Handheld Transceiver Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/28914584/handheld-transceiver-antennas/)
+[Kits and Kit Building]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-55.md" >}})
+[Microphones]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-54.md" >}})
+[Filters]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-53.md" >}})
+[Mailbag]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-52.md" >}})
+[S units]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-51.md" >}})
+[Vacuum Tubes]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-50.md" >}})
+[Automatic Gain Control]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-49.md" >}})
+[Antenna Wire]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-48.md" >}})
+[Keeping Cool]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-47.md" >}})
+[Handheld Transceiver Antennas]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-46.md" >}})
 
-A complete podcast archive and a contact form for submitting questions
-to the Doctor are available on the ARRL's
-[The Doctor Will See You Now](http://www.arrl.org/doctor) page.
-
-### About the ARRL The Doctor Is In Podcast
-
->Sponsored by [DX Engineering](http://www.dxengineering.com/),
-*ARRL The Doctor is In* is an informative discussion of all things
-technical. Listen on your computer, tablet, or smartphone---whenever and
-wherever you like!
-
->Every 2 weeks, your host, QST Editor in Chief Steve Ford, WB8IMY, and the
-Doctor himself, Joel Hallas, W1ZR, will discuss a broad range of technical
-topics. You can also e-mail your questions
-[doctor@arrl.org](mailto:doctor@arrl.org),
-And the Doctor may answer them in a future podcast.
-
->Enjoy
-*ARRL The Doctor is In* on
-[Apple iTunes](https://itunes.apple.com/us/podcast/arrl-the-doctor-is-in/id1096749595?mt=2()),
-or by using your iPhone or iPad podcast app (just search for
-*ARRL The Doctor is In*). You can also listen online at
-[Blubrry](https://www.blubrry.com/arrl_the_doctor_is_in/),
-or at
-[Stitcher](https://www.stitcher.com/)
-(free registration required, or browse the site as a guest) and through
-the free Stitcher app for iOS, Kindle, or Android devices. [^1]
-
-[^1]: "The Doctor Will See You Now!", ARRL The national association for Amateur Radio, retrieved April 26 2018, http://www.arrl.org/news/the-doctor-will-see-you-now-62.
+{{< about-the-doctor-is-in >}}

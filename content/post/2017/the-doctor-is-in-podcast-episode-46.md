@@ -5,65 +5,33 @@ categories = [ "Education" ]
 date = "2017-12-21T14:00:00-05:00"
 description = ""
 slug = ""
-tags = [ "ARRL", "podcast" ]
+tags = [ "ARRL", "doctor", "podcast" ]
 title = "The Doctor is In: Handheld Transceiver Antennas"
 aliases = [ "/post/2017/12/21/the-doctor-is-in-podcast-episode-46" ]
 +++
 Ever wonder about the "rubber duck" antenna on your hand held transceiver?
 Listen to the
-[Handheld Transceiver Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/28914584/handheld-transceiver-antennas/)
+*Handheld Transceiver Antennas*
 episode of the 
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast and learn some
 interesting facts.
+
 <!--more-->
 
-{{< blubrry "//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/November_23_2017_-_Coax_vs_Balanced_Lines.mp3" >}}
+{{< audio "http://www.arrl.org/files/file/DoctorPodcast/December%2021%20%202017%20-%20Handheld%20Antennas.mp3" "Download the podcast" >}}
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:
 
-* [Listener Mailbag](https://www.blubrry.com/arrl_the_doctor_is_in/28847724/listener-mailbag/)
-* [Coaxial Cable vs Balanced Lines](https://www.blubrry.com/arrl_the_doctor_is_in/28796716/coaxial-cable-vs-balanced-lines/)
-* [NVIS: Near Vertical Incidence Skywave](https://www.blubrry.com/arrl_the_doctor_is_in/27798352/nvis-near-vertical-incidence-skywave/)
-* [QRP](https://www.blubrry.com/arrl_the_doctor_is_in/27798351/qrp/)
-* [Dirty Transmitters](https://www.blubrry.com/arrl_the_doctor_is_in/27798350/dirty-transmitters/)
-* [Soldering and Unsoldering](https://www.blubrry.com/arrl_the_doctor_is_in/26176939/soldering-and-unsoldering/)
-* [How High is High Enough?](https://www.blubrry.com/arrl_the_doctor_is_in/26176938/how-high-is-high-enough/)
-* [Antenna Analyzer](https://www.blubrry.com/arrl_the_doctor_is_in/26176937/antenna-analyzers/)
-* [S Units](https://www.blubrry.com/arrl_the_doctor_is_in/25197956/s-units/)
-* [Keys and Keyers](https://www.blubrry.com/arrl_the_doctor_is_in/25197955/keys-and-keyers/)
+[Listener Mailbag]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-45.md" >}})
+[Coaxial Cable vs Balanced Lines]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-44.md" >}})
+[NVIS (Near Vertical Incidence Skywave)]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-43.md" >}})
+[QRP]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-42.md" >}})
+[Dirty Transmitters]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-41.md" >}})
+[Soldering and Unsoldering]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-40.md" >}})
+[How High is High Enough?]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-39.md" >}})
+[Antenna Analyzers]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-38.md" >}})
+[S Units]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-37.md" >}})
+[Keys and Keyers]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-36.md" >}})
 
-A complete podcast archive and a contact form for submitting questions
-to the Doctor are available on the ARRL's
-[The Doctor Will See You Now](http://www.arrl.org/doctor) page.
-
-### About the ARRL The Doctor Is In Podcast
-
->Sponsored by [DX Engineering](http://www.dxengineering.com/),
-*ARRL The Doctor is In* is an informative discussion of all things
-technical. Listen on your computer, tablet, or smartphone---whenever and
-wherever you like!
-
->Every 2 weeks, your host, QST Editor in Chief Steve Ford, WB8IMY, and the
-Doctor himself, Joel Hallas, W1ZR, will discuss a broad range of technical
-topics. You can also e-mail your questions
-[doctor@arrl.org](mailto:doctor@arrl.org),
-And the Doctor may answer them in a future podcast.
-
->Enjoy
-*ARRL The Doctor is In* on
-[Apple iTunes](https://itunes.apple.com/us/podcast/arrl-the-doctor-is-in/id1096749595?mt=2()),
-or by using your iPhone or iPad podcast app (just search for
-*ARRL The Doctor is In*). You can also listen online at
-[Blubrry](https://www.blubrry.com/arrl_the_doctor_is_in/),
-or at
-[Stitcher](https://www.stitcher.com/)
-(free registration required, or browse the site as a guest) and through
-the free Stitcher app for iOS, Kindle, or Android devices.
-<span style="font-style:normal;">[ [1]({{< relref "#references" >}}) ]</span>
-
-### References
-
-[ 1 ] "The Doctor Will See You Now!",
-ARRL The national association for Amateur Radio, retrieved December 7 2017,
-http://www.arrl.org/news/the-doctor-will-see-you-now-47.
+{{< about-the-doctor-is-in >}}
