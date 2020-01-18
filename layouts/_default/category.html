@@ -31,16 +31,13 @@
 				</div>
 				{{ end }}
 
-				{{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "calendar") 40 }}
+				{{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "calendar") 5 }}
 				{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
 			</header>
 
-			<div class="entry-content">
-				{{ range $paginator.Pages }}
-					<dt class="twocol"><a href="{{ .URL }}" title="Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}" >{{ .Title | safeHTML }}</a></dt>
-					<dd style="display: none;">Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}</dd>
-				{{ end }}
-			</div>
+			{{ range $paginator.Pages }}
+				{{ partial "summary.html" . }}
+			{{ end }}
 
 			{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
 		
