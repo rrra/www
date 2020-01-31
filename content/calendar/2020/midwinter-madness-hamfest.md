@@ -10,11 +10,10 @@ sponsor = "[Maple Grove Radio Club](http://k0ltc.org)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-* [Hamfest Flyer](http://k0ltc.org/wp-content/uploads/2019/01/Mailer-19.pdf)
 
 Please visit the
 [ARRL Midwinter Madness Hobby Electronics Show page](http://www.arrl.org/hamfests/midwinter-madness-hobby-electronics-show-8)
  or the
-[K0LTC.org Midwinter Madness page](https://k0ltc.org/midwinter-madness/)
-for more details.
-
+[K0LTC.org Midwinter Madness page](https://k0ltc.org/midwinter-madness/)---or
+[download the Flyer](http://k0ltc.org/wp-content/uploads/2019/01/Mailer-19.pdf)---for
+more details.

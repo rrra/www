@@ -9,7 +9,7 @@ sponsor = "[Northern Lights Radio Society](http://www.nlrs.org/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-:warning: **Times are unconfirmed**
+<span class="genericon genericon-warning"></span> **Times are unconfirmed**
 
 Please visit the 
 [ARRL Aurora '20 Convention page](http://www.arrl.org/hamfests/aurora-20)

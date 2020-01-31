@@ -9,7 +9,7 @@ sponsor = "[SMARTS Radio Club](http://www.smartsonline.org/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-:warning: **Times are unconfirmed**
+<span class="genericon genericon-warning"></span> **Times are unconfirmed**
 
 More information about this Hamfest is available at:
 
