@@ -101,12 +101,3 @@ to choose the lodging which suits your needs.
 
 Please contact the {{< mailto hamfest name >}} if you have any questions about this event.
 
-### Hamfest Flyer
-
-<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/UaIoMbRAVna2Php">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>
-<br />
-<div style="border:1px solid black">
-{{< figure src="https://cloud.rrra.org/index.php/s/WCFgu4TFaTDHfMp/download" link="https://cloud.rrra.org/index.php/s/UaIoMbRAVna2Php" alt="Download the 2019 Hamfest PDF Flyer" >}}
-</div>
-<br />
-<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/UaIoMbRAVna2Php">Download the 2019 RRRA Hamfest PDF Flyer</a></strong></div>

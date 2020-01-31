@@ -101,12 +101,3 @@ Some of the accomodations available in the Fargo area include:
 
 Please contact the {{< mailto hamfest name >}} if you have any questions about this event.
 
-### Hamfest Flyer
-
-<div style="text-align: center;"><strong><a href="https://rrra.org/s/zeMMKG7K3iWPQ3P">Download the 2018 RRRA Hamfest PDF Flyer</a></strong></div>
-<br />
-<div style="border:1px solid black">
-{{< figure src="https://farm2.staticflickr.com/1877/30437534908_6f4852ecc5_o_d.jpg" link="https://rrra.org/s/zeMMKG7K3iWPQ3P" alt="2018 RRRA Hamfest Flyer Page 1" >}}
-</div>
-<p class="clear"></p>
-<div style="text-align: center;"><strong><a href="https://rrra.org/s/zeMMKG7K3iWPQ3P">Download the 2018 RRRA Hamfest PDF Flyer</a></strong></div>
