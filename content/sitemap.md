@@ -4,11 +4,14 @@ title = "Sitemap"
 authors = [ "K0STK" ]
 aliases = [ "/sitemap.html", "sitemap.htm" ]
 +++
+### Sitemap Index
+
 * [About Our Club]({{< relref "#about-our-club" >}})
 * [ARES]({{< relref "#ares" >}})
 * [Calendar]({{< relref "#calendar" >}})
 * [Cloud]({{< relref "#cloud" >}})
 * [Files]({{< relref "#files-and-links" >}})
+* [Groupware]({{< relref "#cloud" >}})
 * [Hamfest]({{< relref "#hamfest" >}})
 * [Licensing]({{< relref "#licensing" >}})
 * [Links]({{< relref "#files-and-links" >}})
@@ -52,7 +55,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Upcoming Events](/)
 
 ### Cloud
-* [RRRA File Sharing Server](http://cloud.rrra.org/)
+* [RRRA Groupware Server](http://cloud.rrra.org/)
 
 ### Files and Links
 * [Index of Files and Links](/files/)
