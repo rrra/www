@@ -22,7 +22,7 @@ Grandin, ND | 146.760 MHz - | 123 Hz
 ### Other Radio Systems
 
 * [IRLP]({{< relref "/radios/irlp.md" >}})
-* [Red River Valley Repeater List]({{< relref "/radios/red-river-valley-repeaters.md" >}})
+* [Red River Valley Repeaters and Nodes]({{< relref "/radios/red-river-valley-radios.md" >}})
 
 ### Retired Radio Systems
 

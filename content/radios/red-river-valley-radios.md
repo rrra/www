@@ -1,15 +1,18 @@
 +++
 date = "2019-04-22T15:00:00-05:00"
-title = "Red River Valley Repeaters"
+title = "Red River Valley Repeaters And Nodes"
 tags = [ "Repeaters" ]
 categories = [ "Technical" ]
+aliases = [ "/radios/red-river-valley-repeaters/" ]
 +++
 Location | ID & Mode | Frequency | Notes
 ---------|-----------|-----------|------
 Barnesville, MN | KC0SD<br />Analog | {{< repeaterbook  "147.060 + T123" 27 113 >}} | [SuperLINK]({{< relref "/radios/superlink.md" >}})
 Detroit Lakes, MN | W0EMZ<br />Analog | {{< repeaterbook  "147.195 +" 27 133 >}} | [Detroit Lakes ARC](http://w0emz.com/)
 Fargo, ND | K0EED<br />Analog | {{< repeaterbook  "145.490 - T82.5" 38 45 >}} | [IRLP #4549](http://status.irlp.net/index.php?PSTART=11&nodeid=4549)
+Fargo, ND | KD0IOE<br />Analog | 445.850 DCS023 | AllstarLink
 Fargo, ND | KD0SWQ<br />D-STAR | 444.000 + | NDSU 
+Fargo, ND | KK0TT<br />Analog | 442.200 T25 | AllStarLink
 Fargo, ND | W0HSC<br />Analog | {{< repeaterbook  "147.090 +" 38 22 >}} | [NDSU Amateur Radio Society](http://www.w0hsc.org/)
 Fargo, ND | [W0RRW](/sk/w0rrw)<br />Analog | {{< repeaterbook  "146.970 -"  38 29 >}} | Ernie Anderson Memorial Station
 Fergus Falls, MN | K0QIK<br />Analog | {{< repeaterbook  "146.640 -"  27 51 >}} | [Lake Region ARC](https://lrarc.wordpress.com/)
