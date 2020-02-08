@@ -1,9 +1,8 @@
 +++
-date = "2019-04-22T15:00:00-05:00"
 title = "Red River Valley Repeaters And Nodes"
 tags = [ "Repeaters" ]
 categories = [ "Technical" ]
-aliases = [ "/radios/red-river-valley-repeaters/" ]
+aliases = [ "/radios/red-river-valley-repeaters/", "/radios/red-river-valley-repeaters-and-nodes/" ]
 +++
 Location | ID & Mode | Frequency | Notes
 ---------|-----------|-----------|------

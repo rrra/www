@@ -87,7 +87,7 @@ There are many free and non-free ham radio related apps to choose from.
 
 * [Help your community](/dates/public-service) in a [Public Service](http://www.arrl.org/public-service) event
 * [Participate in a net](/nets/)
-* [Use a repeater]({{< relref "/radios/red-river-valley-radios.md" >}})
+* [Use a repeater, VOIP or Digital Voice system]({{< relref "/radios/all.md" >}})
 
 ### Learn More 
 
