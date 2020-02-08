@@ -15,7 +15,7 @@
 
 		<h1 class="entry-title">{{ .Title | safeHTML }}</h1>
 
-		{{ if .IsPage }} 
+		{{ if and ( .IsPage ) ( gt .Lastmod 0 ) }} 
 		<div class="entry-meta">
 			<span class="entry-date">
 				<a href="{{ .RelPermalink }}" rel="bookmark">
