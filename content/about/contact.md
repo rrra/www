@@ -17,13 +17,13 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 * **Secretary**: {{% mailto secretary name %}}
 * **Treasurer**: {{% mailto treasurer name %}}
 * **At-Large**:
-    * 2018--2020 {{% mailto atlarge1 name %}}
-    * 2019--2021 {{% mailto atlarge2 name %}}
+    * 2020--2022 {{% mailto atlarge1 name %}}
+    * 2019--2021 {{% mailto atlarge2 name %}} (Assumed in 2020)
 
 #### Ex-officio
 
-* **2019**:
-    *  {{% mailto K0GEF name %}} (Secretary)
+* **2020**:
+    *  {{% mailto K0JKL name %}} (Secretary)
 
 #### Trustees
 
