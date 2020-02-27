@@ -4,9 +4,9 @@ date = "2020-04-15T19:00:00-05:00"
 endTime = "2020-04-15T21:00:00-05:00"
 publishDate = "2020-02-25"
 location = "West Fargo Public Library"
-title = "Fall Technician Class Week 4"
+title = "Spring Technician Class Week 4"
 categories = [ "Education" ]
-dates = [ "Fall 2020 Technician" ]
+dates = [ "Spring 2020 Technician" ]
 outputs = [ "HTML", "Calendar" ]
 
 +++
