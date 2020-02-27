@@ -7,7 +7,6 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "West Fargo SKYWARN Class"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
-upcoming = "force"
 +++
 
 * Presented by the National Weather Service
