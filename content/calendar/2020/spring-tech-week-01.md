@@ -10,6 +10,11 @@ dates = [ "Spring 2020 Technician" ]
 outputs = [ "HTML", "Calendar" ]
 
 +++
+{{% banner %}}
+Registration for RRRA Spring 2020 General Classes is now open.  Please
+[register on-line](https://www.eventbrite.com/e/amateur-ham-radio-license-class-tickets-94745358919).
+{{% /banner %}}
+
 ### Prerequisites
 
 * Purchase the [textbook]({{< relref "/education-and-testing-schedule.md#textbooks" >}}) 
