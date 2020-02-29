@@ -42,7 +42,6 @@ is required** (approximate cost $30)
 **Purchasing links:**
 
 * [Amazon](https://www.amazon.com/HamRadioSchool-com-Technician-License-Course-Turner/dp/1477595457)
-* [Cheapest Textbooks](https://www.cheapesttextbooks.com/subjects/9781477595459.html)
 * [DX Engineering](https://www.dxengineering.com/search/brand/ham-radio-school/product-line/ham-radio-school-technician-class-license-course-book)
 
 ##### General License Course Textbook

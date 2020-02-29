@@ -12,6 +12,7 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Topics
 
+* Chapter 12: Avoiding interference
 * Chapter 13: Safety and course review
 
 ### Homework
