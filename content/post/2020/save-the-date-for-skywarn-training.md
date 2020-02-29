@@ -11,9 +11,9 @@ wish to refresh their skills; are encouraged to save the date for one of
 the three training opportunities to be offered in the Fargo/Moorhead area 
 during 2020.
 
-* [RRRMC - Tuesday, April 9]({{< relref "/calendar/2020/rrrmc-skywarn-class.md" >}})
-* [Sabin - Monday, April 22]({{< relref "/calendar/2020/sabin-skywarn-class.md" >}})
-* [West Fargo - Wednesday, May 8]({{< relref "/calendar/2020/west-fargo-skywarn-class.md" >}})
+* [Sabin - Monday, March 23]({{< relref "/calendar/2020/sabin-skywarn-class.md" >}})
+* [RRRMC - Thursday, April 16]({{< relref "/calendar/2020/rrrmc-skywarn-class.md" >}})
+* [West Fargo - Wednesday, May 18]({{< relref "/calendar/2020/west-fargo-skywarn-class.md" >}})
 
 <!--more-->
 These free classes are presented by the National Weather Service and last about 2 1/2 hours. Participants will learn about:
