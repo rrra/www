@@ -1,7 +1,7 @@
 +++
 date = "2020-03-12T18:44:47-05:00"
 #publishdate = "2020-03-12T18:44:47-05:00"
-title = "Coronavirus Cancellations"
+title = "ARRL Announces Coronavirus Cancellations"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "ARRL", "Hamfest" ]
