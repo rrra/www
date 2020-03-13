@@ -15,4 +15,4 @@ outputs = [ "HTML", "Calendar" ]
 Individuals unable to attend this session may be interested in
 
 * [RRRMC Skywarn Class]({{< relref "/calendar/2020/rrrmc-skywarn-class.md" >}})
-* [Sabin Skywarn Class]({{< relref "/calendar/2020/sabin-skywarn-class.md" >}})
+* <del>Sabin Skywarn Class</del>

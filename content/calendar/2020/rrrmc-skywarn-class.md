@@ -13,6 +13,6 @@ outputs = [ "HTML", "Calendar" ]
 
 Individuals unable to attend this session may be interested in
 
-* [Sabin Skywarn Class]({{< relref "/calendar/2020/sabin-skywarn-class.md" >}})
+* <del>Sabin Skywarn Class</del>
 * [West Fargo Skywarn Class]({{< relref "/calendar/2020/west-fargo-skywarn-class.md" >}})
 
