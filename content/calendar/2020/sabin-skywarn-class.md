@@ -9,8 +9,9 @@ dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
 cancelled = true
 +++
-Please visit https://www.weather.gov/fgf/skywarn for current schedule
-information.
+This class is marked as postponed on the [NWS Fargo Grand Forks 2020 Spotter
+Training Sessions](https://www.weather.gov/fgf/skywarn) calendar and
+may be rescheduled.
 
 * Presented by the National Weather Service
 
