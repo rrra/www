@@ -13,6 +13,8 @@ outputs = [ "HTML", "Calendar" ]
 
 Please visit the
 [ARRL Brainerd Area Hamfest page](http://www.arrl.org/hamfests/brainerd-area-hamfest-6)
+or view the
+[BAARC Hamfest Flyer and Table Reservation form](https://brainerdham.org/wp-content/uploads/2020/02/BAARC-Hamfest-Flyer-2020R3.pdf)                          
 for more information.
 
 
