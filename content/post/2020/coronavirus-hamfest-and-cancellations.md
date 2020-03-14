@@ -9,8 +9,8 @@ tags = [ "ARRL", "Hamfest" ]
 In response to the ongoing COVID-19 situation ARRL has published a URL
 that will
 [search the ARRL Hamfest and Convention Database for canceled events](http://www.arrl.org/canceledHamfests.php).
-No ARRL sanctioned Dakota Division Hamfests or Conventions have been
-cancelled as of the date of this article.
+<del>No ARRL sanctioned Dakota Division Hamfests or Conventions have been
+cancelled as of the date of this article.</del>
 
 The cancellation of a number of Amateur Radio related events has been announced in
 ARRL's [Visalia International DX Convention, Other Events Cancelled Due to
