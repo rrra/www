@@ -4,7 +4,7 @@
 		{{ $today := now.Format "2006-01-02" }}
 		{{ $expires := dateFormat "2006-01-02" ( . ) }}
 		{{ if lt $today $expires }}
-			<div id="banner">
+			<div class="banner">
 			{{ with .Inner }}
 				{{ . | markdownify }}
 			{{ else }}
@@ -13,7 +13,7 @@
 			</div>
 		{{ end }}
 	{{ else }}
-		<div id="banner">
+		<div class="banner">
 		{{ with .Inner }}
 			{{ . | markdownify }}
 		{{ else }}

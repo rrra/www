@@ -13,7 +13,7 @@ CREATED:{{ with .Params.created -}}{{ . | dateFormat "20060102T150405\n" }}{{ el
 DTSTAMP:{{ .PublishDate.Format "20060102T150405" }}
 DTSTART;TZID=America/Chicago;VALUE=DATE-TIME:{{ .Date.Format "20060102T150405" }}
 {{ with .Params.endTime -}}DTEND;TZID=America/Chicago;VALUE=DATE-TIME:{{ . | dateFormat "20060102T150405\n" }}{{ end -}}
-SUMMARY;ENCODING=QUOTED-PRINTABLE:{{ if eq true .Params.cancelled }}CANCELLED - {{ end }}{{ .Title }}
+SUMMARY;ENCODING=QUOTED-PRINTABLE:{{ if or ( eq "cancelled" .Params.status ) ( eq "postponed" .Params.status ) }}{{ upper .Params.status }} - {{ end }}{{ .Title }}
 {{ with .Params.location -}}LOCATION;ENCODING=QUOTED-PRINTABLE:{{ . | replaceRE "\\(.*\\)" "" | replaceRE "[\\[\\]]" "" | printf "%s\n" }}{{ end -}}
 URL:{{ .Permalink }}
 END:VEVENT

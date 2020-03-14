@@ -1,2 +1,2 @@
 <dt class="twocol">{{ .Date.Format "Jan 2" }}</dt>
-<dd class="twocol"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if eq true .Params.cancelled }} <span style="color: red;">CANCELLED</span>{{ end }}</a></dd>
+<dd class="twocol"><a href="{{ .RelPermalink }}">{{ .Title }}{{ if or ( eq "cancelled" .Params.status ) ( eq "postponed" .Params.status ) }} <span style="color: red;">{{ upper .Params.status }}</span>{{ end }}</a></dd>

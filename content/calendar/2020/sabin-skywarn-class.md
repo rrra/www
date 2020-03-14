@@ -7,7 +7,7 @@ location = "[Sabin Elmwood Fire District HQ](/places/sabin-elmwood-fire-district
 title = "Sabin SKYWARN Class"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
-cancelled = true
+status = "postponed"
 +++
 This class is marked as postponed on the [NWS Fargo Grand Forks 2020 Spotter
 Training Sessions](https://www.weather.gov/fgf/skywarn) calendar and

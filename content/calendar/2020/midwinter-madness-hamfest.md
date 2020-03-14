@@ -1,4 +1,5 @@
 +++
+status = "postponed"
 contact = "K0LTC"
 date = "2020-03-21T08:00:00-05:00"
 endTime = "2020-03-21T13:00:00-05:00"
@@ -10,9 +11,8 @@ sponsor = "[Maple Grove Radio Club](http://k0ltc.org)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-
 Please visit the
-[ARRL Midwinter Madness Hobby Electronics Show page](http://www.arrl.org/hamfests/midwinter-madness-hobby-electronics-show-8)
+[ARRL Midwinter Madness Hobby Electronics Show page](http://www.arrl.org/hamfests/canceled-midwinter-madness-hobby-electronics-show)
  or the
 [K0LTC.org Midwinter Madness page](https://k0ltc.org/midwinter-madness/)---or
 [download the Flyer](http://k0ltc.org/wp-content/uploads/2019/01/Mailer-19.pdf)---for

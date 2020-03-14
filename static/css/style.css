@@ -3009,7 +3009,7 @@ p.clear { clear: both; }
  * -----------------------------------------------------------------------------
  */
 
-#banner {
+.banner {
 	background: #f1fdf2;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
@@ -3019,6 +3019,15 @@ p.clear { clear: both; }
 	padding: 24px 24px;
 	border-top: thin solid;
 	border-bottom: thin solid;
+}
+
+.alert {
+  color: red;
+	text-align: center;
+}
+
+div.alert p {
+	margin-bottom: 0;
 }
 
 /**
