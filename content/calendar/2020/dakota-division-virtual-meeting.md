@@ -22,5 +22,5 @@ Planned topics for this meeting:
 * ARRL Update
 * Highlights from a recent trip to V4 St. Kitts and Nevis
 
-Please contact {{< mailto K0BBC name >}} if you have any questions if
+Please contact {{< mailto K0BBC name >}} if you have any questions or if
 you have a topic you would like to present during this virtual meeting.
