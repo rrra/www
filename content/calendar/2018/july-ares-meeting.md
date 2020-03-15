@@ -9,7 +9,7 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "July ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-status = canceled
+status = "canceled"
 +++
 Please enter through the north
 doors adjacent to the 4th Ave E parking lot.
