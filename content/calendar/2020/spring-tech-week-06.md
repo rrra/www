@@ -8,7 +8,7 @@ title = "Spring Technician Class Week 6"
 categories = [ "Education" ]
 dates = [ "Spring 2020 Technician" ]
 outputs = [ "HTML", "Calendar" ]
-status = "cancelled"
+status = "canceled"
 upcoming = "hide"
 +++
 ### Topics

@@ -10,11 +10,11 @@ In response to the ongoing COVID-19 situation ARRL has published a URL
 that will
 [search the ARRL Hamfest and Convention Database for canceled events](http://www.arrl.org/canceledHamfests.php).
 <del>No ARRL sanctioned Dakota Division Hamfests or Conventions have been
-cancelled as of the date of this article.</del>
+canceled as of the date of this article.</del>
 
 The cancellation of a number of Amateur Radio related events has been announced in
 ARRL's [Visalia International DX Convention, Other Events Cancelled Due to
-Coronavirus Worries](http://www.arrl.org/news/visalia-international-dx-convention-other-events-cancelled-due-to-coronavirus-worries)
+Coronavirus Worries](http://www.arrl.org/news/visalia-international-dx-convention-other-events-canceled-due-to-coronavirus-worries)
 article. These cancellations include:
 
 <!--more-->
@@ -25,7 +25,7 @@ article. These cancellations include:
 * [Great Lakes Convention and Toledo Hamfest](http://www.tmrahamradio.org/)
 * [HamSCI workshop](https://hamsci.org/hamsci2020)
 
-along with a number of international events. Please [read the ARRL article](http://www.arrl.org/news/visalia-international-dx-convention-other-events-cancelled-due-to-coronavirus-worries) for more information.
+along with a number of international events. Please [read the ARRL article](http://www.arrl.org/news/visalia-international-dx-convention-other-events-canceled-due-to-coronavirus-worries) for more information.
 
 One positive note is the [Dayton Hamvention&reg; COVID19
 Update](https://hamvention.org/covid19-update/) which states, "the

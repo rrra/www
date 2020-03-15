@@ -7,5 +7,5 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "March Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-status = "cancelled"
+status = "canceled"
 +++

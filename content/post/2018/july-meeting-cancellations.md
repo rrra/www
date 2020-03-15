@@ -5,7 +5,7 @@ authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = []
 +++
-The July Club (*i.e. business*) and ARES meetings were cancelled by a
+The July Club (*i.e. business*) and ARES meetings were canceled by a
 [motion passed at the May Club Meeting]({{< relref "/post/2018/may-minutes.md#july-meeting-cancellation" >}}).  
 
 Our normal meeting schedule resumes with the

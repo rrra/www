@@ -8,7 +8,7 @@ title = "July Testing Session"
 dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
 categories = [ "License Testing" ]
-status = "cancelled"
+status = "canceled"
 +++
 Please visit our index of [License Testing dates](/dates/license-testing/) for a
 complete list of currently scheduled testing dates along with information

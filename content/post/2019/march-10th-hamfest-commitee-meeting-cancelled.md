@@ -14,7 +14,7 @@ Hamfest mailing list:
 >scheduled for today has been canceled.
 >
 >If you know of someone that is not on the hamfest mailing list and
->wants to come, let them know the meeting has been cancelled. the next
+>wants to come, let them know the meeting has been canceled. the next
 >meeting will be rescheduled for later this month.
 
 Hamfest Committee volunteers are asked to

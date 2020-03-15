@@ -80,7 +80,7 @@ acceptance by the Secretary**
 
 #### AREDN (Amateur Radio Digital Emergency Digital Network)
 * Information Update
-* :new: Grant cancelled due to funding issues. Looking for more grant opportunities
+* :new: Grant canceled due to funding issues. Looking for more grant opportunities
 
 #### Christmas Party
 * Follow-up

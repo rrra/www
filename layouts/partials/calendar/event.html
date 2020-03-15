@@ -40,14 +40,14 @@
 				{{ end }}
 			</div>
 		</div>
-		<h1 class="p-name entry-title">{{ .Title }}{{ if or ( eq "cancelled" .Params.status ) ( eq "postponed" .Params.status ) }} {{ upper .Params.status }}{{ end }}</h1>
+		<h1 class="p-name entry-title">{{ .Title }}{{ if or ( eq "canceled" .Params.status ) ( eq "postponed" .Params.status ) }} {{ upper .Params.status }}{{ end }}</h1>
 		{{ with  .OutputFormats.Get "calendar" -}}
 			<span class="genericon genericon-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .RelPermalink | safeURL }}">Subscribe to this single event</a> &bull; <a style="text-decoration: none;" title="Import this single event as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a>
 		{{- end }}
 	</header>
 	<div class="entry-content">
 		<dl>
-			{{ if not ( or ( eq "cancelled" .Params.status ) ( eq "postponed" .Params.status ) ) }}
+			{{ if not ( or ( eq "canceled" .Params.status ) ( eq "postponed" .Params.status ) ) }}
 				<dt class="twocol header">WHEN:</dt><dd class="twocol"><time class="dt-start" datetime="{{ .Date }}">{{ .Date.Format "Mon, 02 Jan 2006 15:04 MST" }}</time></dd>
 				{{ if gt .Params.endtime "" }}
 					<dt class="twocol header">UNTIL:</dt><dd class="twocol"><time class="dt-end" datetime="{{ .Params.endtime }}">{{ dateFormat "Mon, 02 Jan 2006 15:04 MST" .Params.endtime }}</time></dd>
@@ -67,7 +67,7 @@
 			</div></dd>
 			{{ end }}
 		</dl>
-		{{ if or ( eq "cancelled" .Params.status ) ( eq "postponed" .Params.status ) }} 
+		{{ if or ( eq "canceled" .Params.status ) ( eq "postponed" .Params.status ) }} 
 				<div class="banner alert">
 					<p><strong>THIS EVENT HAS BEEN {{ upper .Params.status }}.</strong></p>
 				</div>

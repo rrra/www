@@ -22,7 +22,7 @@
 				{{ $ft := ( $firstdate | dateFormat "Jan 02, 2006" ) }}
 				{{ $lt := ( $lastdate | dateFormat "Jan 02, 2006" ) }}
 
-				{{ if gt .status "" }}
+				{{ if or ( eq "canceled" .status ) ( eq "postponed" .status ) }}
 					<td>{{ $series }}</td>
 					<td colspan="3" style="color:red;">{{ upper .status }} </td>
 				{{ else if gt ( now.Format "2006-01-02" ) .publish }}
