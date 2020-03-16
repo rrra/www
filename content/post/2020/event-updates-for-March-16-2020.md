@@ -29,6 +29,14 @@ the RRRA VE Coordinator (Pete WC0G).
 * [March Club Meeting---CANCELED]({{< relref "/calendar/2020/march-meeting.md" >}})
 * [March Testing Session---CANCELED]({{< relref "/calendar/2020/march-testing.md" >}})
 
+{{< banner >}}
+A decision was made during the Sunday UHF/VHF Net on March 15, 2020, to
+hold an *on-the-air* meeting on the [W0ILO Repeaters](/radios/) during
+the previously scheduled March Business Meeting time.
+{{< /banner >}}
+
+<p class="clear"></p>
+
 Archived copies of the pertinent mailing list traffic may be found at:
 
 * [Club Announcements mailing list March 2020 archive](https://lists.rrra.org/pipermail/announce/2020-March/thread.html)
