@@ -1,14 +1,21 @@
 +++
-date = "2020-05-09T06:00:00-05:00"
-endTime = "2020-05-09T15:00:00-05:00"
+date = "2020-09-29T06:00:00-05:00"
+endTime = "2020-09-29T15:00:00-05:00"
 publishDate = "2020-01-01T01:00:00-05:00"
-#contact = "KC0SHM"
+contact = "KD0IOE"
 location = "Fargo / Moorhead Area"
 title = "Fargo Marathon 2020"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
+aliases = [ "/cal/2020/05/09/fargo-marathon-2020/" ]
 +++
+{{< banner >}}
+This event was rescheduled from its original date due to the COVID-19
+situation on March 16, 2020.
+{{< /banner >}}
+<p class="clear"></p>
+
 RRRA communication support for the Fargo Marathon will be coordinated
 through the
 [Marathon Mailing List](https://lists.rrra.org/mailman/listinfo/marathon);
