@@ -15,7 +15,7 @@ authors = [ "K0RQ" ]
 | Office | Winner  |
 | ------ | ------- |
 | President | Jarod Jacobsen, W0JPJ |
-| Vice President | Anton O'Neill, KC{0PFS |
+| Vice President | Anton O'Neill, KC0PFS |
 | Secretary | Jake Bechtold, K0RQ |
 | Treasurer | Lori Kruft, KC0GQE |
 | Member at large | Steve Kostecke, K0STK |
@@ -123,9 +123,9 @@ Hamfest is September 19th, 2020. In 2021 and 2022 it moves back to the
 last Saturday of September.
 
 * Motion for $2000 ($1000 for the space, $500 deposit, and $500 for startup cash and door prizes) by Pete WC0G
-* Seconded by W0CZ
+* Seconded by Ken W0CZ
 * :NEW: Amendment to increase startup amount to $800 by Time K0CRF
-* Seconded by KA0LDG
+* Seconded by Kent KA0LDG
 * Motion carries
 
 #### VEs
