@@ -124,7 +124,7 @@ last Saturday of September.
 
 * Motion for $2000 ($1000 for the space, $500 deposit, and $500 for startup cash and door prizes) by Pete WC0G
 * Seconded by Ken W0CZ
-* :NEW: Amendment to increase startup amount to $800 by Time K0CRF
+* :new: Amendment to increase startup amount to $800 by Time K0CRF
 * Seconded by Kent KA0LDG
 * Motion carries
 
