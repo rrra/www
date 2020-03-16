@@ -25,9 +25,9 @@ mailing lists on Saturday, March 14, 2020. Cancellation of the March License
 Testing Session was confirmed on the Club Discussions mailing list by
 the RRRA VE Coordinator (Pete WC0G).
 
-* [March ARES Meeting---CANCELED]({{< relref "calendar/2020/march-ares-meeting.md" >}})
-* [March Club Meeting---CANCELED]({{< relref "calendar/2020/march-meeting.md" >}})
-* [March Testing Session---CANCELED]({{< relref "calendar/2020/march-testing.md" >}})
+* [March ARES Meeting---CANCELED]({{< relref "/calendar/2020/march-ares-meeting.md" >}})
+* [March Club Meeting---CANCELED]({{< relref "/calendar/2020/march-meeting.md" >}})
+* [March Testing Session---CANCELED]({{< relref "/calendar/2020/march-testing.md" >}})
 
 Archived copies of the pertinent mailing list traffic may be found at:
 
@@ -40,7 +40,7 @@ The [Spring 2020 Technician](/dates/spring-2020-technician/) Amateur
 Radio license class has been cancelled by instructor Jay WD0EGC.
 
 Students are encouraged to watch the
-[RRRA Education and Testing Schedule]({{< relref "education-and-testing-schedule.md" >}})
+[RRRA Education and Testing Schedule]({{< relref "/education-and-testing-schedule.md" >}})
 for Technician classes in the Fall of 2020.
 
 ### Hamvention 2020 Canceled
