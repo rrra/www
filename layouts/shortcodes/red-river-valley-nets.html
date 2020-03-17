@@ -14,7 +14,16 @@
 	<tr>
 		<td>{{ .date | markdownify }}</td>
 		<td>{{ .id | markdownify }}</td> 
-		<td>{{ .freq | markdownify }}</td>
+		{{ if reflect.IsSlice .freq }}
+			{{ $freq    := index .freq 0 }}
+			{{ $rptbook := index .freq 1 }}
+			{{ $slice   := split $rptbook " " }}
+			{{ $state   := index $slice 1 }}
+			{{ $id      := index $slice 2 }}
+			<td><a href="https://www.repeaterbook.com/repeaters/details.php?state_id={{ $state }}&ID={{ $id }}">{{ $freq }}</a></td>
+		{{ else }}
+			<td>{{ .freq | markdownify }}</td>
+		{{ end }}
 		<td>
 		{{ $sign := .contact }}
 		{{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
