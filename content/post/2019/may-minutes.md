@@ -76,7 +76,7 @@ looking for any possible seminar ideas
 #### Media
 * Steve K0STK
 * No report
-* :new: See K0STK after the meeting or contact [webmaster@rrra.org](webmaster@rrra.org) if you have any questions or need help
+* :new: See K0STK after the meeting or contact [webmaster@rrra.org](mailto:webmaster@rrra.org) if you have any questions or need help
 
 ### Old Business
 

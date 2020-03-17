@@ -46,7 +46,7 @@ Yeasu FTM-400DR transceiver.
 >relay. The system is built and administered by volunteers and administered by
 >[the Amateur Radio Safety Foundation Inc.](http://www.arsfi.org/),
 >an American charitable entity and 501c(3) non-profit organization.
-<span style="font-style:normal;">[ [1]({{< relref "/#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [1]({{< relref "#footnotes" >}}) ]</span>
 
 **Winlink website**: http://www.winlink.org/
 
@@ -59,7 +59,7 @@ Yeasu FTM-400DR transceiver.
 >queries, and other telemetry. APRS data can be displayed on a map, which can
 >show stations, objects, tracks of moving objects, weather stations, search
 >and rescue data, and direction finding data.
-<span style="font-style:normal;">[ [2]({{< relref "/#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [2]({{< relref "#footnotes" >}}) ]</span>
 
 **APRS website:** http://www.aprs.org/
 

@@ -15,7 +15,7 @@ in this episode of the
 [*ARRL The Doctor is In*](http://www.arrl.org/doctor/) podcast.
 <!--more-->
 
-{{< audio X "Download the podcast" >}}
+{{< audio "http://www.arrl.org/files/file/DoctorPodcast/Nov_17_-_Stealth_Antennas_With_DX_Eng_Spot.mp3" "Download the podcast" >}}
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:

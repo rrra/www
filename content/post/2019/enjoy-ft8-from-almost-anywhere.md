@@ -29,7 +29,7 @@ J. Robert Witmer, W3RW, writes:
 
 W3RW goes on to describe his approach to remote FT8 operation which
 combines [WSJT-X](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html)
-and [TeamViewer](www.teamviewer.com/en-us/) with his radio, shack
+and [TeamViewer](https://www.teamviewer.com/en-us/) with his radio, shack
 computer, and a mobile / portable device.
 
 His article covers installation and configuration of WSJT-X and

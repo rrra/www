@@ -57,7 +57,7 @@ page to find other regional training opportunities.
 >Nation's first line of defense against severe weather. There can be no
 >finer reward than to know that their efforts have given communities the
 >precious gift of time--seconds and minutes that can help save lives.
-<span style="font-style:normal;">[ [1]({{< relref "/#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [1]({{< relref "#footnotes" >}}) ]</span>
 
 Please visit the *Frequently Asked Questions About SKYWARN&reg;* section of
 the [NWS WFO Grand Forks, ND](http://www.weather.gov/fgf/skywarn) 

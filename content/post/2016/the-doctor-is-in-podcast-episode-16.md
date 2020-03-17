@@ -15,7 +15,7 @@ in this episode of the
 [*ARRL The Doctor is In*](http://www.arrl.org/doctor/) podcast.
 <!--more-->
 
-{{< audio X "Download the podcast" >}}
+{{< audio "http://www.arrl.org/files/file/DoctorPodcast/Nov%203%20-%20PowerPoles%20and%20Polarization.mp3" "Download the podcast" >}}
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio.

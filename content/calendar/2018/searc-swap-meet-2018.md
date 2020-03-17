@@ -1,5 +1,5 @@
 +++
-contact = "[KE0Z](wgravning@yahoo.com)"
+contact = "[KE0Z](mailto:wgravning@yahoo.com)"
 date = "2018-07-21T09:00:00-05:00"
 endTime =  "2018-07-21T12:00:00-05:00"
 publishDate = "2017-07-01T00:00:00-05:00"
