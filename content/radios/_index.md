@@ -21,8 +21,7 @@ Grandin, ND | 146.760 MHz - | 123 Hz
 
 ### Other Radio Systems
 
-* [IRLP]({{< relref "/radios/irlp.md" >}})
-* [Red River Valley Repeaters and Nodes]({{< relref "/radios/all.md" >}})
+* [Red River Valley Repeaters and Nodes](/radios/list/)
 
 ### Retired Radio Systems
 
@@ -35,8 +34,9 @@ extending north to Winnipeg, Canada.
 
 SuperLINK is reportedly no longer operational.
 
-Amateur Radio Operators interested in internet linked analog VHF/UHF
-radios may wish to consider [IRLP]({{< relref "/radios/irlp.md" >}}).
+Amateur Radio Operators interested in internet linked VHF/UHF
+radios may wish to consider using AllStarLink, D-Star, DMR, Echolink, [IRLP]({{<
+relref "/radios/irlp.md" >}}), or YSF. 
 
 #### 10M Beacon
 

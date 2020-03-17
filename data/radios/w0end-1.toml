@@ -1,0 +1,5 @@
+location = "Wahpeton, ND"
+call = "W0END"
+mode = "Analog"
+frequency = [ "147.375 +", "repeaterbook 38 23" ]
+notes = "[Three Rivers ARC](https://w0endtrarc.wixsite.com/index) "

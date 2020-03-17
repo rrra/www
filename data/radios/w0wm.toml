@@ -1,0 +1,5 @@
+location = "Sisseton, SD"
+call = "W0WM"
+mode = "Analog"
+frequency = [ "146.880 -", "repeaterbook 46 7080" ]
+notes = ""

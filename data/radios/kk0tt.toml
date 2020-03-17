@@ -1,0 +1,5 @@
+location = "Fargo, ND"
+call = "KK0TT"
+mode = "ASL"
+frequency = "442.200 T25"
+notes = "Simplex [Node #41083](http://stats.allstarlink.org/nodeinfo.cgi?node=41083)"

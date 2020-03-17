@@ -1,0 +1,5 @@
+location = "West Fargo, ND"
+call = "KD0IOE"
+mode = "DMR"
+frequency = [ "444.625 + CC1", "repeaterbook 38 14594" ]
+notes = "[Brandmeister Network](https://kd0ioe.com/repeater/)"

@@ -1,0 +1,5 @@
+location = "Valley City, ND"
+call = "W0SRH"
+mode = "Analog"
+frequency = [ "146.790 -", "repeaterbook 38 44" ]
+notes = ""

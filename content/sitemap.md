@@ -92,7 +92,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 ### Radio Systems
 * [Club (W0ILO) Repeaters](/radios/#w0ilo-repeaters)
 * [IRLP]({{< relref "radios/irlp.md" >}})
-* [Red River Valley Repeaters and Nodes]({{< relref "/radios/all.md" >}})
+* [Red River Valley Repeaters and Nodes](/radios/list/)
 * [SuperLink]({{< relref "/radios/superlink.md" >}})
 
 ### RSS

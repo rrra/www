@@ -1,0 +1,5 @@
+location = "West Fargo, ND"
+call = "KD0IOE"
+mode = "ASL"
+frequency = "445.850 DCS023"
+notes = "Simplex [Node #49973](http://status.allstarlink.org/nodeinfo.cgi?node=49973)"
