@@ -3210,11 +3210,12 @@ div.entry-summary .footnote-ref a {
 	}
 	ul.pagination li {
 		float:left;
+		padding: 0 6px 0 6px;
 	}
 	ul.pagination li a {
 		background-repeat: no-repeat;
 		background-position: right;
-		padding-right: 24px;
+		padding: 0 6px 0 6px;
 		display: block;
 		line-height: 24px;
 		text-decoration: none;
@@ -3434,11 +3435,12 @@ div.entry-summary .footnote-ref a {
 	}
 	ul.pagination li {
 		float:left;
+		padding: 0 6px 0 6px;
 	}
 	ul.pagination li a {
 		background-repeat: no-repeat;
 		background-position: right;
-		padding-right: 24px;
+		padding: 0 6px 0 6px;
 		display: block;
 		line-height: 24px;
 		text-decoration: none;
