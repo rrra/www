@@ -1,5 +1,6 @@
-sort = "0:various"
-date = "Mon - Sat (various)"
+day = "1"
+dayrange = "Mon--Fri"
+time =""
 id = "Piconet"
 freq = "3.925 MHz LSB"
 contact = "K0CN"

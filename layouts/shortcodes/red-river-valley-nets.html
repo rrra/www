@@ -1,4 +1,35 @@
-<table>
+{{/*
+Repeater List Short Code
+By: Steve Kostecke k0stk@arrl.net
+
+Builds a table from definition files in
+./data/nets such as:
+
+day = 7
+time ="20:30"
+id = "[NDSU ARS](https://www.w0hsc.org/) VHF Analog"
+freq = [ "147.090 +", "repeaterbook 38 22" ]
+contact = "KE0PJR"
+
+The "day", "id", "contact", and the single string variant of "freq"
+definition file lines are passed through the markdown formatter.
+
+The "day" line uses the day numbering from Vixie crontab (0-7, 0 or 7 is
+Sunday). For daily nets use the quoted string "D".
+
+The "frequency" line can either be the two element array shown above or
+a single string (e.g. "444.875 + T123").
+
+The second member of the array version of the "frequency" line is used to 
+generate a repeaterbook link
+
+The "contact" line will look up call-signs in ./data/call
+
+*/}}
+{{ $scratch := newScratch }}
+{{ $season := now.Format "MST" }}
+
+<table>	
 <thead>
 <tr>
 <th>Day &amp; Time</th>
@@ -9,46 +40,68 @@
 </thead>
 
 <tbody>
-{{ range sort $.Site.Data.nets ".sort" }}
+{{ range sort ( sort $.Site.Data.nets ".time" ) ".day" }}
 
-	<tr>
-		<td>{{ .date | markdownify }}</td>
-		<td>{{ .id | markdownify }}</td> 
-		{{ if reflect.IsSlice .freq }}
-			{{ $freq    := index .freq 0 }}
-			{{ $rptbook := index .freq 1 }}
-			{{ $slice   := split $rptbook " " }}
-			{{ $state   := index $slice 1 }}
-			{{ $id      := index $slice 2 }}
-			<td><a href="https://www.repeaterbook.com/repeaters/details.php?state_id={{ $state }}&ID={{ $id }}">{{ $freq }}</a></td>
-		{{ else }}
-			<td>{{ .freq | markdownify }}</td>
-		{{ end }}
-		<td>
-		{{ $sign := .contact }}
-		{{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
-		{{ if (fileExists $filename) }}
-			{{ $recip := index $.Page.Site.Data.call $sign }}
-			{{ if ne $recip nil }}
-				{{ if gt  $recip.email "" }}
-					{{ $email := "</a>" | printf "%s%s" ( $sign ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
-					<script type="text/javascript">
-					function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
-					X=('{{ $email | base64Encode }}')
-					document.write(f(X))
-					</script>
-					<noscript>
-					{{ $sign }}
-					</noscript>
+	{{ if or ( eq 0 .day ) ( eq 7 .day ) }}
+		{{ $scratch.Set "day" "Sunday" }}
+	{{ else if eq 1 .day }}
+		{{ $scratch.Set "day" "Monday" }}
+	{{ else if eq 2 .day }}
+		{{ $scratch.Set "day" "Tuesday" }}
+	{{ else if eq 3 .day }}
+		{{ $scratch.Set "day" "Wednesday" }}
+	{{ else if eq 4 .day }}
+		{{ $scratch.Set "day" "Thursday" }}
+	{{ else if eq 5 .day }}
+		{{ $scratch.Set "day" "Friday" }}
+	{{ else if eq 6 .day }}
+		{{ $scratch.Set "day" "Saturday" }}
+	{{ else if eq "D" .day }}
+		{{ $scratch.Set "day" "Daily" }}
+	{{ else }}
+		{{ $scratch.Set "day" "" }}
+	{{ end }}
+
+	{{ if or ( not ( gt .season " " ) ) ( eq $season .season ) }}
+		<tr>
+			<td>{{ with .dayrange }}{{ . | markdownify }}{{ else }}{{ $scratch.Get "day" }}{{ end }}<br>{{ .time }}</td>
+			<td>{{ .id | markdownify }}</td> 
+			{{ if reflect.IsSlice .freq }}
+				{{ $freq    := index .freq 0 }}
+				{{ $rptbook := index .freq 1 }}
+				{{ $slice   := split $rptbook " " }}
+				{{ $state   := index $slice 1 }}
+				{{ $id      := index $slice 2 }}
+				<td><a href="https://www.repeaterbook.com/repeaters/details.php?state_id={{ $state }}&ID={{ $id }}">{{ $freq }}</a></td>
+			{{ else }}
+				<td>{{ .freq | markdownify }}</td>
+			{{ end }}
+			<td>
+			{{ $sign := .contact }}
+			{{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
+			{{ if (fileExists $filename) }}
+				{{ $recip := index $.Page.Site.Data.call $sign }}
+				{{ if ne $recip nil }}
+					{{ if gt  $recip.email "" }}
+						{{ $email := "</a>" | printf "%s%s" ( $sign ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
+						<script type="text/javascript">
+						function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
+						X=('{{ $email | base64Encode }}')
+						document.write(f(X))
+						</script>
+						<noscript>
+						{{ $sign }}
+						</noscript>
+					{{ else }}
+						{{ $sign }}
+					{{ end }}
 				{{ else }}
 					{{ $sign }}
 				{{ end }}
-			{{ else }}
-				{{ $sign }}
-			{{ end }}
-		{{ else }}{{ $sign }}{{ end }}
-		</td>
-	</tr>
+			{{ else }}{{ $sign }}{{ end }}
+			</td>
+		</tr>
+	{{ end }}
 {{ end }}
 </tbody>
 
