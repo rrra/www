@@ -40,7 +40,7 @@
 				{{ end }}
 			</div>
 		</div>
-		<h1 class="p-name entry-title">{{ .Title }}{{ if or ( eq "canceled" .Params.status ) ( eq "postponed" .Params.status ) }} {{ upper .Params.status }}{{ end }}</h1>
+		<h1 class="p-name entry-title">{{ .Title }}{{ if in .Site.Params.status .Params.status }} {{ upper .Params.status }}{{ end }}</h1>
 		{{ with  .OutputFormats.Get "calendar" -}}
 			<span class="genericon genericon-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .RelPermalink | safeURL }}">Subscribe to this single event</a> &bull; <a style="text-decoration: none;" title="Import this single event as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a>
 		{{- end }}

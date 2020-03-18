@@ -30,7 +30,7 @@
 						<dt class="twocol" style="width:15em;">
 							{{ with .LinkTitle }}{{.}}{{else}}{{ .Title }}{{end}}
 						</dt>
-						<dd class="twocol"><a href="{{ .RelPermalink}}" title="{{ .Title }} - {{ chomp (delimit .Params.dates " ") }}">{{ if or ( eq "canceled" .Params.status ) ( eq "postponed" .Params.status ) }}<span style="color:red;">{{ upper .Params.status }}</span>{{ else }}{{ .Date.Format "3:04 PM Mon Jan 2" }}{{ end }}</a></dd>
+						<dd class="twocol"><a href="{{ .RelPermalink}}" title="{{ .Title }} - {{ chomp (delimit .Params.dates " ") }}">{{ if in .Site.Params.status .Params.status }}<span style="color:red;">{{ upper .Params.status }}</span>{{ else }}{{ .Date.Format "3:04 PM Mon Jan 2" }}{{ end }}</a></dd>
 						{{ $this := (chomp (delimit .Params.dates " ") | printf "%s" | urlize | printf "%s|") }}
 						{{ $.Scratch.Add "seen" $this }}
 						{{ $.Scratch.Add "today" $this }}

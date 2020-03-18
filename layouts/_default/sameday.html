@@ -1,1 +1,1 @@
-<dd class="sameday"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}{{ if or ( eq "canceled" .Params.status ) ( eq "postponed" .Params.status ) }} <span style="color: red;">{{ upper .Params.status }}</span>{{ end }}</a></dd>
+<dd class="sameday"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}{{ if in .Site.Params.status .Params.status }} <span style="color: red;">{{ upper .Params.status }}</span>{{ end }}</a></dd>

@@ -43,6 +43,9 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 	# Used for SK pages
 	silentkeybase = "http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&"
 
+	# Used for event status listing
+	status = [ "canceled", "on w0ilo", "postponed" ]
+
 [params.categories]
 
 [params.categories.education]
