@@ -1,4 +1,4 @@
-{{/* ND Evening net during Daylight Saving Time */}}
+# ND Evening net during Daylight Saving Time
 day = "D"
 time ="18:30"
 season = "CDT"
