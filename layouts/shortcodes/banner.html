@@ -1,24 +1,31 @@
-{{ $body := .Get "body" }}
-{{ if or (gt .Inner "") (gt $body "") }}
-	{{ with .Get "expires" }}
-		{{ $today := now.Format "2006-01-02" }}
-		{{ $expires := dateFormat "2006-01-02" ( . ) }}
-		{{ if lt $today $expires }}
-			<div class="banner">
-			{{ with .Inner }}
-				{{ . | markdownify }}
-			{{ else }}
-				{{ $body | markdownify }}
-			{{ end }}
-			</div>
-		{{ end }}
-	{{ else }}
-		<div class="banner">
-		{{ with .Inner }}
-			{{ . | markdownify }}
-		{{ else }}
-			{{ $body | markdownify }}
-		{{ end }}
-		</div>
+{{/*
+Banner Short Code
+By: Steve Kostecke k0stk@arrl.net
+
+Named Arguments:
+
+"expires" - banner expiration date, only YYYY-MM-DD is used
+
+"body" - banner body; overridden by .Inner if closing tag is used
+
+*/}}
+
+{{ $scratch := newScratch }}
+
+{{ with .Get "body" }}{{ $scratch.Set "banner" . }}{{ end }}
+{{ with .Inner }}{{ $scratch.Set "banner" . }}{{ end }}
+
+{{ with .Get "expires" }}
+	{{ $today := now.Format "2006-01-02" }}
+	{{ $expires := dateFormat "2006-01-02" ( . ) }}
+	{{ if gt $today $expires }}
+		{{ $scratch.Set "banner" "" }}
 	{{ end }}
+{{ end }}
+
+{{ if gt ( $scratch.Get "banner" ) " " }}
+	<div class="banner clear">
+		{{ $scratch.Get "banner" | markdownify }}
+	</div>
+	<p class="clear"></p>
 {{ end }}
