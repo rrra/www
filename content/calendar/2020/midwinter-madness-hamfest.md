@@ -17,8 +17,6 @@ COVID-19 outbreak.
 {{% /banner %}}
 
 Please visit the
-[ARRL Midwinter Madness Hobby Electronics Show page](http://www.arrl.org/hamfests/canceled-midwinter-madness-hobby-electronics-show)
- or the
 [K0LTC.org Midwinter Madness page](https://k0ltc.org/midwinter-madness/)---or
 [download the Flyer](http://k0ltc.org/wp-content/uploads/2019/01/Mailer-19.pdf)---for
 more details.
