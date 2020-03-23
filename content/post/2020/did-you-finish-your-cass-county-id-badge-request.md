@@ -16,6 +16,8 @@ completed on-line.
 You will not receive your ID Badge until you complete both steps of this
 process.
 
+<!--more-->
+
 Instructions---and helpful hints---for requesting an ID Badge are
 available on the [RRRA File Server](https://cloud.rrra.org/) (AKA *the
 cloud*) in the **ARES folder**.
@@ -27,5 +29,3 @@ glass icon) in the upper right hand corner of the screen to search for
 
 Please contact the {{< webmaster >}} for assistance with the RRRA
 File Server.
-
-<!--more-->
