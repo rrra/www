@@ -9,7 +9,7 @@ August 8, 2020, is the new tentative date for the
 [Midwinter Madness Hamfest]({{< relref "/calendar/2020/midwinter-madness-hamfest.md" >}}).
 This date was announced during the March 21st
 [Dakota Division Virtual Meeting]({{< relref "/calendar/2020/dakota-division-virtual-meeting.md" >}}) (webinar)
-and had been published on the
+and has been published on the
 [K0LTC.org Midwinter Madness page](https://k0ltc.org/midwinter-madness/)
 page.
 
