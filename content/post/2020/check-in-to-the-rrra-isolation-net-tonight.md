@@ -3,7 +3,7 @@ date = "2020-03-24T09:09:31-05:00"
 #publishdate = "2020-03-24T09:09:31-05:00"
 title = "Check in to the RRRA Isolation Net Tonight"
 authors = [ "K0STK" ]
-categories = [ "Public Service" ]
+categories = [ "Social" ]
 tags = [ "Nets" ]
 +++
 {{< mailto KA0LDG >}} has started an informal evening *Isolation Net* at 7PM,
