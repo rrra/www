@@ -8,6 +8,14 @@ dates = [ "Public Service" ]
 contact = "[701-356-0677](tel:701-356-0677)"
 outputs = [ "HTML", "Calendar" ]
 +++
+{{% banner %}}
+<span style="color:red;">This class may by postponed due to the COVID-19
+pandemic.</span>
+<br><br>Please monitor the 
+[NWS Fargo Grand Forks 2020 Spotter Training Sessions](https://www.weather.gov/fgf/skywarn)
+calendar for schedule changes.
+{{% /banner %}}
+
 * Presented by the National Weather Service
 * Sponsored by [RRRMC](http://www.rrrmc.com/)
 
