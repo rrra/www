@@ -35,8 +35,8 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 	calendar = "/cal/:year/:month/:day/:slug/"
 
 [params]
-  tel = "701-526-4426"         # Club Phone Number
-  sitedate = "January 2, 2006" # Sitewide Date Format
+	tel = "701-526-4426"         # Club Phone Number
+	sitedate = "January 2, 2006" # Sitewide Date Format
 
 	description = "A nonprofit ARRL affiliated Amateur Radio club serving Fargo, ND; Moorhead, MN; and the surrounding area with communication support and educational outreach."
 
@@ -44,7 +44,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 	silentkeybase = "http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&"
 
 	# Used for event status listing
-	status = [ "canceled", "on w0ilo", "postponed" ]
+	status = [ "canceled", "on w0ilo", "postponed", "webinar" ]
 
 [params.categories]
 
