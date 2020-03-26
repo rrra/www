@@ -6,9 +6,9 @@
 		{{ $page_link := .RelPermalink }}
 
 		{{ if eq .Data.Plural "categories" }}
-			{{ .Scratch.Set "filter" .Title }}
+			{{ .Scratch.Set "filter" ( lower .Title ) }}
 		{{ else if ne .Params.categories nil }}
-			{{ $temp := delimit .Params.categories " " }}
+			{{ $temp := delimit .Params.categories " " | lower }}
 			{{ .Scratch.Set "filter" $temp }}
 		{{ else }}
 			{{ .Scratch.Set "filter" "" }}
@@ -16,12 +16,12 @@
 
 		{{ range $name,$taxonomy := .Site.Taxonomies.dates }}
 			{{ range last 1 $taxonomy.Pages.ByDate }}
-				{{ if ge .Date.Unix now.Unix }}
+				{{ if and ( ge .Date.Unix now.Unix ) ( ne ( $name | lower )  "hidden" ) }}
 					{{ $page := . }}
 					{{ if gt ($.Scratch.Get "filter") "" }}
 						{{ $filter := $.Scratch.Get "filter" }}
 						{{ if ne .Params.categories nil }}
-							{{ $cats := delimit .Params.categories " " }}
+							{{ $cats := delimit .Params.categories " " | lower }}
 							{{ if in (chomp $filter) (chomp $cats) }}
 								<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $name }}</a></li>
 							{{ end }}
