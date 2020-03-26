@@ -44,7 +44,13 @@
 						<h3>{{ .Key }}</h3>
 						<dl id="list">
 						{{ range .Pages.Reverse }}
-							{{ .Render ( $.Scratch.Get "li" ) }}
+							{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
+								{{ .Render "sameday" }}
+							{{ else }}
+								{{ .Render ( $.Scratch.Get "li" ) }}
+								{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
+							{{ end }}
+							{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
 						{{ end }}
 						</dl>
 						{{ partial "clear" }}
