@@ -5,7 +5,9 @@
 		<div class="entry-meta">
 			<span class="cat-links">
 				{{ range .Params.dates }}
-                		<a href="/dates/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+					{{ if ne ( lower . ) "hidden" }}
+                				<a href="/dates/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+					{{ end }}
             			{{ end }}
 			</span>
 		</div>
