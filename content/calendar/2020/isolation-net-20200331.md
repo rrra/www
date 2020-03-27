@@ -1,6 +1,6 @@
 +++
-date = "2020-04-02T19:00:00-05:00"
-publishDate = "2020-03-14"
+date = "2020-03-31T19:00:00-05:00"
+publishDate = "2020-03-31"
 endTime = ""
 location = ""
 ncs = [ "KA0LDG" ]
