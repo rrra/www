@@ -7,7 +7,7 @@ categories = [ "Techincal" ]
 tags = [ "AREDN" ]
 +++
 On March 27, 2020, the [AREDN Project](https://www.arednmesh.org/)
-announced the general availability of the latest stable verision of AREDN
+announced the general availability of the latest stable version of AREDN
 firmware: V3.20.3.0
 
 This release includes official support for the GL.iNet AR150 router used
