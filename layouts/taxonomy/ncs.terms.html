@@ -17,11 +17,23 @@
 				<h2 class="entry-title">NCS Leader Board</h2>
 			</header>
 
+			{{/* Build list of SK call-signs for cross checking */}}
+			{{/* bracket call-signs to avoid substring hits */}}
+			{{ $scratch := newScratch }}
+			{{ $scratch.Add "sk" "|" }}
+			{{ range where .Site.Pages "Type" "sk" }}
+				{{ $scratch.Add "sk" ( lower .Title ) }}
+				{{ $scratch.Add "sk" "|" }}
+			{{ end }}
+
 			<div class="entry-content" style="padding-bottom:1em;">
 				<dl id="list">
 					{{ range $key, $value := .Data.Terms.ByCount }}
-					<dt class="twocol" style="width:10em;">{{ $value.Name }}</dt>
-					<dd class="twocol"><a href="{{ $value.Name | urlize }}">{{ $value.Count }} nets</a></dd>
+						{{ $test := printf "|%s|" ( lower $value.Name ) }}
+						{{ if not ( in  ( $scratch.Get "sk" ) $test ) }}
+							<dt class="twocol" style="width:10em;">{{ $value.Name }}</dt>
+							<dd class="twocol"><a href="{{ $value.Name | urlize }}">{{ $value.Count }} nets</a></dd>
+						{{ end }}
 					{{ end }}	
 				</dl>
 			</div>
