@@ -3194,7 +3194,7 @@ div.entry-summary .footnote-ref a {
 	}	
 	#colophon { text-align: center; }
 	dd.twocol, dd.sameday { margin: 0 0 0.4em 2em; }
-	dd.twocol div:not(.p-organizer), dd.sameday div { float: right; width: 6em; }
+	dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 
 	/* http://www.secondpicture.com/tutorials/web_design/css_ul_li_horizontal_css_menu.html
 	 */
@@ -3426,7 +3426,7 @@ div.entry-summary .footnote-ref a {
 	dt.twocol.header { width: 10em; background-color: #e1ede2; padding-left: 0.4em;}
 	dd.twocol { margin: 0 0 0.4em 10.6em; }
 	dd.sameday { clear: both; margin-left: 10.5em; margin-bottom: 0.4em; }
-	dd.twocol div:not(.p-organizer), dd.sameday div { float: right; width: 10em; }
+	dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 10em; }
 
 	ul.pagination {
 		list-style-type: none;

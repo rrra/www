@@ -68,7 +68,7 @@
 			{{ end }}
 		</dl>
 		{{ if or ( eq "canceled" .Params.status ) ( eq "postponed" .Params.status ) }} 
-				<div class="banner alert">
+				<p class="clear"></p><div class="banner alert">
 					<p><strong>THIS EVENT HAS BEEN {{ upper .Params.status }}.</strong></p>
 				</div>
 		{{ end }}
