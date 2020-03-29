@@ -11,13 +11,13 @@ Thank-you to everyone everyone who volunteered to provide communication
 support for 
 [Walk MS: Fargo 2020]({{< relref "/calendar/2020/ms-walk-fargo.md" >}}).
 
-Communication support is no longer needed for thie event because the
-National MS Society has moved all Walk MS events---through June---to
-fully virtual experiences.
+Communication support is no longer needed because the National MS
+Society has moved all Walk MS events---through June---to fully virtual
+experiences.
 
-These virtual experiences will allow continued support of life-changing
-breakthroughs for people affected by MS; because people with MS need us
-now more than ever.
+These virtual experiences will continue support of life-changing
+breakthroughs for people affected by MS while following current
+social-distancing guidelines.
 
 <!--more-->
 
