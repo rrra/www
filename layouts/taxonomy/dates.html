@@ -45,7 +45,7 @@
 						<dl id="list">
 						{{ range .Pages.Reverse }}
 							{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
-								{{ .Render "sameday" }}
+								{{ .Render "sameday-dates" }}
 							{{ else }}
 								{{ .Render ( $.Scratch.Get "li" ) }}
 								{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
