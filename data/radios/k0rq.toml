@@ -1,0 +1,5 @@
+location = "Fargo, ND"
+call = "K0RQ"
+mode = "MMDVM"
+frequency = "443.400 +"
+notes = "D-STAR, DMR, C4FM<br>[Info](http://k0rq.com/repeater) | [Dashboard](http://rpt.k0rq.com/)"
