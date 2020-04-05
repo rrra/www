@@ -25,9 +25,10 @@ generate a repeaterbook link
 {{ $scratch := newScratch }}
 {{ $scratch.Set "modes" "All " }}
 
+{{/* Modes displayed in the filter menu must be defined in config.toml */}}
 {{ range sort $.Site.Data.radios ".mode" }}
 	{{ $seen := $scratch.Get "modes" }}
-	{{ if not ( in $seen .mode ) }}
+	{{ if and ( in $.Site.Params.modes ( lower .mode ) ) ( not ( in $seen .mode ) ) }}
 		{{ $scratch.Add "modes" .mode }}
 		{{ $scratch.Add "modes" " " }}
 	{{ end }}
@@ -37,7 +38,7 @@ generate a repeaterbook link
 {{ $modes := split ( $scratch.Get "modes" ) " " }}
 {{ range $modes }}
 	{{ $text := . }}
-	{{ if ne ( $text | urlize ) $self }}
+	{{ if not ( eq $self ( $text | urlize ) ) }}
 	<li><a href="/radios/list/{{ $text | urlize }}/">{{ $text }}</a></li>
 	{{ end }}
 {{ end }}
@@ -57,7 +58,15 @@ generate a repeaterbook link
 
 <tbody>
 {{ range sort $.Site.Data.radios ".location" }}
-	{{ if or ( eq $self "all" ) ( eq $self ( .mode | urlize ) ) }}
+	{{ $scratch.Set "test" $self }}
+	{{ $mode := .mode | urlize }}
+
+	{{/* Allow "MMDVM" repeaters to specify supported modes in their notes */}}
+	{{ if and ( eq "mmdvm" $mode ) ( in ( .notes | urlize ) $self ) }}
+		{{ $scratch.Set "test" ( printf "mmdvm|%s" $self ) }}
+	{{ end }}
+
+	{{ if or ( eq $self "all" ) ( or ( in ( $scratch.Get "test" ) $mode ) ) }}
 	<tr>
 		<td>{{ .location | markdownify }}</td>
 		<td>{{ .call | markdownify }}<br \>{{ .mode | markdownify }}</td> 

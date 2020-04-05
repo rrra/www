@@ -46,6 +46,9 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 	# Used for event status listing
 	status = [ "canceled", "on w0ilo", "postponed", "webinar" ]
 
+	# Used for repeater list "filter menu"
+	modes = [ "analog", "asl", "d-star", "dmr", "ysf" ]
+
 [params.categories]
 
 [params.categories.education]
