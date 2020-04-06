@@ -21,5 +21,5 @@ calendar for schedule changes.
 
 Individuals unable to attend this session may be interested in
 
-* [RRRMC Skywarn Class]({{< relref "/calendar/2020/rrrmc-skywarn-class.md" >}})
+* <del>RRRMC Skywarn Class</del>
 * <del>Sabin Skywarn Class</del>
