@@ -5,7 +5,7 @@ date = "2014-02-18"
 licensed = ""
 name = "Carl W. Reed"
 obituary = "http://www.hansonrunsvold.com/obituaries/Carl-Reed-3/#!/Obituary"
-photocredit = "Hanson - Runsvold Funeral Home"
+photocredit = "Hanson-Runsvold Funeral Home"
 silentkeyhq = "0161469235157113"
 title = "w0kzz"
 +++
