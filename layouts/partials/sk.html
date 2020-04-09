@@ -1,3 +1,4 @@
+{{ $scratch := newScratch }}
 <article class="post type-post status-publish format-standard hentry">
 
 <!-- .entry-header -->
@@ -29,7 +30,7 @@
 </header>
 
 <div class="entry-content">
-{{ $.Scratch.Set "needed" "photo|" }}
+{{ $scratch.Set "needed" "photo|" }}
 {{ $imgfiles := readDir "static/images/sk/" }}
 {{ range $imgfiles }}
 {{ if in .Name ( lower $call ) }}
@@ -39,53 +40,77 @@
 <figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
 {{ end }}
 </figure>
-{{ $.Scratch.Set "needed" "" }}
+{{ $scratch.Set "needed" "" }}
 {{ end }}
 {{ end }}
 		
 		<dl id="list">
-			{{ with .Params.born }}<dt class="twocol header">Born:</dt><dd class="twocol">{{ . | dateFormat ( $sitedate ) }}</dd>
-				{{ else }}{{ $.Scratch.Add "needed" "birth|" }}{{ end }}
-			{{ if gt .Params.licensed "" }}<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if gt $licensed "" }}{{ .Params.licensed | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>{{ end}}
-			{{ if gt .Date "" }}<dt class="twocol header">Silent Key:</dt><dd class="twocol">{{ .Date.Format ( $sitedate ) }}</dd>
-				{{ else }}{{ $.Scratch.Add "needed" "death|" }}{{ end }}
+			{{ with .Params.born }}
+				<dt class="twocol header">Born:</dt><dd class="twocol">{{ . | dateFormat ( $sitedate ) }}</dd>
+			{{ else }}
+				{{ $scratch.Add "needed" "birth|" }}
+			{{ end }}
+
+			{{ if gt .Params.licensed "" }}
+				<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if gt $licensed "" }}{{ .Params.licensed | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>
+			{{ end}}
+
+			{{ if gt .Date "" }}
+				<dt class="twocol header">Silent Key:</dt><dd class="twocol">{{ .Date.Format ( $sitedate ) }}</dd>
+			{{ else }}
+				{{ $scratch.Add "needed" "death|" }}
+			{{ end }}
+
 			{{ with .Params.silentkeyhq }}
 				{{ $href :=  "\">National Silent Key Archive</a>" | printf "%s%s" (.) | printf "%s%s" "&uid=" | printf "%s%s" $call | printf "%s%s" "call=" | printf "%s%s" $silentkeybase | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
-				{{ $.Scratch.Set "memorial" $href }}
+				{{ $scratch.Set "memorial" $href }}
 			{{ else }}
-				{{ $.Scratch.Add "needed" "skhq|" }}
-				{{ with .Params.obituary }}
-					{{ $url := (.) }}
-					{{ $url := replace $url "https://" "" }}
-					{{ $url := replace $url "http://" "" }}
-					{{ $url := split $url "/" }}
+				{{ $scratch.Add "needed" "skhq|" }}
+			{{ end }}
 
-					{{ if ge (len $url) 1 }}
-						{{ $href := "</a>" | printf "%s%s" ( index $url 0 ) | printf "%s%s" "\">" | printf "%s%s" (.) | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
-						{{ $.Scratch.Set "memorial" $href }}
-					{{ end }}
+			{{ with .Params.obituary }}
+				{{ $url := (.) }}
+				{{ $url := replace $url "https://" "" }}
+				{{ $url := replace $url "http://" "" }}
+				{{ $url := split $url "/" }}
+				{{ if ge (len $url) 1 }}
+					{{ $href := "</a>" | printf "%s%s" ( index $url 0 ) | printf "%s%s" "\">" | printf "%s%s" (.) | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
+					{{ $scratch.Set "obituary" $href }}
+				{{ end }}	
+			{{ else }}
+				{{ if gt "" ( $scratch.Get "memorial" ) }}
+					{{ $scratch.Add "needed" "obit|" }}
 				{{ end }}
 			{{ end }}
-			{{ with $.Scratch.Get "memorial" }}
-				<dt class="twocol header">Obituary:</dt>
-				<dd class="twocol">{{.}}</dd>
-				{{ $.Scratch.Set "memorial" "" }}
+
+			{{ $memorials := slice ( $scratch.Get "memorial" ) ( $scratch.Get "obituary" ) }}
+
+			{{ range $memorials }}
+				{{ with . }}
+					<dt class="twocol header">Memorial:</dt>
+					<dd class="twocol">{{ . }}</dd>
+				{{ end }}
 			{{ end }}
+
+<!--<dd class="twocol">{{ $scratch.Get "memorial" }}</dd>-->
+			
 		</dl>
+
 		<p class="clear"></p>
 
-		{{ $needed := $.Scratch.Get "needed" }}
+		{{ $needed := $scratch.Get "needed" }}
 
 		{{ if gt $needed "" }}
 			<h3>Information Needed</h3>
-			<p>Can you contribute any of the information needed to complete this Silent Key listing?</p>
 			<ul>
-				{{ if in $needed "photo|" }}<li>Obituary Photo</li>{{ end }}
+				{{ if in $needed "obit|" }}<li>Obituary</li>{{ end }}
+				{{ if in $needed "photo|" }}<li>Photo</li>{{ end }}
 				{{ if in $needed "birth|" }}<li>Date of Birth</li>{{ end }}
 				{{ if in $needed "death|" }}<li>Date of Death</li>{{ end }}
 				{{ if in $needed "skhq|" }}<li>A memorial at the <a href="http://silentkeyhq.com">National Silent Key Archive</a></li>{{ end }}
 			</ul>
-      <p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you can help complete this Silent Key Listing.</p>
+			<p>Can you contribute any of the information needed to complete this Silent Key listing?</p>
+      <p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you can help.</p>
 		{{ end }}
 
 		{{ .Content }}
