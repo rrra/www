@@ -30,19 +30,27 @@
 </header>
 
 <div class="entry-content">
-{{ $scratch.Set "needed" "photo|" }}
-{{ $imgfiles := readDir "static/images/sk/" }}
-{{ range $imgfiles }}
-{{ if in .Name ( lower $call ) }}
-<figure class="wp-caption alignnone">
-<img  src="/images/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}"/>
-{{ with $.Params.photocredit }}
-<figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
-{{ end }}
-</figure>
-{{ $scratch.Set "needed" "" }}
-{{ end }}
-{{ end }}
+
+	{{ $scratch.Set "needed" "photo|" }}
+	{{ with $.Params.obituary }}
+		{{ $scratch.Set "photocredit" . }}
+	{{ end }}
+	{{ with $.Params.photocredit }}
+		{{ $scratch.Set "photocredit" . }}
+	{{ end }}
+
+	{{ $imgfiles := readDir "static/images/sk/" }}
+	{{ range $imgfiles }}
+		{{ if in .Name ( lower $call ) }}
+			<figure class="wp-caption alignnone">
+				<img  src="/images/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}"/>
+				{{ with $scratch.Get "photocredit" }}
+					<figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
+				{{ end }}
+			</figure>
+			{{ $scratch.Set "needed" "" }}
+		{{ end }}
+	{{ end }}
 		
 		<dl id="list">
 			{{ with .Params.born }}
@@ -63,37 +71,31 @@
 
 			{{ with .Params.silentkeyhq }}
 				{{ $href :=  "\">National Silent Key Archive</a>" | printf "%s%s" (.) | printf "%s%s" "&uid=" | printf "%s%s" $call | printf "%s%s" "call=" | printf "%s%s" $silentkeybase | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
-				{{ $scratch.Set "memorial" $href }}
+				<dt class="twocol header">Memorial:</dt>
+				<dd class="twocol">{{ $href }}</dd>
 			{{ else }}
 				{{ $scratch.Add "needed" "skhq|" }}
 			{{ end }}
 
-			{{ with .Params.obituary }}
-				{{ $url := (.) }}
+			{{ if gt .Params.obitLink "" }}
+				{{ $url := .Params.obitLink }}
 				{{ $url := replace $url "https://" "" }}
 				{{ $url := replace $url "http://" "" }}
 				{{ $url := split $url "/" }}
-				{{ if ge (len $url) 1 }}
-					{{ $href := "</a>" | printf "%s%s" ( index $url 0 ) | printf "%s%s" "\">" | printf "%s%s" (.) | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
-					{{ $scratch.Set "obituary" $href }}
-				{{ end }}	
+				{{ $scratch.Set "obituary" ( index $url 0 ) }}
+				{{ with .Params.obituary }}
+					{{ $scratch.Set "obituary" . }}
+				{{ end }}
+				{{ $href := "</a>" | printf "%s%s" ( $scratch.Get "obituary" ) | printf "%s%s" "\">" | printf "%s%s" ( .Params.obitLink ) | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
+				<dt class="twocol header">Obituary:</dt>
+				<dd class="twocol">{{ $href }}</dd>
 			{{ else }}
 				{{ if gt "" ( $scratch.Get "memorial" ) }}
 					{{ $scratch.Add "needed" "obit|" }}
 				{{ end }}
+
 			{{ end }}
 
-			{{ $memorials := slice ( $scratch.Get "memorial" ) ( $scratch.Get "obituary" ) }}
-
-			{{ range $memorials }}
-				{{ with . }}
-					<dt class="twocol header">Memorial:</dt>
-					<dd class="twocol">{{ . }}</dd>
-				{{ end }}
-			{{ end }}
-
-<!--<dd class="twocol">{{ $scratch.Get "memorial" }}</dd>-->
-			
 		</dl>
 
 		<p class="clear"></p>
