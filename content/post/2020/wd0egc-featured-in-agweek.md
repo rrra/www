@@ -6,8 +6,13 @@ authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = []
 +++
-R. Jay Goos upcoming retirement from North Dakota State University (NDSU) has
-been featured in two recent [Agweek](http://www.agweek.com) articles.
+R. Jay Goos, WD0EGC---one of the instructors in
+[RRRA's Education program](/categories/education/)---is profiled in two
+recent [Agweek](http://www.agweek.com) articles focusing on his 40 year
+career at North Dakota State University (NDSU) and upcoming retirement:
+
+* [*World soy chlorosis expert prepares to hang up lab coat*]({{< relref "/post/2020/wd0egc-featured-in-agweek.md#world-soy-chlorosis-expert-prepares-to-hang-up-lab-coat" >}})
+* [*40 years of accomplishments*]({{< relref "/post/2020/wd0egc-featured-in-agweek.md#40-years-of-accomplishments" >}})
 
 Goos' distinguished career at NDSU started in 1980 after he completed his
 doctorate at Colorado State University in Fort Collins. "Until 2005,
