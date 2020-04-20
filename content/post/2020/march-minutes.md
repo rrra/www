@@ -6,7 +6,7 @@ toc = "true"
 authors = [ "K0RQ" ]
 +++
 * Meeting took place on the W0ILO Repeater system instead of in-person in response to the COVID-19 pandemic
-* Meeting called to order by President Seth KD0ODE at 19:00
+* Meeting called to order by President Jarod W0JPJ at 19:00
 * 18 stations checked in
 
 <!--more-->
