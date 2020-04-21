@@ -41,8 +41,8 @@ regarding the 3.5GHz band.
 Jarrod W0JPJ reported that COVID-19 has taken precedence over flood
 prep. Luckily the flood situation has improved. Joe K0JTR, the main
 ARES coordinator Minnesota, is looking for a new District 3 Emergency
-Coordinator. K0STK added that the forms to receive new ARES badges is
-online via the RRRA cloud site.
+Coordinator. Steve K0STK added that the forms to receive new ARES badges
+[are] online via the RRRA cloud site.
 
 #### Technical
 
