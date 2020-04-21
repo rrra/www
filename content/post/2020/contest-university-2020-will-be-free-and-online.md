@@ -20,3 +20,15 @@ tags = [ "Contesting" ]
 <!--more-->
 
 [^1]: "Contest University (CTU) 2020 will be Free and Online", ARRL The national association for Amateur Radio, retrieved April 21 2020, http://www.arrl.org/news/contest-university-ctu-2020-will-be-free-and-online.
+
+CTU attendees who have already purchased registrations / dinner tickets
+should use the
+[Contest University Contact Form](https://www.contestuniversity.com/contact-us/)
+to choose from one of these options before May 15, 2020:
+
+* Refund CTU 2020 fees to original form of payment
+* Apply CTU 2020 registration to CTU 2021
+* Donate CTU 2020 fees to Youth Activities via WWROF
+
+**Registrations / dinner tickets remaining after May 15th will be donated
+to Youth Activities via WWROF.**
