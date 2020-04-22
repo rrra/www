@@ -33,7 +33,7 @@ minutes document (2020-03 Minutes.docx) may be found in the
 
 Mark KK0V reports the flood outlook continues to look better. If weather
 continues we should get by very well. RRRA has not been contacted by
-Emergecny Managers regarding COVID-19. No further rulings from the FCC
+Emergency Managers regarding COVID-19. No further rulings from the FCC
 regarding the 3.5GHz band.
 
 #### Clay RRRAES
