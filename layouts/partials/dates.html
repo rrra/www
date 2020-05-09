@@ -3,8 +3,6 @@
 	<h2 class="widget-title">Dates</h2>
 
 	<ul>
-		{{ $page_link := .RelPermalink }}
-
 		{{ if eq .Data.Plural "categories" }}
 			{{ .Scratch.Set "filter" ( lower .Title ) }}
 		{{ else if ne .Params.categories nil }}
