@@ -8,7 +8,7 @@
 			<header class="archive-header">
 				{{ $cat := index .Site.Params.categories (.Title | urlize) }}
 
-				{{ if and (in .URL "/categories/hamfest/") (lt (dateFormat "1" now) 10) }}
+				{{ if and (in .RelPermalink "/categories/hamfest/") (lt (dateFormat "1" now) 10) }}
 				{{ $year := dateFormat "2006" now }}
 				<hr>
 				<p><a class="entry-title" href="/cal/{{ $year }}/hamfest/">{{ $year }} Hamfest Information</a>
@@ -19,7 +19,7 @@
 				{{ $rsspath := printf ( .Title | urlize ) | printf "/%s/%s" ( .Data.Plural ) }}
 				{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 
-				<h2 class="archive-title">{{ if in .URL "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}Content in the {{ .Title | humanize | upper }} category{{ end }}</h2>
+				<h2 class="archive-title">{{ if in .RelPermalink "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}Content in the {{ .Title | humanize | upper }} category{{ end }}</h2>
 				{{ with $cat.description }}
 					<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
 				{{ end }}

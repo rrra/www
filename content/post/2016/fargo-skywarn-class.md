@@ -11,5 +11,5 @@ Red River Radio Amateurs will be sponsoring its 2016 [Skywarn](http://skywarn.or
 
 The Skywarn class will be presented by the National Weather Service for amateur radio operators and personnel from public safety agencies, and is open to the public, for anyone interested in being a storm spotter.  It will cover all the basics of storm spotting and will also be a good refresher course for existing spotters.
 
-Please contact {{% mailto KC0DCF name %}} for more information.
+Please contact {{< mailto KC0DCF name >}} for more information.
 <!--more-->

@@ -18,6 +18,6 @@ Please see the
 [2018 RRRA Christmas Party calendar entry]({{< relref "/calendar/2018/rrra-christmas-party.md" >}})
 for more details.
 
-Please contact {{% mailto KC0GQE %}}&nbsp;if you have any questions
+Please contact {{< mailto KC0GQE >}}&nbsp;if you have any questions
 about this event.
 <!--more-->

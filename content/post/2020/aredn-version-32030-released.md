@@ -3,7 +3,7 @@ date = "2020-03-28T14:24:37-05:00"
 #publishdate = "2020-03-28T14:24:37-05:00"
 title = "Aredn Version 3.20.3.0 Released"
 authors = [ "KD0IOE", "K0STK" ]
-categories = [ "Techincal" ]
+categories = [ "Technical" ]
 tags = [ "AREDN" ]
 +++
 On March 27, 2020, the [AREDN Project](https://www.arednmesh.org/)

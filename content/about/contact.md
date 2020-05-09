@@ -12,23 +12,23 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 #### Officers
 
-* **President**: {{% mailto president name %}}
-* **Vice President**: {{% mailto vicepresident name %}}
-* **Secretary**: {{% mailto secretary name %}}
-* **Treasurer**: {{% mailto treasurer name %}}
+* **President**: {{< mailto president name >}}
+* **Vice President**: {{< mailto vicepresident name >}}
+* **Secretary**: {{< mailto secretary name >}}
+* **Treasurer**: {{< mailto treasurer name >}}
 * **At-Large**:
-    * 2020--2022 {{% mailto atlarge1 name %}}
-    * 2019--2021 {{% mailto atlarge2 name %}} (Assumed in 2020)
+    * 2020--2022 {{< mailto atlarge1 name >}}
+    * 2019--2021 {{< mailto atlarge2 name >}} (Assumed in 2020)
 
 #### Ex-officio
 
 * **2020**:
-    *  {{% mailto K0JKL name %}} (Secretary)
+    *  {{< mailto K0JKL name >}} (Secretary)
 
 #### Trustees
 
-* **KC0KAE**: {{% mailto N0RF name %}}
-* **W0ILO**: {{% mailto N0RF name %}}
+* **KC0KAE**: {{< mailto N0RF name >}}
+* **W0ILO**: {{< mailto N0RF name >}}
 
 ### Mailing Address {#mailing-address}
 

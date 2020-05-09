@@ -29,4 +29,4 @@ text books, is available on our
 An electronic syllabus is integrated into the calendar listings for each
 session of the [Winter 2020 Extra Classes](/dates/winter-2020-extra").
 
-Please contact {{% mailto W0HNV name %}} if you have any questions.
+Please contact {{< mailto W0HNV name >}} if you have any questions.

@@ -26,7 +26,7 @@
 			<div class="entry-content">
 				<dl>
 				{{ range $paginator.Pages }}
-					<dt class="twocol"><a href="{{ .URL }}" title="Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}" >{{ .Title | safeHTML }}</a></dt>
+					<dt class="twocol"><a href="{{ .RelPermalink }}" title="Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}" >{{ .Title | safeHTML }}</a></dt>
 					<dd style="display: none;">Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}</dd>
 				{{ end }}
 				</dl>

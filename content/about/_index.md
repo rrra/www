@@ -2,9 +2,10 @@
 date = "2015-11-21T10:15:34-06:00"
 title = "About Our Club"
 linktitle = "About<span style=\"display:none;\"> Our Club</span>"
-menu = "main"
 description = "Information about the RRRA: board of directors, bylaws, contact addresses, how to join, how to make a tax deductible donation, mission statement, and more ..."
 contact = "president"
+[menu.Main]
+url = "/about/"  
 +++
 Red River Radio Amateurs is a nonprofit
 [ARRL affiliated Amateur Radio club](http://www.arrl.org/Groups/view/red-river-radio-amateurs-inc/type:club)
@@ -30,7 +31,7 @@ and dues payment to one of our
 
 Donations made to the Red River Radio Amateurs are **tax deductible**.
 If you would like to support our club please contact
-{{% mailto treasurer name %}}
+{{< mailto treasurer name >}}
 or mail your check to:
 
 {{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}

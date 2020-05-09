@@ -2,10 +2,11 @@
 date = "2015-11-24T20:31:25-06:00"
 title = "Radio Systems in the Red River Valley"
 linktitle = "Radios<span style=\"display:none;\"> - repeaters & nodes</span>"
-menu = "main"
 tags = [ "Repeaters", "Beacons" ]
 categories = [ "Technical" ]
 contact = "W0HNV"
+[menu.Main]
+url = "/radios/"
 +++
 ### W0ILO Repeaters 
 

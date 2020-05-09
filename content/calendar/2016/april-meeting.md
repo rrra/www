@@ -12,7 +12,7 @@ doors adjacent to the 2nd Ave S parking lot.
 ## Discovery
 
 ### How to use the club file sharing server
-By {{% mailto K0STK %}}
+By {{< mailto K0STK >}}
 
 This is the system which will be used to share committee reports with
 club members prior to monthly business meetings.

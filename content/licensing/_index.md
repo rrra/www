@@ -2,10 +2,11 @@
 date = "2015-12-08T14:23:55-06:00"
 title = "Get Licensed ... Be a Ham"
 linktitle = "Be<span style=\"display:none;\">come</span> a Ham<span style=\"display:none;\"> Radio Operator</span>"
-menu = "main"
 categories = [ "Education", "License Testing" ]
 description = "Get started in Amateur Radio, or upgrade your current license, with the RRRA."
 contact = "W0HNV"
+[menu.Main]
+url = "/licensing/"
 +++
 * [Get started with the Red River Radio Amateurs](#get-started-with-the-red-river-Radio-Amateurs)
 * [What is Ham Radio?](#what-is-ham-radio)

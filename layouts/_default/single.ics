@@ -1,6 +1,6 @@
 {{ if eq "calendar" .Section -}}
 BEGIN:VCALENDAR
-PRODID:-//hugo-{{ .Hugo.Version }}//Calendar//EN
+PRODID:-//hugo-{{ hugo.Version }}//Calendar//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 {{ partial "ics-tzid.html" -}}
