@@ -3,7 +3,6 @@
 	<h2 class="widget-title">Dates</h2>
 
 	<ul>
-		{{/* Why is this here? */}}
 		{{ if eq .Data.Plural "categories" }}
 			{{ .Scratch.Set "filter" ( lower .Title ) }}
 		{{ else if ne .Params.categories nil }}
@@ -16,17 +15,17 @@
 		{{ range $name,$taxonomy := .Site.Taxonomies.dates }}
 			{{ range last 1 $taxonomy.Pages.ByDate }}
 				{{ if and ( ge .Date.Unix now.Unix ) ( ne ( $name | lower )  "hidden" ) }}
-					{{ $page := delimit .Page.Params.dates "" }}
+					{{ $page := . }}
 					{{ if gt ($.Scratch.Get "filter") "" }}
 						{{ $filter := $.Scratch.Get "filter" }}
 						{{ if ne .Params.categories nil }}
 							{{ $cats := delimit .Params.categories " " | lower }}
 							{{ if in (chomp $filter) (chomp $cats) }}
-								<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $page }}</a></li>
+								<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $name }}</a></li>
 							{{ end }}
 						{{ end }}
 					{{ else }}
-						<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $page }}</a></li>
+						<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $name }}</a></li>
 					{{ end }}
 				{{ end }}	
 			{{ end }}
