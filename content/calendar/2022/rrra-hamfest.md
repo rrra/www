@@ -11,8 +11,8 @@ dates = [ "Hamfest" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-{{% banner %}}
+{{< banner >}}
 Bookmark https://hamfest.rrra.org/ and
 [subscribe to our Hamfest Announcements mailing list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
 to stay informed about the largest Hamfest in North Dakota!
-{{% /banner %}}
+{{< /banner >}}

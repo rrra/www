@@ -11,10 +11,10 @@ dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2020/03/21/midwinter-madness-hobby-electronics-show/" ]
 +++
-{{% banner %}}
+{{< banner >}}
 This event was rescheduled from March 21, 2020, due to the
 COVID-19 outbreak.
-{{% /banner %}}
+{{< /banner >}}
 
 Please visit the
 [K0LTC.org Midwinter Madness page](https://k0ltc.org/midwinter-madness/)---or

@@ -9,8 +9,8 @@ dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 status = "on w0ilo"
 +++
-{{% banner %}}
+{{< banner >}}
 This meeting will be conducted as a directed net on the
 [W0ILO linked repeater system](/radios/) due to current
 social distancing guidelines.
-{{% /banner %}}
+{{< /banner >}}

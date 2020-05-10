@@ -23,7 +23,7 @@ Named Arguments:
 	{{ end }}
 {{ end }}
 
-{{ if gt ( $scratch.Get "banner" ) " " }}
+{{ if lt ( $scratch.Get "banner" ) " " }}
 	<div class="banner clear">
 		{{ $scratch.Get "banner" | markdownify }}
 	</div>

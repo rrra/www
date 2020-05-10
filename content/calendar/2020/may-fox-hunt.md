@@ -9,9 +9,9 @@ contact = "KA0LDG"
 dates = [ "Education" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-{{% banner %}}
+{{< banner >}}
 **Meet in the south parking lot (on 17th Ave S)**
-{{% /banner %}}
+{{< /banner >}}
 
 * [How the foxhunt will be conducted and what you'll need](https://lists.rrra.org/pipermail/rrra/2020-May/000807.html)
 * [Fox Hunt Maps](/s/FSbBRYbnstjGcdw)

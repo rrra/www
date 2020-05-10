@@ -9,11 +9,11 @@ dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 status = "on w0ilo"
 +++
-{{% banner %}}
+{{< banner >}}
 This meeting will be conducted as a directed net on the
 [W0ILO linked repeater system](/radios/) due to current
 social distancing guidelines.
-{{% /banner %}}
+{{< /banner >}}
 
 Supporting documentation for this meeting should be available in the
 "Committee and Officers Reports" folder on the RRRA File Server at

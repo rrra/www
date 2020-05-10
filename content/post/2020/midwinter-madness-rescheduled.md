@@ -15,7 +15,7 @@ page.
 
 <!--more-->
 
-{{% banner %}}
+{{< banner >}}
 ### Midwinter Madness---postponed
 
 >Due to the COVID-19 pandemic, we have postponed Midwinter Madness. The only
@@ -23,7 +23,7 @@ page.
 >that is when we will hold MWM. Please check back regularly for updates.[^1]
 
 [^1]: "Midwinter Madness", k0ltc.org, retrieved March 22 2020, https://k0ltc.org/midwinter-madness/.
-{{% /banner %}}
+{{< /banner >}}
 
 The [K0LTC.org Midwinter Madness page](https://k0ltc.org/midwinter-madness/)
 includes a map to the event location and information about:
