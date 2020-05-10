@@ -35,7 +35,7 @@ Avg Qs/Hr (breaks > 30 min deducted)              | 26.1
 This report has been converted from its original format. The original
 report document by KA0LDG (W0ILO Field Day 2019 stats.pdf) may be found
 in the "**Outreach Events | Field Day | 2019**" folder on the
-[RRRA File Sharing Server](https://cloud.rrra.org/).
+[RRRA Groupware Server](https://cloud.rrra.org/).
 
 ---
 

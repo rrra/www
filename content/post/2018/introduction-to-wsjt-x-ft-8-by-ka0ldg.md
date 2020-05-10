@@ -18,7 +18,7 @@ The slides from my presentation after the adjournment of the April 17,
 2018, RRRA Business Meeting
 are available for download from the **Training and Education
 | Presentations** folder on the
-[RRRA File Sharing server](https://cloud.rrra.org/).
+[RRRA Groupware Server](https://cloud.rrra.org/).
 
 <!--more-->
 

@@ -16,7 +16,7 @@ Marathon Mailing List.
 
 The RRRA Marathon Operations Plan, along with other related documents,
 will be available for download from the ***Marathon 2018*** folder on the
-[RRRA File Sharing Server](https://cloud.rrra.org/index.php/login).
+[RRRA Groupware Server](https://cloud.rrra.org/index.php/login).
 Availability of these documents will be announced on the Marathon
 Mailing List.
 

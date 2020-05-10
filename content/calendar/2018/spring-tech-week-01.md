@@ -19,7 +19,7 @@ outputs = [ "HTML", "Calendar" ]
 
 The 2018 Spring Technician Class Syllabus may be downloaded from the
 [Class Syllabus](https://cloud.rrra.org/index.php/s/2xabO1oD5mbpVRh)
-folder on the RRRA File Sharing Server.
+folder on the RRRA Groupware Server.
 
 ### Topics
 

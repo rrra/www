@@ -17,7 +17,7 @@ authors = [ "K0GEF" ]
 These minutes have been converted to a mobile friendly format; some light
 editing for clarity and consistency was performed. The Secretary's original
 minutes document may be found in the "**Committee Reports | Secretary
-Reports**" folder on the [RRRA File Sharing Server](https://cloud.rrra.org/). 
+Reports**" folder on the [RRRA Groupware Server](https://cloud.rrra.org/). 
 
 **Items marked with :new: have been added, or corrected, pending
 acceptance by the Secretary**

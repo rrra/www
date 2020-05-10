@@ -17,7 +17,7 @@ authors = [ "K0GEF" ]
 These minutes have been converted to a mobile friendly format; some light
 editing for clarity and consistency was performed. The Secretary's original
 minutes document may be found in the "**Committee Reports | Secretary
-Reports**" folder on the [RRRA File Sharing Server](https://cloud.rrra.org/). 
+Reports**" folder on the [RRRA Groupware Server](https://cloud.rrra.org/). 
 
 **Items marked with :new: have been added, or corrected, pending
 acceptance by the Secretary**
@@ -94,7 +94,7 @@ acceptance by the Secretary**
 * No longer short operators
 * :new: Use UHF; it is working the best on the repeater
 * Number of operators is around 20
-* :new: Marathon information is on the File Sharing Server
+* :new: Marathon information is on the Groupware Server
 
 #### New Callsign Trustees
 * KC0PFS and KA0LDG have volunteered to be the new trustees

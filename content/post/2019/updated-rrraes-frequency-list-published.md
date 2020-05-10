@@ -12,13 +12,13 @@ The updated RRRAES Frequency list discussed by KD0IOE at the
 available as an Excel spreadsheet, PDF and CSV files.
 
 The files are stored in the ***ARES | Documents and Manuals*** folder on
-the [RRRA File Sharing Server](https://cloud.rrra.org/).
+the [RRRA Groupware Server](https://cloud.rrra.org/).
 This folder may be accessed without logging in through
 a [public link](https://cloud.rrra.org/index.php/s/TO6r8rE6623qjBY)
 (which is listed as *RRRA ARES Documents and Manuals* on the
 [RRRA Files and Links page](/files/).)
 
-Club members who need assistance with their File Sharing Server account
+Club members who need assistance with their Groupware Server account
 should contact the {{< webmaster >}}.
 <!--more-->
 

@@ -23,10 +23,10 @@ confirm their participation.**
 
 A shared folder is available to committee
 members at the <a href="https://cloud.rrra.org" rel="nofollow">RRRA
-File Sharing Server</a> for document sharing and archiving.
+Groupware Server</a> for document sharing and archiving.
 
 Please contact {{< mailto W0HNV >}} if you have any questions about this
 event.
 
 Please contact the {{< webmaster >}} if you have any questions about the
-mailing list subscription process or the RRRA File Sharing Server.e.g. work and home e-mail) if desired.
+mailing list subscription process or the RRRA Groupware Server.e.g. work and home e-mail) if desired.
