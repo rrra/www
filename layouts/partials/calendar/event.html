@@ -28,7 +28,7 @@
 								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Previous" href="{{ $.Scratch.Get "prev" }}">&laquo;</a>
 							{{ end }}
 
-							<a class="taxonomy" href="/dates/{{ lower $key | urlize }}/" rel="tag">{{ $dates }}</a>
+							<a class="taxonomy" href="/dates/{{ $key }}/" rel="tag">{{ $dates }}</a>
 
 							{{ range last 1 $taxonomy.Pages.Reverse }}
 								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Next" href="{{ $.Scratch.Get "next" }}">&raquo;</a>

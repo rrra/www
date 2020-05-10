@@ -21,7 +21,7 @@
 					<dd class="twocol">Entries</dd>
 					{{ $data := .Data }}
 					{{ range $key, $value := .Data.Terms }}
-					<dt class="twocol" style="width:10em;"><a href="{{ $key | urlize }}">{{ $key | upper }}</a></dt>
+					<dt class="twocol" style="width:10em;"><a href="{{ $key }}">{{ .Page.Title }}</a></dt>
 					<dd class="twocol">{{ len $value }}</dd>
 					{{ end }}
 				</dl>
