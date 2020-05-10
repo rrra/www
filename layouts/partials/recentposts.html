@@ -1,6 +1,5 @@
 <aside id="recent-posts-3" class="widget widget_recent_entries">
 
-	{{ if isset .Data "Pages" }}
 	<h2 class="widget-title">Recent Posts</h2>
 		<ul>
 			{{ range first 5 (where .Data.Pages.ByDate "Section" "post").Reverse }}
@@ -9,5 +8,4 @@
 			</li>
 			{{ end }}
 		</ul>
-	{{ end }}
 </aside>
