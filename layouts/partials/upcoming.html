@@ -12,10 +12,10 @@
 {{ $.Scratch.Set "seen" " " }} <!-- global date sequence scratch pad -->
 {{ $.Scratch.Set "lastdate" "" }} <!-- the last date we used -->
 	<dl>
-		{{ range where .Data.Pages.ByDate "Section" "calendar" }}
+		{{ range where .Site.RegularPages.ByDate "Section" "calendar" }}
 			{{ if ge .Date.Unix now.Unix }}
 				{{ $thisdate := chomp (.Date.Format "2006-01-02") }}
-       	{{ if ne $thisdate ($.Scratch.Get "lastdate") }}
+       				{{ if ne $thisdate ($.Scratch.Get "lastdate") }}
 					<!-- Started looking at a new day, clear the daily scratch pad -->
 					{{ $.Scratch.Set "today" "" }}
 				{{ end }}
