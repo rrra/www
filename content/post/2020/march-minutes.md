@@ -90,8 +90,8 @@ much appreciated. A location to store it will need to be identified.
 #### Fargo Marathon
 
 Seth KD0IOE reported the marathon has been rescheduled (tentatively) to
-August 29^th. Since it will be warmer out there may be a greater need
-for our services.
+August 29th. Since it will be warmer out there may be a greater need for
+our services.
 
 ### Good of the Order
 
