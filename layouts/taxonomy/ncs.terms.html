@@ -31,8 +31,8 @@
 					{{ range $key, $value := .Data.Terms.ByCount }}
 						{{ $test := printf "|%s|" ( lower $value.Name ) }}
 						{{ if not ( in  ( $scratch.Get "sk" ) $test ) }}
-							<dt class="twocol" style="width:10em;">{{ $value.Name }}</dt>
-							<dd class="twocol"><a href="{{ $value.Name | urlize }}">{{ $value.Count }} nets</a></dd>
+							<dt class="twocol" style="width:10em;">{{ .Page.Title }}</dt>
+							<dd class="twocol"><a href="{{ $value.Name }}">{{ $value.Count }} nets</a></dd>
 						{{ end }}
 					{{ end }}	
 				</dl>
