@@ -8,6 +8,7 @@ title = "May Testing Session"
 dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
 categories = [ "License Testing" ]
+status = "canceled"
 +++
 {{% bring %}}
 {{% status %}}
