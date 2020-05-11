@@ -23,17 +23,17 @@ minutes document (2020-03 Minutes.docx) may be found in the
 
 ## Consent Agenda 
 
-#### Secretary's Report
+### Secretary's Report
 
 Jake K0RQ reported that last month's minutes are available on the club
 cloud website. Two corrections were made. Report was not voted on.
 
-#### Treasurer's Report
+### Treasurer's Report
 
 Lori KC0GQE reported the treasurer's report for this month is available
 on the club cloud website. Report was not voted on.
 
-#### Librarian's Report
+### Librarian's Report
 
 Lori KC0GQE mentioned a Thank You card was received from the veteran's
 club that the club donated to in memory of Jerry Philips. Lori also
