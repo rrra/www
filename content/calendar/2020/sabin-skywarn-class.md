@@ -17,5 +17,5 @@ may be rescheduled.
 
 Individuals unable to attend this session may be interested in
 
-* <del>RRRMC Skywarn Class</del>
+* ~~RRRMC Skywarn Class~~
 * [West Fargo Skywarn Class]({{< relref "/calendar/2020/west-fargo-skywarn-class.md" >}})

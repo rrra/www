@@ -21,5 +21,5 @@ calendar for schedule changes.
 
 Individuals unable to attend this session may be interested in
 
-* <del>RRRMC Skywarn Class</del>
-* <del>Sabin Skywarn Class</del>
+* ~~RRRMC Skywarn Class~~
+* ~~Sabin Skywarn Class~~
