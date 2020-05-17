@@ -7,14 +7,11 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "West Fargo SKYWARN Class"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
+status = "postponed"
 +++
-{{< banner >}}
-<span style="color:red;">This class may by postponed due to the COVID-19
-pandemic.</span>
-<br><br>Please monitor the 
+Please monitor the 
 [NWS Fargo Grand Forks 2020 Spotter Training Sessions](https://www.weather.gov/fgf/skywarn)
-calendar for schedule changes.
-{{< /banner >}}
+calendar for more information.
 
 * Presented by the National Weather Service
 * Sponsored by the [Red River Radio Amateurs](/)
