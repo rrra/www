@@ -1,14 +1,15 @@
 +++
 date = "2020-05-15T07:15:00-05:00"
-title = "May 11 Net Check-In Comparison"
+title = "May 10 Net Check-In Comparison"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "ARES" ]
+aliases = [ "/post/2020/05/15/may-11-net-check-in-comparison/" ]
 +++
 
 Compare your signal strength, voice quality, and *PTT technique* to your fellow
 operators with this [recording from the
-May 11, 2020, Sunday Night UHF/VHF Net](https://cloud.rrra.org/index.php/s/JEHfz9Ei5F24H4f)
+May 10, 2020, Sunday Night UHF/VHF Net](https://cloud.rrra.org/index.php/s/JEHfz9Ei5F24H4f)
 
 Check-ins missing a portion of the first word indicate that insufficient
 time was allowed between the operator pressing their PTT button and
