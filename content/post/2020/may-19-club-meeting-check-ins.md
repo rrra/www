@@ -3,7 +3,6 @@ date = "2020-05-21T11:10:00-05:00"
 title = "May 19 Club Meeting Check-In Comparison"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
-tags = [ "" ]
 +++
 Compare your signal strength, voice quality, and *PTT technique* to your fellow
 operators with this [recording from the May 19, 2020, On-Air Club Meeting](/s/DFCfAnfc6TDx3jf)
