@@ -9,6 +9,5 @@ sponsor = "[Twin City FM Club](http://tcfmc.org)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 status = "postponed"
+expiryDate = "2020-06-01"
 +++
-Please visit the [RRRA calendar listing for the rescheduled TCFMC Spring Tailgate Swap Fest page]({{< relref "/calendar/2020/spring-tailgate-hamfest.md" >}})
-for more details.
