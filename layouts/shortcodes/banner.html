@@ -8,6 +8,9 @@ Named Arguments:
 
 "body" - banner body; overridden by .Inner if closing tag is used
 
+"class" - will be added to the banner div class definition
+	Most useful value here is "alert" for a red banner
+
 */}}
 
 {{ $scratch := newScratch }}
@@ -23,8 +26,15 @@ Named Arguments:
 	{{ end }}
 {{ end }}
 
+{{ with .Get "class" }}
+	{{ $scratch.Set "class" " " }}
+	{{ $scratch.Add "class" ( . ) }}
+{{ else }}
+	{{ $scratch.Set "class" "" }}
+{{ end }}
+
 {{ if lt ( $scratch.Get "banner" ) " " }}
-	<div class="banner clear">
+	<div class="banner clear{{ $scratch.Get "class"}}">
 		{{ $scratch.Get "banner" | markdownify }}
 	</div>
 	<p class="clear"></p>
