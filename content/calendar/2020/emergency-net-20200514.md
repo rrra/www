@@ -3,9 +3,8 @@ date = "2020-05-14T14:00:00-05:00"
 publishDate = "2020-05-13T14:00:00-05:00"
 endTime = ""
 location = ""
-ncs = [ "WC0G" ]
+ncs = [ "KE0LDS" ]
 title = "Emergency Net"
 categories = [ "Public Service" ]
 dates = [ "NCS Schedule", "Hidden" ]
-aliases = [ "/cal/2020/05/08/ares-net/" ]
 +++
