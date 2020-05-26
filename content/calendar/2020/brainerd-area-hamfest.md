@@ -11,5 +11,5 @@ outputs = [ "HTML", "Calendar" ]
 status = "postponed"
 +++
 Please visit the
-[Brainerd Area Amateur Radio Club website](https://brainerdham.org/),
-more details.
+[Brainerd Area Amateur Radio Club website](https://brainerdham.org/)
+for more details.
