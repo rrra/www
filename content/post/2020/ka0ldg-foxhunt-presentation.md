@@ -1,7 +1,7 @@
 +++
 date = "2020-06-14T13:36:57-05:00"
 #publishdate = "2020-06-14T13:36:57-05:00"
-title = "2020 KA0LDG Foxhunt Presentation in Sabin"
+title = "KA0LDG Foxhunt Presentation in Sabin"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "fox-hunting" ]
@@ -37,6 +37,19 @@ review the presented material.
 * Misc.
 * What the "Pros" use(d)
 * Questions
+
+### Foxhunting Resources
+
+* [Build it: 2 meter Tape Measure Yagi Beam Antenna](https://www.jpole-antenna.com/2017/02/07/build-it-2-meter-tape-measure-yagi-beam-antenna/) (KB9VBR)
+* [Direction Finding](http://www.arrl.org/direction-finding) (ARRL)
+* [Fox hunt ham radio hidden transmitter hunting](https://www.youtube.com/watch?v=eQSiTqH9Dzw) (Youtube / HamRadioConcepts)
+* [Fox Hunting](https://kc9on.com/ham-radio/fox-hunting/) (3rd Planet Solar / KC9ON)
+* [Fox Hunt Offset Attenuator Kit](https://kc9on.com/product/fox-hunt-offset-attenuator/) (3rd Planet Solar / KC9ON)
+* [Homing In---The Art and Science of Radio Direction Finding \(RDF\)](http://www.homingin.com/)
+* [Links for RDF, T-hunting, and Radio-Orienteering](http://www.homingin.com/links.html) (Homing In)
+* [My Offset Attenuator Project](https://nt1k.com/my-offset-attenuator-project/) (NT1K)
+* [Tape Measure Beam Optimized For Radio Direction Finding](http://theleggios.net/wb2hol/projects/rdf/tape_bm.htm) (WB2HOL)
+
 
 ### Do you want to know more?
 
