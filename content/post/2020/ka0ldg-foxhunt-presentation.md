@@ -1,19 +1,20 @@
 +++
 date = "2020-06-14T13:36:57-05:00"
 #publishdate = "2020-06-14T13:36:57-05:00"
-title = "KA0LDG Foxhunt Presentation in Sabin"
+title = "KA0LDG Foxhunt Presentation Slides"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "fox-hunting" ]
+aliases = [ "/post/2020/06/14/ka0ldg-foxhunt-presentation-in-sabin/" ]
 +++
-On Saturday, June 13, 2020, {{< mailto KA0LDG >}} presented a Foxhunting workshop
-in the Sabin, MN, Fire Hall.
+{{< mailto KA0LDG >}} has shared a PDF copy of the slides from his
+Foxhunting workshop in the **Training and Education | Presentations**
+shared folder on the [RRRA File Server](https://cloud.rrra.org). These
+slides are a great resource for those who were unable to attend the
+workshop and attendees who wish to review the presented material.
 
-A PDF copy of his presentation slides is available for download in the
-**Training and Education | Presentations** shared folder on the
-[RRRA File Server](https://cloud.rrra.org). These slides are a great resource
-for those who were unable to attend the workshop and attendees who wish to
-review the presented material.
+This Foxhunting Workshop was presented in the Sabin, MN, Fire Hall on
+Saturday, June 13, 2020,
 
 <!--more-->
 
