@@ -7,6 +7,7 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "June Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
+status = "on w0ilo"
 +++
 <!--
 Please join us at
