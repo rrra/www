@@ -1,7 +1,7 @@
 +++
 date = "2020-06-16T14:30:52-05:00"
 #publishdate = "2020-06-16T14:30:52-05:00"
-title = "Arrl Announces Updated Features on Contest Portal"
+title = "ARRL Announces Updated Features on Contest Portal"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "ARRL", "contesting" ]
