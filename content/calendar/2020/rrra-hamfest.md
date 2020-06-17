@@ -10,9 +10,8 @@ categories = [ "Hamfest" ]
 dates = [ "Hamfest" ]
 aliases = [ "/cal/2020/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
+status = "canceled"
 +++
-{{< banner >}}
-Bookmark https://hamfest.rrra.org/ and
-[subscribe to our Hamfest Announcements mailing list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
-to stay informed about the largest Hamfest in North Dakota!
-{{< /banner >}}
+The 2020 RRRA Hamfest has been canceled due to the COVID-19 pandemic.
+
+See you next year!
