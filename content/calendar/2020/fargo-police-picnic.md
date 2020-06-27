@@ -8,6 +8,7 @@ publishDate = "2020-05-01"
 contact = "KC0ODE"
 dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
+status = "canceled"
 +++
 {{< banner >}}                                                                                                                                                                            
 <span style="color:red;">This event is tentative to the COVID-19 pandemic.</span>
