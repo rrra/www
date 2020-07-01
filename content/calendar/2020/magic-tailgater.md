@@ -8,8 +8,8 @@ title = "MAGIC Tailgater"
 sponsor = "[Minnesota Amateur Group of Independent Communicators](http://www.magicrepeater.net/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
+status = "canceled"
 +++
 More information about this Hamfest is available at:
 
-* [ARRL M.A.G.I.C Tailgate page](http://www.arrl.org/hamfests/m-a-g-i-c-tailgate-1)
 * [Magic Yard Sale page](http://www.magicrepeater.net/fest.htm) 
