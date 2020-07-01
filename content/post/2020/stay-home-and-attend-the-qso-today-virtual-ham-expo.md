@@ -1,7 +1,7 @@
 +++
 date = "2020-07-01T11:47:17-05:00"
 #publishdate = "2020-07-01T11:47:17-05:00"
-title = "Stay Home and Attend QSO Today Virtual Ham Expo 2020"
+title = "Stay Home and Attend the QSO Today Virtual Ham Expo for 2020"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "Hamfest", "Podcast" ]
