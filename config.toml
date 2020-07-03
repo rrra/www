@@ -11,6 +11,10 @@ preserveTaxonomyNames = true
 description = "News from the Red River Radio Amateurs"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
+# Added at v0.60
+[markup.goldmark.renderer]
+unsafe= true
+
 [author]
 	email = "webmaster@rrra.org"
 	name = "K0STK"
