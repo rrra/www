@@ -8,6 +8,8 @@ title = "July Testing Session"
 dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
 categories = [ "License Testing" ]
+status = "canceled"
 +++
-{{% bring %}}
-{{% status %}}
+Our next License Testing Session is listed on the
+[RRRA License Testing Dates index](/dates/license-testing/) and will be
+published in the *Upcoming Events* section of our homepage on July 22, 2020.
