@@ -2,12 +2,10 @@
 date = "2020-07-16T10:27:42-05:00"
 #publishdate = "2020-07-16T10:27:42-05:00"
 title = "RRRA Meeting On-The-Air for July 2020"
-authors = [ "K0STK" ]
+authors = [ "W0JPJ" ]
 categories = [ "Membership" ]
 tags = [ "COVID-19" ]
-draft = "true"
 +++
-
 The
 [July 2020 RRRA Business Meeting]({{< relref "/calendar/2020/july-meeting.md" >}})
 will be held on the [W0ILO Repeater System](/radios/)
