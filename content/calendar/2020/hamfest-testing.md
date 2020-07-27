@@ -8,10 +8,5 @@ title = "Hamfest Testing Session"
 dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
 categories = [ "License Testing" ]
+status = "canceled"
 +++
-Earn your first Amateur Radio license, or an upgrade, at the
-[2020 RRRA Hamfest & ARRL Dakota Division Convention]({{< relref "/calendar/2020/rrra-hamfest.md" >}}).
-
-{{% bring %}}
-{{% status %}}
-
