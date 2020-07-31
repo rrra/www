@@ -5,11 +5,11 @@ authors = [ "K0STK" ]
 categories = [ "Education" ]
 +++
 Compare your signal strength, voice quality, and *PTT technique* to your fellow
-operators with this [recording from the june 21, 2020, On-Air Club Meeting](/s/MPG7GxWe6ZNo3BJ)
+operators with this [recording from the June 21, 2020, On-Air Club Meeting](/s/MPG7GxWe6ZNo3BJ)
 
-Check-ins missing a portion of the first word indicate that insufficient
-time was allowed between the operator pressing their PTT button and
-starting to speak.
+Check-ins missing an inital portion of the transmission indicate that
+insufficient time was allowed between the operator pressing their PTT
+button and starting to speak.
 
 <!--more-->
 
