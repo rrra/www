@@ -15,12 +15,12 @@ Clay County, Minnesota:
 
 >The CodeRED emergency alert system for Cass County ND and Clay County
 >MN will be discontinued on September 1, 2020. It is being replaced with
->[Cass Clay Alerts](https://cassclayalerts.gov), powered by Everbridge.
+>[Cass Clay Alerts](http://cassclayalerts.gov), powered by Everbridge.
 >
 >Subscriber information will not be automatically transferred to the
 >new system. To continue receiving local emergency notifications
 >you must register with Cass Clay Alerts. Please sign up online at
->[www.cassclayalerts.gov](https://cassclayalerts.gov)
+>[www.cassclayalerts.gov](http://cassclayalerts.gov)
 >
 >If you need assistance signing up, you may contact FirstLink by dialing
 >[2-1-1](tel:211) <span class="genericon genericon-phone"></span> [^1]
@@ -30,10 +30,10 @@ Center, received August 5 2020.
 
 Anyone who wishes to receive emergency notifications for Cass & Clay Counties
 after September 1, 2020, must visit
-[www.cassclayalerts.gov](https://cassclayalerts.gov) or
-[www.cassclayalerts.com](https://cassclayalerts.com) 
+[www.cassclayalerts.gov](http://cassclayalerts.gov) or
+[www.cassclayalerts.com](http://cassclayalerts.com) 
 to sign up for
-[Cass Clay Alerts](https://cassclayalerts.gov).
+[Cass Clay Alerts](http://cassclayalerts.gov).
 **CodeRED subscriptions will not be transfered to CassClayAlerts.**
 
 Smartphone users will be prompted to install the Everbridge app---available
