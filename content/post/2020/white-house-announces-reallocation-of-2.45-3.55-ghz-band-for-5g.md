@@ -16,6 +16,9 @@ to our hobby.
 
 [^1]: "US frees up midband spectrum for 5G", Advanced Television, accessed August 10 2020, https://advanced-television.com/2020/08/11/us-frees-up-midband-spectrum-for-5g/.
 
+In an FCC News Release dated August 10, 2020, Chairman Pai issued this
+statement:
+
 >I commend the President and Department of Defense for today's
 >announcement that the 3.45--3.55 GHz band will be made available for commercial
 >5G deployment.  This is a key milestone in securing United States leadership
