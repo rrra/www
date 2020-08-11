@@ -6,13 +6,17 @@ authors = [ "K0STK" ]
 categories = [ "Technical"]
 tags = [ "AREDN", "FCC" ]
 +++
-"The White House and US Department of Defense (DOD) have revealed that the 3.45-3.55 GHz band will be made available for 5G, a move that has been welcomed by FCC Chairman Ajit Pai." [^1]
+"The White House and US Department of Defense (DOD) have revealed that
+the 3.45-3.55 GHz band will be made available for 5G, a move that has
+been welcomed by FCC Chairman Ajit Pai." [^1] This reallocation is a 25%
+loss of [9cm band spectrum](http://www.arrl.org/frequency-allocations)
+to our hobby.
 
 <!--more-->
 
 [^1]: "US frees up midband spectrum for 5G", Advanced Television, accessed August 10 2020, https://advanced-television.com/2020/08/11/us-frees-up-midband-spectrum-for-5g/.
 
->"I commend the President and Department of Defense for today's
+>I commend the President and Department of Defense for today's
 >announcement that the 3.45--3.55 GHz band will be made available for commercial
 >5G deployment.  This is a key milestone in securing United States leadership
 >in 5G.  I also would like to thank FCC staff for their work to help create a
@@ -21,14 +25,12 @@ tags = [ "AREDN", "FCC" ]
 >band, we are now on track to have a 530-megahertz swath of mid-band spectrum
 >available for 5G from 3.45 to 3.98 GHz.  The FCC looks forward to moving
 >quickly to adopt service rules for the 3.45 GHz band and then hold an auction
->to bring this prime mid-band spectrum to market." [^2]
+>to bring this prime mid-band spectrum to market. [^2]
 
 [^2]: "Chairman Pai Statement On The Administration Announcement Freeing Up 3.45-3.55 GHz Band For 5G", Federal Communications Commission, accessed August 10 2020, https://docs.fcc.gov/public/attachments/DOC-366068A1.pdf.
 
-Amateur Radio in the United States currently has a 
-[200 MHz allocation from 3.3--3.5 GHz](http://www.arrl.org/frequency-allocations).
-The reallocation announced today is a 25% loss of 9cm band spectrum to our
-hobby.
+[Remarks by President Trump on United States 5G Deployment](https://www.whitehouse.gov/briefings-statements/remarks-president-trump-united-states-5g-deployment/)
+have been published on-line by the White House.
 
 The FCC News Release is available in multiple formats on the [FCC Chairman Pai on Administration Freeing Up 3.45-3.55 GHz Band for 5G page](https://www.fcc.gov/document/chairman-pai-administration-freeing-345-355-ghz-band-5g).
 
