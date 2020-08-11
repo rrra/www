@@ -6,7 +6,7 @@ name = "Vincent A Dolva"        # Full name with middle initial
 photocredit = "" # Defaults to obituary
 obituary = "Wright Funeral Home"    # Name of obituary source
 obitLink = "https://www.wrightfuneral.com/obituary/vincent-a-dolva/"    # Link to on-line obituary page
-silentkeyhq = "" # silentkeyhq UID for this SK
+silentkeyhq = "0051596654952039" # silentkeyhq UID for this SK
 title = "W0GP"
 created = "2020-08-05T14:27:27-05:00"
 +++
