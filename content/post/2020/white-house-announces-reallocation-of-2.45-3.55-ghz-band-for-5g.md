@@ -51,5 +51,5 @@ The FCC News Release is available in multiple formats on the [FCC Chairman Pai o
 * [DOD Releases Prime Airwaves for Commercial 5G Networks](https://www.nextgov.com/emerging-tech/2020/08/dod-releases-prime-airwaves-commercial-5g-networks/167594/) (Nextgov, 2020-08-10)
 * [ARRL Opposes FCC Plan to Delete the 3.4 GHz Band](http://www.arrl.org/news/view/arrl-opposes-fcc-plan-to-delete-the-3-4-ghz-band) (ARRL, 2020-02-25)
 * [FCC Formally Adopts Proposals to Remove Amateur 3-GHz Band, Invites Comments](http://www.arrl.org/news/view/fcc-formally-adopts-proposals-to-remove-amateur-3-ghz-band-invites-comments) (ARRL, 2019-12-17)
-* [FCC to propose elimination of 3.3-- 3.5 GHz amateur allocation](https://www.kb6nu.com/fcc-to-propose-elimination-of-3-3-3-5-ghz-amateur-allocation/) (KB6NU, 2019-11.27)
+* [FCC to propose elimination of 3.3-- 3.5 GHz amateur allocation](https://www.kb6nu.com/fcc-to-propose-elimination-of-3-3-3-5-ghz-amateur-allocation/) (KB6NU, 2019-11-27)
 * [ARRL to Oppose Proposal to Eliminate 3.3-- 3.5 GHz Amateur Allocation](http://www.arrl.org/news/arrl-to-oppose-proposal-to-eliminate-3-3-3-5-ghz-amateur-allocation) (ARRL, 2019-11-25)
