@@ -4,7 +4,6 @@ aliases = [
 	"/our_mission.html",
 	"/mission_statement.html"
 ]
-date = "2015-11-19T08:24:22-06:00"
 title = "RRRA Mission Statement"
 
 +++

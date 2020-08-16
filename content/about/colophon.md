@@ -1,7 +1,5 @@
 +++
-date = "2015-12-08T14:03:37-06:00"
 title = "Colophon"
-
 +++
 [<img id="hugo-badge" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" title="A fast & modern static website engine"  alt="Webbadge for Hugo" />](http://gohugo.io)
 [<img id="markdown-badge" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" title="Plain text formatting syntax" alt="Webbadge for Markdown" />](https://en.wikipedia.org/wiki/Markdown)
@@ -24,19 +22,16 @@ two-column Hugo theme based on the
 of the same name.
 
 Source for this website is managed with
-[git](http://www.git-scm.com/). Our
-[public repository](http://github.com/rrra/www) is stored on
-[GitHub](https://github.com/).
+[git](http://www.git-scm.com/) and is stored in a
+[public GitHub repository](http://github.com/rrra/www).
 Additions, updates, and corrections are welcome via a
 [pull request](https://help.github.com/articles/creating-a-pull-request/) or
 via email to the {{< webmaster >}}.
-
-This website features a [Blank Page](/blankpage.html) according to the
-recommendations of the
-[TPILB-Project](http://www.this-page-intentionally-left-blank.org/). 
 
 The web-badges used on this site are
 &copy;2012--{{< year >}} {{< mailto K0STK >}}
 and are based on
 [Adam Kalsey's Button Maker](http://kalsey.com/tools/buttonmaker/).
 
+This website features a [Blank Page](/blankpage.html) to commemorate the
+[TPILB-Project](https://web.archive.org/web/20180224043144/http://www.this-page-intentionally-left-blank.org/whythat.html).

@@ -1,7 +1,6 @@
 +++
-title = "Online Media and Hosting"
-date = "2017-11-05T19:20:00-06:00"
-aliases = [ "about/hosting/" ]
+title = "Online Media Contact and Information"
+aliases = [ "/about/hosting/", "/about/online-media-and-hosting/" ]
 +++
 * [Online Media Contact Address](#online-media-contact-address)
 * [Social Media](#social-media)

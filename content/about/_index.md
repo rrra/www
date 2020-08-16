@@ -1,5 +1,4 @@
 +++
-date = "2015-11-21T10:15:34-06:00"
 title = "About Our Club"
 linktitle = "About<span style=\"display:none;\"> Our Club</span>"
 description = "Information about the RRRA: board of directors, bylaws, contact addresses, how to join, how to make a tax deductible donation, mission statement, and more ..."
@@ -18,7 +17,8 @@ support and
 * [Club Meetings](/dates/business-meetings)
 * [Contact Information]({{< relref "/about/contact.md" >}})
 * [Mission Statement]({{< relref "/about/mission.md" >}})
-* [Online Media and Hosting]({{< relref "/about/online-media-and-hosting.md" >}})
+* [Online Media Contact and Information]({{< relref "/about/online-media" >}})
+* [Webmaster History]({{< relref "/about/webmasters.md" >}})
 
 ## Join Our Club
 
