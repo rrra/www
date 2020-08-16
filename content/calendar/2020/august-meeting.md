@@ -7,4 +7,5 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "August Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
+status = "on w0ilo"
 +++
