@@ -8,8 +8,7 @@ title = "SMARTSFEST"
 sponsor = "[SMARTS Radio Club](http://www.smartsonline.org/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
+status = "canceled"
 +++
-More information about this Hamfest is available at:
-
-* [SMARTFEST Website](http://smartsfest.org/)
-* [ARRL SMARTSFEST page](http://www.arrl.org/hamfests/smartsfest-4)
+Please visit the SMARTFEST Website](http://smartsfest.org/) for more
+information about this cancellation.
