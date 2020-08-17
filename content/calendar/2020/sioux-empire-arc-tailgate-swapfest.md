@@ -9,7 +9,10 @@ sponsor = "[Sioux Empire Amateur Radio Club](http://www.w0zwy.org/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-<span class="genericon genericon-warning"></span> **Times are unconfirmed**
 
 Please visit the [ARRL Sioux Empire ARC Tailgate Swapfest page](http://www.arrl.org/hamfests/sioux-empire-arc-tailgate-swapfest-1)
 for more information.
+
+SEARC Swap Meet http://www.w0zwy.org/?p=400
+
+Flyer http://w0zwy.org/wp-content/uploads/2020/06/Tailgate-flyer2020-1.pdf

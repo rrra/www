@@ -10,5 +10,5 @@ dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 status = "canceled"
 +++
-Please visit the SMARTFEST Website](http://smartsfest.org/) for more
+Please visit the [SMARTFEST Website](http://smartsfest.org/) for more
 information about this cancellation.
