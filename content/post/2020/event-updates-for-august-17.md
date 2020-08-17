@@ -70,3 +70,4 @@ September 18, 2021.
 Please visit the [SMARTSFEST page](https://smartsfest.org/) for the
 official statement concerning this cancellation.
 
+{{< figure src="https://smartsonline.org/wp-content/uploads/2020/08/SMARTSFEST-2020-FB-Event-Canceled.png" alt="SMARTSFEST 2020 Canceled" link="http://smartsfest.org" attr="SMARTS Radio Club" attrlink="http://www.smartsonline.org/" >}}
