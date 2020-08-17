@@ -24,10 +24,12 @@ and no seperate ARES Meeting will be conducted:
 * [August ARES Meeting---CANCELED]({{< relref "/calendar/2020/august-ares-meeting.md" >}})
 * [August Club Meeting---ON W0ILO]({{< relref "/calendar/2020/august-meeting.md" >}})
 
+{{< banner >}}
 Club members are encouraged to visit the **Committee and Officers
 Reports** folder on the [RRRA Groupware system](https://cloud.rrra.org/)
 to review the August reports (e.g. July Minutes, Treasurer's report)
 before the meeting.
+{{< /banner >}}
 
 A public copy of the July Minutes has been published at
 https://rrra.org/post/2020/08/11/july-2020-business-meeting-minutes/
