@@ -11,6 +11,5 @@ outputs = [ "HTML", "Calendar" ]
 +++
 :warning: **Times are unconfirmed**
 
-More information about this Hamfest is available at:
-
-* [ARRL ARAC Hamfest page](http://www.arrl.org/hamfests/arac-hamfest-15)
+More information about this Hamfest is available on the
+[ARRL ARAC Hamfest page](http://www.arrl.org/hamfests/arac-hamfest-15).
