@@ -5,6 +5,6 @@ endTime = ""
 location = ""
 title = "UHF VHF Net 33"
 categories = [ "Public Service" ]
-tags = [ "ARES" ]
+tags = [ "" ]
 dates = [ "NCS Schedule" ]
 +++
