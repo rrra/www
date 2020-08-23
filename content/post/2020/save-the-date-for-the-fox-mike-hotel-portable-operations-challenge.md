@@ -10,7 +10,8 @@ There's a new contest debuting October 3--4, 2020 for portable Amateur
 Radio Operators, and those living under onerous HOA restrictions
 or the realities of limited real estate: the
 [*Portable Operations Challenge*](http://foxmikehotel.com/challenge) (POC).
-Interested operators are encouraged to add this event to their calendars.
+Potential participants are encouraged to add this event to their calendars and
+review the [Operator Resources]({{< relref "/post/2020/save-the-date-for-the-fox-mike-hotel-portable-operations-challenge.md#operator-resources" >}}).
 
 <!--more-->
 
@@ -71,6 +72,9 @@ This limit is also discussed on page 1 of the
 [POC rules document](https://foxmikehotel.com/wp-content/uploads/2020/08/POC-rules-v1.04.pdf).
 
 ### Operator Resources
+
+This information is hidden under the POC "tab" on the
+[Portable Operations Challenge](http://foxmikehotel.com/challenge) page:
 
 * [Rules and Scoring](https://foxmikehotel.com/poc-rules-and-scoring/)
 * [Rules Document](https://foxmikehotel.com/wp-content/uploads/2020/08/POC-rules-v1.04.pdf)
