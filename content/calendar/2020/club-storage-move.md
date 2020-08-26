@@ -9,6 +9,8 @@ contact = "W0HNV"
 dates = [ "Membership" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-Please read
+Club equipment will be moved to a new storage location.
+
+Please view
 [W0HNV's announcement](https://lists.rrra.org/pipermail/rrra/2020-August/000907.html)
 for more information.
