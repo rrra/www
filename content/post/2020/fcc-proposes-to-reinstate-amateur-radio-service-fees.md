@@ -14,11 +14,9 @@ tags = [ "FCC", "Regulatory" ]
 >such as changes of address, and annual regulatory fees.[^1]
 
 The proposed charges:
-
 <!--more-->
-
 * Application for new license: $50
-* Licenses modification (e.g. upgrades): $50
+* License modification (e.g. upgrades): $50
 * License renewal: $50
 * Vanity application: $50
 * Administrative update (address change, etc.): free
