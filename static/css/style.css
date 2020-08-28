@@ -1130,7 +1130,7 @@ span + .edit-link:before,
 	margin-bottom: 48px;
 }
 
-#list {
+[id^="list"] {
 	padding-bottom: 2em;
 }
 
@@ -3422,11 +3422,18 @@ div.entry-summary .footnote-ref a {
 		left: 32px;
 		font-size: 110%;
 	}
+
+	/* Definition list used for events and things */
 	dt.twocol { clear: both; font-weight: bold; float: left; margin-bottom: 0.4em }
 	dt.twocol.header { width: 10em; background-color: #e1ede2; padding-left: 0.4em;}
 	dd.twocol { margin: 0 0 0.4em 10.6em; }
 	dd.sameday { clear: both; margin-left: 10.5em; margin-bottom: 0.4em; }
-	dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 10em; }
+
+	/* Overrides for NCS assignment list */
+	[id*="-ncs"] dt.twocol { width: 6em; }
+	[id*="-ncs"] dd.twocol, [id*="-ncs"] dd.sameday { margin-left: 6em; }
+	dd.twocol div.ncs { float: right; width: 12em; }
+	dd.sameday div.ncs { float: right; width: 12em; }
 
 	ul.pagination {
 		list-style-type: none;

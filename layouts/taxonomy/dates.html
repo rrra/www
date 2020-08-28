@@ -42,7 +42,7 @@
 				{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
 					{{ if or ($edu) (ge .Key $thisyear) }}	
 						<h3>{{ .Key }}</h3>
-						<dl id="list">
+						<dl id="list-{{ .Key }}{{ if eq ( $.Scratch.Get "li" ) "ncsdli" }}-ncs{{ end }}">
 						{{ range .Pages.Reverse }}
 							{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
 								{{ .Render "sameday-dates" }}
