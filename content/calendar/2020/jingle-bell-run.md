@@ -5,8 +5,6 @@ publishDate = "2020-01-21T01:00:00-06:00"
 title = "Jingle Bell Run"
 contact = "KC0GQE"
 dates = [ "Public Service" ]
+status = "canceled"
 +++
-Volunteers should meet at the fireplace in the lobby to obtain their
-assignments. The race starts at 9:00 AM and should be over by 1PM.
-
-Be prepared to operate 2M simplex.
+[The 2020 Jingle Bell Run has been modified into a Virtual Event](https://events.arthritis.org/index.cfm?fuseaction=donorDrive.event&eventID=1100)

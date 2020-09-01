@@ -8,4 +8,5 @@ title = "September ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 tags = [ "ARES" ]
+status = "canceled"
 +++
