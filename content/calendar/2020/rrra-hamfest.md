@@ -14,4 +14,4 @@ status = "canceled"
 +++
 The 2020 RRRA Hamfest has been canceled due to the COVID-19 pandemic.
 
-See you next year!
+[See you next year!](https://hamfest.rrra.org/2021)
