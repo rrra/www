@@ -18,14 +18,14 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 | Secretary      | {{< mailto secretary name >}} |
 | Treasurer      | {{< mailto treasurer name >}} |
 
-#### At-Large
+#### At-Large Members
 
 | Tenure         |                              |
 | -------------- | ---------------------------- |
 | 2020--2022     | {{< mailto atlarge1 name >}} |
 | 2019--2021     | {{< mailto atlarge2 name >}} <br> (Assumed in 2020) |
 
-#### Ex-officio
+#### Ex-officio Members
 
 | Position       |                                  |
 | -------------- | -------------------------------- |
