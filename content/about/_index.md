@@ -18,6 +18,7 @@ support and
 * [Contact Information]({{< relref "/about/contact.md" >}})
 * [Mission Statement]({{< relref "/about/mission.md" >}})
 * [Online Media Contact and Information]({{< relref "/about/online-media" >}})
+* [Repeater Trustees]({{< relref "/about/contact.md#trustees" >}})
 * [Webmaster History]({{< relref "/about/webmasters.md" >}})
 
 ## Join Our Club

@@ -29,7 +29,7 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 #### Trustees
 
 * **KC0KAE**: {{< mailto N0RF name >}}
-* **W0ILO**: {{< mailto N0RF name >}}
+* **W0ILO**: {{< mailto W0JPJ name >}}
 
 ### Mailing Address {#mailing-address}
 
