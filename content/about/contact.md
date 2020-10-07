@@ -40,7 +40,7 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 ### Mailing Address {#mailing-address}
 
-{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" %}}
+{{< hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" >}}
 
 ### Questions, Comments, and Issue Reports {#reports}
 

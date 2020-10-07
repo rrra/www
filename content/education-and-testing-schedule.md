@@ -18,7 +18,7 @@ presented by one of RRRA's experienced instructors.
 
 These classes are held Wednesday evenings, from 7:00pm to 9:00pm, on the
 3rd floor of the
-{{% hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" %}},
+{{< hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" >}},
 and run for 6 to 10 weeks.
 
 **There is no charge for instruction; however a
