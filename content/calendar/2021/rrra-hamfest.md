@@ -12,7 +12,7 @@ aliases = [ "/cal/2021/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 {{< banner >}}
-Bookmark https://hamfest.rrra.org/ and
+Bookmark https://hamfest.rrra.org/2021 and
 [subscribe to our Hamfest Announcements mailing list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
-to stay informed about the largest Hamfest in North Dakota!
+to stay informed about North Dakota's largest Hamfest in 2021!
 {{< /banner >}}

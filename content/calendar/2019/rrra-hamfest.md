@@ -52,7 +52,7 @@ Time |      |
 Time |      |
 -----|------|
 7AM | Flea Market setup in Main Hall
- | Light Breakfast served in the lobby of the Hartl Building
+&nbsp; | Light Breakfast served in the lobby of the Hartl Building
 8AM | Flea Market opens
 9AM | Seminars begin
 10AM | License Testing begins
