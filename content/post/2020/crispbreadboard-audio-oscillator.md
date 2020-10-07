@@ -7,8 +7,8 @@ categories = [ "Technical" ]
 tags = [ "Homebrew", "Humor" ]
 moretext = "Watch The Video"
 +++
-Australian Amateur Radio Operator [VK3YE](https://www.hamqth.com/vk3ye) has
-posted a novel audio oscillator design to
+Australian Amateur Radio Operator [VK3YE](https://www.hamqth.com/vk3ye) 
+presents a novel audio oscillator design on
 [his YouTube channel](https://www.youtube.com/channel/UCPhfct0hwCpv_q6_BVSFsRA).
 It's an easy to build, low parts count, project; weatherproofing considerations
 are left to the builder.
