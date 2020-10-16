@@ -32,7 +32,7 @@
 						{{ $test := printf "|%s|" ( lower $value.Name ) }}
 						{{ if not ( in  ( $scratch.Get "sk" ) $test ) }}
 							<dt class="twocol" style="width:10em;">{{ .Page.Title }}</dt>
-							<dd class="twocol"><a href="{{ $value.Name }}">{{ $value.Count }} nets</a></dd>
+							<dd class="twocol"><a href="{{ $value.Name }}">{{ $value.Count }} net{{ if ne 1 $value.Count }}s{{ end }}</a></dd>
 						{{ end }}
 					{{ end }}	
 				</dl>
