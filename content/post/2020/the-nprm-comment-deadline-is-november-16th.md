@@ -7,7 +7,10 @@ categories = [ "Outreach" ]
 tags = [ "FCC" ]
 weight = -1
 +++
-{{< figure src="https://i.redd.it/1rgeb6ap3yt51.jpg" attr="/r/AmateurRadio/" attrlink="https://www.reddit.com/r/amateurradio/comments/jdrn80/now_is_the_time_to_comment_if_you_have_an_opinion/" alt="NPRM 20-270 express comenting infographic" >}}
+{{< figure src="https://i.redd.it/1rgeb6ap3yt51.jpg" link="https://i.redd.it/1rgeb6ap3yt51.jpg" attr="/r/AmateurRadio/" attrlink="https://www.reddit.com/r/amateurradio/comments/jdrn80/now_is_the_time_to_comment_if_you_have_an_opinion/" alt="NPRM 20-270 express comenting infographic" >}}
+
+Express Comment Form :arrow_forward: https://www.fcc.gov/ecfs/filings/express
+
 <!--more-->
 
 ### Writing Ideas
