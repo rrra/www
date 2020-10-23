@@ -3016,7 +3016,7 @@ p.clear { clear: both; }
 	box-sizing:         border-box;
 	position: relative;
 	width: 100%;
-	padding: 24px 24px;
+	padding: 24px 24px 0px 24px;
 	border-top: thin solid;
 	border-bottom: thin solid;
 }
@@ -3024,10 +3024,6 @@ p.clear { clear: both; }
 .alert {
   color: red;
 	text-align: center;
-}
-
-div.alert p {
-	margin-bottom: 0;
 }
 
 /**
