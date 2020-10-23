@@ -5,7 +5,6 @@ title = "Cass County ID Badges"
 authors = [ "K0STK" ]
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
-weight = -1
 +++
 Instructions for requesting an ID Badge are available in the
 [RRRA File Server](https://cloud.rrra.org/) (AKA *the cloud*) **ARES Folder**.
