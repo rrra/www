@@ -35,7 +35,12 @@ Named Arguments:
 
 {{ if lt ( $scratch.Get "banner" ) " " }}
 	<div class="banner clear{{ $scratch.Get "class"}}">
-		{{ $scratch.Get "banner" | markdownify }}
+		{{ $markdown := $scratch.Get "banner" | markdownify }}
+		{{ if not ( strings.Contains $markdown "<p>" ) }}
+			<p>{{ $markdown }}</p>
+		{{ else }}
+			{{ $markdown }}
+		{{ end }}
 	</div>
 	<p class="clear"></p>
 {{ end }}
