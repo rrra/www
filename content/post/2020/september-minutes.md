@@ -25,12 +25,12 @@ minutes document (2020-09 Minutes.docx) may be found in the
 
 ### Secretary's Report
 
-Last month's minutes are available on the club website and on the cloud
-website. No corrections reported.
+Jake K0RQ reported that last month's minutes are available https://rrra.org/minutes
+and at https://cloud.rrra.org. Some corrections reported.
 
 ### Treasurer's Report
 
-The Treasurer's Report is available on the cloud website.
+Lori KC0GQE reported the Treasurer's Report is available at https://cloud.rrra.org
 
 ### Librarian's Report
 
@@ -49,7 +49,7 @@ drill in the future.
 #### Clay RRRAES
 
 Jarod W0JPJ reported that FM Ambulance was looking at donating radios to
-the club... contact Jarod or Seth KC0ODE for more information.
+the club. Contact Jarod or Seth KC0ODE for more information.
 
 #### Technical
 
@@ -75,18 +75,18 @@ sessions can be arranged upon request.
 
 #### Media
 
-Steve K0STK's report is available on the cloud website. Meeting minutes
-are always uploaded in plain text to the website and in word processor
-form on the cloud website. Any questions about the website or listserver
-please contact webmaster@rrra.org.
+Steve K0STK's report is available at https://cloud.rrra.org. Meeting
+minutes are published as HTML at rrra.org and in word processor format
+at cloud.rrra.org. Please contact webmaster@rrra.org with any questions
+about RRRA online services.
 
 ### Old Business
 
 #### Club Christmas Party
 
-With the increasing numbers there is question as to whether the
-Christmas party should take place. Steve K0STK will put out a
-SurveyMonkey survey to gather more information and discuss further at
+With the increasing numbers of COVID cases there is question as to
+whether the Christmas party should take place. Steve K0STK will put out
+a SurveyMonkey survey to gather more information and discuss further at
 next month's meeting.
 
 ### New Business
