@@ -8,5 +8,9 @@ slug = ""
 description = ""
 
 +++
-{{< instagram "BUQQYJ_jLus" >}}
+{{< banner class="alert" >}}
+Unable to embed content.
+
+Please [view this post on Instagram](https://www.instagram.com/p/BUQQYJ_jLus/?utm_source=ig_embed&utm_campaign=loading)
+{{< /banner >}}
 <!--more-->
