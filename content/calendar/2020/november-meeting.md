@@ -14,17 +14,4 @@ RRRA will not meet in-person this month due to ongoing concerns
 about the COVID-19 Pandemic.
 {{< /banner >}}
 
-Club members are encouraged to visit the *Committee and Officers
-Reports* folder on the RRRA Groupware System (https://cloud.rrra.org/)
-to review reports for this month (e.g. October minutes, treasurer's
-report) before the meeting.
-
-A public copy of the October Minutes will be published on this website
-before the November meeting for the convenience of non-members and those
-with issues accessing the club's Groupware system.
-
-An archive of [RRRA Business Meeting Minutes](/categories/minutes/)
-(since November 2015) is available online. This link may be found listed
-as "Minutes" in the "Categories" list in the sidebar on the left-hand
-side of any page on our website (the sidebar is located at the bottom of
-the page on mobile devices.)
+{{% meeting-note %}}
