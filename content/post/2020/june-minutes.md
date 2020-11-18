@@ -17,7 +17,7 @@ These minutes have been converted to a mobile friendly format; some light
 editing for clarity and consistency was performed. The Secretary's original
 minutes document (2020-06 Minutes.docx) may be found in the
 "**Committee and Officers Reports | Secretary Reports**" folder on the
-[RRRA File Server](https://cloud.rrra.org/). 
+[RRRA Groupware Server](https://cloud.rrra.org/). 
 
 ---
 

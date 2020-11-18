@@ -16,7 +16,7 @@ club. Lots of volunteers will make the work easy for everyone.
 The Hamfest Committee will use a mailing list for coordination and to
 assist the planning process. A shared folder is available to committee
 members at the <a href="https://cloud.rrra.org" rel="nofollow">RRRA
-File Server</a> for document sharing and archiving.
+Groupware Server</a> for document sharing and archiving.
 
 Hamfest Committee volunteers are asked to
 [subscribe to the hamfest mailing list]({{< relref "/post/2020/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})

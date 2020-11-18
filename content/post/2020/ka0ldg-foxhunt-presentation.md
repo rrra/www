@@ -9,7 +9,7 @@ aliases = [ "/post/2020/06/14/ka0ldg-foxhunt-presentation-in-sabin/" ]
 +++
 {{< mailto KA0LDG >}} has shared a PDF copy of the slides from his
 Foxhunting workshop in the **Training and Education | Presentations**
-shared folder on the [RRRA File Server](https://cloud.rrra.org). These
+shared folder on the [RRRA Groupware Server](https://cloud.rrra.org). These
 slides are a great resource for those who were unable to attend the
 workshop and attendees who wish to review the presented material.
 

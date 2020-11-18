@@ -16,5 +16,5 @@ social distancing guidelines.
 {{< /banner >}}
 
 Supporting documentation for this meeting should be available in the
-"Committee and Officers Reports" folder on the RRRA File Server at
+"Committee and Officers Reports" folder on the RRRA Groupware Server at
 https://cloud.rrra.org/
