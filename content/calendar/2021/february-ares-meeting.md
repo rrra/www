@@ -10,5 +10,5 @@ outputs = [ "HTML", "Calendar" ]
 status = "canceled"
 +++
 RRRA Members are encouraged to participate in the 
-[February Club Meeting]({{< relref "/calendar/2020/february-meeting.md" >}})
+[February Club Meeting]({{< relref "/calendar/2021/february-meeting.md" >}})
 which will be conducted on the [W0ILO Repeaters](/radios/).

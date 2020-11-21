@@ -11,5 +11,5 @@ tags = [ "ARES" ]
 status = "canceled"
 +++
 RRRA Members are encouraged to participate in the 
-[October Club Meeting]({{< relref "/calendar/2020/october-meeting.md" >}})
+[October Club Meeting]({{< relref "/calendar/2021/october-meeting.md" >}})
 which will be conducted on the [W0ILO Repeaters](/radios/).

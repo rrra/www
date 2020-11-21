@@ -10,5 +10,5 @@ outputs = [ "HTML", "Calendar" ]
 status = "canceled"
 +++
 RRRA Members are encouraged to participate in the 
-[May Club Meeting]({{< relref "/calendar/2020/may-meeting.md" >}})
+[May Club Meeting]({{< relref "/calendar/2021/may-meeting.md" >}})
 which will be conducted on the [W0ILO Repeaters](/radios/).
