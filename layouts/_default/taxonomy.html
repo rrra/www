@@ -31,7 +31,7 @@
 				</div>
 				{{ end }}
 
-				{{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "calendar") 40 }}
+				{{ $paginator := .Paginate .Data.Pages 40 }}
 				{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
 			</header>
 
@@ -54,4 +54,4 @@
 	{{ partial "sidebar.html" . }}
 </div><!-- #main-content -->
 
-{{ partial "footer.html" . }}
+{{ partialCached "footer.html" . }}
