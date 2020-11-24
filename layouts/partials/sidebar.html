@@ -6,9 +6,9 @@
 
 	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 
-		{{ partial "searchform.html" . }}
+		{{ partialCached "searchform.html" . }}
 
-		{{ partial "siteicons.html" . }}
+		{{ partialCached "siteicons.html" . }}
 
 		{{ partial "recentposts.html" . }}
 
@@ -16,10 +16,10 @@
 		{{ partial "dates.html" .  }}
 		
 		<!-- List of content categories -->
-		{{ partial "categories.html" . }}
+		{{ partialCached "categories.html" . }}
 
 		<!-- ND Section, ARRL Logo, & Dakota Division links -->
-		{{ partial "arrl.html" . }}
+		{{ partialCached "arrl.html" . }}
 
 	</div>
 
