@@ -6,7 +6,7 @@ name = "Michael H Heiler"        # Full name with middle initial
 photocredit = "" # Defaults to obituary
 obituary = "Boulger Funeral Home"    # Name of obituary source
 obitLink = "http://boulgerfuneralhome.com/obituaries/michael-heiler/"    # Link to on-line obituary page
-silentkeyhq = "" # silentkeyhq UID for this SK
+silentkeyhq = "0691604958871487" # silentkeyhq UID for this SK
 title = "NY0MN"
 created = "2020-11-09T16:03:02-06:00"
 +++
