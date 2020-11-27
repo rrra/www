@@ -6,5 +6,5 @@ location = ""
 ncs = [ "AI0Q" ]
 title = "Isolation Net"
 categories = [ "Social" ]
-dates = [ "NCS Schedule", "Hidden" ]
+dates = [ "" ]
 +++

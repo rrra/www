@@ -6,5 +6,5 @@ location = ""
 ncs = [ "KE0LDS" ]
 title = "Emergency Net"
 categories = [ "Public Service" ]
-dates = [ "NCS Schedule", "Hidden" ]
+dates = [ "" ]
 +++

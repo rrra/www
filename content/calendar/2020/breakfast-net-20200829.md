@@ -6,5 +6,5 @@ location = ""
 ncs = [ "W0HNV" ]
 title = "Breakfast Net"
 categories = [ "Social" ]
-dates = [ "NCS Schedule", "Hidden" ]
+dates = [ "" ]
 +++

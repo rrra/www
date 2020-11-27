@@ -6,6 +6,6 @@ location = ""
 ncs = [ "KC0DCF" ]
 title = "Emergency Net"
 categories = [ "Public Service" ]
-dates = [ "NCS Schedule", "Hidden" ]
+dates = [ "" ]
 aliases = [ "/cal/2020/04/14/ares-net/" ]
 +++
