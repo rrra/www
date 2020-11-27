@@ -3,15 +3,17 @@ contact = "president"
 date = "2020-12-15T19:00:00-06:00"
 publishDate = "2019-11-01"
 endTime = ""
-location = "[W0ILO Repeaters](/radios/)"
-title = "December Club Meeting"
+location = "[Zoom](https://lists.rrra.org/pipermail/announce/2020-November/000531.html)"
+title = "December Virtual Club Meeting"
+linkTitle = "Virtual Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-status = "on w0ilo"
+aliases = [ "/cal/2020/12/15/december-club-meeting/" ]
 +++
 {{< banner class="alert" >}}
-RRRA will not meet in-person this month due to ongoing concerns
-about the COVID-19 Pandemic.
+Please visit
+[W0JPJ's Zoom meeting invitation](https://lists.rrra.org/pipermail/announce/2020-November/000531.html)
+for the details you need to participate in this meeting.
 {{< /banner >}}
 
 {{% meeting-note %}}
