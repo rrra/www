@@ -13,6 +13,11 @@ aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/",
 +++
 ### Amateur Radio Licensing Classes
 
+RRRA's Amateur Radio license test preparation classes and
+[license testing sessions](/dates/license-testing/)
+have been paused for the duration of the COVID-19 pandemic.
+
+<!--
 Get started in Amateur Radio---or upgrade your license---with a class
 presented by one of RRRA's experienced instructors.
 
@@ -28,6 +33,7 @@ is required** (approximate cost $30)
 #### Class Schedule
 
 {{< classes >}}
+-->
 <!--more-->
 
 #### Textbooks
