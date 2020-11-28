@@ -1,72 +1,67 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/taxonomy/dates.html -->` | safeHTML }}
+	{{ end }}
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+<header class="entry-header">
 
-			<header class="entry-header">
+	<div class="entry-meta">
+	{{ $rsstitle := .Title }}
+	{{ $rsspath := printf "/dates/%s" ( .Title | urlize ) }}
+	{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
+		<span class="cat-links">
+			<a href="/dates/" rel="tag">Dates</a>{{ if eq ( .Title | urlize ) "ncs-schedule" }} <a href="/nets/">Nets</a>{{ end }}
+		</span>
+	</div>
+	<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
+{{ with  .OutputFormats.Get "calendar" -}}
+<div id="ical-links"><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these {{ $.Title | singularize }} dates" href="{{ .Permalink | replaceRE "^https?" "webcal" | safeURL }}">Subscribe to these dates</a> <span class="genericon genericon-link" style="font-size: 1.5em; padding-left: 0.2em; padding-right: 0.2em;" ></span><a style="text-decoration: none;" title="Import these {{ $.Title | singularize }} dates as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></div>
+{{- end }}
+	{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
+	{{ if ne $contact nil }}
+		<div id="contact">
+			<br /><span class="vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }}
+		</div>
+	{{ end }}
 
-				<div class="entry-meta">
-				{{ $rsstitle := .Title }}
-				{{ $rsspath := printf "/dates/%s" ( .Title | urlize ) }}
-				{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
-					<span class="cat-links">
-                				<a href="/dates/" rel="tag">Dates</a>{{ if eq ( .Title | urlize ) "ncs-schedule" }} <a href="/nets/">Nets</a>{{ end }}
-					</span>
-				</div>
-				<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
-    		{{ with  .OutputFormats.Get "calendar" -}}
-      		<div id="ical-links"><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these {{ $.Title | singularize }} dates" href="{{ .Permalink | replaceRE "^https?" "webcal" | safeURL }}">Subscribe to these dates</a> <span class="genericon genericon-link" style="font-size: 1.5em; padding-left: 0.2em; padding-right: 0.2em;" ></span><a style="text-decoration: none;" title="Import these {{ $.Title | singularize }} dates as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></div>
-    		{{- end }}
-				{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
-				{{ if ne $contact nil }}
-					<div id="contact">
-						<br /><span class="vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }}
-					</div>
-				{{ end }}
+</header>
 
-			</header>
+<div class="entry-content" style="padding-bottom:1em;">
+	{{ if eq ( .Title | urlize ) "ncs-schedule" }}
+		{{ $.Scratch.Set "li" "ncsdli" }}
+	{{ else }}
+		{{ $.Scratch.Set "li" "dli" }}
+	{{ end }}
+	{{ $thisyear := now | dateFormat "2006" }}
+	{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
+	{{ $edu := intersect $classes  (split .Title " ")  }}
 
-			<div class="entry-content" style="padding-bottom:1em;">
-				{{ if eq ( .Title | urlize ) "ncs-schedule" }}
-					{{ $.Scratch.Set "li" "ncsdli" }}
+	<div id="col">
+	{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
+		{{ if or ($edu) (ge .Key $thisyear) }}	
+			<h3>{{ .Key }}</h3>
+			<dl id="list-{{ .Key }}{{ if eq ( $.Scratch.Get "li" ) "ncsdli" }}-ncs{{ end }}">
+			{{ range .Pages.Reverse }}
+				{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
+					{{ .Render "sameday-dates" }}
 				{{ else }}
-					{{ $.Scratch.Set "li" "dli" }}
+					{{ .Render ( $.Scratch.Get "li" ) }}
+					{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
 				{{ end }}
-				{{ $thisyear := now | dateFormat "2006" }}
-				{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
-				{{ $edu := intersect $classes  (split .Title " ")  }}
+				{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
+			{{ end }}
+			</dl>
+			{{ partial "clear" }}
+		{{ end }}
+	{{ end }}
+	</div>
 
-				<div id="col">
-				{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
-					{{ if or ($edu) (ge .Key $thisyear) }}	
-						<h3>{{ .Key }}</h3>
-						<dl id="list-{{ .Key }}{{ if eq ( $.Scratch.Get "li" ) "ncsdli" }}-ncs{{ end }}">
-						{{ range .Pages.Reverse }}
-							{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
-								{{ .Render "sameday-dates" }}
-							{{ else }}
-								{{ .Render ( $.Scratch.Get "li" ) }}
-								{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
-							{{ end }}
-							{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
-						{{ end }}
-						</dl>
-						{{ partial "clear" }}
-					{{ end }}
-				{{ end }}
-				</div>
+	{{ if eq ( .Title | urlize )  "license-testing" }}
+		{{ partial "bring" }}
+		{{ partial "status" }}
+	{{ end }}
+</div>
 
-				{{ if eq ( .Title | urlize )  "license-testing" }}
-					{{ partial "bring" }}
-					{{ partial "status" }}
-				{{ end }}
-			</div>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partialCached "footer.html" . }}
+{{ end }}

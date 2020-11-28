@@ -1,30 +1,23 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/taxonomy/authors.terms.html -->` | safeHTML }}
+	{{ end }}
+	<header class="entry-header">
+		<h3 class="entry-title">Contributing Authors</h3>
+	</header>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-			<header class="entry-header">
-				<h3 class="entry-title">Contributing Authors</h3>
-			</header>
-
-			<div class="entry-content" style="padding-bottom:1em;">
-				<!--<p>Prospective authors are encouraged to read the contribution guidelines.</p>-->
-				<dl id="list">
-					<dt class="twocol" style="width:10em; font-weight: normal;">{{ .Title | singularize }}</dt>
-					<dd class="twocol">Contributions</dd>
-					{{ $data := .Data }}
-					{{ range $key, $value := .Data.Terms }}
-					<dt class="twocol" style="width:10em;"><a href="{{ $key }}">{{ .Page.Title }}</a></dt>
-					<dd class="twocol">{{ len $value }}</dd>
-					{{ end }}
-				</dl>
-			</div>
-		
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partialCached "footer.html" . }}
+	<div class="entry-content" style="padding-bottom:1em;">
+		<!--<p>Prospective authors are encouraged to read the contribution guidelines.</p>-->
+		<dl id="list">
+			<dt class="twocol" style="width:10em; font-weight: normal;">{{ .Title | singularize }}</dt>
+			<dd class="twocol">Contributions</dd>
+			{{ $data := .Data }}
+			{{ range $key, $value := .Data.Terms }}
+			<dt class="twocol" style="width:10em;"><a href="{{ $key }}">{{ .Page.Title }}</a></dt>
+			<dd class="twocol">{{ len $value }}</dd>
+			{{ end }}
+		</dl>
+	</div>
+{{ end }}

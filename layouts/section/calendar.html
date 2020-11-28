@@ -1,40 +1,34 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/section/calendar.html -->` | safeHTML }}
+	{{ end }}
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+	<div class="entry-meta">
+		<span class="cat-links"><a href="/">Home</a></span>
+	</div>
 
-			<div class="entry-meta">
-				<span class="cat-links"><a href="/">Home</a></span>
-			</div>
+	<header class="entry-header">
+		<h1 class="entry-title">Calendar Index</h1>
+{{ with  .OutputFormats.Get "calendar" -}}
+<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for the RRRA Annual Calendar" href="{{ .RelPermalink | safeURL }}">Subscribe to calendar</a> &bull; <a style="text-decoration: none;" title="Import the RRRA Annual Calendar as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
+{{- end }}
+	</header>
 
-			<header class="entry-header">
-				<h1 class="entry-title">Calendar Index</h1>
-    		{{ with  .OutputFormats.Get "calendar" -}}
-      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for the RRRA Annual Calendar" href="{{ .RelPermalink | safeURL }}">Subscribe to calendar</a> &bull; <a style="text-decoration: none;" title="Import the RRRA Annual Calendar as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
-    		{{- end }}
-			</header>
+	{{ $thismonth := printf "%s-01" (now | dateFormat "01") | printf "%s-%s" (now | dateFormat "2006") | printf "%s" }}
 
-			{{ $thismonth := printf "%s-01" (now | dateFormat "01") | printf "%s-%s" (now | dateFormat "2006") | printf "%s" }}
+	<div class="entry-content" style="padding-bottom:1em;">
+		<dl>
+		{{ $name := "calendar" }}
+		{{ $series := index .Site.Taxonomies.series $name }}
+		{{ range $series.Pages.ByDate }}
+		  {{ $title := (time $thismonth).AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
+			<dt class="twocol"><a href="{{ .RelPermalink }}">{{ $title  }}</a></dt>
+		{{ end }}
+		</dl>
 
-			<div class="entry-content" style="padding-bottom:1em;">
-				<dl>
-				{{ $name := "calendar" }}
-				{{ $series := index .Site.Taxonomies.series $name }}
-				{{ range $series.Pages.ByDate }}
-				  {{ $title := (time $thismonth).AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
-					<dt class="twocol"><a href="{{ .RelPermalink }}">{{ $title  }}</a></dt>
-				{{ end }}
-				</dl>
-
-			<p class="clear"></p>
-			{{ .Content }}
-			</div>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partialCached "footer.html" . }}
+	<p class="clear"></p>
+	{{ .Content }}
+	</div>
+{{ end }}

@@ -1,46 +1,39 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/taxonomy/ncs.terms.html -->` | safeHTML }}
+	{{ end }}
+	<header class="entry-header">
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		<div class="entry-meta">
+			<span class="cat-links">
+				<a href="/nets">Nets</a>
+			</span>
+			{{ $rsspath := "/ncs" }}
+			{{ partial "rss" ( dict "rsstitle" "NCS Leader Board" "rsspath" $rsspath ) }}
+		</div>
+		<h2 class="entry-title">NCS Leader Board</h2>
+	</header>
 
-			<header class="entry-header">
+	{{/* Build list of SK call-signs for cross checking */}}
+	{{/* bracket call-signs to avoid substring hits */}}
+	{{ $scratch := newScratch }}
+	{{ $scratch.Add "sk" "|" }}
+	{{ range where .Site.Pages "Type" "sk" }}
+		{{ $scratch.Add "sk" ( lower .Title ) }}
+		{{ $scratch.Add "sk" "|" }}
+	{{ end }}
 
-				<div class="entry-meta">
-					<span class="cat-links">
-						<a href="/nets">Nets</a>
-					</span>
-					{{ $rsspath := "/ncs" }}
-					{{ partial "rss" ( dict "rsstitle" "NCS Leader Board" "rsspath" $rsspath ) }}
-				</div>
-				<h2 class="entry-title">NCS Leader Board</h2>
-			</header>
-
-			{{/* Build list of SK call-signs for cross checking */}}
-			{{/* bracket call-signs to avoid substring hits */}}
-			{{ $scratch := newScratch }}
-			{{ $scratch.Add "sk" "|" }}
-			{{ range where .Site.Pages "Type" "sk" }}
-				{{ $scratch.Add "sk" ( lower .Title ) }}
-				{{ $scratch.Add "sk" "|" }}
-			{{ end }}
-
-			<div class="entry-content" style="padding-bottom:1em;">
-				<dl id="list">
-					{{ range $key, $value := .Data.Terms.ByCount }}
-						{{ $test := printf "|%s|" ( lower $value.Name ) }}
-						{{ if not ( in  ( $scratch.Get "sk" ) $test ) }}
-							<dt class="twocol" style="width:10em;">{{ .Page.Title }}</dt>
-							<dd class="twocol"><a href="{{ $value.Name }}">{{ $value.Count }} net{{ if ne 1 $value.Count }}s{{ end }}</a></dd>
-						{{ end }}
-					{{ end }}	
-				</dl>
-			</div>
-		
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partialCached "footer.html" . }}
+	<div class="entry-content" style="padding-bottom:1em;">
+		<dl id="list">
+			{{ range $key, $value := .Data.Terms.ByCount }}
+				{{ $test := printf "|%s|" ( lower $value.Name ) }}
+				{{ if not ( in  ( $scratch.Get "sk" ) $test ) }}
+					<dt class="twocol" style="width:10em;">{{ .Page.Title }}</dt>
+					<dd class="twocol"><a href="{{ $value.Name }}">{{ $value.Count }} net{{ if ne 1 $value.Count }}s{{ end }}</a></dd>
+				{{ end }}
+			{{ end }}	
+		</dl>
+	</div>
+{{ end }}

@@ -1,23 +1,17 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/index.html -->` | safeHTML }}
+	{{ end }}
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-			{{ $paginator := .Paginate ( where .Site.RegularPages "Section" "post") 5 }}
-			{{ partial "pagination.html" . }}
-			{{ if eq .Paginator.PageNumber 1 }}
-				{{ partial "upcoming.html" . }}
-			{{ end }}
-			{{ range $paginator.Pages }}
-				{{ partial "summary.html" . }}
-			{{ end }}
-			{{ partial "pagination.html" . }}
-		
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partialCached "footer.html" . }}
+	{{ $paginator := .Paginate ( where .Site.RegularPages "Section" "post") 5 }}
+	{{ partial "pagination.html" . }}
+	{{ if eq .Paginator.PageNumber 1 }}
+		{{ partial "upcoming.html" . }}
+	{{ end }}
+	{{ range $paginator.Pages }}
+		{{ partial "summary.html" . }}
+	{{ end }}
+	{{ partial "pagination.html" . }}
+{{ end }}

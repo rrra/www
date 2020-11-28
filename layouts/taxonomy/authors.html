@@ -1,43 +1,37 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/taxonomy/authors.html -->` | safeHTML }}
+	{{ end }}
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+        <header class="entry-header">
+	<div class="entry-meta">
+		<span class="cat-links">
+			<a href="/authors/">Contributing Authors</a>
+		</span>
+	</div>
 
-		<header class="entry-header">
-			<div class="entry-meta">
-				<span class="cat-links">
-					<a href="/authors/">Contributing Authors</a>
-				</span>
-			</div>
+	<h3 class="entry-title">Articles by {{ .Title | upper }}</h3>
 
-			<h3 class="entry-title">Articles by {{ .Title | upper }}</h3>
+	<div class="entry-meta">
+		<div id="contact">
+			<span class="cat-links vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" .Title ) }}
+		</div>
+		{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") 50 }}
+		{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+	</div><!-- .entry-meta -->
+	</header>
 
-			<div class="entry-meta">
-				<div id="contact">
-					<span class="cat-links vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" .Title ) }}
-				</div>
-				{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") 50 }}
-				{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
-			</div><!-- .entry-meta -->
-			</header>
-
-			<div class="entry-content">
-				<dl>
-				{{ range $paginator.Pages }}
-					<dt class="twocol"><a href="{{ .RelPermalink }}" title="Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}" >{{ .Title | safeHTML }}</a></dt>
-					<dd style="display: none;">Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}</dd>
-				{{ end }}
-				</dl>
-			
-				{{ partial "clear.html" }}
-				{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
-			</div><!-- #entry-content -->
-		
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partialCached "footer.html" . }}
+	<div class="entry-content">
+		<dl>
+		{{ range $paginator.Pages }}
+			<dt class="twocol"><a href="{{ .RelPermalink }}" title="Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}" >{{ .Title | safeHTML }}</a></dt>
+			<dd style="display: none;">Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}</dd>
+		{{ end }}
+		</dl>
+	
+		{{ partial "clear.html" }}
+		{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+	</div><!-- #entry-content -->
+{{ end }}

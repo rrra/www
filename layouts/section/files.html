@@ -1,40 +1,33 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/section/files.html -->` | safeHTML }}
+	{{ end }}
+	<header class="entry-header">
+		<div class="entry-meta">
+			<span class="cat-links"><a href="/">Home</a></span>
+		</div>
+		<h1 class="entry-title">{{ .Title }}</h1>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		{{ $contact := .Params.contact }}
+		{{ if ne $contact nil }}
+		<div id="contact">
+			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+		</div>
+		{{ end }}
+	</header>
 
-			<header class="entry-header">
-				<div class="entry-meta">
-					<span class="cat-links"><a href="/">Home</a></span>
-				</div>
-				<h1 class="entry-title">{{ .Title }}</h1>
+	<div class="entry-content">
+		<!--// range .Data.Pages.GroupByParam "categories" }}-->
+			<!--<h3>// .Key }}</h3>-->
+			<dl>
+			{{ range .Data.Pages.ByTitle }}
+				{{ .Render "dli" }}
+			{{ end }}
+			</dl>
+		<!--// end }}-->
 
-				{{ $contact := .Params.contact }}
-				{{ if ne $contact nil }}
-				<div id="contact">
-					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
-				</div>
-				{{ end }}
-			</header>
-
-			<div class="entry-content">
-				<!--// range .Data.Pages.GroupByParam
-"categories" }}-->
-					<!--<h3>// .Key }}</h3>-->
-					<dl>
-					{{ range .Data.Pages.ByTitle }}
-						{{ .Render "dli" }}
-					{{ end }}
-					</dl>
-				<!--// end }}-->
-
-				{{ .Content }}
-			</div>
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partialCached "footer.html" . }}
+		{{ .Content }}
+	</div>
+{{ end }}

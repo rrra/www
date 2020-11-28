@@ -1,0 +1,8 @@
+{{/* Populates layouts/_default/baseof.html */}}
+
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/_default/single.html -->` | safeHTML }}
+	{{ end }}
+	{{ partial "section.html" . }}
+{{ end }}

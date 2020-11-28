@@ -1,0 +1,23 @@
+{{/*
+Name:    layouts/_default/baseof.html
+Purpose: Page structure definition
+*/}}              
+
+{{ partial "header.html" . }}
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="main" class="site-content" role="main">
+			{{ if eq "development" hugo.Environment }}
+			{{ `<!-- Block: main -->` | safeHTML }}
+			{{ end }}
+			{{ block "main" . }}{{ end }}
+		</div>
+	</div>
+
+	{{ partial "sidebar.html" . }}
+
+</div>
+
+{{ partialCached "footer.html" . }}

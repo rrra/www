@@ -5,7 +5,11 @@
 
 		<div class="entry-meta">
 			<span class="cat-links">
-					{{ if ne ( trim .RelPermalink "/") (.Section | urlize ) }}
+					{{ if eq "post" .Section }}
+                               			{{ range .Params.categories }}
+                                        		<a href="/categories/{{ lower . | urlize }}/" rel="category">{{ . }}</a>
+                                		{{ end }}
+					{{ else if ne ( trim .RelPermalink "/") (.Section | urlize ) }}
 						<a href="/{{ .Section | urlize }}/" rel="section">{{ .Section }}</a>
 					{{ else }}
 						<a href="/">Home</a>
@@ -48,6 +52,11 @@
 		{{ if eq .Params.toc "true" }}{{ .TableOfContents }}{{ end }}
 
 		{{ .Content }}
+
+		{{ if eq "development" hugo.Environment }}
+		<pre>Template: layouts/partial/section.html</pre>
+		{{ end }}
 	</div><!-- .entry-content -->
 
 </article> <!-- #post-## -->
+
