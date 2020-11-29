@@ -6,5 +6,5 @@ location = ""
 ncs = [ "KA0LDG" ]
 title = "Isolation Net"
 categories = [ "Social" ]
-dates = [ "" ]
+dates = [ "Hidden" ]
 +++
