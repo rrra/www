@@ -1,44 +1,65 @@
 <article class="post type-post status-publish format-standard hentry">
 
-	<header class="entry-header">
-		<h2 class="entry-title">Upcoming Events</h2>
-	</header>
+<header class="entry-header">
+	<h2 class="entry-title">Upcoming Events</h2>
+</header>
 
-	<time class="updated" datetime="{{ now | dateFormat "2006-01-02T03:04:05-07:00" }}" ></time>
-	<author class="vcard author" style="display:none;"><span class="email">webmaster@rrra.org</span></author>
+<time class="updated" datetime="{{ now | dateFormat "2006-01-02T03:04:05-07:00" }}" ></time>
+<author class="vcard author" style="display:none;"><span class="email">webmaster@rrra.org</span></author>
 
 <div class="entry-content">
-{{ $.Scratch.Set "today" "" }} <!-- daily date sequence scratch pad-->
-{{ $.Scratch.Set "seen" " " }} <!-- global date sequence scratch pad -->
-{{ $.Scratch.Set "lastdate" "" }} <!-- the last date we used -->
+
+{{ $scratch := newScratch }}     {{/* Scratch Pads                */}}
+{{ $scratch.Set "today" "" }}    {{/* Date sequences seen "today" */}}
+{{ $scratch.Set "seen" " " }}    {{/* Date sequences seen overall */}}
+{{ $scratch.Set "lastdate" "" }} {{/* Last date we used           */}}
+
 	<dl>
 		{{ range where .Site.RegularPages.ByDate "Section" "calendar" }}
-			{{ if ge .Date.Unix now.Unix }}
+
+			{{ if ge .Date.Unix now.Unix }} {{/* Ignore past events */}}
+
+				{{/* Clear the daily scratch pad when the date changes */}}
 				{{ $thisdate := chomp (.Date.Format "2006-01-02") }}
-       				{{ if ne $thisdate ($.Scratch.Get "lastdate") }}
-					<!-- Started looking at a new day, clear the daily scratch pad -->
-					{{ $.Scratch.Set "today" "" }}
+       				{{ if ne $thisdate ($scratch.Get "lastdate") }}
+					{{ $scratch.Set "today" "" }}
 				{{ end }}
-				{{ $.Scratch.Set "upcoming" "" }}
+
+				{{/* Use the front matter override if it exists */}}
+				{{ $scratch.Set "upcoming" "" }}
 				{{ with .Params.upcoming }}
-					{{ $.Scratch.Set "upcoming" (. | lower) }}
+					{{ $scratch.Set "upcoming" (. | lower) }}
 				{{ end }}
-				{{ if ne ($.Scratch.Get "upcoming") "hide" }}
+
+				{{ if ne ($scratch.Get "upcoming") "hide" }} {{/* Process events not explicitly hidden */}}
+
+					{{/* Build a "urlized" sequence name variable with a trailing delimiter
+					     to help prevent false matches */}}
 					{{ $series := chomp ((delimit .Params.dates " ") | printf "%s" | urlize | printf "%s|") }}
-					{{ $seen := chomp ($.Scratch.Get "seen") }}
-					{{ if or (not (in $seen $series)) (or (eq ($.Scratch.Get "upcoming") "force") (in ($.Scratch.Get "today") $series)) }}
+
+					{{/* List this event if any of these conditions are true:
+						1. An event for this date sequence has not been seen yet
+						2. Event front matter upcoming param is set to "force"
+						3. This date sequence was already seen today
+					*/}}
+					{{ $seen := chomp ($scratch.Get "seen") }}
+					{{ if or (not (in $seen $series)) (or (eq ($scratch.Get "upcoming") "force") (in ($scratch.Get "today") $series)) }}
 						<dt class="twocol" style="width:15em;">
-							{{ with .LinkTitle }}{{.}}{{else}}{{ .Title }}{{end}}
+							{{ with .LinkTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}
 						</dt>
-						<dd class="twocol"><a href="{{ .RelPermalink}}" title="{{ .Title }} - {{ chomp (delimit .Params.dates " ") }}">{{ if in .Site.Params.status .Params.status }}<span style="color:red;">{{ upper .Params.status }}</span>{{ else }}{{ .Date.Format "3:04 PM Mon Jan 2" }}{{ end }}</a></dd>
-						{{ $this := (chomp (delimit .Params.dates " ") | printf "%s" | urlize | printf "%s|") }}
-						{{ $.Scratch.Add "seen" $this }}
-						{{ $.Scratch.Add "today" $this }}
-						{{ $.Scratch.Set "lastdate" (.Date.Format "2006-01-02") }}
+						{{ $curdates :=  chomp (delimit .Params.dates " ") | replaceRE "Hidden" "" }}
+						<dd class="twocol"><a href="{{ .RelPermalink}}" title="{{ .Title }}{{ if gt (len $curdates) 0 }} - {{ $curdates }}{{ end }}">{{ if in .Site.Params.status .Params.status }}<span style="color:red;">{{ upper .Params.status }}</span>{{ else }}{{ .Date.Format "3:04 PM Mon Jan 2" }}{{ end }}</a></dd>
+						{{/* Store the date sequence and date for the event we listed */}}
+						{{ $scratch.Add "seen" $series }}
+						{{ $scratch.Add "today" $series }}
+						{{ $scratch.Set "lastdate" (.Date.Format "2006-01-02") }}
 					{{ end }}
-				{{ end }}
-			{{ end }}
-		{{ end }}
+
+				{{ end }} {{/* Process events not explicitly hidden */}}
+
+			{{ end }} {{/* Ignore past events */}}
+
+		{{ end }} {{/* range where .Site.RegularPages.ByDate "Section" "calendar" */}} 
 	</dl>
 
 </div>
