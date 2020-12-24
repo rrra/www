@@ -1,7 +1,7 @@
 {{ $sitedate := $.Param "sitedate" }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RRRA Silent Keys</title>
+    <title>Silent Key Memorials</title>
     <link>{{ .RelPermalink }}</link>
     <description>In memoriam</description>
     <generator>hugo.Generator</generator>{{ with .Site.LanguageCode }}
