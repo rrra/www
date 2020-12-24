@@ -1,7 +1,7 @@
 +++
 title = "Pay with Credit, Debit, PayPal"
 +++
-**Please allow 10 business days for membership processing.**
+**Please allow 10 business days for membership processing when paying by card.**
 
 {{< banner class="alert" >}}
 Your membership payment will be processed though a PayPal shopping cart; no form of payment information will be visible to Red River Radio Amateurs.
@@ -26,7 +26,7 @@ You do not need a PayPal account to use this membership payment service.
 <dd><select name="os0">
 	<option value="Single w/ Donation">Single w/ Donation $26.25 USD</option>
 	<option value="Single">Single $25.00 USD</option>
-	<option value="Family Add-On w/ Donation">Family Add-On w/ Donation $5.25 USD</option>
+	<option value="Family Add-On w/ Donation">Family Add-On w/ Donation $6.00 USD</option>
 	<option value="Family Add-On">Family Add-On $5.00 USD</option>
 </select> </dd>
 <dt><input type="hidden" name="on1" value="Callsign">Callsign and License Class</dt>
@@ -39,7 +39,7 @@ You do not need a PayPal account to use this membership payment service.
 <input type="hidden" name="option_select1" value="Single">
 <input type="hidden" name="option_amount1" value="25.00">
 <input type="hidden" name="option_select2" value="Family Add-On w/ Donation">
-<input type="hidden" name="option_amount2" value="5.25">
+<input type="hidden" name="option_amount2" value="6.00">
 <input type="hidden" name="option_select3" value="Family Add-On">
 <input type="hidden" name="option_amount3" value="5.00">
 <input type="hidden" name="option_index" value="0">

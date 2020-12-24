@@ -1,7 +1,7 @@
 +++
 title = "Pay by Check"
 +++
-**Please allow 10 business days for membership processing.**
+**Please allow 25 business days for membership processing when paying by check.**
 
 ### Paper Check
 
