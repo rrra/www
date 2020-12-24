@@ -9,7 +9,7 @@ Your membership payment will be processed though a PayPal shopping cart; no form
 You do not need a PayPal account to use this membership payment service.
 {{< /banner >}}
 
-:exclamation: Choosing a *w/ Donation* membership option will offset the fees charged by our payment processor.
+:exclamation: Choosing a *w/ Card Fee* membership option will offset the fees charged by our payment processor.
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 <input type="hidden" name="cmd" value="_cart">
@@ -24,9 +24,9 @@ You do not need a PayPal account to use this membership payment service.
 <dl>
 <dt><input type="hidden" name="on0" value="Membership Type">Membership Type</dt>
 <dd><select name="os0">
-	<option value="Single w/ Donation">Single w/ Donation $26.25 USD</option>
+	<option value="Single w/ Card Fee">Single w/ Card Fee $26.25 USD</option>
 	<option value="Single">Single $25.00 USD</option>
-	<option value="Family Add-On w/ Donation">Family Add-On w/ Donation $6.00 USD</option>
+	<option value="Family Add-On w/ Card Fee">Family Add-On w/ Card Fee $5.50 USD</option>
 	<option value="Family Add-On">Family Add-On $5.00 USD</option>
 </select> </dd>
 <dt><input type="hidden" name="on1" value="Callsign">Callsign and License Class</dt>
@@ -34,12 +34,12 @@ You do not need a PayPal account to use this membership payment service.
 <dt><input type="hidden" name="on2" value="E-mail Address">E-mail Address</dt>
 <dd><input type="text" name="os2" maxlength="200"></dd>
 </dl>
-<input type="hidden" name="option_select0" value="Single w/ Donation">
+<input type="hidden" name="option_select0" value="Single w/ Card Fee">
 <input type="hidden" name="option_amount0" value="26.25">
 <input type="hidden" name="option_select1" value="Single">
 <input type="hidden" name="option_amount1" value="25.00">
-<input type="hidden" name="option_select2" value="Family Add-On w/ Donation">
-<input type="hidden" name="option_amount2" value="6.00">
+<input type="hidden" name="option_select2" value="Family Add-On w/ Card Fee">
+<input type="hidden" name="option_amount2" value="5.50">
 <input type="hidden" name="option_select3" value="Family Add-On">
 <input type="hidden" name="option_amount3" value="5.00">
 <input type="hidden" name="option_index" value="0">
