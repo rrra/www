@@ -2,8 +2,8 @@
 title = "How to Join RRRA"
 linkTitle = "Join<span style=\"display:none;\"> Our Club</span>"
 contact = "treasurer"
-[menu.Main]
-url = "/join/"  
+#[menu.Main]
+#url = "/join/"  
 +++
 Membership in RRRA is open to anyone interested in Amateur Radio whether
 or not they currently hold a license.
