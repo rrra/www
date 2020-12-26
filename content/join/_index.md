@@ -2,8 +2,9 @@
 title = "How to Join RRRA"
 linkTitle = "Join<span style=\"display:none;\"> Our Club</span>"
 contact = "treasurer"
-#[menu.Main]
-#url = "/join/"  
+aliases = [ "/dues/" ]
+[menu.Main]
+url = "/join/"  
 +++
 Membership in Red River Radio Amateurs is open to anyone interested in
 the hobby whether or not they currently hold an Amateur Radio license.
@@ -13,7 +14,7 @@ Dues payments are accepted by:
 * [Check]({{< relref "/join/pay-by-check.md" >}})
 * [Credit, Debit, PayPal]({{< relref "/join/pay-by-card.md" >}})
 
-Membership renewals are due at the
+Annual membership renewals are due at the
 [January Business Meeting](/dates/business-meetings/).
 
 The current membership dues are listed on our
