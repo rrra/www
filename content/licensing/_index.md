@@ -16,8 +16,9 @@ url = "/licensing/"
 
 # Get started with the Red River Radio Amateurs
 
-RRRA's Amateur Radio license test preparation classes have been paused for the
-duration of the COVID-19 pandemic.
+RRRA's Amateur Radio license test preparation classes and license
+testing sessions have been paused for the duration of the COVID-19
+pandemic.
 
 Our [Education and Testing Schedule]({{< relref "/education-and-testing-schedule.md" >}}) 
 and list of [license testing sessions](/dates/license-testing/) will be
