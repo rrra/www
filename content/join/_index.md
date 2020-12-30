@@ -2,6 +2,7 @@
 title = "Join the Red River Radio Amateurs"
 linkTitle = "Join<span style=\"display:none;\"> Our Club</span>"
 contact = "treasurer"
+outputs = [ "HTML" ]
 aliases = [ "/dues/" ]
 [menu.Main]
 url = "/join/"  
