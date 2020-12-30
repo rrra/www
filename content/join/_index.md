@@ -1,5 +1,5 @@
 +++
-title = "How to Join RRRA"
+title = "Join the Red River Radio Amateurs"
 linkTitle = "Join<span style=\"display:none;\"> Our Club</span>"
 contact = "treasurer"
 aliases = [ "/dues/" ]
