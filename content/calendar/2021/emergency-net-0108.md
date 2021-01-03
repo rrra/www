@@ -5,6 +5,7 @@ endTime = ""
 location = ""
 ncs = [ "KE0LDS" ]
 title = "Emergency Net 0108"
+linkTitle = "Emergency Net"
 categories = [ "Public Service" ]
 dates = [ "Hidden" ]
 +++

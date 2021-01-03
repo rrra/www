@@ -5,6 +5,7 @@ endTime = ""
 location = ""
 ncs = [ "KA0LDG" ]
 title = "Isolation Net 0108"
+linkTitle = "Isolation Net"
 categories = [ "Social" ]
 dates = [ "Hidden" ]
 +++
