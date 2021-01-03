@@ -7,4 +7,5 @@ ncs = [ "WB0BIN" ]
 title = "Breakfast Net 0109"
 categories = [ "Social" ]
 dates = [ "Hidden" ]
+upcoming = "force"
 +++
