@@ -11,4 +11,4 @@ status = "canceled"
 +++
 RRRA Members are encouraged to participate in the 
 [May Club Meeting]({{< relref "/calendar/2021/may-meeting.md" >}})
-which will be conducted on the [W0ILO Repeaters](/radios/).
+which will be conducted on Zoom.
