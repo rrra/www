@@ -5,14 +5,17 @@
 	{{ `<!-- Template: layouts/taxonomy/ncs.terms.html -->` | safeHTML }}
 	{{ end }}
 
-	{{ $thisyear := "2021" }}
+	{{ $thisyear := now.Format "2006" }}
 	{{ $scratch := newScratch }}
+	{{ $timestamp := $.Param "sitedate" | printf "%s %s" "15:04" }}
 
 	{{/* Find the calendar pages with an NCS */}}
 	{{ $pages := where .Site.RegularPages "Section" "calendar" }}
  	{{ $pages := $pages | intersect ( where .Site.RegularPages ".Params.ncs" "ne" nil )  }}
 
-	{{/* Collect the call-signs used for NCS sessions */}}
+	{{/* Collect the call-signs used for NCS sessions. This list is randomly
+	     ordered.
+	*/}}
 	{{ range ( $pages.GroupByDate "2006" ) }}
 		{{ if eq .Key $thisyear }}
 			{{ range .Pages }}
@@ -22,10 +25,11 @@
 	{{ end }}
 
 	{{/* Convert the NCS sessions list from a []string to a string
-	     so that we can use it with string.Count                   */}}
+	     so that we can use it with string.Count
+	*/}}
 	{{ $sessions := delimit ( $scratch.Get "sessions"  ) " " }}
 
-	{{/* Get a list of unique call-signs */}}
+	{{/* Get a list of unique call-signs. This list is unordered. */}}
 	{{ $ncs_list :=  $scratch.Get "sessions" | uniq }}
 
 	{{/* Go through the call-sign list and count sessions */}}
@@ -35,12 +39,19 @@
  		{{/* Count the sessions for $call */}}
 		{{ $count := strings.Count $call $sessions }}
 
-		{{/* Calculate a weight which in higher for lower counts. This will allow
-		     the data to be trivially retrieved with the counts in the correct
-		     (descending) order.                                              */}}
+		{{/* Calculate a weight which is higher for lower counts. */}} 
 		{{ $weight := ( sub 1000 $count ) }}
 
-		{{/* Store the map ($weight$call => $count$call) entry */}}
+		{{/* Store a key=>value map entry for the call-sign and NCS session count.
+
+		     Leverage the map's (ascending order) auto sorting behavior with keys
+		     in the form of "$weight$call" (e.g. "990W1AW" for W1AW w/ 10 sessions).
+		     Entries with identical weights auto sort by the call-sign portion of
+		     the keys.
+
+		     Store "$count $call" as the value used for output. The value is
+		     space delimited for easy splitting.
+		*/}}
 		{{ $scratch.SetInMap "leaderboard" ( $call | printf "%d%s" $weight ) ( $call | printf "%d %s" $count ) }}
 	{{ end }}	
 
@@ -58,12 +69,19 @@
 
 	<div class="entry-content" style="padding-bottom:1em;">
 		<dl id="list">
+		{{/* Process the leaderboard list */}}
 		{{ range $key, $value := $scratch.Get "leaderboard" }}
+
+			{{/* Split the space delimited value */}}
 			{{ $call := replaceRE ".* " "" $value }}
 			{{ $count := replaceRE " .*" "" $value }}
+
+			{{/* Add a line to the page list with proper handling for a
+			     single net. */}}
 			<dt class="twocol" style="width:10em;">{{ $call }}</dt>
 			<dd class="twocol"><a href="{{ lower $call }}">{{ $count }} net{{ if ne "1" $count }}s{{ end }}</a></dd>
 		{{ end }}
 		</dl>
+		<p>Updated: {{ now.Format ( $timestamp ) }}</p>
 	</div>
 {{ end }}
