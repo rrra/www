@@ -4,6 +4,46 @@
 	{{ if eq "development" hugo.Environment }}
 	{{ `<!-- Template: layouts/taxonomy/ncs.terms.html -->` | safeHTML }}
 	{{ end }}
+
+	{{ $thisyear := "2021" }}
+	{{ $scratch := newScratch }}
+
+	{{/* Find the calendar pages with an NCS */}}
+	{{ $pages := where .Site.RegularPages "Section" "calendar" }}
+ 	{{ $pages := $pages | intersect ( where .Site.RegularPages ".Params.ncs" "ne" nil )  }}
+
+	{{/* Collect the call-signs used for NCS sessions */}}
+	{{ range ( $pages.GroupByDate "2006" ) }}
+		{{ if eq .Key $thisyear }}
+			{{ range .Pages }}
+				{{ $scratch.Add "sessions" .Params.ncs }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+
+	{{/* Convert the NCS sessions list from a []string to a string
+	     so that we can use it with string.Count                   */}}
+	{{ $sessions := delimit ( $scratch.Get "sessions"  ) " " }}
+
+	{{/* Get a list of unique call-signs */}}
+	{{ $ncs_list :=  $scratch.Get "sessions" | uniq }}
+
+	{{/* Go through the call-sign list and count sessions */}}
+	{{ range $ncs_list }}
+		{{ $call := . }}
+
+ 		{{/* Count the sessions for $call */}}
+		{{ $count := strings.Count $call $sessions }}
+
+		{{/* Calculate a weight which in higher for lower counts. This will allow
+		     the data to be trivially retrieved with the counts in the correct
+		     (descending) order.                                              */}}
+		{{ $weight := ( sub 1000 $count ) }}
+
+		{{/* Store the map ($weight$call => $count$call) entry */}}
+		{{ $scratch.SetInMap "leaderboard" ( $call | printf "%d%s" $weight ) ( $call | printf "%d %s" $count ) }}
+	{{ end }}	
+
 	<header class="entry-header">
 
 		<div class="entry-meta">
@@ -13,27 +53,17 @@
 			{{ $rsspath := "/ncs" }}
 			{{ partial "rss" ( dict "rsstitle" "NCS Leader Board" "rsspath" $rsspath ) }}
 		</div>
-		<h2 class="entry-title">NCS Leader Board</h2>
+		<h2 class="entry-title">{{ $thisyear }} NCS Leader Board</h2>
 	</header>
-
-	{{/* Build list of SK call-signs for cross checking */}}
-	{{/* bracket call-signs to avoid substring hits */}}
-	{{ $scratch := newScratch }}
-	{{ $scratch.Add "sk" "|" }}
-	{{ range where .Site.Pages "Type" "sk" }}
-		{{ $scratch.Add "sk" ( lower .Title ) }}
-		{{ $scratch.Add "sk" "|" }}
-	{{ end }}
 
 	<div class="entry-content" style="padding-bottom:1em;">
 		<dl id="list">
-			{{ range $key, $value := .Data.Terms.ByCount }}
-				{{ $test := printf "|%s|" ( lower $value.Name ) }}
-				{{ if not ( in  ( $scratch.Get "sk" ) $test ) }}
-					<dt class="twocol" style="width:10em;">{{ .Page.Title }}</dt>
-					<dd class="twocol"><a href="{{ $value.Name }}">{{ $value.Count }} net{{ if ne 1 $value.Count }}s{{ end }}</a></dd>
-				{{ end }}
-			{{ end }}	
+		{{ range $key, $value := $scratch.Get "leaderboard" }}
+			{{ $call := replaceRE ".* " "" $value }}
+			{{ $count := replaceRE " .*" "" $value }}
+			<dt class="twocol" style="width:10em;">{{ $call }}</dt>
+			<dd class="twocol"><a href="{{ lower $call }}">{{ $count }} net{{ if ne "1" $count }}s{{ end }}</a></dd>
+		{{ end }}
 		</dl>
 	</div>
 {{ end }}
