@@ -13,8 +13,10 @@
 	{{ $pages := where .Site.RegularPages "Section" "calendar" }}
  	{{ $pages := $pages | intersect ( where .Site.RegularPages ".Params.ncs" "ne" nil )  }}
 
-	{{/* Collect the call-signs used for NCS sessions. This list is randomly
-	     ordered.
+	{{/* Collect the call-signs used for NCS sessions from our list of filtered
+	     calendar pages. GroupByDate allows us to consider one year at a time.
+	     We'll only look at the current year (the inner "range"). The resulting
+	     agregated call-sign list is randomly ordered.
 	*/}}
 	{{ range ( $pages.GroupByDate "2006" ) }}
 		{{ if eq .Key $thisyear }}
@@ -29,34 +31,41 @@
 	*/}}
 	{{ $sessions := delimit ( $scratch.Get "sessions"  ) " " }}
 
-	{{/* Get a list of unique call-signs. This list is unordered. */}}
+	{{/* Filter the agregated sessions for unique call-signs.
+	     The resulting list is unordered.
+	*/}}
 	{{ $ncs_list :=  $scratch.Get "sessions" | uniq }}
 
 	{{/* Go through the call-sign list and count sessions */}}
 	{{ range $ncs_list }}
 		{{ $call := . }}
 
- 		{{/* Count the sessions for $call */}}
+ 		{{/* Count the sessions for the current $call */}}
 		{{ $count := strings.Count $call $sessions }}
 
-		{{/* Calculate a weight which is higher for lower counts. */}} 
-		{{ $weight := ( sub 1000 $count ) }}
+		{{/* Calculate a weight (lower for a higher session count). Starting
+		     at 10000 makes it possible to handle up to 9000 nets per year (24
+		     per day) without adding leading zeros.
+ 		*/}} 
+		{{ $weight := ( sub 10000 $count ) }}
 
 		{{/* Store a key=>value map entry for the call-sign and NCS session count.
 
-		     Leverage the map's (ascending order) auto sorting behavior with keys
-		     in the form of "$weight$call" (e.g. "990W1AW" for W1AW w/ 10 sessions).
-		     Entries with identical weights auto sort by the call-sign portion of
-		     the keys.
+		     Keys are "$weight$call" (e.g. "990W1AW" for W1AW w/ 10 sessions) to
+		     leverage the map's auto sorting behavior (ascending order). The key
+		     for the greatest number of sessions will have the lowest weight and
+		     will float to the top of the list. Entries with identical weights
+		     auto sort by the call-sign portion of the keys.
 
 		     Store "$count $call" as the value used for output. The value is
 		     space delimited for easy splitting.
 		*/}}
-		{{ $scratch.SetInMap "leaderboard" ( $call | printf "%d%s" $weight ) ( $call | printf "%d %s" $count ) }}
+		{{ $key := $call | printf "%d%s" $weight }}
+		{{ $value := $call | printf "%d %s" $count }}
+		{{ $scratch.SetInMap "leaderboard" $key $value }}
 	{{ end }}	
 
 	<header class="entry-header">
-
 		<div class="entry-meta">
 			<span class="cat-links">
 				<a href="/nets">Nets</a>
