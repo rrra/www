@@ -4,7 +4,7 @@ publishDate = "2020-09-11T07:00:00-05:00"
 endTime = ""
 location = ""
 ncs = [ "WB0BIN" ]
-title = "Breakfast Net"
+title = "Breakfast Net 0912"
 categories = [ "Social" ]
 dates = [ "" ]
 +++

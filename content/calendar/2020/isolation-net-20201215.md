@@ -4,7 +4,7 @@ publishDate = "2020-12-14T19:00:00-05:00"
 endTime = ""
 location = ""
 ncs = [ "KA0LDG" ]
-title = "Isolation Net"
+title = "Isolation Net 1215"
 categories = [ "Social" ]
 dates = [ "Hidden" ]
 +++

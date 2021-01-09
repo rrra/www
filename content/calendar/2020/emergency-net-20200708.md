@@ -4,7 +4,7 @@ publishDate = "2020-07-07T14:00:00-05:00"
 endTime = ""
 location = ""
 ncs = [ "KE0LDS" ]
-title = "Emergency Net"
+title = "Emergency Net 0708"
 categories = [ "Public Service" ]
 dates = [ "" ]
 +++
