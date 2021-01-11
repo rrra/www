@@ -95,7 +95,7 @@ this but ...
 		{{ $scratch.Set "day" "" }}
 	{{ end }}
 
-	{{ if or ( not ( gt .season " " ) ) ( eq $season .season ) }}
+	{{ if and ( not ( eq .inactive true ) ) ( or ( not ( gt .season " " )) ( eq $season .season ) ) }}
 		<tr>
 			<td>{{ with .dayrange }}{{ . | markdownify }}{{ else }}{{ $scratch.Get "day" }}{{ end }}<br>{{ .time }}</td>
 			<td>{{ .id | markdownify }}</td> 
