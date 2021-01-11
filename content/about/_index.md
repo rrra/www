@@ -23,16 +23,14 @@ support and
 
 ## Join Our Club
 
-Bring your [membership application](/s/3iOnHKqxHlaDxxv)
-and dues payment to one of our
-[business meetings](/dates/business-meetings) or send them to our
-[mailing address]({{< relref "/about/contact.md#mailing-address" >}}).
+Visit our [Join the Red River Radio Amateurs](/join/) page to learn how to
+join our club.
 
 ## Support Our Club
 
 Donations made to the Red River Radio Amateurs are **tax deductible**.
-If you would like to support our club please contact
-{{< mailto treasurer name >}}
-or mail your check to:
+If you would like to support our club please contact the
+{{< mailto treasurer >}} call [701-526-4426](tel:701-526-4426)<span class="genericon
+genericon-phone"></span> or mail your check to:
 
 {{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
