@@ -1,5 +1,4 @@
 +++
-date = "2015-11-21T10:15:34-06:00"
 title = "RRRA History"
 +++
 RRRA was founded ...

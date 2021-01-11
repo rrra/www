@@ -1,3 +1,5 @@
+{{ $scratch := newScratch }}
+
 <article class="post type-post status-publish format-standard hentry">
 
 	<!-- .entry-header -->
@@ -19,12 +21,16 @@
 
 		<h1 class="entry-title">{{ .Title | safeHTML }}</h1>
 
-		{{ if and ( .IsPage ) ( gt .Lastmod 0 ) }} 
+		{{ if gt .Lastmod 0 }}
+			{{ $scratch.Set "timestamp" ( .Lastmod.Format "January 2, 2006" ) }}
+		{{ else }}
+			{{ $scratch.Set "timestamp" ( now.Format "January 2, 2006" ) }}
+		{{ end }}
 		<div class="entry-meta">
 			<span class="entry-date">
 				<a href="{{ .RelPermalink }}" rel="bookmark">
-					<time class="entry-date updated" datetime="{{ .Lastmod.Format "January 2, 2006" }}">
-						{{ .Lastmod.Format "January 2, 2006" }}
+					<time class="entry-date updated" datetime="{{ $scratch.Get "timestamp" }}">
+						{{ $scratch.Get "timestamp" }}
 					</time>
 				</a>
 			</span>
@@ -34,7 +40,6 @@
 				{{ end }}
 			</span>
 		</div><!-- .entry-meta -->
-		{{ end }}
 
 		{{ $contact := .Params.contact }}
 		{{ if ne $contact nil }}

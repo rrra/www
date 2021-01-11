@@ -1,5 +1,4 @@
 +++
-date = "2015-12-08T14:18:09-06:00"
 title = "Nets"
 linktitle = "Nets<span style=\"display:none;\">, Preamble and NCS Roster</span>"
 categories = [ "Public Service" ]

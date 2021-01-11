@@ -1,5 +1,4 @@
 +++
-date = "2015-12-08T14:23:55-06:00"
 title = "Get Licensed ... Be a Ham"
 linktitle = "Be<span style=\"display:none;\">come</span> a Ham<span style=\"display:none;\"> Radio Operator</span>"
 categories = [ "Education", "License Testing" ]

@@ -1,12 +1,13 @@
 {{/*
 Repeater List Short Code
-By: Steve Kostecke k0stk@arrl.net
+By: Steve Kostecke steve@kostecke.net k0stk@arrl.net
 
 Builds a table from definition files in
 ./data/nets such as:
 
 day = 7
 time ="20:30"
+season = "CST"
 id = "[NDSU ARS](https://www.w0hsc.org/) VHF Analog"
 freq = [ "147.090 +", "repeaterbook 38 22" ]
 contact = "KE0PJR"
@@ -15,22 +16,54 @@ The "day", "id", "contact", and the single string variant of "freq"
 definition file lines are passed through the markdown formatter.
 
 The "day" line uses the day numbering from Vixie crontab (0-7, 0 or 7 is
-Sunday). For daily nets use the quoted string "D".
+Sunday). For daily nets use the quoted string "D". This parameter and
+the time are used for sorting the nets.
+
+The season line is optional and can be used to specify Standard Time
+Daylight Saving Time for this net definition. Use the identifiers for the
+build server's timezone (e.g. CDT/CST for Central Time). This won't work if
+you insist on using UTC.
 
 The "frequency" line can either be the two element array shown above or
 a single string (e.g. "444.875 + T123").
 
-The second member of the array version of the "frequency" line is used to 
-generate a repeaterbook link
+The second member of the array version of the "frequency" line is used
+to generate a repeaterbook link. The first repeaterbook argument is the
+state and the second argument is the repeater ID number.
 
-The "contact" line will look up call-signs in ./data/call
-
+The "contact" line will look up call-signs in ./data/call and defaults
+to the provided contact information. E-mail addresses retrieved from
+./data/call are obfuscated; literal contact information is not.
 */}}
+
 {{ $scratch := newScratch }}
 {{ $season := now.Format "MST" }}
 
+{{/* Find the time stamp for the last file changed in data/nets.
+     We start by scanning the directory and collecting file ModTimes
+     and names. The ModTime is used as a self-sorting key.
+*/}}
+{{ range (readDir "data/nets") }} 
+	{{ $filename := .Name | printf "%s/%s" "data/nets" }}
+	{{ $stat := os.Stat $filename }}
+	{{ $key := printf "%s" $stat.ModTime }}
+	{{ $value := $stat.Name }}
+	{{ $scratch.SetInMap "netdates" $key $value }}
+{{ end }}
+
+{{/* Read through the list of time stamps. This loop leaves us with the
+last and most recent time stamp. There may be a more elegant way of doing
+this but ...
+*/}}
+{{ range $key, $value := $scratch.Get "netdates" }}
+	{{ $scratch.Set "lastmod" $key }}
+{{ end }}
+
 <table>	
 <thead>
+<tr>
+<th colspan="4"> Last net update: {{ $scratch.Get "lastmod" | dateFormat ( .Site.Param "sitedate" ) }}</th>
+</tr>
 <tr>
 <th>Day &amp; Time</th>
 <th>Name</th>
@@ -103,6 +136,7 @@ The "contact" line will look up call-signs in ./data/call
 		</tr>
 	{{ end }}
 {{ end }}
+<tr class="noprint"><td colspan="4"><a href="https://github.com/rrra/www/tree/master/data/nets">Net source file collection</a> in the <a href="https://github.com/rrra/www">RRRA GitHub Repository</a></td></tr>
 </tbody>
 
 </table>
