@@ -4,7 +4,7 @@ linktitle = "Nets<span style=\"display:none;\">, Preamble and NCS Roster</span>"
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
 description = "Take part in an radio net. Includes links to NCS resources: net preamble, NCS schedule and roster; and a list of Red River Valley nets."
-contact = "K0RQ"
+contact = "net"
 [menu.Main]
 url = "/nets/"
 +++
@@ -19,7 +19,7 @@ This net is affiliated with the
 the ARES Division of the American Radio Relay League.
 
 NCS Operator volunteers are always appreciated. Please contact
-{{< mailto K0RQ >}} for more information.
+the {{< mailto net >}} for more information.
 
 ### NCS Resources
 
