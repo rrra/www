@@ -13,6 +13,7 @@ Connection information for the RRRA Virtual Club Meeting available in the
 Club Members are reminded that annual membership renewals are due at the
 January Business Meeting. Available dues payment options may be found
 through the [Join the Red River Radio Amateurs](/join/) page.
+<!--more-->
 
 ### Zoom Information, Hints and Tips
 
