@@ -7,7 +7,7 @@ categories = [ "Membership" ]
 tags = []
 +++
 The January RRRA Business Meeting will be conducted through the  Zoom teleconferencing service.
-Connection information for the RRRA Virtual Club Meeting available in the
+Connection information for the RRRA Virtual Club Meeting may be found in the
 [President's January Zoom meeting invitation](https://lists.rrra.org/pipermail/announce/2021-January/000539.html).
 
 Club Members are reminded that annual membership renewals are due at the
