@@ -18,7 +18,7 @@ Supplementary information for students taking
 
 ### Prepare For Your License Test
 
-* :new: [ARRL Extra Class Manual Study Guide](http://www.arrl.org/files/file/Extra%20Class%20License%20Manual/ECLM%2011th%20edition/ECLM%202016%20Studyguide.pdf) 
+* [ARRL Extra Class Manual Study Guide](http://www.arrl.org/files/file/Extra%20Class%20License%20Manual/ECLM%2011th%20edition/ECLM%202016%20Studyguide.pdf) 
 * [ARRL Tech Prep Resource Library](http://www.arrl.org/tech-prep-resource-library)
 * [HamStudy.org Study Tips](https://hamstudy.org/content/study_tips)
 * [No-Nonsense Study Guide \(KB6NU\)](https://www.kb6nu.com/study-guides/)
