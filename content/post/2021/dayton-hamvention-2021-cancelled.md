@@ -12,7 +12,6 @@ Committee announced:
 
 >Unfortunately, several setbacks in the recovery from the COVID-19 pandemic
 >make necessary the difficult decision to cancel Hamvention 2021. ...
->We make this difficult decision for the safety of our guests and vendors.
 >
 >Those who had their tickets, inside booths or flea market spaces deferred last
 >year will be deferred again. Those who purchased 2021 tickets, inside booths
