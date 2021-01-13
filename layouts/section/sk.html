@@ -30,5 +30,7 @@
 		</dl>
 		<p style="clear:both;"></p>			
 		{{ .Content }}
+		{{ .Scratch.Set "source" "layouts/section/sk.html" }}
+		{{ partial "sourcelink.html" . }}
 	</div>
 {{ end }}

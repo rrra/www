@@ -25,4 +25,6 @@
 			{{ end }}
 		</dl>
 	</div>
+	{{ .Scratch.Set "source" "layouts/_default/terms.html" }}
+	{{ partial "sourcelink.html" . }}
 {{ end }}

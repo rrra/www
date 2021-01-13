@@ -33,5 +33,7 @@
 	
 		{{ partial "clear.html" }}
 		{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+		{{ .Scratch.Set "source" "layouts/taxonomy/authors.html" }}
+		{{ partial "sourcelink.html" . }}
 	</div><!-- #entry-content -->
 {{ end }}

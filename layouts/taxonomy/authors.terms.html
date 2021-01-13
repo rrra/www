@@ -19,5 +19,7 @@
 			<dd class="twocol">{{ len $value }}</dd>
 			{{ end }}
 		</dl>
+		{{ .Scratch.Set "source" "layouts/taxonomy/authors.terms.html" }}
+		{{ partial "sourcelink.html" . }}
 	</div>
 {{ end }}

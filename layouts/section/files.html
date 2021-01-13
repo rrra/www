@@ -29,5 +29,7 @@
 		<!--// end }}-->
 
 		{{ .Content }}
+		{{ .Scratch.Set "source" "layouts/section/files.html" }}
+		{{ partial "sourcelink.html" . }}
 	</div>
 {{ end }}

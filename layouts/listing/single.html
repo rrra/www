@@ -38,5 +38,6 @@
 	</dl>
 	<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event is not listed on this calendar.</p>
 </div>
-
+{{ .Scratch.Set "source" "layouts/listing/single.html" }}
+{{ partial "sourcelink.html" . }}
 {{ end }}

@@ -112,5 +112,8 @@
 			<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a>
 			to report erroneous or omitted credits.</p>
 		</div>
+		<p class="clear"></p>
+		{{ .Scratch.Set "source" "layouts/taxonomy/ncs.terms.html" }}
+		{{ partial "sourcelink.html" . }}
 	</div>
 {{ end }}

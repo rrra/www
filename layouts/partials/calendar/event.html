@@ -73,6 +73,8 @@
 				</div>
 		{{ end }}
 		<p class="p-summary clear">{{ .Content }}</p>
+		{{ .Scratch.Set "source" "layouts/partials/calendar/event.html" }}
+		{{ partial "sourcelink.html" . }}
 	</div>
 
 	<footer class="entry-meta">

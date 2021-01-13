@@ -28,5 +28,7 @@
 			{{ end }}
 		</div>
 		{{ end }}
+		{{ .Scratch.Set "source" "layouts/taxonomy/tags.terms.html" }}
+		{{ partial "sourcelink.html" . }}
 	</div>	
 {{ end }}

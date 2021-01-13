@@ -42,4 +42,7 @@
 	</div>
 
 	{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+
+	{{ .Scratch.Set "source" "layouts/_default/taxonomy.html" }}
+	{{ partial "sourcelink.html" . }}
 {{ end }}

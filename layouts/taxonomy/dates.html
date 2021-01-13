@@ -62,6 +62,9 @@
 		{{ partial "bring" }}
 		{{ partial "status" }}
 	{{ end }}
+
+	{{ .Scratch.Set "source" "layouts/taxonomy/dates.html" }}
+	{{ partial "sourcelink.html" . }}
 </div>
 
 {{ end }}

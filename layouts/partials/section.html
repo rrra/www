@@ -39,6 +39,7 @@
 					<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
 				{{ end }}
 			</span>
+			
 		</div><!-- .entry-meta -->
 
 		{{ $contact := .Params.contact }}
@@ -61,6 +62,7 @@
 		{{ if eq "development" hugo.Environment }}
 		<pre>Template: layouts/partial/section.html</pre>
 		{{ end }}
+		{{ partial "sourcelink.html" . }}
 	</div><!-- .entry-content -->
 
 </article> <!-- #post-## -->
