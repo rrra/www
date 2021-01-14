@@ -1,18 +1,22 @@
-enableGitInfo = true
+# Site settings
 baseurl = "https://rrra.org"
 languageCode = "en-us"
 title = "Red River Radio Amateurs"
-
 theme = "twentyfourteen"
 Paginate = 10
-newcontenteditor = "vim"
 enableEmoji = true
 preserveTaxonomyNames = true
-
 description = "News from the Red River Radio Amateurs"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
-# Added at v0.60
+# Editor preference. This should do the right thing if your linux OS supports
+# the alternatives command.
+newcontenteditor = "editor"
+
+# GitHub settings
+enableGitInfo = true
+
+# Added at v0.60 to allow the rendering of HTML in page source
 [markup.goldmark.renderer]
 unsafe= true
 
@@ -57,6 +61,9 @@ unsafe= true
 	# Used for repeater list "filter menu"
 	modes = [ "analog", "asl", "d-star", "dmr", "ysf" ]
 
+	# Base URL for source files on GitHub
+	gitbase = "https://github.com/rrra/www/blob/master"
+
 [params.categories]
 
 [params.categories.education]
@@ -88,14 +95,19 @@ unsafe= true
 [params.tooltips.about]
   title="Information about RRRA and how to contact the club"
 
+# "Be A Ham"
 [params.tooltips.licensing]
   title="Get started in Amateur Radio with RRRA"
 
 [params.tooltips.calendar]
   title="Club and regional events"
 
+# "Files"
 [params.tooltips.links]
   title="File downloads"
+
+[params.tooltips.join]
+  title="Pay your RRRA membership dues"
 
 [params.tooltips.nets]
   title="Net Schedule, Preamble, and NCS Roster"
@@ -104,4 +116,4 @@ unsafe= true
   title="Repeaters and IRLP"
 
 [params.tooltips.sk]
-  title="Memorials of RRRA Members who are Silent Keys"
+  title="Memorials of RRRA Members and other Hams who are Silent Keys"

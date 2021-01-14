@@ -2,30 +2,37 @@
 GitHub source link partial template
 By: Steve Kostecke steve@kostecke.net k0stk@arrl.net
 
-Add to section pages as:
+Usage:
+
+Add to section (e.g. ../post/.. )  and other pages as:
 
 	{{ partial "sourcelink.html" . }}
 
-Add to section indexes and pages without md files as:
+The source path will be automatically retrieved from the page's .File object.
+
+Section indexes and pages without md files do not have a .File object. So the
+source path must be set as follows:
 
 	{{ .Scratch.Set "source" "layouts/taxonomy/ncs.terms.html" }}
 	{{ partial "sourcelink.html" . }}
 */}}
 
-{{ $base := "https://github.com/rrra/www/blob/master" }}
+{{ $base := .Site.Params.gitbase }}
 
 {{ $scratch := newScratch }}
 {{ with ( .Scratch.Get "source" ) }}
 	{{ $scratch.Set "source" . }}
 	{{ $scratch.Set "type" "Template" }}
 {{ else }}
-	{{ $scratch.Set "source" ( .File.Path | printf "%s/%s" "content" ) }}
+	{{ with .File }}{{ $scratch.Set "source" ( .Path | printf "%s/%s" "content" ) }}{{ end }}
 	{{ $scratch.Set "type" "Source" }}
 {{ end }}
 
 {{ $path := $scratch.Get "source" }}
 {{ $type := $scratch.Get "type" }}
 
+{{ if gt $path "" }}
 <div style="text-align:center;margin-bottom: 24px;">
 <span class="genericon genericon-github" style="vertical-align:middle;margin-right:.3em;"></span>{{ $scratch.Get "type" }}: <a href="{{ $base }}/{{ $path }}">{{ $path }}</a>
 </div>
+{{ end }}
