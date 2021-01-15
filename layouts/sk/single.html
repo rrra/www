@@ -107,9 +107,12 @@
 
 		<p class="clear"></p>
 
+		{{ .Content }}
+
 		{{ $needed := $scratch.Get "needed" }}
 
 		{{ if gt $needed "" }}
+			<div class="banner">
 			<h3>Information Needed</h3>
 			<ul>
 				{{ if in $needed "obit|" }}<li>Obituary</li>{{ end }}
@@ -119,10 +122,10 @@
 				{{ if in $needed "skhq|" }}<li>A memorial at the <a href="http://silentkeyhq.com">National Silent Key Archive</a></li>{{ end }}
 			</ul>
 			<p>Can you contribute any of the information needed to complete this Silent Key listing?</p>
-      <p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you can help.</p>
+      			<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you can help.</p>
+			</div>
 		{{ end }}
 
-		{{ .Content }}
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
