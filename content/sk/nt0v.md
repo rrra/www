@@ -11,7 +11,7 @@ title = "NT0V"
 created = "2021-01-15T09:21:09-06:00"
 +++
 * "He was a regular at our hamfests for as long as I can remember,  a very nice guy." ([KA0DG](https://lists.rrra.org/pipermail/rrra/2021-January/000987.html))
-* "Dennis attended the RRRA Hamfest for years. When I first met him about 30 years ago he was lining in Grand Forks. Talked to many times on 2 Meter SSB Fargo to Grand Forks." ([WC0G](https://lists.rrra.org/pipermail/rrra/2021-January/000989.html))
+* "Dennis attended the RRRA Hamfest for years. When I first met him about 30 years ago he was living in Grand Forks. Talked many times on 2 Meter SSB between Fargo and Grand Forks." ([WC0G](https://lists.rrra.org/pipermail/rrra/2021-January/000989.html))
 * "Dennis was a regular on the Goose River 160 meter net, and heard on the various 75 meter section nets and the PICO net.  Always with a big signal it seems." ([AI0Q](https://lists.rrra.org/pipermail/rrra/2021-January/000990.html))
 
 <!--
