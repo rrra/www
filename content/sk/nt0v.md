@@ -1,11 +1,11 @@
 +++
-born = ""        # Date Of Birth YYYY-MM-DD
+born = "1948-10-30"        # Date Of Birth YYYY-MM-DD
 date = "2021-01-13"        # SK Date YYYY-MM-DD
 licensed = ""    # Date Licensed as YYYY-MM-DD or just year
 name = "Dennis M Clemenson"        # Full name with middle initial
 photocredit = "" # Defaults to obituary
-obituary = ""    # Name of obituary source
-obitLink = ""    # Link to on-line obituary page
+obituary = "Gilberson Funeral Home"    # Name of obituary source
+obitLink = "https://www.gilbertsonfuneralhome.com/obituary/dennis-clemenson"    # Link to on-line obituary page
 silentkeyhq = "" # silentkeyhq UID for this SK
 title = "NT0V"
 created = "2021-01-15T09:21:09-06:00"
