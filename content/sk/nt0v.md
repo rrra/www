@@ -6,7 +6,7 @@ name = "Dennis M Clemenson"        # Full name with middle initial
 photocredit = "" # Defaults to obituary
 obituary = "Gilberson Funeral Home"    # Name of obituary source
 obitLink = "https://www.gilbertsonfuneralhome.com/obituary/dennis-clemenson"    # Link to on-line obituary page
-silentkeyhq = "" # silentkeyhq UID for this SK
+silentkeyhq = "1341610756076941" # silentkeyhq UID for this SK
 title = "NT0V"
 created = "2021-01-15T09:21:09-06:00"
 +++
