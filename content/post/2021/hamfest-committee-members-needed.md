@@ -7,8 +7,9 @@ tags = []
 title = "Committee Members Needed for 2021 Hamfest"
 authors = [ "WC0G", "K0STK" ]
 +++
-It's time to start planning for the 2021 ARRL Dakota Division Convention
-and RRRA Hamfest. This is the largest Hamfest in North Dakota drawing
+It's time to start planning for the
+[2021 ARRL Dakota Division Convention and RRRA Hamfest]({{< relref "/calendar/2021/rrra-hamfest.md" >}}).
+This is the largest Hamfest in North Dakota drawing
 attendees from 3 states and 1 Canadian province. Committee members
 are needed to plan and run this major fund raising activity for our
 club. Lots of volunteers will make the work easy for everyone.
