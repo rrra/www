@@ -20,12 +20,14 @@ source path must be set as follows:
 {{ $base := .Site.Params.gitbase }}
 
 {{ $scratch := newScratch }}
-{{ with ( .Scratch.Get "source" ) }}
-	{{ $scratch.Set "source" . }}
-	{{ $scratch.Set "type" "Template" }}
-{{ else }}
-	{{ with .File }}{{ $scratch.Set "source" ( .Path | printf "%s/%s" "content" ) }}{{ end }}
+{{ with .File }}
+	{{ $scratch.Set "source" ( .Path | printf "%s/%s" "content" ) }}
 	{{ $scratch.Set "type" "Source" }}
+{{ else }}
+	{{ with ( .Scratch.Get "source" ) }}
+		{{ $scratch.Set "source" . }}
+		{{ $scratch.Set "type" "Template" }}
+	{{ end }}
 {{ end }}
 
 {{ $path := $scratch.Get "source" }}
