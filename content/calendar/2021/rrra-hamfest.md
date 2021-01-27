@@ -11,6 +11,8 @@ dates = [ "Hamfest" ]
 aliases = [ "/cal/2021/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+* [ARRL Hamfest & Convention listing](http://www.arrl.org/hamfests/rrra-hamfest-2021-arrl-dakota-division-convention)
+
 {{< banner >}}
 Bookmark https://hamfest.rrra.org/2021 and
 [subscribe to our Hamfest Announcements mailing list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
