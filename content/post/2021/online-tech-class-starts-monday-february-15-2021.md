@@ -30,11 +30,11 @@ on KB6NU's Ham Radio Blog
 2. Follow the registration instructions: adults use the shopping cart (PayPal and Amazon Pay accepted), eligible students register by email
 3. Download the study guide and review the first two chapters 
 
->Testing **IS NOT** part of this class. To take the test, you'll have to
->register for an online test session [at]
->[https://hamstudy.org/sessions](https://hamstudy.org/sessions).
->The cost ranges from $10 -- $15, depending on the Volunteer Examiner group
->that's administering the test. [^1]
+"Testing **IS NOT** part of this class. To take the test, you'll have to
+register for an online test session [at]
+[https://hamstudy.org/sessions](https://hamstudy.org/sessions).
+The cost ranges from $10 -- $15, depending on the Volunteer Examiner group
+that's administering the test." [^1]
 
 
 [^1]: "Online Tech Class (starting Monday, February 15, 2021)", KB6NU's Ham Radio Blog, accessed January 30 2021, https://www.kb6nu.com/product/next-online-tech-class/.
