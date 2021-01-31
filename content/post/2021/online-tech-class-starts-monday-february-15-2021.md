@@ -6,9 +6,10 @@ authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "Classes" ]
 +++
-Get ready to pass your Technician Class Amateur Radio license test with KB6NU!
+Get ready to pass your Technician Class Amateur Radio license test with
+KB6NU's online class!
 
-KB6NU will be conducting an online class starting Monday, February 15,
+KB6NU will be conducting his online class starting Monday, February 15,
 2021. "It will consist of four, two-hour sessions starting at 9 pm
 Eastern Time (6pm Pacific Time) and running until 11 pm Eastern Time
 (8pm Pacific Time)" [^1] on the following dates: <!--more-->
