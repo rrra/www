@@ -8,7 +8,7 @@ tags = [ "Classes" ]
 aliases = [ "/post/2021/01/30/online-tech-class-starts-monday-february-15-2021/" ]
 +++
 Get ready to pass your Technician Class Amateur Radio license test with
-Maple Grove Radio Club's online class starting Monday, February 8, 2021!
+Maple Grove Radio Club's online classes which start Monday, February 8, 2021!
 <!--more-->
 
 This is a *study class* where you will receive assistance learning---you are
