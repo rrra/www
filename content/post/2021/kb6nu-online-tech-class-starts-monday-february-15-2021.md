@@ -1,10 +1,11 @@
 +++
 date = "2021-01-30T19:30:25-06:00"
 #publishdate = "2021-01-30T19:30:25-06:00"
-title = "Online Tech Class Starts Monday, February 15, 2021"
+title = "KB6NU Online Tech Class Starts Monday, February 15, 2021"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "Classes" ]
+aliases = [ "/post/2021/01/30/online-tech-class-starts-monday-february-15-2021/" ]
 +++
 Get ready to pass your Technician Class Amateur Radio license test with
 KB6NU's online class!
