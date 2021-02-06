@@ -12,7 +12,7 @@ outputs = [ "HTML", "Calendar" ]
 **This session will be limited to 3--4 testees and is intended for those
 in the ***local*** area.**
 
-Potential testees may start the registration process by sending e-mail
+Candidates may start the registration process by sending e-mail
 to {{< mailto WC0G >}}. Requests will be handled in the order received.
 
 Those accepted for this session will receive information on how to
