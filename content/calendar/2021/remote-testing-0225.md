@@ -6,7 +6,7 @@ publishDate = "2021-02-05T12:57:10-06:00"
 title = "Remote Testing"
 location = "To be announced"
 contact = "WC0G"
-dates = [ "license testing" ]
+dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 **This session will be limited to 3--4 testees and is intended for those
