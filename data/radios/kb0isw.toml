@@ -1,0 +1,5 @@
+location = "Karlstad, MN"
+call = "KB0ISW"
+mode = "DMR"
+frequency = [ "443.975 + CC6", "repeaterbook 27 17562" ]
+notes = "[Northstar DMR](https://www.qrz.com/db/KB0ISW)"

@@ -23,7 +23,7 @@ authors = [ "KK0V" ]
 * Motion passed
 
 ### Treasurer's report
-* Will be uploaded to the RRRA File Sharing Server tonight
+* Will be uploaded to the RRRA Groupware Server tonight
 * Described verbally
 * Motion to approve by KC0HIG
 * Seconded by KC0DCF

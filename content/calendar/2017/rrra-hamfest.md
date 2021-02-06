@@ -94,7 +94,3 @@ Some of the accomodations available in the Fargo area include:
 ### Still have questions?
 
 Please contact [hamfest@rrra.org](mailto:hamfest@rrra.org) if you have any questions about this event.
-
-### Hamfest Flyer
-
-<img src="https://farm5.staticflickr.com/4405/36233657494_8edcbb4979_z.jpg" alt="2017-rrra-hamfest-flyer-page-1">

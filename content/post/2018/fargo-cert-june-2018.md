@@ -20,7 +20,7 @@ each other for help in the time of need.
 <!--more-->
 
 This training is ***free*** and open to the public.
-[CERT Classes](/dates/cert/) will take place at
+CERT Classes will take place at
 [Edgewood Vista, 4420 37th Ave S, Fargo, ND 58104](https://maps.google.com/?daddr=Edgewood+Vista,+4420+37th+Ave+S,+Fargo,+ND+58104), 
 from 1pm  to 3pm on these dates:
 

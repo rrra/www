@@ -1,13 +1,13 @@
 +++
-silentkeyhq = "1001493530231705"
-name = "Martin A. Erickson"
-created = "2017-02-21T17:14:20-06:00"
 born = ""
-photocredit = "StarTribune"
-title = "w0jfc"
-licensed = "March 8, 2002"
 date = "2017-01-10"
-obituary = ""
-
+licensed = "March 8, 2002"
+name = "Martin A. Erickson"
+photocredit = "" # Defaults to obituary
+obituary = "StarTribune"
+obitLink = "https://www.startribune.com/obituaries/detail/184366/?fullname=martin-anton-erickson,-iv"
+silentkeyhq = "1001493530231705"
+title = "W0JFC"
+created = "2017-02-21T17:14:20-06:00"
 +++
-<!--born = "1982"-->
+<!--born in 1982-->

@@ -30,10 +30,10 @@ In 2016 there will be two Field Day sites in the Fargo-Moorhead area:
 ### Red River Radio Amateurs
 
 * Location: [Forest River Road, Fargo, ND](/places/forest-river-road-field-day-site/)
-* Contact: Kent Olson {{% mailto KA0LDG %}}, <a class="p-tel" href="tel:701-261-4674">701-261-4674</a>
+* Contact: Kent Olson {{< mailto KA0LDG >}}, <a class="p-tel" href="tel:701-261-4674">701-261-4674</a>
 * Talk-in: [W0ILO Repeaters](/radios/)
 
 ### Clay County ARES
 
 * Location: [111 2nd St NE, Sabin, MN](/places/sabin-mn-field-day-site/)
-* Contact: Mike Heiler {{% mailto KA0ZLG %}}, <a class="p-tel" href="tel:701-730-0701">701-730-0701</a>
+* Contact: Mike Heiler {{< mailto KA0ZLG >}}, <a class="p-tel" href="tel:701-730-0701">701-730-0701</a>

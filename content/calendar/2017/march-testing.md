@@ -1,5 +1,5 @@
 +++
-contact = "WC0G"
+contact = "vec"
 date = "2017-03-21T20:00:00-05:00"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"

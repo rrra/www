@@ -89,7 +89,7 @@ caption="A CERT volunteer practices using a fire extinguisher" attr="Jocelyn Aug
 >to learn about the local education and training opportunities available
 >to you. Let this person know about your interest in taking CERT
 >training.
-<span style="font-style:normal;">[ [1]({{< relref "/#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [1]({{< relref "#footnotes" >}}) ]</span>
 
 * [Start Introduction to Community Emergency Response Teams, IS-317](https://training.fema.gov/EMIWeb/IS/courseOverview.aspx?code=IS-317)
 
@@ -123,7 +123,7 @@ caption="A CERT volunteer practices using a fire extinguisher" attr="Jocelyn Aug
 > * Promote preparedness by hosting and participating in community events
 > * [Find a CERT program near you](https://www.citizencorps.fema.gov/cc/searchCouncil.do?submitByZip)
 > * [Register a CERT Program](https://www.citizencorps.fema.gov/cc/CertRegWizard.do)
-<span style="font-style:normal;">[ [1]({{< relref "/#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [1]({{< relref "#footnotes" >}}) ]</span>
 
 ## References
 

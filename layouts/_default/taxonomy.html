@@ -1,54 +1,48 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/_default/taxonomy.html -->` | safeHTML }}
+	{{ end }}
+	<header class="archive-header">
+		{{ $cat := index .Site.Params.categories (.Title | urlize) }}
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		{{ if and (in .RelPermalink "/categories/hamfest/") (lt (dateFormat "1" now) 10) }}
+		{{ $year := dateFormat "2006" now }}
+		<hr>
+		<p><a class="entry-title" href="/cal/{{ $year }}/hamfest/">{{ $year }} Hamfest Information</a>
+		<hr>
+		{{ end }}
 
-			<header class="archive-header">
-				{{ $cat := index .Site.Params.categories (.Title | urlize) }}
+		{{ $rsstitle := .Title }}
+		{{ $rsspath := printf ( .Title | urlize ) | printf "/%s/%s" ( .Data.Plural ) }}
+		{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 
-				{{ if and (in .URL "/categories/hamfest/") (lt (dateFormat "1" now) 10) }}
-				{{ $year := dateFormat "2006" now }}
-				<hr>
-				<p><a class="entry-title" href="/cal/{{ $year }}/hamfest/">{{ $year }} Hamfest Information</a>
-				<hr>
-				{{ end }}
+		<h2 class="archive-title">{{ if in .RelPermalink "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}Content in the {{ .Title | humanize | upper }} category{{ end }}</h2>
+		{{ with $cat.description }}
+			<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
+		{{ end }}
 
-				{{ $rsstitle := .Title }}
-				{{ $rsspath := printf ( .Title | urlize ) | printf "/%s/%s" ( .Data.Plural ) }}
-				{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
+		{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
+		{{ if ne $contact nil }}
+		<div id="contact">
+			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+		</div>
+		{{ end }}
 
-				<h2 class="archive-title">{{ if in .URL "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}Content in the {{ .Title | humanize | upper }} category{{ end }}</h2>
-				{{ with $cat.description }}
-					<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
-				{{ end }}
+		{{ $paginator := .Paginate .Data.Pages 40 }}
+		{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+	</header>
 
-				{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
-				{{ if ne $contact nil }}
-				<div id="contact">
-					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
-				</div>
-				{{ end }}
+	<div class="entry-content">
+		{{ range $paginator.Pages }}
+			<dt class="twocol"><a href="{{ .RelPermalink }}" title="Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}" >{{ .Title | safeHTML }}</a></dt>
+			<dd style="display: none;">Published: {{ .Date | dateFormat "January 02, 2006" }} - Categories: {{ with .Params.categories }}{{ delimit . ", " }}{{ else }}none{{ end }} - Tags: {{ with .Params.tags }}{{ delimit . ", " | plainify | upper }}{{ else }}none{{ end }}</dd>
+		{{ end }}
+	</div>
 
-				{{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "calendar") 5 }}
-				{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
-			</header>
+	{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
 
-			{{ range $paginator.Pages }}
-				{{ partial "summary.html" . }}
-			{{ end }}
-
-			{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
-		
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-		
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partial "footer.html" . }}
+	{{ .Scratch.Set "source" "layouts/_default/taxonomy.html" }}
+	{{ partial "sourcelink.html" . }}
+{{ end }}

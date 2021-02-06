@@ -1,0 +1,5 @@
+location = "Moorhead, MN"
+call = "[W0ILO](/radios/)"
+mode = "Analog"
+frequency = [ "145.350 - T123", "repeaterbook 27 33" ]
+notes = "[RRRA](/)"

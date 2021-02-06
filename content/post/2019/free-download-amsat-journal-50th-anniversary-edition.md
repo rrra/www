@@ -47,4 +47,4 @@ and consider [supporting AMSAT by becoming a member](https://www.amsat.org/produ
 
 [^1]: "About AMSAT", The Radio Amateur Satellite Corporation, retrieved April 25 2019, https://www.amsat.org/about-amsat/.
 
-AMSAT contact: [info@amsat.org](info@amsat.org)  or [888-322-6728](tel:888-322-6728)
+AMSAT contact: [info@amsat.org](mailto:info@amsat.org)  or [888-322-6728](tel:888-322-6728)

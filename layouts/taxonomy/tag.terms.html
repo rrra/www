@@ -1,48 +1,34 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/taxonomy/tag.terms.html -->` | safeHTML }}
+	{{ end }}
+	<header class="entry-header">
+		<h2 class="entry-title">Content Tags</h2>
+		<div class="entry-meta">(font size indicates popularity)</div>
+	</header>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+	<div class="entry-content" style="padding-bottom:1em;">
 
-			<header class="entry-header">
+	{{ if not (eq (len $.Site.Taxonomies.tags) 0) }}
+		{{ $fontUnit := "rem" }}
+		{{ $largestFontSize := 2.5 }}
+		{{ $smallestFontSize := 1.0 }}
+		{{ $max := len (index $.Site.Taxonomies.tags.ByCount 0).Pages }}
+		{{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
 
-{{/*
-				<div class="entry-meta">
-					<span class="cat-links">
-						<a href="/nets">Nets</a>
-					</span>
-					{{ $rsspath := "/ncs" }}
-					{{ partial "rss" ( dict "rsstitle" "NCS Operators" "rsspath" $rsspath ) }}
-				</div>
-*/}}
-				<h2 class="entry-title">Content Tags</h2>
-				<div class="entry-meta">(font size indicates popularity)</div>
-			</header>
-
-			<div class="entry-content" style="padding-bottom:1em;">
-
-			{{ if not (eq (len $.Site.Taxonomies.tags) 0) }}
-    				{{ $fontUnit := "rem" }}
-    				{{ $largestFontSize := 2.5 }}
-    				{{ $smallestFontSize := 1.0 }}
-    				{{ $max := len (index $.Site.Taxonomies.tags.ByCount 0).Pages }}
-    				{{ $min := len (index $.Site.Taxonomies.tags.ByCount.Reverse 0).Pages }}
-
-    				<div id="tag-cloud" {{/*style="padding: 5px 15px"*/}}>
-        				{{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
-            				{{ $count := len $taxonomy.Pages }}
-            				{{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
-            				{{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth) ) }}
-            				<!--Current font size: {{$currentFontSize}}-->
-            				<a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" style="font-size:{{$currentFontSize}}{{$fontUnit}}">{{ $name | replaceRE " " "-" }}</a>
-        				{{ end }}
-    				</div>
-				{{ end }}
-			</div>	
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partial "footer.html" . }}
+		<div id="tag-cloud" {{/*style="padding: 5px 15px"*/}}>
+			{{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
+			{{ $count := len $taxonomy.Pages }}
+			{{ $weigth := div (sub (math.Log $count) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
+			{{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth) ) }}
+			<!--Current font size: {{$currentFontSize}}-->
+			<a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" style="font-size:{{$currentFontSize}}{{$fontUnit}}">{{ $name | replaceRE " " "-" }}</a>
+			{{ end }}
+		</div>
+		{{ end }}
+		{{ .Scratch.Set "source" "layouts/taxonomy/tags.terms.html" }}
+		{{ partial "sourcelink.html" . }}
+	</div>	
+{{ end }}

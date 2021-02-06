@@ -1,0 +1,17 @@
+{{ .Scratch.Set "type" "audio/mp3" }}
+{{ .Scratch.Set "text" "Download" }}
+{{ if .IsNamedParams }}
+	{{ with .Get "src" }}{{ $.Scratch.Set "src" ( . ) }}{{ end }}
+	{{ with .Get "type" }}{{ $.Scratch.Set "type" ( . ) }}{{ end }}
+	{{ with .Get "text" }}{{ $.Scratch.Set "text" ( . ) }}{{ end }}
+{{ else }}
+	{{ with .Get 0 }}{{ $.Scratch.Set "src" ( . ) }}{{ end }}
+	{{ with .Get 1 }}{{ $.Scratch.Set "text" ( . ) }}{{ end }}
+{{ end }}
+{{ $src := .Scratch.Get "src" | replaceRE "^https?:" "" }}
+<audio id="audio-player" src="{{ $src }}" type="{{ .Scratch.Get "type" }}" controls="controls"></audio>
+<div>
+	<span class="genericon genericon-audio"></span>
+	<a href="{{ $src }}">{{ .Scratch.Get "text" }}</a>
+</div>
+<p class="clear"></p>

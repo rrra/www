@@ -18,7 +18,7 @@ These minutes have been converted to a mobile friendly format; some light
 editing for clarity and consistency was performed. The Secretary's original
 minutes document (2018-10 Minutes.docx) may be found in the
 "**Committee Reports | Secretary Reports**" folder on the
-[RRRA File Sharing Server](https://cloud.rrra.org/). 
+[RRRA Groupware Server](https://cloud.rrra.org/). 
 
 **Items marked with :new: have been added, corrected, or significantly
 revised, pending acceptance by the Secretary**
@@ -74,7 +74,7 @@ revised, pending acceptance by the Secretary**
 
 #### Media
 * Steve K.
-* :new: May need to re-host website, mailing lists, and file sharing server due to sale of company donating hosting; will keep club updated
+* :new: May need to re-host website, mailing lists, and groupware server due to sale of company donating hosting; will keep club updated
 * :new: If you have any questions please see K0STK after the meeting or contact webmaster@rrra.org
 
 ### Old Business

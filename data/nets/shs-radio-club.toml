@@ -1,5 +1,6 @@
-sort = "1:19:30"
-date = "Monday 19:30"
+inactive = true
+day = 1
+time ="19:30"
 id = "Shanley Amateur Radio Club"
 freq = "[W0ILO Repeaters](/radios/#repeaters)"
 contact = "K0CRF"

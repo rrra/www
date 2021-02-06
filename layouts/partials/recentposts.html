@@ -1,13 +1,11 @@
 <aside id="recent-posts-3" class="widget widget_recent_entries">
 
-	{{ if isset .Data "Pages" }}
 	<h2 class="widget-title">Recent Posts</h2>
 		<ul>
-			{{ range first 5 (where .Data.Pages.ByDate "Section" "post").Reverse }}
+			{{ range first 5 (where .Site.RegularPages.ByDate "Section" "post").Reverse }}
 			<li>
 				<a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
 			</li>
 			{{ end }}
 		</ul>
-	{{ end }}
 </aside>

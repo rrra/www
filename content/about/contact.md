@@ -1,6 +1,5 @@
 +++
 title = "Contact Information"
-date = "2019-02-20T10:00:00-06:00"
 aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 +++
 * [Board of Directors](#board-of-directors) (includes officers)
@@ -12,27 +11,36 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 #### Officers
 
-* **President**: {{% mailto president name %}}
-* **Vice President**: {{% mailto vicepresident name %}}
-* **Secretary**: {{% mailto secretary name %}}
-* **Treasurer**: {{% mailto treasurer name %}}
-* **At-Large**:
-    * 2018--2020 {{% mailto atlarge1 name %}}
-    * 2019--2021 {{% mailto atlarge2 name %}}
+| Position       |                               |
+| -------------- | ----------------------------- |
+| President      | {{< mailto president name >}} |
+| Vice President | {{< mailto vicepresident name >}} |
+| Secretary      | {{< mailto secretary name >}} |
+| Treasurer      | {{< mailto treasurer name >}} |
 
-#### Ex-officio
+#### At-Large Members
 
-* **2019**:
-    *  {{% mailto K0GEF name %}} (Secretary)
+| Tenure         |                              |
+| -------------- | ---------------------------- |
+| 2020--2022     | {{< mailto atlarge1 name >}} |
+| 2019--2021     | {{< mailto atlarge2 name >}} <br> (Assumed in 2020) |
+
+#### Ex-officio Members
+
+| Position       |                                  |
+| -------------- | -------------------------------- |
+| Secretary      | {{< mailto K0JKL name >}} (2020) |
 
 #### Trustees
 
-* **KC0KAE**: {{% mailto N0RF name %}}
-* **W0ILO**: {{% mailto N0RF name %}}
+| Callsign       |                              |
+| -------------- | ---------------------------- |
+| KC0KAE         | {{< mailto N0RF name >}}     |
+| W0ILO          | {{< mailto W0JPJ name >}}    |
 
 ### Mailing Address {#mailing-address}
 
-{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" %}}
+{{< hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" >}}
 
 ### Questions, Comments, and Issue Reports {#reports}
 

@@ -1,5 +1,5 @@
 +++
-contact = "WC0G"
+contact = "vec"
 date = "2017-09-30T09:00:00-05:00"
 endTime = ""
 location = "Red River Valley Fairgrounds"

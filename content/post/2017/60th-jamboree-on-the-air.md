@@ -33,7 +33,7 @@ communities]."
 >stations that will be on the air. A good resource to find a local Scout
 >unit is the
 >[Be-A-Scout website](https://beascout.scouting.org/BeAScoutMap.aspx)
-<span style="font-style:normal;">[ [2]({{< relref "/#footnotes" >}}) ]</span>
+<span style="font-style:normal;">[ [2]({{< relref "#footnotes" >}}) ]</span>
 
 ## References
 

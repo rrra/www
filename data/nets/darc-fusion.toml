@@ -1,5 +1,5 @@
-sort = "6:20:00"
-date = "Saturday 20:00"
+day = 6
+time ="20:00"
 id = "[DARC](http://kd0ylg-darc.byethost8.com/) Fusion"
-freq = "[442.500 Mhz C4FM/FM](https://repeaterbook.com/repeaters/details.php?state_id=27&ID=14620)"
+freq = [ "442.500 Mhz C4FM/FM", "repeaterbook 27 14620" ]
 contact = "W0JPJ"

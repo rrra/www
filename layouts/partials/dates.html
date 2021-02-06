@@ -3,32 +3,11 @@
 	<h2 class="widget-title">Dates</h2>
 
 	<ul>
-		{{ $page_link := .RelPermalink }}
-
-		{{ if eq .Data.Plural "categories" }}
-			{{ .Scratch.Set "filter" .Title }}
-		{{ else if ne .Params.categories nil }}
-			{{ $temp := delimit .Params.categories " " }}
-			{{ .Scratch.Set "filter" $temp }}
-		{{ else }}
-			{{ .Scratch.Set "filter" "" }}
-		{{ end }}
-
 		{{ range $name,$taxonomy := .Site.Taxonomies.dates }}
 			{{ range last 1 $taxonomy.Pages.ByDate }}
-				{{ if ge .Date.Unix now.Unix }}
-					{{ $page := . }}
-					{{ if gt ($.Scratch.Get "filter") "" }}
-						{{ $filter := $.Scratch.Get "filter" }}
-						{{ if ne .Params.categories nil }}
-							{{ $cats := delimit .Params.categories " " }}
-							{{ if in (chomp $filter) (chomp $cats) }}
-								<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $name }}</a></li>
-							{{ end }}
-						{{ end }}
-					{{ else }}
-						<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $name }}</a></li>
-					{{ end }}
+				{{ if and ( ge .Date.Unix now.Unix ) ( ne ( $name | lower )  "hidden" ) }}
+					{{ $page := delimit .Page.Params.dates "" }}
+					<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $page }}</a></li>
 				{{ end }}	
 			{{ end }}
 		{{ end }}

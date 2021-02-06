@@ -1,13 +1,49 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+{{ if eq "development" hugo.Environment }}
+{{ `<!-- Template: layouts/404.html -->` | safeHTML }}
+{{ end }}
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-			{{ partial "404.html" }}
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
+<article class="post type-post status-publish format-standard hentry">
 
-{{ partial "footer.html" . }}
+	<header class="entry-header">
+
+		<div class="entry-meta">
+		</div>
+
+		<h2 class="entry-title">QRU</h2>
+
+		<div class="entry-meta">
+	</div>
+
+	</header>
+
+	<div class="entry-content">
+		<h3>I have nothing for you</h3>
+		<p>Here is what you can do to find what you are looking for...</p>
+		<h4>Browse this site</h4>
+		<ul>
+			<li>Browse content by <a href="/categories/">general category</a> or by <a href="/tags/">detailed tags</a></li>
+			<li>Check the <a href="/sitemap.html">Sitemap</a></li>
+			<li>Select a site section from the top of page navigation menu (revealed by the <span class="genericon genericon-menu"></span> menu icon on smartphones and small devices)</li>
+			<li>Select a recent blog post, date sequence, or general content category in the sidebar on the left side of any page (the sidebar will be located near the bottom of the page on smartphones and small screen devices)</li>
+			<li><a href="/">Return to our homepage</a></li>
+			
+		</ul>
+		<h4>Search this site</h4>
+		<ul>
+			<li>Click the magnifying glass in the upper right corner of any page to reveal a search box</li>
+			<li>A second search box is located above RRRA logo (this search box will be located toward the bottom of the page on smartphones and small screen devices)</li>
+		</ul>
+		<p>Those search boxes are powered by Google and may not return recently uploaded content.</p>
+		<h4>Ask for help</h4>
+		<p>Contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you still need help using this site.</p>
+	</div>
+
+</article> 
+
+{{ .Scratch.Set "source" "layouts/404.html" }}
+{{ partial "sourcelink.html" . }}
+
+{{ end }}

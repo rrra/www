@@ -1,41 +1,42 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/taxonomy/ncs.html -->` | safeHTML }}
+	{{ end }}
+	<header class="entry-header">
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		<div class="entry-meta">
+			<span class="cat-links">
+				<a href="/ncs/" rel="tag">NCS Leader Board</a> 
+			</span>
+			{{ $rsstitle := "NCS Credits " | printf "%s %s" .Title | printf "%s" }}
+			{{ $rsspath := printf "/ncs/%s" ( .Title | urlize ) }}
+			{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
+		</div>
+		<h1 class="entry-title">NCS Credits - {{ .Title }}</h1>
+{{ with  .OutputFormats.Get "calendar" -}}
+<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these NCS credits" href="{{ .RelPermalink | safeURL }}">Subscribe to these credits</a> &bull; <a style="text-decoration: none;" title="Import these NCS credits as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
+{{- end }}
+	</header>
 
-			<header class="entry-header">
-
-				<div class="entry-meta">
-					<span class="cat-links">
-						<a href="/ncs/" rel="tag">NCS Operators</a> 
-					</span>
-					{{ $rsstitle := "NCS Assignments " | printf "%s %s" .Title | printf "%s" }}
-					{{ $rsspath := printf "/ncs/%s" ( .Title | urlize ) }}
-					{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
-				</div>
-				<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
-    		{{ with  .OutputFormats.Get "calendar" -}}
-      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these NCS assignments" href="{{ .RelPermalink | safeURL }}">Subscribe to these assignments</a> &bull; <a style="text-decoration: none;" title="Import these NCS assignments as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
-    		{{- end }}
-			</header>
-
-			<div class="entry-content" style="padding-bottom:1em;">
-				{{ range (.Data.Pages.GroupByDate "2006") }}
-					<h3>{{ .Key }}</h3>
-					<dl class="list">
-						{{ range .Pages.Reverse }}
-							{{ .Render "alldli" }}
-						{{ end }}
-					</dl>
-					{{ partial "clear" }}
+	<div class="entry-content" style="padding-bottom:1em;">
+		{{ range (.Data.Pages.GroupByDate "2006") }}
+			<h3>{{ .Key }}</h3>
+			<dl class="list">
+				{{ range .Pages.Reverse }}
+					{{ .Render "alldli" }}
 				{{ end }}
-			</div>
-		
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
+			</dl>
+			{{ partial "clear" }}
+		{{ end }}
 
-{{ partial "footer.html" . }}
+		<div class="banner noprint">
+			<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a>
+			to report erroneous or omitted credits.</p>
+		</div>
+		<p class="clear"></p>
+		{{ .Scratch.Set "source" "layouts/taxonomy/ncs.html" }}
+		{{ partial "sourcelink.html" . }}
+	</div>
+{{ end }}

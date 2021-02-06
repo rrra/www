@@ -1,0 +1,45 @@
+{{/* Populates layouts/_default/baseof.html */}}
+
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/_default/category.html -->` | safeHTML }}
+	{{ end }}
+	<header class="archive-header">
+		{{ $cat := index .Site.Params.categories (.Title | urlize) }}
+
+		{{ if and (in .RelPermalink "/categories/hamfest/") (lt (dateFormat "1" now) 10) }}
+		{{ $year := dateFormat "2006" now }}
+		<hr>
+		<p><a class="entry-title" href="/cal/{{ $year }}/hamfest/">{{ $year }} Hamfest Information</a>
+		<hr>
+		{{ end }}
+
+		{{ $rsstitle := .Title }}
+		{{ $rsspath := printf ( .Title | urlize ) | printf "/%s/%s" ( .Data.Plural ) }}
+		{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
+
+		<h2 class="archive-title">{{ if in .RelPermalink "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}Content in the {{ .Title | humanize | upper }} category{{ end }}</h2>
+		{{ with $cat.description }}
+			<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
+		{{ end }}
+
+		{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
+		{{ if ne $contact nil }}
+		<div id="contact">
+			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+		</div>
+		{{ end }}
+
+		{{ $paginator := .Paginate (where .Data.Pages "Type" "!=" "calendar") 5 }}
+		{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+	</header>
+
+	{{ range $paginator.Pages }}
+		{{ partial "summary.html" . }}
+	{{ end }}
+
+	{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+
+	{{ .Scratch.Set "source" "layouts/_default/category.html" }}
+	{{ partial "sourcelink.html" . }}
+{{ end }}

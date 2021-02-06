@@ -1,11 +1,11 @@
 +++
-date = "2015-12-08T14:23:55-06:00"
 title = "Get Licensed ... Be a Ham"
 linktitle = "Be<span style=\"display:none;\">come</span> a Ham<span style=\"display:none;\"> Radio Operator</span>"
-menu = "main"
 categories = [ "Education", "License Testing" ]
 description = "Get started in Amateur Radio, or upgrade your current license, with the RRRA."
 contact = "W0HNV"
+[menu.Main]
+url = "/licensing/"
 +++
 * [Get started with the Red River Radio Amateurs](#get-started-with-the-red-river-Radio-Amateurs)
 * [What is Ham Radio?](#what-is-ham-radio)
@@ -15,6 +15,15 @@ contact = "W0HNV"
 
 # Get started with the Red River Radio Amateurs
 
+RRRA's Amateur Radio license test preparation classes and license
+testing sessions have been paused for the duration of the COVID-19
+pandemic.
+
+Our [Education and Testing Schedule]({{< relref "/education-and-testing-schedule.md" >}}) 
+and list of [license testing sessions](/dates/license-testing/) will be
+updated as our plans change.
+
+<!--
 RRRA offer periodic series of weekly classes in preparation for FCC
 Amateur Radio license tests followed, approximately a week later, by a
 license testing session.
@@ -24,6 +33,7 @@ Please see our [Education and Testing Schedule]({{< relref "/education-and-testi
 Our club's
 [bi-monthly license testing sessions](/dates/license-testing/)
 are open to everyone. Reservations are appreciated but not required.
+-->
 
 # What is Ham Radio?
 

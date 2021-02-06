@@ -1,0 +1,5 @@
+location = "Fargo, ND"
+call = "KC0LOK"
+mode = "NXDN"
+frequency = [ "443.000 + RAN 41", "repeaterbook 38 18681" ]
+notes = "Analog T123"

@@ -17,7 +17,7 @@ These minutes have been converted to a mobile friendly format; some light
 editing for clarity and consistency was performed. The Secretary's original
 minutes document (2019-01 Minutes.docx) may be found in the
 "**Committee Reports | Secretary Reports**" folder on the
-[RRRA File Sharing Server](https://cloud.rrra.org/). 
+[RRRA Groupware Server](https://cloud.rrra.org/). 
 
 **Items marked with :new: have been added, corrected, or significantly
 revised, pending acceptance by the Secretary**
@@ -75,7 +75,7 @@ the repeaters.
 
 #### Media
 * Steve K.
-* :new: Website, mailing lists, and file sharing server moved to DigitalOcean VPS; hosting cost $5 / month. There should be no noticable difference for users
+* :new: Website, mailing lists, and groupware server moved to DigitalOcean VPS; hosting cost $5 / month. There should be no noticable difference for users
 * Motion to establish an ongoing payment of $5 / month by KC0SHM
     * Tabled by KC0ODE to determine best way to transfer funds to DigitalOcean. K0STK to report back on payment options
 * :new: If you have any questions please see K0STK after the meeting or contact webmaster@rrra.org

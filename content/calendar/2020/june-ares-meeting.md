@@ -7,6 +7,7 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "June ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
+status = "canceled"
 +++
 <!--
 Please join us at

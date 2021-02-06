@@ -1,0 +1,5 @@
+location = "Karlstad, MN"
+call = "KA0NWV"
+mode = "Analog"
+frequency = [ "145.470 - T123", "repeaterbook 27 43" ]
+notes = "[Echolink #23832](https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=23832&type=search)"

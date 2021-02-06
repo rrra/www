@@ -1,5 +1,5 @@
 +++
-contact = "WC0G"
+contact = "vec"
 date = "2019-07-16T20:00:00-05:00"
 publishDate = "2018-01-01"
 endTime = ""
@@ -8,7 +8,7 @@ title = "July Testing Session"
 dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
 categories = [ "License Testing" ]
-cancelled = true
+status = "canceled"
 +++
 Please visit our index of [License Testing dates](/dates/license-testing/) for a
 complete list of currently scheduled testing dates along with information

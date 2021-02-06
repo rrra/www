@@ -21,6 +21,6 @@ The Jingle Bell Run is an excellent opportunity for new Amateur Radio
 Operators to familiarize themselves with event support net operations in a
 relaxed setting.
 
-Please contact {{% mailto KC0GQE %}}&nbsp;if you would like to volunteer for, or
+Please contact {{< mailto KC0GQE >}}&nbsp;if you would like to volunteer for, or
 have any questions about, this event.
 <!--more-->

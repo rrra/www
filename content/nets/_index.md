@@ -1,12 +1,12 @@
 +++
-date = "2015-12-08T14:18:09-06:00"
 title = "Nets"
 linktitle = "Nets<span style=\"display:none;\">, Preamble and NCS Roster</span>"
-menu = "main"
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
 description = "Take part in an radio net. Includes links to NCS resources: net preamble, NCS schedule and roster; and a list of Red River Valley nets."
-contact = "K0RQ"
+contact = "net"
+[menu.Main]
+url = "/nets/"
 +++
 ## RRRA Sunday VHF/UHF Net
 
@@ -19,13 +19,13 @@ This net is affiliated with the
 the ARES Division of the American Radio Relay League.
 
 NCS Operator volunteers are always appreciated. Please contact
-{{% mailto K0RQ %}} for more information.
+the {{< mailto net >}} for more information.
 
 ### NCS Resources
 
 * [Net Preamble]({{< relref "/nets/preamble.md" >}})
 * [NCS Schedule](/dates/ncs-schedule/)
-* [NCS Operator List](/ncs/)
+* [NCS Leader Board](/ncs/)
 
 ## Red River Valley Nets <a class="genericon genericon-print" style="text-decoration:none;" href="{{< relref "/nets/red-river-valley-nets.md" >}}" title="Printable Red River Valley net list"></a>
 

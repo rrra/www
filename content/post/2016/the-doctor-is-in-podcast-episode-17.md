@@ -5,73 +5,21 @@ categories = [ "Education" ]
 date = "2016-11-17T08:37:59-06:00"
 description = ""
 slug = ""
-tags = [ "ARRL", "podcast" ]
+tags = [ "ARRL", "doctor", "podcast" ]
 title = "The Doctor is In: Stealth Antennas"
 aliases = [ "/post/2016/11/17/the-doctor-is-in-podcast-episode-17" ]
 +++
-"Sometimes the best antenna is the *least* antenna."
-[[1]({{< relref "/post/2016/the-doctor-is-in-podcast-episode-17.md#footnotes" >}})]
-
 Learn about some of your options for 
-[Stealth Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/17966282/stealth-antennas/)
+*Stealth Antennas*
 in this episode of the
 [*ARRL The Doctor is In*](http://www.arrl.org/doctor/) podcast.
 <!--more-->
 
-{{< blubrry "//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/Nov_17_-_Stealth_Antennas_With_DX_Eng_Spot.mp3" >}}
+{{< audio "http://www.arrl.org/files/file/DoctorPodcast/Nov_17_-_Stealth_Antennas_With_DX_Eng_Spot.mp3" "Download the podcast" >}}
 
-These short podcasts are an approachable way of learning about technical topics related to Amateur Radio. The following topics have been discussed 
-since the first epsode on April 7, 2016:
+These short podcasts are an approachable way of learning about technical
+topics related to Amateur Radio. Recent podcast topics include:
 
-* [Anderson PowerPoles and Antenna Polarization](https://www.blubrry.com/arrl_the_doctor_is_in/17966281/anderson-powerpoles-and-antenna-polarization/)
-* [HF Mobile Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/16707017/hf-mobile-antennas/)
-* [Bits vs Baud](https://www.blubrry.com/arrl_the_doctor_is_in/16483938/bits-vs-baud/)
-* [Coping with the Solar Minimum](https://www.blubrry.com/arrl_the_doctor_is_in/16482224/coping-with-the-solar-minimum/)
-* [Coaxial Connectors](https://www.blubrry.com/arrl_the_doctor_is_in/15720728/coaxial-connectors/)
-* [Software Defined Radio](https://www.blubrry.com/arrl_the_doctor_is_in/15406622/software-defined-radio/)
-* [Standing Wave Ratio](https://www.blubrry.com/arrl_the_doctor_is_in/15406621/standing-wave-ratio/)
-* [Magnetic Loop Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/14382199/magnetic-loop-antennas/)
-* [HF Propagation](https://www.blubrry.com/arrl_the_doctor_is_in/14382198/hf-propagation/)
-* [Are Linear Amplifiers Really Worthwhile?](https://www.blubrry.com/arrl_the_doctor_is_in/14170336/are-linear-amplifiers-really-worthwhile/)
-* [Grounding](https://www.blubrry.com/arrl_the_doctor_is_in/13372207/grounding/)
-* [All About Baluns](https://www.blubrry.com/arrl_the_doctor_is_in/13267824/all-about-baluns/)
-* [Hunting Down Interference](https://www.blubrry.com/arrl_the_doctor_is_in/12536115/may-19-hunting-down-interference/)
-* [Open Wire Feed Lines](https://www.blubrry.com/arrl_the_doctor_is_in/12534196/may-5-open-wire-feed-lines/)
-* [Does CW Really Get Through When Nothing Else Can?](https://www.blubrry.com/arrl_the_doctor_is_in/12534195/april-21-does-cw-really-get-through-when-nothing-else-can/)
-* [HF Vertical Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/12528867/april-7-hf-vertical-antennas/)
+[Anderson PowerPoles and Antenna Polarization]({{< relref "/post/2016/the-doctor-is-in-podcast-episode-16.md" >}})
 
-The [current list of podcast episodes](https://www.blubrry.com/arrl_the_doctor_is_in/) is available on the BluBrry ARRL The Doctor is In page.
-
-### About the ARRL The Doctor Is In Podcast
-
->Sponsored by [DX Engineering](http://www.dxengineering.com/),
-*ARRL The Doctor is In* is an informative discussion of all things
-technical. Listen on your computer, tablet, or smartphone---whenever and
-wherever you like!
-
->Every 2 weeks, your host, QST Editor in Chief Steve Ford, WB8IMY, and the
-Doctor himself, Joel Hallas, W1ZR, will discuss a broad range of technical
-topics. You can also e-mail your questions
-[doctor@arrl.org](mailto:doctor@arrl.org),
-And the Doctor may answer them in a future podcast.
-
->Enjoy
-*ARRL The Doctor is In* on
-[Apple iTunes](https://itunes.apple.com/us/podcast/arrl-the-doctor-is-in/id1096749595?mt=2()),
-or by using your iPhone or iPad podcast app (just search for
-*ARRL The Doctor is In*). You can also listen online at
-[Blubrry](https://www.blubrry.com/arrl_the_doctor_is_in/),
-or at
-[Stitcher](https://www.stitcher.com/)
-(free registration required, or browse the site as a guest) and through
-the free Stitcher app for iOS, Kindle, or Android devices.
-[[2]({{< relref "/#footnotes" >}})]
-
-### Footnotes
-
-[1] "ARRL The Doctor is In - Stealth Antennas", blubrry, 
-accessed November 17 2016, https://www.blubrry.com/arrl_the_doctor_is_in/17966282/stealth-antennas/.
-
-[2] "The Doctor Will See You Now!",
-ARRL The national association for Amateur Radio, last modified November 11 2016,
-http://www.arrl.org/news/the-doctor-will-see-you-now-7.
+{{< about-the-doctor-is-in >}}

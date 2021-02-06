@@ -25,4 +25,4 @@ There is no charge for instruction; however a textbook is required
 Detailed class information, including links to purchase the required
 text books, is available on our [2016-2017 Education and Testing Schedule]({{< relref "/education-and-testing-schedule.md#textbooks" >}}).
 
-Please contact {{% mailto W0HNV name %}} if you have any questions.
+Please contact {{< mailto W0HNV name >}} if you have any questions.

@@ -1,5 +1,4 @@
 +++
-date = "2015-12-08T10:00:59-06:00"
 title = "RRRA Bylaws"
 linktitle = "Bylaws"
 +++

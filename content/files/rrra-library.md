@@ -6,8 +6,8 @@ title = "RRRA Library Catalog"
 categories = [ "Membership" ]
 +++
 Library materials are available for check-out by members
-from the Club Librarian ({{< mailto librarian >}})
-during [Business Meetings](/dates/business-meetings/).
+from the {{< mailto librarian >}} during
+[Business Meetings](/dates/business-meetings/).
 <!--more-->
 
 * ARRL Handbook 1988

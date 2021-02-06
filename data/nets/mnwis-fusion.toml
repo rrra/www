@@ -1,5 +1,5 @@
-sort = "1:19:30"
-date = "Monday 19:30"
+day = 1
+time ="19:30"
 id = "[MNWIS](https://www.hamoperator.com/Hamoperator/MNWis.html) Fusion"
-freq = "[442.500 MHz C4FM/FM](https://repeaterbook.com/repeaters/details.php?state_id=27&ID=14620)"
+freq = [ "442.500 MHz C4FM/FM", "repeaterbook 27 14620" ]
 contact = "W0JPJ"

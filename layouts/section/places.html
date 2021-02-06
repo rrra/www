@@ -1,38 +1,34 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-{{ $sitedate := $.Param "sitedate" }}
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/section/places.html -->` | safeHTML }}
+	{{ end }}
+	{{ $sitedate := $.Param "sitedate" }}
 
-<div id="main-content" class="main-content">
+	<header class="entry-header">
+		<div class="entry-meta">
+			<span class="cat-links"><a href="/">Home</a></span>
+		</div>
+		<h1 class="entry-title">{{ .Title }}</h1>
+		{{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+		{{ $contact := .Params.contact }}
+		{{ if ne $contact nil }}
+		<div id="contact">
+			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+		</div>
+		{{ end }}
+	</header>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-			<header class="entry-header">
-				<div class="entry-meta">
-					<span class="cat-links"><a href="/">Home</a></span>
-				</div>
-				<h1 class="entry-title">{{ .Title }}</h1>
-				{{ with .Params.description }}<p>{{ . }}</p>{{ end }}
-				{{ $contact := .Params.contact }}
-				{{ if ne $contact nil }}
-				<div id="contact">
-					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
-				</div>
-				{{ end }}
-			</header>
-
-			<div class="entry-content">
-				<ul id="list">
-    			{{ range .Data.Pages.ByTitle }}
-					  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-					{{ end }}
-				</ul>
-				<p style="clear:both;"></p>			
-				{{ .Content }}
-			</div>
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partial "footer.html" . }}
+	<div class="entry-content">
+		<ul id="list">
+	{{ range .Data.Pages.ByTitle }}
+			  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+			{{ end }}
+		</ul>
+		<p style="clear:both;"></p>			
+		{{ .Content }}
+		{{ .Scratch.Set "source" "layouts/section/template.html" }}
+		{{ partial "sourcelink.html" . }}
+	</div>
+{{ end }}

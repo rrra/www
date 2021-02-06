@@ -1,0 +1,5 @@
+location = "Moorhead, MN"
+call = "W0JPJ"
+mode = "YSF"
+frequency = [ "442.500 + D065", "repeaterbook 27 14620" ]
+notes = "Automatic Mode Select, Wires-X primary link: [DARC](http://kd0ylg-darc.byethost8.com/open-forum/?i=1)"

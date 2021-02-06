@@ -13,12 +13,17 @@ aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/",
 +++
 ### Amateur Radio Licensing Classes
 
+RRRA's Amateur Radio license test preparation classes and
+[license testing sessions](/dates/license-testing/)
+have been paused for the duration of the COVID-19 pandemic.
+
+<!--
 Get started in Amateur Radio---or upgrade your license---with a class
 presented by one of RRRA's experienced instructors.
 
 These classes are held Wednesday evenings, from 7:00pm to 9:00pm, on the
 3rd floor of the
-{{% hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" %}},
+{{< hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" >}},
 and run for 6 to 10 weeks.
 
 **There is no charge for instruction; however a
@@ -28,6 +33,7 @@ is required** (approximate cost $30)
 #### Class Schedule
 
 {{< classes >}}
+-->
 <!--more-->
 
 #### Textbooks
@@ -42,7 +48,6 @@ is required** (approximate cost $30)
 **Purchasing links:**
 
 * [Amazon](https://www.amazon.com/HamRadioSchool-com-Technician-License-Course-Turner/dp/1477595457)
-* [Cheapest Textbooks](https://www.cheapesttextbooks.com/subjects/9781477595459.html)
 * [DX Engineering](https://www.dxengineering.com/search/brand/ham-radio-school/product-line/ham-radio-school-technician-class-license-course-book)
 
 ##### General License Course Textbook

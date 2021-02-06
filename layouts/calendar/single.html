@@ -1,22 +1,12 @@
-{{ partial "header.html" . }}
+{{/* Fills in layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
-
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-			{{ if gt .Params.ncs "" }}
-				{{ partial "calendar/ncs.html" . }}
-			{{ else }}
-				{{ partial "calendar/event.html" . }}
-			{{ end }}
-
-			{{ template "_internal/disqus.html" . }}
-		
-		</div><!-- #content -->
-
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partial "footer.html" . }}
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/calendar/single.html -->` | safeHTML }}
+	{{ end }}
+	{{ if gt .Params.ncs "" }}
+		{{ partial "calendar/ncs.html" . }}
+	{{ else }}
+		{{ partial "calendar/event.html" . }}
+	{{ end }}
+{{ end }}

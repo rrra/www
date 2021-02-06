@@ -1,18 +1,142 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/sk/single.html -->` | safeHTML }}
+	{{ end }}
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+{{ $scratch := newScratch }}
+<article class="post type-post status-publish format-standard hentry">
 
-			{{ partial "sk.html" . }}
+<!-- .entry-header -->
+<header class="entry-header">
 
-			{{ template "_internal/disqus.html" . }}
+{{ $silentkeybase := .Site.Params.silentkeybase }}
+{{ $sitedate := .Site.Params.sitedate }}
+{{ $call := upper .Title }}
+{{ $licensed := findRE "[12][0-9]{3}-[01]?[0-9]-[0-9]{2}" (.Params.licensed) 1}}
+
+<div class="entry-meta">
+
+<div class="cat-links">
+{{ range last 1 ( where .Site.Pages "Section" "sk" ) }}
+<a class="nav {{ if not $.PrevInSection }}disabled" {{ else }}" title="Oldest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&laquo;&laquo;</a>
+{{ end }}
+<a class="nav {{ if not .PrevInSection }}disabled" {{ else }}" title="Previous Silent Key - {{ upper .PrevInSection.Title }}" {{ end }}  href="{{ if .PrevInSection }}{{ .PrevInSection.RelPermalink }}{{ else }}.{{ end }}">&laquo;</a>
+<a class="taxonomy" href="/sk/" title="Silent Key Memorials" rel="category">Silent Key Memorials</a>
+<a class="nav {{ if not .NextInSection }} disabled" {{ else }}" title="Next Silent Key - {{ upper .NextInSection.Title }}" {{ end }} href="{{ if .NextInSection }}{{ .NextInSection.RelPermalink }}{{ else }}.{{ end }}">&raquo;</a>
+{{ range first 1 ( where .Site.Pages "Section" "sk" ) }}
+<a class="nav {{ if not $.NextInSection }}disabled" {{ else }}" title="Newest Silent Key - {{ upper .Title }}" {{ end }} href="{{ .RelPermalink }}">&raquo;&raquo;</a>
+{{ end }}
+</div>
+
+</div><!-- .entry-meta -->
+
+<h2 class="entry-title">{{ .Title | upper }}<br />{{ .Params.name }}</h2>
+
+</header>
+
+<div class="entry-content">
+
+	{{ $scratch.Set "needed" "photo|" }}
+	{{ with $.Params.obituary }}
+		{{ $scratch.Set "photocredit" . }}
+	{{ end }}
+	{{ with $.Params.photocredit }}
+		{{ $scratch.Set "photocredit" . }}
+	{{ end }}
+
+	{{ $imgfiles := readDir "static/images/sk/" }}
+	{{ range $imgfiles }}
+		{{ if in .Name ( lower $call ) }}
+			<figure class="wp-caption alignnone">
+				<img  src="/images/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}"/>
+				{{ with $scratch.Get "photocredit" }}
+					<figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
+				{{ end }}
+			</figure>
+			{{ $scratch.Set "needed" "" }}
+		{{ end }}
+	{{ end }}
 		
-		</div><!-- #content -->
+		<dl id="list">
+			{{ with .Params.born }}
+				<dt class="twocol header">Born:</dt><dd class="twocol">{{ . | dateFormat ( $sitedate ) }}</dd>
+			{{ else }}
+				{{ $scratch.Add "needed" "birth|" }}
+			{{ end }}
 
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
+			{{ if gt .Params.licensed "" }}
+				<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if gt $licensed "" }}{{ .Params.licensed | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>
+			{{ end}}
 
-{{ partial "footer.html" . }}
+			{{ if gt .Date "" }}
+				<dt class="twocol header">Silent Key:</dt><dd class="twocol">{{ .Date.Format ( $sitedate ) }}</dd>
+			{{ else }}
+				{{ $scratch.Add "needed" "death|" }}
+			{{ end }}
+
+			{{ with .Params.silentkeyhq }}
+				{{ $href :=  "\">National Silent Key Archive</a>" | printf "%s%s" (.) | printf "%s%s" "&uid=" | printf "%s%s" $call | printf "%s%s" "call=" | printf "%s%s" $silentkeybase | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
+				<dt class="twocol header">Memorial:</dt>
+				<dd class="twocol">{{ $href }}</dd>
+			{{ else }}
+				{{ $scratch.Add "needed" "skhq|" }}
+			{{ end }}
+
+			{{ if gt .Params.obitLink "" }}
+				{{ $url := .Params.obitLink }}
+				{{ $url := replace $url "https://" "" }}
+				{{ $url := replace $url "http://" "" }}
+				{{ $url := split $url "/" }}
+				{{ $scratch.Set "obituary" ( index $url 0 ) }}
+				{{ with .Params.obituary }}
+					{{ $scratch.Set "obituary" . }}
+				{{ end }}
+				{{ $href := "</a>" | printf "%s%s" ( $scratch.Get "obituary" ) | printf "%s%s" "\">" | printf "%s%s" ( .Params.obitLink ) | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
+				<dt class="twocol header">Obituary:</dt>
+				<dd class="twocol">{{ $href }}</dd>
+			{{ else }}
+				{{ if gt "" ( $scratch.Get "memorial" ) }}
+					{{ $scratch.Add "needed" "obit|" }}
+				{{ end }}
+
+			{{ end }}
+
+		</dl>
+
+		<p class="clear"></p>
+
+		{{ .Content }}
+
+		{{ $needed := $scratch.Get "needed" }}
+
+		{{ if gt $needed "" }}
+			<div class="banner">
+			<h3>Information Needed</h3>
+			<ul>
+				{{ if in $needed "obit|" }}<li>Obituary</li>{{ end }}
+				{{ if in $needed "photo|" }}<li>Photo</li>{{ end }}
+				{{ if in $needed "birth|" }}<li>Date of Birth</li>{{ end }}
+				{{ if in $needed "death|" }}<li>Date of Death</li>{{ end }}
+				{{ if in $needed "skhq|" }}<li>A memorial at the <a href="http://silentkeyhq.com">National Silent Key Archive</a></li>{{ end }}
+			</ul>
+			<p>Can you contribute any of the information needed to complete this Silent Key listing?</p>
+      			<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you can help.</p>
+			</div>
+		{{ end }}
+
+	</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		<span class="tag-links">		
+			{{ range .Params.tags }}
+                <a href="/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+            {{ end }}
+		</span>
+	</footer>
+
+	{{ partial "sourcelink.html" . }}
+
+</article> <!-- #post-## -->
+{{ end }}

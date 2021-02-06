@@ -1,0 +1,5 @@
+location = "Fisher, MN"
+call = "KC0SD"
+mode = "Analog"
+frequency = [ "146.700 - T123", "repeaterbook 27 113" ]
+notes = ""

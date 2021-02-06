@@ -1,0 +1,5 @@
+location = "Detroit Lakes, MN"
+call = "W0EMZ"
+mode = "Analog"
+frequency = [ "147.195 +", "repeaterbook 27 133" ]
+notes = "[Detroit Lakes ARC](http://w0emz.com/)"

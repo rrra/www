@@ -1130,7 +1130,7 @@ span + .edit-link:before,
 	margin-bottom: 48px;
 }
 
-#list {
+[id^="list"] {
 	padding-bottom: 2em;
 }
 
@@ -3009,16 +3009,21 @@ p.clear { clear: both; }
  * -----------------------------------------------------------------------------
  */
 
-#banner {
+.banner {
 	background: #f1fdf2;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
 	position: relative;
 	width: 100%;
-	padding: 24px 24px;
+	padding: 24px 24px 0px 24px;
 	border-top: thin solid;
 	border-bottom: thin solid;
+}
+
+.alert {
+  color: red;
+	text-align: center;
 }
 
 /**
@@ -3185,6 +3190,7 @@ div.entry-summary .footnote-ref a {
 	}	
 	#colophon { text-align: center; }
 	dd.twocol, dd.sameday { margin: 0 0 0.4em 2em; }
+	dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 
 	/* http://www.secondpicture.com/tutorials/web_design/css_ul_li_horizontal_css_menu.html
 	 */
@@ -3201,11 +3207,12 @@ div.entry-summary .footnote-ref a {
 	}
 	ul.pagination li {
 		float:left;
+		padding: 0 6px 0 6px;
 	}
 	ul.pagination li a {
 		background-repeat: no-repeat;
 		background-position: right;
-		padding-right: 24px;
+		padding: 0 6px 0 6px;
 		display: block;
 		line-height: 24px;
 		text-decoration: none;
@@ -3411,10 +3418,18 @@ div.entry-summary .footnote-ref a {
 		left: 32px;
 		font-size: 110%;
 	}
+
+	/* Definition list used for events and things */
 	dt.twocol { clear: both; font-weight: bold; float: left; margin-bottom: 0.4em }
 	dt.twocol.header { width: 10em; background-color: #e1ede2; padding-left: 0.4em;}
 	dd.twocol { margin: 0 0 0.4em 10.6em; }
 	dd.sameday { clear: both; margin-left: 10.5em; margin-bottom: 0.4em; }
+
+	/* Overrides for NCS assignment list */
+	[id*="-ncs"] dt.twocol { width: 6em; }
+	[id*="-ncs"] dd.twocol, [id*="-ncs"] dd.sameday { margin-left: 6em; }
+	dd.twocol div.ncs { float: right; width: 12em; }
+	dd.sameday div.ncs { float: right; width: 12em; }
 
 	ul.pagination {
 		list-style-type: none;
@@ -3425,11 +3440,12 @@ div.entry-summary .footnote-ref a {
 	}
 	ul.pagination li {
 		float:left;
+		padding: 0 6px 0 6px;
 	}
 	ul.pagination li a {
 		background-repeat: no-repeat;
 		background-position: right;
-		padding-right: 24px;
+		padding: 0 6px 0 6px;
 		display: block;
 		line-height: 24px;
 		text-decoration: none;

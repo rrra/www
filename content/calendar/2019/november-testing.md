@@ -1,5 +1,5 @@
 +++
-contact = "WC0G"
+contact = "vec"
 date = "2019-11-19T20:00:00-06:00"
 publishDate = "2018-12-01"
 endTime = ""

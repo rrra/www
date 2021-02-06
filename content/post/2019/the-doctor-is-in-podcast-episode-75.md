@@ -5,59 +5,31 @@ categories = [ "Education" ]
 date = "2019-02-01T18:40:00-05:00"
 description = ""
 slug = ""
-tags = [ "ARRL", "podcast" ]
+tags = [ "ARRL", "doctor", "podcast" ]
 title = "The Doctor is In: FT8"
 +++
 Are you one of those hams who have not tried 
-[FT8](https://www.blubrry.com/arrl_the_doctor_is_in/40986567/ft8/)
+*FT8*
 yet? Then you might be interested in an introduction to this relatively
 new mode, presented by Steve Ford (WB8IMY and QST Editor In Chief),
 in this episode of the
-[*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
+* [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast. 
 <!--more-->
 
-{{< blubrry "//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/Doctor_FT8.mp3" >}}
+{{< audio "http://www.arrl.org/files/file/DoctorPodcast/2019/January%2031%20-%20FT8.mp3" "Download the podcast" >}}
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:
 
-* [Life Above 50 MHz](https://www.blubrry.com/arrl_the_doctor_is_in/40986137/life-above-50-mhz)
-* [Log Periodic Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/39781083/log-periodic-antennas/)
-* [Ground Plane Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/39442945/ground-plane-antennas/)
-* [RF Safety](https://www.blubrry.com/arrl_the_doctor_is_in/39442944/rf-safety/)
-* [Station Computers](https://www.blubrry.com/arrl_the_doctor_is_in/38424687/station-computers/)
-* [External Speakers](https://www.blubrry.com/arrl_the_doctor_is_in/38268972/external-speakers/)
-* [Do you really need a tower?](https://www.blubrry.com/arrl_the_doctor_is_in/38233223/do-you-really-need-a-tower/)
-* [Winterizing](https://www.blubrry.com/arrl_the_doctor_is_in/36578448/winterizing/)
-* [Volt Ohm Meters](https://www.blubrry.com/arrl_the_doctor_is_in/36319508/volt-ohm-meters/)
-* [Tools for every ham](https://www.blubrry.com/arrl_the_doctor_is_in/36319167/tools-for-every-ham/)
+* [Life Above 50 MHz]({{< relref "/post/2019/the-doctor-is-in-podcast-episode-74.md" >}})
+* [Log Periodic Antennas]({{< relref "/post/2019/the-doctor-is-in-podcast-episode-73.md" >}})
+* [Ground Plane Antennas]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-72.md" >}})
+* [RF Exposure]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-71.md" >}})
+* [Station Computers]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-70.md" >}})
+* [External Speakers]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-69.md" >}})
+* [Do You Really Need a Tower?]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-68.md" >}})
+* [Winterizing]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-67.md" >}})
+* [Volt Ohm Meters]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-66.md" >}})
+* [Tools for Every Ham]({{< relref "/post/2018/the-doctor-is-in-podcast-episode-65.md" >}})
 
-A complete podcast archive and a contact form for submitting questions
-to the Doctor are available on the ARRL's
-[The Doctor Will See You Now](http://www.arrl.org/doctor) page.
-
-### About the ARRL The Doctor Is In Podcast
-
->Sponsored by [DX Engineering](http://www.dxengineering.com/),
-*ARRL The Doctor is In* is an informative discussion of all things
-technical. Listen on your computer, tablet, or smartphone---whenever and
-wherever you like!
-
->Every 2 weeks, your host, QST Editor in Chief Steve Ford, WB8IMY, and the
-Doctor himself, Joel Hallas, W1ZR, will discuss a broad range of technical
-topics. You can also e-mail your questions
-[doctor@arrl.org](mailto:doctor@arrl.org),
-and the Doctor may answer them in a future podcast.
-
->Enjoy
-*ARRL The Doctor is In* on
-[Apple iTunes](https://itunes.apple.com/us/podcast/arrl-the-doctor-is-in/id1096749595?mt=2()),
-or by using your iPhone or iPad podcast app (just search for
-*ARRL The Doctor is In*). You can also listen online at
-[Blubrry](https://www.blubrry.com/arrl_the_doctor_is_in/),
-or at
-[Stitcher](https://www.stitcher.com/)
-(free registration required, or browse the site as a guest) and through
-the free Stitcher app for iOS, Kindle, or Android devices. [^1]
-
-[^1]: "The Doctor Will See You Now!", ARRL The national association for Amateur Radio, retrieved January 3 2019, http://www.arrl.org/news/the-doctor-will-see-you-now-95.
+{{< about-the-doctor-is-in >}}

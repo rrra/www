@@ -12,5 +12,5 @@ Law Enforcement, Firefighters, Rescue Squads, and Ham Radio Operators are invite
 
 The class is presented by the National Weather Service and is sponsored by Clay County Emergency Services, Clay Co. Amateur Radio Emergency Services (CCARES), and the Sabin-Elmwood Fire District.
 
-Please contact {{% mailto WB0BIN name %}} for more information.
+Please contact {{< mailto WB0BIN name >}} for more information.
 <!--more-->

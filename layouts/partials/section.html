@@ -1,3 +1,5 @@
+{{ $scratch := newScratch }}
+
 <article class="post type-post status-publish format-standard hentry">
 
 	<!-- .entry-header -->
@@ -5,7 +7,11 @@
 
 		<div class="entry-meta">
 			<span class="cat-links">
-					{{ if ne ( trim .RelPermalink "/") (.Section | urlize ) }}
+					{{ if eq "post" .Section }}
+                               			{{ range .Params.categories }}
+                                        		<a href="/categories/{{ lower . | urlize }}/" rel="category">{{ . }}</a>
+                                		{{ end }}
+					{{ else if ne ( trim .RelPermalink "/") (.Section | urlize ) }}
 						<a href="/{{ .Section | urlize }}/" rel="section">{{ .Section }}</a>
 					{{ else }}
 						<a href="/">Home</a>
@@ -15,12 +21,16 @@
 
 		<h1 class="entry-title">{{ .Title | safeHTML }}</h1>
 
-		{{ if .IsPage }} 
+		{{ if gt .Lastmod 0 }}
+			{{ $scratch.Set "timestamp" ( .Lastmod.Format "January 2, 2006" ) }}
+		{{ else }}
+			{{ $scratch.Set "timestamp" ( now.Format "January 2, 2006" ) }}
+		{{ end }}
 		<div class="entry-meta">
 			<span class="entry-date">
 				<a href="{{ .RelPermalink }}" rel="bookmark">
-					<time class="entry-date updated" datetime="{{ .Lastmod.Format "January 2, 2006" }}">
-						{{ .Lastmod.Format "January 2, 2006" }}
+					<time class="entry-date updated" datetime="{{ $scratch.Get "timestamp" }}">
+						{{ $scratch.Get "timestamp" }}
 					</time>
 				</a>
 			</span>
@@ -29,8 +39,8 @@
 					<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
 				{{ end }}
 			</span>
+			
 		</div><!-- .entry-meta -->
-		{{ end }}
 
 		{{ $contact := .Params.contact }}
 		{{ if ne $contact nil }}
@@ -48,6 +58,12 @@
 		{{ if eq .Params.toc "true" }}{{ .TableOfContents }}{{ end }}
 
 		{{ .Content }}
+
+		{{ if eq "development" hugo.Environment }}
+		<pre>Template: layouts/partial/section.html</pre>
+		{{ end }}
+		{{ partial "sourcelink.html" . }}
 	</div><!-- .entry-content -->
 
 </article> <!-- #post-## -->
+

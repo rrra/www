@@ -16,7 +16,7 @@ These minutes have been converted to a mobile friendly format; some light
 editing for clarity and consistency was performed. The Secretary's original
 minutes document (2019-02 Minutes.docx) may be found in the
 "**Committee Reports | Secretary Reports**" folder on the
-[RRRA File Sharing Server](https://cloud.rrra.org/). 
+[RRRA Groupware Server](https://cloud.rrra.org/). 
 
 **Items marked with :new: have been added, corrected, or significantly
 revised, pending acceptance by the Secretary**
@@ -75,9 +75,9 @@ revised, pending acceptance by the Secretary**
 
 #### Media
 * Steve K0STK
-* :new: Members can get their events added to the website calendar by e-mailing [webmaster@rrra.org](webmaster@rrra.org)
-* :new: Demonstrated how members can sign up for the club SMS alerts by texting their call sign to [alert@rrra.org](alert@rrra.org).
-* :new: See K0STK after the meeting or contact [webmaster@rrra.org](webmaster@rrra.org) if you have any questions or need help
+* :new: Members can get their events added to the website calendar by e-mailing [webmaster@rrra.org](mailto:webmaster@rrra.org)
+* :new: Demonstrated how members can sign up for the club SMS alerts by texting their call sign to [alert@rrra.org](mailto:alert@rrra.org).
+* :new: See K0STK after the meeting or contact [webmaster@rrra.org](mailto:webmaster@rrra.org) if you have any questions or need help
 
 ### Old Business
 

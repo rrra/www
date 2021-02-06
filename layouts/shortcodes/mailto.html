@@ -3,20 +3,17 @@
 {{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
 {{ if (fileExists $filename) }}
 	{{ $recip := index .Page.Site.Data.call $sign }}
-	{{ if ne $recip nil }}
-		{{ if gt  $recip.email "" }}
+	{{ if ne $recip nil }} {{/* File exists in data/call */}}
+		{{ if gt $recip.email "" }}
 			{{ if and ( eq $option "name" ) ( gt $recip.name "" ) }}
-				{{ .Page.Scratch.Set "linktext" $recip.name }}
-			{{ else if gt $recip.office "" }}
+				{{ $linktext := $recip.call | printf "%s %s" $recip.name | printf "%s" }}
+				{{ .Page.Scratch.Set "linktext" $linktext }}
+			{{ else if and ( ne $option "name" ) ( gt $recip.office "" ) }}
 				{{ .Page.Scratch.Set "linktext" $recip.office }}
 			{{ else if eq $recip.call "none" }}
 				{{ .Page.Scratch.Set "linktext" $recip.name }} 
 			{{ else }}
 				{{ .Page.Scratch.Set "linktext" $sign }}
-				{{ if isset .Params 1 }}
-					{{ $linktext := $sign | printf "%s %s" $recip.name | printf "%s" }}
-					{{ .Page.Scratch.Set "linktext" $linktext }}
-				{{ end }}
 			{{ end }}
 			{{ $email := "</a><span class=\"genericon genericon-mail\"></span>" | printf "%s%s" ( .Page.Scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
 			<script type="text/javascript">
@@ -27,7 +24,7 @@
 			<noscript>
 			{{ .Page.Scratch.Get "linktext" }}
 			</noscript>
-		{{ else }}
+		{{ else }} {{/* No e-mail address on file */}}
 			{{ .Page.Scratch.Get "linktext" }}
 		{{ end }}
 	{{ else }}

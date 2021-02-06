@@ -19,7 +19,7 @@ people who will rely on each other for help in the time of need.
 <!--more-->
 
 This training is ***free*** and open to the public.
-[CERT Classes](/dates/cert/) will take place at West Acres Shopping Center
+CERT Classes will take place at West Acres Shopping Center
 from 8:00 a.m. to 10:00 a.m. on these dates:
 
 * April 3: [Class Intro, General Preparedness]({{< relref "/calendar/2018/spring-cert-week-01.md" >}})

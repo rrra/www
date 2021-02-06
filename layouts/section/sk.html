@@ -1,40 +1,36 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-{{ $sitedate := $.Param "sitedate" }}
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/section/sk.html -->` | safeHTML }}
+	{{ end }}
+	{{ $sitedate := $.Param "sitedate" }}
 
-<div id="main-content" class="main-content">
+	<header class="entry-header">
+		<div class="entry-meta">
+			<span class="cat-links"><a href="/">Home</a></span>
+			{{ $rsspath := "/sk" }}
+			{{ partial "rss" ( dict "rsstitle" .Title "rsspath" $rsspath ) }}
+		</div>
+		<h1 class="entry-title">Silent Key Memorials</h1>
+		{{ $contact := .Params.contact }}
+		{{ if ne $contact nil }}
+		<div id="contact">
+			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+		</div>
+		{{ end }}
+	</header>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-			<header class="entry-header">
-				<div class="entry-meta">
-					<span class="cat-links"><a href="/">Home</a></span>
-					{{ $rsspath := "/sk" }}
-					{{ partial "rss" ( dict "rsstitle" .Title "rsspath" $rsspath ) }}
-				</div>
-				<h1 class="entry-title">RRRA Silent Keys</h1>
-				{{ $contact := .Params.contact }}
-				{{ if ne $contact nil }}
-				<div id="contact">
-					<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
-				</div>
-				{{ end }}
-			</header>
-
-			<div class="entry-content">
-				<dl id="list">
-    			{{ range .Data.Pages }}
-					  <dt class="twocol" style="width:8em;"><a href="{{ .RelPermalink }}">{{ upper .Title }}</a></dt>
-					  <dd class="twocol">{{ if gt .Date "" }}{{ .Date.Format ( $sitedate ) }}{{ else }}<span style="color:red;font-weight:bold;">Information needed</span>{{ end }}</dd>
-					{{ end }}
-				</dl>
-				<p style="clear:both;"></p>			
-				{{ .Content }}
-			</div>
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partial "footer.html" . }}
+	<div class="entry-content">
+		<dl id="list">
+			{{ range .Data.Pages }}
+			  <dt class="twocol" style="width:8em;"><a href="{{ .RelPermalink }}">{{ upper .Title }}</a></dt>
+			  <dd class="twocol">{{ if gt .Date "" }}{{ .Date.Format ( $sitedate ) }}{{ else }}<span style="color:red;font-weight:bold;">Information needed</span>{{ end }}</dd>
+			{{ end }}
+		</dl>
+		<p style="clear:both;"></p>			
+		{{ .Content }}
+		{{ .Scratch.Set "source" "layouts/section/sk.html" }}
+		{{ partial "sourcelink.html" . }}
+	</div>
+{{ end }}

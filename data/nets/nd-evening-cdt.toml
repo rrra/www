@@ -1,0 +1,7 @@
+# ND Evening net during Daylight Saving Time
+day = "D"
+time ="18:30"
+season = "CDT"
+id = "[ND Evening](http://ndarrlsec.com/nets1.html)"
+freq = "3.860 MHz LSB"
+contact = "K0YL"

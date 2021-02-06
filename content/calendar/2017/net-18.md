@@ -5,7 +5,7 @@ endTime = ""
 location = ""
 title = "UHF VHF Net 18"
 categories = [ "Public Service" ]
-tags = [ "ARES" ]
+tags = [ "" ]
 dates = [ "NCS Schedule" ]
 +++
 NCS held callsign KD0CVZ on this date.

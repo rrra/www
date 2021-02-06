@@ -9,10 +9,11 @@ aliases = [ "/cal/2016/04/19/business-meeting/" ]
 +++
 We meet in the basement meeting room. Please enter through the north
 doors adjacent to the 2nd Ave S parking lot.
+
 ## Discovery
 
-### How to use the club file sharing server
-By {{% mailto K0STK %}}
+### How to use the RRRA Groupware Server
+By {{< mailto K0STK >}}
 
 This is the system which will be used to share committee reports with
 club members prior to monthly business meetings.

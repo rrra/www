@@ -5,7 +5,9 @@
 		<div class="entry-meta">
 			<span class="cat-links">
 				{{ range .Params.dates }}
-                		<a href="/dates/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+					{{ if ne ( lower . ) "hidden" }}
+                				<a href="/dates/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+					{{ end }}
             			{{ end }}
 			</span>
 		</div>
@@ -22,8 +24,10 @@
 		<dd class="twocol"><span class="p-organizer"><a href="/ncs/{{ index .Params.ncs 0 | urlize }}">{{ index .Params.ncs 0 }}</a></span></dd>
 		</dl>
 		<p class="clear"></p>
+		<p class="p-summary">{{ .Content }}</p>
+		{{ .Scratch.Set "source" "layouts/partials/calendar/ncs.html" }}
+		{{ partial "sourcelink.html" . }}
 	</div>
-	<p class="p-summary">{{ .Content }}</p>
 
 </div>
 </article> <!-- #post-## -->

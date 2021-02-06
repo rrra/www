@@ -8,7 +8,7 @@
 				{{ range .Params.dates }}
 					{{ $dates := . }}
 					{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
-						{{ if eq $key $dates }}
+						{{ if eq $key ( urlize $dates ) }}
 
 							{{ range $taxonomy.Pages.Reverse }}
 								{{ if and (ne ($.Scratch.Get "this") nil) (eq ($.Scratch.Get "next") nil) }}
@@ -28,7 +28,7 @@
 								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Previous" href="{{ $.Scratch.Get "prev" }}">&laquo;</a>
 							{{ end }}
 
-							<a class="taxonomy" href="/dates/{{ lower $key | urlize }}/" rel="tag">{{ $key }}</a>
+							<a class="taxonomy" href="/dates/{{ $key }}/" rel="tag">{{ $dates }}</a>
 
 							{{ range last 1 $taxonomy.Pages.Reverse }}
 								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Next" href="{{ $.Scratch.Get "next" }}">&raquo;</a>
@@ -40,21 +40,23 @@
 				{{ end }}
 			</div>
 		</div>
-		<h1 class="p-name entry-title">{{ .Title }}{{ if eq true .Params.cancelled }} CANCELLED{{ end }}</h1>
+		<h1 class="p-name entry-title">{{ .Title }}{{ if in .Site.Params.status .Params.status }} {{ upper .Params.status }}{{ end }}</h1>
 		{{ with  .OutputFormats.Get "calendar" -}}
 			<span class="genericon genericon-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .RelPermalink | safeURL }}">Subscribe to this single event</a> &bull; <a style="text-decoration: none;" title="Import this single event as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a>
 		{{- end }}
 	</header>
 	<div class="entry-content">
 		<dl>
-			{{ if ne true .Params.cancelled }}
-				<dt class="twocol header">WHEN:</dt><dd class="twocol"><time class="dt-start" datetime="{{ .Date }}">{{ if eq true .Params.cancelled }}CANCELLED{{ else }}{{ .Date.Format "Mon, 02 Jan 2006 15:04 MST" }}{{ end }}</time></dd>
+			{{ if not ( or ( eq "canceled" .Params.status ) ( eq "postponed" .Params.status ) ) }}
+				<dt class="twocol header">WHEN:</dt><dd class="twocol"><time class="dt-start" datetime="{{ .Date }}">{{ .Date.Format "Mon, 02 Jan 2006 15:04 MST" }}</time></dd>
 				{{ if gt .Params.endtime "" }}
 					<dt class="twocol header">UNTIL:</dt><dd class="twocol"><time class="dt-end" datetime="{{ .Params.endtime }}">{{ dateFormat "Mon, 02 Jan 2006 15:04 MST" .Params.endtime }}</time></dd>
 				{{ end }}
-				{{ if gt .Params.location "" }}
-					<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location | markdownify }}</span></dd>
-				{{ end }}
+			{{ else }}
+				<dt class="twocol header">WAS:</dt><dd class="twocol"><time class="dt-start" datetime="{{ .Date }}">{{ .Date.Format "Mon, 02 Jan 2006 15:04 MST" }}</time></dd>
+			{{ end }}
+			{{ if gt .Params.location "" }}
+				<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location | markdownify }}</span></dd>
 			{{ end }}
 			{{ with .Params.sponsor }}
 				<dt class="twocol header">SPONSOR:</dt><dd class="twocol"><span class="p-location">{{ . | markdownify }}</span></dd>
@@ -65,14 +67,14 @@
 			</div></dd>
 			{{ end }}
 		</dl>
-		{{ if eq true .Params.cancelled }} 
-			<hr />
-				<div style="width=100%;text-align:center;color:red;">
-					<p><strong>THIS EVENT HAS BEEN CANCELLED.</strong></p>
+		{{ if or ( eq "canceled" .Params.status ) ( eq "postponed" .Params.status ) }} 
+				<p class="clear"></p><div class="banner alert">
+					<p><strong>THIS EVENT HAS BEEN {{ upper .Params.status }}.</strong></p>
 				</div>
-			<hr />
 		{{ end }}
 		<p class="p-summary clear">{{ .Content }}</p>
+		{{ .Scratch.Set "source" "layouts/partials/calendar/event.html" }}
+		{{ partial "sourcelink.html" . }}
 	</div>
 
 	<footer class="entry-meta">

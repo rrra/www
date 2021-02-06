@@ -4,11 +4,14 @@ title = "Sitemap"
 authors = [ "K0STK" ]
 aliases = [ "/sitemap.html", "sitemap.htm" ]
 +++
+### Sitemap Index
+
 * [About Our Club]({{< relref "#about-our-club" >}})
 * [ARES]({{< relref "#ares" >}})
 * [Calendar]({{< relref "#calendar" >}})
 * [Cloud]({{< relref "#cloud" >}})
 * [Files]({{< relref "#files-and-links" >}})
+* [Groupware]({{< relref "#cloud" >}})
 * [Hamfest]({{< relref "#hamfest" >}})
 * [Licensing]({{< relref "#licensing" >}})
 * [Links]({{< relref "#files-and-links" >}})
@@ -52,7 +55,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [Upcoming Events](/)
 
 ### Cloud
-* [RRRA File Sharing Server](http://cloud.rrra.org/)
+* [RRRA Groupware Server](http://cloud.rrra.org/)
 
 ### Files and Links
 * [Index of Files and Links](/files/)
@@ -88,8 +91,9 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 
 ### Radio Systems
 * [Club (W0ILO) Repeaters](/radios/#w0ilo-repeaters)
-* [Red River Valley Repeater List]({{< relref "radios/red-river-valley-repeaters.md" >}})
-* [SuperLink]({{< relref "radios/superlink.md" >}})
+* [IRLP]({{< relref "radios/irlp.md" >}})
+* [Red River Valley Repeaters and Nodes](/radios/list/)
+* [SuperLink]({{< relref "/radios/superlink.md" >}})
 
 ### RSS
 * [News and Upcoming Events](/index.xml)

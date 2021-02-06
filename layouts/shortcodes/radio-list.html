@@ -1,0 +1,92 @@
+{{/*
+Radio List Short Code
+By: Steve Kostecke k0stk@arrl.net
+
+Builds a table from definition files in
+./data/radios such as:
+
+location = "Moorhead, MN"
+call = "[W0ILO](/radios/)"
+mode = "Analog"
+frequency = [ "444.875 + T123", "repeaterbook 27 267" ]
+notes = "[RRRA](/)"
+
+All definition file lines are passed through the markdown formatter.
+
+The "frequency" line can either be the two element array shown above or
+a single string (e.g. "444.875 + T123").
+
+The second member of the array version of the "frequency" line is used to 
+generate a repeaterbook link
+
+*/}}
+
+{{ $self  := index .Params 0 | urlize }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "modes" "All " }}
+
+{{/* Modes displayed in the filter menu must be defined in config.toml */}}
+{{ range sort $.Site.Data.radios ".mode" }}
+	{{ $seen := $scratch.Get "modes" }}
+	{{ if and ( in $.Site.Params.modes ( lower .mode ) ) ( not ( in $seen .mode ) ) }}
+		{{ $scratch.Add "modes" .mode }}
+		{{ $scratch.Add "modes" " " }}
+	{{ end }}
+{{ end }}
+
+<ul class="pagination" style="padding: 0;"><li class="genericon genericon-search"></li>
+{{ $modes := split ( $scratch.Get "modes" ) " " }}
+{{ range $modes }}
+	{{ $text := . }}
+	{{ if not ( eq $self ( $text | urlize ) ) }}
+	<li><a href="/radios/list/{{ $text | urlize }}/">{{ $text }}</a></li>
+	{{ end }}
+{{ end }}
+</ul>
+
+<p class="clear"></p>
+
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>ID &amp; Mode</th>
+<th>Frequency</th>
+<th>Notes</th>
+</tr>
+</thead>
+
+<tbody>
+{{ range sort $.Site.Data.radios ".location" }}
+	{{ $scratch.Set "test" $self }}
+	{{ $mode := .mode | urlize }}
+
+	{{/* Allow "MMDVM" repeaters to specify supported modes in their notes */}}
+	{{ if and ( eq "mmdvm" $mode ) ( in ( .notes | urlize ) $self ) }}
+		{{ $scratch.Set "test" ( printf "mmdvm|%s" $self ) }}
+	{{ end }}
+
+	{{ if or ( eq $self "all" ) ( or ( in ( $scratch.Get "test" ) $mode ) ) }}
+	<tr>
+		<td>{{ .location | markdownify }}</td>
+		<td>{{ .call | markdownify }}<br \>{{ .mode | markdownify }}</td> 
+
+		{{ if reflect.IsSlice .frequency }}
+			{{ $freq    := index .frequency 0 }}
+			{{ $rptbook := index .frequency 1 }}
+			{{ $slice   := split $rptbook " " }}
+			{{ $state   := index $slice 1 }}
+			{{ $id      := index $slice 2 }}
+			<td><a href="https://www.repeaterbook.com/repeaters/details.php?state_id={{ $state }}&ID={{ $id }}">{{ $freq }}</a></td>
+		{{ else }}
+			<td>{{ .frequency | markdownify }}</td>
+		{{ end }}
+
+		<td>{{ .notes | markdownify }}</td>
+	</tr>
+	{{ end }}
+{{ end }}
+</tbody>
+
+</table>
+

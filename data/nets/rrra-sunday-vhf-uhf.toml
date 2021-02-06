@@ -1,5 +1,5 @@
-sort = "7:21:00"
-date = "Sunday 21:00"
+day = 7
+time ="21:00"
 id = "[RRRA Sunday VHF/UHF](/nets/)"
 freq = "[W0ILO Repeaters](/radios/#repeaters)"
 contact = "K0RQ"

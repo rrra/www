@@ -33,11 +33,11 @@ the hobby after an absence. The podcast is produced by ARRL and sponsored by
 Listen to *So Now What?* on Apple iTunes,
 or by using your iPhone or iPad podcast app; just search for
 *So Now What?*. Podcast app users may subscribe to the
-[So Now What? RSS Feed](feeds.blubrry.com/feeds/arrlnowwhat.xml)
+[So Now What? RSS Feed](http://feeds.blubrry.com/feeds/arrlnowwhat.xml)
 
 You can listen online at
 
-* [Blubrry](/https://www.blubrry.com/arrlnowwhat/)
+* [Blubrry](https://www.blubrry.com/arrlnowwhat/)
 * [Stitcher](https://www.stitcher.com/) (free registration required, or browse the site as a guest) and through
 the free Stitcher app for iOS, Kindle, or Android devices
 

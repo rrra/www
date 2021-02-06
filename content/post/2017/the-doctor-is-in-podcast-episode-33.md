@@ -5,63 +5,31 @@ categories = [ "Education" ]
 date = "2017-06-22T12:00:00-05:00"
 description = ""
 slug = ""
-tags = [ "ARRL", "Field Day", "podcast" ]
+tags = [ "ARRL", "doctor", "Field Day", "podcast" ]
 title = "The Doctor is In: Generators"
 aliases = [ "/post/2017/06/22/the-doctor-is-in-podcast-episode-33" ]
 +++
 Planning on using portable power at your Field Day site? You may be interested in the
-[Generators](https://www.blubrry.com/arrl_the_doctor_is_in/24141661/generators/)
+*Generators*
 episode of the
 [*ARRL The Doctor is in*](http://www.arrl.org/doctor/) podcast.
+
 <!--more-->
 
-{{< blubrry "//media.blubrry.com/arrl_the_doctor_is_in/content.blubrry.com/arrl_the_doctor_is_in/June_22_-_Generators.mp3" >}}
+{{< audio "http://www.arrl.org/files/file/DoctorPodcast/June%2022%20-%20Generators.mp3" "Download the podcast" >}}
 
 These short podcasts are an approachable way of learning about technical
 topics related to Amateur Radio. Recent podcast topics include:
 
-* [The Mystery of Sporadic E](https://www.blubrry.com/arrl_the_doctor_is_in/24141660/the-mystery-of-sporadic-e/)
-* [Flea Market Tips](https://www.blubrry.com/arrl_the_doctor_is_in/23098298/flea-market-tips/)
-* [Optimizing Receiver Performance](https://www.blubrry.com/arrl_the_doctor_is_in/23002541/optimizing-receiver-performance/)
-* [End-Fed Antenna](https://www.blubrry.com/arrl_the_doctor_is_in/22982375/end-fed-antennas/)
-* [Grounding](https://www.blubrry.com/arrl_the_doctor_is_in/21811067/grounding/)
-* [Speech Equalization, Compression and Processing](https://www.blubrry.com/arrl_the_doctor_is_in/21698901/speech-equalization-compression-and-processing/)
-* [Remote Antenna Tuners](https://www.blubrry.com/arrl_the_doctor_is_in/21698899/remote-antenna-tuners/)
-* [CTCSS, DTMF and More](https://www.blubrry.com/arrl_the_doctor_is_in/21251298/ctcss-dtmf-and-more/)
-* [HF Loop Antennas](https://www.blubrry.com/arrl_the_doctor_is_in/21223739/hf-loop-antennas/)
-* [AM and SSB](https://www.blubrry.com/arrl_the_doctor_is_in/20040586/am-and-ssb/)
+[The Mystery of Sporadic E]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-32.md" >}})
+[Flea Market Tips]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-31.md" >}})
+[Optimizing Receiver Performance]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-30.md" >}})
+[End-Fed Antennas]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-29.md" >}})
+[Grounding]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-28.md" >}})
+[Speech Equalization, Compression and Processing]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-27.md" >}})
+[Remote Antenna Tuners]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-26.md" >}})
+[Continuous Tone-Coded Squelch System]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-25.md" >}})
+[HF Loop Antennas]({{< relref "/post/2017/the-doctor-is-in-podcast-episode-24.md" >}})
+[AM and SSB]({{< relref "/post/2017/the-doctor-is-in-podcast-edisode-23.md" >}})
 
-A complete podcast archive and a contact form for submitting questions
-to the Doctor are available on the ARRL's
-[The Doctor Will See You Now](http://www.arrl.org/doctor) page.
-
-### About the ARRL The Doctor Is In Podcast
-
->Sponsored by [DX Engineering](http://www.dxengineering.com/),
-*ARRL The Doctor is In* is an informative discussion of all things
-technical. Listen on your computer, tablet, or smartphone---whenever and
-wherever you like!
-
->Every 2 weeks, your host, QST Editor in Chief Steve Ford, WB8IMY, and the
-Doctor himself, Joel Hallas, W1ZR, will discuss a broad range of technical
-topics. You can also e-mail your questions
-[doctor@arrl.org](mailto:doctor@arrl.org),
-And the Doctor may answer them in a future podcast.
-
->Enjoy
-*ARRL The Doctor is In* on
-[Apple iTunes](https://itunes.apple.com/us/podcast/arrl-the-doctor-is-in/id1096749595?mt=2()),
-or by using your iPhone or iPad podcast app (just search for
-*ARRL The Doctor is In*). You can also listen online at
-[Blubrry](https://www.blubrry.com/arrl_the_doctor_is_in/),
-or at
-[Stitcher](https://www.stitcher.com/)
-(free registration required, or browse the site as a guest) and through
-the free Stitcher app for iOS, Kindle, or Android devices.
-<span style="font-style:normal;">[ [1]({{< relref "#footnotes" >}}) ]</span>
-
-### Footnotes
-
-[ 1 ] "The Doctor Will See You Now!",
-ARRL The national association for Amateur Radio, last modified June 8 2017,
-http://www.arrl.org/news/the-doctor-will-see-you-now-24.
+{{< about-the-doctor-is-in >}}

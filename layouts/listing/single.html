@@ -1,48 +1,43 @@
-{{ partial "header.html" . }}
+{{/* Populates layouts/_default/baseof.html */}}
 
-<div id="main-content" class="main-content">
+{{ define "main" }}
+{{ if eq "development" hugo.Environment }}
+{{ `<!-- Template: layouts/listing/single.html -->` | safeHTML }}
+{{ end }}
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+{{ $baseurl := .Site.BaseURL }}
+{{ $thismonth := printf "%s-01" (now | dateFormat "01") | printf "%s-%s" (now | dateFormat "2006") | printf "%s" }}
+{{ $timeperiod := (time $thismonth).AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
 
-			{{ $baseurl := .Site.BaseURL }}
-			{{ $thismonth := printf "%s-01" (now | dateFormat "01") | printf "%s-%s" (now | dateFormat "2006") | printf "%s" }}
-			{{ $timeperiod := (time $thismonth).AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
+<header class="entry-header">
+	<div class="entry-meta">
+		<span class="cat-links">
+		{{ if ge .Params.offset 0 }}<span class="last-month"><a href="/calendar/{{sub .Params.offset 1 }}/">Last Month</a></span>{{ else }}Last Month{{ end }}
+				<span>&middot; <a style="padding-left:6px;" href="{{ $baseurl}}/calendar/">Index</a> &middot; </span>
+		{{ if le .Params.offset 10 }}<span class="next-month"><a style="padding-left:6px;" href="/calendar/{{add .Params.offset 1 }}/">Next Month</a></span>{{ else }}Next Month{{ end }}
+		</span>
+	</div>
 
-			<header class="entry-header">
-				<div class="entry-meta">
-						<span class="cat-links">
-					{{ if ge .Params.offset 0 }}<span class="last-month"><a href="/calendar/{{sub .Params.offset 1 }}/">Last Month</a></span>{{ else }}Last Month{{ end }}
-							<span>&middot; <a style="padding-left:6px;" href="{{ $baseurl}}/calendar/">Index</a> &middot; </span>
-					{{ if le .Params.offset 10 }}<span class="next-month"><a style="padding-left:6px;" href="/calendar/{{add .Params.offset 1 }}/">Next Month</a></span>{{ else }}Next Month{{ end }}
-					</span>
-				</div>
+	<h1 class="entry-title">{{ $timeperiod }}</h1>
+	<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for the RRRA Annual Calendar" href="{{ "/calendar/index.ics" | printf "%s%s" ( $baseurl | replaceRE "^https?:" "webcal:" ) | safeURL }}">Subscribe to calendar</a> &bull; <a style="text-decoration: none;" title="Import the RRRA Annual Calendar as an ICS file" href="{{ safeURL "/calendar/index.ics" }}">ICS download</a>
+</header>
 
-				<h1 class="entry-title">{{ $timeperiod }}</h1>
-      		<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for the RRRA Annual Calendar" href="{{ "/calendar/index.ics" | printf "%s%s" ( $baseurl | replaceRE "^https?:" "webcal:" ) | safeURL }}">Subscribe to calendar</a> &bull; <a style="text-decoration: none;" title="Import the RRRA Annual Calendar as an ICS file" href="{{ safeURL "/calendar/index.ics" }}">ICS download</a>
-			</header>
-
-			<div class="entry-content" style="padding-bottom:1em;">
-				<dl>
-			    {{ range where .Site.Pages.ByDate "Section" "calendar" }}
-						{{ if eq $timeperiod ( .Date.Format "January 2006" ) }}
-							{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
-								{{ .Render "sameday" }}
-							{{ else }}
-								{{ .Render "listingdli" }}
-								{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
-							{{ end }}
-							{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
-						{{ end }}
-					{{ end }}
-				</dl>
-				<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event is not listed on this calendar.</p>
-
-			</div>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
-	{{ partial "sidebar.html" . }}
-</div><!-- #main-content -->
-
-{{ partial "footer.html" . }}
+<div class="entry-content" style="padding-bottom:1em;">
+	<dl>
+	{{ range where .Site.Pages.ByDate "Section" "calendar" }}
+		{{ if eq $timeperiod ( .Date.Format "January 2006" ) }}
+			{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
+				{{ .Render "sameday" }}
+			{{ else }}
+				{{ .Render "listingdli" }}
+				{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
+			{{ end }}
+			{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
+		{{ end }}
+	{{ end }}
+	</dl>
+	<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event is not listed on this calendar.</p>
+</div>
+{{ .Scratch.Set "source" "layouts/listing/single.html" }}
+{{ partial "sourcelink.html" . }}
+{{ end }}

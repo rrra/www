@@ -26,7 +26,7 @@ These minutes have been converted to a mobile friendly format; some light
 editing for clarity and consistency was performed. The Secretary's original
 minutes document (2019-02 Minutes.docx) may be found in the
 "**Committee Reports | Secretary Reports**" folder on the
-[RRRA File Sharing Server](https://cloud.rrra.org/). 
+[RRRA Groupware Server](https://cloud.rrra.org/). 
 
 **Items marked with :new: have been added, corrected, or significantly
 revised, pending acceptance by the Secretary**

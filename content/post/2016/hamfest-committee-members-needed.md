@@ -31,8 +31,8 @@ event.
 ### Subscribing to the mailing list
 
 There are two ways to subscribe to the hamfest mailing list: the
-[web interface]({{< relref "/#using-the-web-interface" >}}) and the
-[e-mail interface]({{< relref "/#using-the-e-mail-interface" >}})
+[web interface]({{< relref "#using-the-web-interface" >}}) and the
+[e-mail interface]({{< relref "#using-the-e-mail-interface" >}})
 (you don't need to use both).
 
 #### Using the web interface:

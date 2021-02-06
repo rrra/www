@@ -1,19 +1,31 @@
+# Site settings
 baseurl = "https://rrra.org"
 languageCode = "en-us"
 title = "Red River Radio Amateurs"
-
 theme = "twentyfourteen"
 Paginate = 10
-newcontenteditor = "vim"
 enableEmoji = true
 preserveTaxonomyNames = true
-
 description = "News from the Red River Radio Amateurs"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+# Editor preference. This should do the right thing if your linux OS supports
+# the alternatives command.
+newcontenteditor = "editor"
+
+# GitHub settings
+enableGitInfo = true
+
+# Added at v0.60 to allow the rendering of HTML in page source
+[markup.goldmark.renderer]
+unsafe= true
 
 [author]
 	email = "webmaster@rrra.org"
 	name = "K0STK"
+
+[frontmatter]
+	lastmod = [ "lastmod", "date", "publishDate", ":git" ]
 
 [taxonomies]
   tag = "tags"
@@ -35,13 +47,22 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 	calendar = "/cal/:year/:month/:day/:slug/"
 
 [params]
-  tel = "701-526-4426"         # Club Phone Number
-  sitedate = "January 2, 2006" # Sitewide Date Format
+	tel = "701-526-4426"         # Club Phone Number
+	sitedate = "January 2, 2006" # Sitewide Date Format
 
 	description = "A nonprofit ARRL affiliated Amateur Radio club serving Fargo, ND; Moorhead, MN; and the surrounding area with communication support and educational outreach."
 
 	# Used for SK pages
 	silentkeybase = "http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&"
+
+	# Used for event status listing
+	status = [ "canceled", "on w0ilo", "postponed", "webinar" ]
+
+	# Used for repeater list "filter menu"
+	modes = [ "analog", "asl", "d-star", "dmr", "ysf" ]
+
+	# Base URL for source files on GitHub
+	gitbase = "https://github.com/rrra/www/blob/master"
 
 [params.categories]
 
@@ -58,7 +79,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   description = "Content (e.g. blog posts, information pages, and files/links) about membership in the RRRA. Please visit the [social dates page](/dates/social/), or check the *Upcoming Events* section of our [home page](/) for upcoming events." 
 
 [params.categories.minutes]
-	description = "Minutes recorded by the RRRA Secretary during the club's monthly business meetings. The minutes posted here are converted from the original source documents to Markdown; the source documents are archived on the [RRRA file server](http://cloud.rrra.org) in the *Secretary's Reports* folder."
+	description = "Minutes recorded by the RRRA Secretary during the club's monthly business meetings. The minutes posted here are converted from the original source documents to Markdown; the source documents are archived on the [RRRA Groupware Server](http://cloud.rrra.org) in the *Secretary's Reports* folder."
 
 [params.categories.outreach]
 	description = "Content (e.g. blog posts, information pages, and files/links) about RRRA activities intended to promote or advocate for Amateur Radio to the public, our government, and our served agencies."
@@ -74,14 +95,19 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 [params.tooltips.about]
   title="Information about RRRA and how to contact the club"
 
+# "Be A Ham"
 [params.tooltips.licensing]
   title="Get started in Amateur Radio with RRRA"
 
 [params.tooltips.calendar]
   title="Club and regional events"
 
+# "Files"
 [params.tooltips.links]
   title="File downloads"
+
+[params.tooltips.join]
+  title="Pay your RRRA membership dues"
 
 [params.tooltips.nets]
   title="Net Schedule, Preamble, and NCS Roster"
@@ -90,4 +116,4 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   title="Repeaters and IRLP"
 
 [params.tooltips.sk]
-  title="Memorials of RRRA Members who are Silent Keys"
+  title="Memorials of RRRA Members and other Hams who are Silent Keys"
