@@ -2,6 +2,4 @@ location = "West Fargo, ND"
 call = "KD0IOE"
 mode = "DMR"
 frequency = [ "444.625 + CC1", "repeaterbook 38 14594" ]
-notes = "Brandmeister and TGIF Networks"
-# 404 (2021-02-06)
-#notes = "[Brandmeister and TGIF Networks](https://kd0ioe.com/repeater/)"
+notes = "Brandmeister and TGIF Networks [Info](http://kd0ioe.com/repeater)&nbsp;|&nbsp;[Dashboard](https://rptr.kd0ioe.com/)"
