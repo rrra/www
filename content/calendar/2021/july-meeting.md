@@ -1,7 +1,7 @@
 +++
 contact = "president"
 publishDate = "2021-05-01"
-date = "2021-07-20T18:00:00-05:00"
+date = "2021-07-20T19:00:00-05:00"
 endTime = ""
 location = "Zoom"
 title = "July Virtual Club Meeting"

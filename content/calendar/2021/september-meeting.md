@@ -1,6 +1,6 @@
 +++
 contact = "president"
-date = "2021-09-21T18:00:00-05:00"
+date = "2021-09-21T19:00:00-05:00"
 publishDate = "2021-07-01"
 endTime = ""
 location = "Zoom"
