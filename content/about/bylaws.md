@@ -1,6 +1,7 @@
 +++
 title = "RRRA Bylaws"
 linktitle = "Bylaws"
+aliases = [ "/bylaws/" ]
 +++
 
 # Article I. Name
