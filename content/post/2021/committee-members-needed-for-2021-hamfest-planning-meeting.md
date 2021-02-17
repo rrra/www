@@ -1,31 +1,39 @@
 +++
 categories = [ "Hamfest" ]
-date = "2021-01-21T10:28:00-06:00"
+date = "2021-02-17T09:50:00-06:00"
 description = ""
 slug = ""
 tags = []
-title = "Committee Members Needed for 2021 Hamfest"
-authors = [ "K0STK", "WC0G"]
+title = "Committee Members needed for first 2021 Hamfest Planning Meeting"
+authors = [ "K0STK", "WC0G" ]
 +++
-It's time to start planning for the
+The first
+[Hamfest Committee planning meeting]({{< relref "/calendar/2021/hamfest-committee-meeting-1.md" >}})
+for the
 [2021 ARRL Dakota Division Convention and RRRA Hamfest]({{< relref "/calendar/2021/rrra-hamfest.md" >}}).
-This is the largest Hamfest in North Dakota drawing
-attendees from 3 states and 1 Canadian province. Committee members
-are needed to plan and run this major fund raising activity for our
-club. Lots of volunteers will make the work easy for everyone.
+will be held on Monday, March 1st through the Zoom teleconferencing
+service,
 
-Planning will be conducted using the Zoom teleconferencing service
-until in-person meeting restrictions are lifted.
+Please visit
+[WC0G's Zoom meeting
+invitation](https://lists.rrra.org/mailman/private/hamfest/2021-February/000274.html)
+for the details you need to participate in this meeting (you must
+[subscribe to the hamfest mailing list]({{< relref "/post/2021/committee-members-needed-for-2021-hamfest-planning-meeting.md#subscribing-to-the-mailing-list" >}})
+to view this Zoom invitation.)
+
+Lots of volunteers will make the work easy for everyone; please consider
+joining the committee for 2021 and contact {{< mailto WC0G >}} if
+you have any questions.
 <!--more-->
 
 Hamfest Committee volunteers are asked to
-[subscribe to the hamfest mailing list]({{< relref "/post/2021/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
+[subscribe to the hamfest mailing list]({{< relref "/post/2021/committee-members-needed-for-2021-hamfest-planning-meeting.md#subscribing-to-the-mailing-list" >}})
 so that they can stay informed and be a part of the conversation.
 Volunteers may subscribe multiple addresses (e.g. work and mobile
 e-mail) if desired.
 
-Please contact {{< mailto WC0G >}} if you have any questions about this
-event.
+**Returning volunteers must re-subscribe to the hamfest list to confirm
+their participation.**
 
 ### Subscribing to the mailing list
 
