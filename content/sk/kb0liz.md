@@ -10,4 +10,4 @@ silentkeyhq = "" # silentkeyhq UID for this SK
 title = "KB0LIZ"
 created = "2021-02-17T13:19:27-06:00"
 +++
-* KB0LIZ and [W0JNP](/sk/w0jpn) (SK) owned [Elder's Radio * Communications](https://www.midstateswireless.com/about/)--now MidStates Wireless---in downtown Fargo
+* KB0LIZ and [W0JNP](/sk/w0jpn) (SK) owned [Elder's Radio Communications](https://www.midstateswireless.com/about/)--now MidStates Wireless---in downtown Fargo
