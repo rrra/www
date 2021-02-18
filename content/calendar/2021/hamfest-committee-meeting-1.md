@@ -4,6 +4,7 @@ date = "2021-03-01T19:00:00-06:00"
 publishDate = "2021-02-17"
 location = "[Zoom](https://lists.rrra.org/mailman/private/hamfest/2021-February/000274.html)"
 title = "Hamfest Committee Meeting"
+linkTitle = "Hamfest Committee"
 dates = [ "Hamfest Committee" ]
 outputs = [ "HTML", "Calendar" ]
 +++
