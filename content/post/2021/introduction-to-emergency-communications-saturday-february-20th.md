@@ -1,7 +1,7 @@
 +++
 date = "2021-02-17T20:54:28-06:00"
 #publishdate = "2021-02-17T20:54:28-06:00"
-title = "Introduction to Emergency Communications Saturday February 20th"
+title = "Introduction to Emergency Communications Webinar Saturday February 20th"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "AEROMN", "ARES" ]
