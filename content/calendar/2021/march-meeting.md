@@ -4,8 +4,8 @@ date = "2021-03-16T19:00:00-05:00"
 publishDate = "2021-01-01"
 endTime = ""
 location = "Zoom"
-title = "March Virtual Club Meeting"
-linkTitle = "Virtual Club Meeting"
+title = "March Virtual Meeting"
+aliases = [ "/cal/2021/03/16/march-virtual-club-meeting" ]
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
