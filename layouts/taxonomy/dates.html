@@ -44,11 +44,11 @@
 			<h3>{{ .Key }}</h3>
 			<dl id="list-{{ .Key }}{{ if eq ( $.Scratch.Get "li" ) "ncsdli" }}-ncs{{ end }}">
 			{{ range .Pages.Reverse }}
-				{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
+				{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Jan 2" ) ) }}
 					{{ .Render "sameday-dates" }}
 				{{ else }}
 					{{ .Render ( $.Scratch.Get "li" ) }}
-					{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
+					{{ $.Scratch.Set "sameday" (.Date.Format "Jan 2") }}
 				{{ end }}
 				{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
 			{{ end }}
