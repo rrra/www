@@ -10,10 +10,13 @@ dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 {{< banner class="alert" >}}
-RRRA will not meet in-person this month due to ongoing concerns
-about the COVID-19 Pandemic.
-
-A link to connection information will be posted here prior to the meeting date.
+Please visit
+[W0JPJ's Zoom meeting invitation](https://lists.rrra.org/pipermail/announce/2021-March/000556.html)
+for the details you need to participate in this meeting.
 {{< /banner >}}
+
+Club Members, and prospective members, should visit the
+[Join the Red River Radio Amateurs](/join/) page to learn about ther options
+for paying annual dues. 
 
 {{% meeting-note %}}
