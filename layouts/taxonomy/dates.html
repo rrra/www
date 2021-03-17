@@ -58,10 +58,12 @@
 	{{ end }}
 	</div>
 
+	{{/*
 	{{ if eq ( .Title | urlize )  "license-testing" }}
 		{{ partial "bring" }}
 		{{ partial "status" }}
 	{{ end }}
+	*/}}
 
 	{{ .Scratch.Set "source" "layouts/taxonomy/dates.html" }}
 	{{ partial "sourcelink.html" . }}

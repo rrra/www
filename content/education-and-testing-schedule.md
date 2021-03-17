@@ -1,6 +1,5 @@
 +++
 categories = [ "Education", "License Testing" ]
-date = "2017-12-27T19:58:24-06:00"
 description = ""
 slug = ""
 title = "Education and Testing Schedule"
@@ -11,13 +10,19 @@ aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/",
 	"/post/2015/12/04/2016-2017-education-and-testing-schedule/",
 	"/about/committees/education-and-testing-schedule/" ]
 +++
-### Amateur Radio Licensing Classes
+RRRA's Amateur Radio license test preparation classes
+have been paused for the duration of the COVID-19 pandemic due to
+limitations on public gatherings.
 
-RRRA's Amateur Radio license test preparation classes and
-[license testing sessions](/dates/license-testing/)
-have been paused for the duration of the COVID-19 pandemic.
+Amateur Radio License testing sessions are conducted remotely by a number of
+Volunteer Examiner (VE) Teams---including RRRA---and can be found online at:
+
+* [hamstudy.org](https://hamstudy.org/sessions)
+* [GLAARG VEC](https://glaarg.org/exam_sessions/)
 
 <!--
+### Amateur Radio Licensing Classes
+
 Get started in Amateur Radio---or upgrade your license---with a class
 presented by one of RRRA's experienced instructors.
 
@@ -34,8 +39,10 @@ is required** (approximate cost $30)
 
 {{< classes >}}
 -->
+
 <!--more-->
 
+<!--
 #### Textbooks
 
 ##### Technician License Course Textbook
@@ -91,3 +98,4 @@ about *License Test Prerequisites* and *Checking Your License Status*.
 Use the ARRL 
 [Find an Amateur Radio License Exam Session](http://www.arrl.org/find-an-amateur-radio-license-exam-session)
 page to locate testing opportunities offered by other organizations.
+-->
