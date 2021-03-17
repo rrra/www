@@ -15,13 +15,15 @@ url = "/licensing/"
 
 # Get started with the Red River Radio Amateurs
 
-RRRA's Amateur Radio license test preparation classes and license
-testing sessions have been paused for the duration of the COVID-19
-pandemic.
+RRRA's Amateur Radio license test preparation classes
+have been paused for the duration of the COVID-19 pandemic due to
+limitations on public gatherings.
 
-Our [Education and Testing Schedule]({{< relref "/education-and-testing-schedule.md" >}}) 
-and list of [license testing sessions](/dates/license-testing/) will be
-updated as our plans change.
+Amateur Radio License testing sessions are conducted remotely by a number of
+Volunteer Examiner (VE) Teams---including RRRA---and can be found online at:
+
+* [hamstudy.org](https://hamstudy.org/sessions)
+* [GLAARG VEC](https://glaarg.org/exam_sessions/)
 
 <!--
 RRRA offer periodic series of weekly classes in preparation for FCC
