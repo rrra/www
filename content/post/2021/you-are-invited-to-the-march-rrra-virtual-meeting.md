@@ -1,15 +1,16 @@
 +++
 date = "2021-03-15T22:41:22-05:00"
 #publishdate = "2021-03-15T22:41:22-05:00"
-title = "You Are Invited to the February RRRA Virtual Meeting"
+title = "You Are Invited to the March RRRA Virtual Meeting"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = []
+aliases = [ "/post/2021/03/15/you-are-invited-to-the-february-rrra-virtual-meeting/" ]
 +++
-RRRA Members and those interested in Amateur Radio are invited to our club's February
+RRRA Members and those interested in Amateur Radio are invited to our club's March
 Virtual Meeting conducted through the Zoom teleconferencing service.
 Connection information for the RRRA Virtual Club Meeting may be found in the
-[President's February Zoom meeting invitation](https://lists.rrra.org/pipermail/announce/2021-March/000556.html)
+[President's March Zoom meeting invitation](https://lists.rrra.org/pipermail/announce/2021-March/000556.html)
 
 Dues payment options for new members and for membership renewals (which
 were due at the January Meeting) may be found through the
