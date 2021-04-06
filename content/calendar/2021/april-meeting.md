@@ -18,3 +18,17 @@ A link to connection information will be posted here prior to the meeting date.
 {{< /banner >}}
 
 {{% meeting-note %}}
+
+### MARS Presentation
+
+Two staff officers from the Air Force 8th Communications Wing will make a
+brief (i.e. 15--20 minute) presentation about the 
+[Air Force Military Auxiliary Radio
+System](https://www.mars.af.mil/) (AFMARS)
+program ([MARS wikipedia
+page](https://en.wikipedia.org/wiki/Military_Auxiliary_Radio_System)) after
+the RRRA April Virtual Meeting.
+
+A question and answer period will follow the presentation.
+
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/5/50/2010MarsLogo.png" link="https://www.mars.af.mil/" attr="Wikipedia" attrlink="https://en.wikipedia.org/wiki/Military_Auxiliary_Radio_System" >}}
