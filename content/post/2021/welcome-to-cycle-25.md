@@ -2,7 +2,7 @@
 date = "2021-03-22T00:40:00-05:00"
 title = "Welcome to Cycle 25 (QST)"
 authors = [ "K0STK" ]
-categories = [ "Techical" ]
+categories = [ "Technical" ]
 tags = [ "Propagation", "Solar cycle", "ARRL", "QST", "Preview" ]
 +++
 In his 
