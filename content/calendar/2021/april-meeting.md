@@ -23,11 +23,12 @@ A link to connection information will be posted here prior to the meeting date.
 
 Staff officers from the Air Force 8th Communications Wing will make a
 brief (i.e. 15--20 minute) presentation about the 
-[Air Force Military Auxiliary Radio
-System](https://www.mars.af.mil/) (AFMARS)
-program ([MARS wikipedia
-page](https://en.wikipedia.org/wiki/Military_Auxiliary_Radio_System)) after
-the RRRA April Virtual Meeting.
+[Military Auxiliary Radio
+System](https://en.wikipedia.org/wiki/Military_Auxiliary_Radio_System) (MARS)
+program after the RRRA April Virtual Meeting.
+
+* [Army MARS](http://www.usarmymars.org/)
+* [Air Force MARS](https://www.mars.af.mil/)
 
 A question and answer period will follow the presentation.
 
