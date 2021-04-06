@@ -27,6 +27,10 @@ brief (i.e. 15--20 minute) presentation about the
 System](https://en.wikipedia.org/wiki/Military_Auxiliary_Radio_System) (MARS)
 program after the RRRA April Virtual Meeting.
 
+MARS is a Department of Defense sponsored
+[civilian auxillary](https://en.wikipedia.org/wiki/Auxiliaries) program
+separately managed and operated by two military service branches:
+
 * [Army MARS](http://www.usarmymars.org/)
 * [Air Force MARS](https://www.mars.af.mil/)
 
