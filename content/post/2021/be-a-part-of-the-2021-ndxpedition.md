@@ -53,6 +53,8 @@ Please review the
 [SKCC QSL Bureau](https://www.skccgroup.com/member_services/qsl_buro/)
 page for information about how to use the bureau.
 
+{{< figure src="https://cloud.rrra.org/index.php/s/Fpt2K4HjkCBR7jZ/preview" >}}
+
 ### Equipment
 
 The planned equipment list for the ND DXpedition will include at least:
