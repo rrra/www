@@ -6,7 +6,14 @@ authors = [ "K0STK" ]
 categories = [ "Technical" ]
 tags = [ "ARRL", "FCC", "RF", "Exposure" ]
 +++
-ARRL reports in 
+[Two years ago](https://rrra.org/cal/2019/04/16/april-club-meeting/)
+KA0LDG made a presentation titled *RF Exposure Evaluation for
+Amateur Radio Operators* (PDF and Powerpoint versions are available in the
+**Training and Education | Presentations** folder on the [RRRA Groupsware
+server](https://cloud.rrra.org/)) in anticipation of the updated FCC RF
+exposure rules.
+
+This week ARRL reports in 
 [ARRL General Bulletin ARLB011 \(2021\)](http://www.arrl.org/w1aw-bulletins-archive/ARLB011/2021)
 and the
 [Updated Radio Frequency Exposure Rules Become Effective on May
