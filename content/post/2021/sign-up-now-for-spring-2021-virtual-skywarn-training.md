@@ -18,23 +18,22 @@ Classes---through the end of April---will be offered:
 
 These classes are free of charge and open to the public.
 
-Current SKYWARN Weather Spotters, and those interested in joining
-the program, **must**
-[register on-line]({{< relref "/post/2021/sign-up-now-for-spring-2021-virtual-skywarn-training.md#april-sign-up" >}}) for a class.
+Anyone interested in attending one of these classes **must**
+[register on-line]({{< relref "/post/2021/sign-up-now-for-spring-2021-virtual-skywarn-training.md#april-sign-up" >}}).
 
 <!--more-->
 
 ### April 2021 Virtual Class Sign-up {#april-sign-up}
 
-1. Visit the [SkyWarn Refresher Registration page](https://attendee.gotowebinar.com/rt/2110917603231727116?source=webdirect)
-1. Complete the registration form. If more than one person will be watching,
-you don't need to register more than once - we'll send an email about how to
-register as a spotter and get your certificate after the class
-1. Once registered, you will receive an email with a link to join. Before the
-class, please visit the GoToWebinar System Check and try a test session to
-make sure your computer, tablet, or smartphone is ready to attend the class!
-If you do not have a strong internet connection, you will have the option to
-call in by phone to listen to the audio
+>1. Visit the [SkyWarn Refresher Registration page](https://attendee.gotowebinar.com/rt/2110917603231727116?source=webdirect)
+>1. Complete the registration form. If more than one person will be watching, you don't need to register more than once - we'll send an email about how to register as a spotter and get your certificate after the class
+>1. Once registered, you will receive an email with a link to join. Before the
+>class, please visit the GoToWebinar System Check and try a test session to
+>make sure your computer, tablet, or smartphone is ready to attend the class!
+>If you do not have a strong internet connection, you will have the option to
+>call in by phone to listen to the audio [^2]
+
+[^2]: "Skywarn, NWS WFO Grand Forks, ND", National Weather Service, accessed April 14 2021, https://www.weather.gov/fgf/skywarn.
 
 ### Year Round On-line Classes
 
