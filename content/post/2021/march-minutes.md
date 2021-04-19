@@ -1,9 +1,10 @@
 +++
 date = "2021-04-14T09:00:00-05:00"
-title = "February 2021 Business Meeting Minutes"
+title = "March 2021 Business Meeting Minutes"
 categories = [ "Minutes" ]
 toc = "true"
 authors = [ "K0RQ" ]
+aliases = [ "/post/2021/04/14/february-2021-business-meeting-minutes/" ]
 +++
 * Meeting took place on Zoom instead of in-person in response to the COVID-19 pandemic
 * Meeting called to order by President Jarod W0JPJ at 19:03, March 16, 2021
