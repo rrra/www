@@ -1,6 +1,6 @@
 +++
 date = "2021-03-15T22:41:22-05:00"
-#publishdate = "2021-03-15T22:41:22-05:00"
+expirydate = "2021-03-17"
 title = "You Are Invited to the March RRRA Virtual Meeting"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
