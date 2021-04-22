@@ -33,8 +33,8 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 | Callsign       |                              |
 | -------------- | ---------------------------- |
-| KC0KAE         | {{< mailto N0RF name >}}     |
-| W0ILO          | {{< mailto W0JPJ name >}}    |
+| KC0KAE         | {{< mailto KC0KAE name >}}     |
+| W0ILO          | {{< mailto W0ILO name >}}    |
 
 ### Mailing Address {#mailing-address}
 
