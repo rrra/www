@@ -1,7 +1,7 @@
 +++
 date = "2021-04-22T11:14:14-05:00"
 #publishdate = "2021-04-22T11:14:14-05:00"
-title = "Attend the Virtual Microhams Digital Conference 2021"
+title = "Attend the Virtual MicroHAMS Digital Conference 2021"
 authors = [ "K0STK" ]
 categories = [ "Education", "Technical" ]
 tags = [ "MicroHAMS" ]
