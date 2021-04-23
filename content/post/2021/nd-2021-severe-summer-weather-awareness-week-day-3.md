@@ -6,11 +6,15 @@ title = "ND 2021 Severe Summer Weather Awareness Week Is April 26th Through 30th
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "NWS" ]
+weight = -1
 +++
-Learn about these severe weather topics during North Dakota 2021 Severe
-Summer Weather Week:
+{{< banner class="alert" >}}
+Today's topic: [Tornado Drill](https://www.weather.gov/bis/nd_summer_3)
+{{< /banner >}}
 
 <!--more-->
+
+Topics for North Dakota 2021 Severe Summer Weather Awareness Week
 
 * Monday - [Severe Thunderstorms](https://www.weather.gov/bis/nd_summer_awareness_1)
 * Tuesday - [Tornadoes](https://www.weather.gov/bis/nd_summer_2)
@@ -18,13 +22,8 @@ Summer Weather Week:
 * Thursday - Lightning
 * Friday - Flash Flooding
 
-{{< banner >}}
-Bookmark this blog post; a new link will become active each day starting
-on Monday, April 26th.
-
 Links courtesy of the National Weather Service
 [Bismarck, ND, Weather Forecast Office](https://www.weather.gov/bis/).
-{{< /banner >}}
 
 ### Governor's Proclamation
 
