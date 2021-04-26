@@ -1,5 +1,6 @@
 +++
 date = "2021-04-22T11:14:14-05:00"
+expirydate = "2021-04-25"
 #publishdate = "2021-04-22T11:14:14-05:00"
 title = "Attend the Virtual MicroHAMS Digital Conference 2021"
 authors = [ "K0STK" ]
