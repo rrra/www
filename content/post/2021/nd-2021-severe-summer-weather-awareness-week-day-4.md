@@ -9,7 +9,7 @@ tags = [ "NWS" ]
 weight = -1
 +++
 {{< banner class="alert" >}}
-Today's topic: [Lightning](https://www.weather.gov/bis/nd_summer_4)
+Thursday's topic: [Lightning](https://www.weather.gov/bis/nd_summer_4)
 {{< /banner >}}
 
 <!--more-->

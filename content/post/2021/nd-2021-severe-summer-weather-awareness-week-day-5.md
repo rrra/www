@@ -8,7 +8,7 @@ tags = [ "NWS" ]
 weight = -1
 +++
 {{< banner class="alert" >}}
-Today's topic: [Flash Flooding](https://www.weather.gov/bis/nd_summer_5)
+Fridays's topic: [Flash Flooding](https://www.weather.gov/bis/nd_summer_5)
 {{< /banner >}}
 
 <!--more-->

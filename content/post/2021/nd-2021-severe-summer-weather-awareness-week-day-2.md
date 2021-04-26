@@ -9,7 +9,7 @@ tags = [ "NWS" ]
 weight = -1
 +++
 {{< banner class="alert" >}}
-Today's topic: [Tornadoes](https://www.weather.gov/bis/nd_summer_2)
+Tuesday's topic: [Tornadoes](https://www.weather.gov/bis/nd_summer_2)
 {{< /banner >}}
 
 <!--more-->

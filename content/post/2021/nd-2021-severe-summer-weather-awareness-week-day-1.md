@@ -9,7 +9,7 @@ tags = [ "NWS" ]
 weight = -1
 +++
 {{< banner class="alert" >}}
-Today's topic: [Severe Thunderstorms](https://www.weather.gov/bis/nd_summer_awareness_1)
+Monday's topic: [Severe Thunderstorms](https://www.weather.gov/bis/nd_summer_awareness_1)
 {{< /banner >}}
 
 <!--more-->
