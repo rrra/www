@@ -1,6 +1,5 @@
 +++
-date = "2021-04-21T12:45:12-05:00"
-publishdate = "2021-05-01"
+date = "2021-05-01T00:00:00-05:00"
 title = "ND 2021 Severe Summer Weather Awareness Week"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
