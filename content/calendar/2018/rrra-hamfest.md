@@ -11,6 +11,10 @@ dates = [ "Hamfest" ]
 aliases = [ "/cal/2018/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+{{< banner >}}
+Please visit https://hamfest.rrra.org/ for information about this year's
+RRRA Hamfest.
+{{< /banner >}}
 ### Featuring
 
 * ARRL Card Checking by K0QQ

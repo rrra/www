@@ -11,13 +11,17 @@ dates = [ "Hamfest" ]
 aliases = [ "/cal/2019/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
 +++
+{{< banner >}}
+Please visit https://hamfest.rrra.org/ for information about this year's
+RRRA Hamfest.
+{{< /banner >}}
 ### Featuring
 
 * ARRL Card Checking by K0KG
 * Cash and merchandise door prizes
 * Flea Market
 * Food & Beverages
-* [Hamfest Flyer](#hamfest-flyer)
+* Hamfest Flyer
 * [License Testing]({{< relref "/calendar/2019/rrra-hamfest.md#license-testing" >}}) (aka *VE Testing*)
 * [Seminars]({{< relref "/calendar/2019/rrra-hamfest.md#seminars" >}})
 * Special YL only prizes

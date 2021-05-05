@@ -12,6 +12,7 @@ aliases = [ "/cal/2020/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
 status = "canceled"
 +++
-The 2020 RRRA Hamfest has been canceled due to the COVID-19 pandemic.
-
-[See you next year!](https://hamfest.rrra.org/2021)
+{{< banner >}}
+Please visit https://hamfest.rrra.org/ for information about this year's
+RRRA Hamfest.
+{{< /banner >}}
