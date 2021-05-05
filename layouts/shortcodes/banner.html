@@ -11,6 +11,8 @@ Named Arguments:
 "class" - will be added to the banner div class definition
 	Most useful value here is "alert" for a red banner
 
+"publish" - banner publication date, only YYYY-MM-DD is used
+
 */}}
 
 {{ $scratch := newScratch }}
@@ -22,7 +24,15 @@ Named Arguments:
 	{{ $today := now.Format "2006-01-02" }}
 	{{ $expires := dateFormat "2006-01-02" ( . ) }}
 	{{ if gt $today $expires }}
-		{{ $scratch.Set "banner" "" }}
+		{{ $scratch.Set "banner" " " }}
+	{{ end }}
+{{ end }}
+
+{{ with .Get "publish" }}
+	{{ $today := now.Format "2006-01-02" }}
+	{{ $publish := dateFormat "2006-01-02" ( . ) }}
+	{{ if lt $today $publish }}
+		{{ $scratch.Set "banner" " " }}
 	{{ end }}
 {{ end }}
 
