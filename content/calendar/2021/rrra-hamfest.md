@@ -13,8 +13,13 @@ outputs = [ "HTML", "Calendar" ]
 +++
 * [ARRL Hamfest & Convention listing](http://www.arrl.org/hamfests/rrra-hamfest-2021-arrl-dakota-division-convention)
 
-{{< banner >}}
-Bookmark https://hamfest.rrra.org/2021 and
+{{< banner expires="2022-01-01" >}}
+Create a bookmark for **hamfest.rrra.org** and
 [subscribe to our Hamfest Announcements mailing list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
-to stay informed about North Dakota's largest Hamfest in 2021!
+to stay informed about North Dakota's largest Hamfest!
+{{< /banner >}}
+
+{{< banner publish="2022-01-01" >}}
+Please visit https://hamfest.rrra.org/ for information about this year's
+RRRA Hamfest.
 {{< /banner >}}
