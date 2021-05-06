@@ -17,7 +17,7 @@
 	</div>
 	<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
 {{ with  .OutputFormats.Get "calendar" -}}
-<div id="ical-links"><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these {{ $.Title | singularize }} dates" href="{{ .Permalink | replaceRE "^https?" "webcal" | safeURL }}">Subscribe to these dates</a> <span class="genericon genericon-link" style="font-size: 1.5em; padding-left: 0.2em; padding-right: 0.2em;" ></span><a style="text-decoration: none;" title="Import these {{ $.Title | singularize }} dates as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></div>
+<span class="noprint"><div id="ical-links"><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these {{ $.Title | singularize }} dates" href="{{ .Permalink | replaceRE "^https?" "webcal" | safeURL }}">Subscribe to these dates</a> <span class="genericon genericon-link" style="font-size: 1.5em; padding-left: 0.2em; padding-right: 0.2em;" ></span><a style="text-decoration: none;" title="Import these {{ $.Title | singularize }} dates as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></div></span>
 {{- end }}
 	{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 	{{ if ne $contact nil }}

@@ -16,7 +16,7 @@
 		</div>
 		<h1 class="entry-title">NCS Credits - {{ .Title }}</h1>
 {{ with  .OutputFormats.Get "calendar" -}}
-<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these NCS credits" href="{{ .RelPermalink | safeURL }}">Subscribe to these credits</a> &bull; <a style="text-decoration: none;" title="Import these NCS credits as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
+<span class="noprint"><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these NCS credits" href="{{ .RelPermalink | safeURL }}">Subscribe to these credits</a> &bull; <a style="text-decoration: none;" title="Import these NCS credits as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd></span>
 {{- end }}
 	</header>
 
