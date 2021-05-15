@@ -13,9 +13,7 @@ moretext = "View The Video"
 
 Learn more as
 [WTHI Storm Team 10]({{< relref "/post/2021/amateur-radio-operators-are-still-in-high-demand.md#about-wthi" >}})
-reporter
-[David Siple](mailto:david.siple@wthitv.com)
-narrrates the station's
+reporter David Siple narrrates the station's
 "[amateur radio operators are still in high demand]({{< relref "/post/2021/amateur-radio-operators-are-still-in-high-demand.md" >}})"
 video package.
 
