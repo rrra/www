@@ -8,7 +8,7 @@
 				{{ range .Params.dates }}
 					{{ $dates := . }}
 					{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
-						{{ if eq $key ( urlize $dates ) }}
+						{{ if and ( eq $key ( urlize $dates ) ) ( ne "hidden" ( urlize $dates ) ) }}
 
 							{{ range $taxonomy.Pages.Reverse }}
 								{{ if and (ne ($.Scratch.Get "this") nil) (eq ($.Scratch.Get "next") nil) }}
