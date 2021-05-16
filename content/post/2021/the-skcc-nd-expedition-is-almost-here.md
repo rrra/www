@@ -6,8 +6,8 @@ authors = [ "K8AQM" ]
 categories = [ "Outreach" ]
 tags = [ "Expedition", "SKCC" ]
 +++
-Time is moving fast! By this time next week the North Dakota Expedition
-will be on the air! Presently we have four operators and five stations
+Time is moving fast; in less than a week the North Dakota Expedition
+will be on the air. Presently we have four operators and five stations
 to set up.
 <!--more-->
 
