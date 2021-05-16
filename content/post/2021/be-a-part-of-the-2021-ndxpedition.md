@@ -1,17 +1,18 @@
 +++
 date = "2021-04-06T10:00:00-05:00"
 #publishdate = "2021-04-05T20:55:27-05:00"
-title = "Be a Part of the 2021 NDXpedition"
+title = "Be a Part of the 2021 ND Expedition"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
-tags = [ "DXpedition", "SKCC" ]
+tags = [ "Expedition", "SKCC" ]
+aliases = [ "/post/2021/04/06/be-a-part-of-the-2021-ndxpedition/" ]
 +++
-Radio Operators---both DXpedition Team Members and remote contacts---are
+Radio Operators---both Expedition Team Members and remote contacts---are
 needed for the
 [Straight Key Century Club]({{< relref "/post/2021/be-a-part-of-the-2021-ndxpedition.md#about-skcc" >}})
-(SKCC) 2021 North Dakota DXpedition.
+(SKCC) 2021 North Dakota Expedition.
 
-This large [QRO](https://en.wikipedia.org/wiki/Q_code) DXpedition---led
+This large [QRO](https://en.wikipedia.org/wiki/Q_code) Expedition---led
 by Jeremy KD8VSQ (13072T) and Ted K8AQM (1629S)---will operate from the
 [Sheyenne Oaks Campground](https://sheyenneoaks.com/) in Leonard, ND,
 beginning late May 20<sup>th</sup> and ending late afternoon May
@@ -21,7 +22,7 @@ beginning late May 20<sup>th</sup> and ending late afternoon May
 
 In their announcement published in the SKCC
 [March 2021 Rag Chew](https://www.skccgroup.com/member_services/newsletter/issues/202103_Rag_Chew.pdf)
-newsletter, the DXpedition organizers state:
+newsletter, the Expedition organizers state:
 
 >We will try to keep operating as much as possible and may even do a bit
 of FT8 for those needing ND. Keep an eye out on the
@@ -34,11 +35,11 @@ DXpedtion operators will primarily use the call K8AQM/0 to
 provide that much needed ND ***S*** contact for those working on their
 [SKCC WAS-S award](https://www.skccgroup.com/operating_awards/was-s/).
 
-The DXpedition organizers hope the operation will include radio
+The Expedition organizers hope the operation will include radio
 operators from the Fargo area and Red River Radio Amateurs club.
 
 {{<banner class="alert">}}
-DXpedition plans are subject to change without notice.
+Expedition plans are subject to change without notice.
 {{</banner>}}
 
 ### QSL Policy
@@ -57,7 +58,7 @@ page for information about how to use the bureau.
 
 ### Equipment
 
-The planned equipment list for the ND DXpedition will include at least:
+The planned equipment list for the ND Expedition will include at least:
 
 * 3 Transceivers
     * K2
