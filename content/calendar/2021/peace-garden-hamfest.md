@@ -8,7 +8,6 @@ sponsor = "[Souris Valley Amateur Radio Club](https://sourisamateurradioclub.god
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-:warning: **Times are unconfirmed**
-
 Please visit the [ARRL Peace Garden Hamfest page](http://www.arrl.org/hamfests/peace-garden-hamfest)
+or [W0ND's announcement](https://lists.rrra.org/pipermail/announce/2021-May/000570.html)
 for more information.
