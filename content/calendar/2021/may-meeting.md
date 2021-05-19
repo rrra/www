@@ -13,10 +13,6 @@ outputs = [ "HTML", "Calendar" ]
 Please visit
 [W0JPJ's Zoom meeting invitation](https://lists.rrra.org/pipermail/announce/2021-May/000569.html)
 for the details you need to participate in this meeting.
-
-Please visit the 
-[You Are Invited to the May RRRA Virtual Meeting]({{< relref "/post/2021/you-are-invited-to-the-may-rrra-virtual-meeting.md" >}})
-blog post for information about using Zoom.
 {{< /banner >}}
 
 {{% meeting-note %}}

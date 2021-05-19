@@ -8,7 +8,7 @@ tags = []
 moreText = "Read more about Zoom"
 +++
 RRRA Members and those interested in Amateur Radio are invited to our club's
-[May Virtual Meeting]({{< relref "/calendar/2021/april-meeting.md" >}})
+[May Virtual Meeting]({{< relref "/calendar/2021/may-meeting.md" >}})
 conducted through the Zoom teleconferencing service.
 Connection information for the RRRA Virtual Club Meeting may be found in the
 [President's May Zoom meeting invitation](https://lists.rrra.org/pipermail/announce/2021-May/000569.html)
