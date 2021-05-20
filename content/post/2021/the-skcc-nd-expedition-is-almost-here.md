@@ -1,5 +1,6 @@
 +++
 date = "2021-05-15T20:28:47-05:00"
+expirydate = "2021-05-25"
 #publishdate = "2021-05-15T20:28:47-05:00"
 title = "The SKCC ND Expedition Is Almost Here !"
 authors = [ "K8AQM" ]
