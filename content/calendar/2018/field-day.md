@@ -7,7 +7,7 @@ publishDate = "2017-11-01T01:00:00-05:00"
 contact = "KK0V"
 dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
-aliases = [ "/cal/2018/06/23/field-day-2018/" ]
+aliases = [ "/cal/2018/field-day/" ]
 upcoming = "force"
 +++
 ## Field Day Site Location

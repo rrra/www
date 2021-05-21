@@ -5,6 +5,7 @@ endTime = "2017-06-25T18:59:00-05:00"
 date = "2017-06-23T19:00:00-05:00"
 contact = "KK0V"
 dates = [ "Outreach" ]
+aliases = [ "/cal/2017/field-day/" ]
 +++
 
 ## Field Day Site Location
