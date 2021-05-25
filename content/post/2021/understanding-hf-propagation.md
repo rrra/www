@@ -2,7 +2,7 @@
 date = "2021-05-24T09:00:00-05:00"
 title = "Understanding HF Propagation"
 authors = [ "K0STK" ]
-categories = [ "Education", "Techical" ]
+categories = [ "Education", "Technical" ]
 tags = [ "Propagation" ]
 moretext = "Watch The Video"
 +++
