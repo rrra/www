@@ -16,7 +16,7 @@ The Field Site Infrastructure Manager is responsible for:
 
 * Signing for and securing the keys to the Field Day site gates and bathrooms
 * Getting the 6000 pound RRRA communications trailer towed to to the Field Day
-site and assisting with set-up. This trailer has a tongue weight of 600
+site and assisting with set-up. The trailer has a tongue weight of 600
 pounds and requires an appropriately equipped tow vehicle
 
 This year's Site Infrastructure Manager(s) should contact {{< mailto KK0V >}} as soon as
