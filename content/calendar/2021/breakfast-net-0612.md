@@ -1,0 +1,12 @@
++++
+date = "2021-06-12T07:00:00-0500"
+publishDate = "2021-06-05T07:00:00-0500"
+endTime = ""
+location = ""
+ncs = [ "WB0BIN" ]
+title = "Breakfast Net 0612"
+linkTitle = "Breakfast Net"
+categories = [ "Social" ]
+dates = [ "Hidden" ]
+upcoming = "force"
++++
