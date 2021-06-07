@@ -7,8 +7,4 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "June ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-status = "canceled"
 +++
-RRRA Members are encouraged to participate in the 
-[June Club Meeting]({{< relref "/calendar/2021/june-meeting.md" >}})
-which will be conducted on Zoom.
