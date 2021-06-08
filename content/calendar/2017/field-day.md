@@ -3,7 +3,7 @@ location = "[Cass County Highway Department](/places/cass-county-highway-departm
 title = "Field Day 2017"
 endTime = "2017-06-25T18:59:00-05:00"
 date = "2017-06-23T19:00:00-05:00"
-contact = "KK0V"
+contact = "fieldday"
 dates = [ "Outreach" ]
 aliases = [ "/cal/2017/field-day/" ]
 +++

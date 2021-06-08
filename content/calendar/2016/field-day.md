@@ -1,5 +1,5 @@
 +++
-contact = "KA0LDG"
+contact = "fieldday"
 date = "2016-06-25T13:00:00-05:00"
 endTime = "2016-06-26T18:59:59-05:00"
 location = "[Forest River Road](/places/forest-river-road-field-day-site/)"
