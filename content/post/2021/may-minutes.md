@@ -7,7 +7,7 @@ authors = [ "K0RQ" ]
 +++
 * Meeting took place on Zoom instead of in-person in response to the COVID-19 pandemic
 * Meeting called to order by President Jarod W0JPJ at 19:00, May 18, 2021
-* 32 members in attendence
+* 25 members in attendence
 
 <!--more-->
 
