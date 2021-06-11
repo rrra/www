@@ -10,6 +10,7 @@ call = "[W0ILO](/radios/)"
 mode = "Analog"
 frequency = [ "444.875 + T123", "repeaterbook 27 267" ]
 notes = "[RRRA](/)"
+qrt = true # only include this line for systems which have been shut down
 
 All definition file lines are passed through the markdown formatter.
 
@@ -67,9 +68,26 @@ generate a repeaterbook link
 	{{ end }}
 
 	{{ if or ( eq $self "all" ) ( or ( in ( $scratch.Get "test" ) $mode ) ) }}
-	<tr>
-		<td>{{ .location | markdownify }}</td>
-		<td>{{ .call | markdownify }}<br \>{{ .mode | markdownify }}</td> 
+
+	{{/* Load table cell contents */}}
+	{{ if eq true .qrt }} {{/* Lined out plain text */}}
+		{{ $scratch.Set "location" ( "~~" | printf "%s%s" ( .location | plainify ) | printf "%s%s" "~~" ) }}
+		{{ $scratch.Set "call" ( "~~" | printf "%s%s" ( .call | plainify ) | printf "%s%s" "~~" ) }}
+		{{ $scratch.Set "mode" ( "~~" | printf "%s%s" ( .mode | plainify ) | printf "%s%s" "~~" ) }}
+		{{ $scratch.Set "notes" "QRT" }}
+
+		{{ if reflect.IsSlice .frequency }} {{/* we have an array */}}
+			{{ $freq    := index .frequency 0 }}
+			{{ $scratch.Set "freq" ( "~~" | printf "%s%s" ( $freq | plainify ) | printf "%s%s" "~~" ) }}
+		{{ else }} {{/* its only a string */}}
+			{{ $scratch.Set "freq" ( "~~" | printf "%s%s" ( .frequency | plainify ) | printf "%s%s" "~~" ) }}
+		{{ end }}
+
+	{{ else }}
+		{{ $scratch.Set "location" ( .location ) }}
+		{{ $scratch.Set "call" ( .call ) }}
+		{{ $scratch.Set "mode" ( .mode ) }}
+		{{ $scratch.Set "notes" ( .notes ) }}
 
 		{{ if reflect.IsSlice .frequency }}
 			{{ $freq    := index .frequency 0 }}
@@ -77,12 +95,18 @@ generate a repeaterbook link
 			{{ $slice   := split $rptbook " " }}
 			{{ $state   := index $slice 1 }}
 			{{ $id      := index $slice 2 }}
-			<td><a href="https://www.repeaterbook.com/repeaters/details.php?state_id={{ $state }}&ID={{ $id }}">{{ $freq }}</a></td>
+			{{ $scratch.Set "freq" ( "</a>" | printf "\">%s%s" $freq | printf "&ID=%s%s" $id | printf "<a href=\"https://www.repeaterbook.com/repeaters/details.php?state_id=%s%s" $state | printf "%s" ) }} 
 		{{ else }}
-			<td>{{ .frequency | markdownify }}</td>
+			{{ $scratch.Set "freq" ( .frequency ) }}
 		{{ end }}
 
-		<td>{{ .notes | markdownify }}</td>
+	{{ end }}
+
+	<tr>
+		<td>{{ $scratch.Get "location"  | markdownify }}</td>
+		<td>{{ $scratch.Get "call" | markdownify }}<br \>{{ $scratch.Get "mode" | markdownify }}</td>
+		<td>{{ $scratch.Get "freq" | markdownify }}</td>
+		<td>{{ $scratch.Get "notes" | markdownify }}</td>
 	</tr>
 	{{ end }}
 {{ end }}
