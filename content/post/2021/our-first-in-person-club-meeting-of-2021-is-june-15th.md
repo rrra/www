@@ -1,10 +1,9 @@
 +++
 date = "2021-06-12T15:05:00-05:00"
-title = "Our First In-person Club Meeting Of 2021 Is June 15th"
+title = "Our First Post-COVID Club Meeting Of 2021 Is June 15th"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = []
-draft = true
 +++
 The [RRRA Board of Directors]({{< relref "/about/contact/_index.md#board-of-directors" >}})
 is pleased to announce the club's return to *in-person* meetings with the
