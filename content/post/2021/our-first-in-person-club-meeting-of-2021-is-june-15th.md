@@ -10,10 +10,11 @@ is pleased to announce the club's return to *in-person* meetings with the
 [7PM June 15th, 2021, Business Meeting]({{< relref "/calendar/2021/june-meeting.md" >}})
 at West Fargo City Hall.
 
-A Zoom link to our meeting room is *planned* for those members who are unable
-to---or do not wish to---attend an in-person meeting at this time. The
-[RRRA Club Discussions electronic mailing list](https://lists.rrra.org/mailman/listinfo/rrra)
-will be used to distribute a Zoom invitation for those members who wish to participate virtually.
+A Zoom link to our meeting room is *planned* for those members who are
+unable to---or do not wish to---attend an in-person meeting at this
+time. Please visit
+[W0JPJ's Zoom meeting invitation](https://lists.rrra.org/pipermail/announce/2021-June/000575.html)
+for connection information if you wish to attend this meeting through Zoom.
 
 Members who are fully vaccinated (i.e. have completed their course of
 vaccinations at least 2 weeks ago) are welcome to attend our meeting without
