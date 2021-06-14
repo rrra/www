@@ -7,4 +7,7 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "June ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
+status = "canceled"
 +++
+ARES will be discussed during the 
+[June Club Meeting]({{< relref "/calendar/2021/june-meeting.md" >}})
