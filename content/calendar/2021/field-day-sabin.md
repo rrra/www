@@ -10,15 +10,13 @@ dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
 +++
-<!--
 ## Field Day Site Location
 
-The [Sabin, MN Field Day 2019 site](https://goo.gl/maps/3LZgFLksDvk) will be located in the field adjacent to Trinity Lutheran Church, Sabin, MN.
+The [Sabin, MN Field Day 2021 site](https://goo.gl/maps/3LZgFLksDvk) will be located in the field adjacent to Trinity Lutheran Church, Sabin, MN.
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/147076354@N03/35284000302/in/dateposted-public/" title="Sabin, MN 2019 Field Day Site"><img src="https://c1.staticflickr.com/5/4239/35284000302_f9635a5ac1.jpg" width="474" height="474" alt="Sabin, MN 2017 Field Day Site"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/147076354@N03/35284000302/in/dateposted-public/" title="Sabin, MN 2021 Field Day Site"><img src="https://c1.staticflickr.com/5/4239/35284000302_f9635a5ac1.jpg" width="474" height="474" alt="Sabin, MN 2017 Field Day Site"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-[View the Sabin, MN Field Day 2019 site on Google Maps](https://goo.gl/maps/3LZgFLksDvk)
--->
+[View the Sabin, MN Field Day 2021 site on Google Maps](https://goo.gl/maps/3LZgFLksDvk)
 
 # Other Local Field Day Site Locations
 
