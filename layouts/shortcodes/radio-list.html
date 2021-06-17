@@ -10,7 +10,7 @@ call = "[W0ILO](/radios/)"
 mode = "Analog"
 frequency = [ "444.875 + T123", "repeaterbook 27 267" ]
 notes = "[RRRA](/)"
-qrt = true # only include this line for systems which have been shut down
+qrt = YYYY-MM-DD
 
 All definition file lines are passed through the markdown formatter.
 
@@ -19,6 +19,11 @@ a single string (e.g. "444.875 + T123").
 
 The second member of the array version of the "frequency" line is used to 
 generate a repeaterbook link
+
+The "qrt" line specifies the (possibly future) date a radio system is shut
+down. A qrt system will be listed as such in radio chart for 30 days following
+the qrt date. Systems which have been qrt for more than 30 days are not
+displayed.
 
 */}}
 
@@ -57,57 +62,64 @@ generate a repeaterbook link
 </tr>
 </thead>
 
+{{/* QRT system publication cut off date (see QRT notes above) */}}
+{{ $cutoff := now.AddDate 0 0 -30 | dateFormat "2006-01-02" }}
+
 <tbody>
 {{ range sort $.Site.Data.radios ".location" }}
-	{{ $scratch.Set "test" $self }}
-	{{ $mode := .mode | urlize }}
+	{{ $qrt := .qrt | default $cutoff }}
+	{{ if ge $qrt $cutoff }}
+		{{ $scratch.Set "test" $self }}
+		{{ $mode := .mode | urlize }}
 
-	{{/* Allow "MMDVM" repeaters to specify supported modes in their notes */}}
-	{{ if and ( eq "mmdvm" $mode ) ( in ( .notes | urlize ) $self ) }}
-		{{ $scratch.Set "test" ( printf "mmdvm|%s" $self ) }}
-	{{ end }}
-
-	{{ if or ( eq $self "all" ) ( or ( in ( $scratch.Get "test" ) $mode ) ) }}
-
-	{{/* Load table cell contents */}}
-	{{ if eq true .qrt }} {{/* Lined out plain text */}}
-		{{ $scratch.Set "location" ( "~~" | printf "%s%s" ( .location | plainify ) | printf "%s%s" "~~" ) }}
-		{{ $scratch.Set "call" ( "~~" | printf "%s%s" ( .call | plainify ) | printf "%s%s" "~~" ) }}
-		{{ $scratch.Set "mode" ( "~~" | printf "%s%s" ( .mode | plainify ) | printf "%s%s" "~~" ) }}
-		{{ $scratch.Set "notes" "QRT" }}
-
-		{{ if reflect.IsSlice .frequency }} {{/* we have an array */}}
-			{{ $freq    := index .frequency 0 }}
-			{{ $scratch.Set "freq" ( "~~" | printf "%s%s" ( $freq | plainify ) | printf "%s%s" "~~" ) }}
-		{{ else }} {{/* its only a string */}}
-			{{ $scratch.Set "freq" ( "~~" | printf "%s%s" ( .frequency | plainify ) | printf "%s%s" "~~" ) }}
+		{{/* Allow "MMDVM" repeaters to specify supported modes in their notes */}}
+		{{ if and ( eq "mmdvm" $mode ) ( in ( .notes | urlize ) $self ) }}
+			{{ $scratch.Set "test" ( printf "mmdvm|%s" $self ) }}
 		{{ end }}
 
-	{{ else }}
-		{{ $scratch.Set "location" ( .location ) }}
-		{{ $scratch.Set "call" ( .call ) }}
-		{{ $scratch.Set "mode" ( .mode ) }}
-		{{ $scratch.Set "notes" ( .notes ) }}
+		{{ if or ( eq $self "all" ) ( or ( in ( $scratch.Get "test" ) $mode ) ) }}
 
-		{{ if reflect.IsSlice .frequency }}
-			{{ $freq    := index .frequency 0 }}
-			{{ $rptbook := index .frequency 1 }}
-			{{ $slice   := split $rptbook " " }}
-			{{ $state   := index $slice 1 }}
-			{{ $id      := index $slice 2 }}
-			{{ $scratch.Set "freq" ( "</a>" | printf "\">%s%s" $freq | printf "&ID=%s%s" $id | printf "<a href=\"https://www.repeaterbook.com/repeaters/details.php?state_id=%s%s" $state | printf "%s" ) }} 
+		{{/* Load table cell contents */}}
+		{{ if gt ( now.Format "2006-01-02" ) .qrt }} {{/* Lined out plain text */}}
+			{{ $scratch.Set "location" ( "~~" | printf "%s%s" ( .location | plainify ) | printf "%s%s" "~~" ) }}
+			{{ $scratch.Set "call" ( "~~" | printf "%s%s" ( .call | plainify ) | printf "%s%s" "~~" ) }}
+			{{ $scratch.Set "mode" ( "~~" | printf "%s%s" ( .mode | plainify ) | printf "%s%s" "~~" ) }}
+			{{ $scratch.Set "notes" "QRT " }}
+			{{ $scratch.Add "notes" .qrt }}
+
+			{{ if reflect.IsSlice .frequency }} {{/* we have an array */}}
+				{{ $freq    := index .frequency 0 }}
+				{{ $scratch.Set "freq" ( "~~" | printf "%s%s" ( $freq | plainify ) | printf "%s%s" "~~" ) }}
+			{{ else }} {{/* its only a string */}}
+				{{ $scratch.Set "freq" ( "~~" | printf "%s%s" ( .frequency | plainify ) | printf "%s%s" "~~" ) }}
+			{{ end }}
+
 		{{ else }}
-			{{ $scratch.Set "freq" ( .frequency ) }}
+			{{ $scratch.Set "location" ( .location ) }}
+			{{ $scratch.Set "call" ( .call ) }}
+			{{ $scratch.Set "mode" ( .mode ) }}
+			{{ $scratch.Set "notes" ( .notes ) }}
+
+			{{ if reflect.IsSlice .frequency }}
+				{{ $freq    := index .frequency 0 }}
+				{{ $rptbook := index .frequency 1 }}
+				{{ $slice   := split $rptbook " " }}
+				{{ $state   := index $slice 1 }}
+				{{ $id      := index $slice 2 }}
+				{{ $scratch.Set "freq" ( "</a>" | printf "\">%s%s" $freq | printf "&ID=%s%s" $id | printf "<a href=\"https://www.repeaterbook.com/repeaters/details.php?state_id=%s%s" $state | printf "%s" ) }} 
+			{{ else }}
+				{{ $scratch.Set "freq" ( .frequency ) }}
+			{{ end }}
+
 		{{ end }}
 
-	{{ end }}
-
-	<tr>
+		<tr>
 		<td>{{ $scratch.Get "location"  | markdownify }}</td>
 		<td>{{ $scratch.Get "call" | markdownify }}<br \>{{ $scratch.Get "mode" | markdownify }}</td>
 		<td>{{ $scratch.Get "freq" | markdownify }}</td>
 		<td>{{ $scratch.Get "notes" | markdownify }}</td>
-	</tr>
+		</tr>
+		{{ end }}
 	{{ end }}
 {{ end }}
 </tbody>

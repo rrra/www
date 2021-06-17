@@ -3,4 +3,4 @@ call = "KC0SD"
 mode = "Analog"
 frequency = [ "147.060 + T123", "repeaterbook 27 113" ]
 notes = ""
-qrt = true
+qrt = "2021-06-10"
