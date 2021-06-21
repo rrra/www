@@ -7,10 +7,13 @@
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
+		
+	{{ $jquery := resources.Get "js/jquery/jquery.js" }}
+        {{ $migrate := resources.Get "js/jquery/jquery-migrate.min.js" }}
+        {{ $dropdown := resources.Get "js/dropdown.js" }}
+        {{ $functions := resources.Get "js/functions.js" }}
+        {{ $jsBundle := slice $jquery $migrate $dropdown $functions | resources.Concat "js/bundle.js" | resources.Minify | fingerprint }}
+        <script src={{ $jsBundle.Permalink }}></script>
 
-	<script type='text/javascript' src='/js/jquery/jquery.js' ></script>
-	<script type='text/javascript' src='/js/jquery/jquery-migrate.min.js' ></script>
-	<script type='text/javascript' src='/js/dropdown.js' ></script>
-	<script type='text/javascript' src='/js/functions.js'></script>
 </body>
 </html>
