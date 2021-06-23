@@ -59,8 +59,14 @@
 				<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location | markdownify }}</span></dd>
 			{{ end }}
 			{{ with .Params.sponsor }}
-				<dt class="twocol header">SPONSOR:</dt><dd class="twocol"><span class="p-location">{{ . | markdownify }}</span></dd>
-		  {{ end }}	
+				<dt class="twocol header">SPONSOR:</dt><dd class="twocol">{{ . | markdownify }}</dd>
+                        {{ end }}	
+			{{ with .Params.aprs }}
+				<dt class="twocol header">APRS OBJECT:</dt><dd class="twocol">{{ . | markdownify }}</dd>
+                        {{ end }}	
+			{{ with .Params.talkin }}
+				<dt class="twocol header">TALK-IN:</dt><dd class="twocol">{{ . | markdownify }}</dd>
+                        {{ end }}	
 			{{ if gt .Params.contact "" }}
 			<dt class="twocol header">CONTACT:</dt><dd class="twocol"><div id="contact" class="p-organizer">
 				{{ partial "contact.html" (dict "context" . "sign" .Params.contact ) }}
