@@ -1,5 +1,6 @@
 year = "2021"
 donors = [
+	"AD0TE",
 	"[ARRL](http://www.arrl.org/)",
 	"[Bioenno](https://www.bioennopower.com)",
 	"[Buckmaster International, LLC](http://www.hamcall.net/)",
@@ -7,7 +8,13 @@ donors = [
 	"[DX Engineering](https://www.dxengineering.com/)",
 	"[Hammond Manufacturing](https://www.hammfg.com)",
 	"[Heil Sound](https://heilhamradio.com/)",
+	"[Icom](http://www.icomamerica.com/en/amateur/)",
+	"KA0LDG",
 	"[Mastrant Antenna Guying](http://www.mastrant.com/)",
+	"[MFJ](http://www.mfjenterprises.com/)",
 	"[N3FJP](https://n3fjp.com)",
+	"[NCG Company (Comet Antennas)](http://www.cometantenna.com)",
 	"[Tigertronics](http://tigertronics.com/)",
+	"[West Mountain Radio](http://www.westmountainradio.com/)",
+	"[Yaesu](https://yaesu.com)",
 ]
