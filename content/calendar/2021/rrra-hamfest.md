@@ -30,12 +30,9 @@ RRRA Hamfest.
 * Hamfest Flyer
 * License Testing (aka *VE Testing*)
 * Seminars
-* Talk-In on 145.350-T123 and 444.875+T123
-* APRS Object: HFEST-25r
+* Talk-In 
 
-<!--
-### Ticket and Flea Market Table Pricing
--->
+{{< hamfest-donors 2021 >}}
 
 ### Directions
 
