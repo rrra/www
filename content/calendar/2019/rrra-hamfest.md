@@ -21,7 +21,6 @@ RRRA Hamfest.
 * Cash and merchandise door prizes
 * Flea Market
 * Food & Beverages
-* Hamfest Flyer
 * [License Testing]({{< relref "/calendar/2019/rrra-hamfest.md#license-testing" >}}) (aka *VE Testing*)
 * [Seminars]({{< relref "/calendar/2019/rrra-hamfest.md#seminars" >}})
 * Special YL only prizes
