@@ -160,7 +160,7 @@ Time | Subject | Presented by
 -----|---------|-------------
 9AM to 10AM | TBD | 
 10AM to 11AM | TBD |
-11AM to Noon | ARRL Update | Introduced by ARRL CEO Dave Minster
+11AM to Noon | ARRL Update | Introduction by ARRL CEO Dave Minster (via Zoom)
 
 ### Directions
 
