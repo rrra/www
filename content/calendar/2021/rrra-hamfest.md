@@ -74,6 +74,7 @@ include, but are not limited to, the following:
 * Any item prohibited by any City, County, State or Federal law
 * Pornographic or obscene materials or any ***adults-only*** items
 * Weapons, ammunition, and related items
+* Political items
 
 #### How to purchase Tickets and Tables
 
@@ -159,7 +160,7 @@ Time | Subject | Presented by
 -----|---------|-------------
 9AM to 10AM | TBD | 
 10AM to 11AM | TBD |
-11AM to Noon | ARRL Update |
+11AM to Noon | ARRL Update | Introduced by ARRL CEO Dave Minster
 
 ### Directions
 
