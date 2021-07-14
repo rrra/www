@@ -5,7 +5,6 @@ categories = [ "Minutes" ]
 toc = "true"
 authors = [ "K0RQ" ]
 +++
-* Meeting took place on Zoom instead of in-person in response to the COVID-19 pandemic
 * Meeting called to order by President Jarod W0JPJ at 19:00, June 15, 2021
 * 29 members in attendence
 
@@ -52,14 +51,14 @@ old newsletters to put on the cloud server or website.
 
 #### Cass County ARES
 
-Mark KK0V was not present. Kent KA0LDG mentioned that he, Mark KK0V and
-Jim N0TSZ spoke with the Horace Fire Department, and they are interested
-in let the club have repeater space in Horace. The club may be able to
-use some of the donated repeaters from Fergus Falls for this purpose.
-They are also working on a tower in Oxbow and expressed interest in
-hosting equipment for the club there as well. Mark KC0SHM suggested
-getting an MOU signed with Horace Fire Department for liability
-purposes.
+Mark KK0V was not present. Kent KA0LDG mentioned that he, Mark KK0V
+and Jim N0TSZ spoke with the Horace Fire Department, and they are
+interested in letting the club have repeater space in Horace. The
+club may be able to use some of the donated repeaters from Fergus
+Falls for this purpose. They are also working on a tower in Oxbow and
+expressed interest in hosting equipment for the club there as well. Mark
+KC0SHM suggested getting an MOU signed with Horace Fire Department for
+liability purposes.
 
 #### Clay ARES
 
@@ -95,11 +94,11 @@ seminars.
 * Seconded by Steve K0STK
 * Motion carried unanimously
 
- Kent KA0LDG added that he is working on prizes and has so far secured
- \$1400 worth of prizes. Kent encouraged members to reach out for more
- prizes for the Hamfest. Ticketing this year will be electronic with a
- new fee structure. Lots of volunteers will be need the day before and
- day of. The Hamfest is September 25^th^.
+Kent KA0LDG added that he is working on prizes and has so far secured
+\$1400 worth of prizes. Kent encouraged members to reach out for more
+prizes for the Hamfest. Ticketing this year will be electronic with a
+new fee structure. Lots of volunteers will be need the day before and
+day of. The Hamfest is September 25<sup>th</sup>.
 
 #### VEs
 
@@ -112,7 +111,7 @@ FCC.
 
 Steve K0STK's report is available on the cloud website. New members
 should reach out to Steve to get setup for the club's online services.
-Members with email changes should make sure has been updated on the
+Members with email changes should update them themselves on the club's
 online services. Any questions about the website or listserver please
 contact webmaster@rrra.org.
 
@@ -143,10 +142,10 @@ Lori KC0GQE requested \$450 for liability insurance.
 ### Good of the Order
 
 * Tim K0CRF mentioned it was a good showing at Sheyenne Oaks for the
-SKCC ND Expedition. event.
+SKCC ND Expedition event.
 
-* Brad KE0LDS mentioned the LDS Preparedness Fair on September 11^th^.
-The club trailer will be there with a setup inside.
+* Brad KE0LDS mentioned the LDS Preparedness Fair on September
+11<sup>th</sup>. The club trailer will be there with a setup inside.
 
 * Brad also received a phone call from Tony KD0SBW, his wife underwent
 a serious surgery at Mayo Clinic yesterday. Tony specifically asked the
