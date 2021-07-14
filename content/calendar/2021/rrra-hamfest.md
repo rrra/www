@@ -41,12 +41,13 @@ for more information.
 * Food & Beverages
 * [Hamfest Flyer](#hamfest-flyer)
 * [License Testing](#license-testing) (aka *VE Testing*)
+* [On-line Box Office](#on-line-box-office)
 * [Seminars](#seminars)
 * Talk-In on the [W0ILO linked repeater system](/radios/)
 
 {{< hamfest-donors 2021 >}}
 
-### Tickets and Flea Market Tables 
+### Admission and Flea Market Tables 
 
 {{< banner class="alert" >}}
 ***RRRA reserves the right to refuse---or terminate---admission privileges
@@ -80,15 +81,19 @@ include, but are not limited to, the following:
 
 Advance purchases of Admission Tickets and Flea Market tables may be made by [Mail Order](https://cloud.rrra.org/index.php/s/CfmoGgaxfb97sJo/download)
 
-* Mail orders must be postmarked by September 1, 2021
-* Payment in the form of check or money order (to ***RRRA***) must be included
-* Mail orders will be held for pick up at the Hamfest Ticket Table
+* Through our [On-Line Box Office](#on-line-box-office)
+    * Credit, Debit, and PayPal accepted
+    * Tickets delivered via e-mail
+* By [Mail Order]()
+    * Mail orders must be postmarked by September 1, 2021
+    * Payment in the form of check or money order (to ***RRRA***) must be included
+    * Mail orders will be held for pick up at the Hamfest Ticket Table
 
 Admission Tickets and Flea Market Tables will be sold at the door---subject to
 availability---and the following forms of payment will be accepted:
 
 * Cash -- exact change appreciated, no bills over $50 accepted
-* Credit & Debit cards
+* Debit & Credit cards
 
 {{< banner class="alert" >}}
 Admission Ticket and Flea Market Table purchases are **non-refundable**.
@@ -180,3 +185,23 @@ to find lodging which suits your needs.
 </div>
 <br />
 <div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/YCsno5WYqsefM2M/download">Download the 2021 RRRA Hamfest PDF Flyer</a></strong></div>
+
+### On-line Box Office
+
+<!-- Ticket Tailor Widget. Paste this in to your website where you want the
+widget to appear. Do no change the code or the widget may not work properly.
+-->
+<div class="tt-widget">
+<div class="tt-widget-fallback">
+<p>
+<a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget" target="_blank">Click here to buy tickets</a>
+<br />
+<small>
+<a href="https://www.tickettailor.com?rf=wdg" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a>
+</small>
+</p>
+</div>
+<script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget">
+</script>
+</div>
+<!-- End of Ticket Tailor Widget -->
