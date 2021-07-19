@@ -9,6 +9,11 @@ dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2021/07/20/july-club-meeting/" ]
 +++
+### Zoom Link
+
+A 
+[Zoom link](https://lists.rrra.org/pipermail/announce/2021-July/000578.html).
+is available for those unable to attend this meeting *in-person*.
 
 ### POTA Presentation
 
