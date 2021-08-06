@@ -159,8 +159,11 @@ Noon | License Testing cut off
 Time | Subject | Presented by
 -----|---------|-------------
 9AM to 10AM | TBD | 
-10AM to 11AM | TBD |
+10AM to 11AM | Propagation | Carl Luetzelschwab K9LA<br>(via Zoom)
 11AM to Noon | ARRL Update | Introduction by ARRL CEO Dave Minster (via Zoom)
+
+Luetzelschwab 
+
 
 ### Directions
 
