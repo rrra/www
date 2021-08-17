@@ -1,5 +1,5 @@
 {{/*
-Repeater List Short Code
+Net List Short Code
 By: Steve Kostecke steve@kostecke.net k0stk@arrl.net
 
 Builds a table from definition files in
@@ -11,6 +11,7 @@ season = "CST"
 id = "[NDSU ARS](https://www.w0hsc.org/) VHF Analog"
 freq = [ "147.090 +", "repeaterbook 38 22" ]
 contact = "KE0PJR"
+inactive = true | false
 
 The "day", "id", "contact", and the single string variant of "freq"
 definition file lines are passed through the markdown formatter.
@@ -34,6 +35,10 @@ state and the second argument is the repeater ID number.
 The "contact" line will look up call-signs in ./data/call and defaults
 to the provided contact information. E-mail addresses retrieved from
 ./data/call are obfuscated; literal contact information is not.
+
+Setting "inactive = true" will inhibit listing of a net. This allows nets to
+be disabled while keeping the definition file avilable for later re-use.
+
 */}}
 
 {{ $scratch := newScratch }}
