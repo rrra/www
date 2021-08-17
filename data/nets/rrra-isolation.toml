@@ -4,3 +4,4 @@ time ="19:00"
 id = "[Isolation Net](https://lists.rrra.org/pipermail/rrra/2020-March/000774.html)"
 freq = "[W0ILO Repeaters](/radios/#repeaters)"
 contact = "KA0LDG"
+inactive = true
