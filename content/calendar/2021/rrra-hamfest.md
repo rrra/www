@@ -43,7 +43,7 @@ for more information.
 * [License Testing](#license-testing) (aka *VE Testing*)
 * [On-line Box Office](#on-line-box-office)
 * [Seminars](#seminars)
-* Talk-In on the [W0ILO linked repeater system](/radios/)
+* Talk-In on 146.970- (W0RRW)
 
 {{< hamfest-donors 2021 >}}
 
