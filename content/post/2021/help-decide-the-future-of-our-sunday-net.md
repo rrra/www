@@ -9,10 +9,10 @@ tags = [ "Survey" ]
 +++
 Participation in our weekly UHF/VHF Net has sharply dwindled during the
 last few months and it is now time to choose a future course for the
-net
+net.
 
 ***You*** can help with this process by taking the
-[2021 RRRA Net Survey](https://www.surveymonkey.com/r/7Z2CSPD)
+[2021 RRRA Net Survey](https://www.surveymonkey.com/r/7Z2CSPD).
 
 All RRRA Members are encouraged to participate in this survey regardless of
 whether or not you are a regular net participant.
