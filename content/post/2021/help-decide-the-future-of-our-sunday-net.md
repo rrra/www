@@ -15,7 +15,7 @@ net.
 [2021 RRRA Net Survey](https://www.surveymonkey.com/r/7Z2CSPD).
 
 All RRRA Members are encouraged to participate in this survey regardless of
-whether or not you are a regular net participant.
+whether or not they are a regular net participants.
 <!--more-->
 
 Your comments will help help us learn where we need to improve---or make
