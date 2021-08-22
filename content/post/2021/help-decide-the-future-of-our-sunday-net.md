@@ -6,7 +6,6 @@ slug = "help-decide-the-future-of-our-weekly-uhf-vhf-net"
 authors = [ "K0RQ" ]
 categories = [ "Membership" ]
 tags = [ "Survey" ]
-draft = true
 +++
 Participation in our weekly UHF/VHF Net has sharply dwindled during the
 last few months and it is now time to choose a future course for the
@@ -19,9 +18,9 @@ All RRRA Members are encouraged to participate in this survey regardless of
 whether or not you are a regular net participant.
 <!--more-->
 
-Your comments will help help us see where we need to improve---or make changes
-to---the net. Our goal is to get as many hams as possible to check-in to our
-net.
+Your comments will help help us learn where we need to improve---or make
+changes to---the net. Our goal is to get as many hams as possible to
+check-in to our net.
 
 RRRA Members are also encouraged to attend the club's upcoming
 [Business Meeting]({{< relref "/calendar/2021/september-meeting.md" >}})
