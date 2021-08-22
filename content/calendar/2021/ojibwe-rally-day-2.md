@@ -1,7 +1,6 @@
 +++
-date = "2021-08-28T10:00:00-05:00"
-endTime = "2021-08-28T18:30:00-05:00"
-publishDate = "2021-08-19T12:50:07-05:00"
+date = "2021-08-28"
+publishDate = "2021-08-19"
 title = "Ojibwe Forests Rally Day 2"
 linkTitle = "Ojibwe Forests Rally"
 contact = "[Rally Volunteer Coordinator](mailto:controls@rallyminnesota.com)"
@@ -10,11 +9,9 @@ outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
 +++
 {{< banner class="alert" >}}
-:warning: The times published here are unconfirmed :warning:
-
 Please consult with the Rally Volunteer Coordinator and monitor the
 [Rally Schedule](https://ojibweforestsrally.com/2020-schedule/) for up to date
-information.
+information including event times.
 {{< /banner >}}
 
 Amateur radio operators are needed to provide emergency communications

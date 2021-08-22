@@ -1,6 +1,5 @@
 +++
-date = "2021-08-27T13:00:00-05:00"
-endTime = "2021-08-27T19:30:00-05:00"
+date = "2021-08-27"
 publishDate = "2021-08-19"
 title = "Ojibwe Forests Rally Day 1"
 linkTitle = "Ojibwe Forests Rally"
@@ -9,11 +8,9 @@ dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 {{< banner class="alert" >}}
-:warning: The times published here are unconfirmed :warning:
-
 Please consult with the Rally Volunteer Coordinator and monitor the
 [Rally Schedule](https://ojibweforestsrally.com/2020-schedule/) for up to date
-information.
+information including event times.
 {{< /banner >}}
 
 Amateur radio operators are needed to provide emergency communications
