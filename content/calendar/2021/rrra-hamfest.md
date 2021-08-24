@@ -34,6 +34,27 @@ Please consult the
 for more information.
 {{< /banner >}}
 
+### On-line Box Office
+
+<!-- Ticket Tailor Widget. Paste this in to your website where you want the
+widget to appear. Do no change the code or the widget may not work properly.
+-->
+<div class="tt-widget">
+<div class="tt-widget-fallback">
+<p>
+<a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget" target="_blank">Click here to buy tickets</a>
+<br />
+<small>
+<a href="https://www.tickettailor.com?rf=wdg" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a>
+</small>
+</p>
+</div>
+<script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget">
+</script>
+</div>
+<!-- End of Ticket Tailor Widget -->
+
+
 ### Featuring
 
 * Cash and merchandise door prizes
@@ -41,7 +62,6 @@ for more information.
 * Food & Beverages
 * [Hamfest Flyer](#hamfest-flyer)
 * [License Testing](#license-testing) (aka *VE Testing*)
-* [On-line Box Office](#on-line-box-office)
 * [Seminars](#seminars)
 * Talk-In on 146.970- (W0RRW)
 
@@ -137,7 +157,8 @@ about calculators) is available on the
 Time |      |
 -----|------|
 4PM | Flea Market setup in Main Hall
-7PM | Building closes for the night
+7PM | Hartl building closes for the night
+9PM | Royal Order of the Wouff Hong Ceremony
 
 #### Saturday, September 25th
 
@@ -190,22 +211,3 @@ to find lodging which suits your needs.
 <br />
 <div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/YCsno5WYqsefM2M/download">Download the 2021 RRRA Hamfest PDF Flyer</a></strong></div>
 
-### On-line Box Office
-
-<!-- Ticket Tailor Widget. Paste this in to your website where you want the
-widget to appear. Do no change the code or the widget may not work properly.
--->
-<div class="tt-widget">
-<div class="tt-widget-fallback">
-<p>
-<a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget" target="_blank">Click here to buy tickets</a>
-<br />
-<small>
-<a href="https://www.tickettailor.com?rf=wdg" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a>
-</small>
-</p>
-</div>
-<script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget">
-</script>
-</div>
-<!-- End of Ticket Tailor Widget -->
