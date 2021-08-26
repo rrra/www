@@ -24,7 +24,7 @@ Please visit https://hamfest.rrra.org/ for information about this year's
 RRRA Hamfest.
 {{< /banner >}}
 
-{{< banner class="alert" expires="2021-09-26" >}}
+{{< banner class="alert" >}}
 Display and/or sale of certain items at the RRRA Hamfest & ARRL Dakota
 Division Convention is strictly prohibited and will result in
 unrefunded termination of admission privileges.
@@ -34,7 +34,7 @@ Please consult the
 for more information.
 {{< /banner >}}
 
-### On-line Box Office
+### Purchase Tickets for Admission and Vendor Tables in Our On-line Box Office
 
 <!-- Ticket Tailor Widget. Paste this in to your website where you want the
 widget to appear. Do no change the code or the widget may not work properly.
@@ -57,13 +57,17 @@ widget to appear. Do no change the code or the widget may not work properly.
 
 ### Featuring
 
+*Plans subject to change without notice*
+
 * Cash and merchandise door prizes
 * Flea Market
 * Food & Beverages
 * [Hamfest Flyer](#hamfest-flyer)
 * [License Testing](#license-testing) (aka *VE Testing*)
+* Royal Order of the Wouff-Hong Ceremony (September 24th)
 * [Seminars](#seminars)
 * Talk-In on 146.970- (W0RRW)
+* APRS: HFEST-25r
 
 {{< hamfest-donors 2021 >}}
 
@@ -79,12 +83,12 @@ to anyone at any time.***
     * Admission Tickets are **non-refundable**
     * 12 years and under admitted free with paid accompanying adult; **raffle entry not included**
 * 8' Flea Market Tables: $20
-    * 1 **free** admission with each table purchased ($4 savings from 2019)
+    * 1 **free** admission with each table purchased; raffle entries limited to 1 per person admitted
     * Flea Market Tables are **non-refundable**
     * Limited electricity available
     * **Vendors agree to the RRRA Prohibited Flea Market Items policy by purchasing a Flea Market Table. Vendors who do not adhere to this policy will be asked to leave.**
 
-#### Prohibited Flea Market Items
+#### Prohibited Flea Market Items Policy
 
 Display and/or sale of certain items at the RRRA Hamfest & ARRL Dakota
 Division Convention is strictly prohibited and will result in
@@ -100,21 +104,17 @@ include, but are not limited to, the following:
 
 :information: E-mail reservation requests will not be accepted for 2021.
 
-Advance purchases of Admission Tickets and Flea Market tables may be made by [Mail Order](https://cloud.rrra.org/index.php/s/CfmoGgaxfb97sJo/download)
-
 * Through our [On-Line Box Office](#on-line-box-office)
     * Credit, Debit, and PayPal accepted
     * Tickets delivered via e-mail
-* By [Mail Order]()
+* By [Mail Order](https://cloud.rrra.org/index.php/s/CfmoGgaxfb97sJo/download)
     * Mail orders must be postmarked by September 1, 2021
     * Payment in the form of check or money order (to ***RRRA***) must be included
     * Mail orders will be held for pick up at the Hamfest Ticket Table
-
-Admission Tickets and Flea Market Tables will be sold at the door---subject to
-availability---and the following forms of payment will be accepted:
-
-* Cash -- exact change appreciated, no bills over $50 accepted
-* Debit & Credit cards
+* At the door; subject to availability. The following forms of payment will be accepted:
+    * Cash (exact change appreciated, no bills over $50 accepted)
+    * Checks
+    * Debit & Credit cards
 
 {{< banner class="alert" >}}
 Admission Ticket and Flea Market Table purchases are **non-refundable**.
@@ -182,9 +182,6 @@ Time | Subject | Presented by
 9AM to 10AM | TBD | 
 10AM to 11AM | Propagation | Carl Luetzelschwab K9LA<br>(via Zoom)
 11AM to Noon | ARRL Update | Introduction by ARRL CEO Dave Minster (via Zoom)
-
-Luetzelschwab 
-
 
 ### Directions
 
