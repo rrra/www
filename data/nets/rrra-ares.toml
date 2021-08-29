@@ -4,3 +4,4 @@ time ="14:00"
 id = "Emergency Net"
 freq = "[W0ILO Repeaters](/radios/#repeaters)"
 contact = "KE0LDS"
+inactive = true
