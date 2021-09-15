@@ -63,8 +63,8 @@ Leadership were added to New Business.
 Seth KC0ODE reported there will be a club Simulated Emergency Test (SET)
 on August 21<sup>st</sup>. Jarod W0JPJ added that Erik Westgard N9YD,
 who does a lot with portable data networks, will typically travel to
-hamfests and present. He may reach out to him regarding a presentation
-at a future meeting or at the hamfest. Seth has reached out to Amanda at
+Hamfests and present. He may reach out to him regarding a presentation
+at a future meeting or at the Hamfest. Seth has reached out to Amanda at
 Cass County to get a full list of members who have ID badges and to see
 who still needs them.
 
@@ -82,21 +82,20 @@ the hobby.
 
 ### Hamfest
 
-Pete WC0G reported the hamfest is still on. Volunteers are still needed,
-especially day of. ARRL will be hosting a Wouff Hong Friday night of the
-hamfest. There will be a hamfest meeting next week via Zoom. Steve K0STK
-discussed the open volunteer positions and carried a volunteer sign-up
-sheet around the meeting room.
+Pete WC0G reported the Hamfest is still on. Volunteers are still needed,
+especially day of. ARRL will be hosting a Wouff Hong Ceremony on Friday
+night before the Hamfest. There will be a Hamfest meeting next week via
+Zoom. Steve K0STK discussed the open volunteer positions and carried a
+volunteer sign-up sheet around the meeting room.
 
-* Motion to cancel all hamfests after 2021 if we do not get enough volunteers
- for the 2021 Hamfest and raise dues to \$125 by Steve K0STK
+* Motion to cancel all future Hamfests if we do not get enough volunteers for the 2021 Hamfest and raise dues to \$125 by Steve K0STK
 * Seconded, and then rescinded, by Mark KK0V
 * Motion was tabled following suggestion by Brad KE0LDS
 
-Tickets for the hamfest are being
+Tickets for the Hamfest are being
 [sold online](https://buytickets.at/redriverradioamateurs).
-Anyone interested in helping at the hamfest should contact
-hamfest@rrra.org
+Anyone interested in helping at the Hamfest should contact
+Hamfest@rrra.org
 
 #### VEs
 
@@ -116,7 +115,7 @@ webmaster@rrra.org.
 
 #### Fargo Marathon
 
-The marathon is the same day as the hamfest. This creates conflicts with
+The marathon is the same day as the Hamfest. This creates conflicts with
 both volunteers and the repeater. Jarod W0JPJ and Andy KD0IOE discussed
 and decided to use W0ILO (145.350/444.875) since it has VHF and UHF.
 Hamfest talk-in will move to W0RRW (146.970), and periodic reminders
