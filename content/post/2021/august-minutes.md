@@ -5,7 +5,7 @@ categories = [ "Minutes" ]
 toc = "true"
 authors = [ "K0RQ" ]
 +++
-* Meeting called to order by President Jarod W0JPJ at 19:00
+* Meeting called to order by President Jarod W0JPJ at 19:00 on August 17, 2021
 * 26 members in attendence
 * Moment of silence was held for Mark Swartzell AA0CX and Alyssa Cary, Dale WD0AKO's daughter
 
@@ -91,7 +91,7 @@ sheet around the meeting room.
 * Motion to cancel all hamfests after 2021 if we do not get enough volunteers
  for the 2021 Hamfest and raise dues to \$125 by Steve K0STK
 * Seconded, and then rescinded, by Mark KK0V
-* Motion was tabled following suggsestion by Brad KE0LDS
+* Motion was tabled following suggestion by Brad KE0LDS
 
 Tickets for the hamfest are being
 [sold online](https://buytickets.at/redriverradioamateurs).
@@ -122,7 +122,7 @@ and decided to use W0ILO (145.350/444.875) since it has VHF and UHF.
 Hamfest talk-in will move to W0RRW (146.970), and periodic reminders
 will go on out W0ILO for those wanting to talk-in. Most volunteers will
 be needed between 8a-10am. A majority of activity should be done by
-noon. 15 volunteers are needed for the marathon. anyone interested in
+noon. 15 volunteers are needed for the marathon. Anyone interested in
 helping should subscribe to marathon@lists.rrra.org
 
 #### AREDN Committee
