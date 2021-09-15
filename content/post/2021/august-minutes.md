@@ -85,7 +85,8 @@ the hobby.
 Pete WC0G reported the hamfest is still on. Volunteers are still needed,
 especially day of. ARRL will be hosting a Wouff Hong Friday night of the
 hamfest. There will be a hamfest meeting next week via Zoom. Steve K0STK
-created a volunteer signup.
+discussed the open volunteer positions and carried a volunteer sign-up
+sheet around the meeting room.
 
 * Motion to cancel all hamfests after 2021 if we do not get enough volunteers
  for the 2021 Hamfest and raise dues to \$125 by Steve K0STK
