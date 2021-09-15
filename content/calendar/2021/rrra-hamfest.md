@@ -13,12 +13,6 @@ dates = [ "Hamfest" ]
 aliases = [ "/cal/2021/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-{{< banner class="noprint" expires="2022-01-01" >}}
-Create a bookmark for **hamfest.rrra.org** and
-[subscribe to our Hamfest Announcements mailing list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
-to stay informed about North Dakota's largest Hamfest!
-{{< /banner >}}
-
 {{< banner publish="2022-01-01" >}}
 Please visit https://hamfest.rrra.org/ for information about this year's
 RRRA Hamfest.
@@ -54,10 +48,9 @@ widget to appear. Do no change the code or the widget may not work properly.
 </div>
 <!-- End of Ticket Tailor Widget -->
 
-
 ### Featuring
 
-*Plans subject to change without notice*
+*Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2021/rrra-hamfest.md#schedule" >}}) for more information*
 
 * Cash and merchandise door prizes
 * Flea Market
@@ -66,8 +59,15 @@ widget to appear. Do no change the code or the widget may not work properly.
 * [License Testing](#license-testing) (aka *VE Testing*)
 * Royal Order of the Wouff-Hong Ceremony (September 24th)
 * [Seminars](#seminars)
-* Talk-In on 146.970- (W0RRW)
+* Talk-In on 146.970- (W0RRW Repeater)
 * APRS: HFEST-25r
+
+{{< banner class="noprint" expires="2022-01-01" >}}
+Create a bookmark for **hamfest.rrra.org** and
+[subscribe to our Hamfest Announcements mailing list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
+to stay informed about North Dakota's largest Hamfest!
+{{< /banner >}}
+
 
 {{< hamfest-donors 2021 >}}
 

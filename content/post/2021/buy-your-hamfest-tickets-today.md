@@ -5,7 +5,6 @@ title = "Buy Your Hamfest Tickets Today"
 authors = [ "K0STK" ]
 categories = []
 tags = []
-weight = -1
 +++
 
 <!-- Ticket Tailor Widget. Paste this in to your website where you want the
@@ -25,5 +24,7 @@ widget to appear. Do no change the code or the widget may not work properly.
 </script>
 </div>
 <!-- End of Ticket Tailor Widget -->
+
+Please visit the [2021 RRRA Hamfest page]({{< relref "/calendar/2021/rrra-hamfest.md" >}}) to learn more about this event.
 
 <!--more-->
