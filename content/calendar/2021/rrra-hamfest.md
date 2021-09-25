@@ -79,11 +79,11 @@ to anyone at any time.***
 {{< /banner >}}
 
 * Admission Tickets: $10 
-    * 1 raffle entry included
+    * 1 door prize entry included
     * Admission Tickets are **non-refundable**
-    * 12 years and under admitted free with paid accompanying adult; **raffle entry not included**
+    * 12 years and under admitted free with paid accompanying adult; **door prize entry not included**
 * 8' Flea Market Tables: $20
-    * 1 **free** admission with each table purchased; raffle entries limited to 1 per person admitted
+    * 1 **free** admission with each table purchased; door prize entries limited to 1 per person admitted
     * Flea Market Tables are **non-refundable**
     * Limited electricity available
     * **Vendors agree to the RRRA Prohibited Flea Market Items policy by purchasing a Flea Market Table. Vendors who do not adhere to this policy will be asked to leave.**

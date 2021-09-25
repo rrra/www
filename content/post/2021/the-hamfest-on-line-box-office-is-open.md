@@ -15,6 +15,6 @@ through:
 Your tickets will be delivered by e-mail upon completion of your purchase.
 
 Show your printed ticket---or the confirmation e-mail on your mobile
-device---at the door. You will receive a raffle entry form after your
-ticket is scanned.
+device---at the door. You will receive a door prize entry form after
+your ticket is scanned.
 <!--more-->
