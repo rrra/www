@@ -8,8 +8,4 @@ title = "October ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 tags = [ "ARES" ]
-status = "canceled"
 +++
-RRRA Members are encouraged to participate in the 
-[October Club Meeting]({{< relref "/calendar/2021/october-meeting.md" >}})
-which will be conducted on Zoom.

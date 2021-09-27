@@ -3,17 +3,10 @@ contact = "president"
 date = "2021-10-19T19:00:00-05:00"
 publishDate = "2021-08-01"
 endTime = ""
-location = "Zoom"
-title = "October Virtual Meeting"
-linkTitle = "Virtual Club Meeting"
+location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
+title = "October Club Meeting"
+aliaes = [ "/cal/2021/10/19/october-virtual-meeting/" ]
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-{{< banner class="alert" >}}
-RRRA will not meet in-person this month due to ongoing concerns
-about the COVID-19 Pandemic.
-
-A link to connection information will be posted here prior to the meeting date.
-{{< /banner >}}
-
 {{% meeting-note %}}
