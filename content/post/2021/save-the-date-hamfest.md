@@ -42,13 +42,3 @@ section at
 [hamfest.rrra.org](https://hamfest.rrra.org/) for more information.
 
 :information: E-mail reservation requests will not be accepted for 2021.
-
-### Hamfest Flyer
-
-<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/YCsno5WYqsefM2M/download">Download the 2021 RRRA Hamfest PDF Flyer</a></strong></div>
-<br />
-<div style="border:1px solid black">
-{{< figure src="https://cloud.rrra.org/index.php/s/kX3aPmz2e49ikyL/download" LInk="https://cloud.rrra.org/index.php/s/kX3aPmz2e49ikyL" alt="Download the 2021 Hamfest PDF Flyer" >}}
-</div>
-<br />
-<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/YCsno5WYqsefM2M/download">Download the 2021 RRRA Hamfest PDF Flyer</a></strong></div>

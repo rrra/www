@@ -17,9 +17,7 @@ Skip the line in the morning ...
 [BUY YOUR ADMISSION AND FLEA MARKET TABLE TICKETS TODAY!](https://www.tickettailor.com/events/redriverradioamateurs/?ref=blog)
 
 Please [visit our Hamfest page]({{< relref "/calendar/2021/rrra-hamfest.md" >}})
-or
-[download the 2021 RRRA Hamfest Flyer](http://hamfest.rrra.org/flyer)
-(PDF) to learn more about this event.
+to learn more about this event.
 
 {{< banner >}}
 RRRA Members with an interest in supporting their club are urged to

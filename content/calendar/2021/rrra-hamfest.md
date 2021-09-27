@@ -55,7 +55,6 @@ widget to appear. Do no change the code or the widget may not work properly.
 * Cash and merchandise door prizes
 * Flea Market
 * Food & Beverages
-* [Hamfest Flyer](#hamfest-flyer)
 * [License Testing](#license-testing) (aka *VE Testing*)
 * Royal Order of the Wouff-Hong Ceremony (September 24th)
 * [Seminars](#seminars)
@@ -196,14 +195,4 @@ Time | Subject | Presented by
 
 There are more than 40 hotels within approximately 5 miles of the Red River Valley Fair Grounds. [Use this search page \(at trivago\)](https://www.trivago.com/?aDateRange%5Barr%5D=2021-05-12&aDateRange%5Bdep%5D=2021-05-13&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iRoomType=7&aRooms%5B0%5D%5Badults%5D=2&cpt2=42308%2F200&hasList=1&hasMap=1&bIsSeoPage=0&sortingId=1&slideoutsPageItemId=&iGeoDistanceLimit=16093&address=&addressGeoCode=&offset=0&ra=&overlayMode=)
 to find lodging which suits your needs.
-
-### Hamfest Flyer
-
-<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/YCsno5WYqsefM2M/download">Download the 2021 RRRA Hamfest PDF Flyer</a></strong></div>
-<br />
-<div style="border:1px solid black">
-{{< figure src="https://cloud.rrra.org/index.php/s/kX3aPmz2e49ikyL/download" LInk="https://cloud.rrra.org/index.php/s/kX3aPmz2e49ikyL" alt="Download the 2021 Hamfest PDF Flyer" >}}
-</div>
-<br />
-<div style="text-align: center;"><strong><a href="https://cloud.rrra.org/index.php/s/YCsno5WYqsefM2M/download">Download the 2021 RRRA Hamfest PDF Flyer</a></strong></div>
 
