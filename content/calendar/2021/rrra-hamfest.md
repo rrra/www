@@ -28,26 +28,6 @@ Please consult the
 for more information.
 {{< /banner >}}
 
-### Purchase Tickets for Admission and Vendor Tables in Our On-line Box Office
-
-<!-- Ticket Tailor Widget. Paste this in to your website where you want the
-widget to appear. Do no change the code or the widget may not work properly.
--->
-<div class="tt-widget">
-<div class="tt-widget-fallback">
-<p>
-<a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget" target="_blank">Click here to buy tickets</a>
-<br />
-<small>
-<a href="https://www.tickettailor.com?rf=wdg" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a>
-</small>
-</p>
-</div>
-<script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget">
-</script>
-</div>
-<!-- End of Ticket Tailor Widget -->
-
 ### Featuring
 
 *Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2021/rrra-hamfest.md#schedule" >}}) for more information*
@@ -99,6 +79,7 @@ include, but are not limited to, the following:
 * Weapons, ammunition, and related items
 * Political items
 
+<!--
 #### How to purchase Tickets and Tables
 
 :information: E-mail reservation requests will not be accepted for 2021.
@@ -114,6 +95,7 @@ include, but are not limited to, the following:
     * Cash (exact change appreciated, no bills over $50 accepted)
     * Checks
     * Debit & Credit cards
+-->
 
 {{< banner class="alert" >}}
 Admission Ticket and Flea Market Table purchases are **non-refundable**.
