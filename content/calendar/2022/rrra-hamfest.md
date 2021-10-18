@@ -1,7 +1,7 @@
 +++
 contact = "hamfest"
 publishDate = "2021-09-25T08:00:00-05:00"
-date = "2022-09-24T01:00:00-06:00"
+date = "2022-09-24T08:00:00-05:00"
 endTime	 = "2022-09-24T14:00:00-05:00"
 location = "[RRV Fairgrounds Hartl Building](/places/rrv-fairgrounds-hartl-building)"
 title = "RRRA Hamfest & ARRL Dakota Division Convention"
