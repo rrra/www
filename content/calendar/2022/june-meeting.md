@@ -1,6 +1,6 @@
 +++
 contact = "president"
-date = "2022-06-15T19:00:00-05:00"
+date = "2022-06-14T19:00:00-05:00"
 publishDate = "2022-04-01"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
