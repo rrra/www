@@ -5,16 +5,10 @@ CALSCALE:GREGORIAN
 {{ partial "ics-tzid.html" -}}
 METHOD:PUBLISH
 {{ $today := now | dateFormat "2006" -}}
-{{ $scratch := newScratch }}
 {{ range .Pages -}}
 {{ if ge (.Date.Format "2006") $today -}}
-{{ $scratch.Set "uid" "" }}
-{{ with .Permalink }}{{ $scratch.Add "uid" . }}{{ end }}
-{{ with .Date }}{{ $scratch.Add "uid" ( . | printf "%s" ) }}{{ end }}
-{{ with .Params.endTime }}{{ $scratch.Add "uid" ( . | printf "%s" ) }}{{ end }}
-{{ with .Params.Status }}{{ $scratch.Add "uid" . }}{{ end }}
 BEGIN:VEVENT
-UID:{{ $scratch.Get "uid" | md5 }}@{{ .Site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
+UID:{{ .Permalink | md5 }}@{{ .Site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
 CREATED:{{ with .Params.created -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}{{ with .PublishDate -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}.Date.Format "20060102T150405\n" }}{{ end -}}{{ end -}}
 DTSTAMP:{{ .PublishDate.Format "20060102T150405" }}
 DTSTART;TZID=America/Chicago;VALUE=DATE-TIME:{{ .Date.Format "20060102T150405" }}
