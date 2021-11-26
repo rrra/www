@@ -9,7 +9,11 @@ METHOD:PUBLISH
 {{ if ge (.Date.Format "2006") $today -}}
 BEGIN:VEVENT
 UID:{{ .Permalink | md5 }}@{{ .Site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
-{{ with .Params.update }}SEQUENCE: {{ . }}{{ end }}
+{{ with .Params.update -}}SEQUENCE: {{ . }}{{ end -}}
+{{ with .Params.status -}}{{ if or ( eq  . "canceled" ) ( eq  . "postponed" ) -}}
+METHOD:CANCEL
+STATUS:CANCELLED
+{{ end -}}{{ end -}}
 CREATED:{{ with .Params.created -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}{{ with .PublishDate -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}.Date.Format "20060102T150405\n" }}{{ end -}}{{ end -}}
 DTSTAMP:{{ .PublishDate.Format "20060102T150405" }}
 DTSTART;TZID=America/Chicago;VALUE=DATE-TIME:{{ .Date.Format "20060102T150405" }}
