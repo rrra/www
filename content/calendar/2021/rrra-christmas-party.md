@@ -7,6 +7,7 @@ title = "RRRA Christmas Party"
 tags = [ "Social" ]
 categories = [ "Membership" ]
 dates = [ "Social" ]
+update = 1
 +++
 We have reserved the back room.
 
