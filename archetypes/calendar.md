@@ -8,4 +8,6 @@ location = ""
 contact = ""
 dates = [ "" ]
 outputs = [ "HTML", "Calendar" ]
+update = 0
+#status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
