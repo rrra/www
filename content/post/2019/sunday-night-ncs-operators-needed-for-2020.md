@@ -18,8 +18,7 @@ generally orchestrate the operation of the net.
 
 Serving as an NCS operator is a great way to overcome *mic-fright*,
 prepare for Public Service Communication events or deployments, and hone
-your skills as a radio operator. Your service will be acknowledged on
-the [RRRA NCS Operator Leader Board](/ncs/).
+your skills as a radio operator. 
 
 <!--more-->
 
