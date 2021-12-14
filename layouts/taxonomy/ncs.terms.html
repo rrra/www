@@ -12,7 +12,7 @@
 	{{ $pages := where .Site.RegularPages "Section" "calendar" }}
  	{{ $pages := $pages | intersect ( where .Site.RegularPages ".Params.ncs" "ne" nil )  }}
 
-	{{/* Collect the call-signs used for NCS sessions from our list of filtered
+	{{/* Collect the NCS call-signs from our list of filtered
 	     calendar pages. GroupByDate allows us to consider one year at a time.
 	     We'll only look at the current year (the inner "range"). The resulting
 	     agregated call-sign list is randomly ordered.
@@ -20,27 +20,27 @@
 	{{ range ( $pages.GroupByDate "2006" ) }}
 		{{ if eq .Key $thisyear }}
 			{{ range .Pages }}
-				{{ $scratch.Add "sessions" .Params.ncs }}
+				{{ $scratch.Add "assignments" .Params.ncs }}
 			{{ end }}
 		{{ end }}
 	{{ end }}
 
-	{{/* Convert the NCS sessions list from a []string to a string
+	{{/* Convert the NCS assignments list from a []string to a string
 	     so that we can use it with string.Count
 	*/}}
-	{{ $sessions := delimit ( $scratch.Get "sessions"  ) " " }}
+	{{ $assignments := delimit ( $scratch.Get "assignments"  ) " " }}
 
-	{{/* Filter the agregated sessions for unique call-signs.
+	{{/* Filter the agregated assignments for unique call-signs.
 	     The resulting list is unordered.
 	*/}}
-	{{ $ncs_list :=  $scratch.Get "sessions" | uniq }}
+	{{ $ncs_list :=  $scratch.Get "assignments" | uniq }}
 
-	{{/* Go through the call-sign list and count sessions */}}
+	{{/* Go through the call-sign list and count assignments */}}
 	{{ range $ncs_list }}
 		{{ $call := . }}
 
- 		{{/* Count the sessions for the current $call */}}
-		{{ $count := strings.Count $call $sessions }}
+ 		{{/* Count the assignments for the current $call */}}
+		{{ $count := strings.Count $call $assignments }}
 
 		{{/* Calculate a weight (lower for a higher session count). Starting
 		     at 10000 makes it possible to handle up to 9000 nets per year (24
@@ -50,9 +50,9 @@
 
 		{{/* Store a key=>value map entry for the call-sign and NCS session count.
 
-		     Keys are "$weight$call" (e.g. "990W1AW" for W1AW w/ 10 sessions) to
+		     Keys are "$weight$call" (e.g. "990W1AW" for W1AW w/ 10 assignments) to
 		     leverage the map's auto sorting behavior (ascending order). The key
-		     for the greatest number of sessions will have the lowest weight and
+		     for the greatest number of assignments will have the lowest weight and
 		     will float to the top of the list. Entries with identical weights
 		     auto sort by the call-sign portion of the keys.
 
@@ -70,9 +70,9 @@
 				<a href="/nets">Nets</a>
 			</span>
 			{{ $rsspath := "/ncs" }}
-			{{ partial "rss" ( dict "rsstitle" "NCS Leader Board" "rsspath" $rsspath ) }}
+			{{ partial "rss" ( dict "rsstitle" "NCS Roster" "rsspath" $rsspath ) }}
 		</div>
-		<h2 class="entry-title">{{ $thisyear }} NCS Leader Board</h2>
+		<h2 class="entry-title">{{ $thisyear }} NCS Roster</h2>
 		<div class="entry-meta">
 			<span class="entry-date">
 				<a href="{{ .RelPermalink }}" rel="bookmark">
@@ -86,13 +86,13 @@
 
 	<div class="entry-content" style="padding-bottom:1em;">
 		<div class="noprint">
-		<p>NCS Operator credits for RRRA related nets held during
-		{{ $thisyear }}. This Leader Board reflects nets listed on
-		the <a href="/calendar/">RRRA website calendar</a> and is
-		automatically recalculated during thrice-daily website updates.
-		Please visit the <a href="/ncs/all/">All-Time NCS Leader Board</a>
-		for cumulative NCS Operator credits for all nets currently
-		listed on the RRRA website calendar.</p>
+		<p class="noprint">Roster of RRRA NCS operators for 
+		{{ $thisyear }}. This roster is assembled from the
+		formal RRRA nets listed on the
+		<a href="/calendar/">RRRA website calendar</a>.</p>
+		<p class="noprint">Please
+		visit the <a href="/ncs/all/">Cumulative NCS Roster</a>
+		to view the list of known RRRA NCS operators.</p>
 		</div>
 		<dl id="list">
 		{{/* Process the leaderboard list */}}
@@ -110,7 +110,7 @@
 		</dl>
 		<div class="banner noprint">
 			<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a>
-			to report erroneous or omitted credits.</p>
+			to report erroneous or omitted records.</p>
 		</div>
 		<p class="clear"></p>
 		{{ .Scratch.Set "source" "layouts/taxonomy/ncs.terms.html" }}
