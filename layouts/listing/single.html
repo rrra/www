@@ -19,7 +19,7 @@
 	</div>
 
 	<h1 class="entry-title">{{ $timeperiod }}</h1>
-	<span class="noprint"><div><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Add the RRRA calendar to your device calendar</a></div></span>
+	<span class="noprint"><div><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Add the RRRA calendar to your device</a></div></span>
 </header>
 
 <div class="entry-content" style="padding-bottom:1em;">
@@ -43,7 +43,7 @@
 	{{ $ics := "calendar/index.ics" | printf "%s%s" $baseurl }}
 	{{ $webcal := $ics | replaceRE "^https?" "webcal" }}
 
-	<h3 id="add">Add the RRRA calendar to your device calendar</h3>
+	<h3 id="add">Add the RRRA calendar to your device</h3>
 
 	<p>Find the instructions below for your calendaring software. Then
 	use this webcal / iCalendar link as directed:</p>
