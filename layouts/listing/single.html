@@ -40,7 +40,7 @@
 
 	<p></p>
 	<div class="noprint">
-	{{ $ics := "calendar/index.ics" | printf "%s%s" $baseurl }}
+	{{ $ics := "/calendar/index.ics" | printf "%s%s" $baseurl }}
 	{{ $webcal := $ics | replaceRE "^https?" "webcal" }}
 
 	<h3 id="add">Add the RRRA calendar to your device</h3>
