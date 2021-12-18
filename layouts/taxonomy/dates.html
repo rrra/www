@@ -17,7 +17,7 @@
 	</div>
 	<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
 {{ with  .OutputFormats.Get "calendar" -}}
-<span class="noprint"><div id="ical-links"><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these {{ $.Title | singularize }} dates" href="{{ .Permalink | replaceRE "^https?" "webcal" | safeURL }}">Subscribe to these dates</a> <span class="genericon genericon-link" style="font-size: 1.5em; padding-left: 0.2em; padding-right: 0.2em;" ></span><a style="text-decoration: none;" title="Import these {{ $.Title | singularize }} dates as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></div></span>
+	<span class="noprint"><div><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Add these dates to your device calendar</a></div></span>
 {{- end }}
 	{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 	{{ if ne $contact nil }}
@@ -64,6 +64,21 @@
 		{{ partial "status" }}
 	{{ end }}
 	*/}}
+
+	<div class="noprint">
+	{{ $ics := "index.ics" | printf "%s%s" .Permalink }}
+	{{ $webcal := $ics | replaceRE "^https?" "webcal" }}
+
+	<h3 id="add">Add these dates to your device calendar</h3>
+
+	<p>Find the instructions below for your calendaring software. Then
+	use this webcal / iCalendar link as directed:</p>
+
+	<p><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a href="{{ $webcal | safeURL }}">{{ $webcal }}</a></p>
+
+	{{ partialCached "webcal-instructions.html" . }}
+
+	</div>
 
 	{{ .Scratch.Set "source" "layouts/taxonomy/dates.html" }}
 	{{ partial "sourcelink.html" . }}

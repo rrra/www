@@ -19,7 +19,7 @@
 	</div>
 
 	<h1 class="entry-title">{{ $timeperiod }}</h1>
-	<span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for the RRRA Annual Calendar" href="{{ "/calendar/index.ics" | printf "%s%s" ( $baseurl | replaceRE "^https?:" "webcal:" ) | safeURL }}">Subscribe to calendar</a> &bull; <a style="text-decoration: none;" title="Import the RRRA Annual Calendar as an ICS file" href="{{ safeURL "/calendar/index.ics" }}">ICS download</a>
+	<span class="noprint"><div><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Add the RRRA calendar to your device calendar</a></div></span>
 </header>
 
 <div class="entry-content" style="padding-bottom:1em;">
@@ -36,8 +36,26 @@
 		{{ end }}
 	{{ end }}
 	</dl>
-	<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event is not listed on this calendar.</p>
+	<div class="banner clear"><p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event is not listed on this calendar.</p></div>
+
+	<p></p>
+	<div class="noprint">
+	{{ $ics := "calendar/index.ics" | printf "%s%s" $baseurl }}
+	{{ $webcal := $ics | replaceRE "^https?" "webcal" }}
+
+	<h3 id="add">Add the RRRA calendar to your device calendar</h3>
+
+	<p>Find the instructions below for your calendaring software. Then
+	use this webcal / iCalendar link as directed:</p>
+
+	<p><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a href="{{ $webcal | safeURL }}">{{ $webcal }}</a></p>
+
+	{{ partialCached "webcal-instructions.html" . }}
+
+	</div>
 </div>
 {{ .Scratch.Set "source" "layouts/listing/single.html" }}
 {{ partial "sourcelink.html" . }}
 {{ end }}
+
+
