@@ -16,7 +16,7 @@
 		</div>
 		<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
 {{ with  .OutputFormats.Get "calendar" -}}
-<span class="noprint"><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for these NCS assignments" href="{{ .RelPermalink | safeURL }}">Subscribe to these assignments</a> &bull; <a style="text-decoration: none;" title="Import these NCS assignments as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd></span>
+	<span class="noprint"><div><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Add these dates to your device</a></div></span>
 {{- end }}
 	</header>
 
@@ -36,7 +36,22 @@
 			to report erroneous or omitted records.</p>
 		</div>
 		<p class="clear"></p>
-		{{ .Scratch.Set "source" "layouts/taxonomy/ncs.html" }}
-		{{ partial "sourcelink.html" . }}
-	</div>
+
+		<div class="noprint">
+		{{ $ics := "index.ics" | printf "%s%s" .Permalink }}
+		{{ $webcal := $ics | replaceRE "^https?" "webcal" }}
+
+		<h3 id="add">Add these dates to your device</h3>
+
+		<p>Find the instructions below for your calendaring software. Then
+		use this webcal / iCalendar link as directed:</p>
+
+		<p><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a href="{{ $webcal | safeURL }}">{{ $webcal }}</a></p>
+
+		{{ partialCached "webcal-instructions.html" . }}
+
+		</div>
+			{{ .Scratch.Set "source" "layouts/taxonomy/ncs.html" }}
+			{{ partial "sourcelink.html" . }}
+		</div>
 {{ end }}
