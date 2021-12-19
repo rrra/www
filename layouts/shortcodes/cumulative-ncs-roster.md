@@ -11,13 +11,6 @@
 	{{ $scratch.Add "sk" "|" }}
 {{ end }}
 
-<p class="noprint">Cumulative NCS roster for formal RRRA nets
-listed on the <a href="/calendar/">RRRA website calendar</a>.</p>
-
-<p class="noprint">Please
-visit the <a href="/ncs/">{{ $thisyear }} NCS Roster</a>
-to view the {{ $thisyear }} roster of NCS operators.</p>
-
 <dl id="list">
 {{ range $key, $value := .Site.Taxonomies.ncs.ByCount }}
 	{{ $test := printf "|%s|" ( lower $value.Name ) }}
@@ -28,3 +21,11 @@ to view the {{ $thisyear }} roster of NCS operators.</p>
 	<dd class="twocol"><a href="/ncs/{{ $value.Name }}">{{ $value.Count }} net{{ if ne 1 $value.Count }}s{{ end }}</a></dd>
 {{ end }}       
 </dl>
+
+<div class="noprint">
+	<h3>Related Links</h3>
+		<ul>
+		<li><a href="/dates/ncs-schedule">NCS Schedule</a></li>
+		<li><a href="/ncs/">Current NCS Roster</a></li>
+	</ul>
+</div>
