@@ -12,12 +12,12 @@
 	{{ $rsspath := printf "/dates/%s" ( .Title | urlize ) }}
 	{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 		<span class="cat-links">
-			<a href="/dates/" rel="tag">Dates</a>{{ if eq ( .Title | urlize ) "ncs-schedule" }} <a href="/nets/">Nets</a>{{ end }}
+			{{ if eq ( .Title | urlize ) "ncs-schedule" }}<a href="/nets/">Nets</a>{{ else }}<a href="/calendar/0">Calendar</a>{{ end }}
 		</span>
 	</div>
 	<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
 {{ with  .OutputFormats.Get "calendar" -}}
-	<span class="noprint"><div><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Add these dates to your device</a></div></span>
+	<span class="noprint"><div><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Learn how to add these dates to your device</a></div></span>
 {{- end }}
 	{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 	{{ if ne $contact nil }}
