@@ -6,8 +6,8 @@
 		{{ range $name,$taxonomy := .Site.Taxonomies.dates }}
 			{{ range last 1 $taxonomy.Pages.ByDate }}
 				{{ if and ( ge .Date.Unix now.Unix ) ( ne ( $name | lower )  "hidden" ) }}
-					{{ $page := delimit .Page.Params.dates "" }}
-					<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $page }}</a></li>
+					{{ $seq := $name | humanize | title | replaceRE "Ares" "ARES" | replaceRE "Ncs" "NCS" }}
+					<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $seq }}</a></li>
 				{{ end }}	
 			{{ end }}
 		{{ end }}
