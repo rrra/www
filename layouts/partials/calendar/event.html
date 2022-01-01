@@ -5,44 +5,54 @@
 
 		<div class="entry-meta">
 			<div class="cat-links">
+				{{ $idx := 0 }}
 				{{ range .Params.dates }}
 					{{ $dates := . }}
-					{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
-						{{ if and ( eq $key ( urlize $dates ) ) ( ne "hidden" ( urlize $dates ) ) }}
+					{{ if and ( eq 0 $idx ) ( ne "hidden" ( urlize $dates ) ) }}
+						{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
+							{{ if and ( eq $key ( urlize $dates ) ) ( ne "hidden" ( urlize $dates ) ) }}
 
-							{{ range $taxonomy.Pages.Reverse }}
-								{{ if and (ne ($.Scratch.Get "this") nil) (eq ($.Scratch.Get "next") nil) }}
-									{{ $.Scratch.Set "next" .RelPermalink }}
-								{{ end }}
-								{{ if eq ($.Scratch.Get "this") nil }}
-									{{ if eq .RelPermalink $relpermalink }}
-										{{ $.Scratch.Set "this" .RelPermalink }}
-									{{ else }}
-										{{ $.Scratch.Set "prev" .RelPermalink }}
+								{{ range $taxonomy.Pages.Reverse }}
+									{{ if and (ne ($.Scratch.Get "this") nil) (eq ($.Scratch.Get "next") nil) }}
+										{{ $.Scratch.Set "next" .RelPermalink }}
+									{{ end }}
+									{{ if eq ($.Scratch.Get "this") nil }}
+										{{ if eq .RelPermalink $relpermalink }}
+											{{ $.Scratch.Set "this" .RelPermalink }}
+										{{ else }}
+											{{ $.Scratch.Set "prev" .RelPermalink }}
+										{{ end }}
 									{{ end }}
 								{{ end }}
+
+								{{ range first 1 $taxonomy.Pages.Reverse }}
+									<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else}}"{{ end }} title="First" href="{{ .RelPermalink }}">&laquo;&laquo;</a>
+									<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Previous" href="{{ $.Scratch.Get "prev" }}">&laquo;</a>
+								{{ end }}
+
+								<span
+class="taxonomy genericon genericon-month" style="font-size: 1.5em; vertical-align: baseline; padding-right: 0.4em" ></span><a class="taxonomy" href="/dates/{{ $key }}/" rel="tag">{{ $dates }}</a>
+
+								{{ range last 1 $taxonomy.Pages.Reverse }}
+									<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Next" href="{{ $.Scratch.Get "next" }}">&raquo;</a>
+									<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Last" href="{{ .RelPermalink }}">&raquo;&raquo;</a>
+								{{ end }}
+
 							{{ end }}
-
-							{{ range first 1 $taxonomy.Pages.Reverse }}
-								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else}}"{{ end }} title="First" href="{{ .RelPermalink }}">&laquo;&laquo;</a>
-								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Previous" href="{{ $.Scratch.Get "prev" }}">&laquo;</a>
-							{{ end }}
-
-							<a class="taxonomy" href="/dates/{{ $key }}/" rel="tag">{{ $dates }}</a>
-
-							{{ range last 1 $taxonomy.Pages.Reverse }}
-								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Next" href="{{ $.Scratch.Get "next" }}">&raquo;</a>
-								<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Last" href="{{ .RelPermalink }}">&raquo;&raquo;</a>
-							{{ end }}
-
 						{{ end }}
+						{{ $idx = add $idx 1 }}
+					{{ else if and ( eq 1 $idx ) ( ne "hidden" ( urlize $dates ) ) }}
+						<br>Also in: <a rel="tag" href="/dates/{{ $dates | urlize }}">{{ $dates }}</a>
+						{{ $idx = add $idx 1 }}
+					{{ else if ne "hidden" ( urlize $dates ) }}
+						&bull; <a rel="tag" href="/dates/{{ $dates | urlize }}">{{ $dates }}</a>
 					{{ end }}
 				{{ end }}
 			</div>
 		</div>
 		<h1 class="p-name entry-title">{{ .Title }}{{ if in .Site.Params.status .Params.status }} {{ upper .Params.status }}{{ end }}</h1>
 		{{ with  .OutputFormats.Get "calendar" -}}
-			<span class="noprint"><span class="genericon genericon-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .RelPermalink | safeURL }}">Subscribe to this single event</a> &bull; <a style="text-decoration: none;" title="Import this single event as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></span>
+			<span class="noprint"><span class="genericon genericon-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .RelPermalink | safeURL }}">Add this single event to your device</a></span>
 		{{- end }}
 	</header>
 	<div class="entry-content">
