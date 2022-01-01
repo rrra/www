@@ -65,6 +65,9 @@
 	{{ end }}
 	*/}}
 
+	<div class="banner"><p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event should be listed on this calendar.</p></div>
+	<p class="clear"></p>
+
 	<div class="noprint">
 	{{ $ics := "index.ics" | printf "%s%s" .Permalink }}
 	{{ $webcal := $ics | replaceRE "^https?" "webcal" }}

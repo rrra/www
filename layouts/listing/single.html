@@ -36,9 +36,9 @@
 		{{ end }}
 	{{ end }}
 	</dl>
-	<div class="banner clear"><p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event is not listed on this calendar.</p></div>
+	<div class="banner"><p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event should be listed on this calendar.</p></div>
+	<p class="clear"></p>
 
-	<p></p>
 	<div class="noprint">
 	{{ $ics := "/calendar/index.ics" | printf "%s%s" $baseurl }}
 	{{ $webcal := $ics | replaceRE "^https?" "webcal" }}
