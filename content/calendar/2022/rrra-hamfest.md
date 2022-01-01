@@ -7,10 +7,10 @@ location = "[RRV Fairgrounds Hartl Building](/places/rrv-fairgrounds-hartl-build
 title = "RRRA Hamfest & ARRL Dakota Division Convention"
 linkTitle = "RRRA Hamfest"
 categories = [ "Hamfest" ]
-dates = [ "Hamfest" ]
+dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 5
+update = 6
 +++
 {{< banner >}}
 Bookmark https://hamfest.rrra.org/2022 and
