@@ -6,7 +6,7 @@
 	{{ if ne $recip nil }} {{/* File exists in data/call */}}
 		{{ if gt $recip.email "" }}
 			{{ if and ( eq $option "name" ) ( gt $recip.name "" ) }}
-				{{ $linktext := $recip.call | printf "%s %s" $recip.name | printf "%s" }}
+				{{ $linktext := $sign | printf "%s %s" $recip.name | printf "%s" }}
 				{{ .Page.Scratch.Set "linktext" $linktext }}
 			{{ else if and ( ne $option "name" ) ( gt $recip.office "" ) }}
 				{{ .Page.Scratch.Set "linktext" $recip.office }}
