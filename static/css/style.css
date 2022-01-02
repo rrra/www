@@ -3223,16 +3223,18 @@ div.entry-summary .footnote-ref a {
 		width: 100%;
 		text-align: center;
 		padding-bottom: 30px;
+		padding-top: 12px;
 	}
         .cat-links a.nav {
-		font-size: 36px;
+		font-size: 24px;
 		padding: 24px;
+		line-height: 2em;
 	}
 	.cat-links a.taxonomy {
 		position: absolute;
-		top: -12px;
+		top: -2px;
 		left: 32px;
-		font-size: 18px;
+		font-size: 14px;
 	}
 
 	ul.pagination {
@@ -3450,7 +3452,9 @@ div.entry-summary .footnote-ref a {
 		padding: 24px;
 	}
 	.cat-links a.taxonomy {
-		position: static;
+		position: absolute;
+		top: -20px;
+		left: 32px;
 		font-size: 14px;
 	}
 	.cat-links a[rel=tag] {
@@ -3489,17 +3493,8 @@ div.entry-summary .footnote-ref a {
 		color: #C8C8C8;
 	}
 
-	/* Definition list used for events and things */
-	dt.twocol { clear: both; font-weight: bold; float: left; margin-bottom: 0.4em }
-	dt.twocol.header { width: 10em; background-color: #e1ede2; padding-left: 0.4em;}
-	dd.twocol { margin: 0 0 0.4em 10.6em; }
-	dd.sameday { clear: both; margin-left: 10.5em; margin-bottom: 0.4em; }
-
-	/* Overrides for NCS assignment list */
-	[id*="-ncs"] dt.twocol { width: 6em; }
-	[id*="-ncs"] dd.twocol, [id*="-ncs"] dd.sameday { margin-left: 6em; }
-	dd.twocol div.ncs { float: right; width: 12em; }
-	dd.sameday div.ncs { float: right; width: 12em; }
+	dd.twocol, dd.sameday { margin: 0 0 0.4em 2em; }
+	dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 
 	.dropbtn {
     		padding: 0.2em;
@@ -3516,6 +3511,10 @@ div.entry-summary .footnote-ref a {
 }
 
 @media screen and (min-width: 594px) {
+	.header-main {
+		padding: 0 30px;
+	}
+
 	.site-content .entry-header {
 		padding-right: 30px;
 		padding-left: 30px;
@@ -3528,13 +3527,30 @@ div.entry-summary .footnote-ref a {
 	/* STK
 	 */
 	div.clear.notmedium { display: none; }
+
+	/* Definition list used for events and things */
+	dt.twocol { clear: both; font-weight: bold; float: left; margin-bottom: 0.4em }
+	dt.twocol.header { width: 10em; background-color: #e1ede2; padding-left: 0.4em;}
+	dd.twocol { margin: 0 0 0.4em 10.6em; }
+	dd.sameday { clear: both; margin-left: 10.5em; margin-bottom: 0.4em; }
+
+	/* Overrides for NCS assignment list */
+	[id*="-ncs"] dt.twocol { width: 6em; }
+	[id*="-ncs"] dd.twocol, [id*="-ncs"] dd.sameday { margin-left: 6em; }
+	dd.twocol div.ncs { float: right; width: 12em; }
+	dd.sameday div.ncs { float: right; width: 12em; }
+
+
 }
 
 @media screen and (min-width: 673px) {
-	.header-main {
-		padding: 0 30px;
+	.cat-links a.taxonomy {
+		position: static;
 	}
-
+	.cat-links a.nav {
+		padding: 18px;
+	}
+	
 	.search-toggle {
 		margin-right: 18px;
 	}
