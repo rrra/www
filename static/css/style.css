@@ -3114,7 +3114,7 @@ div.entry-summary .footnote-ref a {
 		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 		margin: 0;
 		min-height: 60px;
-		padding: 0 0 24px;
+		padding: 12px 0;
 	}
 
 	.list-view .site-content .entry-title {
@@ -3242,7 +3242,7 @@ div.entry-summary .footnote-ref a {
 		height: 24px;
 		margin: 0 auto;
 		max-width: 474px;
-		padding: 12px 0 24px 4px;
+		padding: 12px 0 12px 4px;
 	}
 	ul.pagination li {
 		float:left;
