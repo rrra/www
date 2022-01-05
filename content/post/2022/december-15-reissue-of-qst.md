@@ -1,7 +1,7 @@
 +++
 date = "2022-01-04T21:45:03-06:00"
 #publishdate = "2022-01-04T21:45:03-06:00"
-title = "December 15 Reissue of Qst"
+title = "December 15 Reissue of QST"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = [ "ARRL", "QST"]
