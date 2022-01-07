@@ -10,10 +10,11 @@ contact = "N0CNC"
 talkin = "147.120 147.33"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
+status = "canceled"
 +++
 Please visit the 
-[ARRL Artic Blast 2020 page](http://www.arrl.org/hamfests/arctic-blast-hamfest-1)
-or the download the 
-[Artic Blast flyer](http://customer.wcta.net/wwd/waarc/ABH2022.pdf)
-for more details.
+[Wadena Area Amateur Radio Club](http://www.wadenaham.org/)
+for more information.
+
+{{< figure src="http://customer.wcta.net/wwd/waarc/ab2022cancelled.pdf" >}}
