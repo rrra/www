@@ -41,7 +41,7 @@ each section.
 4. Schedule a time to take the exam using one of these resources:
 * [Find an Amateur Radio License Exam in Your Area \(ARRL\)](https://www.arrl.org/exam_sessions/) - for Online and In-Person exam sessions
 * [Find a Session \(HamStudy\)](https://hamstudy.org/sessions) - for Remote (i.e. Online) and In-Person exam sessions
-* Your [local ham radio club](https://www.google.com/search?q=ham+radio+club+near+me)
+* Your [local ham radio club](http://arrl.org/find-a-club) ([Google search](https://www.google.com/search?q=ham+radio+club+near+me))
 
 Students in the Fargo-Moorhead area, and those affilated with the
 NDSU Amateur Radio Society, may contact the RRRA {{< mailto vec >}} to
@@ -62,7 +62,7 @@ may be used by anyone interested in obtaining their US
 Technician Class Amateur Radio License.
 
 Support for this course is only available to students in the Fargo-Moorhead
-area or students associated with NDSU.
+area or students associated with the NDSU Amateur Radio Society.
 
 This course is valid for FCC Technician Class Amateur Radio License exams
 between November 2021 and June 2022.
