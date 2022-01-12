@@ -30,7 +30,7 @@ Those wishing to attend the webinar should contact
 * Be able to describe the purpose, use, and benefits of the Incident Command System
 * Be able to list and demonstrate how to complete pertinent ICS forms used in radio communications
 
-{{< figure src="http://www.aeromn.org/images/2015-AERO-Logo-v4.png" link="http://www.aeromn.org/" >}}
+{{< figure src="https://lh4.googleusercontent.com/DLDZAhRywNzBGm8YeBtiZRuv57xPtwIzULSzArtdyl4KAaX67wjsjqJU-HQUlxpmFt_hBrlvUFyk1PxNvlSXo43iqQVw59GE_ZdBJmohM0EGs17cZ1ud69GL9_a46vk3og=w1280" link="http://www.aeromn.org/" >}}
 
 ### About AERO
 
