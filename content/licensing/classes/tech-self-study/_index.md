@@ -6,10 +6,11 @@ authors = [ "WS0Y" ]
 categories = [ "Education" ]
 tags = []
 +++
-This course provides a *self-study* method---with optional audio
-support---for preparing to take the FCC Technician Class Amateur Radio
-License exam. The material presented in this course is valid for exams
-taken between November 2021 and June 2022.
+This course provides a *self-study* strategy for preparing to take
+the FCC Technician Class Amateur Radio by using the [Hamradio
+School](https://hamradioschool.com/) Technician License Course textbook.
+The material presented in this course is valid for exams taken between
+November 2021 and June 2022.
 
 <!--more-->
 
@@ -33,14 +34,13 @@ files]({{< relref "/licensing/classes/tech-self-study/audio-support.md" >}})
 are available for students who desire additional explanation of the concepts
 presented in the textbook.
 
-3. [Take the quiz for each section of the
-textbook](https://hamradioschool.com/tech_media/) and review the additional
-material (PDF documents, links to topical websites, and videos) provided for
+3. [Take the quiz for each section of the textbook and review the additional
+material](https://hamradioschool.com/tech_media/) (PDF documents, links to topical websites, and videos) provided for
 each section.
 
 4. Schedule a time to take the exam using one of these resources:
-* [Find an Amateur Radio License Exam in Your Area \(ARRL\)](https://www.arrl.org/exam_sessions/) - for Online and In-Person exam sessions
-* [Find a Session \(HamStudy\)](https://hamstudy.org/sessions) - for Remote (i.e. Online) and In-Person exam sessions
+* ARRL [Find an Amateur Radio License Exam in Your Area](https://www.arrl.org/exam_sessions/) page - for Online and In-Person exam sessions
+* HamStudy [Find a Session](https://hamstudy.org/sessions) page - for Remote (i.e. Online) and In-Person exam sessions
 * Your [local ham radio club](http://arrl.org/find-a-club) ([Google search](https://www.google.com/search?q=ham+radio+club+near+me))
 
 Students in the Fargo-Moorhead area, and those affilated with the
