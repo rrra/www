@@ -24,17 +24,17 @@ Dues (unchanged from 2021) are:
 * Individual membership: $25
 * Additional family members: $5 each
 
-{{< banner >}}
-[Membership application forms](http://rrra.org/s/3iOnHKqxHlaDxxv) are required
-for new memberships and are recommended for changes to member information.
-{{< /banner >}}
+:warning: [Membership application forms](http://rrra.org/s/3iOnHKqxHlaDxxv) are
+required for new memberships and are recommended for changes to member
+information.
 
 ## Your Renewal Options
 
 ### Renew Online
 
-Use our [online renewal page]({{< relref "/join/pay-by-card.md" >}}) to make
-your dues payment using a debit or credit card or from your PayPal account.
+Use our [online renewal page]({{< relref "/join/pay-by-card.md" >}}) to
+make your dues payment using a debit or credit card or from your PayPal
+account.
 
 ### Renew at a Club Meeting
 
