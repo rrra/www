@@ -6,12 +6,16 @@ description = ""
 slug = ""
 tags = []
 title = "Renew your RRRA Membership today"
+weight = -1
 +++
 Membership renewals for 2022 are due by the
 [January club meeting]({{< relref "/calendar/2022/january-meeting.md" >}}).
 
-[Renew online today!]({{< relref "/join/pay-by-card.md" >}}) (payment by
-debit, credit, or paypal account accepted)
+{{< banner >}}
+:white_check_mark: [Renew online today!]({{< relref "/join/pay-by-card.md" >}})
+<br>
+Payment by debit, credit, or paypal account accepted
+{{< /banner >}}
 
 <!--more-->
 
