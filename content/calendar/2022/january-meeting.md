@@ -9,6 +9,11 @@ dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2022/01/19/january-club-meeting/" ]
 +++
+### Remote Access To This Meeting
+
+Those unable to attend this meeting *in-person* are invited to
+[participate via Zoom](https://lists.rrra.org/pipermail/announce/2022-January/000602.html)
+
 ### Membership Renewals For 2022 Are Due
 
 {{< banner >}}
