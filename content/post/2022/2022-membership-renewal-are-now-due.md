@@ -6,7 +6,6 @@ description = ""
 slug = ""
 tags = []
 title = "Renew Your RRRA Membership Today"
-weight = -1
 +++
 Membership renewals for 2022 are due by the
 [January club meeting]({{< relref "/calendar/2022/january-meeting.md" >}}).
