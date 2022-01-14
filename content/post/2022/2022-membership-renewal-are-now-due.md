@@ -5,7 +5,7 @@ date = "2022-01-11T20:00:00-06:00"
 description = ""
 slug = ""
 tags = []
-title = "Renew your RRRA Membership today"
+title = "Renew Your RRRA Membership Today"
 weight = -1
 +++
 Membership renewals for 2022 are due by the
