@@ -6,9 +6,16 @@
 
 		<div class="entry-meta">
 			<span class="cat-links">
-                {{ range .Params.categories }}
-                <a href="/categories/{{ lower . | urlize }}/index.html" rel="category">{{ . }}</a>
-                {{ end }}
+			{{/* This range loop adds a seperator when multiple
+			     categories exist. We use a local scratch to
+			     hold an index. */}}
+			{{ $s := newScratch }}
+			{{ $s.Set "idx" 0 }}
+                	{{ range .Params.categories }}
+				{{ if gt ( $s.Get "idx" ) 0 }} &bull; {{ end }}
+                		<a href="/categories/{{ lower . | urlize }}/index.html" rel="category">{{ . }}</a>
+				{{ $s.Set "idx" 1 }}
+                	{{ end }}
 			</span>
 		</div>
 
