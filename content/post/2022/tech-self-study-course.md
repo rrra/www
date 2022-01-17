@@ -9,7 +9,7 @@ Learn what you need to know to pass the FCC Technician Class Amateur Radio
 License exam with WSOY's
 [Technician License Exam Preparation Course](https://rrra.org/licensing/classes/tech-self-study/).
 
-This course provides a *self-study* strategy for using 
+This course provides a *self-study* strategy for using the
 [Hamradio School](https://hamradioschool.com/) Technician License Course
 textbook to prepare for your licensing exam.
 
