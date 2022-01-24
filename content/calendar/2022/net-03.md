@@ -1,5 +1,5 @@
 +++
-ncs = [ "KA0LDG" ]
+ncs = [ "K0RQ" ]
 date = "2022-01-23T21:00:00-06:00"
 publishDate = "2021-12-14"
 endTime = ""
@@ -8,5 +8,5 @@ title = "UHF/VHF Net 3"
 slug = "uhf-vhf-net-03"
 dates = [ "NCS Schedule" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 +++
