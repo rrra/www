@@ -2,7 +2,7 @@
 date = "2022-01-29T01:00:00-06:00"
 title = "February FreeDV Activity Day"
 authors = [ "K0STK" ]
-categories = [ "Techical" ]
+categories = [ "Technical" ]
 tags = [ "FreeDV" ]
 +++
 Be a part of the Amateur Radio tradition of experimentation and learning!
