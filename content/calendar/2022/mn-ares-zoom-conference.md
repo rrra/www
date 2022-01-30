@@ -10,7 +10,7 @@ contact = ""
 dates = [ "Public Service" ]
 sponsor = "[Minnesota ARES](https://www.minnesotaares.org/ares/)"
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 Improve your skills as an emergency communicator at the first annual
@@ -26,6 +26,7 @@ Planned conference topics:
 Please visit the [MN ARES website](https://www.minnesotaares.org/ares/) for
 more information.
 
-Participants must [register on-line](https://forms.gle/r3Enm4fGVUJUprbh6)
+Participants must [register on-line](https://forms.gle/r3Enm4fGVUJUprbh6) to
+obtain the conference log-in information.
 
 {{< figure src="https://www.minnesotaares.org/ares/images/MN_ARES_Facebook_logo.jpg" >}}
