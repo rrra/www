@@ -8,11 +8,18 @@
 		<div class="entry-meta">
 			<span class="cat-links">
 					{{ if eq "post" .Section }}
-                               			{{ range .Params.categories }}
-                                        		<a href="/categories/{{ lower . | urlize }}/" rel="category">{{ . }}</a>
-                                		{{ end }}
-					{{ else if ne ( trim .RelPermalink "/") (.Section | urlize ) }}
-						<a href="/{{ .Section | urlize }}/" rel="section">{{ .Section }}</a>
+						{{/* This range loop adds a seperator when multiple
+			     			categories exist. We use a local scratch to
+			     			hold an index. */}}
+						{{ $s := newScratch }}
+						{{ $s.Set "idx" 0 }}
+							{{ range .Params.categories }}
+								{{ if gt ( $s.Get "idx" ) 0 }} &bull; {{ end }}
+								<a href="/categories/{{ lower . | urlize }}/index.html" rel="category">{{ . }}</a>
+								{{ $s.Set "idx" 1 }}
+							{{ end }}
+						{{ else if ne ( trim .RelPermalink "/") (.Section | urlize ) }}
+							<a href="/{{ .Section | urlize }}/" rel="section">{{ .Section }}</a>
 					{{ else }}
 						<a href="/">Home</a>
 					{{ end }}
@@ -39,6 +46,13 @@
 					<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
 				{{ end }}
 			</span>
+		{{ if eq .Section "post" }} 
+			{{ if gt (.Date.Unix) (sub now.Unix 2592000) }}
+				<span class="comments-link" title="Make a public comment about this post on the RRRA Club Discussion electronic mailing list; free subscription required to receive responses to your comment.">
+					<a href="mailto:rrra@lists.rrra.org?subject={{ .Title }}&body=%0D%0A%0D%0AReference: {{ .Permalink }}">Comment about this post</span></a>
+				</span>
+			{{ end }}
+		{{ end }}
 			
 		</div><!-- .entry-meta -->
 
