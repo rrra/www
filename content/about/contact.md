@@ -22,12 +22,16 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 | Tenure         |                              |
 | -------------- | ---------------------------- |
-| 2020--2022     | {{< mailto atlarge1 name >}} |
 | 2021--2023     | {{< mailto atlarge2 name >}} |
+| 2022--2024     | {{< mailto atlarge1 name >}} |
 
 #### Ex-officio Members
 
-* None for 2021
+<!--* None for 2021-->
+
+| Position       |                                  |
+| -------------- | -------------------------------- |
+| President      | {{< mailto W0JPJ name >}} (2019-2022) |
 
 #### Trustees
 
