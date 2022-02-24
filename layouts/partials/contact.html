@@ -5,8 +5,8 @@
 
 	{{ if and ( ne $recip nil ) ( gt $recip.email "" )  }}
 
-		{{ if gt $recip.office "" }}
-			{{ $scratch.Set "ddopen" $recip.office  }}
+		{{ if gt $recip.role "" }}
+			{{ $scratch.Set "ddopen" $recip.role }}
 		{{ else }}
 			{{ $contact := .sign | upper | printf "%s %s" ( $recip.name | replaceRE " .*" "" )  }}
 			{{ $scratch.Set "ddopen" $contact }}

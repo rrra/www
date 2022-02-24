@@ -1,20 +1,33 @@
 {{ $sign := index .Params 0 }}
 {{ $option := index .Params 1 }}
 {{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
-{{ if (fileExists $filename) }}
+
+{{ if (fileExists $filename) }} {{/* Contact found in data/call, it is safe to proceed */}}
 	{{ $recip := index .Page.Site.Data.call $sign }}
-	{{ if ne $recip nil }} {{/* File exists in data/call */}}
+	{{ if ne $recip nil }} {{/* Read suceeded */}}
 		{{ if gt $recip.email "" }}
+
+			{{/* Name was requested and is available. This
+			   * overides other options when possible.
+			   */}}
 			{{ if and ( eq $option "name" ) ( gt $recip.name "" ) }}
-				{{ $linktext := $sign | printf "%s %s" $recip.name | printf "%s" }}
+				{{ $linktext := $recip.call | printf "%s %s" $recip.name | printf "%s" }}
 				{{ .Page.Scratch.Set "linktext" $linktext }}
-			{{ else if and ( ne $option "name" ) ( gt $recip.office "" ) }}
-				{{ .Page.Scratch.Set "linktext" $recip.office }}
-			{{ else if eq $recip.call "none" }}
+
+			{{/* Role contact */}}
+			{{ else if gt $recip.role "" }}
+				{{ .Page.Scratch.Set "linktext" $recip.role }}
+
+			{{/* Hide their callsign */}}
+			{{ else if or ( eq $recip.call "none" ) ( eq $recip.call "" ) }}
 				{{ .Page.Scratch.Set "linktext" $recip.name }} 
+
+			{{/* Last straw... */}}
 			{{ else }}
 				{{ .Page.Scratch.Set "linktext" $sign }}
 			{{ end }}
+
+			{{/* Output the obfuscated mailto markup */}}
 			{{ $email := "</a><span class=\"genericon genericon-mail\"></span>" | printf "%s%s" ( .Page.Scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
 			<script type="text/javascript">
 			function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
@@ -27,9 +40,9 @@
 		{{ else }} {{/* No e-mail address on file */}}
 			{{ .Page.Scratch.Get "linktext" }}
 		{{ end }}
-	{{ else }}
+	{{ else }} {{/* Read failed */}}
 		{{ $sign }}
 	{{ end }}
-{{ else }}
+{{ else }} {{/* Contact not found in data/call */}}
   {{ $sign }}
 {{ end }}
