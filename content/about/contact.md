@@ -8,30 +8,14 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 ### Board of Directors
 
-
 #### Officers
 
-| Position       |                               |
-| -------------- | ----------------------------- |
-| President      | {{< mailto president name >}} |
+| Office         |                                   |
+| -------------- | --------------------------------- |
+| President      | {{< mailto president name >}}     |
 | Vice President | {{< mailto vicepresident name >}} |
-| Secretary      | {{< mailto secretary name >}} |
-| Treasurer      | {{< mailto treasurer name >}} |
-
-#### At-Large Members
-
-| Tenure         |                              |
-| -------------- | ---------------------------- |
-| 2021--2023     | {{< mailto atlarge2 name >}} |
-| 2022--2024     | {{< mailto atlarge1 name >}} |
-
-#### Ex-officio Members
-
-<!--* None for 2021-->
-
-| Position       |                                  |
-| -------------- | -------------------------------- |
-| President      | {{< mailto W0JPJ name >}} (2019-2022) |
+| Secretary      | {{< mailto secretary name >}}     |
+| Treasurer      | {{< mailto treasurer name >}}     |
 
 #### Trustees
 
@@ -39,6 +23,16 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 | -------------- | ---------------------------- |
 | KC0KAE         | {{< mailto KC0KAE name >}}     |
 | W0ILO          | {{< mailto W0ILO name >}}    |
+
+#### Ex-officio Members
+
+<!--* None for 2021-->
+<!--| President (2019-2022) | {{< mailto W0JPJ name >}}    | -->
+
+| Title                 |                              |
+| --------------------- |----------------------------- |
+| At-Large (2021--2023) | {{< mailto atlarge2 name >}} |
+| At-Large (2022--2024) | {{< mailto atlarge1 name >}} |
 
 ### Mailing Address {#mailing-address}
 
