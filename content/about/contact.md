@@ -10,29 +10,29 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 #### Officers
 
-| Office         |                                   |
-| -------------- | --------------------------------- |
-| President      | {{< mailto president name >}}     |
-| Vice President | {{< mailto vicepresident name >}} |
-| Secretary      | {{< mailto secretary name >}}     |
-| Treasurer      | {{< mailto treasurer name >}}     |
+| Office         |                                       |
+| -------------- | ------------------------------------- |
+| President      | {{< mailto president fullname >}}     |
+| Vice President | {{< mailto vicepresident fullname >}} |
+| Secretary      | {{< mailto secretary fullname >}}     |
+| Treasurer      | {{< mailto treasurer fullname >}}     |
 
 #### Trustees
 
-| Callsign       |                              |
-| -------------- | ---------------------------- |
-| KC0KAE         | {{< mailto KC0KAE name >}}     |
-| W0ILO          | {{< mailto W0ILO name >}}    |
+| Callsign       |                                       |
+| -------------- | ------------------------------------- |
+| KC0KAE         | {{< mailto KC0KAE fullname >}}        |
+| W0ILO          | {{< mailto W0ILO fullname >}}         |
 
 #### Ex-officio Members
 
 <!--* None for 2021-->
-<!--| President (2019-2022) | {{< mailto W0JPJ name >}}    | -->
+<!--| President (2019-2022) | {{< mailto W0JPJ fullname >}}    | -->
 
-| Title                 |                              |
-| --------------------- |----------------------------- |
-| At-Large (2021--2023) | {{< mailto atlarge2 name >}} |
-| At-Large (2022--2024) | {{< mailto atlarge1 name >}} |
+| Title                 |                                  |
+| --------------------- |--------------------------------- |
+| At-Large (2021--2023) | {{< mailto atlarge2 fullname >}} |
+| At-Large (2022--2024) | {{< mailto atlarge1 fullname >}} |
 
 ### Mailing Address {#mailing-address}
 

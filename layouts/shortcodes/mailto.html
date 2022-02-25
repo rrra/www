@@ -10,8 +10,18 @@
 			{{/* Name was requested and is available. This
 			   * overides other options when possible.
 			   */}}
-			{{ if and ( eq $option "name" ) ( gt $recip.name "" ) }}
-				{{ $linktext := $recip.call | printf "%s %s" $recip.name | printf "%s" }}
+			{{ if and ( findRE ".*?name" $option ) ( gt $recip.name "" ) }}
+				{{ if gt $recip.call "" }}
+					{{ .Page.Scratch.Set "call" $recip.call }}
+				{{ else }}
+					{{ .Page.Scratch.Set "call" $sign }}
+				{{ end }}
+				{{ if eq $option "fullname" }}
+					{{ .Page.Scratch.Set "name" $recip.name }}
+				{{ else }}
+					{{ .Page.Scratch.Set "name" ( $recip.name | replaceRE " .*" "" )  }}
+				{{ end }} 
+				{{ $linktext := .Page.Scratch.Get "call" | printf "%s %s" ( .Page.Scratch.Get "name" ) | printf "%s" }}
 				{{ .Page.Scratch.Set "linktext" $linktext }}
 
 			{{/* Role contact */}}
