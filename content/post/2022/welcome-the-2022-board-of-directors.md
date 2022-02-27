@@ -9,7 +9,7 @@ RRRA is pleased to announce its
 [Board of Directors ]({{< relref "/about/contact.md#board-of-directors" >}})
 for 2022. These individuals are to be congratulated for their willingness to
 step forward and serve. Their dedication, sacrifice, and support are crucial to
-the continued existence of RRRA; we owe them a debt of gratitude,
+the continued existence of RRRA; we owe them a debt of gratitude.
 
 <!--more-->
 
