@@ -8,12 +8,10 @@ title = "March Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-<!--
 ### Remote Access to Meeting
 
 Those unable to attend this meeting *in-person* are invited to
-[participate via Zoom]().
--->
+[participate via Zoom](https://lists.rrra.org/pipermail/announce/2022-March/000610.html).
 
 ### Meeting Information
 
