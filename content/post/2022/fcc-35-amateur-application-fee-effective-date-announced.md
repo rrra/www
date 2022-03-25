@@ -15,9 +15,6 @@ take effect April 19, 2022, as announced in
 
 <!--more-->
 
-FCC's new fee schedule was adopted pursuant to authority established by
-[RAY BAUMS's Act of 2018](https://www.govtrack.us/congress/bills/115/hr4986)
-
 >The $35 application fee ... will apply to new, modification (upgrade
 >and sequential call sign change), renewal, and vanity call sign
 >applications. The fee will be per application.
@@ -40,6 +37,9 @@ directly to the FCC through the
 successful exam candidates will receive an e-mail message from the FCC
 containing payment instructions and will have **10 calendar days** from the
 date of the e-mail to pay their application fee.
+
+FCC's new fee schedule was adopted pursuant to authority established by
+[RAY BAUMS's Act of 2018](https://www.govtrack.us/congress/bills/115/hr4986)
 
 ## Other Related Links
 
