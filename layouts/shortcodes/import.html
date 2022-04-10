@@ -1,0 +1,9 @@
+{{/* Import markdown page omitting frontmatter
+   *
+   * Solution found at:
+   * https://discourse.gohugo.io/t/remove-frontmatter-of-\
+   * content-read-with-readfile/12682/5
+   */}}
+
+{{ $file := .Get 0 }}
+{{ with .Site.GetPage $file }}{{.Content}}{{end}}
