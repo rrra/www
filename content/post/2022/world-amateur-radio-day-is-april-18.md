@@ -8,7 +8,7 @@ tags = [ "ARRL", "IARU" ]
 +++
 [World Amateur Radio Day](https://www.iaru.org/on-the-air/world-amateur-radio-day)
 (WARD) is the birthday of the International Amateur Radio Union
-([IARU](https://www.iaru.org/about-us/));
+([IARU]({{< relref "/post/2022/world-amateur-radio-day-is-april-18.md#about-iaru" >}}));
 the worldwide federation of national amateur radio organizations.
 
 WARD is also an opportunity to celebrate Amateur Radio and to
@@ -63,6 +63,8 @@ Find on-air WARD events by searching the
 for *World Amateur Radio Day*; or through the hashtags
 **#WorldAmateurRadioDay**, **#hamradio**, or **#ARRL** on social media.
 
+{{< figure src="http://www.arrl.org/files/file/Media%20&%20PR/World%20Amateur%20Radio%20Day/ARRL_WARD_Logo_468x200_English.jpg" >}}
+
 ### About IARU
 
 >The International Amateur Radio Union (IARU) is the worldwide federation
@@ -95,4 +97,3 @@ IARU Wikipedia page
 
 : https://en.wikipedia.org/wiki/International_Amateur_Radio_Union
 
-{{< figure src="http://www.arrl.org/files/file/Media%20&%20PR/World%20Amateur%20Radio%20Day/ARRL_WARD_Logo_468x200_English.jpg" >}}
