@@ -1,7 +1,6 @@
 +++
-draft = true
 description = ""
-date = "2022-04-18T21:39:00-05:00"
+date = "2022-04-19T08:50:00-05:00"
 categories = [ "Public Service" ]
 authors = [ "K0STK" ]
 title = "Radio Operators needed for the 2022 Fargo Marathon"
@@ -21,8 +20,8 @@ RRRA communications support for the Fargo Marathon will be coordinated
 through the
 [Marathon Mailing List](https://lists.rrra.org/mailman/listinfo/marathon).
 All operators who wish to volunteer for this event must subscribe to the
-Marathon Mailing List; even those who who sign up on paper at any
-club meeting.
+Marathon Mailing List; even those who signed up on paper at a
+club meeting or have previously contacted the Marathon Coordinator.
 
 <!--more-->
 ### Subscribing to the mailing list
