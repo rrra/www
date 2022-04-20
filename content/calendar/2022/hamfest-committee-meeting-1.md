@@ -4,6 +4,7 @@ date = "2022-05-10T19:00:00-05:00"
 publishDate = "2022-04-01"
 location = "Zoom"
 title = "Hamfest Committee Meeting"
+linkTitle = "Hamfest Committee"
 dates = [ "Hamfest Committee" ]
 outputs = [ "HTML", "Calendar" ]
 +++
@@ -17,5 +18,15 @@ club. Lots of volunteers will make the work easy for everyone.
 This will be our first Hamfest planning meeting. All RRRA members who are
 interested in helping with the 2022 Hamfest are encouraged to attend.
 
-Please contact {{< mailto hamfest >}} if you have any questions about this
-event.
+Hamfest Committee volunteers are asked to [subscribe to the hamfest
+mailing list]({{< relref "/post/2019/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})
+so that they can stay informed and be a part of the
+conversation. Volunteers may subscribe multiple addresses
+(e.g. work and home e-mail) if desired.
+
+**Returning volunteeers must re-resubscribe to the hamfest list to
+confirm their participation.**
+
+A shared folder will be available to committee
+members on the <a href="https://cloud.rrra.org" rel="nofollow">RRRA
+Groupware Server</a> for document sharing and archiving.
