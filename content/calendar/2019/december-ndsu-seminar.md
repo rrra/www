@@ -4,6 +4,7 @@ date = "2019-12-12T17:30:00-06:00"
 endTime = "2019-12-12T19:30:00-06:00"
 publishDate = "2019-12-05T19:26:57-06:00"
 linkTitle = "NDSU Seminar"
+title = "Modern Applications of Amateur Radio"
 location = "[NDSU Dolve Hall](/places/ndsu-dolve-hall/)"
 contact = "AK0IL"
 dates = [ "NDSU Radio Club" ]
