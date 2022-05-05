@@ -5,6 +5,7 @@
 	{{ `<!-- Template: layouts/_default/category.html -->` | safeHTML }}
 	{{ end }}
 	<header class="archive-header">
+		
 		{{ $cat := index .Site.Params.categories (.Title | urlize) }}
 
 		{{ if and (in .RelPermalink "/categories/hamfest/") (lt (dateFormat "1" now) 10) }}
@@ -18,7 +19,7 @@
 		{{ $rsspath := printf ( .Title | urlize ) | printf "/%s/%s" ( .Data.Plural ) }}
 		{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 
-		<h2 class="archive-title">{{ if in .RelPermalink "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}{{ .Title | humanize | upper }} Category{{ end }}</h2>
+		<h2 class="archive-title">{{ .Title | humanize | upper }} Category</h2>
 		{{ with $cat.description }}
 			<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
 		{{ end }}
