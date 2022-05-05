@@ -18,7 +18,7 @@
 		{{ $rsspath := printf ( .Title | urlize ) | printf "/%s/%s" ( .Data.Plural ) }}
 		{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 
-		<h2 class="archive-title">{{ if in .RelPermalink "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}Content in the {{ .Title | humanize | upper }} category{{ end }}</h2>
+		<h2 class="archive-title">{{ if in .RelPermalink "/tags/" }}Content tagged with {{ .Title | humanize | upper }}{{ else }}{{ .Title | humanize | upper }} Category{{ end }}</h2>
 		{{ with $cat.description }}
 			<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
 		{{ end }}
