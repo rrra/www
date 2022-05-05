@@ -17,7 +17,9 @@
 	<div class="entry-content" style="padding-bottom:1em;">
 		<dl id="list">
 			{{ range $key, $value := .Data.Terms }}
-			<dt class="twocol"><a href="{{ $key }}">{{ .Page.Title  }}</a></dt>
+				{{ if ne ( .Page.Title | lower ) "hidden" }}
+					<dt class="twocol"><a href="{{ $key }}">{{ .Page.Title  }}</a></dt>
+				{{ end }}
 			{{ end }}	
 		</dl>
 	</div>
