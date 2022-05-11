@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 7
+update = 8
 +++
 {{< banner publish="2022-09-25" >}}
 Bookmark https://hamfest.rrra.org/2023 and
@@ -24,13 +24,13 @@ to stay informed about North Dakota's largest Hamfest in 2023!
 {{< figure src="https://www.arrl.org/img/170x130/About_ARRL/Rick_Roderick_PREFERRED_PIC.jpg" >}}
 </div>
 
-<p style="clear"></p>
+<p style="clear;both;"></p>
 
 [ARRL President Rick Roderick, K5UR](https://www.arrl.org/president),
 will attend the RRRA 2022 Hamfest & ARRL Dakota Division Convention
-in-person and will be our guest speaker at the ARRL Forum.
+*in-person*.
 
-<br>
+<p style="clear:both;padding-top:6px;"></p>
 
 {{< banner expires="2022-09-25" >}}
 Bookmark https://hamfest.rrra.org/2022 and
@@ -49,5 +49,3 @@ include, but are not limited to, the following:
 * Pornographic or obscene materials or any ***adults-only*** items
 * Weapons, ammunition, and related items
 * Political items
-
-
