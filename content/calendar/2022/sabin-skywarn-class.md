@@ -7,8 +7,9 @@ location = "[Sabin Elmwood Fire District HQ](/places/sabin-elmwood-fire-district
 title = "Sabin SKYWARN Class"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
+update = 1
 +++
-* Presented by the National Weather Service
+* Presented by the [National Weather Service (Grand Forks)](https://www.weather.gov/fgf/skywarn)
 * Sponsored by Clay County Emergency Services, [Sabin-Elmwood Fire and Rescue](http://www.sabin-elmwoodfire.com/), and Clay County Amateur Radio Emergency Services (CCARES)
 
 ## Other Classes

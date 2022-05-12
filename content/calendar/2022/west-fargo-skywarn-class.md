@@ -7,8 +7,9 @@ title = "West Fargo SKYWARN Class"
 dates = [ "Public Service" ]
 contact = "[701-356-0677](tel:701-356-0677)"
 outputs = [ "HTML", "Calendar" ]
+update = 1
 +++
-* Presented by the National Weather Service
+* Presented by the [National Weather Service (Grand Forks)](https://www.weather.gov/fgf/skywarn)
 * Sponsored by [RRRMC](http://www.rrrmc.com/)
 
 Individuals unable to attend this session may be interested in
