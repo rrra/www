@@ -13,15 +13,15 @@ Audio support files for the
 
 <!--more-->
 
+{{< back >}}
 ## Chapter Zero - Before we begin
-{{< back-to-top >}}
 
 pp. 1--8
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-0.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 1 - Operating your radio
-{{< back-to-top >}}
 
 Section 1.1: Transceiver basics<br>pp. 9--15
 
@@ -35,8 +35,8 @@ Section 1.3: Repeater basics<br>pp. 25--28
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/Section-1-3.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 2 - FCC rules and regulations
-{{< back-to-top >}}
 
 Section 2.1: The FCC and you<br>pp. 29--35
 
@@ -54,15 +54,15 @@ Section 2.4: Talking to the world<br>pp. 46--51
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-2-4.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 3 - Things to do
-{{< back-to-top >}}
 
 pp. 52--59
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-3-1.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 4 - Wavelength, frequency, and bands
-{{< back-to-top >}}
 
 Section 4.1: Wavelength and frequency<br>pp. 60--68
 
@@ -72,15 +72,15 @@ Section 4.2: Bands, band plans, and license privileges<br>pp. 69--74
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-4-2.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 5 - Signal propagation
-{{< back-to-top >}}
 
 pp. 75--82
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-5-1.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 6 - How radio works
-{{< back-to-top >}}
 
 Section 6.1: Transmitting<br>pp. 83--96
 
@@ -94,8 +94,8 @@ Section 6.3: Bandwidth and sidebands<br>pp. 103--107
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-6-3.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 7 - Antennas
-{{< back-to-top >}}
 
 Section 7.1: Antenna basics<br>pp. 108--118
 
@@ -105,8 +105,8 @@ Section 7.2: Standing wave ratio (SWR) and<br>Section 7.3: Coax and connectors<b
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-7-2-and-3.mp3" type="audio/mpeg"></audio>
 
-## Chapter 8 - It's electric!
-{{< back-to-top >}}
+{{< back >}}
+## Chapter 8 - It's electric! 
 
 Section 8.1: Electric basics<br>pp. 129--132
 
@@ -120,8 +120,8 @@ Section 8.3: Making electric measurements<br>pp. 141--148
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-8-3.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 9 - Hamtronics
-{{< back-to-top >}}
 
 Section 9.1: Electronic basics<br>pp. 149--156
 
@@ -131,29 +131,29 @@ Section 9.2: Transistors and more<br>pp. 157--164
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-9-2.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 10 - Digital modes
-{{< back-to-top >}}
 
 pp. 165--172
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-10-1.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 11 - Space contacts
-{{< back-to-top >}}
 
 pp. 173--179
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-11-1.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 12 - Avoiding interference
-{{< back-to-top >}}
 
 pp. 180--192
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-12-1.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## Chapter 13 - Safety
-{{< back-to-top >}}
 
 Section 13.1: Electrical safety<br>pp. 193--196
 
@@ -167,8 +167,8 @@ Section 13.3: RF exposure safety<br>pp. 202--209
 
 : <audio controls><source src="http://rjaysplace.com/tech-class/MP3s/section-13-3.mp3" type="audio/mpeg"></audio>
 
+{{< back >}}
 ## About the Audio Support Files
-{{< back-to-top >}}
 
 These audio support files were created by R. Jay Goos, WS0Y, for the
 [RRRA Self Study Technician License Exam Preparation Course]({{< ref "/licensing/classes/tech-self-study/_index.md" >}}).
