@@ -5,7 +5,7 @@ publishDate = "2022-04-01"
 location = "Zoom"
 title = "Hamfest Committee Meeting"
 linkTitle = "Hamfest Committee"
-dates = [ "Hamfest Committee" ]
+dates = [ "Hamfest" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 
