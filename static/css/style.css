@@ -3022,8 +3022,14 @@ p.clear { clear: both; }
 }
 
 .alert {
-  color: red;
+	color: red;
 	text-align: center;
+}
+
+.osha-warning {
+	background: #d97329;
+	text-align: center;
+	font-size: 1.125em;
 }
 
 /**

@@ -1,1 +1,15 @@
-<a class="alignright" style="text-decoration:none;" href="#top" alt="Back to top" title="Back to top"><span class="genericon genericon-top" style="font-size:24px;"></span></a>
+{{ $anchor := index .Params 0 }}
+{{ $title  := index .Params 1 }}
+{{ $scratch := newScratch }}
+{{ if ne "" $title }}
+	{{ $scratch.Set "title" $title }}
+{{ else }}
+	{{ $scratch.Set "title" $anchor }}
+{{ end }}
+<a class="alignright noprint" style="text-decoration:none;transform:translateY(1.4em);"
+href="#{{ with $anchor }}{{ . | urlize }}{{ else }}top{{ end }}"
+alt="Back to {{ $scratch.Get "title" }}"
+title="Back to {{ $scratch.Get "title" }}">
+<span class="genericon genericon-{{ with $anchor }}previous{{ else }}top{{ end
+}}"
+style="width:24px;height:24px;font-size:24px;"></span></a>
