@@ -8,7 +8,7 @@ title = "Hamfest Preview"
 categories = [ "Hamfest" ]
 dates = [ "hidden" ]
 outputs = [ "HTML", "Calendar" ]
-update = 9
+update = 1
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 upcoming = "hide"
@@ -51,7 +51,7 @@ for more information.
 * Eyeball QSOs
 * Flea Market
 * Food & Beverages
-* [License Testing]({{< relref "/calendar/2022/hamfest-testing.md" >}}) (aka *VE Testing* or *VE Session*)
+* License Testing (will be link to Hamfest Testing session on calendar)
 * [Seminars](#seminars)
 * [ARRL Member Event](#wouff-hong)
 
