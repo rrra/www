@@ -17,7 +17,7 @@ This is the largest Hamfest in North Dakota drawing attendees from 3 states and
 ### What
 
 * Food
-* Raffle
+* Door Prize Drawing
 * Seminars
 * Flea Market
 * Eyeball QSOs
