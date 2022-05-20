@@ -18,7 +18,7 @@ to anyone at any time.***
 * Admission Tickets are **non-refundable**
 * 12 years and under admitted free with paid accompanying adult; **door prize drawing entry not included**
 
-#### Vendor Tickets: $20 
+#### Vendor Table Tickets: $20 
 
 ##### Each ticket includes
 
@@ -27,10 +27,10 @@ to anyone at any time.***
 
 ##### Terms and Conditions
 
-* Door prize drawing entries limited to 1 per person admitted
-* Vendor Tickets are **non-refundable**
+* Vendor Table Tickets are **non-refundable**
 * Limited electricity available
-* **Vendors agree to the RRRA [Prohibited Flea Market Items Policy]({{< relref "prohibited-items.md" >}}) Vendor Ticket. Vendors who do not adhere to this policy will be asked to leave.**
+* Door prize drawing entries limited to 1 per person admitted
+* **VENDORS AGREE TO THE RRRA [PROHIBITED FLEA MARKET ITEMS POLICY]({{< relref "prohibited-items.md" >}}) BY PURCHASING ONE OR MORE VENDOR TABLE TICKETS. VENDORS WHO DO NOT ADHERE TO THIS POLICY WILL BE ASKED TO LEAVE.**
 
 #### How to purchase Tickets
 
@@ -38,13 +38,14 @@ to anyone at any time.***
 
 ##### On-Line --- in advance
 
-* Through our [On-Line Box Office](#on-line-box-office)
+* Visit our [On-Line Box Office](#on-line-box-office)
 * Credit, Debit, and PayPal accepted
 * Automated e-mail delivery
+* Skip the ticket table line at the Hamfest!
 
 ##### Mail Order --- in advance
 
-* Using our [Mail Order Ticket Form](https://cloud.rrra.org/index.php/s/CfmoGgaxfb97sJo/download)
+* Use our [Mail Order Ticket Form](https://cloud.rrra.org/index.php/s/4LSCD28maTmL7JT/download)
 * Mail orders must be postmarked by September 1, {{< year >}}
 * Payment in the form of check or money order (to ***RRRA***) must be included
 * Mail orders will be held for pick up at the Hamfest Ticket Table
@@ -76,7 +77,7 @@ data-inline-ref="website_widget"></script></div>
 <!-- End of Ticket Tailor Widget -->
 
 {{< banner class="alert" >}}
-Admission and Vendor Ticket purchases are **non-refundable** and indicate
+Admission and Vendor Table Ticket purchases are **non-refundable** and indicate
 acceptance of the RRRA
 [Prohibited Flea Market Items Policy]({{< relref "prohibited-items.md" >}}).
 {{< /banner >}}
