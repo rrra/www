@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 9
+update = 10
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -92,7 +92,7 @@ Time |      |
 9AM | Seminars begin
 10AM | License Testing begins
 10:30AM | Lunch served in Main Hall
-Noon | License Testing cut off
+11AM | License Testing cut off
 2PM | Hamfest ends
 
 {{< hamfest-donors 2022 >}}

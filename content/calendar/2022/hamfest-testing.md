@@ -2,7 +2,7 @@
 contact = "vec"
 date = "2022-09-24T10:00:00-05:00"
 publishDate = "2022-01-01"
-endTime = ""
+endTime = "2022-09-24T11:00:00-05:00"
 location = "[RRV Fairgrounds Butler Arena](/places/rrv-fairgrounds-butler-arena/)"
 title = "Hamfest Testing Session"
 dates = [ "License Testing" ]
@@ -12,7 +12,7 @@ categories = [ "License Testing" ]
 * Computerized testing only; paper tests will not be administered
 * *Bring Your Own Device* (i.e. laptop computer) suggested
 * Only 20 test seats available; pre-register on-line
-* Tests may be started between 10AM and 12 Noon
+* Tests may be started between 10AM and 11AM
 
 #### How to sign-up for your test
 
