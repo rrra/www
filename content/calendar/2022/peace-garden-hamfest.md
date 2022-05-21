@@ -8,8 +8,8 @@ linkTitle = "Peace Garden Hamfest"
 sponsor = "[Souris Valley Amateur Radio Club](https://sourisamateurradioclub.godaddysites.com/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 +++
 Please visit the
-[ARRL International Peace Garden Hamfest page](http://www.arrl.org/hamfests/peace-garden-hamfest-1)
+[ARRL International Peace Garden Hamfest page](http://www.arrl.org/hamfests/international-peace-garden-hamfest-1)
 for more information.
