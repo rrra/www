@@ -1117,6 +1117,11 @@ span + .edit-link:before,
 	max-width: 672px;
 }
 
+.featured {
+	margin: 0 auto 12px;
+	max-width: 672px;
+}
+
 .site-content .entry-header,
 .site-content .entry-content,
 .site-content .entry-summary,
@@ -3032,6 +3037,28 @@ p.clear { clear: both; }
 	font-size: 1.125em;
 }
 
+.feature-container-outer {
+	border: 6px solid #d40000;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:530px;
+	padding: 3px;
+	background: white;
+}
+
+.feature-container-inner {
+	border:3px solid #d40000;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:530px;
+	padding:12px 0px 12px 0px;
+	background: inherit;
+}
+
 /**
  * 10.0 Multisite
  * -----------------------------------------------------------------------------
@@ -3113,7 +3140,7 @@ div.entry-summary .footnote-ref a {
 	}
 
 	.list-view .content-area {
-		padding: 24px 10px 0 10px;
+		padding: 6px 10px 0 10px;
 	}
 
 	.list-view .site-content .hentry {
@@ -3273,6 +3300,18 @@ div.entry-summary .footnote-ref a {
 		pointer-events: none;
 		cursor: default;
 		color: #C8C8C8;
+	}
+	.feature-container-outer, .feature-container-inner {
+		border: 0;
+		border-top: 6px solid #d40000;
+		border-bottom: 6px solid #d40000;
+		-moz-border-radius: 0;
+		-webkit-border-radius: 0;
+		padding:3px 0px 3px 0px;
+	}
+	.feature-container-inner {
+		border-width: 3px;
+		padding: 6px 0px 6px 0px;
 	}
 }
 
