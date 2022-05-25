@@ -892,6 +892,17 @@ span + .edit-link:before,
 	background: url(/images/sprites.001.gif) 0 -252px;
 }
 
+/* stk */
+
+#site-banner {
+	background:#f1fdf2;
+	color:#d40000;
+	width:100%;
+	text-align:center;
+	font-size:125%;
+	padding:.75em 0;
+	border-top:6px solid;
+}
 
 /**
  * 4.0 Header
@@ -996,6 +1007,11 @@ span + .edit-link:before,
 	width: 100%;
 }
 
+/* stk */
+
+#site-banner {
+
+}
 /**
  * 5.0 Navigation
  * -----------------------------------------------------------------------------
@@ -1039,7 +1055,7 @@ span + .edit-link:before,
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
 	font-size: 14px;
-	padding-top: 24px;
+	/* <*> padding-top: 24px; */
 }
 
 .primary-navigation.toggled-on {
@@ -1080,7 +1096,7 @@ span + .edit-link:before,
 	overflow: hidden;
 	padding: 0;
 	position: absolute;
-	top: 0;
+	/* <*> top: 0; */
 	right: 0;
 	text-align: center;
 	width: 48px;

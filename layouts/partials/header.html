@@ -30,6 +30,9 @@
 <body class="home blog masthead-fixed list-view full-width grid">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header">
+		{{ if not .IsHome }}
+			{{ partialCached "site-banner.html" . }}
+		{{ end }}
 		<div class="header-main">
 			{{ if .IsHome }}
 				<h1 class="site-title"><a href="/index.html" rel="home">{{ .Site.Title }}</a></h1>

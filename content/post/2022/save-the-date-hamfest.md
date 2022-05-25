@@ -6,6 +6,7 @@ categories = [ "Outreach" ]
 tags = [ "Hamfest" ]
 featured = true
 endFeatured = "2022-09-24T12:00:00-05:00"
+siteBanner = "Meet K5UR on September 24th &commat; [hamfest.rrra.org](https://hamfest.rrra.org)"
 +++
 ### With Special Guest --- K5UR
 <div style="float:left;padding-right:1.4em;">
