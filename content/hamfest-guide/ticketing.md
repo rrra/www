@@ -34,7 +34,7 @@ to anyone at any time.***
 
 #### How to purchase Tickets
 
-:warning: ***E-MAIL RESERVATION REQUESTS WILL NOT BE ACCEPTED*** :warning:
+:warning: E-mail reservation requests will **NOT** be accepted :warning:
 
 ##### On-Line --- in advance
 
