@@ -8,7 +8,7 @@ linkTitle = "Peace Garden Hamfest"
 sponsor = "[Souris Valley Amateur Radio Club](https://sourisamateurradioclub.godaddysites.com/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 talkin = "146.52, 444.500+"
 +++
 
@@ -18,10 +18,17 @@ Attendees are cautioned to review the
 prior to visiting the International Peace Garden.
 {{< /banner >}}
 
-Attendees are urged to bring a canopy, screen tent or shelter for
-registration, presentations, the ARRL Forum and socializing.
- 
-Information about this event is available on the
+In an ARRL member e-mail dated 19 May 2022 Bill AC0W, ARRL Dakota
+Division Director, stated` that this hamfest may be moving to a new
+location in 2023 as costs continue to increase at the International
+Peace Garden. [2022] may be your last opportunity to attend this event
+at the International Peace Gardens.
+
+Lynn W0ND, Peace Garden Hamfest Coordinator, suggests attendees bring a
+canopy, screen tent or shelter for registration, presentations, the ARRL
+Forum and socializing.
+
+Information about this event is also available on the
 [ARRL International Peace Garden Hamfest page](http://www.arrl.org/hamfests/international-peace-garden-hamfest-1).
 
 ### Schedule
