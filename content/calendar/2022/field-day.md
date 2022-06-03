@@ -1,5 +1,5 @@
 +++
-location = "[Cass County Highway Department](#field-day-site-location)"
+location = "[Cass County Highway Department](#visit-our-field-day-site-location)"
 title = "Field Day 2022 West Fargo"
 linkTitle = "Field Day - West Fargo"
 date = "2022-06-25T13:00:00-05:00"
