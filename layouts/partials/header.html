@@ -14,14 +14,16 @@
     
     <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-    <link rel='stylesheet' id='twentyfourteen-lato-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
-
-    <link rel='stylesheet' id='genericons-css' href='/genericons/genericons.css' type='text/css' media='all' />
-		<link rel='stylesheet' id='twentyfourteen-style-css' href='/css/style{{ partial "stamp.html" (dict "sitedata" (index .Site.Data) "file" "static/css") }}.css' type='text/css' media='all' />
-	<!--[if lt IE 9]>
-	<link rel='stylesheet' id='twentyfourteen-ie-css'  href='/css/ie.css' type='text/css' media='all' />
-	<![endif]-->
-	<!--<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>-->
+    {{ $fonts := resources.Get "css/fonts.css" }}
+    {{ $genericons := resources.Get "genericons/genericons.css" }}
+    {{ $style := resources.Get "css/style.css" }}
+    {{ $cssBundle := slice $fonts $genericons $style | resources.Concat "css/bundle.css" | resources.Minify | fingerprint }}
+    <link rel='stylesheet' href={{ $cssBundle.Permalink }} type='text/css' media='all' />
+    
+    <!--[if lt IE 9]>
+    <link rel='stylesheet' id='twentyfourteen-ie-css'  href='/css/ie.css' type='text/css' media='all' />
+    <![endif]-->
+    <!--<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>-->
 
 {{ partial "open-graph.html" . }}
 
