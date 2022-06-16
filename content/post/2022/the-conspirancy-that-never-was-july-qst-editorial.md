@@ -2,13 +2,13 @@
 date = "2022-06-13T01:00:00-05:00"
 title = "The Conspiracy That Never Was"
 authors = [ "NA2AA" ]
-categories = [ "Membership" ]
+categories = [ "Public Service" ]
 tags = [ "ARRL", "QST" ]
 +++
 ARRL has built an infrastructure for EmComm within our
 public service organization that we call the Amateur Radio
-Emergency Service&reg;, or ARES&reg;. This is both an organiza-
-tion and a framework for people to volunteer, take needed
+Emergency Service&reg;, or ARES&reg;. This is both an organization
+and a framework for people to volunteer, take needed
 training, join a local group, and then practice or drill to
 ensure readiness when required. It is the responsibility of
 your Section Manager to ensure that the position of Section
