@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 12
+update = 13
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -37,7 +37,7 @@ will attend the RRRA 2022 Hamfest & ARRL Dakota Division Convention
 Ticket sales start June 1, 2022.
 {{< /banner >}}
 
-{{< banner publish="2022-06-01" expires="2022-09-24T12:00:00-05:00" >}}
+{{< banner publish="2022-08-01" expires="2022-09-24T12:00:00-05:00" >}}
 **[Buy your admission and vendor table tickets TODAY](https://buytickets.at/redriverradioamateurs/700726/r/calendar-hamfest)
 and skip the Hamfest ticket table line.**
 
