@@ -7,14 +7,12 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "June Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 +++
-<!--
 ### Remote Access to Meeting
 
 Those unable to attend this meeting *in-person* are invited to
-[participate via Zoom]().
--->
+[participate via Zoom](https://lists.rrra.org/pipermail/rrra/2022-June/001313.html).
 
 ### Meeting Information
 
