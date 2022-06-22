@@ -1,6 +1,7 @@
 {{ $sign := index .Params 0 }}
 {{ $option := index .Params 1 }}
 {{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
+{{ $scratch := newScratch }}
 
 {{ if (fileExists $filename) }} {{/* Contact found in data/call, it is safe to proceed */}}
 	{{ $recip := index .Page.Site.Data.call $sign }}
@@ -12,43 +13,43 @@
 			   */}}
 			{{ if and ( findRE ".*?name" $option ) ( gt $recip.name "" ) }}
 				{{ if gt $recip.call "" }}
-					{{ .Page.Scratch.Set "call" $recip.call }}
+					{{ $scratch.Set "call" $recip.call }}
 				{{ else }}
-					{{ .Page.Scratch.Set "call" $sign }}
+					{{ $scratch.Set "call" $sign }}
 				{{ end }}
 				{{ if eq $option "fullname" }}
-					{{ .Page.Scratch.Set "name" $recip.name }}
+					{{ $scratch.Set "name" $recip.name }}
 				{{ else }}
-					{{ .Page.Scratch.Set "name" ( $recip.name | replaceRE " .*" "" )  }}
+					{{ $scratch.Set "name" ( $recip.name | replaceRE " .*" "" )  }}
 				{{ end }} 
-				{{ $linktext := .Page.Scratch.Get "call" | printf "%s %s" ( .Page.Scratch.Get "name" ) | printf "%s" }}
-				{{ .Page.Scratch.Set "linktext" $linktext }}
+				{{ $linktext := $scratch.Get "call" | printf "%s %s" ( $scratch.Get "name" ) | printf "%s" }}
+				{{ $scratch.Set "linktext" $linktext }}
 
 			{{/* Role contact */}}
 			{{ else if gt $recip.role "" }}
-				{{ .Page.Scratch.Set "linktext" $recip.role }}
+				{{ $scratch.Set "linktext" $recip.role }}
 
 			{{/* Hide their callsign */}}
 			{{ else if or ( eq $recip.call "none" ) ( eq $recip.call "" ) }}
-				{{ .Page.Scratch.Set "linktext" $recip.name }} 
+				{{ $scratch.Set "linktext" $recip.name }} 
 
 			{{/* Last straw... */}}
 			{{ else }}
-				{{ .Page.Scratch.Set "linktext" $sign }}
+				{{ $scratch.Set "linktext" $sign }}
 			{{ end }}
 
 			{{/* Output the obfuscated mailto markup */}}
-			{{ $email := "</a><span class=\"genericon genericon-mail\"></span>" | printf "%s%s" ( .Page.Scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
+			{{ $email := "</a><span class=\"genericon genericon-mail\"></span>" | printf "%s%s" ( $scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
 			<script type="text/javascript">
 			function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
 			X=('{{ $email | base64Encode }}')
 			document.write(f(X))
 			</script>
 			<noscript>
-			{{ .Page.Scratch.Get "linktext" }}
+			{{ $scratch.Get "linktext" }}
 			</noscript>
 		{{ else }} {{/* No e-mail address on file */}}
-			{{ .Page.Scratch.Get "linktext" }}
+			{{ $scratch.Get "linktext" }}
 		{{ end }}
 	{{ else }} {{/* Read failed */}}
 		{{ $sign }}
