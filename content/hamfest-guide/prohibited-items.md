@@ -1,7 +1,7 @@
 +++
-title = "Prohibited Flea Market Items Policy"
+title = "Prohibited Items Policy"
 +++
-Display and/or sale of certain items at the RRRA Hamfest & ARRL Dakota
+Display, wearing, or sale of certain items at the RRRA Hamfest & ARRL Dakota
 Division Convention is strictly prohibited and will result in
 unrefunded termination of admission privileges. These prohibited items
 include, but are not limited to, the following:
