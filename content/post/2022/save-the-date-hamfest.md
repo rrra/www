@@ -19,12 +19,12 @@ will attend the RRRA 2022 Hamfest & ARRL Dakota Division Convention
 *in-person*.
 
 {{< span expires="2022-05-31">}}:warning: Ticket sales start June 1, 2022{{< /span >}}
-{{< span publish="2022-08-01" expires="2022-09-24T12:00:00-05:00" >}}:information_source: <a href="/post/2022/05/24/save-the-date-for-the-2022-rrra-hamfest/">The RRRA On-Line Ticket Booth is open</a>{{< /span >}}
+{{< span publish="2022-06-01" expires="2022-09-24T12:00:00-05:00" >}}:information_source: <a href="/post/2022/05/24/save-the-date-for-the-2022-rrra-hamfest/">The RRRA On-Line Ticket Booth is open</a>{{< /span >}}
 
 <p style="clear:both;"></p>
 <!--more-->
 
-{{< banner publish="2022-08-01" expires="2022-09-24T12:00:00-05:00" >}}
+{{< banner publish="2022-06-01" expires="2022-09-24T12:00:00-05:00" >}}
 **[Buy your admission and vendor table tickets TODAY](https://buytickets.at/redriverradioamateurs/700726/r/blog-save-the-date)
 and skip the Hamfest ticket table line.**
 

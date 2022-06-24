@@ -7,11 +7,10 @@ title = "General Admission and Vendor Tickets"
 to anyone at any time.***
 {{< /banner >}}
 
-#### Admission Tickets
+#### Admission Tickets: $10
 
 ##### Each ticket includes
 
-* Admission to the 2022 RRRA Hamfest & ARRL Dakota Division Hamfest
 * 1 Door prize drawing entry
  
 ##### Terms and Conditions
@@ -19,7 +18,7 @@ to anyone at any time.***
 * Admission Tickets are **non-refundable**
 * 12 years and under admitted free with paid accompanying adult; **door prize drawing entry not included**
 
-#### Vendor Table Tickets
+#### Vendor Table Tickets: $20 
 
 ##### Each ticket includes
 
