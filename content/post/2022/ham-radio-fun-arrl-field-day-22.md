@@ -4,10 +4,11 @@ title = "Ham Radio fun: ARRL Field Day '22"
 authors = [ "K0STK" ]
 categories = [ "Outreach", "Technical" ]
 tags = [ "Field Day", "W2AEW", "YouTube" ]
+moreText = "Watch The Video"
 +++
-A short video from the
-[W2AEW YouTube channel](https://www.youtube.com/user/w2aew)
-showing a bit of his *solo* Field Day setup at the Guglielmo Marconi Memorial
+W2AEW has posted a short video on his
+[YouTube channel](https://www.youtube.com/user/w2aew)
+showing some of his *solo* Field Day setup at the Guglielmo Marconi Memorial
 Park in Franklin Twp NJ - former site of the
 [Marconi Wireless Corp East Coast transmitting station](https://en.wikipedia.org/wiki/List_of_Marconi_wireless_stations#New_Jersey).
 <!--more-->
