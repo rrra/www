@@ -11,19 +11,26 @@
 	{{ $rsstitle := .Title }}
 	{{ $rsspath := printf "/dates/%s" ( .Title | urlize ) }}
 	{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
-		<span class="cat-links">
-			{{ if eq ( .Title | urlize ) "ncs-schedule" }}<a href="/nets/">Nets</a>{{ else }}<a href="/calendar/0">Calendar</a>{{ end }}
-		</span>
+	<span class="cat-links">
+		{{ if eq ( .Title | urlize ) "ncs-schedule" }}<a href="/nets/">Nets</a>{{ else }}<a href="/calendar/0">Calendar</a>{{ end }}
+	</span>
 	</div>
+
 	<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
 {{ with  .OutputFormats.Get "calendar" -}}
 	<span class="noprint"><div><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Learn how to add these dates to your device</a></div></span>
 {{- end }}
+
+	{{ $cat := index .Site.Params.dates (.Title | urlize) }}
+	{{ with $cat.description }}
+		<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
+	{{ end }}
+
 	{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 	{{ if ne $contact nil }}
-		<div id="contact">
-			<br /><span class="vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }}
-		</div>
+	<div id="contact">
+		<br /><span class="vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }}
+	</div>
 	{{ end }}
 
 </header>
@@ -70,7 +77,7 @@
 	{{ end }}
 	*/}}
 
-	<div class="banner"><p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event should be listed on this calendar.</p></div>
+	<div class="banner"><p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event should be listed here.</p></div>
 	<p class="clear"></p>
 
 	<div class="noprint">

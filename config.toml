@@ -90,6 +90,11 @@ unsafe= true
 [params.categories.technical]
   description = "Content (e.g. blog posts, information pages, and files/links) about the activities of the RRRA Technical Committee and the equipment/systems they maintain, along with technical topics of general interest."
 
+[params.dates]
+
+[params.dates.license-testing]
+	description = "Select your license test session on this page for more information and to learn how to sign up. Please contact our Testing Coordinator if no test sessions are listed or you would like to arrange one on a specific date."
+
 [params.tooltips]
 
 [params.tooltips.about]
