@@ -70,12 +70,10 @@
 	{{ end }}
 	</div>
 
-	{{/*
 	{{ if eq ( .Title | urlize )  "license-testing" }}
-		{{ partial "bring" }}
-		{{ partial "status" }}
+		{{ partialCached "bring" . }}
+		{{ partialCached "after-the-test" . }}
 	{{ end }}
-	*/}}
 
 	<div class="banner"><p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event should be listed here.</p></div>
 	<p class="clear"></p>
