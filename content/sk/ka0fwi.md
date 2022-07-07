@@ -3,7 +3,7 @@ born = "1959-11-21"        # Date Of Birth YYYY-MM-DD
 date = "2022-05-19"        # SK Date YYYY-MM-DD
 licensed = "1981-02-27"    # Date Licensed as YYYY-MM-DD or just year
 name = "Douglas S Swenson"        # Full name with middle initial
-photocredit = ""	# Defaults to obituary
+photocredit = "North School Folk House"	# Defaults to obituary
 obituary = "Wright Funeral Home & Cremation Service"    # Name of obituary source
 obitLink = "https://www.wrightfuneral.com/obituary/douglas-s-swenson/"    # Link to on-line obituary page
 silentkeyhq = "" # silentkeyhq UID for this SK
@@ -24,4 +24,11 @@ work has been done out of a shop that recreates the time period of 1885 to
 Viking age Sweden.
 
 https://northhouse.org/instructors/doug-swenson
+
+Also
+
+https://www.minot.af.mil/News/Article-Display/Article/806181/heavy-metal-artisan/
+
 -->
+
+
