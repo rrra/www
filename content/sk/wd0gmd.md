@@ -1,5 +1,5 @@
 +++
-#born = "1947"        # Date Of Birth YYYY-MM-DD
+born = "1947"        # Date Of Birth YYYY-MM-DD
 date = "2022-07-06"        # SK Date YYYY-MM-DD
 licensed = ""    # Date Licensed as YYYY-MM-DD or just year
 name = "Bernard L Arcand"        # Full name with middle initial

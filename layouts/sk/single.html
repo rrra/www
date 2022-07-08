@@ -58,16 +58,16 @@
 			{{ $scratch.Set "needed" "" }}
 		{{ end }}
 	{{ end }}
-		
+
 		<dl id="list">
-			{{ with .Params.born }}
-				<dt class="twocol header">Born:</dt><dd class="twocol">{{ . | dateFormat ( $sitedate ) }}</dd>
+			{{ if gt .Params.born "" }}
+				<dt class="twocol header">Born:</dt><dd class="twocol">{{ if eq ( len .Params.born ) 4 }}{{ .Params.born }}{{ else }}{{ .Params.born | dateFormat ( $sitedate ) }}{{ end }}</dd>
 			{{ else }}
 				{{ $scratch.Add "needed" "birth|" }}
 			{{ end }}
 
 			{{ if gt .Params.licensed "" }}
-				<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if gt $licensed "" }}{{ .Params.licensed | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>
+				<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if eq ( len .Params.licensed ) 4 }}{{ .Params.licensed }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>
 			{{ end}}
 
 			{{ if gt .Date "" }}
