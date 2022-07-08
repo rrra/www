@@ -61,13 +61,13 @@
 
 		<dl id="list">
 			{{ if gt .Params.born "" }}
-				<dt class="twocol header">Born:</dt><dd class="twocol">{{ if eq ( len .Params.born ) 4 }}{{ .Params.born }}{{ else }}{{ .Params.born | dateFormat ( $sitedate ) }}{{ end }}</dd>
+				<dt class="twocol header">Born:</dt><dd class="twocol">{{ if ( findRE "^[12][0-9][0-9][0-9]-[01][1-9]-[0-3][0-9]$" .Params.born ) }}{{ .Params.born | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.born }}{{ end }}</dd>
 			{{ else }}
 				{{ $scratch.Add "needed" "birth|" }}
 			{{ end }}
 
 			{{ if gt .Params.licensed "" }}
-				<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if eq ( len .Params.licensed ) 4 }}{{ .Params.licensed }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>
+				<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if ( findRE "^[12][0-9][0-9][0-9]-[01][1-9]-[0-3][0-9]$" .Params.licensed ) }}{{ .Params.licensed | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>
 			{{ end}}
 
 			{{ if gt .Date "" }}
