@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 15
+update = 16
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -53,13 +53,15 @@ for more information.
 {{< back >}}
 ### Featuring
 
+* [ARRL Member Event](#wouff-hong)
 * Cash and merchandise door prizes
 * Eyeball QSOs
 * Flea Market
 * Food & Beverages
 * [License Testing]({{< relref "/calendar/2022/hamfest-testing.md" >}}) (aka *VE Testing* or *VE Session*)
+* [On-line Box Office](#on-line-box-office)
 * Seminars
-* [ARRL Member Event](#wouff-hong)
+* [Hamfest Flyer](#hamfest-flyer)
 
 *Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2022/rrra-hamfest.md#schedule" >}}) for more information*
 
@@ -68,45 +70,9 @@ for more information.
 * [Admission and Vendor Tickets]({{< relref "/hamfest-guide/ticketing.md" >}})
 * [Driving Directions]({{< relref "/hamfest-guide/directions.md" >}})
 * [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
-* [Prohibited Flea Market Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
-
-{{< back >}}
-### Schedule
-*Schedule subject to change without notice*
-
-#### Friday, September 23rd
-
-Time |      |
------|------|
-4PM | Flea Market setup in Main Hall
-7PM | Hartl building closes for the night
-9PM | Royal Order of the Wouff Hong Ceremony
-
-#### Saturday, September 24th
-
-Time |      |
------|------|
-7AM | Flea Market setup in Main Hall
-&nbsp; | Light Breakfast served in the lobby of the Hartl Building
-8AM | Flea Market opens
-9AM | Seminars begin
-10AM | License Testing begins
-10:30AM | Lunch served in Main Hall
-11AM | License Testing cut off
-2PM | Hamfest ends
+* [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
 
 {{< hamfest-donors 2022 >}}
-
-<!--
-{{< back >}}
-### Seminars
-
-*Seminars subject to change without notice*
-
-Time | Subject | Presented by
------|---------|-------------
-TBD  | ARRL Update | ...
--->
 
 {{< back >}}
 ### ARRL Member Event { #wouff-hong }
@@ -134,7 +100,52 @@ data-inline-ref="website_widget"></script></div>
 {{< banner class="alert" >}}
 Admission and Vendor Table Ticket purchases are **non-refundable** and indicate
 acceptance of the RRRA
-[Prohibited Flea Market Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}}).
+[Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}}).
 {{< /banner >}}
 
+{{< back >}}
+### Schedule
+*Schedule subject to change without notice*
+
+#### Friday, September 23rd
+
+Time |      |
+-----|------|
+4PM | Flea Market setup in Main Hall
+7PM | Hartl building closes for the night
+9PM | Royal Order of the Wouff Hong Ceremony
+
+#### Saturday, September 24th
+
+Time |      |
+-----|------|
+7AM | Flea Market setup in Main Hall
+&nbsp; | Light Breakfast served in the lobby of the Hartl Building
+8AM | Flea Market opens
+9AM | Seminars begin
+10AM | License Testing begins
+10:30AM | Lunch served in Main Hall
+11AM | License Testing cut off
+2PM | Hamfest ends
+
+<!--
+{{< back >}}
+### Seminars
+
+*Seminars subject to change without notice*
+
+Time | Subject | Presented by
+-----|---------|-------------
+TBD  | ARRL Update | ...
+-->
+
+{{< back >}}
+### Hamfest Flyer
+
+<div style="width:100%;text-align:center;">
+<strong><a href="https://cloud.rrra.org/index.php/s/oXmKKrLCWCqPeD3">Download
+the 2022 RRRA Hamfest Flyer</s>
+</div>
+
+{{< figure src="https://images.rrra.org/2022-hamfest-flyer-thumbnail.jpg" link="https://cloud.rrra.org/index.php/s/oXmKKrLCWCqPeD3" >}}
 
