@@ -1,6 +1,6 @@
 +++
 date = "2022-06-28T12:25:00-05:00"
-title = "Ham Radio fun: ARRL Field Day '22"
+title = "Ham Radio Fun: ARRL Field Day '22"
 authors = [ "K0STK" ]
 categories = [ "Outreach", "Technical" ]
 tags = [ "Field Day", "W2AEW", "YouTube" ]
