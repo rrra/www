@@ -6,7 +6,7 @@ name = "Douglas S Swenson"        # Full name with middle initial
 photocredit = "North School Folk House"	# Defaults to obituary
 obituary = "Wright Funeral Home & Cremation Service"    # Name of obituary source
 obitLink = "https://www.wrightfuneral.com/obituary/douglas-s-swenson/"    # Link to on-line obituary page
-silentkeyhq = "" # silentkeyhq UID for this SK
+silentkeyhq = "0281657130839201" # silentkeyhq UID for this SK
 title = "KA0FWI"
 created = "2022-07-06T12:46:09-05:00"
 +++

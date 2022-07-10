@@ -6,7 +6,7 @@ name = "Gilbert V Nordstrom"        # Full name with middle initial
 photocredit = "" # Defaults to obituary
 obituary = "Eastgate Funeral & Cremation Service"    # Name of obituary source
 obitLink = "http://www.parkwayfuneral.com/obituary/gilbert-nordstrom"    # Link to on-line obituary page
-silentkeyhq = "" # silentkeyhq UID for this SK
+silentkeyhq = "0461657293045325" # silentkeyhq UID for this SK
 title = "K0TN"
 created = "2022-07-08T10:21:30-05:00"
 +++
