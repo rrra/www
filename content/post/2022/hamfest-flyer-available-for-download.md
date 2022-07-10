@@ -19,29 +19,15 @@ the 2022 RRRA Hamfest Flyer</s>
 
 <p style="clear:both;"></p>
 
-{{< banner >}}
-**Buy your admission and vendor table tickets TODAY
+{{< banner publish="2022-06-01" expires="2022-09-24T12:00:00-05:00" >}}
+**[Buy your admission and vendor table tickets TODAY](https://buytickets.at/redriverradioamateurs/700726/r/calendar-hamfest)
 and skip the Hamfest ticket table line.**
-{{< /banner >}}
 
-<!-- Ticket Tailor Widget. Paste this into your website where you want the
-widget to appear. Do not change the code or the widget may not work properly.
--->
-<div class="tt-widget"><div class="tt-widget-fallback"><p><a
-href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget"
-target="_blank">Click here to buy tickets</a><br /><small><a
-href="https://www.tickettailor.com?rf=wdg_99768"
-class="tt-widget-powered">Sell tickets online with Ticket
-Tailor</a></small></p></div><script
-src="https://cdn.tickettailor.com/js/widgets/min/widget.js"
-data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/"
-data-type="inline" data-inline-minimal="true" data-inline-show-logo="false"
-data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param=""
-data-inline-ref="website_widget"></script></div>
-<!-- End of Ticket Tailor Widget -->
+Tickets are also available
+[by mail order](https://cloud.rrra.org/index.php/s/4LSCD28maTmL7JT)
+and at the door.
 
-{{< banner class="alert" >}}
-Admission and Vendor Table Ticket purchases are **non-refundable** and indicate
-acceptance of the RRRA
-[Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}}).
+Please read our
+[ticketing guide]({{< relref "/hamfest-guide/ticketing.md" >}})
+for more information.
 {{< /banner >}}
