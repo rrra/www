@@ -1,7 +1,7 @@
 +++
 date = "2022-07-11T07:07:40-05:00"
 #publishdate = "2022-07-11T07:07:40-05:00"
-title = "Fcc Legacy Cores System to Be Retired"
+title = "FCC Legacy Cores System to Be Retired"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = [ "ARRL", "FCC" ]
