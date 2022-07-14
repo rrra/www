@@ -47,8 +47,7 @@ Create a bookmark for **hamfest.rrra.org** and
 to stay informed about North Dakota's largest Hamfest!
 {{< /banner >}}
 
-
-{{< hamfest-donors 2021 >}}
+{{< hamfest-sponsors 2021 >}}
 
 ### Admission and Flea Market Tables 
 

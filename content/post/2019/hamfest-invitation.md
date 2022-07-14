@@ -12,7 +12,7 @@ The [Red River Radio Amateurs Hamfest and ARRL Dakota Division Convention](http:
 runs from 8AM to 2PM at the Red River Valley Fairgrounds on Saturday,
 September 28, 2018.
 
-{{< hamfest-donors >}}
+{{< hamfest-sponsors >}}
 <br />
 
 Please [visit http://hamfest.rrra.org](http://hamfest.rrra.org/2019) or

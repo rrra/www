@@ -13,7 +13,7 @@ Convention a success. See you next year!
 [Subscribe to our Hamfest Announcements mailing list]({{< relref "/post/2021/thank-you-for-making-our-hamfest-a-success.md#how-to-join-the-mailing-list" >}})
 if you did not receive e-mail announcements about the 2021 RRRA Hamfest.
 
-{{< hamfest-donors 2021 >}}
+{{< hamfest-sponsors 2021 >}}
 <p class="clear"></p>
 
 <!--more-->

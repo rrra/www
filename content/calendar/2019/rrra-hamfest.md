@@ -27,7 +27,7 @@ RRRA Hamfest.
 * Talk-In on 145.350-T123 and 444.875+T123
 * APRS Object: HFEST-28r
 
-{{< hamfest-donors 2019 >}}
+{{< hamfest-sponsors 2019 >}}
 
 ### Ticket and Flea Market Table Pricing
 * Admission Tickets

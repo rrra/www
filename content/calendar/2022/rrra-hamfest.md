@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 16
+update = 17
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -23,7 +23,7 @@ to stay informed about North Dakota's largest Hamfest in 2023!
 ### With Special Guest --- K5UR
 
 <div style="float:left;padding-right:1.4em;">
-{{< figure src="https://www.arrl.org/img/170x130/About_ARRL/Rick_Roderick_PREFERRED_PIC.jpg" >}}
+{{< figure src="//www.arrl.org/img/170x130/About_ARRL/Rick_Roderick_PREFERRED_PIC.jpg" >}}
 </div>
 <p style="clear;both;"></p>
 
@@ -51,6 +51,9 @@ for more information.
 {{< /banner >}}
 
 {{< back >}}
+{{< hamfest-sponsors 2022 >}}
+
+{{< back >}}
 ### Featuring
 
 * [ARRL Member Event](#wouff-hong)
@@ -72,8 +75,6 @@ for more information.
 * [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
 * [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
 
-{{< hamfest-donors 2022 >}}
-
 {{< back >}}
 ### ARRL Member Event { #wouff-hong }
 * Royal Order of the Wouff-Hong Ceremony (September 23rd)
@@ -82,6 +83,9 @@ for more information.
 ### On-Line Box Office
 
 <!-- Ticket Tailor Widget. Paste this into your website where you want the
+{{< hamfest-sponsors 2019 >}}
+{{< hamfest-sponsors 2019 >}}
+{{< hamfest-sponsors 2019 >}}
 widget to appear. Do not change the code or the widget may not work properly.
 -->
 <div class="tt-widget"><div class="tt-widget-fallback"><p><a
