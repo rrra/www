@@ -8,12 +8,9 @@ title = "July Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-<!--
 ### Remote Access to Meeting
 
-Those unable to attend this meeting *in-person* are invited to
-[participate via Zoom]().
--->
+{{< import "/post/2022/july-business-meeting-zoom-inivitations-by-request.md" >}}
 
 ### Meeting Information
 
