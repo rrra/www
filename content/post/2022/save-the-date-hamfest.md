@@ -9,7 +9,6 @@ endFeatured = "2022-09-24T12:00:00-05:00"
 siteBanner = "Meet K5UR on September 24th &commat; [hamfest.rrra.org](https://hamfest.rrra.org)"
 +++
 ### With Special Guest --- K5UR
-<!--more-->
 <div style="float:left;padding-right:1.4em;">
 {{< figure src="https://www.arrl.org/img/170x130/About_ARRL/Rick_Roderick_PREFERRED_PIC.jpg" >}}
 </div>
@@ -23,6 +22,7 @@ will attend the RRRA 2022 Hamfest & ARRL Dakota Division Convention
 {{< span publish="2022-06-01" expires="2022-09-24T12:00:00-05:00" >}}:information_source: <a href="/post/2022/05/24/save-the-date-for-the-2022-rrra-hamfest/">The RRRA On-Line Ticket Booth is open</a>{{< /span >}}
 
 <p style="clear:both;"></p>
+<!--more-->
 
 {{< banner publish="2022-06-01" expires="2022-09-24T12:00:00-05:00" >}}
 **[Buy your admission and vendor table tickets TODAY](https://buytickets.at/redriverradioamateurs/700726/r/blog-save-the-date)

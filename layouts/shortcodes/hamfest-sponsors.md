@@ -6,46 +6,37 @@ See existing files for formatting
 {{ $year := $.Page.Params.date | dateFormat "2006" }}
 {{ range $.Site.Data.hamfest }}
 	{{ if eq .year $year }}
-		<div id="banner">
-			{{ with .sponsors }}
-				<h3>Hamfest Sponsors</h3>
-				<ul style="list-style:none;border:0;margin:0;">
-				{{ range . }}
-					<li><img src="{{ . }}" alt="Name goes
-here"></li>
+		<h3>{{ if .sponsor }}Sponsors{{ end }}{{ if and ( .sponsor ) ( .donor ) }} & {{ end }}{{ if .donor }}Donors{{ end }}</h3>
+		<p>This Hamfest was made possible by contributions from:</p>
+		{{ with .sponsor }}
+			<ul style="list-style:none;border-left:0;margin-left:0;">
+			{{ range . }}
+				{{/* From https://gohugo.io/templates/shortcode-templates/ */}}
+				<figure {{ with .class }}class="{{ . }}"{{ end }}>
+					{{ with .level }}<h4>{{ . }} Sponsor</h4>{{ end }}
+					{{ with .link }}<a href="{{ . }}">{{ end }}
+						{{ if .image  }}<img src="{{ .image }}" {{ with .name }}alt="{{ . }}" title="Visit {{ . }}"{{ end }} />{{ end }}
+					{{ if .link }}</a>{{ end }}
+					{{ if or ( .name ) ( .caption ) }}
+					<figcaption><p>
+						{{ .caption }}
+						{{ with .link }}<a href="{{ . }}"> {{ end }}
+							{{ .name }}
+						{{ if .link }}</a>{{ end }}
+					</p></figcaption>
 				{{ end }}
-				</ul>
+			</figure>
+		{{ end }}
+		</ul>
+		{{ end }}
+		{{ if and ( .sponsor ) ( .donor ) }}<h4>Donors</h4>{{ end }}
+		{{ with .donor }}
+			<ul>
+			{{ range . }}
+				{{ with .favicon }}<li style="list-style:none;position:relative;left:-20px;"><img src="{{ . | safeURL }}" /> {{ else }}<li>{{ end }}{{ with .link }}<a href="{{ . }}">{{ end }}{{ .name }}{{ with .link }}</a>{{ end }}</li>
 			{{ end }}
-			{{ with .donors }}
-				<h3>Door Prize Donors</h3>
-				<ul>
-				{{ range .}}
-					<li>{{ . | markdownify }}</li>
-				{{ end }}
-				</ul>
-			{{ end }}
-		</div>
+			</ul>
+		{{ end }}
 	{{ end }}
 {{ end }}
 
-{{/*
-# From https://gohugo.io/templates/shortcode-templates/
-
-<figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
-    {{ with .Get "link" }}<a href="{{ . }}">{{ end }}
-        <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"{{ end }} />
-    {{ if .Get "link" }}</a>{{ end }}
-    {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr") }}
-    <figcaption>{{ if isset .Params "title" }}
-        <h4>{{ .Get "title" }}</h4>{{ end }}
-        {{ if or (.Get "caption") (.Get "attr") }}<p>
-        {{ .Get "caption" }}
-        {{ with .Get "attrlink" }}<a href="{{ . }}"> {{ end }}
-            {{ .Get "attr" }}
-        {{ if .Get "attrlink" }}</a> {{ end }}
-        </p> {{ end }}
-    </figcaption>
-    {{ end }}
-</figure>
-
-*/}}

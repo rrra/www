@@ -1,17 +1,43 @@
 year = "2022"
 
-#sponsors = [
-#	"//images.rrra.org/rrra-logo-round-200x200.jpg",
-#]
+#[[sponsor]]
+#level = "Gold"
+#name = "ARRL"
+#link = "https://arrl.org"
+#image = "//images.rrra.org/hamfest/arrl-logo-2020-474x236.jpg"
 
-donors = [
-	"[Bioenno Power](https://www.bioennopower.com/)",
-	"[Buckmaster International, LLC](http://www.hamcall.net/)",
-	"[COMPACtenna](https://compactenna.com)",
-	"[DX Engineering](https://www.dxengineering.com/)",
-	"[Easy Way Ham Books](https://www.easywayhambooks.com/)",
-	"[FlexRadio](https://www.flexradio.com/)",
-	"[MFJ](http://www.mfjenterprises.com/)",
-	"[N3FJP](https://n3fjp.com)",
-	"[Quicksilver Radio](https://qsradio.com/)",
-]
+[[donor]]
+name = "Bioenno Power"
+link = "https://www.bioennopower.com/"
+
+[[donor]]
+name = "Buckmaster International LLC"
+link = "http://www.hamcall.net/"
+
+[[donor]]
+name = "COMPACtenna"
+link = "https://compactenna.com"
+
+[[donor]]
+name = "DX Engineering"
+link = "https://www.dxengineering.com/"
+
+[[donor]]
+name = "Easy Way Ham Books"
+link = "https://www.easywayhambooks.com/"
+
+[[donor]]
+name = "FlexRadio"
+link = "https://www.flexradio.com/"
+
+[[donor]]
+name = "MFJ"
+link = "http://www.mfjenterprises.com/"
+
+[[donor]]
+name = "N3FJP"
+link = "https://n3fjp.com"
+
+[[donor]]
+name = "Quicksilver Radio"
+link = "https://qsradio.com/"

@@ -1,22 +1,77 @@
 year = "2021"
-donors = [
-	"AD0TE, KA0LDG, K0OP, & WA0LIA",
-	"[ARRL](http://www.arrl.org/)",
-	"[ACE Hardware Moorhead](https://moorheadace.com/)",
-	"[Alpha Antenna](http://www.alphaantenna.com/)",
-	"[Buckmaster International, LLC](http://www.hamcall.net/)",
-	"[COMPACtenna](https://compactenna.com)",
-	"[DX Engineering](https://www.dxengineering.com/)",
-	"[Elecraft](https://elecraft.com/)",
-	"[Hammond Manufacturing](https://www.hammfg.com)",
-	"[Heil Sound](https://heilhamradio.com/)",
-	"[Icom](http://www.icomamerica.com/en/amateur/)",
-	"[Mastrant Antenna Guying](http://www.mastrant.com/)",
-	"[MFJ](http://www.mfjenterprises.com/)",
-	"[N3FJP](https://n3fjp.com)",
-	"[NCG Company (Comet Antennas)](http://www.cometantenna.com)",
-	"[RT Systems](https://www.rtsystemsinc.com/)",
-	"[Tigertronics](http://tigertronics.com/)",
-	"[West Mountain Radio](http://www.westmountainradio.com/)",
-	"[Yaesu](https://yaesu.com)",
-]
+
+[[donor]]
+name = "AD0TE, KA0LDG, K0OP, & WA0LIA"
+
+[[donor]]
+name = "ARRL"
+link = "http://www.arrl.org/"
+
+[[donor]]
+name = "ACE Hardware Moorhead"
+link = "https://moorheadace.com/"
+
+[[donor]]
+name = "Alpha Antenna"
+link = "http://www.alphaantenna.com/"
+
+[[donor]]
+name = "Buckmaster International, LLC"
+link = "http://www.hamcall.net/"
+
+[[donor]]
+name = "COMPACtenna"
+link = "https://compactenna.com"
+
+[[donor]]
+name = "DX Engineering"
+link = "https://www.dxengineering.com/"
+
+[[donor]]
+name = "Elecraft"
+link = "https://elecraft.com/"
+
+[[donor]]
+name = "Hammond Manufacturing"
+link = "https://www.hammfg.com"
+
+[[donor]]
+name = "Heil Sound"
+link = "https://heilhamradio.com/"
+
+[[donor]]
+name = "Icom"
+link = "http://www.icomamerica.com/en/amateur/"
+
+[[donor]]
+name = "Mastrant Antenna Guying"
+link = "http://www.mastrant.com/"
+
+[[donor]]
+name = "MFJ"
+link = "http://www.mfjenterprises.com/"
+
+[[donor]]
+name = "N3FJP"
+link = "https://n3fjp.com"
+
+[[donor]]
+name = "NCG Company (Comet Antennas)"
+link = "http://www.cometantenna.com"
+
+[[donor]]
+name = "RT Systems"
+link = "https://www.rtsystemsinc.com/"
+
+[[donor]]
+name = "Tigertronics"
+link = "http://tigertronics.com/"
+
+[[donor]]
+name = "West Mountain Radio"
+link = "http://www.westmountainradio.com/"
+
+[[donor]]
+name = "Yaesu"
+link = "https://yaesu.com"
+

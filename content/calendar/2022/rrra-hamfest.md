@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 17
+update = 18
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -51,9 +51,6 @@ for more information.
 {{< /banner >}}
 
 {{< back >}}
-{{< hamfest-sponsors 2022 >}}
-
-{{< back >}}
 ### Featuring
 
 * [ARRL Member Event](#wouff-hong)
@@ -74,6 +71,9 @@ for more information.
 * [Driving Directions]({{< relref "/hamfest-guide/directions.md" >}})
 * [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
 * [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
+
+{{< back >}}
+{{< hamfest-sponsors 2022 >}}
 
 {{< back >}}
 ### ARRL Member Event { #wouff-hong }
