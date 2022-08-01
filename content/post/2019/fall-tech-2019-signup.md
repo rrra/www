@@ -17,7 +17,7 @@ of classes begins
 The required textbook changed, beginning with the Spring 2018 Technician
 Classes, to the *HamRadioSchool.com Technician License Course book*.
 Students are strongly encouraged to visit our
-[Education and Testing Schedule]({{< relref "/education-and-testing-schedule.md#textbooks" >}})
+[Education and Testing page]({{< relref "/education-and-testing.md#textbooks" >}})
 before purchasing their textbook.
 
 <!--more-->
@@ -33,6 +33,6 @@ There is no charge for instruction; however a textbook is required
 
 Detailed class information, including links to purchase the required
 text books, is available on our
-[Education and Testing Schedule]({{< relref "/education-and-testing-schedule.md#textbooks" >}}).
+[Education and Testing page]({{< relref "/education-and-testing.md#textbooks" >}}).
 
 Please contact {{< mailto WD0EGC name >}} if you have any questions.

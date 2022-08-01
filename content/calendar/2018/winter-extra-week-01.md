@@ -14,7 +14,7 @@ topics = [ "Sign in", "Introductions" ]
 
 * Sign in
 * Introductions
-* Talk about the [books]({{< relref "/education-and-testing-schedule.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
+* Talk about the [books]({{< relref "/education-and-testing.md#textbooks" >}}) and what to bring to class (paper, pen, calculator)
 * Hand out the syllabus
 * Cover what we will be going over each week
 * Chapter 2 - Operating Practices

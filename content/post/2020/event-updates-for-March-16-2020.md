@@ -48,7 +48,7 @@ The [Spring 2020 Technician](/dates/spring-2020-technician/) Amateur
 Radio license class has been cancelled by instructor Jay WD0EGC.
 
 Students are encouraged to watch the
-[RRRA Education and Testing Schedule]({{< relref "/education-and-testing-schedule.md" >}})
+[RRRA Education and Testing page]({{< relref "/education-and-testing.md" >}})
 for Technician classes in the Fall of 2020.
 
 ### Hamvention 2020 Canceled

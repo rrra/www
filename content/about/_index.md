@@ -10,7 +10,7 @@ Red River Radio Amateurs is a nonprofit
 [ARRL affiliated Amateur Radio club](http://www.arrl.org/Groups/view/red-river-radio-amateurs-inc/type:club)
 serving Fargo, Moorhead, and the surrounding area, with communication
 support and
-[educational outreach]({{< relref "/education-and-testing-schedule.md" >}}).
+[educational outreach]({{< relref "/education-and-testing.md" >}}).
 
 * [Board of Directors \(Club Officers\)]({{< relref "/about/contact.md" >}})
 * [Bylaws]({{< relref "/about/bylaws.md" >}})

@@ -2,61 +2,46 @@
 categories = [ "Education", "License Testing" ]
 description = ""
 slug = ""
-title = "Education and Testing Schedule"
+title = "Education and Testing"
 weight = -1
-aliases = [ "/post/2017/12/25/2018-2019-education-and-testing-schedule/",
-	"/post/2017/12/21/2018-2019-education-and-testing-schedule/",
-	"/post/2016/11/14/2017-2018-education-and-testing-schedule/",
-	"/post/2015/12/04/2016-2017-education-and-testing-schedule/",
-	"/about/committees/education-and-testing-schedule/" ]
+aliases = [ "/post/2017/12/25/2018-2019-education-and-testing/",
+	"/post/2017/12/21/2018-2019-education-and-testing/",
+	"/post/2016/11/14/2017-2018-education-and-testing/",
+	"/post/2015/12/04/2016-2017-education-and-testing/",
+	"/about/committees/education-and-testing/",
+	"/content/education-and-testing/"
+]
 +++
-RRRA's Amateur Radio license test preparation classes
-have been paused for the duration of the COVID-19 pandemic due to
-limitations on public gatherings.
-
-Amateur Radio License testing sessions are conducted remotely by a number of
-Volunteer Examiner (VE) Teams---including RRRA---and can be found online at:
-
-* [hamstudy.org](https://hamstudy.org/sessions)
-* [GLAARG VEC](https://glaarg.org/exam_sessions/)
-
-<!--
 ### Amateur Radio Licensing Classes
 
 Get started in Amateur Radio---or upgrade your license---with a class
 presented by one of RRRA's experienced instructors.
 
-These classes are held Wednesday evenings, from 7:00pm to 9:00pm, on the
-3rd floor of the
-{{< hcard p-name="West Fargo Public Library" p-adr="109 3rd St E" p-loc="West Fargo" p-reg="ND" p-zip="58078" p-url="http://www.westfargolibrary.com" >}},
-and run for 6 to 10 weeks.
+Class times and locations may be found through our class schedule.
 
 **There is no charge for instruction; however a
-[textbook]({{< relref "/education-and-testing-schedule.md#textbooks" >}})
+[textbook]({{< relref "/education-and-testing.md#textbooks" >}})
 is required** (approximate cost $30)
 
 #### Class Schedule
 
 {{< classes >}}
--->
-
 <!--more-->
 
-<!--
 #### Textbooks
 
 ##### Technician License Course Textbook
 
-* [HamRadioSchool.com](http://www.hamradioschool.com/)---June 11, 2012
-* For the 2018-2022 question pool
-* ISBN-10: 1477595457
-* ISBN-13: 978-1477595459
+* [HamRadioSchool.com](http://www.hamradioschool.com/)---May 7, 2022
+* For the 2022--2026 question pool
+* ISBN-13: 979-8819744390
 
 **Purchasing links:**
 
-* [Amazon](https://www.amazon.com/HamRadioSchool-com-Technician-License-Course-Turner/dp/1477595457)
-* [DX Engineering](https://www.dxengineering.com/search/brand/ham-radio-school/product-line/ham-radio-school-technician-class-license-course-book)
+* [Amazon](https://www.amazon.com/School-Technician-License-Course-2022-2026/dp/B0B14M9SGR/)
+* [DX Engineering](https://www.dxengineering.com/parts/hds-techbook2026)
 
+<!--
 ##### General License Course Textbook
 
 * [HamRadioSchool.com](http://www.hamradioschool.com/)---June 3, 2019
@@ -83,13 +68,9 @@ is required** (approximate cost $30)
 * Cheapest Textbooks: [Regular](https://www.cheapesttextbooks.com/subjects/The-ARRL-Extra-Class-License-Manual-9781625950451.html), [Spiral Bound](https://www.cheapesttextbooks.com/subjects/The-ARRL-Extra-Class-License-Manual-Spiral-11th-Edition-9781625950550.html)
 * DX Engineering: [Regular](https://www.dxengineering.com/parts/arr-0451), [Spiral Bound](https://www.dxengineering.com/parts/arr-0550)
 * Search for other vendors: [Regular](https://duckduckgo.com/?q=ISBN+9781625950451&t=ffnt&ia=web), [Spiral Bound](https://duckduckgo.com/?q=ISBN+9781625950550&t=ffnt&ia=web)
+-->
 
 ### Amateur Radio License Testing
-
-RRRA Volunteer Examiners (VEs) conduct Amateur Radio license testing
-sessions on an approximately bi-monthly basis---including after the
-completion of each series of weekly classes and in conjunction with the
-[RRRA Hamfest](/dates/hamfest/).
 
 Please see our index of [License Testing dates](/dates/license-testing/) for a
 complete list of currently scheduled testing dates along with information
@@ -98,4 +79,3 @@ about *License Test Prerequisites* and *Checking Your License Status*.
 Use the ARRL 
 [Find an Amateur Radio License Exam Session](http://www.arrl.org/find-an-amateur-radio-license-exam-session)
 page to locate testing opportunities offered by other organizations.
--->
