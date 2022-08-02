@@ -7,37 +7,61 @@ year = "2022"
 #image = "//images.rrra.org/hamfest/arrl-logo-2020-474x236.jpg"
 
 [[donor]]
-name = "Bioenno Power"
-link = "https://www.bioennopower.com/"
+name = "MFJ"
+link = "http://www.mfjenterprises.com/"
 
 [[donor]]
-name = "Buckmaster International LLC"
-link = "http://www.hamcall.net/"
-
-[[donor]]
-name = "COMPACtenna"
-link = "https://compactenna.com"
-
-[[donor]]
-name = "DX Engineering"
-link = "https://www.dxengineering.com/"
-
-[[donor]]
-name = "Easy Way Ham Books"
-link = "https://www.easywayhambooks.com/"
+name = "Quicksilver Radio"
+link = "https://qsradio.com/"
 
 [[donor]]
 name = "FlexRadio"
 link = "https://www.flexradio.com/"
 
 [[donor]]
-name = "MFJ"
-link = "http://www.mfjenterprises.com/"
+name = "Bioenno Power"
+link = "https://www.bioennopower.com/"
+
+[[donor]]
+name = "Easy Way Ham Books"
+link = "https://www.easywayhambooks.com/"
 
 [[donor]]
 name = "N3FJP"
 link = "https://n3fjp.com"
 
 [[donor]]
-name = "Quicksilver Radio"
-link = "https://qsradio.com/"
+name = "DX Engineering"
+link = "https://www.dxengineering.com/"
+
+[[donor]]
+name = "COMPACtenna"
+link = "https://compactenna.com"
+
+[[donor]]
+name = "Buckmaster International LLC"
+link = "http://www.hamcall.net/"
+
+[[donor]]
+name = "Kenwood"
+
+[[donor]]
+name = "Tigertronics"
+link = "http://tigertronics.com/"
+
+[[donor]]
+name = "Hammond Manufacturing"
+link = "https://www.hammfg.com"
+
+[[donor]]
+name = "Comet Antennas (NCG)"
+link = "http://www.cometantenna.com"
+
+[[donor]]
+name = "Elecraft"
+link = "https://elecraft.com/"
+
+[[donor]]
+name = "Heil Sound"
+link = "https://heilhamradio.com/"
+
