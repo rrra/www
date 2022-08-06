@@ -54,7 +54,8 @@ for more information.
 ### Featuring
 
 * [ARRL Member Event](#wouff-hong)
-* Cash and merchandise door prizes
+* ARRL QSL Card Checking
+* Door prizes
 * Eyeball QSOs
 * Flea Market
 * Food & Beverages
