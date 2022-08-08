@@ -4,7 +4,7 @@ date = "2021-01-12T09:24:19-06:00"
 title = "Dayton Hamvention 2021 Cancelled"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
-tags = [ "Hamvention" ]
+tags = [ "Hamvention", "Twitter" ]
 +++
 Dayton Hamvention 2021 has been cancelled due to the ongoing COVID-19
 pandemic. On January 11, 2021, the Dayton Hamvention 2021 Executive
@@ -30,6 +30,6 @@ ARRL News reports in
 
 [^2]: "Dayton Hamvention Cancels 2021 Show", ARRL the national association for Amateur Radio, retrieved January 12 2021, http://www.arrl.org/news/dayton-hamvention-cancels-2021-show.
 
-{{< twitter "1348722339513573381" >}}
+{{< tweet user="hamvention" id="1348722339513573381" >}}
 
 {{< figure src="http://www.arrl.org/images/view/News/Dayton%20Hamvention%20logo_15.jpg" link="https://hamvention.org/" attr="ARRL" attrlink="http://www.arrl.org/news/dayton-hamvention-cancels-2021-show" >}}

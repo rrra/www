@@ -5,8 +5,8 @@ date = "2016-10-20T13:16:45-05:00"
 description = ""
 publishdate = "2016-10-23T00:00:00-05:00"
 slug = ""
-tags = [ "ARES", "MARS" ]
+tags = [ "ARES", "MARS", "Twitter" ]
 title = "Very Bad Day Scenario"
 +++
-{{< tweet "788779693738635264" >}}
+{{< tweet user="arrl" id="788779693738635264" >}}
 <!--more-->

@@ -1,6 +1,6 @@
 +++
 title = "Field Day 2017 Digital QST"
-tags = [ "Field Day" ]
+tags = [ "Field Day", "Twitter" ]
 slug = ""
 description = ""
 date = "2017-05-10T12:24:43-05:00"
@@ -8,7 +8,7 @@ categories = [ "Outreach", "Technical" ]
 authors = [ "K0STK" ]
 
 +++
-{{< tweet "862333057763868672" >}}
+{{< tweet user="arrl" id="862333057763868672" >}}
 
 Get ready for Field Day 2017 with these articles in the June edition of QST:
 <!--more-->

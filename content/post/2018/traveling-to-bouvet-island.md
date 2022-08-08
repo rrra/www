@@ -4,9 +4,9 @@ date = "2018-01-30T01:00:32-06:00"
 title = "Traveling to Bouvet Island"
 authors = [ "K0STK" ]
 categories = []
-tags = []
+tags = [ "DXpedition", "Twitter" ]
 +++
-{{< tweet "957142019499003904" >}}
+{{< tweet user="valerie_wi" id="957142019499003904" >}}
 <br /><br />
 Follow the DXpedition
 [News, Updates & Information](https://www.bouvetdx.org/news-and-updates/) 

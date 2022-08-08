@@ -3,9 +3,9 @@ title = "Amateur Radio Parity Act introduced on Senate Floor"
 date = "2017-07-18T12:43:35-05:00"
 categories = [ "Outreach" ]
 authors = [ "K0STK" ]
-tags = [ "ARRL", "Parity" ]
+tags = [ "ARRL", "Parity", "Twitter" ]
 slug = ""
 
 +++
-{{< tweet "885512151456206849" >}}
+{{< tweet user="arrl" id="885512151456206849" >}}
 <!--more-->

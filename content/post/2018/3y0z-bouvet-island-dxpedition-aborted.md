@@ -4,7 +4,7 @@ date = "2018-02-03T20:20:10-06:00"
 title = "3Y0Z Bouvet Island DXpedition Aborted"
 authors = [ "K0STK" ]
 categories = []
-tags = []
+tags = [ "DXpedition", "Twitter" ]
 +++
 From the bouvetdx.org
 [News, Updates & Information page](http://www.bouvetdx.org/news-and-updates/):
@@ -23,5 +23,5 @@ From the bouvetdx.org
 [^1]: "News, Updates & Information", bouvetdx.org | The Bouvet DXpedition Website, Retrieved February 3 2018, http://www.bouvetdx.org/news-and-updates/.
 
 <!--more-->
-{{< tweet "959940129241686016" >}}
+{{< tweet user="arrl" id="959940129241686016" >}}
 

@@ -6,7 +6,6 @@ description = ""
 date = "2017-07-12T08:26:42-05:00"
 categories = [ "Outreach" ]
 authors = [ "K0STK" ]
-
 +++
-{{< tweet "884467502864109572" >}}
+{{< tweet user="BrodahSwami" id="884467502864109572" >}}
 <!--more-->

@@ -3,11 +3,11 @@ date = "2017-12-20T10:06:21-06:00"
 title = "Get ready for the International Grid Chase 2018"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
-tags = [ "ARRL", "LoTW" ]
+tags = [ "ARRL", "LoTW", "Twitter" ]
 +++
 2018 brings a new year-long operating event for all Amateur Radio Operators regardless of location or license class: *The ARRL International Grid Chase*.
 
-{{< tweet "929024624784039937" >}}
+{{< tweet user="arrl" id="929024624784039937" >}}
 <!--more-->
 
 ## About the Chase

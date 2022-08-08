@@ -4,7 +4,7 @@ categories = [ "Technical" ]
 date = "2017-01-08T12:19:25-06:00"
 description = ""
 slug = ""
-tags = [ "ARRL" ]
+tags = [ "ARRL", "Twitter" ]
 title = "Is Your Version of TQSL Up To Date?"
 
 +++
@@ -23,7 +23,7 @@ available from the Installing or Upgrading TQSL page. Prepackaged versions of
 TQSL (both binary and source) may be available through your Operating System
 (or "*distribution*") package management system.
 
-{{< tweet "816668087227445249" >}}
+{{< tweet user="arrl" id="816668087227445249" >}}
 
 ### Footnotes
 

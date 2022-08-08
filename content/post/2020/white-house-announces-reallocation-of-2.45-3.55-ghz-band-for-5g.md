@@ -4,7 +4,7 @@ date = "2020-08-10T22:05:42-05:00"
 title = "White House announces reallocation of 3.45-3.55 GHz Band for 5G"
 authors = [ "K0STK" ]
 categories = [ "Technical"]
-tags = [ "AREDN", "FCC" ]
+tags = [ "AREDN", "FCC", "Twitter" ]
 +++
 "The White House and US Department of Defense (DOD) have revealed that
 the 3.45-3.55 GHz band will be made available for 5G, a move that has
@@ -37,7 +37,7 @@ have been published on-line by the White House.
 
 The FCC News Release is available in multiple formats on the [FCC Chairman Pai on Administration Freeing Up 3.45-3.55 GHz Band for 5G page](https://www.fcc.gov/document/chairman-pai-administration-freeing-345-355-ghz-band-5g).
 
-{{< twitter 1292908331946987520 >}}
+{{< tweet user="ajitpai" id="1292908331946987520" >}}
 
 ### References
 

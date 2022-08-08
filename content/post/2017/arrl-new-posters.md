@@ -1,5 +1,5 @@
 +++
-tags = [ "ARRL" ]
+tags = [ "ARRL", "Twitter" ]
 slug = ""
 description = ""
 publishdate = "2017-08-10T01:37:22-05:00"
@@ -9,5 +9,5 @@ authors = [ "K0STK" ]
 title = "New ARRL Ham Radio Promotional Posters"
 
 +++
-{{< tweet "893169862863970304" >}}
+{{< tweet user="arrl" id="893169862863970304" >}}
 <!--more-->

@@ -1,5 +1,5 @@
 +++
-categories = [ "Outreach" ]
+categories = [ "Outreach", "Twitter" ]
 authors = [ "K2BSA" ]
 title = "Contact K2BSA at the National Scout Jamboree"
 tags = [ "BSA", "Radio Scouting" ]
@@ -14,7 +14,7 @@ earn their Radio Merit Badge by making
 between July 18th and 28th, 2017.
 <!--more-->
 
-{{< tweet "882310810340474880" >}}
+{{< tweet user="k2bsa_scouting" id="882310810340474880" >}}
 
 Please visit the
 [K2BSA "Amateur Radio---Live From The Jamboree!"](https://www.k2bsa.net/jamboree-live/) and the

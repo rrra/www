@@ -4,7 +4,7 @@ categories = [ "Education" ]
 date = "2016-11-09T09:20:29-06:00"
 description = ""
 slug = ""
-tags = [ "ARRL" ]
+tags = [ "ARRL", "Twitter" ]
 title = "Did you miss the ARRL CHIRP Programming Webinar?"
 
 +++
@@ -22,5 +22,5 @@ This 57 minute video presents the Webinar slides and a live programming session 
 * Copying channels between radios
 * Uploading from CHIRP to the radio
 
-{{< tweet "795665862258753540" >}}
+{{< tweet user="arrl" id="795665862258753540" >}}
 

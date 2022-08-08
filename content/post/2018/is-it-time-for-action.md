@@ -3,7 +3,7 @@ date = "2018-01-10T14:05:15-06:00"
 title = "Is it time for action?"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
-tags = [ "ARRL" ]
+tags = [ "ARRL", "Twitter" ]
 +++
 ARRL leadership policy and governance actions taken over the last two
 years---along the actions planned to be formalized at the Board meeting
@@ -67,7 +67,7 @@ of the League
 [send a letter to your director](https://actionnetwork.org/letters/myarrlvoice-member-letter-to-directors)
 **before the January 19 Board Meeting**.
 
-{{< tweet "950811411877212160" >}}
+{{< tweet user="arrl" id="950811411877212160" >}}
 
 ### About myARRLvoice
 

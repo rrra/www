@@ -1,7 +1,7 @@
 +++
 authors = [ "K0STK" ]
 title = "New FT8 Mode included in WSJT-X Beta Release"
-tags = [ "ARRL", "Digital", "FT8", "WSJTX" ]
+tags = [ "ARRL", "Digital", "FT8", "WSJTX", "Twitter" ]
 slug = ""
 publishdate = "2017-07-20T01:40:50-05:00"
 description = ""
@@ -22,7 +22,7 @@ Linux, OS X, and Raspbian; is available for download at
 http://physics.princeton.edu/pulsar/K1JT/wsjtx.html
 <!--more-->
 
-{{< tweet "885204735254552576" >}}
+{{< tweet user="arrl" id="885204735254552576" >}}
 
 ### About the FT8 protocol
 

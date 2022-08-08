@@ -4,10 +4,10 @@ categories = [ "Technical" ]
 date = "2017-11-20T11:25:00-06:00"
 description = ""
 slug = ""
-tags = [ "AMSAT" ]
+tags = [ "AMSAT", "Twitter" ]
 title = "Getting Started with Amateur Satellites"
 +++
-{{< tweet "932642649001070592" >}}
+{{< tweet user="amsat" id="932642649001070592" >}}
 <!--more-->
 
 ## Related Links

@@ -4,7 +4,7 @@ date = "2022-01-05T10:44:45-06:00"
 title = "6GHz WiFi Court Ruling"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
-tags = []
+tags = [ "FCC", "Spectrum", "Twitter" ]
 +++
 This ruling by the United States Court of Appeals for the District of
 Columbia Circuit does not appear to impact Amateur Radio Super High
@@ -37,4 +37,4 @@ chart](https://en.wikipedia.org/wiki/Amateur_radio_frequency_allocations#ITU_Reg
 
 [^1]: "Court Ruling Paves The Way For Better, More Reliable Wi-Fi", techdirt, accessed January 5 2022, https://www.techdirt.com/articles/20220103/07173148222/court-ruling-paves-way-better-more-reliable-wi-fi.shtml.
 
-{{< twitter 1475915000862715916 >}}
+{{< tweet user="jrosenworcel" id="1475915000862715916" >}}

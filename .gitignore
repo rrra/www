@@ -5,3 +5,4 @@ content/stamp
 data/call
 *.swp
 static/fonts/
+.hugo_build.lock
