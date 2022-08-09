@@ -1,8 +1,8 @@
 +++
-categories = [ "Outreach", "Twitter" ]
+categories = [ "Outreach" ]
 authors = [ "K2BSA" ]
 title = "Contact K2BSA at the National Scout Jamboree"
-tags = [ "BSA", "Radio Scouting" ]
+tags = [ "BSA", "Radio Scouting", "Twitter" ]
 slug = ""
 description = ""
 date = "2017-07-04T19:47:30-05:00"
