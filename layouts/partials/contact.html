@@ -21,7 +21,7 @@
 		{{ end }}
 
 			
-		{{ $ddopen :=  "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" ( $scratch.Get "ddopen" ) | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\"><button onclick=\"toggleDropdown()\" class=\"dropbtn\">" | printf "%s" }}
+		{{ $ddopen :=  "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" ( $scratch.Get "ddopen" ) | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\" onclick=\"toggleDropdown()\"><button class=\"dropbtn\">" | printf "%s" }}
 
 		{{ $email := "</a></div>" | printf "%s%s" ( $scratch.Get "email" ) | printf "%s%s" "\">" | printf "%s%s" ( $scratch.Get "email" ) | printf "%s%s" "<div><div class=\"genericon genericon-mail\"></div><a href=\"mailto:" | printf "%s" }}
 

@@ -9,10 +9,13 @@ function toggleDropdown() {
     document.getElementById("contact-dropdown").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+/* Close the dropdown menu if the user clicks outside of it
+ *
+ * contains(event.target) test from https://stackoverflow.com/a/47095680
+ * Retrieved August 9, 2022
+ */
 window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
+  if (!document.getElementsByClassName('dropdown')[0].contains(event.target)){
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
