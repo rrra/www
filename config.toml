@@ -20,6 +20,14 @@ enableGitInfo = true
 [markup.goldmark.renderer]
 unsafe= true
 
+# Added at v0.101.0 to allow editor
+# (https://discourse.gohugo.io/t/launching-editor-upon-content-creation-with-v0-90-0-and-later/36421)
+# formatting taken from error message
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^editor$']
+
 [author]
 	email = "webmaster@rrra.org"
 	name = "K0STK"
