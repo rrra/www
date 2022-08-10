@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 18
+update = 20
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -128,9 +128,9 @@ Time |      |
 &nbsp; | Light Breakfast served in the lobby of the Hartl Building
 8AM | Flea Market opens
 9AM | Seminars begin
-10AM | License Testing begins
 10:30AM | Lunch served in Main Hall
-11AM | License Testing cut off
+12PM | License Testing begins
+2PM | License Testing cut off
 2PM | Hamfest ends
 
 <!--

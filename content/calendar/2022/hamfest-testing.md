@@ -1,6 +1,6 @@
 +++
 contact = "vec"
-date = "2022-09-24T10:00:00-05:00"
+date = "2022-09-24T12:00:00-05:00"
 publishDate = "2022-01-01"
 endTime = "2022-09-24T11:00:00-05:00"
 location = "[RRV Fairgrounds Butler Arena](/places/rrv-fairgrounds-butler-arena/)"
