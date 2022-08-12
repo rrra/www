@@ -23,7 +23,6 @@ Volunteers are needed on:
 
 ### Friday, September 23rd
 
-* ARRL Wouff Hong Ceremony
 * Hartl Set Up
 
 ### Saturday, September 24th
