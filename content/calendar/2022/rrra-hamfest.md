@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 20
+update = 21
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -53,7 +53,6 @@ for more information.
 {{< back >}}
 ### Featuring
 
-* [ARRL Member Event](#wouff-hong)
 * ARRL QSL Card Checking
 * Door prizes
 * Eyeball QSOs
@@ -75,10 +74,6 @@ for more information.
 
 {{< back >}}
 {{< hamfest-sponsors 2022 >}}
-
-{{< back >}}
-### ARRL Member Event { #wouff-hong }
-* Royal Order of the Wouff-Hong Ceremony (September 23rd)
 
 {{< back >}}
 ### On-Line Box Office
@@ -118,7 +113,6 @@ Time |      |
 -----|------|
 4PM | Flea Market setup in Main Hall
 7PM | Hartl building closes for the night
-9PM | Royal Order of the Wouff Hong Ceremony
 
 #### Saturday, September 24th
 

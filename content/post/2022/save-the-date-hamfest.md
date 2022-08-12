@@ -45,7 +45,8 @@ for more information.
 * Food & Beverages
 * [License Testing]({{< relref "/calendar/2022/hamfest-testing.md" >}}) (aka *VE Testing* or *VE Session*)
 * Seminars
-* Special ARRL Member Event
+
+*Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2022/rrra-hamfest.md#schedule" >}}) for more information*
 
 ### When
 
