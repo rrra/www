@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 22
+update = 23
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -143,5 +143,5 @@ TBD  | ARRL Update | ...
 the 2022 RRRA Hamfest Flyer</s>
 </div>
 
-{{< figure src="https://images.rrra.org/2022-hamfest-flyer-thumbnail.jpg" link="https://cloud.rrra.org/index.php/s/oXmKKrLCWCqPeD3" >}}
+{{< figure src="https://images.rrra.org/2022-hamfest-flyer-thumbnail-2.jpg" link="https://cloud.rrra.org/index.php/s/oXmKKrLCWCqPeD3" >}}
 
