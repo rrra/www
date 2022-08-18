@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 21
+update = 22
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -79,9 +79,6 @@ for more information.
 ### On-Line Box Office
 
 <!-- Ticket Tailor Widget. Paste this into your website where you want the
-{{< hamfest-sponsors 2019 >}}
-{{< hamfest-sponsors 2019 >}}
-{{< hamfest-sponsors 2019 >}}
 widget to appear. Do not change the code or the widget may not work properly.
 -->
 <div class="tt-widget"><div class="tt-widget-fallback"><p><a
@@ -124,7 +121,7 @@ Time |      |
 9AM | Seminars begin
 10:30AM | Lunch served in Main Hall
 12PM | License Testing begins
-2PM | License Testing cut off
+1PM | License Testing cut off
 2PM | Hamfest ends
 
 <!--

@@ -2,7 +2,7 @@
 contact = "vec"
 date = "2022-09-24T12:00:00-05:00"
 publishDate = "2022-01-01"
-endTime = "2022-09-24T11:00:00-05:00"
+endTime = "2022-09-24T13:00:00-05:00"
 location = "[RRV Fairgrounds Butler Arena](/places/rrv-fairgrounds-butler-arena/)"
 title = "Hamfest Testing Session"
 dates = [ "License Testing" ]
@@ -12,7 +12,7 @@ categories = [ "License Testing" ]
 * Computerized testing only; paper tests will not be administered
 * *Bring Your Own Device* (i.e. laptop computer) suggested
 * Only 20 test seats available; pre-register on-line
-* Tests may be started between 10AM and 11AM
+* Tests may be started between Noon and 1PM
 
 #### How to sign-up for your test
 
@@ -40,7 +40,7 @@ Walk-up test seats subject to availability
 
 ##### Test takers who did not [pre-register on-line](https://hamstudy.org/sessions/60d14f59113f1d51c01f9dae/1) must ***also*** bring
 2. [FRN](https://www.fcc.gov/wireless/support/universal-licensing-system-uls-resources/new-users-guide-getting-started-universal) print out
-2. $15 cash or check (made out to ARRL VEC)
+2. $15 cash or check payable to *RRRA VE Team*
 2. [Copy of current license](http://www.arrl.org/obtain-license-copy) for upgrades
 
 :information: Additional information about what to bring to an exam session---including guidance
