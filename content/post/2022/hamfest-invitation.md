@@ -25,8 +25,8 @@ and skip the Hamfest ticket table line :bangbang:
 [ARRL President Rick Roderick, K5UR](https://www.arrl.org/president),
 will attend the RRRA 2022 Hamfest & ARRL Dakota Division Convention
 *in-person*.
-<!--more-->
 <p class="clear"></p>
+<!--more-->
 
 Please [visit our Hamfest page]({{< relref "/calendar/2022/rrra-hamfest.md" >}})
 to learn more about this event.
