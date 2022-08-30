@@ -7,4 +7,8 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "September ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
+status = "canceled"
 +++
+Please read
+[KC0ODE's cancellation announcement](https://lists.rrra.org/pipermail/announce/2022-August/000636.html)
+for more information.

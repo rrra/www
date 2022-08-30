@@ -8,4 +8,8 @@ title = "October ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 tags = [ "ARES" ]
+status = "canceled"
 +++
+Please read
+[KC0ODE's cancellation announcement](https://lists.rrra.org/pipermail/announce/2022-August/000636.html)
+for more information.
