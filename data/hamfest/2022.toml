@@ -18,9 +18,9 @@ link = "https://qsradio.com/"
 name = "FlexRadio"
 link = "https://www.flexradio.com/"
 
-[[donor]]
-name = "Bioenno Power"
-link = "https://www.bioennopower.com/"
+#[[donor]]
+#name = "Bioenno Power"
+#link = "https://www.bioennopower.com/"
 
 [[donor]]
 name = "Easy Way Ham Books"
@@ -70,3 +70,6 @@ link = "https://heilhamradio.com/"
 name = "Axis Clinicals"
 link = "https://axisclinicalsusa.com/"
 
+[[donor]]
+name = "Blarney Stone"
+link = "https://www.blarneyirishpub.com/"
