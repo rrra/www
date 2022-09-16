@@ -6,9 +6,9 @@ See existing files for formatting
 {{ $year := $.Page.Params.date | dateFormat "2006" }}
 {{ range $.Site.Data.hamfest }}
 	{{ if eq .year $year }}
-		<h3>{{ if .sponsor }}Sponsors{{ end }}{{ if and ( .sponsor ) ( .donor ) }} & {{ end }}{{ if .donor }}Donors{{ end }}</h3>
-		<p>This Hamfest was made possible by contributions from:</p>
 		{{ with .sponsor }}
+			<h3>Sponsors</h3>
+			<p style="margin-bottom:6px;">This Hamfest is supported by:</p>
 			<ul style="list-style:none;border-left:0;margin-left:0;">
 			{{ range . }}
 				{{/* From https://gohugo.io/templates/shortcode-templates/ */}}
@@ -29,8 +29,9 @@ See existing files for formatting
 		{{ end }}
 		</ul>
 		{{ end }}
-		{{ if and ( .sponsor ) ( .donor ) }}<h4>Donors</h4>{{ end }}
 		{{ with .donor }}
+			<h3>Donors</h3>
+			<p style="margin-bottom:6px;">Door prizes generously donated by:</p>
 			<ul>
 			{{ range . }}
 				{{ with .favicon }}<li style="list-style:none;position:relative;left:-20px;"><img src="{{ . | safeURL }}" /> {{ else }}<li>{{ end }}{{ with .link }}<a href="{{ . }}">{{ end }}{{ .name }}{{ with .link }}</a>{{ end }}</li>

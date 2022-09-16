@@ -1,10 +1,14 @@
 year = "2022"
 
 #[[sponsor]]
-#level = "Gold"
+##level = "Gold"
 #name = "ARRL"
 #link = "https://arrl.org"
 #image = "//images.rrra.org/hamfest/arrl-logo-2020-474x236.jpg"
+
+[[donor]]
+name = "ARRL"
+link = "http://www.arrl.org/"
 
 [[donor]]
 name = "MFJ"
