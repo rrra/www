@@ -6,74 +6,74 @@ year = "2022"
 #link = "https://arrl.org"
 #image = "//images.rrra.org/hamfest/arrl-logo-2020-474x236.jpg"
 
-[[donor]]
+[[sponsor]]
 name = "ARRL"
 link = "http://www.arrl.org/"
 
-[[donor]]
+[[sponsor]]
 name = "MFJ"
 link = "http://www.mfjenterprises.com/"
 
-[[donor]]
+[[sponsor]]
 name = "Quicksilver Radio"
 link = "https://qsradio.com/"
 
-[[donor]]
+[[sponsor]]
 name = "FlexRadio"
 link = "https://www.flexradio.com/"
 
-#[[donor]]
+#[[sponsor]]
 #name = "Bioenno Power"
 #link = "https://www.bioennopower.com/"
 
-[[donor]]
+[[sponsor]]
 name = "Easy Way Ham Books"
 link = "https://www.easywayhambooks.com/"
 
-[[donor]]
+[[sponsor]]
 name = "N3FJP"
 link = "https://n3fjp.com"
 
-[[donor]]
+[[sponsor]]
 name = "DX Engineering"
 link = "https://www.dxengineering.com/"
 
-[[donor]]
+[[sponsor]]
 name = "COMPACtenna"
 link = "https://compactenna.com"
 
-[[donor]]
+[[sponsor]]
 name = "Buckmaster International LLC"
 link = "http://www.hamcall.net/"
 
-[[donor]]
+[[sponsor]]
 name = "Kenwood"
 link = "https://www.kenwood.com/usa/com/amateur/"
 
-[[donor]]
+[[sponsor]]
 name = "Tigertronics"
 link = "http://tigertronics.com/"
 
-[[donor]]
+[[sponsor]]
 name = "Hammond Manufacturing"
 link = "https://www.hammfg.com"
 
-[[donor]]
+[[sponsor]]
 name = "Comet Antennas (NCG)"
 link = "http://www.cometantenna.com"
 
-[[donor]]
+[[sponsor]]
 name = "Elecraft"
 link = "https://elecraft.com/"
 
-[[donor]]
+[[sponsor]]
 name = "Heil Sound"
 link = "https://heilhamradio.com/"
 
-[[donor]]
+[[sponsor]]
 name = "Axis Clinicals"
 link = "https://axisclinicalsusa.com/"
 
-[[donor]]
+[[sponsor]]
 name = "Blarney Stone"
 link = "https://www.blarneyirishpub.com/"
