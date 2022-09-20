@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 24
+update = 25
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++
@@ -28,8 +28,8 @@ to stay informed about North Dakota's largest Hamfest in 2023!
 <p style="clear;both;"></p>
 
 [ARRL President Rick Roderick, K5UR](https://www.arrl.org/president),
-will attend the RRRA 2022 Hamfest & ARRL Dakota Division Convention
-*in-person*.
+is scheduled to attend the RRRA 2022 Hamfest & ARRL Dakota Division
+Convention.
 
 <p style="clear:both;padding-top:6px;"></p>
 
