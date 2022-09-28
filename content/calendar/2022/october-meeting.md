@@ -18,8 +18,9 @@ Those unable to attend this meeting *in-person* are invited to
 
 ### Recognition of ARRL Affiliation
 
-AC0W will be presenting a plaque from ARRL recognizing RRRA for 50 years
-of affiliation.
+ARRL Dakota Division Director Bill Lippert, AC0W, will be presenting a
+plaque from ARRL recognizing Red River Radio Amateurs for 50 years of
+affiliation.
 
 ### Meeting Information
 
