@@ -18,8 +18,8 @@ Those unable to attend this meeting *in-person* are invited to
 
 ### Recognition of ARRL Affiliation
 
-AC0W will be presenting RRRA a plaque from ARRL recognizing RRRA for 50 years
-of ARRL affiliation.
+AC0W will be presenting a plaque from ARRL recognizing RRRA for 50 years
+of affiliation.
 
 ### Meeting Information
 
