@@ -6,7 +6,7 @@ See existing files for formatting
 {{ $year := $.Page.Params.date | dateFormat "2006" }}
 {{ range $.Site.Data.hamfest }}
 	{{ if eq .year $year }}
-		<h3>Sponsors</h3>
+		<h3 id="sponsors">Sponsors</h3>
 		<p style="margin-bottom:6px;">This Hamfest supported by contributions from:</p>
 		{{ with .sponsor }}
 			<ul style="list-style:none;border-left:0;margin-left:0;">
