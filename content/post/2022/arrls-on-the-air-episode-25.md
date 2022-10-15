@@ -16,4 +16,4 @@ In this episode of ARRL's monthly On The Air podcast: "If you're thinking about 
 
 {{< audio "https://media.blubrry.com/arrlontheair/content.blubrry.com/arrlontheair/On_The_Air_-_Episode_25.mp3" "Download the podcast" >}}
 
-{{< about-eclectic-tech >}}
+{{< about-on-the-air >}}

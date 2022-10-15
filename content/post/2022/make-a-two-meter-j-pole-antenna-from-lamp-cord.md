@@ -16,4 +16,4 @@ In this episode of ARRL's monthly On The Air podcast: "Building an antenna doesn
 
 {{< audio "https://media.blubrry.com/arrlontheair/content.blubrry.com/arrlontheair/OTA_Podcast_Episode_33.mp3" "Download the podcast" >}}
 
-{{< about-eclectic-tech >}}
+{{< about-on-the-air >}}

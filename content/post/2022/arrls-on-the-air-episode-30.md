@@ -16,4 +16,4 @@ In this episode of ARRL's monthly On The Air podcast: "Discussing ARRL Field Day
 
 {{< audio "https://media.blubrry.com/arrlontheair/content.blubrry.com/arrlontheair/OTA_Episode_30.mp3" "Download the podcast" >}}
 
-{{< about-eclectic-tech >}}
+{{< about-on-the-air >}}

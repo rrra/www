@@ -16,4 +16,4 @@ In this episode of ARRL's monthly On The Air podcast: "A discussion of the impor
 
 {{< audio "https://media.blubrry.com/arrlontheair/content.blubrry.com/arrlontheair/On_The_Air_-_Episode_17.mp3" "Download the podcast" >}}
 
-{{< about-eclectic-tech >}}
+{{< about-on-the-air >}}
