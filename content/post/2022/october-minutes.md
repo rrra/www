@@ -1,159 +1,149 @@
-Red River Radio Amateurs
++++
+date = "2022-11-10T19:45:00-06:00"
+title = "October 2022 Business Meeting Minutes"
+categories = [ "Minutes" ]
+toc = "true"
+authors = [ "KE0PJR" ]
++++
+* Meeting called to order by President Jake K0RQ at 19:00, October 18, 2022
+* 20 members in attendence
 
-Monthly Business Meeting Minutes
+<!--more-->
 
-09/20/2022
+---
 
--   Meeting Minutes for date September 20th, 2022
+These minutes have been converted to a mobile friendly format. The
+Secretary's original minutes document (2022-10 Minutes.docx) may be
+found in the
+"**Committee and Officers Reports | Secretary Reports**" folder on the
+[RRRA Groupware System](https://cloud.rrra.org/).
 
-    -   Meeting Called to order By Jake K0RQ at 19:00
+---
 
--   Members Roll Call
+## ARRL Affiliation Plaque Presentation
 
-    -   20 Members in attendance
+ARRL Dakota Division Director Bill Lippert, AC0W, presented a plaque to RRRA
+President Jake Bechtold, K0RQ, recognizing RRRA for 50 years of affiliation.
+Bill ACOW also read the
+[ARRL Board resolution]({{< relref "/post/2022/rrra-recognized-for-50-years-of-arrl-affiliation.md" >}}) 
+recognizing RRRA for their ARRL affiliation and contributions to Amateur Radio.
 
--   Bill Lippert AC0W - Plaque Presentation
+RRRA has been an ARRL affiliated club since September 27th, 1969.
 
-    -   Bill was at the meeting to present a plaque to the club, as
-        > recognition for our club being affiliated with ARRL for 50
-        > years. Bill is the Dakota Division Director for the ARRL.
+## Consent Agenda
 
-    -   September 27th 1969 was the clubs official affiliation date.
+Secretary's Report, Treasurer's Report, Librarian's Report
 
--   Consent Agenda
+* Motion to approve by Kirk W0HNV
+* Seconded by Jeffery KK7IX
+* Motion Passed
 
-    -   Secretary\'s Report, Treasurers Report, Librarians Report
+## Regular Agenda
 
-        -   Motion to approve by Kirk W0HNV
+### Standing Committee Reports
 
-        -   Second by Jeffery KK7IX
+#### ARES
 
-        -   Motion Passed
+No ARES discussion tonight
 
--   Regular Agenda
+#### Technicals
 
-    -   Standing Committee Reports
+Kirk W0HNV reported that the new repeaters have had extensive bench
+testing, particularly the Grandin repeater. The Grandin repeater will
+be going up soon, to provide better communications coverage. Grandin
+repeater will be running 25 watts of output, but is rated for 100% duty
+cycle at that power.
 
-        -   ARES: Seth KC0ODE
+It is expected that this site will allow repeater use between
+Fargo all the way to Grand Forks.
 
-            -   No ARES discussion tonight
+There were additional items that needed to be purchased
+to maintain existing repeater sites
 
-        -   Technical: Kirk W0HNV
+* Motion for disbursement of \$145.57 for replacement parts by
+Kirk W0HNV
+* Seconded by Mark KC0SHM
+* Motion passed
 
-            -   New repeaters have had extensive bench testing,
-                > particularly the Grandin repeater. The grandin
-                > repeater will be going up soon, to provide better
-                > communications coverage. Grandin repeater will be
-                > running 25 watts of output, but is rated for 100% duty
-                                > cycle at that power.
+#### Education
 
-            -   Expected that this site will allow repeater use between
-                > Fargo all the way to Grand Forks.
+Kirk W0HNV reported that Jay WS0Y will be re-doing the technician class
+a bit to better cover a chapter. No classes have been scheduled as of
+the October meeting. A general class is expected to come up, and an
+extra class beginning sometime next year (2023).
 
-            -   There were additional items that needed to be purchased
-                > to maintain existing repeater sites
+#### Hamfest
 
-                -   Kirk W0HNV made a motion to pay a bill for
-                    > replacement parts, \$145.57 check to himself to
-                    > reimburse these costs
+Anton KC0PFS thanked everyone for their help and presence at the
+Hamfest. The club was able to make \$1,242.71 after all expenses. The
+online ticket sales appeared to be a great hit, the info screens was a
+huge help too. We hope to have more volunteers for next year.
 
-                -   Second by Mark KC0SHM
+As of now there is no secured venue for the 2023 Hamfest. The Red River Valley
+Fairgrounds are adjusting their prices and will be increasing the amount they
+charge the club. Potentially a 2-3x price hike, which would require a
+sponsorship or some other fundraising to make it affordable.
 
-                -   Motion passed
+The next Hamfest committee meeting will be Nov 8th via zoom at 7pm.
 
-        -   Education: Kirk W0HNV
+This year went well.
 
-            -   Jay WS0Y will be re-doing the technician class a bit to
-                > better cover a chapter. No classes scheduled as of
-                > October meeting. A general class is expected to come
-                > up, and an extra class beginning sometime next year
-                > (2023).
+Bill AC0W asked how many people were attending, rough estimate was 150.
 
-        -   Hamfest: Anton KC0PFS
+#### VE
 
-            -   Anton thanks everyone for their help and presence at the
-                            > Hamfest. The club was able to make \$1,242.71 after
-                > all expenses. The online ticket sales appeared to be a
-                                > great hit, the info screens was a huge help too. We
-                > hope to have more volunteers for next year.
+Pete WC0G reported that there was No internet at the testing session
+at the Hamfest. Unfortunately there were only 6 people testing at the
+hamfest this year. Test interest has greatly dropped around the area,
+many open slots for online testing.
 
-            -   As of now, there is no secured venue for the 2023
-                > Hamfest. The Red River Valley Fairgrounds are
-                > adjusting their prices and will be increasing the
-                > amount they charge the club. Potentially a 2-3x price
-                > hike, which would require a sponsorship or some other
-                > fundraising to make it affordable.
+If required, tests can be given 1 at a time via zoom, as requested.
 
-            -   The next Hamfest committee meeting will be Nov 8th via
-                > zoom at 7pm.
+#### Media
 
-            -   This year went well
+Steve K0STK stated his report is the contents of the 2022-10
+Publications Committee folder at https://cloud.rrra.org/. Any questions
+email Steve K0STK at webmaster\@rrra.org
 
-                -   Bill AC0W asked how many people were attending,
-                    > rough estimate was 150.
+### Old Business
 
-        -   VE: Pete WC0G
+#### Bylaw Changes
 
-            -   No internet at the testing session at the Hamfest.
-                > Unfortunately there were only 6 people testing at the
-                > hamfest this year. Test interest has greatly dropped
-                > around the area, many open slots for online testing.
+Tabled until November meeting.
 
-            -   If required, tests can be given 1 at a time via zoom, as
-                            > requested.
+Waiting until the next month for a first reading. If you have any issues
+or concerns with the changes please contact Steve K0STK or Seth KC0ODE.
 
-        -   Media: Steve K0STK
+### New Business
 
-            -   2022-10 media folder in the Cloud, any questions email
-                > steve K0STK at webmaster\@rrra.org
+#### Antenna Trailer Donation
 
--   Old Business
+A group from the Twin Cities area, MN, is looking to donate a mobile
+tower to a midwest club. If we would like to apply to receive it, we
+need to write and submit a letter to express our interest.
 
-    -   ByLaw Changes
+Mark KC0SHM asked where we will put it when we are not using it, and
+if there is any problem with it. Mark asked if there would be any
+yearly maintenance and costs.
 
-        -   Tabled until November meeting
+Andy KD0IOE mentioned that it should be in good shape and well
+maintained.
 
-        -   Waiting until the next month for a first reading, if you
-            > have any issues or concerns with the changes, please
-            > contact Steve K0STK or Seth KC0ODE
+Lori KC0GQE mentioned we should pass on it, due to a lack of space to
+put it and few ideas for use.
 
--   New Business
+### Good of the Order
 
-    -   A group from the Twin Cities area, MN, is looking to donate a
-        > mobile tower to a midwest club. If we would like to apply to
-        > receive it, we need to write and submit a letter to express
-        > our interest.
+* The RRRA Christmas party is on December 7th at the Dilworth Pizza
+Ranch. It starts at 5pm. Please bring a non-perishable food donation or
+a cash donation for the Dorothy Day house.
 
-        -   Mark KC0SHM asked where we will put it when we are not using
-                    > it, and if there is any problem with it. Mark mentioned if
-                        > there would be any yearly maintenance and costs
+* The club received a donation from the estate of WA0HSU. There
+are a few transceivers, CBs, and other various things. Steve
+K0STK will hold onto these items for now.
 
-        -   Andy KD0IOE mentioned that it should be in good shape and
-            > well maintained.
+## Adjournment
 
-        -   Lori KC0GQE mentioned we should pass on it, due to a lack of
-                    > space to put it and few ideas for use.
-
--   Good of the Order
-
-    -   Christmas Party
-
-        -   Christmas party is December 7th at 5pm, the Dilworth Pizza
-            > Ranch
-
-            -   Please bring a non-perishable donation or a cash
-                > donation for the Dorothy Day house
-
-    -   The club received a donation from the estate of WA0HSU. There
-        > are a few transceivers, CBs, and other various things. Steve
-        > K0STK will hold onto these items for now
-
--   Adjournment
-
-    -   Jake K0RQ motions to adjourn
-
-    -   Pete WC0G moves,
-
-    -   Kirk W0HNV seconds
-
-    -   Meeting adjourned at 19:43
+* Motion to adjourn by Pete WC0G
+* Seconded by Kirk W0HNV 
+* Meeting adjourned at 19:43
