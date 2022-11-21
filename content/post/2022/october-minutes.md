@@ -134,9 +134,11 @@ put it and few ideas for use.
 
 ### Good of the Order
 
-* The RRRA Christmas party is on December 7th at the Dilworth Pizza
-Ranch. It starts at 5pm. Please bring a non-perishable food donation or
-a cash donation for the Dorothy Day house.
+* The
+[RRRA Christmas Party]({{< relref "/calendar/2022/rrra-christmas-party.md" >}})
+is on December 7th at the Dilworth Pizza Ranch. It starts at 5pm. Please
+bring a non-perishable food donation or a cash donation for the Dorothy
+Day house.
 
 * The club received a donation from the estate of WA0HSU. There
 are a few transceivers, CBs, and other various things. Steve
