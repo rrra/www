@@ -24,7 +24,7 @@ You do not need a PayPal account to use this membership payment service.
 <dl>
 <dt><input type="hidden" name="on0" value="Membership Type">Membership Type</dt>
 <dd><select name="os0">
-	<option value="Single w/ Card Fee">Single w/ Card Fee $26.25 USD</option>
+	<option value="Single w/ Card Fee">Single w/ Card Fee $26.50 USD</option>
 	<option value="Single">Single $25.00 USD</option>
 	<option value="Family Add-On">Family Add-On $5.00 USD</option>
 </select> </dd>
@@ -34,7 +34,7 @@ You do not need a PayPal account to use this membership payment service.
 <dd><input type="text" name="os2" maxlength="200"></dd>
 </dl>
 <input type="hidden" name="option_select0" value="Single w/ Card Fee">
-<input type="hidden" name="option_amount0" value="26.25">
+<input type="hidden" name="option_amount0" value="26.50">
 <input type="hidden" name="option_select1" value="Single">
 <input type="hidden" name="option_amount1" value="25.00">
 <input type="hidden" name="option_select2" value="Family Add-On">
