@@ -7,7 +7,7 @@ name = "Herman J Renner III"        # Full name with middle initial
 photocredit = "" # Defaults to obituary source
 obituary = "Hoplin-Hitchcock Funeral Home"    # Name of obituary source
 obitLink = "https://www.hoplinfuneralhome.com/obituary/Herman-RennerIII"    # Link to on-line obituary page
-silentkeyhq = "" # silentkeyhq UID for this SK
+silentkeyhq = "0021669584118014" # silentkeyhq UID for this SK
 # Do not change below here ...
 title = "W0SCU"
 created = "2022-11-27T15:36:24-06:00"
