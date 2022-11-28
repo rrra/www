@@ -10,13 +10,9 @@ url = "/nets/"
 +++
 ## RRRA Sunday VHF/UHF Net
 
-A public service net---intended for the passing of traffic and, in
-general, for the betterment of amateur radio---which meets every Sunday
+A directed net which meets every Sunday
 night at 9:00 pm local time on the
 [W0ILO Repeater System](/radios/#w0ilo-repeaters). 
-This net is affiliated with the
-[Amateur Radio Emergency Service](http://www.arrl.org/ares),
-the ARES Division of the American Radio Relay League.
 
 NCS Operator volunteers are always appreciated. Please contact
 the {{< mailto net >}} for more information.
