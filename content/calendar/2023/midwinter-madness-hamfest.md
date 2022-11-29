@@ -6,6 +6,7 @@ publishDate = "2022-10-01"
 location = "[Civic Center, Buffalo, MN](https://goo.gl/maps/GLUHMTQW1ftjLPsH9)"
 title = "Midwinter Madness"
 sponsor = "[Maple Grove Radio Club](http://k0ltc.org)"
+talkIn = "147.000 T114.8"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 +++
