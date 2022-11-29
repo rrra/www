@@ -122,7 +122,7 @@ this but ...
 				{{ if ne $recip nil }}
 					{{ if gt  $recip.email "" }}
 						{{ $email := "</a>" | printf "%s%s" ( $sign ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
-						<script type="text/javascript">
+						<script>
 						function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
 						X=('{{ $email | base64Encode }}')
 						document.write(f(X))

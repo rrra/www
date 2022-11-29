@@ -3,7 +3,7 @@
 {{ if ne $recip nil }}
 	{{ if gt  $recip.tel "" }}
 		{{ $tel := "</a><span class=\"genericon genericon-phone\"></span>" | printf "%s%s" $recip.tel | printf "%s%s" "\">" | printf "%s%s" $recip.tel | printf "%s%s" "<a href=\"tel:" | printf "%s" }}
-		<script type="text/javascript">
+		<script>
 		function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
 		X=('{{ $tel | base64Encode }}')
 		document.write(f(X))
