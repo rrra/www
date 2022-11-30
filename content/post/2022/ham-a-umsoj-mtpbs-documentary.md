@@ -4,7 +4,7 @@ date = "2022-11-29T14:52:06-06:00"
 title = "\"HAM\" - a University of Montana Documentary"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
-tags = [ "Documentary", "UMT", "PBS" ]
+tags = [ "Documentary", "PBS" ]
 +++
 [This 25 minute documentary](https://www.montanapbs.org/programs/ham/)
 begins in 1983 with NASA Astronaut 
