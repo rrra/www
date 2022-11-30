@@ -37,7 +37,7 @@ together."
 Viewers who watch to the end of the closing credits will see that the
 film makers did understand their subject matter.
 
-:link: [Watch the documentary](https://www.montanapbs.org/programs/ham/) on the
+:tv: [Watch the documentary](https://www.montanapbs.org/programs/ham/) on the
 Montana PBS website.
 
 ### About The Show
