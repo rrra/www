@@ -21,10 +21,10 @@ Payment by debit, credit, or paypal account accepted
 
 <!--more-->
 
-Dues (unchanged from 2022) are:
+## Dues (unchanged from 2022)
 
 * Individual membership: $25
-* Additional family members: $5 each
+* Additional family members: $5 each **after** individual membership
 
 :warning: [Membership application forms](http://rrra.org/s/3iOnHKqxHlaDxxv) are
 required for new memberships and are recommended for changes to member
