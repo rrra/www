@@ -1,13 +1,13 @@
 +++
 contact = "president"
 date = "2023-01-17T19:00:00-06:00"
-publishDate = "2022-12-01T-4:00:00-06:00"
+publishDate = "2022-12-01T04:00:00-06:00"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "January Club Meeting"
 dates = [ "Business Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 +++
 ### Membership Renewals For 2023 Are Due
 
