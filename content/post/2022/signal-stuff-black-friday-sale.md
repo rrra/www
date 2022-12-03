@@ -12,7 +12,7 @@ Give yourself a nice gift---and help support HamStudy and ExamTools (***the*** s
 
 Save on high quality and durable
 [Ham made HT/Mobile antennas](https://signalstuff.com/signal-sticks-history/)
-from now until through the end of Tuesday, Dec 6, 2022.
+from Friday, December 2nd, through the end of Tuesday, December 6th, 2022.
 <!--more-->
 
 These antennas are made in Utah with
