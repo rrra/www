@@ -7,8 +7,8 @@ categories = []
 tags = [ "Sale" ]
 +++
 Give yourself a nice gift---and help support HamStudy and ExamTools (***the*** software used for
-[remote Amateur Radio Licensing Exams](https://hamstudy.org/sessions))---
-at the [The Signal Stuff 2022 "I can't believe I missed Black Friday!" sale](https://signalstuff.com/2022/12/the-signal-stuff-2022-i-cant-believe-i-missed-black-friday-sale/).
+[remote Amateur Radio Licensing Exams](https://hamstudy.org/sessions))---at the
+[The Signal Stuff 2022 "I can't believe I missed Black Friday!" sale](https://signalstuff.com/2022/12/the-signal-stuff-2022-i-cant-believe-i-missed-black-friday-sale/).
 
 Save on high quality and durable
 [Ham made HT/Mobile antennas](https://signalstuff.com/signal-sticks-history/)
