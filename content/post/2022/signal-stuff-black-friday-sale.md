@@ -1,5 +1,6 @@
 +++
 date = "2022-12-03T10:15:39-06:00"
+expirydate = "2022-12-07"
 #publishdate = "2022-12-03T10:15:39-06:00"
 title = "Signal Stuff Black Friday Sale"
 authors = [ "K0STK" ]
