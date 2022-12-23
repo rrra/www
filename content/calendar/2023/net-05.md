@@ -9,4 +9,5 @@ slug = "uhf-vhf-net-5"
 categories = [ "Public Service" ]
 dates = [ "NCS Schedule" ]
 outputs = [ "HTML", "Calendar" ]
+update = 0
 +++
