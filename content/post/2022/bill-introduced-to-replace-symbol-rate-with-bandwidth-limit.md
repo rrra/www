@@ -10,14 +10,13 @@ Days before the end of the current congressional session,
 [Congresswoman Debbie Lesko \(AZ-08\)](https://lesko.house.gov/)
 introduced a bill in the U.S.  House of Representatives
 ([H.R. 9664](https://www.govtrack.us/congress/bills/117/hr9664))
-on December 21, 2022, to require that the Federal Communications
-Commission (FCC)
+to require that the Federal Communications Commission (FCC)
 [replace the current HF digital symbol rate limit with a 2.8 kHz bandwidth limit](https://lesko.house.gov/news/documentsingle.aspx?DocumentID=2763).
+<!--more-->
 
 Unfortunately due to the timing of the introduction of this minor
 piece of legislation there is little chance of its consideration
 during the current congressional session.
-<!--more-->
 
 >WASHINGTON, D.C---[On December 21, 2022], U.S. Congresswoman
 >Debbie Lesko (AZ-08) introduced the Amateur Radio Communications
@@ -41,6 +40,9 @@ during the current congressional session.
 >in the 60-meter band. [^1]
 
 [^1]: "Lesko Introduces Bill to Protect Amateur Radio", U.S. Congresswoman Debbie Lesko, accessed December 23 2022, https://lesko.house.gov/news/documentsingle.aspx?DocumentID=2763.
+
+The [full text of the bill](http://www.arrl.org/files/file/HR9664/HR9664-Rep-Lesko-AZ-8-ARRL-Symbol-Rate-Bill.pdf) (PDF)
+has been published by ARRL.
 
 Optimistic statements from Representative Lesko; ARRL President Rick
 Roderick, K5UR; and ARRL Legislative Committee Chairman John
