@@ -3,7 +3,7 @@ date = "2022-12-23T09:28:12-06:00"
 #publishdate = "2022-12-23T09:28:12-06:00"
 title = "Bill Introduced to Replace Symbol Rate With Bandwidth Limit"
 authors = [ "K0STK" ]
-categories = [ "Tecnical" ]
+categories = [ "Technical" ]
 tags = [ "Regulatory" ]
 +++
 Days before the end of the current congressional session,
