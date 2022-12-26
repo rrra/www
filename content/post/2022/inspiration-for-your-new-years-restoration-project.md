@@ -30,8 +30,8 @@ suppressors, removing a power cable extension, and
 removing replacing old or failing capacitors.
 
 Then a series of upgrades were installed and modifications were
-performed to modernize the amplifier so that it would become *
-new primary amplifier in my station, capable of running 1KW+ for
+performed to modernize the amplifier so that it would become the
+*new primary amplifier in [KN3B's] station, capable of running 1KW+ for
 extended periods of time on most bands, with all the modern
 upgrades that would extend its life for another 20+ years and
 allow it to be keyed by modern rigs.* [^1]
