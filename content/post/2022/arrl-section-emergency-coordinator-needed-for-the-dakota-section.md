@@ -23,7 +23,7 @@ to learn more about what this position entails.
 
 If you're interested in filling this important position in the North
 Dakota Section, or know of a good candidate, please contact
-{{< mailto w0tf >}} or {{< mailto n0rdf >}} (the incoming ND Section Manager).
+{{< mailto W0TF >}} or {{< mailto N0RDF >}} (the incoming ND Section Manager).
 
 ### Emergency Coordinator Job Description
 
