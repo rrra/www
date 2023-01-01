@@ -3833,6 +3833,7 @@ div.entry-summary .footnote-ref a {
 	}
 }
 
+/* Enable narrow sidebar */
 @media screen and (min-width: 1008px) {
         .cat-links a.nav {
 		padding: 0 18px 0 2px;
@@ -4298,6 +4299,10 @@ div.entry-summary .footnote-ref a {
 	.footer-sidebar {
 		font-size: 12px;
 		line-height: 1.5;
+	}
+
+	.featured {
+		padding-top: 32px;
 	}
 
 	.featured-content {
