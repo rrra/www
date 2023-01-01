@@ -10,10 +10,12 @@ contact = "N0CNC"
 talkin = "147.120"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
-Please visit the 
-[Wadena Area Amateur Radio Club](http://www.wadenaham.org/)
-for more information.
+More information about this event may be found at
 
+* [ARRL Arctic Blast Hamfest page](http://www.arrl.org/hamfests/arctic-blast-hamfest-1)
+* [Wadena Area Amateur Radio Club](http://www.wadenaham.org/)
+
+or in [the Arctic Blast Hamfest flyer](http://customer.wcta.net/wwd/waarc/ab2023.pdf).
