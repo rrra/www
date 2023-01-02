@@ -12,14 +12,13 @@ siteBanner = "[Renew Your RRRA Membership Today](/post/2023/01/01/renew-your-rrr
 +++
 Membership renewals for 2023 are due at the
 [January club meeting]({{< relref "/calendar/2023/january-meeting.md" >}}).
+<!--more-->
 
 {{< banner >}}
 :white_check_mark: [Renew online today!]({{< relref "/join/pay-by-card.md" >}})
 <br>
 Payment by debit, credit, or paypal account accepted
 {{< /banner >}}
-
-<!--more-->
 
 Dues (unchanged from 2022) are:
 
