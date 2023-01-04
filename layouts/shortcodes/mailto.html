@@ -14,7 +14,7 @@
 {{ if .IsNamedParams }}
 	{{ with .Get "id" }}{{ $.Scratch.Set "sign" ( . ) }}{{ end }}
 	{{ with .Get "option" }}{{ $.Scratch.Set "option" ( . ) }}{{ end }}
-	{{ with .Get "subject" }}{{ $.Scratch.Set "subject" "?subject=" }}{{ $.Scratch.Add "subject" ( . | replaceRE ` ` "%20" ) }}{{ end }}
+	{{ with .Get "subject" }}{{ $.Scratch.Set "subject" "&subject=" }}{{ $.Scratch.Add "subject" ( . | replaceRE ` ` "%20" ) }}{{ end }}
 {{ else }}
 	{{ with .Get 0 }}{{ $.Scratch.Set "sign" ( . ) }}{{ end }}
 	{{ with .Get 1 }}{{ $.Scratch.Set "option" ( . ) }}{{ end }}
