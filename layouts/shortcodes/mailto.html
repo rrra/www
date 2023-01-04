@@ -1,5 +1,28 @@
-{{ $sign := index .Params 0 }}
-{{ $option := index .Params 1 }}
+{{/* Ensure this is not <nil> to stop a printf error */}}
+{{ $.Scratch.Set "subject" "" }}
+
+{{/* Handle either named or positional parameters
+   *
+   * "id" is the identifier (usually callsign)
+   * "option" can be (first) name or fullname
+   * "subject" is the e-mail subject
+   *
+   * Positionals are (#1) "id" and (#2) "option" for
+   * backwards compatibility. At some point option should
+   * be restricted to named parameters only
+   */}}
+{{ if .IsNamedParams }}
+	{{ with .Get "id" }}{{ $.Scratch.Set "sign" ( . ) }}{{ end }}
+	{{ with .Get "option" }}{{ $.Scratch.Set "option" ( . ) }}{{ end }}
+	{{ with .Get "subject" }}{{ $.Scratch.Set "subject" "?subject=" }}{{ $.Scratch.Add "subject" ( . | replaceRE ` ` "%20" ) }}{{ end }}
+{{ else }}
+	{{ with .Get 0 }}{{ $.Scratch.Set "sign" ( . ) }}{{ end }}
+	{{ with .Get 1 }}{{ $.Scratch.Set "option" ( . ) }}{{ end }}
+{{ end }}
+
+{{ $sign := .Scratch.Get "sign" }}
+{{ $option := .Scratch.Get "option" }}
+{{ $subject := .Scratch.Get "subject" }}
 {{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
 {{ $scratch := newScratch }}
 
@@ -39,7 +62,7 @@
 			{{ end }}
 
 			{{/* Output the obfuscated mailto markup */}}
-			{{ $email := "</a><span class=\"genericon genericon-mail\"></span>" | printf "%s%s" ( $scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
+			{{ $email := "</a><span class=\"genericon genericon-mail\"></span>" | printf "%s%s" ( $scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s%s" $recip.email $subject | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
 			<script>
 			function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
 			X=('{{ $email | base64Encode }}')
