@@ -65,5 +65,6 @@ online bank check.
 
 <p style="clear;both"></p>
 
-Please contact the {{< mailto treasurer >}}  if you have any
-questions about renewing your membership.
+Please contact the
+{{< mailto id="treasurer" subject="About renewing my RRRA membership" >}}
+if you have any questions about renewing your membership.
