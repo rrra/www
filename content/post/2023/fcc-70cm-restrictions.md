@@ -26,7 +26,7 @@ may be closer to Fargo than some hams realize.
 ### Operation prohibited above Line A
 
 "In the sub-band 420--430 MHz, the amateur service is not
-allocated north of Line" [^1]
+allocated north of Line A" [^1]
 
 [^1]: "47 CFR &sect;2.106 - Footnote US270", ARRL The National Association for Amateur Radio, accessed January 5 2023, http://www.arrl.org/us270.
 
@@ -40,6 +40,9 @@ use; the primary user is mobile services---excepting aeronautical
 mobile---and the secondary is fixed services. 
 
 #### What is Line A?
+
+{{< figure src="//images.rrra.org/line-a.jpg" >}}
+<p class="clear"></p>
 
 Line A is defined in
 [US Code Title 47 Chapter I Subchapter D Part 90 Subpart A &sect; 90.7](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-90/subpart-A/section-90.7)
