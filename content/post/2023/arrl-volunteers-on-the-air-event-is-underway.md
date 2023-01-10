@@ -49,3 +49,5 @@ On January 6, 2023, ARRL News Reported...
 >[vota.arrl.org](https://vota.arrl.org/). [^1]
 
 [^1]: "ARRL Volunteers On the Air Event is Underway", ARRL The National Association for Amateur Radio, accessed January 8 2023, http://www.arrl.org/news/arrl-volunteers-on-the-air-event-is-underway.
+
+{{< figure src="http://www.arrl.org/images/view/News/Year%20of%20the%20Volunteers%20logo_Vertical.jpg" >}}
