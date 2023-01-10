@@ -33,7 +33,14 @@ On January 6, 2023, ARRL News Reported...
 >are worth 5 points for each contact, and they can be contacted on all bands and
 >modes. There's also an opportunity to earn the W1AW Worked All States Award.
 >There will be two week-long W1AW operations from each of the 50 states.
->
+
+{{< banner expires="2024-01-01" >}}
+:link: A [list of W1AW/# portable
+activations](https://contests.arrl.org/docs/2023-VOTA-State-Activations-Schedule.pdf)
+(PDF) has been pubished. There will be additions and changes to this list; check it
+periodically for updates.
+{{< /banner >}}
+
 >Later in the event, an on-line scoreboard, the VOTA Leaderboard, will be
 >activated, allowing each participant to see how their score measures up with
 >other participants throughout the year.
