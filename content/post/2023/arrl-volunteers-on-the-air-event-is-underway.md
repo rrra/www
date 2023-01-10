@@ -37,7 +37,7 @@ On January 6, 2023, ARRL News Reported...
 {{< banner expires="2024-01-01" >}}
 :link: A [list of W1AW/# portable
 activations](https://contests.arrl.org/docs/2023-VOTA-State-Activations-Schedule.pdf)
-(PDF) has been pubished. There will be additions and changes to this list; check it
+(PDF) has been published. There will be additions and changes to this list; check it
 periodically for updates.
 {{< /banner >}}
 
