@@ -4,14 +4,12 @@ date = "2023-03-29T18:30:00-06:00"
 endTime = "2023-03-29T20:30:00-06:00"
 publishDate = "2023-01-11"
 location = "West Fargo Public Library"
-title = "Winter Extra Class Week 11"
+title = "Winter Extra Class Makeup 1"
 categories = [ "Education" ]
 dates = [ "Winter 2023 Extra" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 This will be a makeup date, if needed.
-
-
 
 ### Homework
 
