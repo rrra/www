@@ -25,7 +25,7 @@
 				{{ if in .Site.Params.status .status }}
 					<td>{{ $series }}</td>
 					<td colspan="3" style="color:red;">{{ upper .status }} </td>
-				{{ else if gt ( now.Format "2006-01-02" ) .publish }}
+				{{ else if ge ( now.Format "2006-01-02" ) .publish }}
 					{{ $fl := "-class-week-1/" | printf "%s%s" ( $base ) | printf "%s/%s" ( replace ( $firstdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
 					{{ $ll :=  ( .count ) | printf "%s-class-week-%s/" ( $base ) | printf "%s/%s" ( replace ( $lastdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
 					<td><a href="/dates/{{ $series | urlize }}">{{ $series }}</a></td>
