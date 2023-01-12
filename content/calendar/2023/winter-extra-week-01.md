@@ -1,5 +1,4 @@
 +++
-update = 1
 contact = "W0HNV"
 date = "2023-01-18T18:30:00-06:00"
 endTime = "2023-01-18T20:30:00-06:00"
@@ -9,7 +8,7 @@ title = "Winter Extra Class Week 1"
 categories = [ "Education" ]
 dates = [ "Winter 2023 Extra" ]
 outputs = [ "HTML", "Calendar" ]
-topics = [ "Sign in", "Introductions" ]
+update = 2
 +++
 ### Prerequisites
 

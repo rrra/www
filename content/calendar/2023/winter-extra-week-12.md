@@ -1,5 +1,4 @@
 +++
-update = 2
 contact = "W0HNV"
 date = "2023-04-05T18:30:00-06:00"
 endTime = "2023-04-05T20:30:00-06:00"
@@ -9,6 +8,7 @@ title = "Winter Extra Class Makeup 2"
 categories = [ "Education" ]
 dates = [ "Winter 2023 Extra" ]
 outputs = [ "HTML", "Calendar" ]
+update = 3
 +++
 This will be a makeup date, if needed.
 
