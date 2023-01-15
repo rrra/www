@@ -14,7 +14,7 @@ to prepare to upgrade your license to the highest level.
 **This [series](/dates/winter-2023-extra) of classes begins
 [January 18, 2023]({{< relref "/calendar/2023/winter-extra-week-01.md" >}})**.
 
-:calendar: [Learn how to add these class dates to your device calendar](//dates/winter-2023-extra/#add)
+:calendar: [Learn how to add these class dates to your device calendar](/dates/winter-2023-extra/#add)
 <!--more-->
 
 Our Amateur Radio license classes are

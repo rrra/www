@@ -7,7 +7,7 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "April Testing Session"
 dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 +++
 {{< banner class="alert" >}}
 ONLY TEN (10) SEATS ARE AVAILABLE AT THIS TEST SESSION.
@@ -71,14 +71,16 @@ After any required application fee is paid, and the FCC has
 processed an application, you will receive a second e-mail from the
 FCC with a link to their official license or, in very rare instances, an
 explanation for why the application was dismissed or denied. The link
-will be valid for 30 days.
+will be valid for 30 days. After that time you must
+[obtain an official copy of your license from the ULS](https://www.fcc.gov/wireless/support/knowledge-base/universal-licensing-system-uls-resources/how-obtain-official).
 
 **You do not have to wait for the FCC e-mail to pay your application
 fee.** You can look up your application in the
 [FCC application search system](https://wireless2.fcc.gov/UlsApp/ApplicationSearch/searchAppl.jsp)
 using your FRN. If you have a pending application in the system, that
-means the VEC has submitted your application to the FCC, and the fee can
-be paid by logging into the CORES system.
+means the VEC has submitted your application to the FCC and the fee can
+be paid by logging into the
+[CORES system](https://apps.fcc.gov/cores/userLogin.do)
 
 Please visit
 [ARRL's FCC Application Fee page](https://www.arrl.org/fcc-application-fee)
