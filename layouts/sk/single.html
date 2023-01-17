@@ -14,7 +14,6 @@
 {{ $silentkeybase := .Site.Params.silentkeybase }}
 {{ $sitedate := .Site.Params.sitedate }}
 {{ $call := upper .Title }}
-{{ $licensed := findRE "[12][0-9]{3}-[01]?[0-9]-[0-9]{2}" (.Params.licensed) 1}}
 
 <div class="entry-meta">
 
@@ -59,15 +58,18 @@
 		{{ end }}
 	{{ end }}
 
+	{{/* findRE regex for validating YYYY-MM-DD. Will not catch leap year errors ... */}}
+	{{ $dateregex := "^[12][0-9][0-9][0-9]-(((0[469])|(11))-((0[1-9])|([12][0-9])|(30)))|(((0[1578])|(1[02]))-((0[1-9])|([12][0-9])|(3[01])))|(02-2[89])$" }}
+
 		<dl id="list">
 			{{ if gt .Params.born "" }}
-				<dt class="twocol header">Born:</dt><dd class="twocol">{{ if ( findRE "^[12][0-9][0-9][0-9]-[01][1-9]-[0-3][0-9]$" .Params.born ) }}{{ .Params.born | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.born }}{{ end }}</dd>
+				<dt class="twocol header">Born:</dt><dd class="twocol">{{ if ( findRE ( $dateregex ) .Params.born ) }}{{ .Params.born | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.born }}{{ end }}</dd>
 			{{ else }}
 				{{ $scratch.Add "needed" "birth|" }}
 			{{ end }}
 
 			{{ if gt .Params.licensed "" }}
-				<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if ( findRE "^[12][0-9][0-9][0-9]-[01][1-9]-[0-3][0-9]$" .Params.licensed ) }}{{ .Params.licensed | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>
+				<dt class="twocol header">Licensed:</dt><dd class="twocol">{{ if ( findRE ( $dateregex ) .Params.licensed ) }}{{ .Params.licensed | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.licensed }}{{ end }}</dd>
 			{{ end}}
 
 			{{ if gt .Date "" }}
@@ -122,7 +124,7 @@
 				{{ if in $needed "skhq|" }}<li>A memorial at the <a href="http://silentkeyhq.com">National Silent Key Archive</a></li>{{ end }}
 			</ul>
 			<p>Can you contribute any of the information needed to complete this Silent Key listing?</p>
-      			<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you can help.</p>
+      			<p>Please contact the <a href="mailto:webmaster@rrra.org?subject={{ $call }}%20Silent%20Key%20Memorial">Webmaster Team</a> if you can help.</p>
 			</div>
 		{{ end }}
 
