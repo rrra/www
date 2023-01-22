@@ -9,7 +9,8 @@ METHOD:PUBLISH
 {{ if ge (.Date.Format "2006") $today -}}
 BEGIN:VEVENT
 UID:{{ .Permalink | md5 }}@{{ .Site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
-{{ with .Params.update -}}SEQUENCE: {{ . }}{{ end -}}
+{{ with .Params.update -}}SEQUENCE: {{ . }}
+{{ end -}}
 {{ with .Params.status -}}{{ if or ( eq  . "canceled" ) ( eq  . "postponed" ) -}}
 METHOD:CANCEL
 STATUS:CANCELLED
