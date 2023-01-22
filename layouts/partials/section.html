@@ -57,9 +57,10 @@
 		</div><!-- .entry-meta -->
 
 		{{ $contact := .Params.contact }}
+		{{ $subject := .Params.contactSubject }}
 		{{ if ne $contact nil }}
 		<div id="contact">
-			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact "subject" $subject) }} 
 		</div>
 		{{ end }}
 
