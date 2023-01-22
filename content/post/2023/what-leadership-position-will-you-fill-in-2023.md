@@ -108,5 +108,5 @@ and dues payment to the
 if you have not already renewed for 2023.
 
 Questions about your membership status should be directed to
-the Club Treasurer, {{<mailto treasurer >}}.
+the {{<mailto id="treasurer" subject="What is my RRRA membership status?" >}}.
 
