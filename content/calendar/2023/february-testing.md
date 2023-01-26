@@ -8,7 +8,7 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 contact = "vec"
 dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
@@ -27,7 +27,7 @@ available for use.
 
 ### How to sign-up for your test
 
-1. [Register at hamstudy.org](https://hamstudy.org/sessions/63bf32e153791f05d0a632b3/1).
+1. [Register at hamstudy.org](https://hamstudy.org/sessions/63d15ae8fa492517f539b050/1).
 First time applicants will receive their FRN (FCC Registration Number)
 during the registration process. If you already have an FRN you can
 [look it up in the Commission Registration System (CORES)](https://apps.fcc.gov/cores/simpleSearch.do?csfrToken=)
