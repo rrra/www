@@ -3,7 +3,7 @@ categories = [ "Education", "License Testing" ]
 description = ""
 slug = ""
 title = "Education and Testing"
-weight = -1
+#weight = -1
 aliases = [ "/post/2017/12/25/2018-2019-education-and-testing/",
 	"/post/2017/12/21/2018-2019-education-and-testing/",
 	"/post/2016/11/14/2017-2018-education-and-testing/",
@@ -77,13 +77,38 @@ days to continental US addresses.
 * DX Engineering: [Spiral Bound](https://www.dxengineering.com/parts/arr-1311)
 * Search for other vendors: [Bing](https://www.bing.com/search?q=978-1-62595-131-0), [DuckDuckGo](https://duckduckgo.com/?q=978-1-62595-131-0&ia=t), [Google](https://www.google.com/search?q=978-1-62595-131-0)
 
+### Independent Study Resources
+
+* WS0Y's [Self-Study Technician License Exam Preparation Course](/licensing/classes/tech-self-study/)
+* [HamStudy](https://hamstudy.org/) flashcard / practice test website & app (check your device/OS app store or your favorite search engine for others)
+* [KB6NU No-Nonsense Study Guides](https://www.kb6nu.com/study-guides/)
+* Textbooks from [ARRL Online Store](http://www.arrl.org/shop/Licensing-and-Education/), [Ham Radio School](https://www.hamradioschool.com/), or your local library
+
 ### Amateur Radio License Testing
 
 Please see our index of [License Testing dates](/dates/license-testing/) for a
 complete list of currently scheduled testing dates along with information
 about *License Test Prerequisites* and *Checking Your License Status*.
 
-You may search for testing opportunities offered by other organizations at:
+You may search for testing opportunities---both virtual and
+*in-person*--- offered by other organizations at:
 
 * [ARRL Find an Amateur Radio License Exam Session page](http://www.arrl.org/find-an-amateur-radio-license-exam-session)
 * [HamStudy.org: Find an Exam Session page](https://hamstudy.org/sessions)
+
+#### You must have an FRN for your test
+
+License exam candidates are reminded that you are **required** to
+register in the FCC CORES system and receive a FCC Registration Number
+(FRN) **before exam day**. Some remote exam software will automatically
+register your FRN if necessary. You should check with your exam provider
+to confirm what you need to do.
+
+For FRN registration information and tutorials see item #4 of the
+[Exam Session Requirements](http://www.arrl.org/what-to-bring-to-an-exam-session)
+and the
+[FCC CORES Tutorial Videos](https://www.fcc.gov/licensing-databases/fcc-registration-system-cores/commission-registration-system-video-tutorials).
+
+To register and request your FRN visit the
+[FCC CORES User Account and Registration page](https://apps.fcc.gov/cores/userLogin.do)
+

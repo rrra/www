@@ -1,6 +1,7 @@
 +++
 title = "RRRA Hamfest Guide"
 contact = "hamfest"
+contactSubject = "Question about the RRRA Hamfest Guide"
 +++
 * [Admission and Vendor Tickets]({{< relref "ticketing.md" >}})
 * [Driving Directions]({{< relref "directions.md" >}})

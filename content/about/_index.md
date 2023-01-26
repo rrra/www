@@ -3,6 +3,7 @@ title = "About Our Club"
 linktitle = "About<span style=\"display:none;\"> Our Club</span>"
 description = "Information about the RRRA: board of directors, bylaws, contact addresses, how to join, how to make a tax deductible donation, mission statement, and more ..."
 contact = "president"
+contactSubject = "Question about RRRA"
 [menu.Main]
 url = "/about/"  
 +++

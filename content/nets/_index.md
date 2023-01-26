@@ -5,6 +5,7 @@ categories = [ "Public Service" ]
 tags = [ "ARES" ]
 description = "Take part in an radio net. Includes links to NCS resources: net preamble, NCS schedule and roster; and a list of Red River Valley nets."
 contact = "net"
+contactSubject = "Question about RRRA Nets"
 [menu.Main]
 url = "/nets/"
 +++
@@ -15,7 +16,7 @@ night at 9:00 pm local time on the
 [W0ILO Repeater System](/radios/#w0ilo-repeaters). 
 
 NCS Operator volunteers are always appreciated. Please contact
-the {{< mailto net >}} for more information.
+the {{< mailto id="net" subject="Volunteering for the RRRA Sunday Net" >}} for more information.
 
 ### NCS Resources
 
@@ -29,7 +30,7 @@ the {{< mailto net >}} for more information.
 
 <span class="genericon genericon-warning"></span>
 **Times shown are Red River Valley local.**
-Please contact the {{< webmaster >}} with additions or corrections for
+Please contact the {{< webmaster subject="Update for Red River Valley Net List">}} with additions or corrections for
 this list.
 
 ## Other Nets
