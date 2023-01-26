@@ -33,7 +33,7 @@ Red River Radio Amateurs is a 501(c)(3); donations are
 **tax deductible** for US taxpayers.
 If you would like to support our club please contact the
 {{< mailto id="treasurer" subject="Donation to RRRA" >}}
-or call [701-526-4426](tel:701-526-4426)<span class="genericon
+or leave a message at [701-526-4426](tel:701-526-4426)<span class="genericon
 genericon-phone"></span> or mail your check to:
 
 {{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
