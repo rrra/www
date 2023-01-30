@@ -2,8 +2,7 @@
 date = "2023-01-30T09:33:38-06:00"
 #publishdate = "2023-01-30T09:33:38-06:00"
 title = "January Minutes"
-categories = []
-tags = []
+categories = [ "Minutes" ]
 toc = "true"
 authors = [ "KE0PJR" ]
 +++
