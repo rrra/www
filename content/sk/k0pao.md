@@ -7,7 +7,7 @@ name = "William P Nerhus"        # Full name with middle initial
 photocredit = "" # Defaults to obituary source
 obituary = "Hanson-Runsfold Funeral Home"    # Name of obituary source
 obitLink = "https://www.hansonrunsvold.com/obituaries/William-Nerhus/#!/Obituary"    # Link to on-line obituary page
-silentkeyhq = "" # silentkeyhq UID for this SK
+silentkeyhq = "1271675884048893" # silentkeyhq UID for this SK
 # Do not change below here ...
 title = "K0PAO"
 created = "2023-02-08T13:18:14-06:00"
