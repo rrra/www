@@ -7,16 +7,9 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "February ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
+status = "canceled"
 +++
-### RRRA Membership Renewals For 2023 Are Past Due
-
-{{< banner >}}
-:white_check_mark: [Renew online today!]({{< relref "/join/pay-by-card.md" >}})
-<br>
-Payment by debit, credit, or paypal account accepted
-{{< /banner >}}
-
-More payment options are discussed in our
-[membership renewal]({{< relref "/post/2022/2023-membership-renewals-due-at-january-business-meeting.md#your-renewal-options" >}}) 
-blog post.
+This meeting was
+[canceled by KC0ODE](https://lists.rrra.org/pipermail/announce/2023-February/000665.html)
+on February 16, 2023.
