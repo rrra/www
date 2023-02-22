@@ -31,7 +31,7 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 | Title                 |                                  |
 | --------------------- |--------------------------------- |
-| At-Large (2021--2023) | {{< mailto atlarge2 fullname >}} |
+| At-Large (2023--2025) | {{< mailto atlarge2 fullname >}} |
 | At-Large (2022--2024) | {{< mailto atlarge1 fullname >}} |
 
 ### Mailing Address {#mailing-address}
