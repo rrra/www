@@ -1,5 +1,5 @@
 +++
-date = "2023-03-15T08:57:00-06:00"
+date = "2023-03-15T07:57:00-06:00"
 title = "February 2023 Business Meeting Minutes"
 categories = [ "Minutes" ]
 toc = "true"
