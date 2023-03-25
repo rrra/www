@@ -5,11 +5,12 @@ date = "2023-04-22T08:00:00-05:00"
 endTime = "2023-04-22T13:00:00-05:00"
 publishDate = "2023-03-24"
 location = "[Heritage Village, East Grand Forks MN](/places/heritage-village-east-grand-forks/)"
-title = "Greter Grand Forks Hamfest"
+title = "Greater Grand Forks Hamfest"
 linkTitle = "Grand Forks Hamfest"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 3
+aliases = [ "/cal/2023/04/22/greter-grand-forks-hamfest/" ]
+update = 1
 +++
 <!--
 <div id="flyer">
