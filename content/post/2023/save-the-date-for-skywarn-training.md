@@ -25,14 +25,10 @@ These free classes are presented by the National Weather Servic, last about 2
 
 No registration is required for the **in-person** classes; seating may be limited. 
 
-Registration ***is*** required for the **virtual** classes. Please follow the
-registration instructions on the
-[virtual quick refresher pages](/dates/public-service).
-
 Information about other regional training opportunities, answers to Frequently
 Asked Questions (FAQ) about SKYWARN, supplemental resources, and NWS contact
 information, are available on the
-[NWS WFO Grand Forks, ND SKYWARN page](http://www.weather.gov/fgf/skywarn).
+[NWS WFO Grand Forks, ND SKYWARN page](http://www.weather.gov/fgf/stormspotting).
 
 ## About SKYWARN&reg;
 
@@ -61,7 +57,7 @@ information, are available on the
 >the precious gift of time--seconds and minutes that can help save
 >lives. [^1]
 
-Please visit the [NWS WFO Grand Forks, ND SKYWARN&reg;](http://www.weather.gov/fgf/skywarn) 
+Please visit the [NWS WFO Grand Forks, ND SKYWARN&reg;](http://www.weather.gov/fgf/stormspotting) 
 page for more information about SKYWARN&reg;.
 
 SKYWARN&reg; is a registered trademark of [NOAA](http://www.noaa.gov/)'s
@@ -69,13 +65,13 @@ SKYWARN&reg; is a registered trademark of [NOAA](http://www.noaa.gov/)'s
 [Rules for the usage of the SKYWARN&reg; name and logo are
 available on-line](http://www.weather.gov/skywarn/resources/SKYWARN_branding_guidelines_v5.0_Oct08.pdf).
 
-SKYWARN&reg; Online
+Grand Forks SKYWARN&reg; Online
 
-: http://www.weather.gov/fgf/skywarn
+: http://www.weather.gov/fgf/stormspotting
 
-SKYWARN&reg; Contact
+Grand Forks SKYWARN&reg; Contact
 
-: Gregory.Gust@noaa.gov
+: nws.grandforks@noaa.gov
 
 
 [^1]: "NWS SKYWARN Storm Spotter Program", National Weather Service, retrieved MArch 28 2023, https://www.weather.gov/skywarn/.
