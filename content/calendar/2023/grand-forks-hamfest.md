@@ -10,7 +10,7 @@ linkTitle = "Grand Forks Hamfest"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2023/04/22/greter-grand-forks-hamfest/" ]
-update = 1
+update = 2
 +++
 <!--
 <div id="flyer">
@@ -22,4 +22,4 @@ update = 1
 For more information please visit:
 
 * [Forx ARC Hamfest 2023 page](https://www.wa0jxt.org/general-8)
-* [ARRL Greter Grand Forks Hamfest page](http://www.arrl.org/hamfests/greater-grand-forks-hamfest)
+* [ARRL Greater Grand Forks Hamfest page](http://www.arrl.org/hamfests/greater-grand-forks-hamfest)
