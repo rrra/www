@@ -8,8 +8,5 @@ title = "October Club Meeting"
 aliaes = [ "/cal/2023/10/19/october-virtual-meeting/" ]
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 +++
-### Meeting Information
-
-{{% meeting-note %}}
