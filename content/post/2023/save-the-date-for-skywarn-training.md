@@ -8,13 +8,14 @@ tags = [ "Skywarn" ]
 First Responders, Amateur Radio Operators, and members of the public
 interested in becoming SKYWARN&reg; weather spotters---and current
 spotters who wish to refresh their skills---are encouraged to save the
-date for one of the two
+date for one of the three
 [in-person training opportunities](/dates/public-service)
-to be offered in the Fargo/Moorhead area,
+to be offered in the Fargo/Moorhead area.
 
 <!--more-->
-These free classes are presented by the National Weather Servic, last about 2
-1/2 hours, and are open to the public. Participants will learn about:
+These free classes are presented by the National Weather Service, last
+about 2 1/2 hours, and are open to the public. Participants will learn
+about:
 
 * Basics of thunderstorm development
 * Fundamentals of storm structure
