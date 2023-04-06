@@ -7,7 +7,7 @@ publishDate = "2017-01-01T01:00:00-06:00"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "July Club Meeting"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 status = "canceled"
 +++

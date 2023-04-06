@@ -6,7 +6,7 @@ endTime = ""
 location = "[Zoom](https://lists.rrra.org/pipermail/announce/2021-March/000556.html)"
 title = "March Virtual Meeting"
 aliases = [ "/cal/2021/03/16/march-virtual-club-meeting" ]
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 {{< banner class="alert" >}}

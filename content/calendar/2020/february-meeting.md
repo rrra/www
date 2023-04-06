@@ -5,7 +5,7 @@ publishDate = "2019-11-01"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "February Club Meeting"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 Please enter through the north

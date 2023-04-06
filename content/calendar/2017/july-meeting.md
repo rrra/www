@@ -4,7 +4,7 @@ date = "2017-07-18T19:00:00-05:00"
 endTime = ""
 location = ""
 title = "July Club Meeting Cancelled"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 upcoming = "hide"
 aliases = [ "/cal/2017/07/18/july-club-meeting/" ]
 +++

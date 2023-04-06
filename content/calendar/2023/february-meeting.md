@@ -4,10 +4,11 @@ date = "2023-02-21T19:00:00-06:00"
 publishDate = "2022-12-01"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
-title = "February Club Meeting"
-dates = [ "Business Meetings" ]
+title = "February Business Meeting"
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
+aliases = [ "/cal/2023/02/12/february-club-meeting/" ]
 +++
 ### 2023 Elections
 

@@ -5,7 +5,7 @@ publishDate = "2019-11-01"
 endTime = ""
 location = "[W0ILO Repeaters](/radios/)"
 title = "April Club Meeting"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 status = "on w0ilo"
 +++

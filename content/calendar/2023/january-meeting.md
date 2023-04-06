@@ -4,10 +4,11 @@ date = "2023-01-17T19:00:00-06:00"
 publishDate = "2022-12-01T04:00:00-06:00"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
-title = "January Club Meeting"
-dates = [ "Business Meetings" ]
+title = "January Business Meeting"
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
+aliases = [ "/cal/2023/01/17/january-club-meeting/" ]
 +++
 ### Membership Renewals For 2023 Are Due
 

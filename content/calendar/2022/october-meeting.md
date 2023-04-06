@@ -6,7 +6,7 @@ endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "October Club Meeting"
 aliaes = [ "/cal/2022/10/19/october-virtual-meeting/" ]
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 <!--

@@ -5,9 +5,9 @@ publishDate = "2023-04-01"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "June Club Meeting"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 +++
 
 ### Meeting Information

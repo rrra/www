@@ -6,7 +6,7 @@ endTime = ""
 location = "[Zoom](https://lists.rrra.org/pipermail/announce/2021-May/000569.html)"
 title = "May Virtual Meeting"
 linkTitle = "Virtual Club Meeting"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 {{< banner class="alert" >}}

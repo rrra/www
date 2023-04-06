@@ -4,7 +4,7 @@ date = "2016-03-15T19:00:00-05:00"
 endTime = ""
 location = "[Cass County Annex](/places/cass-county-annex/)"
 title = "March Club Meeting"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 aliases = [ "/cal/2016/03/15/business-meeting/" ]
 +++
 We meet in the basement meeting room. Please enter through the north

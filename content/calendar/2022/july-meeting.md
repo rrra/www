@@ -5,7 +5,7 @@ date = "2022-07-19T19:00:00-05:00"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "July Club Meeting"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 ### Remote Access to Meeting

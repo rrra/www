@@ -7,7 +7,7 @@ location = "Zoom"
 title = "February Virtual Meeting"
 aliases = [ "/cal/2021/02/16/february-virtual-club-meeting" ]
 linkTitle = "Virtual Club Meeting"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 {{< banner class="alert" >}}

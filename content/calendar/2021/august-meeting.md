@@ -5,7 +5,7 @@ publishDate = "2021-06-01"
 endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "August Club Meeting"
-dates = [ "Business Meetings" ]
+dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2021/08/17/august-club-meeting/" ]
 +++
