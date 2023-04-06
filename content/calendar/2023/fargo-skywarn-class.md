@@ -8,9 +8,9 @@ title = "Fargo SKYWARN Class"
 dates = [ "Public Service" ]
 outputs = [ "HTML", "Calendar" ]
 #status = "postponed"
-update = 0
+update = 1
 +++
-* Presented by the [National Weather Service (Grand Forks)](https://www.weather.gov/fgf/stormspoting)
+* Presented by the [National Weather Service (Grand Forks)](https://www.weather.gov/fgf/stormspotting)
 * Sponsored by the [Red River Radio Amateurs](/)
 
 ## Other Classes
