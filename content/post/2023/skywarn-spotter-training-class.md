@@ -20,5 +20,8 @@ no club business will be be discusssed at this meeting!
 More information about this class---including resource links---is
 available on the
 [Fargo SKYWARN Class page]({{< relref "/calendar/2023/fargo-skywarn-class.md" >}})
+and the
+[RRRA May Meeting page]({{< relref "/calendar/2023/may-meeting.md" >}}).
 
-Please direct all question about this class to {{< mailto KC0ODE >}}.
+
+Please direct all questions about this class to {{< mailto KC0ODE >}}.
