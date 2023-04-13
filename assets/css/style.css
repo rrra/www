@@ -4012,6 +4012,10 @@ div.entry-summary .footnote-ref a {
 		float: left;
 	}
 
+	.content-area {
+		padding-top: 96px;
+	}
+
 	.site-content {
 		margin-right: 29.04761904%;
 		margin-left: 182px;
