@@ -1,5 +1,5 @@
 +++
-date = "2023-05-19T01:00:00-05:00"
+date = "2023-04-19T01:00:00-05:00"
 #publishdate = "2023-04-06T11:34:36-05:00"
 title = "2023 SKYWARN Training"
 subTitle = "RRRA May Activity"
