@@ -15,7 +15,7 @@ performed these evaluations and made any needed adjustments to their stations.
 
 RF exposure evaluation of ***ALL*** Amateur Radio stations---and compliance
 reassessment subsequent to station modifications which could affect
-exposure---**are now mandatory**.
+exposure---**is now mandatory**.
 <!--more-->
 
 >As detailed in a
