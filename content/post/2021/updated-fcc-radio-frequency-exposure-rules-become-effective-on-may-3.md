@@ -9,7 +9,7 @@ tags = [ "ARRL", "FCC", "RF", "Exposure" ]
 [Two years ago](https://rrra.org/cal/2019/04/16/april-club-meeting/)
 KA0LDG made a presentation titled *RF Exposure Evaluation for
 Amateur Radio Operators* (PDF and Powerpoint versions are available in the
-**Training and Education | Presentations** folder on the [RRRA Groupsware
+**Training and Education | Presentations** folder on the [RRRA Groupware
 server](https://cloud.rrra.org/)) in anticipation of the updated FCC RF
 exposure rules.
 
