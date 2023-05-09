@@ -20,7 +20,6 @@ exposure---**is now mandatory**.
 
 >As detailed in a
 >[May 2023 QST article by Greg Lapin, N9GL](http://www.arrl.org/files/file/Lab/RF%20Exposure/2023-05%20Lapin%20FCC%20Exposure%20Rules.pdf),
-
 >the rules now require amateur radio operators to perform station evaluations.
 >The Amateur Radio Service is no longer categorically excluded from certain
 >aspects of the RF exposure rules, and licensees can no longer avoid performing
