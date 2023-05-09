@@ -49,7 +49,6 @@ asked a question on the FCC website):
 Other RF Exposure related resources and discussions available on-line include:
 
 * [KA0LDG's RF Exposure Evaluation presentaion](https://cloud.rrra.org/index.php/s/kJcD3GSPaagcM4T)
-* [N7OH RF Exposure
-* Calculator](https://vernon.mauery.com/radio/rfe/rfe_calc.html) - this calculator allows radio operators to conduct multi-band exposure calculations; simplifies calculations for stations with multiple radios, feedlines and antennas; and stores station data as browser cookies to assist with periodic reassessments. A browser which supports HTML5 is required to use this calculator. And JavaScript must be enabled.
+* [N7OH RF Exposure Calculator](https://vernon.mauery.com/radio/rfe/rfe_calc.html) - this calculator allows radio operators to conduct multi-band exposure calculations; simplifies calculations for stations with multiple radios, feedlines and antennas; and stores station data as browser cookies to assist with periodic reassessments. A browser which supports HTML5 is required to use this calculator; JavaScript must be enabled.
 * [ARRL Helps Radio Amateurs Comply with New RF Exposure Evaluation Rules](https://www.reddit.com/r/amateurradio/comments/1393i6o/arrl_helps_radio_amateurs_comply_with_new_rf/) (on the Amateur Radio subreddit).
 * [FCC Exposure Rules Soon to Affect Every US Radio Amateur](https://www.reddit.com/r/amateurradio/comments/1319o19/fcc_exposure_rules_soon_to_affect_every_us_radio/) (on the Amateur Radio subreddit).
