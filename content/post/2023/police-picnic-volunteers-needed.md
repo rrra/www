@@ -16,7 +16,7 @@ the Fargo/Moorhead area.
 
 But, due to a lack of volunteer support, RRRAES will **NOT** be able to staff
 and present the club communication trailer at the 2023 Fargo Police Picnic
-**unless** (at least) two more club members step forward to help.
+**unless** (at least) one more club member steps forward to help.
 
 Please contact {{< mailto KC0ODE >}} before My 20th if you care about the
 future of our hobby and are willing to help out.
