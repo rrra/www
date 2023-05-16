@@ -7,7 +7,7 @@ authors = [ "K0STK" ]
 categories = [ "Education", "Public Service"]
 tags = [ "ARES", "NWS", "SKYWARN" ]
 featured = "2023-04-19"
-endFeatured = "2023-05-16"
+endFeatured = "2023-05-17"
 +++
 The [RRRA May Meeting]({{< relref "/calendar/2023/may-meeting.md" >}})
 is your opportunity to become a SKYWARN&reg; Spotter or refresh your training
