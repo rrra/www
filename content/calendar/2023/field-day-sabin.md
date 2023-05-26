@@ -20,6 +20,8 @@ The [Sabin, MN Field Day 2023 site](https://goo.gl/maps/3LZgFLksDvk) will be loc
 
 # Other Local Field Day Site Locations
 
+* [West Fargo, ND \(W0ILO\)]({{< relref "/calendar/2021/field-day.md" >}})
+
 More Field Day sites in the area may be found with the 
 [ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator).
 
