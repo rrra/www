@@ -26,7 +26,7 @@ For more information about Field Day ...
 
 * Visit the [ARRL Field Day page](https://www.arrl.org/field-day)
 * Download the [ARRL "What is Field Day?" flyer](http://www.arrl.org/files/file/Field-Day/2021/2_1-%20FD%20Flier%20-%20What%20is%20FD%20generic.pdf)
-* Visit the [Wikipedia Field Day page](https://en.wikipedia.org/wiki/Field_Day_(amateur_radio)
+* Visit the [Wikipedia Field Day page](https://en.wikipedia.org/wiki/Field_Day_\(amateur_radio\))
 * Find and visit [a Field Day Site near you](http://www.arrl.org/field-day-locator)
 
 ### Visit Our Field Day Site Location
