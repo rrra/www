@@ -2,19 +2,18 @@
 date = "2023-05-30T14:59:45-05:00"
 #publishdate = "2023-05-30T14:59:45-05:00"
 title = "Learn Why Field Day Is for You"
-subTitle ="at the RRRA June Meeting"
+subTitle ="at the [RRRA June Meeting]({{< relref \"/calendar/2023/june-meeting.md\" >}})"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "Field Day" ]
 featured = "2023-05-29"
 endFeatured = "2023-06-21" 
-draft = true
 +++
-Join Kent {{< mailto KA0LDG >}} at the
-[RRRA June Meeting]({{< relref "/calendar/2023/june-meeting.md" >}})
-for a *Field Day Presentation* to learn more about the most popular operating
-event held annually in the US and Canada and to find out how you can---and why
-you should---be a part of the excitement.
+Join Kent {{< mailto KA0LDG >}} for a
+[presentation]({{< relref "/calendar/2023/june-meeting.md" >}})
+about the most popular operating event held annually in
+the US and Canada, and to find out how you can---and why you should---be
+a part of the excitement.
 
 <!--more-->
 
