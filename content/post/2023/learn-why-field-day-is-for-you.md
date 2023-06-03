@@ -39,3 +39,4 @@ hydrated and a good attitude with a desire to have fun
 [RRRA Field Day site]({{< relref "/calendar/2023/field-day.md" >}}) for any or
 all of the event period. There is plenty of parking available!
 
+{{< figure src="https://www.arrl.org/files/file/Field-Day/2023/2023%20ARRL%20Field%20Day%20Logo%20DO%20NOT%20EDIT%20OR%20MODIFY.jpg" link="http://www.arrl.org/field-day" >}}
