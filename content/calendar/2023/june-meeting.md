@@ -7,13 +7,14 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "June Business Meeting"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 4
+update = 5
 +++
 ### Featuring --- Field Day Presentation by KA0LDG
 
-Join Kent {{< mailto KA0LDG >}} for a presention about the
-most popular operating event held annually in the US and Canada, and to
-find out how you can---and why you should---be a part of the excitement.
+Join Kent {{< mailto KA0LDG >}} after our business meeting for a
+presention about the most popular amateur radio operating event held
+annually in the US and Canada, and to find out how you can---and why you
+should---be a part of the excitement.
 
 ### If you don't have plans for your own Field Day operation
 

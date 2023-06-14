@@ -9,11 +9,11 @@ tags = [ "Field Day" ]
 featured = "2023-05-29"
 endFeatured = "2023-06-21" 
 +++
-Join Kent {{< mailto KA0LDG >}} for a
-[presentation]({{< relref "/calendar/2023/june-meeting.md" >}})
-about the most popular operating event held annually in
-the US and Canada, and to find out how you can---and why you should---be
-a part of the excitement.
+Join Kent {{< mailto KA0LDG >}} after our
+[June Meeting]({{< relref "/calendar/2023/june-meeting.md" >}})
+for a presentation about the most popular amateur radio operating event
+held annually in the US and Canada, and to find out how you can---and
+why you should---be a part of the excitement.
 
 <!--more-->
 
