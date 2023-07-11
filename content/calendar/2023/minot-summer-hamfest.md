@@ -11,10 +11,12 @@ contact = "W0AOO"
 talkin = "146.790- T77.0"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 aliases = [ "/cal/2023/07/08/minot-summer-hamfest/" ]
 +++
+<!--
 More information about this event may be found at
 
 * [ARRL Minot Summer Hamfest page](http://www.arrl.org/hamfests/svarc-summer-hamfest-minot)
+-->
