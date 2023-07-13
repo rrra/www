@@ -11,8 +11,8 @@ contact = "W0AOO"
 talkin = "146.790- T77.0"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
-#status = "canceled"	# Uncomment line to mark this event as canceled	
+update = 3
+status = "canceled"	# Uncomment line to mark this event as canceled	
 aliases = [ "/cal/2023/07/08/minot-summer-hamfest/" ]
 +++
 <!--
