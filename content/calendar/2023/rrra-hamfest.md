@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2023/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-23r"
 +++
@@ -30,7 +30,7 @@ for more information.
 {{< back >}}
 ### Featuring
 
-* ARRL QSL Card Checking
+<!-- * ARRL QSL Card Checking -->
 * Door prizes
 * Eyeball QSOs
 * Flea Market
@@ -51,11 +51,11 @@ for more information.
 * [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
 * [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
 
-{{< back >}}
+<!-- {{< back >}} -->
 {{< hamfest-sponsors 2023 >}}
 
 {{< back >}}
--->
+
 ### On-Line Box Office
 
 <!-- Ticket Tailor Widget. Paste this into your website where you want the
