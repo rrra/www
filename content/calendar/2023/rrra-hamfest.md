@@ -10,22 +10,10 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2023/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-23r"
 +++
-:information: Bookmark https://hamfest.rrra.org/2023 and
-[subscribe to our Hamfest Announcements mailing list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
-to stay informed about North Dakota's largest Hamfest in 2023!
-
-{{< banner class="alert" expires="2023-07-25" >}}
-General Admission and Vendor Tickets for the 2023 RRRA Hamfest will be
-available July 25th, 2023, from our on-line box office at
-[hamfest.rrra.org](https://hamfest.rrra.org) and
-[tickets.rrra.org](https://tickets.rrra.org)
-{{< /banner >}}
-
-<!--
 {{< banner publish="2022-07-25" expires="2023-09-23T12:00:00-05:00" >}}
 **[Buy your admission and vendor table tickets TODAY](https://buytickets.at/redriverradioamateurs/700726/r/calendar-hamfest)
 and skip the Hamfest ticket table line.**
@@ -47,12 +35,14 @@ for more information.
 * Eyeball QSOs
 * Flea Market
 * Food & Beverages
-* [License Testing]({{< relref "/calendar/2022/hamfest-testing.md" >}}) (aka *VE Testing* or *VE Session*)
+* [License Testing]({{< relref "/calendar/2023/hamfest-testing.md" >}}) (aka *VE Testing* or *VE Session*)
 * [On-line Box Office](#on-line-box-office)
 * Seminars
+<!--
 * [Hamfest Flyer](#hamfest-flyer)
+-->
 
-*Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2022/rrra-hamfest.md#schedule" >}}) for more information*
+*Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2023/rrra-hamfest.md#schedule" >}}) for more information*
 
 {{< back >}}
 ### Information for Attendees and Vendors
@@ -62,7 +52,7 @@ for more information.
 * [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
 
 {{< back >}}
-{{< hamfest-sponsors 2022 >}}
+{{< hamfest-sponsors 2023 >}}
 
 {{< back >}}
 -->
@@ -90,26 +80,25 @@ acceptance of the RRRA
 [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}}).
 {{< /banner >}}
 
-<!--
 {{< back >}}
 ### Schedule
 *Schedule subject to change without notice*
 
-#### Friday, September 23rd
+#### Friday, September 22nd
 
 Time |      |
 -----|------|
 4PM | Flea Market setup in Main Hall
 7PM | Hartl building closes for the night
 
-#### Saturday, September 24th
+#### Saturday, September 23rd
 
 Time |      |
 -----|------|
 7AM | Flea Market setup in Main Hall
 8AM | Flea Market opens
 9AM | Seminars begin
-12PM | License Testing begins
+11PM | License Testing begins
 1PM | License Testing cut off
 2PM | Hamfest ends
 
@@ -120,8 +109,10 @@ Time |      |
 
 Time | Subject | Presented by
 -----|---------|-------------
-TBD  | ARRL Update | ...
+9AM to 10AM | POTA | Craig Schmidt W0AP
+10AM to 11AM | ARRL Update | TBD
 
+<!--
 {{< back >}}
 ### Hamfest Flyer
 

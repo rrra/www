@@ -45,12 +45,15 @@ to anyone at any time.***
 * Automated e-mail delivery
 * Skip the ticket table line at the Hamfest!
 
+<!--
 ##### Mail Order --- in advance
 
 * Use our [Mail Order Ticket Form](https://cloud.rrra.org/index.php/s/4LSCD28maTmL7JT/download)
 * Mail orders must be postmarked by September 1, {{< year >}}
 * Payment in the form of check or money order (to ***RRRA***) must be included
 * Mail orders will be held for pick up at the Hamfest Ticket Table
+
+-->
 
 ##### At The Door --- subject to availability
 
