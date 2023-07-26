@@ -10,9 +10,9 @@ outputs = [ "HTML", "Calendar" ]
 categories = [ "License Testing" ]
 +++
 * Computerized testing only; paper tests will not be administered
-* *Bring Your Own Device* (i.e. laptop computer) suggested
+* *Bring Your Own Device* (e.g. laptop computer, tablet) suggested
 * Only 20 test seats available; pre-register on-line
-* Tests may be started between Noon and 1PM
+* Tests may be started between 11AM and Noon
 
 #### How to sign-up for your test
 
@@ -22,7 +22,7 @@ for---or take---your license test without an FRN. Hams upgrading their
 license already have an FRN and can
 [look it up in the Commission Registration System (CORES)](https://apps.fcc.gov/cores/simpleSearch.do?csfrToken=)
 
-2. [Register at hamstudy.org](https://hamstudy.org/sessions/628538dbee6eb017e7fcaa9c/1)
+2. [Register at hamstudy.org](https://hamstudy.org/sessions/64bff3029e5f5c0122c2f294/1)
 
 3. Pay the $15 test fee. It will be be invoiced separately through
 PayPal after step 2 is completed
