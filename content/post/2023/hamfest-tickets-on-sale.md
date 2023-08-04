@@ -2,7 +2,7 @@
 date = "2021-07-14T16:00:00-05:00"
 title = "Hamfest Tickets On Sale"
 authors = [ "K0STK" ]
-categories = [ "" ]
+categories = [ "Hamfest" ]
 tags = []
 featured = true
 endFeatured = "2023-09-23T12:00:00-05:00"
