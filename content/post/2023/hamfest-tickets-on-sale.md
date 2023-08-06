@@ -1,5 +1,5 @@
 +++
-date = "2021-07-14T16:00:00-05:00"
+date = "2023-08-05T16:00:00-05:00"
 title = "Hamfest Tickets On Sale"
 authors = [ "K0STK" ]
 categories = [ "Hamfest" ]
