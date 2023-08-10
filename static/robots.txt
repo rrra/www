@@ -2,3 +2,54 @@ Sitemap: http://rrra.org/sitemap.xml
 
 User-agent: *
 Disallow: /s/
+
+# https://flounder.online/robots.txt
+
+# thou shalt not make a machine in the likeness of a human mind
+User-agent: ChatGPT-User
+Disallow: /
+
+#stole from sr.ht
+
+# Too aggressive, marketing/SEO
+User-agent: SemrushBot
+Disallow: /
+
+# Too aggressive, marketing/SEO
+User-agent: SemrushBot-SA
+Disallow: /
+
+# Huwei something or another, badly behaved
+User-agent: AspiegelBot
+Disallow: /
+
+# too aggressive
+User-agent: Yandex
+Disallow: /
+
+# No
+User-agent: turnitinbot
+Disallow: /
+
+# Does not respect * directives
+User-agent: Seekport Crawler
+Disallow: /
+
+# https://starjump.flounder.online/robots.txt
+
+#stole from sr.ht
+
+User-agent: CCBot
+Disallow: /
+
+User-Agent: TurnitinBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: ubermetrics
+Disallow: /
