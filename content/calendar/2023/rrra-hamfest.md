@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2023/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 3
+update = 4
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-23r"
 +++
@@ -30,17 +30,15 @@ for more information.
 {{< back >}}
 ### Featuring
 
-<!-- * ARRL QSL Card Checking -->
+* ARRL QSL Card Checking
 * Door prizes
 * Eyeball QSOs
 * Flea Market
+* [Flyer](#hamfest-flyer)
 * Food & Beverages
 * [License Testing]({{< relref "/calendar/2023/hamfest-testing.md" >}}) (aka *VE Testing* or *VE Session*)
 * [On-line Box Office](#on-line-box-office)
 * Seminars
-<!--
-* [Hamfest Flyer](#hamfest-flyer)
--->
 
 *Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2023/rrra-hamfest.md#schedule" >}}) for more information*
 
@@ -99,7 +97,7 @@ Time |      |
 8AM | Flea Market opens
 9AM | Seminars begin
 11PM | License Testing begins
-1PM | License Testing cut off
+Noon | License Testing cut off
 2PM | Hamfest ends
 
 {{< back >}}
@@ -109,18 +107,15 @@ Time |      |
 
 Time | Subject | Presented by
 -----|---------|-------------
-9AM to 10AM | POTA | Craig Schmidt W0AP
-10AM to 11AM | ARRL Update | TBD
+9AM to 10AM | POTA | Craig Schmidt, W0AP
+10AM to 11AM | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
 
-<!--
 {{< back >}}
 ### Hamfest Flyer
 
-<div style="width:100%;text-align:center;">
-<strong><a href="https://cloud.rrra.org/index.php/s/oXmKKrLCWCqPeD3">Download
-the 2022 RRRA Hamfest Flyer</s>
+<div style="width:100%;text-align:center;margin-bottom:12px;">
+<strong><a href="https://cloud.rrra.org/index.php/s/TGYCsyrpEkjKqJL">Download
+the 2023 RRRA Hamfest Flyer</s>
 </div>
 
-{{< figure src="https://images.rrra.org/2022-hamfest-flyer-thumbnail-2.jpg" link="https://cloud.rrra.org/index.php/s/oXmKKrLCWCqPeD3" >}}
-
--->
+{{< figure src="https://images.rrra.org/hamfest/2023-thumbnail.gif" link="https://cloud.rrra.org/index.php/s/TGYCsyrpEkjKqJL" >}}
