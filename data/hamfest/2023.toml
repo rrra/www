@@ -1,0 +1,96 @@
+year = "2023"
+
+#[[sponsor]]
+##level = "Gold"
+#name = "ARRL"
+#link = "https://arrl.org"
+#image = "//images.rrra.org/hamfest/arrl-logo-2020-474x236.jpg"
+
+#[[sponsor]]
+#name = "ARRL"
+#link = "http://www.arrl.org/"
+
+[[sponsor]]
+name = "Icom"
+link = "http://icom.com"
+
+[[sponsor]]
+name = "MFJ"
+link = "http://www.mfjenterprises.com/"
+
+[[sponsor]]
+name = "Buckmaster International LLC"
+link = "http://www.hamcall.net/"
+
+[[sponsor]]
+name = "Hammond Manufacturing"
+link = "https://www.hammfg.com"
+
+[[sponsor]]
+name = "Mastrant Antenna Guying"
+link = "http://www.mastrant.com/"
+
+[[sponsor]]
+name = "Comet Antennas (NCG)"
+link = "http://www.cometantenna.com"
+
+[[sponsor]]
+name = "RT Systems"
+link = "https://www.rtsystemsinc.com/"
+
+[[sponsor]]
+name = "Tigertronics"
+link = "http://tigertronics.com/"
+
+[[sponsor]]
+name = "DX Engineering"
+link = "https://www.dxengineering.com/"
+
+[[sponsor]]
+name = "N3FJP"
+link = "https://n3fjp.com"
+
+[[sponsor]]
+name = "FlexRadio"
+link = "https://www.flexradio.com/"
+
+[[sponsor]]
+name = "BeLoud"
+link = "https://beloud.us"
+
+#[[sponsor]]
+#name = "COMPACtenna"
+#link = "https://compactenna.com"
+
+#[[sponsor]]
+#name = "Kenwood"
+#link = "https://www.kenwood.com/usa/com/amateur/"
+
+#[[sponsor]]
+#name = "Elecraft"
+#link = "https://elecraft.com/"
+
+#[[sponsor]]
+#name = "Heil Sound"
+#link = "https://heilhamradio.com/"
+
+#[[sponsor]]
+#name = "Axis Clinicals"
+#link = "https://axisclinicalsusa.com/"
+
+#[[sponsor]]
+#name = "Blarney Stone"
+#link = "https://www.blarneyirishpub.com/"
+
+#[[sponsor]]
+#name = "Quicksilver Radio"
+#link = "https://qsradio.com/"
+
+#[[sponsor]]
+#name = "Bioenno Power"
+#link = "https://www.bioennopower.com/"
+
+#[[sponsor]]
+#name = "Easy Way Ham Books"
+#link = "https://www.easywayhambooks.com/"
+

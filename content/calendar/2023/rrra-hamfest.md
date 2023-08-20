@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2023/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 4
+update = 5
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-23r"
 +++
@@ -49,7 +49,6 @@ for more information.
 * [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
 * [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
 
-<!-- {{< back >}} -->
 {{< hamfest-sponsors 2023 >}}
 
 {{< back >}}

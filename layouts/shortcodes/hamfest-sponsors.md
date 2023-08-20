@@ -6,6 +6,12 @@ See existing files for formatting
 {{ $year := $.Page.Params.date | dateFormat "2006" }}
 {{ range $.Site.Data.hamfest }}
 	{{ if eq .year $year }}
+		<a class="alignright noprint" style="text-decoration:none;transform:translateY(1.4em);"
+		href="#top"
+		alt="Back to top"
+		title="Back to top">
+		<span class="genericon genericon-top"
+		style="width:24px;height:24px;font-size:24px;"></span></a>
 		<h3 id="sponsors">Sponsors</h3>
 		<p style="margin-bottom:6px;">This Hamfest supported by contributions from:</p>
 		{{ with .sponsor }}
