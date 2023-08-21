@@ -58,6 +58,10 @@ link = "https://www.flexradio.com/"
 name = "BeLoud"
 link = "https://beloud.us"
 
+[[sponsor]]
+name = "Bioenno Power"
+link = "https://www.bioennopower.com/"
+
 #[[sponsor]]
 #name = "COMPACtenna"
 #link = "https://compactenna.com"
@@ -85,10 +89,6 @@ link = "https://beloud.us"
 #[[sponsor]]
 #name = "Quicksilver Radio"
 #link = "https://qsradio.com/"
-
-#[[sponsor]]
-#name = "Bioenno Power"
-#link = "https://www.bioennopower.com/"
 
 #[[sponsor]]
 #name = "Easy Way Ham Books"
