@@ -10,12 +10,12 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2023/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 6
+update = 7
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-23r"
 +++
 {{< banner publish="2022-07-25" expires="2023-09-23T12:00:00-05:00" >}}
-**[Buy your admission and vendor table tickets TODAY](https://buytickets.at/redriverradioamateurs/971313/r/calendar-hamfest)
+**[Buy your admission and vendor table tickets TODAY](https://tickets.rrra.org)
 and skip the Hamfest ticket table line.**
 
 Tickets are also available at the door.
