@@ -18,6 +18,7 @@ support and
 * [Club Meetings](/dates/business-meetings)
 * [Contact Information]({{< relref "/about/contact.md" >}})
 * [Mission Statement]({{< relref "/about/mission.md" >}})
+* [New Member On Boarding]({{< relref "/about/onboarding.md" >}})
 * [Online Media Contact and Information]({{< relref "/about/online-media" >}})
 * [Repeater Trustees]({{< relref "/about/contact.md#trustees" >}})
 * [Webmaster History]({{< relref "/about/webmasters.md" >}})

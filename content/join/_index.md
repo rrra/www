@@ -10,7 +10,7 @@ url = "/join/"
 Membership in Red River Radio Amateurs is open to anyone interested in
 the hobby whether or not they currently hold an Amateur Radio license.
 
-:warning: New members should visit our [on boarding page](/about/onboarding)
+:backhand_index_pointing_right: New members should visit our [on boarding page](/about/onboarding)
 to find out how to complete the membership process.
 
 Dues payments are accepted by:
