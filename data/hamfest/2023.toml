@@ -62,6 +62,10 @@ link = "https://beloud.us"
 name = "Bioenno Power"
 link = "https://www.bioennopower.com/"
 
+[[sponsor]]
+name = "Elecraft"
+link = "https://elecraft.com/"
+
 #[[sponsor]]
 #name = "COMPACtenna"
 #link = "https://compactenna.com"
@@ -69,10 +73,6 @@ link = "https://www.bioennopower.com/"
 #[[sponsor]]
 #name = "Kenwood"
 #link = "https://www.kenwood.com/usa/com/amateur/"
-
-#[[sponsor]]
-#name = "Elecraft"
-#link = "https://elecraft.com/"
 
 #[[sponsor]]
 #name = "Heil Sound"
