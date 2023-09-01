@@ -66,6 +66,16 @@ link = "https://www.bioennopower.com/"
 name = "Elecraft"
 link = "https://elecraft.com/"
 
+[[sponsor]]
+name = "W0HNV"
+
+[[sponsor]]
+name = "K0OP"
+
+[[sponsor]]
+name = "MyEclipseGlasses"
+link = "https://myeclipseglasses.com"
+
 #[[sponsor]]
 #name = "COMPACtenna"
 #link = "https://compactenna.com"
