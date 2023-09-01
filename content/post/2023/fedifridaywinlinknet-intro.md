@@ -1,7 +1,7 @@
 +++
 date = "2023-09-01T16:41:34-05:00"
 #publishdate = "2023-09-01T16:41:34-05:00"
-title = "Exercise Your Winlink Station with the FediFridayWinlinkNet"
+title = "Exercise Your Winlink Station with the #FediFridayWinlinkNet"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
 tags = [ "Fediverse", "Winlink" ]
@@ -10,15 +10,14 @@ Improving any skill takes practice. Amateur radio operators who use
 [Winlink Global Radio Email](https://en.wikipedia.org/wiki/Winlink)
 (AKA Winlink) have an opportunity to practice every Friday by checking
 in to the
-[#FediFridayWinlinkNet](https://coloradodigital.net/nets/fedifridaywinlinknet/)
-between 0000 and 2359 UTC.
+[#FediFridayWinlinkNet](https://coloradodigital.net/nets/fedifridaywinlinknet/).
 <!--more-->
 
 Check-in messages may be sent via any method supported by the Winlink system:
 HF, VHH, APRS, Telnet, ...
 
 The general procedure is to send a Winlink message on Friday between
-0000Z-2359Z to the NCS with the following format:
+0000Z and 2359Z to the NCS with the following format:
 
 ```
 To: [NCS callsign]
