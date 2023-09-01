@@ -1,5 +1,5 @@
 +++
-ncs = [ "KA0LDG" ]
+ncs = [ "K0OP" ]
 date = "2023-10-22T21:00:00-05:00"
 publishDate = "2022-12-20"
 endTime = ""
@@ -9,5 +9,5 @@ slug = "uhf-vhf-net-43"
 categories = [ "Public Service" ]
 dates = [ "NCS Schedule" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 2
 +++
