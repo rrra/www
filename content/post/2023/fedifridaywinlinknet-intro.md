@@ -14,7 +14,7 @@ in to the
 <!--more-->
 
 Check-in messages may be sent via any method supported by the Winlink system:
-HF, VHH, APRS, Telnet, ...
+HF, VHF, APRS, Telnet, ...
 
 The general procedure is to send a Winlink message on Friday between
 0000Z and 2359Z to the NCS with the following format:
