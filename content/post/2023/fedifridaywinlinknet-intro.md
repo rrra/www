@@ -1,7 +1,7 @@
 +++
 date = "2023-09-01T16:41:34-05:00"
 #publishdate = "2023-09-01T16:41:34-05:00"
-title = "Exercise Your Winlink Station with the #FediFridayWinlinkNet"
+title = "Exercise Your Winlink Station with the FediFridayWinlinkNet"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
 tags = [ "Fediverse", "Winlink" ]
