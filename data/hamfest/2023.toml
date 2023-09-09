@@ -6,10 +6,6 @@ year = "2023"
 #link = "https://arrl.org"
 #image = "//images.rrra.org/hamfest/arrl-logo-2020-474x236.jpg"
 
-#[[sponsor]]
-#name = "ARRL"
-#link = "http://www.arrl.org/"
-
 [[sponsor]]
 name = "Icom"
 link = "http://icom.com"
@@ -75,6 +71,10 @@ name = "K0OP"
 [[sponsor]]
 name = "MyEclipseGlasses"
 link = "https://myeclipseglasses.com"
+
+[[sponsor]]
+name = "ARRL"
+link = "http://www.arrl.org/"
 
 #[[sponsor]]
 #name = "COMPACtenna"
