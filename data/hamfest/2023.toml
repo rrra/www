@@ -7,6 +7,10 @@ year = "2023"
 #image = "//images.rrra.org/hamfest/arrl-logo-2020-474x236.jpg"
 
 [[sponsor]]
+name = "ARRL"
+link = "http://www.arrl.org/"
+
+[[sponsor]]
 name = "Icom"
 link = "http://icom.com"
 
@@ -73,8 +77,8 @@ name = "MyEclipseGlasses"
 link = "https://myeclipseglasses.com"
 
 [[sponsor]]
-name = "ARRL"
-link = "http://www.arrl.org/"
+name = "Blarney Stone"
+link = "https://www.blarneyirishpub.com/"
 
 #[[sponsor]]
 #name = "COMPACtenna"
@@ -91,10 +95,6 @@ link = "http://www.arrl.org/"
 #[[sponsor]]
 #name = "Axis Clinicals"
 #link = "https://axisclinicalsusa.com/"
-
-#[[sponsor]]
-#name = "Blarney Stone"
-#link = "https://www.blarneyirishpub.com/"
 
 #[[sponsor]]
 #name = "Quicksilver Radio"
