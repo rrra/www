@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2023/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 7
+update = 8
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-23r"
 +++
@@ -37,6 +37,7 @@ for more information.
 * [License Testing]({{< relref "/calendar/2023/hamfest-testing.md" >}}) (aka *VE Testing* or *VE Session*)
 * [On-line Box Office](#on-line-box-office)
 * Seminars
+* Silent Auction
 
 *Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2023/rrra-hamfest.md#schedule" >}}) for more information*
 
@@ -94,6 +95,7 @@ Time |      |
 8AM | Flea Market opens
 9AM | Seminars begin
 11PM | License Testing begins
+     | Silent Auction Bidding Closes
 Noon | License Testing cut off
 2PM | Hamfest ends
 
