@@ -80,6 +80,10 @@ link = "https://myeclipseglasses.com"
 name = "Blarney Stone"
 link = "https://www.blarneyirishpub.com/"
 
+[[sponsor]]
+name = "Heil Sound"
+link = "https://heilhamradio.com/"
+
 #[[sponsor]]
 #name = "COMPACtenna"
 #link = "https://compactenna.com"
@@ -87,10 +91,6 @@ link = "https://www.blarneyirishpub.com/"
 #[[sponsor]]
 #name = "Kenwood"
 #link = "https://www.kenwood.com/usa/com/amateur/"
-
-#[[sponsor]]
-#name = "Heil Sound"
-#link = "https://heilhamradio.com/"
 
 #[[sponsor]]
 #name = "Axis Clinicals"
