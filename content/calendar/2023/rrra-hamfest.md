@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2023/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 8
+update = 9
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-23r"
 +++
@@ -94,8 +94,7 @@ Time |      |
 7AM | Flea Market setup in Main Hall
 8AM | Flea Market opens
 9AM | Seminars begin
-11PM | License Testing begins
-     | Silent Auction Bidding Closes
+11PM | License Testing begins<br>Silent Auction bidding closes
 Noon | License Testing cut off
 2PM | Hamfest ends
 

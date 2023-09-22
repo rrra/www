@@ -84,6 +84,10 @@ link = "https://www.blarneyirishpub.com/"
 name = "Heil Sound"
 link = "https://heilhamradio.com/"
 
+[[sponsor]]
+name = "Axis Clinicals"
+link = "https://axisclinicalsusa.com/"
+
 #[[sponsor]]
 #name = "COMPACtenna"
 #link = "https://compactenna.com"
@@ -91,10 +95,6 @@ link = "https://heilhamradio.com/"
 #[[sponsor]]
 #name = "Kenwood"
 #link = "https://www.kenwood.com/usa/com/amateur/"
-
-#[[sponsor]]
-#name = "Axis Clinicals"
-#link = "https://axisclinicalsusa.com/"
 
 #[[sponsor]]
 #name = "Quicksilver Radio"
