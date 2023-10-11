@@ -9,7 +9,7 @@ linkTitle = "October Activity"
 aliases = [ "/2023/10/17/october-club-meeting/" ]
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 3
+update = 4
 +++
 Tim K0CRF will give an *Operating a Tactical Net* presentation.
 
@@ -24,8 +24,8 @@ October 17th.
 
 ### References
 
-* [Radiotelephony procedure](https://en.wikipedia.org/wiki/Radiotelephony_procedure) (Wikipedia)
 * [Tactical Nets](https://www.hamradioschool.com/post/tactical-nets) (Ham Radio School)
 * [ARES Field Resource Guide for the Emergency Communicator](http://arrl.org/files/file/Public%20Service/ARES/ARESFieldResourcesManual_rev10-2019.pdf) (ARRL)
+* [Radiotelephony procedure](https://en.wikipedia.org/wiki/Radiotelephony_procedure) (Wikipedia)
 * [Net operation](https://en.wikipedia.org/wiki/Net_operation) (Wikipedia)
 
