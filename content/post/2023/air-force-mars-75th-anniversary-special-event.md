@@ -6,11 +6,10 @@ authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "MARS" ]
 +++
-Celebrate 75 years of US Air Force MARS operation with an
-[Amateur Radio Special Event](http://www.af-mars.org/public/events/u-s-air-force-mars-75th-anniversary-event/)
-in the Technician and General portions of the 160--6 meter bands
-(excepting 60M) from November 5th 0001Z through November 11th 2359Z using
-SSB, CW, and digital modes.
+Celebrate 75 years of US Air Force MARS operation with an Amateur Radio
+Special Event in the Technician and General portions of the 160--6 meter
+bands (excepting 60M) from November 5th 0001Z through November 11th
+2359Z using SSB, CW, and digital modes.
 
 This is a certificate only event; no QSLs will be exchanged.
 <!--more-->
