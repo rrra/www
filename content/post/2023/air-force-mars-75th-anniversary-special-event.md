@@ -42,7 +42,7 @@ Amateurs will need to
 [request a certificate](http://cert.elemcoshopfloor.com).
 
 A [Mission Statement PDF Flyer](http://www.af-mars.org/public/wp-content/uploads/2023/10/AIR-FORCE-MARS-75-Years-Mission-Statement-Info-ed-edit-101323-1.pdf)
-for this event is avaiable for download.
+for this event is available for download.
 
 #### Example Exchanges
 
@@ -75,7 +75,11 @@ CW and Digital mode exchange format will contain the pertinent information.
 | Pentagon MARS Station          | 3                                  | K4AF      |
 | Travis AFB AFMARS Station      | 9                                  | KE6UEU    |
 
-<p class="clear"></p>
+{{< banner >}}
+Event Amateur Operator Instructions from the 
+[Air Force MARS 75 Years Mission Statement](http://www.af-mars.org/public/wp-content/uploads/2023/10/AIR-FORCE-MARS-75-Years-Mission-Statement-Info-ed-edit-101323-1.pdf)
+(PDF)
+{{< /banner >}}
 
 {{< figure src="http://www.af-mars.org/public/wp-content/uploads/2023/10/Sample-of-Certificate.jpg" alt="Air Force MARS 75th Annivesary Sample Special Event Certificate" >}}
 
@@ -105,17 +109,18 @@ CW and Digital mode exchange format will contain the pertinent information.
 
 [^1]: "Air Force MARS 75 Years Mission Statement", Air Force MARS 10th Communications Wing, Accessed November 4 2023, http://www.af-mars.org/public/wp-content/uploads/2023/10/AIR-FORCE-MARS-75-Years-Mission-Statement-Info-ed-edit-101323-1.pdf.
 
-#### For more information
-
-* :link: [About US Air Force MARS page](http://www.af-mars.org/public/) (Air Force MARS 10th Communications Wing)
-* :page_facing_up: [USAF Military Auxiliary Radio System PDF](https://www.dropbox.com/s/z1jzss69aa82w92/USAF-MARS_01-2020_Final_Public.pdf?dl=0)
-* :link: [Military Auxiliary Radio System page ](https://en.wikipedia.org/wiki/Military_Auxiliary_Radio_System) (Wikipedia}
-
 #### How to join MARS
 
 * :e-mail: Send e-mail to join@afmars-mil.us
 * :phone: Call [888-778-6277](tel:888-778-6277)
 * :link: Use the [MARS "contact us" form](http://www.af-mars.org/public/contact-us/)
+
+#### Would you like to know more?
+
+* :link: [About US Air Force MARS page](http://www.af-mars.org/public/) (Air Force MARS 10th Communications Wing)
+* :page_facing_up: [USAF Military Auxiliary Radio System PDF](https://www.dropbox.com/s/z1jzss69aa82w92/USAF-MARS_01-2020_Final_Public.pdf?dl=0)
+* :link: [Military Auxiliary Radio System page ](https://en.wikipedia.org/wiki/Military_Auxiliary_Radio_System) (Wikipedia)
+
 
 MARS Website
 
