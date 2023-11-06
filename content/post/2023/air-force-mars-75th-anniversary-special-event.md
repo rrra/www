@@ -40,7 +40,7 @@ software capable of this format may be used. After November 30th the
 Amateurs will need to
 [request a certificate](http://cert.elemcoshopfloor.com).
 
-A [Mission Statement PDF Flyer](http://www.af-mars.org/public/wp-content/uploads/2023/10/AIR-FORCE-MARS-75-Years-Mission-Statement-Info-ed-edit-101323-1.pdf)
+A [Mission Statement PDF Flyer](https://community.apan.org/wg/air-force-military-auxiliary-radio-system-afmars/afmars-75-years/m/documents/448521/download)
 for this event is available for download.
 
 #### Example Exchanges
@@ -76,7 +76,7 @@ CW and Digital mode exchange format will contain the pertinent information.
 
 {{< banner >}}
 Event Amateur Operator Instructions from the 
-[Air Force MARS 75 Years Mission Statement](http://www.af-mars.org/public/wp-content/uploads/2023/10/AIR-FORCE-MARS-75-Years-Mission-Statement-Info-ed-edit-101323-1.pdf)
+[Air Force MARS 75 Years Mission Statement](https://community.apan.org/wg/air-force-military-auxiliary-radio-system-afmars/afmars-75-years/m/documents/448521/download)
 (PDF)
 {{< /banner >}}
 
@@ -84,47 +84,47 @@ Event Amateur Operator Instructions from the
 
 ### About US Air Force Military Auxiliary Radio System (MARS)
 
->Mission
+>MISSION
 >: The United States Air Force Military Auxiliary Radio System provides
 >contingency communications support on behalf of the men and women of the
 >Department of Defense and other U.S. Government users in support of their
 >important and diverse national security missions whenever, however and
 >wherever required.
 >
->Vision
->: To support the Department of Defense and U.S. Government in any manner
->within our capability by providing first-rate, on-demand contingency
->communications services that rival far more complex and expensive systems'
+>VISION
+>: To support the Department of Defense and U.S. Government as tasked
+>and within our capability by providing first-rate, on-demand contingency
+>communications services that rival far more complex and expensive systems
 >levels of service and quality, and to do so in peacetime or times of national
->crisis, on an around-the-clock-basis, and at no expense to the US taxpayer.
->Members will utilize their own resources and time to provide these
->service[s.]
+>crisis, on an around-the-clock basis, and at no expense to the US taxpayer.
+>Members will use their own resources and contributed time to provide these
+>services.
 >
->Values
->: We, the members, view our services as a patriotic duty. We utilize our God
->given talents and resources to meet this obligation. At all times we strive
->to provide our communications services in a manner consistent with the finest
->traditions of the United States Military.[^1]
-
-[^1]: "Air Force MARS 75 Years Mission Statement", Air Force MARS 10th Communications Wing, Accessed November 4 2023, http://www.af-mars.org/public/wp-content/uploads/2023/10/AIR-FORCE-MARS-75-Years-Mission-Statement-Info-ed-edit-101323-1.pdf.
+>VALUES
+>: We view our Air Force MARS service as a patriotic duty. We employ
+>our God given talents and resources to meet our operational commitment. At all
+>times we strive to provide communications encompassing the finest traditions
+>of the United States Military and fully embrace the Air Force Core Values of
+>Integrity First, Service Before Self and Excellence in All We Do. [^1]
+ 
+[^1]: "Air Force MARS 75 Years Mission Statement", Air Force MARS, Accessed November 4 2023, https://community.apan.org/wg/air-force-military-auxiliary-radio-system-afmars/afmars-75-years/m/documents/448521/download.
 
 #### How to join MARS
 
 * :e-mail: Send e-mail to join@afmars-mil.us
 * :phone: Call [888-778-6277](tel:888-778-6277)
-* :link: Use the [MARS "contact us" form](http://www.af-mars.org/public/contact-us/)
 
 #### Would you like to know more?
 
-* :link: [About US Air Force MARS page](http://www.af-mars.org/public/) (Air Force MARS 10th Communications Wing)
-* :page_facing_up: [USAF Military Auxiliary Radio System PDF](https://www.dropbox.com/s/z1jzss69aa82w92/USAF-MARS_01-2020_Final_Public.pdf?dl=0)
+* :link: [AFMARS Public Home Page](https://community.apan.org/wg/air-force-military-auxiliary-radio-system-afmars/)
+* :page_facing_up: [MARS Recruiting Flyer](https://community.apan.org/wg/air-force-military-auxiliary-radio-system-afmars/recruiting/m/documents/448739/download) (PDF)
 * :link: [Military Auxiliary Radio System page ](https://en.wikipedia.org/wiki/Military_Auxiliary_Radio_System) (Wikipedia)
 
 
 MARS Website
 
-: http://www.af-mars.org/
+: https://community.apan.org/wg/air-force-military-auxiliary-radio-system-afmars/
 
 MARS Contact
 
-: Use the [MARS comment form](http://www.af-mars.org/public/comments/)
+: join@afmars-mil.us
