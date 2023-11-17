@@ -9,6 +9,6 @@ tags = []
 As of October 2023 the location for
 [RRRA club meetings / activities](/dates/club-meetings) and
 [RRRAES ARES meetings](/date/ares-meetings) is now the
-[Fargo Public Safety Building](/places/cass-county-emergency-management.md)
+[Fargo Public Safety Building](/places/cass-county-emergency-management/)
 (AKA *Cass County Emergency Management*).
 <!--more-->

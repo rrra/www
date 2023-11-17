@@ -7,9 +7,6 @@ location = "[Fargo Public Safety Building](/places/cass-county-emergency-managem
 title = "November ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
+status = "canceled"
 +++
-{{< banner class="alert" >}}
-Our regular meeting location has 
-[changed]({{< relref "/post/2023/club-meeting-location-change.md" >}}.)
-{{< /banner >}}
