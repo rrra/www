@@ -117,5 +117,5 @@ and dues payment to the
 if you have not already renewed for 2024.
 
 Questions about your membership status should be directed to
-the Club Treasurer, {{<mailto treasurer >}}.
+the {{<mailto treasurer >}}
 
