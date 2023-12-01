@@ -1,10 +1,12 @@
 +++
 date = "2023-11-30T11:00:00-05:00"
+expiry = "2023-11-30T20:18:00-06:00"
 #publishdate = "2021-05-28T16:00:58-05:00"
 title = "RRRA needs a 2024 Election Manager"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = [ "Elections" ]
+draft = true
 +++
 RRRA needs an Election Manager for the club's
 [2024 Officer Elections]({{< relref "/calendar/2024/february-meeting.md">}}).
