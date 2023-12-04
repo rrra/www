@@ -29,7 +29,7 @@ a leadership election will be conducted during the
 ### What positions must be filled?
 
 Four Officers and one At-Large Member of the Board of Directors are to be
-elected; with responsibilities are documented in
+elected; with responsibilities as documented in
 [Article VI---Board of Directors]({{< relref "/bylaws.md#article-vi-board-of-directors" >}}) and
 [Article VII---Officers]({{< relref "/bylaws.md#article-vii-officers" >}})
 of the RRRA Bylaws.
@@ -113,7 +113,7 @@ or bring your
 [membership / renewal form](/s/3iOnHKqxHlaDxxv)
 <span style="font-size:smaller">(PDF)</span>
 and dues payment to the
-[February Meeting]({{< relref "/calendar/2024/february-meeting.md" >}}).
+[February Meeting]({{< relref "/calendar/2024/february-meeting.md" >}})
 if you have not already renewed for 2024.
 
 Questions about your membership status should be directed to
