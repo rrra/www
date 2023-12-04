@@ -11,7 +11,7 @@ the Red River Radio Amateurs and our club owes a debt of gratitude to
 those who have stepped forward to fill these leadership positions.
 
 But we can not continue to depend upon the same few individuals year
-after year. It is well past time for new Officers to step forward from
+after year. It is well past time for new officers to step forward from
 within our membership.
 
 As specified in 
