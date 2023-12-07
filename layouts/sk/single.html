@@ -59,7 +59,7 @@
 	{{ end }}
 
 	{{/* findRE regex for validating YYYY-MM-DD. Will not catch leap year errors ... */}}
-	{{ $dateregex := "^[12][0-9][0-9][0-9]-(((0[469])|(11))-((0[1-9])|([12][0-9])|(30)))|(((0[1578])|(1[02]))-((0[1-9])|([12][0-9])|(3[01])))|(02-2[89])$" }}
+	{{ $dateregex := "^[12][0-9][0-9][0-9]-(((0[469])|(11))-((0[1-9])|([12][0-9])|(30)))|(((0[13578])|(1[02]))-((0[1-9])|([12][0-9])|(3[01])))|(02-2[89])$" }}
 
 		<dl id="list">
 			{{ if gt .Params.born "" }}
@@ -123,7 +123,7 @@
 				{{ if in $needed "death|" }}<li>Date of Death</li>{{ end }}
 				{{ if in $needed "skhq|" }}<li>A memorial at the <a href="http://silentkeyhq.com">National Silent Key Archive</a></li>{{ end }}
 			</ul>
-			<p>Can you contribute any of the information needed to complete this Silent Key listing?</p>
+			<p>Can you contribute any of the information needed to complete this Silent Key memorial?</p>
       			<p>Please contact the <a href="mailto:webmaster@rrra.org?subject={{ $call }}%20Silent%20Key%20Memorial">Webmaster Team</a> if you can help.</p>
 			</div>
 		{{ end }}
