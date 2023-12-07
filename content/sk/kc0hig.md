@@ -12,3 +12,4 @@ silentkeyhq = "" # silentkeyhq UID for this SK
 title = "KC0HIG"
 created = "2023-12-05T11:17:16-06:00"
 +++
+{{< import "/post/2023/visitation-and-memorial-for-kc0hig.md" >}}
