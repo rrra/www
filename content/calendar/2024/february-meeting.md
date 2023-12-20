@@ -2,11 +2,11 @@
 contact = "president"
 date = "2024-02-20T19:00:00-06:00"
 publishDate = "2023-11-22"
-location = "TBD"
+location = "[West Fargo FD HQ](/places/west-fargo-fire-department-headquarters/)"
 title = "February Business Meeting"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 aliases = [ "" ]
 +++
 ### 2024 Elections
