@@ -6,10 +6,10 @@ endTime = ""
 location = "[Fargo Public Safety Building](/places/cass-county-emergency-management/)"
 title = "October Activity: Operating a Tactical Net"
 linkTitle = "October Activity"
-aliases = [ "/2023/10/17/october-club-meeting/" ]
+aliases = [ "/cal/2023/10/17/october-club-meeting/" ]
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 4
+update = 5
 +++
 Tim K0CRF will give an *Operating a Tactical Net* presentation.
 
