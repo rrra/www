@@ -78,7 +78,7 @@
       {{ end }}	
 			{{ if gt .Params.contact "" }}
 			<dt class="twocol header">CONTACT:</dt><dd class="twocol"><div id="contact" class="p-organizer">
-				{{ partial "contact.html" (dict "context" . "sign" .Params.contact ) }}
+				{{ partialCached "contact.html" (dict "context" . "sign" .Params.contact ) .Params.contact }}
 			</div></dd>
 			{{ end }}
 		</dl>
@@ -88,8 +88,8 @@
 				</div>
 		{{ end }}
 		<p class="p-summary clear">{{ .Content }}</p>
-		{{ .Scratch.Set "source" "layouts/partials/calendar/event.html" }}
-		{{ partial "sourcelink.html" . }}
+
+
 	</div>
 
 	<footer class="entry-meta">

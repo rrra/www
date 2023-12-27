@@ -29,7 +29,7 @@
 	{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
 	{{ if ne $contact nil }}
 	<div id="contact">
-		<br /><span class="vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" $contact ) }}
+		<br /><span class="vertmiddle">Contact: </span>{{ partialCached "contact.html" (dict "context" . "sign" $contact ) $contact }}
 	</div>
 	{{ end }}
 
@@ -65,7 +65,7 @@
 				{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
 			{{ end }}
 			</dl>
-			{{ partial "clear" }}
+			<p class="clear"></p>
 		{{ end }}
 	{{ end }}
 	</div>
@@ -95,8 +95,8 @@
 
 	</div>
 
-	{{ .Scratch.Set "source" "layouts/taxonomy/dates.html" }}
-	{{ partial "sourcelink.html" . }}
+
+
 </div>
 
 {{ end }}

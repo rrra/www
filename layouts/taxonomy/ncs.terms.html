@@ -28,12 +28,13 @@
 	{{/* Convert the NCS assignments list from a []string to a string
 	     so that we can use it with string.Count
 	*/}}
-	{{ $assignments := delimit ( $scratch.Get "assignments"  ) " " }}
+	{{ with ( $scratch.Get "assignments" ) }}
+		{{ $assignments := delimit ( $scratch.Get "assignments"  ) " " }}
 
-	{{/* Filter the agregated assignments for unique call-signs.
-	     The resulting list is unordered.
-	*/}}
-	{{ $ncs_list :=  $scratch.Get "assignments" | uniq }}
+		{{/* Filter the agregated assignments for unique call-signs.
+	     	The resulting list is unordered.
+		*/}}
+		{{ $ncs_list :=  $scratch.Get "assignments" | uniq }}
 
 	{{/* Go through the call-sign list and count assignments */}}
 	{{ range $ncs_list }}
@@ -63,6 +64,7 @@
 		{{ $value := $call | printf "%d %s" $count }}
 		{{ $scratch.SetInMap "leaderboard" $key $value }}
 	{{ end }}	
+	{{ end }}
 
 	<header class="entry-header">
 		<div class="entry-meta">
@@ -111,7 +113,5 @@
 			to report erroneous or omitted records.</p>
 		</div>
 		<p class="clear"></p>
-		{{ .Scratch.Set "source" "layouts/taxonomy/ncs.terms.html" }}
-		{{ partial "sourcelink.html" . }}
 	</div>
 {{ end }}

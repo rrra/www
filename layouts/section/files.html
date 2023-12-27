@@ -13,7 +13,7 @@
 		{{ $contact := .Params.contact }}
 		{{ if ne $contact nil }}
 		<div id="contact">
-			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partialCached "contact.html" (dict "context" . "sign" $contact ) $contact }} 
 		</div>
 		{{ end }}
 	</header>
@@ -29,7 +29,5 @@
 		<!--// end }}-->
 
 		{{ .Content }}
-		{{ .Scratch.Set "source" "layouts/section/files.html" }}
-		{{ partial "sourcelink.html" . }}
 	</div>
 {{ end }}

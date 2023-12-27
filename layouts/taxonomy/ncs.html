@@ -28,7 +28,7 @@
 					{{ .Render "alldli" }}
 				{{ end }}
 			</dl>
-			{{ partial "clear" }}
+			<p class="clear"></p>
 		{{ end }}
 
 		<div class="banner noprint">
@@ -51,7 +51,5 @@
 		{{ partialCached "webcal-instructions.html" . }}
 
 		</div>
-			{{ .Scratch.Set "source" "layouts/taxonomy/ncs.html" }}
-			{{ partial "sourcelink.html" . }}
-		</div>
+	</div>
 {{ end }}

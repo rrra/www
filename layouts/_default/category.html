@@ -34,6 +34,4 @@
 
 	{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
 
-	{{ .Scratch.Set "source" "layouts/_default/category.html" }}
-	{{ partial "sourcelink.html" . }}
 {{ end }}

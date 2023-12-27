@@ -3,7 +3,7 @@ BEGIN:VCALENDAR
 PRODID:-//hugo-{{ hugo.Version }}//Calendar//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
-{{ partial "ics-tzid.html" -}}
+{{ partialCached "ics-tzid.html" . -}}
 BEGIN:VEVENT
 UID:{{ .Permalink | md5 }}@{{ .Site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
 CREATED:{{ with .Params.created -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}{{ with .PublishDate -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}.Date.Format "20060102T150405\n" }}{{ end -}}{{ end -}}

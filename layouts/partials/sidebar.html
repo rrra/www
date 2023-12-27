@@ -6,20 +6,19 @@
 
 	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 
-		{{ partial "searchform.html" . }}
+		{{ partialCached "searchform.html" . }}
 
-		{{ partial "siteicons.html" . }}
+		{{ partialCached "siteicons.html" . }}
 
-		{{ partial "recentposts.html" . }}
+		{{ partialCached "recentposts.html" . }}
 
-		<!-- List of dates related to current category -->
-		{{ partial "dates.html" .  }}
+		{{ partialCached "dates.html" .  }}
 		
 		<!-- List of content categories -->
 		{{ partial "categories.html" . }}
 
 		<!-- ND Section, ARRL Logo, & Dakota Division links -->
-		{{ partial "arrl.html" . }}
+		{{ partialCached "arrl.html" . }}
 
 	</div>
 

@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 PRODID:-//hugo-{{ hugo.Version }}//Calendar//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
-{{ partial "ics-tzid.html" -}}
+{{ partialCached "ics-tzid.html" . -}}
 METHOD:PUBLISH
 {{ $today := now | dateFormat "2006" -}}
 {{ range .Pages -}}

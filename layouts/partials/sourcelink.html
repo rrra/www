@@ -17,11 +17,11 @@ source path must be set as follows:
 	{{ partial "sourcelink.html" . }}
 */}}
 
-{{ $base := .Site.Params.gitbase }}
+{{ $base :=  site.Params.gitbase }}
 
 {{ $scratch := newScratch }}
-{{ with .File }}
-	{{ $scratch.Set "source" ( .Path | printf "%s/%s" "content" ) }}
+{{ with  .File  }}
+	{{ $scratch.Set "source" ( .File | printf "%s/%s" "content" ) }}
 	{{ $scratch.Set "type" "Source" }}
 {{ else }}
 	{{ with ( .Scratch.Get "source" ) }}
@@ -38,3 +38,4 @@ source path must be set as follows:
 <span class="genericon genericon-github" style="vertical-align:middle;margin-right:.3em;"></span>{{ $scratch.Get "type" }}: <a rel="nofollow" href="{{ $base }}/{{ $path }}">{{ $path }}</a>
 </div>
 {{ end }}
+
