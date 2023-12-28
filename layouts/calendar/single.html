@@ -5,7 +5,7 @@
 	{{ `<!-- Template: layouts/calendar/single.html -->` | safeHTML }}
 	{{ end }}
 	{{ if gt .Params.ncs "" }}
-		{{ partialCached "calendar/ncs.html" . .Params.ncs }}
+		{{ partial "calendar/ncs.html" .  }}
 	{{ else }}
 		{{ partial "calendar/event.html" . }}
 	{{ end }}
