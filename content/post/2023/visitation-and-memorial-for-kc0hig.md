@@ -6,6 +6,7 @@ authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = [ "SK" ]
 moreText = "View the location"
+expiryDate = "2023-12-12"
 +++
 Visitation
 : 11:00 AM -- 12:00 PM December 11, 2023
