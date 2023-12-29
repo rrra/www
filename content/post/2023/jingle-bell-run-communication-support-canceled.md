@@ -7,7 +7,7 @@ categories = [ "Public Service" ]
 tags = []
 +++
 RRRA will not be providing communication support for the
-[2023 Jinle Bell Run]({{< relref "/calendar/2023/jingle-bell-run.md">}})
+[2023 Jingle Bell Run]({{< relref "/calendar/2023/jingle-bell-run.md">}})
 because no one was willing to volunteer to coordinate the radio operators.
 
 Our inability to service existing public service communication
