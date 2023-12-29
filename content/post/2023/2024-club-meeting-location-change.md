@@ -6,9 +6,9 @@ authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = []
 +++
-Beginning in January 2024 the location for
+Beginning in January 2024 
 [RRRA club meetings / activities](/dates/club-meetings) and
-[RRRAES ARES meetings](/date/ares-meetings) will be the 
-[West Fargo Fire Department Headquarters]({{< relref "/places/west-fargo-fire-department-headquarters.md" >}})
+[RRRAES ARES meetings](/date/ares-meetings) will be held at the 
+[West Fargo Fire Department Headquarters]({{< relref "/places/west-fargo-fire-department-headquarters.md" >}}).
 <!--more-->
 
