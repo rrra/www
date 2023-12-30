@@ -1606,6 +1606,8 @@ a.post-thumbnail:hover {
  */
 p.clear { clear: both; }
 
+figcaption p a::before { content: ' '; display: block; }
+
 /**
  * 6.5 Gallery
  * -----------------------------------------------------------------------------
