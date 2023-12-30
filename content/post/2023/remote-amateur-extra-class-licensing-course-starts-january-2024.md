@@ -25,6 +25,9 @@ beginning on January 18, 2024.
 Please contact the instructor, {{< mailto K3RA name >}}, to sign-up for this
 course.
 
+:information_source: This course was announced *locally* on the
+[TCDXA e-mail list](https://pairlist2.pair.net/mailman/listinfo/tcdxa-list).
+
 ## About K3RA
 
 Roland *Rol* Anders, K3RA---an Amateur Radio operator since at least
