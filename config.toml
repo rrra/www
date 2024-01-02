@@ -62,7 +62,7 @@ unsafe= true
 
 	# Used for OpenGraph and Twitter Cards
 	# other related settings in [params.social] below 
-	images = [ "https://images.rrra.org/socialcard.png" ]
+	images = [ "https://images.rrra.org/socialcard.jpg" ]
 
 	# Used for SK pages
 	silentkeybase = "http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&"
