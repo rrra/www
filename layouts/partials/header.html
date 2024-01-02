@@ -2,6 +2,8 @@
 
 <html lang="{{ with .Site.LanguageCode}}{{ . }}{{ else }}en-US{{end}}">
 <head>
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
 	{{ hugo.Generator }}
@@ -25,7 +27,6 @@
     <![endif]-->
     <!--<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>-->
 
-{{ partial "open-graph.html" . }}
 
 </head>
 

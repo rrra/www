@@ -60,6 +60,10 @@ unsafe= true
 
 	description = "A nonprofit ARRL affiliated Amateur Radio club serving Fargo, ND; Moorhead, MN; and the surrounding area with communication support and educational outreach."
 
+	# Used for OpenGraph and Twitter Cards
+	# other related settings in [params.social] below 
+	images = [ "https://images.rrra.org/socialcard.png" ]
+
 	# Used for SK pages
 	silentkeybase = "http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&"
 
@@ -102,6 +106,10 @@ unsafe= true
 
 [params.dates.license-testing]
 	description = "Select your license test session on this page for more information and to learn how to sign up. Please contact our Testing Coordinator if no test sessions are listed or you would like to arrange one on a specific date."
+	shortcut = "https://testing.rrra.org"
+
+[params.social]
+  twitter = 'w0ilo'
 
 [params.tooltips]
 
