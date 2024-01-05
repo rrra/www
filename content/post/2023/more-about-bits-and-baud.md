@@ -8,6 +8,7 @@ date = "2023-12-31T08:26:51-06:00"
 title = "More About Bits and Baud"
 description = "More About Bits and Baud: This episode ties into a feature in the November/December issue called Bits and Baud, which discussed important elements of digital communication, namely the quantity of information a transmission delivers -- known as bit rate -- and the rate of speed at which the information is delivered, which is known as baud rate."
 audio = "https://media.blubrry.com/arrlontheair/content.blubrry.com/arrlontheair/OTA_POD_Dec.mp3" 
+thumbnail = "https://assets.blubrry.com/coverart/300/930449-721631.jpg"
 +++
 In this episode of ARRL's monthly On The Air podcast: "This episode ties into
 a feature in the November/December issue called *Bits and Baud*, which
