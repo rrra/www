@@ -34,7 +34,7 @@
   {{- end }}
 {{- end }}
 
-<meta name="twitter:card" content={{ $twitterCard }} />
+<meta name="twitter:card" content="{{ $twitterCard }}" />
 {{ with $twitterImage }}<meta name="twitter:image" content="{{ . }}" />{{ end }}
 <meta name="twitter:title" content="{{ .Title }}" />
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
@@ -65,10 +65,14 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 
-{{- $images := partial "_funcs/get-page-images" . -}}
-{{- range first 6 $images -}}
-  <meta property="og:image" content="{{ .Permalink }}" />
-{{- end -}}
+{{- if ne $twitterImage "" }}
+  <meta property="og:image" content="{{ $twitterImage }}" />
+{{- else }}
+  {{- $images := partial "_funcs/get-page-images" . -}}
+  {{- range first 6 $images -}}
+    <meta property="og:image" content="{{ .Permalink }}" />
+  {{- end -}}
+{{- end }}
 
 {{- if .IsPage }}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
