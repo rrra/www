@@ -1,8 +1,11 @@
 {{/* Consolidated "social graph" support
    */}}
 
-{{/* <*> Move to config file */}}
-{{ $logo := "https://images.rrra.org/rrra-logo-2017.png" }}
+{{- $pageImage := "" }}
+{{- $images := partial "_funcs/get-page-images" . }}
+{{- with index $images 0 }}
+  {{ $pageImage = .Permalink }}
+{{- end }}
 
 {{/* ## Support for twitter cards
    *
@@ -27,17 +30,9 @@
   {{- end }}
 {{- end }} 
 {{- if eq $twitterImage "" }}
-  {{- $images := partial "_funcs/get-page-images" . }}
-  {{- with index $images 0 }}
     {{ $twitterCard = "summary_large_image" }}
-    {{ $twitterImage = .Permalink }}
-  {{- end }}
+    {{ $twitterImage = $pageImage }}
 {{- end }}
-
-<meta name="twitter:card" content="{{ $twitterCard }}" />
-{{ with $twitterImage }}<meta name="twitter:image" content="{{ . }}" />{{ end }}
-<meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
 
 {{/* Retrieve params.social.twitter (twitter "handle") */}}
 {{- $twitterSite := "" }}
@@ -54,6 +49,11 @@
 <meta name="twitter:site" content="{{ $content }}"/>
 {{- end }}
 
+<meta name="twitter:card" content="{{ $twitterCard }}" />
+{{ with $twitterImage }}<meta name="twitter:image" content="{{ . }}" />{{ end }}
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
+
 {{/* ## Support for Opengraph
    *
    * Adapted from
@@ -68,10 +68,7 @@
 {{- if ne $twitterImage "" }}
   <meta property="og:image" content="{{ $twitterImage }}" />
 {{- else }}
-  {{- $images := partial "_funcs/get-page-images" . -}}
-  {{- range first 6 $images -}}
-    <meta property="og:image" content="{{ .Permalink }}" />
-  {{- end -}}
+  <meta property="og:image" content="{{ $pageImage }}" />
 {{- end }}
 
 {{- if .IsPage }}
@@ -98,8 +95,7 @@ end }}
 {{ with .Params.series }}{{- range $name := . }}
   {{- $series := index $siteSeries ($name | urlize) }}
   {{- range $page := first 6 $series.Pages }}
-    {{- if ne $page.Permalink $permalink }}<meta property="og:see_also"
-content="{{ $page.Permalink }}" />{{ end }}
+    {{- if ne $page.Permalink $permalink }}<meta property="og:see_also" content="{{ $page.Permalink }}" />{{ end }}
   {{- end }}
 {{ end }}{{ end }}
 {{- end }}
@@ -130,10 +126,11 @@ content="{{ $page.Permalink }}" />{{ end }}
 {{ with .Lastmod }}<meta itemprop="dateModified" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end}}
 <meta itemprop="wordCount" content="{{ .WordCount }}">
 
-{{- $images := partial "_funcs/get-page-images" . -}}
-{{- range first 6 $images -}}
-  <meta itemprop="image" content="{{ .Permalink }}" />
-{{- end -}}
+{{- if ne $twitterImage "" }}
+  <meta itemprop="image" content="{{ $twitterImage }}" />
+{{- else }}
+  {{- with $pageImage }}<meta itemprop="image" content="{{ . }}" />{{- end }}
+{{- end }}
 
 <!-- Output all taxonomies as schema.org keywords -->
 <meta itemprop="keywords" content="{{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}{{ end }}" />
@@ -148,12 +145,13 @@ content="{{ $page.Permalink }}" />{{ end }}
 	"@type": "Organization",
 	"url": "https://rrra.org/",
 	"sameAs": [
+		"https://mastodon.radio/@rrra",
 		"https://www.facebook.com/W0ILO",
 		"https://www.flickr.com/photos/rrra-fargo/",
 		"https://twitter.com/w0ilo",
 		"https://github.com/rrra/www/"
 	],
-	"logo": "{{ $logo -}}",
+	"logo": "https://images.rrra.org/rrra-logo-2017.png"
 	"contactPoint": [{
 		"@type": "ContactPoint",
 		"telephone": "+1-701-526-4426",
