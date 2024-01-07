@@ -5,46 +5,17 @@
 	{{ `<!-- Template: layouts/index.html -->` | safeHTML }}
 	{{ end }}
 
-	{{ $scratch := newScratch }}
-
-	{{/* Promote one post to featured position at the top of the
-	   * homepage(s). The promoted item is excluded from the homepage
-	   * river of news.
-	   * Parameters used:
-	   * "featured" - true or starting date/time 
-	   * "endFeatured" - ending date/time
-	   */}}
-	{{ $candidates := where ( where .Site.RegularPages "Section" "post") "Params.featured" "!=" nil }}
-	{{ range $candidates }}
-		{{/* Accept either a boolean true or a date string */}}
-		{{ $datestamp := cond ( eq ( printf "%t" .Params.featured ) "true" ) "1970-01-01" .Params.featured  }}
-		{{ $start := ( time $datestamp ).Unix }}
-
-		{{ if lt $start now.Unix }}
-			{{ if ne .Params.endFeatured nil }}
-				{{ $end := ( time .Params.endFeatured ).Unix }}
-				{{ if gt $end now.Unix }}
-					{{ $scratch.Add "featured" ( slice . ) }}
-				{{ end }}
-			{{ else }}
-				{{ $scratch.Add "featured" ( slice . ) }}
-			{{ end }}
-		{{ end }}
-	{{ end }}
-
-
-	{{ $featured := $scratch.Get "featured" }}
-	{{ if ne $featured nil }}
-		{{ range first 1 $featured }}
-			{{ partial "featured-summary.html" . }}
-		{{ end }}
-	{{ end }}
-
-	{{ $scratch.Add "featured" ( slice . ) }}
-	{{ $featured := first 1 ( $scratch.Get "featured" ) }}
+	{{ $featured := partialCached "featured-content.html" . }}
 	{{ $posts := where .Site.RegularPages "Section" "post" }}
 	{{ $paginator := .Paginate ( $posts | complement $featured ) 5 }}
 
+	{{ if eq .Paginator.PageNumber 1 }}
+		{{ if ne $featured nil }}
+			{{ range first 1 $featured }}
+				{{ partial "featured-summary.html" . }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
 	{{ partial "pagination.html" . }}
 	{{ if eq .Paginator.PageNumber 1 }}
 		{{ partial "upcoming.html" . }}
