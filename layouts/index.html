@@ -5,23 +5,31 @@
 	{{ `<!-- Template: layouts/index.html -->` | safeHTML }}
 	{{ end }}
 
+	{{/* Retrieve current featured content */}}
 	{{ $featured := partialCached "featured-content.html" . }}
+
+	{{/* Paginate posts omitting featured content */}}
 	{{ $posts := where .Site.RegularPages "Section" "post" }}
 	{{ $paginator := .Paginate ( $posts | complement $featured ) 5 }}
 
-	{{ if eq .Paginator.PageNumber 1 }}
-		{{ if ne $featured nil }}
-			{{ range first 1 $featured }}
-				{{ partial "featured-summary.html" . }}
-			{{ end }}
+	{{/* Render featured content */}}
+	{{ if ne $featured nil }}
+		{{ range first 1 $featured }}
+			{{ partialCached "featured-summary.html" . }}
 		{{ end }}
 	{{ end }}
+
+	{{/* Pagination menu bar */}}
 	{{ partial "pagination.html" . }}
+
+	{{/* River of News */}}
 	{{ if eq .Paginator.PageNumber 1 }}
 		{{ partial "upcoming.html" . }}
 	{{ end }}
 	{{ range $paginator.Pages }}
 		{{ partial "summary.html" . }}
 	{{ end }}
+
+	{{/* Pagination menu bar */}}
 	{{ partial "pagination.html" . }}
 {{ end }}
