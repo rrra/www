@@ -1124,9 +1124,11 @@ span + .edit-link:before,
  * -----------------------------------------------------------------------------
  */
 
+/* declared later
 .content-area {
 	padding-top: 48px;
 }
+*/
 
 .hentry {
 	margin: 0 auto 48px;
@@ -3263,7 +3265,7 @@ div.entry-summary .footnote-ref a {
 		padding-top: 12px;
 	}
         .cat-links a.nav {
-		font-size: 24px;
+		font-size: 36px;
 		padding: 24px;
 		line-height: 2em;
 	}
@@ -3272,9 +3274,8 @@ div.entry-summary .footnote-ref a {
 		width: 100%;
 		top: -2px;
 		left: 0px;
-		font-size: 14px;
+		font-size: 16px;
 	}
-
 	ul.pagination {
 		list-style-type: none;
 		height: 24px;
@@ -3473,6 +3474,7 @@ div.entry-summary .footnote-ref a {
 
 	/* STK
          */
+	.content-area { padding-top: 18px; }
 	.page_item a span {
 		display: inline !important;
 	}
@@ -3494,19 +3496,20 @@ div.entry-summary .footnote-ref a {
 	div.cat-links {
 		width: 100%;
 		text-align: center;
+		padding-top: 12px;
 	}
         .cat-links a.nav {
-		font-size: 24px;
-		padding: 24px;
+		font-size: 36px;
+		padding: 32px;
+		line-height: 2em;
 	}
 	.cat-links a.taxonomy {
 		position: absolute;
 		width: 100%;
-		top: -20px;
+		top: -2px;
 		left: 0px;
-		font-size: 14px;
+		font-size: 16px;
 	}
-
 	ul.pagination {
 		list-style-type: none;
 		height: 24px;
@@ -3593,6 +3596,7 @@ div.entry-summary .footnote-ref a {
 @media screen and (min-width: 673px) {
 	.cat-links a.taxonomy {
 		position: static;
+		padding: 18px;
 	}
 	.cat-links a.nav {
 		padding: 18px;
@@ -3821,6 +3825,9 @@ div.entry-summary .footnote-ref a {
 
 /* Enable narrow sidebar */
 @media screen and (min-width: 1008px) {
+	.content-area {
+		padding-top: 48px;
+	}
         .cat-links a.nav {
 		padding: 0 18px 0 2px;
 	}
@@ -3996,10 +4003,6 @@ div.entry-summary .footnote-ref a {
 
 	.main-content {
 		float: left;
-	}
-
-	.content-area {
-		padding-top: 96px;
 	}
 
 	.site-content {
