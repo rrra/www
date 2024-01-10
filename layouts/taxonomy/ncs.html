@@ -16,7 +16,7 @@
 		</div>
 		<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
 {{ with  .OutputFormats.Get "calendar" -}}
-	<span class="noprint"><div><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Learn how to add these dates to your device</a></div></span>
+	<span class="noprint"><div><span class="genericons-neue genericons-neue-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Learn how to add these dates to your device</a></div></span>
 {{- end }}
 	</header>
 
@@ -46,7 +46,7 @@
 		<p>Find the instructions below for your calendaring software. Then
 		use this webcal / iCalendar link as directed:</p>
 
-		<p><span class="genericon genericon-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a href="{{ $webcal | safeURL }}">{{ $webcal }}</a></p>
+		<p><span class="genericons-neue genericons-neue-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a href="{{ $webcal | safeURL }}">{{ $webcal }}</a></p>
 
 		{{ partialCached "webcal-instructions.html" . }}
 

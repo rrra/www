@@ -16,9 +16,10 @@
     <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
     {{ $fonts := resources.Get "css/fonts.css" }}
-    {{ $genericons := resources.Get "genericons/genericons.css" }}
+    {{ $genericons := resources.Get "genericons/genericons-neue.css" }}
+    {{ $sociallogos := resources.Get "genericons/social-logos.css" }}
     {{ $style := resources.Get "css/style.css" }}
-    {{ $cssBundle := slice $fonts $genericons $style | resources.Concat "css/bundle.css" | resources.Minify | fingerprint }}
+    {{ $cssBundle := slice $fonts $genericons $sociallogos $style | resources.Concat "css/bundle.css" | resources.Minify | fingerprint }}
     <link rel='stylesheet' href={{ $cssBundle.Permalink }} type='text/css' media='all' />
     
     <!--[if lt IE 9]>

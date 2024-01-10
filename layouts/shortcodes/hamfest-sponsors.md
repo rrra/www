@@ -10,7 +10,7 @@ See existing files for formatting
 		href="#top"
 		alt="Back to top"
 		title="Back to top">
-		<span class="genericon genericon-top"
+		<span class="genericons-neue genericons-neue-top"
 		style="width:24px;height:24px;font-size:24px;"></span></a>
 		<h3 id="sponsors">Sponsors</h3>
 		<p style="margin-bottom:6px;">This Hamfest supported by contributions from:</p>

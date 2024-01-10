@@ -2,7 +2,7 @@
 {{ $recip := index .Page.Site.Data.call $sign }}
 {{ if ne $recip nil }}
 	{{ if gt  $recip.tel "" }}
-		{{ $tel := "</a><span class=\"genericon genericon-phone\"></span>" | printf "%s%s" $recip.tel | printf "%s%s" "\">" | printf "%s%s" $recip.tel | printf "%s%s" "<a href=\"tel:" | printf "%s" }}
+		{{ $tel := "</a><span class=\"genericons-neue genericons-neue-phone\"></span>" | printf "%s%s" $recip.tel | printf "%s%s" "\">" | printf "%s%s" $recip.tel | printf "%s%s" "<a href=\"tel:" | printf "%s" }}
 		<script>
 		function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
 		X=('{{ $tel | base64Encode }}')
@@ -11,8 +11,8 @@
 	{{ end }}
 {{ else }}
   {{ if eq $sign "club" }}
-		{{ "</a><span class=\"genericon genericon-phone\"></span>" | printf "%s%s" ( .Site.Params.tel ) | printf "%s%s" "\">" | printf "%s%s" ( .Site.Params.tel ) | printf "%s%s" "<a href=\"tel:" | printf "%s" | safeHTML }}
+		{{ "</a><span class=\"genericons-neue genericons-neue-phone\"></span>" | printf "%s%s" ( .Site.Params.tel ) | printf "%s%s" "\">" | printf "%s%s" ( .Site.Params.tel ) | printf "%s%s" "<a href=\"tel:" | printf "%s" | safeHTML }}
 	{{ else }}
-		{{ "</a><span class=\"genericon genericon-phone\"></span>" | printf "%s%s" $sign | printf "%s%s" "\">" | printf "%s%s" $sign | printf "%s%s" "<a href=\"tel:" | printf "%s" | safeHTML }}
+		{{ "</a><span class=\"genericons-neue genericons-neue-phone\"></span>" | printf "%s%s" $sign | printf "%s%s" "\">" | printf "%s%s" $sign | printf "%s%s" "<a href=\"tel:" | printf "%s" | safeHTML }}
 	{{ end }}
 {{ end }}

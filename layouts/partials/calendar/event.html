@@ -1,57 +1,70 @@
 <article class="post type-post status-publish format-standard hentry">
 <div class="h-event">
 	<header class="entry-header">
+
+		{{/* Current date sequence and "also in" list */}}
+		{{ $dates := "" }}
+		{{ $also_in  := slice }}
+		{{ range .Params.dates }}
+			{{ $item := . }}
+			{{ if ne "hidden" ( urlize $item ) }}
+				{{ if eq "" $dates }}
+					{{ $dates = $item }}
+				{{ else }}
+					{{ $link := "</a>" | printf "%s%s" ( $item ) | printf "%s%s" "\">" | printf "%s%s" ( $item | urlize ) | printf "%s%s" "<a href=\"/dates/" }}
+					{{ $also_in = $also_in | append $link }}
+				{{ end }}
+			{{ end }}
+		{{ end }}
+
+		{{/* Nav links (for this and future years) for this page */}}
 		{{ $relpermalink := .RelPermalink }}
+		{{ $firstLink := "" }}
+		{{ $prevLink := $relpermalink }}
+		{{ $selfLink := "" }}
+		{{ $nextLink := $relpermalink }}
+		{{ $lastLink := "" }}
+		{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
+			{{ if eq $key ( urlize $dates ) }}
+				{{ $startOfYear := time.AsTime (printf "%d-01-01" now.Year) }}
+				{{ range first 1 ( where $taxonomy.Pages.Reverse "Date" "ge" $startOfYear ) }}
+					{{ $firstLink = .RelPermalink }}
+				{{ end }}
+				{{ range last 1 $taxonomy.Pages.Reverse }}
+					{{ $lastLink = .RelPermalink }}
+				{{ end }}
+				{{ range where $taxonomy.Pages.Reverse "Date" "ge" $startOfYear }}
+					{{ if ne "" $selfLink }}
+						{{ $nextLink = .RelPermalink }}
+						{{ break }}
+					{{ else }}
+						{{ if eq .RelPermalink $relpermalink }}
+							{{ $selfLink = .RelPermalink }}
+						{{ else }}
+							{{ $prevLink = .RelPermalink }}
+						{{ end }}
+					{{ end }}
+				{{ end }}
+				{{ break }}
+			{{ end }}
+		{{ end }}
 
 		<div class="entry-meta">
 			<div class="cat-links">
-				{{ $idx := 0 }}
-				{{ range .Params.dates }}
-					{{ $dates := . }}
-					{{ if and ( eq 0 $idx ) ( ne "hidden" ( urlize $dates ) ) }}
-						{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
-							{{ if and ( eq $key ( urlize $dates ) ) ( ne "hidden" ( urlize $dates ) ) }}
-
-								{{ range $taxonomy.Pages.Reverse }}
-									{{ if and (ne ($.Scratch.Get "this") nil) (eq ($.Scratch.Get "next") nil) }}
-										{{ $.Scratch.Set "next" .RelPermalink }}
-									{{ end }}
-									{{ if eq ($.Scratch.Get "this") nil }}
-										{{ if eq .RelPermalink $relpermalink }}
-											{{ $.Scratch.Set "this" .RelPermalink }}
-										{{ else }}
-											{{ $.Scratch.Set "prev" .RelPermalink }}
-										{{ end }}
-									{{ end }}
-								{{ end }}
-
-								{{ range first 1 $taxonomy.Pages.Reverse }}
-									<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else}}"{{ end }} title="First" href="{{ .RelPermalink }}">&laquo;&laquo;</a>
-									<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Previous" href="{{ $.Scratch.Get "prev" }}">&laquo;</a>
-								{{ end }}
-
-								<a class="taxonomy" href="/dates/{{ $key }}/" rel="tag"><span class="genericon genericon-month" style="font-size: 1.5em; vertical-align: text-bottom; padding-right: 0.4em; padding-bottom: 0.1em;"></span>{{ $dates }}</a>
-
-								{{ range last 1 $taxonomy.Pages.Reverse }}
-									<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Next" href="{{ $.Scratch.Get "next" }}">&raquo;</a>
-									<a class="nav{{ if eq .RelPermalink $relpermalink }} disabled"{{ else }}"{{ end }} title="Last" href="{{ .RelPermalink }}">&raquo;&raquo;</a>
-								{{ end }}
-
-							{{ end }}
-						{{ end }}
-						{{ $idx = add $idx 1 }}
-					{{ else if and ( eq 1 $idx ) ( ne "hidden" ( urlize $dates ) ) }}
-						<br>Also in: <a rel="tag" href="/dates/{{ $dates | urlize }}">{{ $dates }}</a>
-						{{ $idx = add $idx 1 }}
-					{{ else if ne "hidden" ( urlize $dates ) }}
-						&bull; <a rel="tag" href="/dates/{{ $dates | urlize }}">{{ $dates }}</a>
-					{{ end }}
+				<a class="nav{{ if eq $selfLink $firstLink }} disabled{{ end }}" title="First" href="{{ $firstLink }}">&laquo;&laquo;</a>
+				<a class="nav{{ if eq $selfLink $prevLink }} disabled{{ end }}" title="Previous" href="{{ $prevLink }}">&laquo;</a>
+				<a class="taxonomy" href="/dates/{{ $dates | urlize }}" rel="tag">{{ $dates }}</a>
+				<a class="nav{{ if eq $selfLink $nextLink }} disabled{{ end }}" title="Next" href="{{ $nextLink }}">&raquo;</a>
+				<a class="nav{{ if eq $selfLink $lastLink }} disabled{{ end }}" title="Last" href="{{ $lastLink }}">&raquo;&raquo;</a>
+				{{ with $also_in }}
+				<div class="also">Also in: {{ delimit . " &bull; " | safeHTML }}</div>
 				{{ end }}
-			</div>
-		</div>
-		<h1 class="p-name entry-title">{{ .Title }}{{ if in .Site.Params.status .Params.status }} {{ upper .Params.status }}{{ end }}</h1>
+			</div> {{/* cat-links */}}
+		</div> {{/* entry-meta */}}
+
+		<h2 class="p-name entry-title">{{ .Title }}{{ if in .Site.Params.status .Params.status }} {{ upper .Params.status }}{{ end }}</h2>
 		{{ with  .OutputFormats.Get "calendar" -}}
-			<span class="noprint"><span class="genericon genericon-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .RelPermalink | safeURL }}">Add this single event to your device</a></span>
+			<span class="noprint"><span class="genericons-neue genericons-neue-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .RelPermalink | safeURL }}">Add this single event to your device</a></span>
 		{{- end }}
 	</header>
 	<div class="entry-content">

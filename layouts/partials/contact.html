@@ -22,11 +22,11 @@
 		{{ end }}
 
 			
-		{{ $ddopen :=  "<span class=\"genericon genericon-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" ( $scratch.Get "ddopen" ) | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\" onclick=\"toggleDropdown()\"><button class=\"dropbtn\">" | printf "%s" }}
+		{{ $ddopen :=  "<span class=\"genericons-neue genericons-neue-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" ( $scratch.Get "ddopen" ) | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\" onclick=\"toggleDropdown()\"><button class=\"dropbtn\">" | printf "%s" }}
 
-		{{ $email := "</a></div>" | printf "%s%s" ( $scratch.Get "email" ) | printf "%s%s" "\">" | printf "%s%s%s" ( $scratch.Get "email" ) ( $scratch.Get "subject" )| printf "%s%s" "<div><div class=\"genericon genericon-mail\"></div><a href=\"mailto:" | printf "%s" }}
+		{{ $email := "</a></div>" | printf "%s%s" ( $scratch.Get "email" ) | printf "%s%s" "\">" | printf "%s%s%s" ( $scratch.Get "email" ) ( $scratch.Get "subject" )| printf "%s%s" "<div><div class=\"genericons-neue genericons-neue-mail\"></div><a href=\"mailto:" | printf "%s" }}
 
-		{{ $tel := "</a></div>" | printf "%s%s" ( $scratch.Get "tel" ) | printf "%s%s" "\">" | printf "%s%s" ( $scratch.Get "tel" ) | printf "%s%s" "<div><div class=\"genericon genericon-phone\"></div><a href=\"tel:" | printf "%s" }}
+		{{ $tel := "</a></div>" | printf "%s%s" ( $scratch.Get "tel" ) | printf "%s%s" "\">" | printf "%s%s" ( $scratch.Get "tel" ) | printf "%s%s" "<div><div class=\"genericons-neue genericons-neue-phone\"></div><a href=\"tel:" | printf "%s" }}
 
 		<script>
 		<!-- 
