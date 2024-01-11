@@ -6,8 +6,9 @@ location = "[West Fargo FD HQ](/places/west-fargo-fire-department-headquarters/)
 title = "January ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 aliases = [ "" ]
+status = "canceled"
 +++
 ### Membership Renewals For 2024 Are Due
 
