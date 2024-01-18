@@ -35,8 +35,7 @@ realized through the development of the
 [Narrow Band Emergency Messaging Software](http://www.arrl.org/nbems)
 (NBEMS) Open Source software suite which allows Amateur Radio Operators
 to transfer data such as small files, text-only emails, and
-[ICS Forms](https://en.wikipedia.org/wiki/Incident_Command_System#FEMA_ICS_Fo
-rms)
+[ICS Forms](https://en.wikipedia.org/wiki/Incident_Command_System#FEMA_ICS_Forms)
 over RF without requiring networking infrastructure. Although NBEMS
 *can* eliminate the requirement for manual transcription during message
 transfer, because data and messages may be delivered to radio operators
@@ -53,12 +52,12 @@ a redundant, and resilient, **radio** mesh to provide a TCP/IP medium when
 other network infrastructure has failed.
 
 {{< youtube fkl5Nbnz24Y >}}
-
 <p></p>
+
 Anyone interested in wireless networking may find
-[Wireless Networking In The Developing World](http://www.wndw.net/),
-a free book about designing, implementing, and maintaining low-cost
-wireless networks, to be a useful reference. This book was written by
+[Wireless Networking In The Developing World](http://www.wndw.net/)---a
+free book about designing, implementing, and maintaining low-cost
+wireless networks---to be a useful reference. This book was written by
 subject matter experts with vast experience in deploying wireless
 networks in the field and connecting communities to the global Internet.
 It may be downloaded as a free PDF, or
