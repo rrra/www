@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://rrra.org"
 languageCode = "en-us"
-timeout = 45
+timeout = "45s"
 title = "Red River Radio Amateurs"
 theme = "twentyfourteen"
 Paginate = 10
