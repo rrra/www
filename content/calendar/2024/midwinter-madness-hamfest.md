@@ -1,7 +1,7 @@
 +++
-update = 0
+update = 1
 contact = "N0FWG"
-date = "2024-03-18T08:00:00-05:00"
+date = "2024-03-23T08:00:00-05:00"
 #endTime = "2023-03-18T13:00:00-05:00"
 publishDate = "2023-11-29"
 location = "[Civic Center, Buffalo, MN](https://goo.gl/maps/GLUHMTQW1ftjLPsH9)"
@@ -11,6 +11,7 @@ sponsor = "[Maple Grove Radio Club](http://k0ltc.org)"
 talkIn = "147.000 T114.8"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
+aliases = [ "/cal/2024/03/18/midwinter-madness-hobby-electronics-show/" ]
 +++
 * [Hamfest Flyer](https://k0ltc.org/wp-content/uploads/2023/01/MWM-Mailer-2023.pdf)
 * [Table Order Form](https://k0ltc.org/wp-content/uploads/2022/12/TableForm2023_fillable.pdf)
