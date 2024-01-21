@@ -19,23 +19,16 @@ source path must be set as follows:
 
 {{ $base :=  site.Params.gitbase }}
 
-{{ $scratch := newScratch }}
-{{ with  .File  }}
-	{{ $scratch.Set "source" ( .File | printf "%s/%s" "content" ) }}
-	{{ $scratch.Set "type" "Source" }}
-{{ else }}
-	{{ with ( .Scratch.Get "source" ) }}
-		{{ $scratch.Set "source" . }}
-		{{ $scratch.Set "type" "Template" }}
-	{{ end }}
-{{ end }}
-
-{{ $path := $scratch.Get "source" }}
-{{ $type := $scratch.Get "type" }}
+{{ $path := "" }}
+{{ $type := "" }}
+{{ with .File }}
+	{{ $path = .Path | printf "%s/%s" "content" }}
+	{{ $type = "Content" }}
+{{ end }}  
 
 {{ if gt $path "" }}
 <div style="text-align:center;margin-bottom: 24px;">
-<span class="genericons-neue genericons-neue-github" style="vertical-align:middle;margin-right:.3em;"></span>{{ $scratch.Get "type" }}: <a rel="nofollow" href="{{ $base }}/{{ $path }}">{{ $path }}</a>
+<span class="genericons-neue genericons-neue-github" style="vertical-align:middle;margin-right:.3em;"></span>{{ $type }}: <a rel="nofollow" href="{{ $base }}/{{ $path }}">{{ $path }}</a>
 </div>
 {{ end }}
 
