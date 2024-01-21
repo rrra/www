@@ -23,7 +23,7 @@ source path must be set as follows:
 {{ $type := "" }}
 {{ with .File }}
 	{{ $path = .Path | printf "%s/%s" "content" }}
-	{{ $type = "Content" }}
+	{{ $type = "Source" }}
 {{ end }}  
 
 {{ if gt $path "" }}
