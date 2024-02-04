@@ -103,13 +103,14 @@ Next time I'll explore the reality of amateur radio as an emergency response.
 I'm Onno VK6FLAB
 
 {{< audio "http://podcasts.itmaze.com.au/foundations/20240204.foundations-of-amateur-radio.mp3" "Download the podcast" >}}
-:information_source: Listen and subscribe to this podcast at [vk6flab.com](https://podcasts.vk6flab.com/podcasts/foundations).
 
 {{< banner >}}
 ***Editors Note:***
 
-This is the transcript of an epsode of the weekly 'Foundations of
-Amateur Radio' podcast.
+This is the transcript of an epsode of the weekly *Foundations of
+Amateur Radio* podcast.
+
+:information_source: [Listen on-line or subscribe to this podcast](https://podcasts.vk6flab.com/podcasts/foundations)
 
 Join VK6FLAB on Mastodon (@vk6flab@mastodon.radio) to discuss Amateur Radio.
 {{< /banner >}}
