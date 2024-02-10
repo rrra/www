@@ -10,7 +10,7 @@ Please complete these steps to finish setting up your RRRA membership:
 1. [Check out our other electronic mailing lists](#check)
 1. [Remember to use the RRRA website](#remember)
 
-:red_question_mark: [Do you want to know more](#more)
+:question: [Do you want to know more](#more)
 
 ### Help get your RRRA Groupware account set-up { #help }
 
