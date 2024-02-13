@@ -4,6 +4,7 @@ title = "What Is The Right Mode For Emergency Communications?"
 slug = "what-is-the-right-mode-for-emergency-communications"
 authors = [ "VK6FLAB" ]
 categories = [ "" ]
+images = [ "https://lh5.googleusercontent.com/-h4eC6egJzwWj3BDryLyw2-oDcQT3lqj7N65Q-OTjl1JPpsM4EW1XVWmCqjub4z5Ipeu-A0afJamvJwslKrOREA=w1280" ]
 tags = [ "Podcast" ]
 +++
 Amateur radio is an activity that falls between two camps, those who think of

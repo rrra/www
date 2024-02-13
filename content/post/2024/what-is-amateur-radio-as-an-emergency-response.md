@@ -4,6 +4,7 @@ date = "2024-02-13T12:08:08-06:00"
 title = "What Is Amateur Radio as an Emergency Response?"
 slug = "what-is-amateur-radio-as-an-emergency-response"
 categories = [ "Outreach" ]
+images = [ "https://lh5.googleusercontent.com/-h4eC6egJzwWj3BDryLyw2-oDcQT3lqj7N65Q-OTjl1JPpsM4EW1XVWmCqjub4z5Ipeu-A0afJamvJwslKrOREA=w1280" ]
 tags = [ "Podcast" ]
 +++
 I recently discussed some of the notions of amateur radio as emergency
