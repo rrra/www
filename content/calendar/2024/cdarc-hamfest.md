@@ -8,7 +8,8 @@ sponsor = "[Central Dakota Amateur Radio Club](http://www.cdarcnd.com/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 talkin = "146.850-"
-update = 0
+contact = "KE0ESG"
+update = 1
 +++
 More information about this event is available at
 
