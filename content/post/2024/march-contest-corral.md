@@ -1,5 +1,5 @@
 +++
-date = "2024-02-05T12:04:38-06:00"
+date = "2024-02-15T00:28:36-06:00"
 title = "March Contest Corral"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
