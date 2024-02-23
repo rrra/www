@@ -4,3 +4,6 @@
 [submodule "data/call"]
 	path = data/call
 	url = git@lists.rrra.org:call.git
+[submodule "themes/Hugo-2-Gopher-and-Gemini"]
+	path = themes/Hugo-2-Gopher-and-Gemini
+	url = https://github.com/mkamarin/Hugo-2-Gopher-and-Gemini.git
