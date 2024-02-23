@@ -6,7 +6,7 @@ authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = []
 +++
-View the headlines and read articlas from a large number of Amateur
+View the headlines and read articles from a large number of Amateur
 Radio news and opinion
 [blogs](https://en.wikipedia.org/wiki/Blog)---without
 having to visit many different websites---by using the
