@@ -37,7 +37,7 @@ Licensed](http://www.arrl.org/getting-licensed) page describes the
 license classes and provides useful links for those interested in
 becoming licensed.
 
-## How to get started 
+## :eight_spoked_asterisk: How to get started 
 
 * [Learn what you need to know]({{< relref "/licensing/classes.md" >}})
 * [Pass your license test]({{< relref "/licensing/tests.md" >}})

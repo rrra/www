@@ -20,7 +20,7 @@ register in the FCC CORES system and receive a FCC Registration Number
 register your FRN if necessary. You should check with your exam provider
 to confirm what you need to do.
 
-For FRN registration information and tutorials see item #4 of the
+For FRN registration information and tutorials see item #1 of the
 [Exam Session Requirements](http://www.arrl.org/what-to-bring-to-an-exam-session)
 and the
 [FCC CORES Tutorial Videos](https://www.fcc.gov/licensing-databases/fcc-registration-system-cores/commission-registration-system-video-tutorials).

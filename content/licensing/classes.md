@@ -10,6 +10,7 @@ weight = -1
 Get started in Amateur Radio---or upgrade your license---with a class
 presented by one of RRRA's experienced instructors, or by studying on your
 own.
+<!--more-->
 
 ## Technician License test preparation 
 
