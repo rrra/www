@@ -12,7 +12,7 @@ outputs = [ "HTML", "Calendar" ]
 +++
 ### Prerequisites
 
-* Purchase the [testbook]({{< relref "/education-and-testing.md#textbooks" >}}) 
+* Purchase the [testbook]({{< relref "/licensing/classes.md#textbooks" >}}) 
 * Read textbook pages 1 to 51
 
 ### Syllabus

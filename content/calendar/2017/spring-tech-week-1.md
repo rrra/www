@@ -13,7 +13,7 @@ dates = [ "Spring 2017 Technician" ]
 * Registration
 * Introduction to each other
 * Introduction to ham radio and Videos
-* Talk about the [books]({{< relref "/education-and-testing.md#textbooks" >}})
+* Talk about the [books]({{< relref "/licensing/classes.md#textbooks" >}})
 * Hand out the syllabus
 * Cover what we will be going over each week
 * Chapter 1 - Welcome to amateur radio

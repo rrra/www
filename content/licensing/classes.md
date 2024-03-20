@@ -6,6 +6,13 @@ description = ""
 slug = ""
 toc = "true"
 weight = -1
+aliases = [ "/post/2017/12/25/2018-2019-education-and-testing/",
+	"/post/2017/12/21/2018-2019-education-and-testing/",
+	"/post/2016/11/14/2017-2018-education-and-testing/",
+	"/post/2015/12/04/2016-2017-education-and-testing/",
+	"/about/committees/education-and-testing/",
+	"/education-and-testing/"
+]
 +++
 Get started in Amateur Radio---or upgrade your license---with a class
 presented by one of RRRA's experienced instructors, or by studying on your

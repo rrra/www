@@ -8,12 +8,12 @@ location = ""
 contact = "WS0Y"
 dates = [ "Spring 2023 Technician" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 ### Prerequisites
 
-1. [Purchase textbook]({{< relref "/education-and-testing.md#technician-license-course-textbook" >}})
+1. [Purchase textbook]({{< relref "/licensing/classes.md#technician-license-course-textbook" >}})
 1. Register Online
 
 ### Topics

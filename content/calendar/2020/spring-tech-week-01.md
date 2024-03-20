@@ -13,7 +13,7 @@ status = "canceled"
 
 ### Prerequisites
 
-* Purchase the [textbook]({{< relref "/education-and-testing.md#textbooks" >}}) 
+* Purchase the [textbook]({{< relref "/licensing/classes.md#textbooks" >}}) 
 * Read textbook pages 1 to 28
 
 ### Topics

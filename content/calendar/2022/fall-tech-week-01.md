@@ -8,7 +8,7 @@ title = "Fall Technician Class Week 1"
 categories = [ "Education" ]
 dates = [ "Fall 2022 Technician" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 +++
 {{< banner expires="2022-08-10" >}}
 Registration for RRRA Fall 2022 Technician Classes is now open. Please
@@ -17,5 +17,5 @@ for these classes.
 
 Purchasing links for the *HamRadioSchool.com Technician License Course
 textbook* used in this class may be found on our
-[Education and Testing page]({{< relref "/education-and-testing.md#textbooks" >}}).
+[Education and Testing page]({{< relref "/licensing/classes.md#textbooks" >}}).
 {{< /banner >}}

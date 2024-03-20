@@ -23,6 +23,6 @@ There is no charge for instruction; however a textbook is required
 
 Detailed class information, including links to purchase the required
 text books, is available on our
-[Education and Testing page]({{< relref "/education-and-testing.md#textbooks" >}}).
+[Education and Testing page]({{< relref "/licensing/classes.md#textbooks" >}}).
 
 Please contact {{< mailto W0HNV name >}} if you have any questions.

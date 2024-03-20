@@ -26,7 +26,7 @@ There is no charge for instruction; however a textbook is required
 
 Detailed class information, including links to purchase the required
 text books, is available on our
-[Education and Testing page]({{< relref "/education-and-testing.md#textbooks" >}}).
+[Education and Testing page]({{< relref "/licensing/classes.md#textbooks" >}}).
 
 An electronic syllabus is integrated into the calendar listings for each
 session of the [Winter 2023 Extra Classes](/dates/winter-2023-extra).

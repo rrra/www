@@ -25,7 +25,7 @@ Groupware account. The step is necessary to ensure that we have your correct
 e-mail address on file.
 
 You will receive an e-mail notice once your Groupware account is created; it
-will contain your usename and a link you can use to create your Groupware
+will contain your username and a link you can use to create your Groupware
 password.
 
 {{< back >}}

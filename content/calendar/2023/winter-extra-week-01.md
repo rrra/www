@@ -8,7 +8,7 @@ title = "Winter Extra Class Week 1"
 categories = [ "Education" ]
 dates = [ "Winter 2023 Extra" ]
 outputs = [ "HTML", "Calendar" ]
-update = 3
+update = 4
 +++
 {{< banner expires="2023-01-19" >}}
 Registration for RRRA Winter 2023 Extra Classes is now open. Please
@@ -17,7 +17,7 @@ for these classes.
 {{< /banner >}}
 ### Prerequisites
 
-* Purchase the [textbook]({{< relref "/education-and-testing.md#extra-license-course-textbook" >}})
+* Purchase the [textbook]({{< relref "/licensing/classes.md#extra-license-course-textbook" >}})
 
 ### Topics
 

@@ -12,7 +12,7 @@ topics = [ "Sign in", "Introductions" ]
 +++
 ### Prerequisites
 
-* Purchase the [textbook]({{< relref "/education-and-testing.md#extra-license-course-textbook" >}})
+* Purchase the [textbook]({{< relref "/licensing/classes.md#extra-license-course-textbook" >}})
 
 ## Topics
 
