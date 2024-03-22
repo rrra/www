@@ -19,10 +19,13 @@ https://cloud.rrra.org/ to access members-only content, share
 content with other club members, engage in keyboard-to-keyboard chats, and
 collaborate on club related matters.
 
-Please contact the {{< webmaster >}} to confirm your e-mail address and
-include your FCC call-sign and the first name you'd like to have listed on your
-Groupware account. The step is necessary to ensure that we have your correct
-e-mail address on file.
+Please contact the {{< webmaster >}} to confirm your FCC call-sign,
+and the ***first name*** you'd like to have on your Groupware
+account. The step is necessary to ensure that we have the correct
+information on file.
+
+:information_source: Please use the Subject line "Groupware information
+for *your callsign*" on your confirmation message.
 
 You will receive an e-mail notice once your Groupware account is created; it
 will contain your username and a link you can use to create your Groupware
