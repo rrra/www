@@ -19,13 +19,13 @@ https://cloud.rrra.org/ to access members-only content, share
 content with other club members, engage in keyboard-to-keyboard chats, and
 collaborate on club related matters.
 
-Please contact the {{< webmaster >}} to confirm your FCC call-sign,
-and the ***first name*** you'd like to have on your Groupware
-account. The step is necessary to ensure that we have the correct
-information on file.
+Please contact the {{< webmaster >}} to confirm the ***first name***
+you'd like to have on your Groupware account, and your FCC call-sign. 
+The step is needed to ensure that we have the correct information on
+file.
 
-:information_source: Please use the Subject line "Groupware information
-for *your callsign*" on your confirmation message.
+:information_source: **Please use the Subject line "Groupware information
+for *your callsign*" on your confirmation message.**
 
 You will receive an e-mail notice once your Groupware account is created; it
 will contain your username and a link you can use to create your Groupware
@@ -55,9 +55,9 @@ you update or change your e-mail address, control your subscription
 settings, and even unsubscribe at will. Please take advantage of these
 self service features to manage your subscription(s).
 
-Start the subscription process by visiting
+:information_source: **Start the subscription process by visiting
 https://lists.rrra.org/mailman/listinfo/rrra and filling out the form in
-the "Subscribe to RRRA" section of that page.
+the "Subscribe to RRRA" section of that page.**
 
 You will receive a confirmation e-mail message. You must follow the
 instructions in that message to confirm your subscription request.
