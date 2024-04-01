@@ -5,6 +5,6 @@ tooltip = "Analog FM Repeaters"
 +++
 {{< radio-list "Analog" >}} 
 
-<span class="genericon genericon-warning"></span>
+<span class="genericons-neue genericons-neue-warning"></span>
 **Please contact the {{< webmaster >}} with additions or corrections for
 this list.**

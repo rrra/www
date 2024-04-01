@@ -15,7 +15,7 @@ button and starting to speak.
 
 ### Check-ins
 
-<span class="genericon genericon-audio"></span> [Listen to the recording](/s/MPG7GxWe6ZNo3BJ)
+<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording](/s/MPG7GxWe6ZNo3BJ)
 
 (in order of appearance)
 

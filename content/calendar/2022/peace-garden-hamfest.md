@@ -8,7 +8,7 @@ linkTitle = "Peace Garden Hamfest"
 sponsor = "[Souris Valley Amateur Radio Club](https://sourisamateurradioclub.godaddysites.com/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 3
+update = 4
 talkin = "146.52, 444.500+"
 +++
 
@@ -71,7 +71,7 @@ Please bring:
 
 [^1]: "Botanical Gardens - Cactus Conservatory - Campsites", International Peace Garden, accessed June 2 2022, https://peacegarden.com/.
 
-<span class="genericon genericon-location"></span>
+<span class="genericons-neue genericons-neue-location"></span>
 <span class="h-card">
   <a href="https://peacegarden.com/">
     <span class="p-name">International Peace Garden</span>,
@@ -81,7 +81,7 @@ Please bring:
     <span class="p-postal-code">58329</span>
   </a>
   <br>
-  <span class="genericon genericon-phone"></span>
+  <span class="genericons-neue genericons-neue-phone"></span>
   <a href="tel:701-263-4390">
     <span class="p-tel">701-263-4390</span>
   </a>

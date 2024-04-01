@@ -25,6 +25,6 @@ tags = [ "ARRL", "LoTW" ]
 [^1]: "LoTW Support for CQ Worked All Zones (WAZ) Award Goes Live", ARRL The national association for Amateur Radio, Retrieved April 2 2018, http://www.arrl.org/news/lotw-support-for-cq-worked-all-zones-waz-award-goes-live.
 
 <div class="read-more-link">
-<span alt="Link" class="genericon genericon-external"></span>
+<span alt="Link" class="genericons-neue genericons-neue-external"></span>
 <a href="http://www.arrl.org/news/lotw-support-for-cq-worked-all-zones-waz-award-goes-live">Read the rest of the article on the ARRL website...</a>
 </div>

@@ -15,7 +15,7 @@ starting to speak.
 
 ### Check-ins
 
-<span class="genericon genericon-audio"></span> [Listen to the recording](/s/DFCfAnfc6TDx3jf)
+<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording](/s/DFCfAnfc6TDx3jf)
 
 (in order of appearance)
 

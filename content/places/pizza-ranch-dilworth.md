@@ -2,7 +2,7 @@
 title = "Pizza Ranch Dilworth"
 #date = "2022-09-18T09:18:00-05:00"
 +++
-<span class="genericon genericon-location"></span>
+<span class="genericons-neue genericons-neue-location"></span>
 {{% hcard p-name="Pizza Ranch" p-adr="1504 Center Ave W, Dilworth, MN 56529"
 p-loc="Dilworth" p-reg="MN" p-zip="56529" %}}
 

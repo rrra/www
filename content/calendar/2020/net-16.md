@@ -10,7 +10,7 @@ dates = [ "NCS Schedule" ]
 +++
 ### Check-in Signal Comparison
 
-<span class="genericon genericon-audio"></span> [Listen to the recording](https://cloud.rrra.org/index.php/s/JEHfz9Ei5F24H4f)
+<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording](https://cloud.rrra.org/index.php/s/JEHfz9Ei5F24H4f)
 
 (in order of appearance)
 

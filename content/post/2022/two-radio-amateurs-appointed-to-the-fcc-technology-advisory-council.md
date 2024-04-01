@@ -25,4 +25,4 @@ Radio.
 
 [^1]: "Two Radio Amateurs Appointed to the FCC Technological Advisory Council (TAC)", ARRL The National Association for Amateur Radio, accessed January 21 2022, http://www.arrl.org/news/two-radio-amateurs-appointed-to-the-fcc-technological-advisory-council-tac.
 
-<span class="genericon genericon-link"></span>[Read the complete ARRL news article ...](http://www.arrl.org/news/two-radio-amateurs-appointed-to-the-fcc-technological-advisory-council-tac)
+<span class="genericons-neue genericons-neue-link"></span>[Read the complete ARRL news article ...](http://www.arrl.org/news/two-radio-amateurs-appointed-to-the-fcc-technological-advisory-council-tac)

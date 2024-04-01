@@ -4,6 +4,6 @@ linkTitle = "echolink"
 tooltip = "EchoLink (Analog + VOIP)"
 +++
 
-<span class="genericon genericon-warning"></span>
+<span class="genericons-neue genericons-neue-warning"></span>
 **Please contact the {{< webmaster >}} with additions or corrections for
 this list.**

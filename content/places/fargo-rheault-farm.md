@@ -3,7 +3,7 @@ date = "2017-02-27T13:19:13-06:00"
 title = "Rheault Farm"
 
 +++
-<span class="genericon genericon-location"></span>
+<span class="genericons-neue genericons-neue-location"></span>
 {{% hcard p-name="Rheault Farm" p-adr="2902 25th St S" p-loc="Fargo"
 p-reg="ND" p-zip="58103" %}}
 

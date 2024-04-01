@@ -15,5 +15,5 @@ with a booth staffed by KC0GQE, N0TSZ, and N0WQZ.
 
 ***Photos courtesy of W0HNV***
 
-<span class="genericon genericon-info"></span> More photo albums of RRRA outreach activities are available on the 
+<span class="genericons-neue genericons-neue-info"></span> More photo albums of RRRA outreach activities are available on the 
 [RRRA Outreach Collection page](https://www.flickr.com/photos/rrra-fargo/collections/72157699676138644/)

@@ -23,7 +23,7 @@ Clay County, Minnesota:
 >[www.cassclayalerts.gov](http://cassclayalerts.gov)
 >
 >If you need assistance signing up, you may contact FirstLink by dialing
->[2-1-1](tel:211) <span class="genericon genericon-phone"></span> [^1]
+>[2-1-1](tel:211) <span class="genericons-neue genericons-neue-phone"></span> [^1]
 
 [^1]: "Text message to CodeRED subscribers", Red River Regional Dispatch
 Center, received August 5 2020.

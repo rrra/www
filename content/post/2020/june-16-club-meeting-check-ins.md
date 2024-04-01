@@ -11,7 +11,7 @@ operators with this [recording from the June 16, 2020, On-Air Club Meeting](/s/p
 
 ### Check-ins
 
-<span class="genericon genericon-audio"></span> [Listen to the recording](/s/pmr7yNFg2qzMkJn)
+<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording](/s/pmr7yNFg2qzMkJn)
 
 (in order of appearance)
 

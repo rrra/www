@@ -3,7 +3,7 @@ date = "2018-08-22T15:25:00-05:00"
 title = "RRV Fairgrounds Butler Machinery Arena"
 aliases = [ "/places/rrv-fairgrounds-schollander-pavillion/" ]
 +++
-<span class="genericon genericon-location"></span>
+<span class="genericons-neue genericons-neue-location"></span>
 {{% hcard p-name="RRV Fairgrounds Butler Machinery Arena" p-adr="1805 Main Ave W" p-loc="West Fargo" p-reg="ND" p-zip="58078" %}}
 
 This facility was previously named the *Schollander Pavillion*.

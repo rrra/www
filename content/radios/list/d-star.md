@@ -5,6 +5,6 @@ tooltip = "Digital Smart Technologies for Amateur Radio"
 +++
 {{< radio-list "D-Star" >}}
 
-<span class="genericon genericon-warning"></span>
+<span class="genericons-neue genericons-neue-warning"></span>
 **Please contact the {{< webmaster >}} with additions or corrections for
 this list.**

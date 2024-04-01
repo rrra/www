@@ -46,4 +46,4 @@ You do not need a PayPal account to use this membership payment service.
  
 ### Need Help?
 
-Please contact the {{< mailto treasurer >}} or call [701-526-4426](tel:701-526-4426)<span class="genericon genericon-phone"></span> for assistance.
+Please contact the {{< mailto treasurer >}} or call [701-526-4426](tel:701-526-4426)<span class="genericons-neue genericons-neue-phone"></span> for assistance.

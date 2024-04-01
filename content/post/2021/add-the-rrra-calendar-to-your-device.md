@@ -19,7 +19,7 @@ Before starting you will need know the webcal / iCalendar link for the calendar(
 you're interested in. In most cases you will need to copy/paste this link as directed in the instructions for your calendering software.
 
 Use this link for the complete RRRA calendar:<br>
-<span class="genericon genericon-month" style=font-size:1.5em;padding-right:.4em></span><a href="webcal://rrra.org/calendar/index.ics">webcal://rrra.org/calendar/index.ics</a>
+<span class="genericons-neue genericons-neue-month" style=font-size:1.5em;padding-right:.4em></span><a href="webcal://rrra.org/calendar/index.ics">webcal://rrra.org/calendar/index.ics</a>
 
 Other webcal / iCalendar links may be found through the ***Dates*** links in
 the sidebar of any page on this website.

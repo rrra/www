@@ -24,16 +24,16 @@ the {{< mailto id="net" subject="Volunteering for the RRRA Sunday Net" >}} for m
 * [NCS Schedule](/dates/ncs-schedule/)
 * [NCS Roster](/ncs/)
 
-## Red River Valley Nets <a class="genericon genericon-print" style="text-decoration:none;" href="{{< relref "/nets/red-river-valley-nets.md" >}}" title="Printable Red River Valley net list"></a>
+## Red River Valley Nets <a class="genericons-neue genericons-neue-print" style="text-decoration:none;" href="{{< relref "/nets/red-river-valley-nets.md" >}}" title="Printable Red River Valley net list"></a>
 
 {{< red-river-valley-nets >}}
 
-<span class="genericon genericon-warning"></span>
+<span class="genericons-neue genericons-neue-warning"></span>
 **Times shown are Red River Valley local.**
 Please contact the {{< webmaster subject="Update for Red River Valley Net List">}} with additions or corrections for
 this list.
 
 ## Other Nets
 
-<span class="genericon genericon-info"></span> [Search the ARRL Net Directory](http://www.arrl.org/resources/nets/client/netsearch.html)
+<span class="genericons-neue genericons-neue-info"></span> [Search the ARRL Net Directory](http://www.arrl.org/resources/nets/client/netsearch.html)
 

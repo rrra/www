@@ -32,7 +32,7 @@ discusses the support provided to the hobby of Amateur Radio by the
 [^1]: "You and the IARU", Reddit: Amateur/Ham Radio, Retrieved March 31 2018, https://www.reddit.com/r/amateurradio/comments/886jgj/you_and_the_iaru/.
 
 <div class="read-more-link">
-<span alt="Link" class="genericon genericon-external"></span>
+<span alt="Link" class="genericons-neue genericons-neue-external"></span>
 <a href="https://www.reddit.com/r/amateurradio/comments/886jgj/you_and_the_iaru/">Read the rest of the article on Reddit...</a>
 </div>
 

@@ -49,7 +49,7 @@ for frequent weather updates.
 [^1]: "North Dakota Severe Summer Weather Awareness Week: Monday", National Weather Service, accessed April 23 2021, https://www.weather.gov/bis/nd_summer_awareness_1.
 
 ### Tornadoes [^2]
-<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericon genericon-top"></span></a></div>
+<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericons-neue genericons-neue-top"></span></a></div>
 
 {{< figure src="https://www.weather.gov/images/wrn/Infographics/tornado_sheltering_guidelines.png" link="https://www.weather.gov/images/wrn/Infographics/tornado_sheltering_guidelines.png" >}}
 
@@ -79,7 +79,7 @@ or low lying area.
 [^2]: "North Dakota Severe Summer Weather Awareness Week: Tuesday", National Weather Service, accessed April 23 2021, https://www.weather.gov/bis/nd_summer_2.
 
 ### Tornado Drill [^3]
-<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericon genericon-top"></span></a></div>
+<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericons-neue genericons-neue-top"></span></a></div>
 
 [Make a plan! And practice it!](https://www.ready.gov/)
 
@@ -116,7 +116,7 @@ management for outdoor siren policy.
 [^3]: "North Dakota Severe Summer Weather Awareness Week: Wednesday", National Weather Service, accessed April 23 2021, https://www.weather.gov/bis/nd_summer_3.
 
 ### Lightning [^4]
-<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericon genericon-top"></span></a></div>
+<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericons-neue genericons-neue-top"></span></a></div>
 
 #### Get Indoors!
 
@@ -137,7 +137,7 @@ thunderstorm.
 [^4]: "North Dakota Severe Summer Weather Awareness Week: Thursday", National Weather Service, accessed April 23 2021, https://www.weather.gov/bis/nd_summer_4.
 
 ### Flash Flooding [^5]
-<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericon genericon-top"></span></a></div>
+<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericons-neue genericons-neue-top"></span></a></div>
 
 {{< figure src="https://www.weather.gov/images/wrn/social_media/2017/170901_flood_3steps.png" link="https://www.weather.gov/images/wrn/social_media/2017/170901_flood_3steps.png" >}}
 
@@ -147,6 +147,6 @@ thunderstorm.
 [^5]: "North Dakota Severe Summer Weather Awareness Week: Friday", National Weather Service, accessed April 23 2021, https://www.weather.gov/bis/nd_summer_5.
 
 ### Governor's Proclamation
-<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericon genericon-top"></span></a></div>
+<div style="float:right;position:relative;top:-36px;"><a style="text-decoration:none;" href="." alt="Back to top" title="Back to top"><span class="genericons-neue genericons-neue-top"></span></a></div>
 
 {{< figure src="https://cloud.rrra.org/index.php/s/GN3agbPmALwBc72/preview" link="https://www.weather.gov/media/bis/Severe_Summer_Weather_Awareness_Week_2021.pdf" >}}

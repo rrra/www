@@ -5,6 +5,6 @@ tooltip = "Digital Mobile Radio"
 +++
 {{< radio-list "DMR" >}}
 
-<span class="genericon genericon-warning"></span>
+<span class="genericons-neue genericons-neue-warning"></span>
 **Please contact the {{< webmaster >}} with additions or corrections for
 this list.**

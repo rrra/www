@@ -1,7 +1,7 @@
 +++
 title = "Fargo Urban Plains Park"
 +++
-<span class="genericon genericon-location"></span>
+<span class="genericons-neue genericons-neue-location"></span>
 {{% hcard p-name="Fargo Urban Plains Park" p-adr="3020 51st ST S"
 p-loc="Fargo" p-reg="ND" p-zip="58104" %}}
 
