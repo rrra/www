@@ -6,7 +6,10 @@ location = "[West Fargo FD HQ](/places/west-fargo-fire-department-headquarters/)
 title = "April ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 aliases = [ "" ]
 status = "canceled"
 +++
+The RRRA April Activity:
+[Advanced SKYWARN Spotter Training]({{< relref "/calendar/2024/april-meeting.md" >}})
+replaces this event.
