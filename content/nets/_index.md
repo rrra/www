@@ -33,7 +33,8 @@ the {{< mailto id="net" subject="Volunteering for the RRRA Sunday Net" >}} for m
 Please contact the {{< webmaster subject="Update for Red River Valley Net List">}} with additions or corrections for
 this list.
 
-## Other Nets
+## Find Other Nets
 
-<span class="genericons-neue genericons-neue-info"></span> [Search the ARRL Net Directory](http://www.arrl.org/resources/nets/client/netsearch.html)
+<span class="genericons-neue genericons-neue-link"></span> [Search the ARRL Net Directory](http://www.arrl.org/resources/nets/client/netsearch.html)<br>
+<span class="genericons-neue genericons-neue-link"></span> [View nets at Hamnets.org](https://www.hamnets.org/?timezone=America%2FChicago&gridsquare=EN16)
 
