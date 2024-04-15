@@ -20,5 +20,10 @@ update = 0
 -->
 For more information please visit:
 
-<!--* [Forx ARC Hamfest 2023 page](https://www.wa0jxt.org/general-8)-->
+* [Forx ARC Hamfest 2024 page](https://www.wa0jxt.org/general-8)
 * [ARRL Grand Forks Hamfest page](http://www.arrl.org/hamfests/grand-forks-hamfest-1)
+
+or download the
+[Grand Forks Hamfest 2024 flyer](https://www.wa0jxt.org/_files/ugd/cbce30_3e19474008de48fa87c17dd653364954.pdf)
+(PDF)
+
