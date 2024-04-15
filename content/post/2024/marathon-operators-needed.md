@@ -5,6 +5,8 @@ categories = [ "Public Service" ]
 authors = [ "K0STK" ]
 title = "Radio Operators needed for the 2024 Fargo Marathon"
 tags = [ "Marathon" ]
+featured = "2024-04-16T19:00:00-05:00"
+endFeatured = "2024-06-01T01:00:00-05:00"
 +++
 RRRA has been called upon to provide aid station communications for the
 [2024 Fargo Marathon]({{< relref "/calendar/2024/fargo-marathon.md" >}})
