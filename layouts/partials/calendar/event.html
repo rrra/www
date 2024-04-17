@@ -25,7 +25,7 @@
 		{{ $nextLink := $relpermalink }}
 		{{ $lastLink := "" }}
 		{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
-			{{ if eq $key ( urlize $dates ) }}
+			{{ if eq $key ( lower $dates ) }}
 				{{ $startOfYear := time.AsTime (printf "%d-01-01" now.Year) }}
 				{{ range first 1 ( where $taxonomy.Pages.Reverse "Date" "ge" $startOfYear ) }}
 					{{ $firstLink = .RelPermalink }}
