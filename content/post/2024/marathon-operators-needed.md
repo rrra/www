@@ -19,13 +19,4 @@ Radio operators are needed to support approximately **16** aid stations
 and medical drop-out stations.
 <!--more-->
 
-The course and aid station locations are anticipated to be similar to
-those in previous marathons and will be announced on the
-[Essentia Health Fargo Marathon page](https://fargomarathon.com/marathon/)---and
-through our Marathon Mailing List---once planning and certification are
-completed.
-
-General event information is published on the
-[Fargo Marathon Event Details page](https://fargomarathon.com/event-details/).
-
 {{< import "/calendar/2024/fargo-marathon.md" >}}

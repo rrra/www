@@ -12,6 +12,15 @@ upcoming = "force"
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 update = 0
 +++
+The course and aid station locations are anticipated to be similar to
+those in previous marathons and will be announced on the
+[Essentia Health Fargo Marathon page](https://fargomarathon.com/marathon/)---and
+through our Marathon Mailing List---once planning and certification are
+completed.
+
+General event information is published on the
+[Fargo Marathon Event Details page](https://fargomarathon.com/event-details/).
+
 RRRA communication support for the Fargo Marathon will be coordinated
 through our
 [Marathon Mailing List](https://lists.rrra.org/mailman/listinfo/marathon);
