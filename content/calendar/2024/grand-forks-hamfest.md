@@ -9,7 +9,7 @@ title = "Grand Forks Hamfest"
 talkIn = "146.940- T123.0"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 +++
 <!--
 <div id="flyer">
@@ -26,4 +26,3 @@ For more information please visit:
 or download the
 [Grand Forks Hamfest 2024 flyer](https://www.wa0jxt.org/_files/ugd/cbce30_3e19474008de48fa87c17dd653364954.pdf)
 (PDF)
-

@@ -55,7 +55,7 @@
 						{{ $newflag := "" }}
 						{{ $commitdate := $newdate }}
 						{{ with .GitInfo.CommitDate }}{{ $commitdate = . }}{{ end }}
-						{{ if gt $commitdate $newdate }}
+						{{ if and ( gt .Params.update 0 ) ( gt $commitdate $newdate ) }}
 							{{ $newflag = ( ":new:" | markdownify ) }}
 						{{ end }}
 						<dt class="twocol" style="width:15em;">
