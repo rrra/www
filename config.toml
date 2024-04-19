@@ -17,6 +17,9 @@ newcontenteditor = "editor"
 # GitHub settings
 enableGitInfo = true
 
+# Added at v0.125.1 to ignore youtube errors
+ignoreLogs = ['err-youtube-remote']
+
 # Added at v0.60 to allow the rendering of HTML in page source
 [markup.goldmark.renderer]
 unsafe= true

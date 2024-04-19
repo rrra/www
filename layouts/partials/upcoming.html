@@ -15,6 +15,11 @@
 {{ $scratch.Set "seen" " " }}    {{/* Date sequences seen overall */}}
 {{ $scratch.Set "lastdate" "" }} {{/* Last date we used           */}}
 
+{{/* Set the cut off for an updated content flag
+     AddDate args: years months days
+     e.g. 0 0 -7 is 7 days ago */}}
+{{ $newdate := now.AddDate 0 0 -7 }}
+
 	<dl>
 		{{ range where .Site.RegularPages.ByDate "Section" "calendar" }}
 
@@ -41,12 +46,20 @@
 					{{/* List this event if any of these conditions are true:
 						1. An event for this date sequence has not been seen yet
 						2. Event front matter upcoming param is set to "force"
-						3. This date sequence was already seen today
+						3:: This date sequence was already seen today
 					*/}}
 					{{ $seen := chomp ($scratch.Get "seen") }}
-					{{ if or (not (in $seen $series)) (or (eq ($scratch.Get "upcoming") "force") (in ($scratch.Get "today") $series)) }}
+				        {{ if or (not (in $seen $series)) (or (eq ($scratch.Get "upcoming") "force") (in ($scratch.Get "today") $series)) }}
+						{{/* Set the updated content flag. This should gracefully fail to blank
+						     if .GitInfo.CommitDate is not available. */}}
+						{{ $newflag := "" }}
+						{{ $commitdate := $newdate }}
+						{{ with .GitInfo.CommitDate }}{{ $commitdate = . }}{{ end }}
+						{{ if gt $commitdate $newdate }}
+							{{ $newflag = ( ":new:" | markdownify ) }}
+						{{ end }}
 						<dt class="twocol" style="width:15em;">
-							{{ with .LinkTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+							{{ $newflag }} {{ with .LinkTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}
 						</dt>
 						{{ $curdates :=  chomp (delimit .Params.dates " ") | replaceRE "Hidden" "" }}
 						<dd class="twocol"><a href="{{ .RelPermalink}}" title="{{ .Title }}{{ if gt (len $curdates) 0 }} - {{ $curdates }}{{ end }}">{{ if in .Site.Params.status .Params.status }}<span style="color:red;">{{ upper .Params.status }}</span>{{ else }}{{ if eq 10 (len (string .Date | replaceRE " 00:00:00.*UTC" "" )) }}{{ .Date.Format "Mon Jan 2" }}{{ else }}{{ .Date.Format "3:04 PM Mon Jan 2" }}{{ end }}{{ end }}</a></dd>
