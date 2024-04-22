@@ -1,9 +1,11 @@
 +++
 date = "2024-04-22"
 title = "ND 2024 Severe Summer Weather Awareness Week: Severe Thunderstorms"
+slug = "nd-2024-severe-summer-weather-awareness-week-day-1"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "NWS" ]
+ aliases = [ "/post/2024/04/22/nd-2024-severe-summer-weather-awareness-week-severe-thunderstorms/" ]
 +++
 [Severe Thunderstorm](https://www.weather.gov/bis/nd_summer_awareness_1)
 information from the National Weather Service
