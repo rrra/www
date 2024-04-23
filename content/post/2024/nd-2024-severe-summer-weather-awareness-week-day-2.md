@@ -100,4 +100,4 @@ tornado. Seek shelter in a sturdy building. If no building is available,
 lay down in a ditch or low lying area.
 
 :information_source: Originally published at
-https://www.weather.gov/bis/nd_summer_awareness_2
+https://www.weather.gov/bis/nd_summer_2
