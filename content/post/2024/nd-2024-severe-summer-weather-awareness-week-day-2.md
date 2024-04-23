@@ -1,5 +1,5 @@
 +++
-date = "2024-04-23"
+date = "2024-04-23T001:00:00-05:00"
 title = "ND 2024 Severe Summer Weather Awareness Week: Tornados"
 slug = "nd-2024-severe-summer-weather-awareness-week-day-2"
 authors = [ "K0STK" ]
