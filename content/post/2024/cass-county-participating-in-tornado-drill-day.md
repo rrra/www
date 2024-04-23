@@ -5,6 +5,8 @@ title = "Cass County Participating in Tornado Drill Day"
 authors = [ "K0STK" ]
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
+featured = "2024-04-23T01:00:00-05:00"
+endFeatured = "2024-04-24T12:00:00-05:00"
 +++
 >During North Dakota Severe Summer Weather Awareness Week, a full-system test
 >of the outdoor siren warning system in Cass County will be conducted on
