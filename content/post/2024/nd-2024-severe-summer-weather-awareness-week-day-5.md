@@ -20,7 +20,7 @@ quickly change. Remain aware and monitor local radio and television.
 #### 3 Simple Steps
 
 :one: GET TO HIGHER GROUND
-: Get out of aread subject to flooding.
+: Get out of areas subject to flooding.
 
 :two: DO NOT DRIVE INTO WATER
 : Do **NOT** drive or walk into flooded areas. It only takes 6" of water to
@@ -37,7 +37,7 @@ WHEN FLOODED ... TURN AROUND, DON'T DROWN
 ### Do you really know how deep the water is?
 
 6 INCHES
-: of fast-moving water can knock pover and carry away an adult.
+: of fast-moving water can knock over and carry away an adult.
 
 12 INCHES
 : of fast-moving water can carry away a small car.
