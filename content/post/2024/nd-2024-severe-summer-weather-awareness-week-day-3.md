@@ -59,8 +59,6 @@ Outdoor warning sirens are designed to warn those outside of threatening weather
 
 Sirens are activated primarily by city or county officials. Each city or county can establish its own guidelines for when to activate the siren, such as for severe thunderstorm warnings in addition to tornado warnings. Contact or visit the website of your city or county emergency management for outdoor siren policy.
 
-{{< figure src="https://www.weather.gov/images/bis/Siren.png" link="https://www.weather.gov/images/bis/Siren.png" >}}
-
 ### Have Multiple Methods to receive NWS Watches and Warnings { #multiple-ways }
 
 * Local TV &amp; Radio
@@ -69,6 +67,10 @@ Sirens are activated primarily by city or county officials. Each city or county 
 * Word of Mouth (family, friends, coworkers)
 * Outdoor Sirens only when you're outdoors!
 * NOAA Weather Radio
+
+{{< figure src="https://www.weather.gov/images/bis/Siren.png" link="https://www.weather.gov/images/bis/Siren.png" >}}
+
+<p class="clear"></p>
 
 {{< figure src="https://www.weather.gov/images/bis/multiple-methods.png" link="https://www.weather.gov/images/bis/multiple-methods.png" >}}
 

@@ -49,8 +49,6 @@ you follow these guidelines.
 * Vehicles
 * Underneath a highway overpass
 
-{{< figure src="https://www.weather.gov/images/wrn/Infographics/tornado_sheltering_guidelines.png" link="https://www.weather.gov/images/wrn/Infographics/tornado_sheltering_guidelines.png" >}}
-
 ### Tornado Terminology
 
 Tornado Watch
@@ -75,8 +73,6 @@ catastrophic damage due to a confirmed violent tornado.
 :warning: **TAKE ACTION:** There is imminent danger to life and
 property. Immediately seek refuge in the safest location possible.
 
-{{< figure src="https://www.weather.gov/images/wrn/Infographics/tornado-emergency.jpg" link="https://www.weather.gov/images/wrn/Infographics/tornado-emergency.jpg" >}}
-
 ### Tornado Safety Tips
 
 If in a building, go to the basement if one is available. Get under the
@@ -98,6 +94,14 @@ When driving, if a tornado is spotted in the distance, stay calm and
 drive away from it. However, in heavy traffic, never try to outrun a
 tornado. Seek shelter in a sturdy building. If no building is available,
 lay down in a ditch or low lying area.
+
+{{< figure src="https://www.weather.gov/images/wrn/Infographics/tornado_sheltering_guidelines.png" link="https://www.weather.gov/images/wrn/Infographics/tornado_sheltering_guidelines.png" >}}
+
+<p class="clear"></p>
+
+{{< figure src="https://www.weather.gov/images/wrn/Infographics/tornado-emergency.jpg" link="https://www.weather.gov/images/wrn/Infographics/tornado-emergency.jpg" >}}
+
+<p class="clear"></p>
 
 :information_source: Originally published at
 https://www.weather.gov/bis/nd_summer_2
