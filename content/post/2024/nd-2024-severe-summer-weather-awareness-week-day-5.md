@@ -1,10 +1,11 @@
 +++
 date = "2024-04-26T01:00:00-05:00"
 title = "ND 2024 Severe Summer Weather Awareness Week: Flash Flooding"
-slug = "nd-2025-severe-summer-weather-awareness-week-day-4"
+slug = "nd-2025-severe-summer-weather-awareness-week-day-5"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
 tags = [ "NWS" ]
+aliases = [ "/post/2024/04/26/nd-2025-severe-summer-weather-awareness-week-day-4/" ]
 +++
 [Flash Flooding](https://www.weather.gov/bis/nd_summer_awareness_5)
 information from the National Weather Service
