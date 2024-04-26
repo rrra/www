@@ -52,7 +52,6 @@ unsafe= true
 	home = [ "HTML", "RSS" ]
 	section = [ "HTML", "RSS" ]
 	taxonomy = [ "HTML", "Calendar", "RSS" ]
-	taxonomyTerm = [ "HTML", "Calendar", "RSS" ]
 
 [permalinks]
 	post = "/post/:year/:month/:day/:slug/"
