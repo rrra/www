@@ -6,3 +6,9 @@ data/call
 *.swp
 static/fonts/
 .hugo_build.lock
+README
+bin/
+dead.scss
+node_modules/
+package-lock.json
+package.json
