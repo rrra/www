@@ -18,6 +18,6 @@ your your [membership application](/s/3iOnHKqxHlaDxxv) to the
 
 ### Need Help?
 
-Please contact the {{< mailto treasurer >}} or call
+Please contact the {{< mailto treasurer >}} or leave a message at
 [701-526-4426](tel:701-526-4426)<span class="genericon
 genericon-phone"></span> for assistance.
