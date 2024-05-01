@@ -111,6 +111,7 @@ textarea {
 
 body {
 	background: #c1cdc2;
+	background: var(--body);
 }
 
 a {
@@ -730,6 +731,7 @@ span + .comments-link:before {
 
 .site {
 	background-color: #fff;
+	background-color: var(--mainbg);
 	margin: 0 auto;
 	max-width: 1260px;
 	position: relative;
@@ -799,6 +801,7 @@ span + .comments-link:before {
 
 #site-banner {
 	background:#f1fdf2;
+	background: var(--bnrbg);
 	color:#d40000;
 	width:100%;
 	text-align:center;
@@ -825,6 +828,7 @@ span + .comments-link:before {
 
 .site-header {
 	background-color: #000;
+	background-color: var(--sidebg);
 	max-width: 1260px;
 	position: relative;
 	width: 100%;
@@ -851,6 +855,7 @@ span + .comments-link:before {
 .site-title a,
 .site-title a:hover {
 	color: #fff;
+	color: var(--sidefg);
 	display: block;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -935,6 +940,7 @@ span + .comments-link:before {
 
 .site-navigation a {
 	color: #fff;
+	color: var(--sidefg);
 	display: block;
 	text-transform: uppercase;
 }
@@ -1019,12 +1025,6 @@ span + .comments-link:before {
  * -----------------------------------------------------------------------------
  */
 
-/* declared later
-.content-area {
-	padding-top: 48px;
-}
-*/
-
 .hentry {
 	margin: 0 auto 48px;
 	max-width: 672px;
@@ -1081,7 +1081,6 @@ span + .comments-link:before {
 }
 
 .site-content .entry-header {
-	background-color: #fff;
 	padding: 0 10px 12px;
 }
 
@@ -1141,7 +1140,6 @@ span + .comments-link:before {
 }
 
 .site-content .entry-meta {
-	background-color: #fff;
 	margin-bottom: 12px;
 }
 
@@ -1224,7 +1222,6 @@ span + .comments-link:before {
 
 .site-content .entry-content,
 .site-content .entry-summary {
-	background-color: #fff;
 	padding: 12px 10px 0;
 }
 
@@ -1461,6 +1458,7 @@ figcaption p a::before { content: ' '; display: block; }
 
 #secondary {
 	background-color: #000;
+	background-color: var(--sidebg);
 	border-top: 1px solid #000;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	clear: both;
@@ -1516,6 +1514,7 @@ figcaption p a::before { content: ' '; display: block; }
 
 .widget a {
 	color: #fff;
+	color: var(--sidefg);
 }
 
 .widget a:hover,
@@ -1679,6 +1678,7 @@ figcaption p a::before { content: ' '; display: block; }
 .widget-title,
 .widget-title a {
 	color: #fff;
+	color: var(--sidefg);
 }
 
 .widget-title a:hover {
@@ -1741,6 +1741,7 @@ figcaption p a::before { content: ' '; display: block; }
 .site-info,
 .site-info a {
 	color: rgba(255, 255, 255, 0.7);
+	color: var(--sidefg);
 }
 
 .site-footer {
@@ -1773,6 +1774,7 @@ figcaption p a::before { content: ' '; display: block; }
 
 .banner {
 	background: #f1fdf2;
+	background: var(--bnrbg);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:    border-box;
 	box-sizing:         border-box;
@@ -1803,6 +1805,7 @@ figcaption p a::before { content: ' '; display: block; }
 	max-width:530px;
 	padding: 3px;
 	background: white;
+	background: var(--mainbg);
 }
 
 .feature-container-inner {
@@ -1843,7 +1846,54 @@ div.entry-summary .footnote-ref a {
 }
 
 @viewport {
-	width: device-width;
+width: device-width;
+}
+
+/*
+* Support light/dark mode switching using variables and overrides as
+* described at
+* https://www.w3schools.com/css/css3_variables_mediaqueries.asp
+* with a fallback for older browsers as described at
+* https://stackoverflow.com/questions/44271920/css-variables-with-fallback-for-older-browsers#48719262
+*
+* Color fallback:
+*
+* body {
+*  background-color: yellow;
+*  background-color: var(--primary);
+* }
+*
+* The color variables are defined in @media prefers-color-scheme
+* stanzas e.g.
+*
+* @media (prefers-color-scheme: light) {
+*   :root {
+*     --primary: yellow;
+*   }
+* }
+*/
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+	:root {
+		--body:	 #c1cdc2;
+		--mainfg: #555555;
+		--mainbg: #fdfdfd;
+		--sidefg: #fdfdfd;
+		--sidebg: #555555;
+	}
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--body: #000;
+		--mainfg: #fff;
+		--mainbg: #808080;
+		--sidefg: #808080;
+		--sidebg: #1b1b1b;
+		--bnrbg: #b2beb5;
+	}
 }
 
 @media screen and (max-width: 400px) {
@@ -2375,7 +2425,7 @@ div.entry-summary .footnote-ref a {
 
 	.primary-navigation a {
 		display: inline-block;
-		padding: 0 12px 0 0;
+		padding: 0 12px;
 		white-space: nowrap;
 		font-weight: bold;
 	}
@@ -2450,6 +2500,7 @@ div.entry-summary .footnote-ref a {
 
 	.site:before {
 		background-color: #000;
+		background-color: var(--sidebg);
 		content: "";
 		display: block;
 		height: 100%;
@@ -2463,6 +2514,7 @@ div.entry-summary .footnote-ref a {
 
 	#secondary {
 		background-color: transparent;
+		background-color: var(--sidebg);
 		border: 0;
 		clear: none;
 		float: left;
@@ -2689,6 +2741,7 @@ div.entry-summary .footnote-ref a {
 
 	.site-info {
 		font-weight: bold;
+		background: var(--sidebg);
 	}
 }
 
