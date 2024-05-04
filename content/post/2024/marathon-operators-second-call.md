@@ -7,7 +7,7 @@ categories = [ "Public Service" ]
 tags = [ "Marathon" ]
 featured = "2024-05-04T11:34:20-05:00"
 endFeatured = "2024-06-01T01:00:00-05:00"
-siteBanner = "[5 More Radio Operators needed for the 2024 Fargo Marathon<br>Volunteer Today!](//post/2024/04/13/radio-operators-needed-for-the-2024-fargo-marathon/)"
+siteBanner = "[Volunteer Today for the 2024 Fargo Marathon!](/post/2024/05/04/5-more-radio-operators-needed-for-the-2024-fargo-marathon/)"
 +++
 Five more radio operators are needed to fully staff the 
 [2024 Fargo Marathon]({{< relref "/calendar/2024/fargo-marathon.md" >}})
