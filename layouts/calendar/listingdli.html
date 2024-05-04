@@ -1,2 +1,2 @@
 <dt class="twocol" style="width:10em;">{{ .Date.Format "Mon - 2" }}</dt>
-<dd class="twocol"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}{{ if in .Site.Params.status .Params.status }} <span style="color: red;">{{ upper .Params.status }}</span>{{ end }}</a></dd>
+<dd class="twocol"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}{{ if in .Site.Params.status .Params.status }} <span class="red">{{ upper .Params.status }}</span>{{ end }}</a></dd>
