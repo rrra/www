@@ -1877,6 +1877,10 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 	padding: 24px 0;
 }
 
+.list-view .site-content .hentry:last-of-type {
+	border-bottom: none;
+}
+
 .list-view .content-area {
 	padding: 22px 0;
 }
