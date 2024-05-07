@@ -846,8 +846,9 @@ padding: 0 10px;
 
 .site-title {
 float: left;
-font-size: 18px;
-font-weight: 700;
+font-size: 22px;
+font-weight: 900;
+font-variant: small-caps;
 line-height: 48px;
 margin: 0;
 
@@ -1697,7 +1698,7 @@ line-height: 1.3333333333;
 	background-color: #000;
 	margin: 0 auto;
 	max-width: 1260px;
-	font-size: 12px;
+	font-size: 14px;
 	position: relative;
 	width: 100%;
 	z-index: 3;
@@ -1872,7 +1873,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 /* Moved from screen max 400px */
 .list-view .site-content .hentry {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-	margin: 0;
+	margin: 12px;
 	min-height: 60px;
 	padding: 24px 0;
 }
@@ -2016,12 +2017,12 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		width: auto;
 		text-align: center;
 	}
-/*
+
         .cat-links.a.nav .pagination,a.nav {
 		font-size: 36px;
 		padding: 24px;
 	}
-*/
+
 	a.nav.other, a.nav.active {
 		display: none;
 	}	
@@ -2106,7 +2107,6 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 
 	/* STK */
 	.content-area { padding-top: 18px; } 
->>>>>>> darkmode
 
 	.dropbtn {
     		padding: 0.2em;
@@ -2326,7 +2326,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 
 	.primary-navigation {
 		float: right;
-		font-size: 11px;
+		font-size: 14px;
 		margin: 0 1px 0 -12px;
 		padding: 0;
 		text-transform: uppercase;
@@ -2361,7 +2361,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		display: inline-block;
 		padding: 0 12px;
 		white-space: nowrap;
-		font-weight: bold;
+		font-weight: 900;
 	}
 
 	.primary-navigation ul ul {
@@ -2602,7 +2602,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 
 	.footer-sidebar .widget .widget-title,
 	.primary-sidebar .widget .widget-title {
-		font-size: 11px;
+		font-size: 14px;
 		font-weight: 900;
 		line-height: 1.6363636363;
 		margin-bottom: 18px;
@@ -2615,6 +2615,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 	.primary-sidebar .widget_recent_entries li {
 		border-top: 0;
 		padding: 0 0 6px;
+		font-size: larger;
 	}
 
 	
