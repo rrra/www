@@ -5,6 +5,7 @@
 	{{ `<!-- Template: layouts/taxonomy/dates.html -->` | safeHTML }}
 	{{ end }}
 
+<div class="hentry">
 <header class="entry-header">
 
 	<div class="entry-meta">
@@ -16,7 +17,7 @@
 	</span>
 	</div>
 
-	<h1 class="entry-title">{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
+	<h1 class="entry-title">{{ if eq "Hamfest" .Title }}Club {{ end }}{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
 {{ with  .OutputFormats.Get "calendar" -}}
 	<span class="noprint"><div><span class="genericons-neue genericons-neue-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Learn how to add these dates to your device</a></div></span>
 {{- end }}
@@ -75,7 +76,7 @@
 		{{ partialCached "after-the-test" . }}
 	{{ end }}
 
-	{{ if not ( $edu ) }}
+	{{ if not ( or ( $edu ) ( eq "Hamfest" .Title ) ) }}
 		<div class="banner"><p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if your event should be listed here.</p></div>
 		<p class="clear"></p>
 	{{ end }}
@@ -96,7 +97,7 @@
 	</div>
 
 
-
+</div>
 </div>
 
 {{ end }}

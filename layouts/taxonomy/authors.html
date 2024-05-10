@@ -5,6 +5,7 @@
 	{{ `<!-- Template: layouts/taxonomy/authors.html -->` | safeHTML }}
 	{{ end }}
 
+	<div class="hentry">
         <header class="entry-header">
 	<div class="entry-meta">
 		<span class="cat-links">
@@ -33,4 +34,5 @@
 		{{ partial "clear.html" }}
 		{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
 	</div><!-- #entry-content -->
+	</div>
 {{ end }}

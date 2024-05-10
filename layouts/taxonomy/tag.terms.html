@@ -4,6 +4,7 @@
 	{{ if eq "development" hugo.Environment }}
 	{{ `<!-- Template: layouts/taxonomy/tag.terms.html -->` | safeHTML }}
 	{{ end }}
+	<div class="hentry">
 	<header class="entry-header">
 		<h2 class="entry-title">Content Tags</h2>
 		<div class="entry-meta">(font size indicates popularity)</div>
@@ -27,6 +28,7 @@
 			<a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" style="font-size:{{$currentFontSize}}{{$fontUnit}}">{{ $name | replaceRE " " "-" }}</a>
 			{{ end }}
 		</div>
-		{{ end }}
+	{{ end }}
+	</div>	
 	</div>	
 {{ end }}

@@ -4,6 +4,7 @@
 	{{ if eq "development" hugo.Environment }}
 	{{ `<!-- Template: layouts/taxonomy/authors.terms.html -->` | safeHTML }}
 	{{ end }}
+	<div class="hentry">
 	<header class="entry-header">
 		<h3 class="entry-title">Contributing Authors</h3>
 	</header>
@@ -19,5 +20,6 @@
 			<dd class="twocol">{{ len $value }}</dd>
 			{{ end }}
 		</dl>
+	</div>
 	</div>
 {{ end }}
