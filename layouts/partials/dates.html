@@ -7,6 +7,7 @@
 			{{ range last 1 $taxonomy.Pages.ByDate }}
 				{{ if and ( ge .Date.Unix now.Unix ) ( ne ( $name | lower )  "hidden" ) }}
 					{{ $seq := $name | humanize | title | replaceRE "Ares" "ARES" | replaceRE "Ncs" "NCS" }}
+					{{ if eq "Outreach" $seq }}{{ $seq = "Outreach Events" }}{{ end }}
 					<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $seq }}</a></li>
 				{{ end }}	
 			{{ end }}
