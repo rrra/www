@@ -10,9 +10,10 @@
 
 		{{ partialCached "siteicons.html" . }}
 
-		{{ partialCached "recentposts.html" . }}
-
 		{{ partialCached "dates.html" .  }}
+
+		<!-- List of recent blog posts -->
+		{{ partialCached "recentposts.html" . }}
 		
 		<!-- List of content categories -->
 		{{ partial "categories.html" . }}
