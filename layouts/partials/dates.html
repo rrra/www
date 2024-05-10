@@ -8,6 +8,7 @@
 				{{ if and ( ge .Date.Unix now.Unix ) ( ne ( $name | lower )  "hidden" ) }}
 					{{ $seq := $name | humanize | title | replaceRE "Ares" "ARES" | replaceRE "Ncs" "NCS" }}
 					{{ if eq "Outreach" $seq }}{{ $seq = "Outreach Events" }}{{ end }}
+					{{ if eq "Hamfest" $seq }}{{ $seq = "Club Hamfest" }}{{ end }}
 					<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $seq }}</a></li>
 				{{ end }}	
 			{{ end }}
