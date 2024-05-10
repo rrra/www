@@ -6,27 +6,29 @@
 	{{ end }}
 	{{ $sitedate := $.Param "sitedate" }}
 
-	<header class="entry-header">
-		<div class="entry-meta">
-			<span class="cat-links"><a href="/">Home</a></span>
-		</div>
-		<h1 class="entry-title">{{ .Title }}</h1>
-		{{ with .Params.description }}<p>{{ . }}</p>{{ end }}
-		{{ $contact := .Params.contact }}
-		{{ if ne $contact nil }}
-		<div id="contact">
-			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partialCached "contact.html" (dict "context" . "sign" $contact ) $contact }} 
-		</div>
-		{{ end }}
-	</header>
-
-	<div class="entry-content">
-		<ul id="list">
-	{{ range .Data.Pages.ByTitle }}
-			  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	<div class="hentry">
+		<header class="entry-header">
+			<div class="entry-meta">
+				<span class="cat-links"><a href="/">Home</a></span>
+			</div>
+			<h1 class="entry-title">{{ .Title }}</h1>
+			{{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+			{{ $contact := .Params.contact }}
+			{{ if ne $contact nil }}
+			<div id="contact">
+				<br /><span class="cat-links vertmiddle">Contact: </span> {{ partialCached "contact.html" (dict "context" . "sign" $contact ) $contact }} 
+			</div>
 			{{ end }}
-		</ul>
-		<p style="clear:both;"></p>			
-		{{ .Content }}
+		</header>
+	
+		<div class="entry-content">
+			<ul id="list">
+		{{ range .Data.Pages.ByTitle }}
+				  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+				{{ end }}
+			</ul>
+			<p style="clear:both;"></p>			
+			{{ .Content }}
+		</div>
 	</div>
 {{ end }}

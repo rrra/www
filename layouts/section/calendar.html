@@ -5,30 +5,31 @@
 	{{ `<!-- Template: layouts/section/calendar.html -->` | safeHTML }}
 	{{ end }}
 
-	<div class="entry-meta">
-		<span class="cat-links"><a href="/">Home</a></span>
-	</div>
-
-	<header class="entry-header">
-		<h1 class="entry-title">Calendar Index</h1>
-{{ with  .OutputFormats.Get "calendar" -}}
-<span class="genericons-neue genericons-neue-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for the RRRA Annual Calendar" href="{{ .Permalink | replaceRE "^http?s:" "webcal:" | safeURL }}">Subscribe to calendar</a> &bull; <a style="text-decoration: none;" title="Import the RRRA Annual Calendar as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
-{{- end }}
-	</header>
-
-	{{ $thismonth := printf "%s-01" (now | dateFormat "01") | printf "%s-%s" (now | dateFormat "2006") | printf "%s" }}
-
-	<div class="entry-content" style="padding-bottom:1em;">
-		<dl>
-		{{ $name := "calendar" }}
-		{{ $series := index .Site.Taxonomies.series $name }}
-		{{ range $series.Pages.ByDate }}
-		  {{ $title := (time $thismonth).AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
-			<dt class="twocol"><a href="{{ .RelPermalink }}">{{ $title  }}</a></dt>
-		{{ end }}
-		</dl>
-
-	<p class="clear"></p>
-	{{ .Content }}
+	<div class="hentry">
+		<header class="entry-header">
+			<div class="entry-meta">
+				<span class="cat-links"><a href="/">Home</a></span>
+			</div>
+			<h1 class="entry-title">Calendar Index</h1>
+	{{ with  .OutputFormats.Get "calendar" -}}
+	<span class="genericons-neue genericons-neue-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for the RRRA Annual Calendar" href="{{ .Permalink | replaceRE "^http?s:" "webcal:" | safeURL }}">Subscribe to calendar</a> &bull; <a style="text-decoration: none;" title="Import the RRRA Annual Calendar as an ICS file" href="{{ .RelPermalink | safeURL }}">ICS download</a></dd>
+	{{- end }}
+		</header>
+	
+		{{ $thismonth := printf "%s-01" (now | dateFormat "01") | printf "%s-%s" (now | dateFormat "2006") | printf "%s" }}
+	
+		<div class="entry-content" style="padding-bottom:1em;">
+			<dl>
+			{{ $name := "calendar" }}
+			{{ $series := index .Site.Taxonomies.series $name }}
+			{{ range $series.Pages.ByDate }}
+			  {{ $title := (time $thismonth).AddDate 0 (int .Params.offset) 0 | dateFormat "January 2006" }}
+				<dt class="twocol"><a href="{{ .RelPermalink }}">{{ $title  }}</a></dt>
+			{{ end }}
+			</dl>
+	
+		<p class="clear"></p>
+		{{ .Content }}
+		</div>
 	</div>
 {{ end }}

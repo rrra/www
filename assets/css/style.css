@@ -840,7 +840,6 @@ z-index: 4;
 }
 
 .header-main {
-min-height: 48px;
 padding: 0 10px;
 }
 
@@ -1003,7 +1002,6 @@ margin: 0;
 overflow: hidden;
 padding: 0;
 position: absolute;
-top: 0;
 right: 0;
 text-align: center;
 width: 48px;
@@ -1451,7 +1449,7 @@ line-height: 1.5;
 /* Primary Sidebar */
 
 .primary-sidebar {
-padding-top: 48px;
+/* <*> padding-top: 48px; */
 }
 
 .secondary-navigation + .primary-sidebar {
@@ -1698,7 +1696,6 @@ line-height: 1.3333333333;
 	background-color: #000;
 	margin: 0 auto;
 	max-width: 1260px;
-	font-size: 14px;
 	position: relative;
 	width: 100%;
 	z-index: 3;
@@ -1878,12 +1875,23 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 	padding: 24px 0;
 }
 
+.list-view .site-content .hentry:first-of-type {
+	margin-top: 0;
+}
+
+
 .list-view .site-content .hentry:last-of-type {
 	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .list-view .content-area {
-	padding: 22px 0;
+	padding: 24px 12px 0;
+}
+
+.archive-header div.table, div.table:last-of-type {
+	margin: 24px auto;
 }
 
 /**
@@ -2106,7 +2114,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 	}
 
 	/* STK */
-	.content-area { padding-top: 18px; } 
+	.content-area { padding: 18px; } 
 
 	.dropbtn {
     		padding: 0.2em;
@@ -2281,7 +2289,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 /* Enable narrow sidebar */
 @media screen and (min-width: 1008px) {
 	.list-view .content-area {
-		padding-top: 72px;
+		padding: 24px 0 24px;
 	}
 
         .cat-links a.nav {
@@ -2460,9 +2468,11 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		width: 122px;
 	}
 
+/* <*>
 	.primary-sidebar {
 		padding-top: 0;
 	}
+*/
 
 	.site-description {
 		display: block;
@@ -2666,12 +2676,21 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 
 	aside.widget.social-media {
 		text-align: center;
+		margin-top: 18px;
 	}
 
 	.widget.social-media a {
 		font-size: 28px;
 		margin: 12px;
 		padding: 0;
+	}
+
+	aside.widget.widget_search {
+		margin-bottom: 0;
+	}
+
+	.feature-container-outer {
+		margin: 0 auto 24px;
 	}
 
 	div.cat-links {
@@ -2692,6 +2711,12 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		line-height: 24px;
 		font-size: 120%;
 	}               
+	.menu-toggle {
+		top: 0;
+	}
+	div.table:last-of-type {
+		margin-bottom: 0;
+	}
 }
 
 @media screen and (min-width: 1040px) {
