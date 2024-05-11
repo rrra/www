@@ -6,7 +6,8 @@ tags = [ "ARRL", "podcast" ]
 moreText = "Listen To The Podcast"
 date = "2024-05-10T16:34:59-05:00"
 title = "ARRL Forums at Dayton Hamvention 2024"
-description = "ARRL Forums at Dayton Hamvention 2024 — it is also the 2024 ARRL National Convention. ARRL Director of Marketing & Innovation Bob Inderbitzen, NQ1R, shares details about ARRL-sponsored activities at the show, including several of the ARRL-sponsored forums and the Youth Rally."
+description = "Also the 2024 ARRL National Convention. ARRL Director of Marketing & Innovation Bob Inderbitzen, NQ1R, shares details about ARRL-sponsored activities at the show, including several of the ARRL-sponsored forums and the Youth Rally."
+thumbnail = "https://assets.blubrry.com/coverart/300/930449-721631.jpg"
 +++
 In this episode of ARRL's monthly On The Air podcast: "This year’s Dayton Hamvention, coming up May 17-19 in Xenia, Ohio, will be extra special — it’s also the 2024 ARRL National Convention. ARRL Director of Marketing & Innovation Bob Inderbitzen, NQ1R, joins this month’s podcast to share details about ARRL-sponsored activities at the show, including several of the ARRL-sponsored forums and the Youth Rally."[^1]
 
