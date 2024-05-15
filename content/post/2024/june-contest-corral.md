@@ -6,9 +6,9 @@ categories = [ "Outreach" ]
 tags = [ "Contesting" ]
 +++
 The
-[June 2024 Contest Corral](http://www.arrl.org/files/file/Contest%20Corral/2024/June%202024%20Corral.pdf)
+[June 2024 Contest Corral](//www.arrl.org/files/file/Contest%20Corral/2024/June%202024%20Corral.pdf)
 is available for download from the
-[ARRL Contest Calendar page](http://www.arrl.org/contest-calendar).
+[ARRL Contest Calendar page](//www.arrl.org/contest-calendar).
 
 <!--more-->
 
