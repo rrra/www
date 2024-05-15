@@ -16,7 +16,7 @@ MYPATH="content/post/$YEAR"
 	(echo "Not at root of web source tree."; exit 1)
 
 DATE=`date --iso-8601=seconds`
-DLPATH="http://www.arrl.org/files/file/Contest%20Corral"
+DLPATH="https://www.arrl.org/files/file/Contest%20Corral"
 
 # Check to see if a contest corral exists for the month under consideration.
 # Unfortunately arrl.org doesn't return a 404 for unavailable files, so we
@@ -43,7 +43,7 @@ tags = [ "Contesting" ]
 The
 [$MON_NAME $YEAR Contest Corral]($DOWNLOAD)
 is available for download from the
-[ARRL Contest Calendar page](http://www.arrl.org/contest-calendar).
+[ARRL Contest Calendar page](https://www.arrl.org/contest-calendar).
 
 <!--more-->
 
