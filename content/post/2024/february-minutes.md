@@ -118,11 +118,11 @@ Upcoming Ham Fests
 
 Kent KA0LDG reports that this hamfest is at the college in Bismarck, free will donation.
 
-The next regional hamfest is always listed in our homepage Upcoming Events section of our homepage. All regional hamfests for the year are listed at https://rrra.org/dates/regional-hamfests
+The next regional hamfest is always listed in our homepage Upcoming Events section. All regional hamfests for the year are listed at https://rrra.org/dates/regional-hamfests
 
 #### Don Galitz
 
-Don is back home, and would like visitors
+Don is back home and would like visitors.
 
 ## Adjournment
 
