@@ -8,9 +8,9 @@ title = "RRRA Hamfest & ARRL Dakota Division Convention"
 linkTitle = "RRRA Hamfest"
 categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
-aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
+aliases = [ "/cal/2024/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
