@@ -12,7 +12,7 @@ dates = [ "Outreach" ]
 Aliases = [ "/cal/2024/field-day/", "/cal/2024/06/22/field-day/" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 >Field Day is ham radio's open house. Every June, more than 40,000 hams
@@ -34,7 +34,7 @@ For more information about Field Day ...
 
 ### Visit Our Field Day Site Location
 
-The [RRRA Field Day 2023 site](https://www.google.com/maps/place/46%C2%B052'33.7%22N+96%C2%B055'11.2%22W/@46.8758746,-96.9215708,274m/data=!3m1!1e3!4m14!1m7!3m6!1s0x52cf34bb7797e871:0xb83bd0531febdbda!2sWest+Fargo,+ND!3b1!8m2!3d46.8769487!4d-96.8999057!3m5!1s0x0:0x0!7e2!8m2!3d46.8760285!4d-96.9197808)
+The [RRRA Field Day 2024 site](https://www.google.com/maps/place/46%C2%B052'33.7%22N+96%C2%B055'11.2%22W/@46.8758746,-96.9215708,274m/data=!3m1!1e3!4m14!1m7!3m6!1s0x52cf34bb7797e871:0xb83bd0531febdbda!2sWest+Fargo,+ND!3b1!8m2!3d46.8769487!4d-96.8999057!3m5!1s0x0:0x0!7e2!8m2!3d46.8760285!4d-96.9197808)
 will be at the north-west corner of the [Cass County Highway Department](/places/cass-county-highway-department/) garage
 (the red marker shown below.)
 
