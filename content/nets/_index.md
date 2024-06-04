@@ -38,3 +38,6 @@ this list.
 <span class="genericons-neue genericons-neue-link"></span> [Search the ARRL Net Directory](http://www.arrl.org/resources/nets/client/netsearch.html)<br>
 <span class="genericons-neue genericons-neue-link"></span> [View nets at Hamnets.org](https://www.hamnets.org/?timezone=America%2FChicago&gridsquare=EN16)
 
+## Tips For Net Participants
+
+{{< youtube OZfjGDpyJaw >}}
