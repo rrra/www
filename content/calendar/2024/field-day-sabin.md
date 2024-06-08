@@ -10,6 +10,7 @@ contact = "WB0BIN"
 dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
+aliases = [ '/cal/2024/06/22/field-day-2023-sabin/' ]
 +++
 ## License Testing
 

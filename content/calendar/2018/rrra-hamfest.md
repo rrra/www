@@ -8,7 +8,7 @@ title = "RRRA Hamfest & ARRL ND State Convention"
 linkTitle = "RRRA Hamfest"
 categories = [ "Hamfest" ]
 dates = [ "Hamfest" ]
-aliases = [ "/cal/2018/hamfest/" ]
+aliases = [ "/cal/2018/hamfest/", "/cal/2018/09/29/rrra-hamfest--arrl-nd-state-convention/" ]
 outputs = [ "HTML", "Calendar" ]
 +++
 {{< banner >}}
