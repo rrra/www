@@ -1,7 +1,7 @@
 +++
 contact = "hamfest"
 publishDate = "2023-11-27"
-date = "2024-09-28T08:00:00-05:00"
+date = "2024-09-28T09:00:00-05:00"
 endTime	 = "2024-09-28T14:00:00-05:00"
 location = "[RRV Fairgrounds Hartl Building](/places/rrv-fairgrounds-hartl-building)"
 title = "RRRA Hamfest & ARRL Dakota Division Convention"
@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 3
+update = 4
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
