@@ -11,9 +11,10 @@ contact = "W0ND"
 talkin = "146.37+ T77"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
-More information about this event may be found at
+### Related Links
 
 * [ARRL SVARC Summer Hamfest, ARRL North Dakota Section Convention page](http://www.arrl.org/hamfests/svarc-summer-hamfest-arrl-north-dakota-section-convention)
+* [SVARC Hamfest Flyer](http://www.k0ajw.com/images/2024%20Hamfest%20Flyer.pdf)
