@@ -11,7 +11,7 @@ contact = "W0ND"
 talkin = "146.37+ T77"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 Registration
@@ -25,9 +25,16 @@ Flea Market tables
 
 ### Featuring
 
-* Seven (7) Seminars both Technical & Amateur Operating 
-* Ham of the Year  Award for the most distinguished North Dakota Amateur 
+* Amateur Radio Exams
+* ARRL Forum
 * Camper Space at Roughrider Campground in Minot 
+* Educational Forums
+* Food
+* Free Parking
+* Ham of the Year  Award for the most distinguished North Dakota Amateur 
+* Introduction to Ham Radio
+* Major Prizes
+* Raffle Prizes
 
 ### Major Prizes
 
