@@ -8,8 +8,8 @@ title = "April Activity: Advanced SKYWARN Spotter Training"
 linkTitle = "April Activity"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 3
-aliases = [ "/cal/2024/04/16/april-activity/" ]
+update = 4
+aliases = [ "/cal/2024/04/16/april-business-meeting/" ]
 +++
 Learn about identifying & reporting severe weather, spotter safety, severe
 weather climatology in ND/MN, thunderstorm structure and threats, and more,
