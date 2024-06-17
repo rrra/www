@@ -8,11 +8,12 @@ linkTitle = "Field Day - West Fargo"
 location = "[Cass County Highway Department](#visit-our-field-day-site-location)"
 contact = "KA0LDG"
 talkIn = "[W0ILO Repeaters](/radios/)"
+aprs = "FD-RRRA"
 dates = [ "Outreach" ]
 Aliases = [ "/cal/2024/field-day/", "/cal/2024/06/22/field-day/" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
-update = 3
+update = 4
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 >Field Day is ham radio's open house. Every June, more than 40,000 hams
@@ -41,7 +42,7 @@ will be at the north-west corner of the [Cass County Highway Department](/places
 Visitors and participants should park in the Cass County Highway Department parking lot on the
 west side of 12th Street NW (across the street from the Field Day site).
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/147076354@N03/34609732591/in/dateposted-public/" title="W0ILO West Fargo Field Day Site"><img src="https://live.staticflickr.com/65535/34609732591_bb422a376e.jpg" width="474" height="474" alt="W0ILO West Fargo Field Day Site"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="/places/cass-county-highway-department/" title="W0ILO West Fargo Field Day Site"><img src="https://live.staticflickr.com/65535/34609732591_bb422a376e.jpg" width="474" height="474" alt="W0ILO West Fargo Field Day Site"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 <span class="genericons-neue genericons-neue-location"></span>
 {{% hcard p-name="[Cass County Highway Department](/places/cass-county-highway-department/)" p-adr="1201 Main Ave W" p-loc="West Fargo" p-reg="ND" p-zip="58078" %}} 
