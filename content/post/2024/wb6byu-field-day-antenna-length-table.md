@@ -18,6 +18,17 @@ at the
 
 <!--more-->
 
+{{< banner >}}
+RRRA Members have access to a special
+[pocket sized version of the WB6BYU Field Day Antenna Length Table](https://cloud.rrra.org/index.php/f/71980).
+
+This version was produced using the [PocketMod](https://pocketmod.com) web
+app.  [PocketMod folding intructions](https://www.youtube.com/watch?v=IAb31rIeGZo)
+are available on Youtube.
+{{< /banner >}}
+
+## Field Day Antenna Length Table
+
 >All dimensions are for 1mm (AWG #18) bare wire. In most cases, they
 >should be close enough for other wire sizes likely to be used for
 >portable antennas. There will always be some variation due to how the
