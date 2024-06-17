@@ -8,7 +8,7 @@
 			{{/* "/categories//" was sneaking in ... */}}
 			{{ if ne .Page.Title "Categories" }}
 				<li class="cat-item">
-					<a href="/categories/{{ $key }}/">{{ .Page.Title }}</a>
+					<a href="/categories/{{ $key | urlize }}/">{{ .Page.Title }}</a>
 				</li>
 			{{ end }}
 
