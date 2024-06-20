@@ -8,6 +8,7 @@
 	{{ hugo.Generator }}
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
+	{{ with .Params.noindex }}<meta name="robots" content="noindex">{{ end }}
 	{{ if .IsHome }}<meta name="description" content="{{ .Site.Params.description}}" />{{ else }}{{ with .Description }}<meta name="description" content="{{ . }}" />{{ end }}{{ end }}
 	<title>{{ if not .IsHome }}{{ with .Title }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Title }}</title>
 	<!--<link rel="profile" href="http://gmpg.org/xfn/11" />-->
