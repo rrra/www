@@ -5,42 +5,37 @@
 {{ `<!-- Template: layouts/404.html -->` | safeHTML }}
 {{ end }}
 
-<article class="post type-post status-publish format-standard hentry">
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode}}{{ . }}{{ else }}en-US{{end}}">
+<meta charset="UTF-8" />
+<link rel="icon" href="data:,">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>404</title>
+<style>
+:root { max-width: 70ch; padding: 3em 1em; margin: auto; line-height: 1.75; font-size: 1.25em; }
+body { background: #fdfdfd; color: #555555; }
+a { color: #24890d; }
+</style>
+<h1>QRU</h1>
+<p>You can ...
 
-	<header class="entry-header">
+<h2>Browse this site</h2>
+<ul>
+<li>View content by <a href="/categories/">general category</a> or <a href="/tags/">detailed tags</a>
+<li>Check the <a href="/sitemap.html">Sitemap</a>
+<li><a href="/">Read our homepage</a> River Of News and Upcoming Events
+<li>Select a site section from the <a href="/">top of page navigation menu</a> (revealed by the <em>hamburger</em> menu icon on small screen devices)
+<li>Select something in the <a href="/#dates-3">sidebar</a>
+</ul>
 
-		<div class="entry-meta">
-		</div>
+<h2>Search this site</h2>
+<ul>
+<li><a href="/">Return to our homepage</a> and click the magnifying glass in the upper right corner to reveal a search box
+</ul>
 
-		<h2 class="entry-title">QRU</h2>
-
-		<div class="entry-meta">
-	</div>
-
-	</header>
-
-	<div class="entry-content">
-		<h3>I have nothing for you</h3>
-		<p>Here is what you can do to find what you are looking for...</p>
-		<h4>Browse this site</h4>
-		<ul>
-			<li>Browse content by <a href="/categories/">general category</a> or by <a href="/tags/">detailed tags</a></li>
-			<li>Check the <a href="/sitemap.html">Sitemap</a></li>
-			<li>Select a site section from the top of page navigation menu (revealed by the <span class="genericons-neue genericons-neue-menu"></span> menu icon on smartphones and small devices)</li>
-			<li>Select a recent blog post, date sequence, or general content category in the sidebar on the left side of any page (the sidebar will be located near the bottom of the page on smartphones and small screen devices)</li>
-			<li><a href="/">Return to our homepage</a></li>
-			
-		</ul>
-		<h4>Search this site</h4>
-		<ul>
-			<li>Click the magnifying glass in the upper right corner of any page to reveal a search box</li>
-			<li>A second search box is located above RRRA logo (this search box will be located toward the bottom of the page on smartphones and small screen devices)</li>
-		</ul>
-		<p>Those search boxes are powered by Google and may not return recently uploaded content.</p>
-		<h4>Ask for help</h4>
-		<p>Contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a> if you still need help using this site.</p>
-	</div>
-
-</article> 
+<table cellspacing="6">
+<tr>
+<td><img src="/images/rrra-logo-2017.gif">
+<td> <address><a href="mailto:webmaster@rrra.org">RRRA Webmaster Team
 
 {{ end }}

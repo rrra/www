@@ -3,6 +3,10 @@ Name:    layouts/_default/baseof.html
 Purpose: Page structure definition
 */}}              
 
+{{ if eq "/404" .Path }}
+	{{ block "main" . }}{{ end }}
+{{ else }}
+
 {{ partial "header.html" . }}
 
 <div id="main-content" class="main-content">
@@ -21,3 +25,4 @@ Purpose: Page structure definition
 </div>
 
 {{ partialCached "footer.html" . }}
+{{ end }}
