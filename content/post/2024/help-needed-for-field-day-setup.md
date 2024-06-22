@@ -6,7 +6,7 @@ authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "Field Day" ]
 featured = true
-expiryDate = "2024-06-23T12:00:00-05:00"
+expiryDate = "2024-06-22T12:00:00-05:00"
 noindex = "yes"
 +++
 RRRA needs **YOU** to help set up their
