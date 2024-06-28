@@ -42,11 +42,13 @@
 				</a>
 			</span>
 			{{ if .IsPage }}
-			<span class="vcard author byline">
-				{{ range .Params.authors }}
-					<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
-				{{ end }}
-			</span>
+			{{ with .Params.authors }}
+				<span class="vcard author byline">
+					{{ range . }}
+						<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
+					{{ end }}
+				</span>
+			{{ end }}
 		{{ if eq .Section "post" }} 
 			{{ if gt (.Date.Unix) (sub now.Unix 2592000) }}
 				<span class="comments-link" title="Make a public comment about this post on the RRRA Club Discussion electronic mailing list; free subscription required to receive responses to your comment.">
