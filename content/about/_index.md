@@ -15,12 +15,13 @@ support and
 
 * [Board of Directors \(Club Officers\)]({{< relref "/about/contact.md" >}})
 * [Bylaws]({{< relref "/about/bylaws.md" >}})
-* [Club Meetings](/dates/business-meetings)
+* [Club Meetings](/dates/club-meetings)
 * [Contact Information]({{< relref "/about/contact.md" >}})
 * [Mission Statement]({{< relref "/about/mission.md" >}})
 * [New Member On Boarding]({{< relref "/about/onboarding.md" >}})
 * [Online Media Contact and Information]({{< relref "/about/online-media" >}})
 * [Repeater Trustees]({{< relref "/about/contact.md#trustees" >}})
+* [Social Media]({{< relref "/about/social-media.md" >}})
 * [Webmaster History]({{< relref "/about/webmasters.md" >}})
 
 ## Join Our Club

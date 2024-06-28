@@ -28,17 +28,18 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 
 
 ### About Our Club
-* [Business Meeting Dates](/dates/business-meetings)
-* [Business Meeting Location](/about/#red-river-radio-amateurs)
-* [Bylaws]({{< relref "about/bylaws.md" >}})
-* [Description](/about/#red-river-radio-amateurs)
-* [Donations]({{< relref "about/mission.md" >}})
-* [Joining Our Club](/about/#join-our-club)
+* [Bylaws]({{< relref "/about/bylaws.md" >}})
+* [Description]({{< relref "/about/_index.md" >}})
+* [Donations]({{< relref "/about/mission.md" >}})
+* [Joining Our Club]({{< relref "/join/_index.md" >}})
 * [Mailing Address](/about/contact#mailing-address)
-* [Mission Statement]({{< relref "about/mission.md" >}})
+* [Meeting Dates](/dates/club-meetings)
+* [Meeting Location](/places/meeting-location)
+* [Mission Statement]({{< relref "/about/mission.md" >}})
 * [Officers and their e-mail adresses](/about/contact#officers)
 * [Social Event Dates](/dates/social/)
 * [Telephone Number](/about/#mailing-address)
+* [Trustees and their e-mail adresses](/about/contact#trustees)
 
 ### ARES 
 * [Events](/dates/public-service)
@@ -54,11 +55,11 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [This Month](/calendar/0/)
 * [Upcoming Events](/)
 
-### Cloud
-* [RRRA Groupware Server](http://cloud.rrra.org/)
-
 ### Files and Links
 * [Index of Files and Links](/files/)
+
+### Groupware {#cloud}
+* [RRRA Groupware Server](https://cloud.rrra.org/) (aka *The Club Cloud*) <span class="genericons-neue genericons-neue-link"></span>
 
 ### Hamfest
 * [RRRA Hamfest Dates](/dates/hamfest/)
@@ -70,7 +71,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [License Testing Dates](/dates/license-testing/)
 
 ### Mailing Lists
-* [RRRA List Server](http://lists.rrra.org/) (aka *Reflector*)
+* [RRRA List Manager](https://lists.rrra.org/) (aka MajorDomo, *Listserv*, *Reflector*) <span class="genericons-neue genericons-neue-link"></span>
 
 ### Nets
 * [NCS Operators](/ncs/)
@@ -91,7 +92,7 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 
 ### Radio Systems
 * [Club (W0ILO) Repeaters](/radios/#w0ilo-repeaters)
-* [IRLP]({{< relref "radios/irlp.md" >}})
+* [IRLP]({{< relref "/radios/irlp.md" >}})
 * [Red River Valley Repeaters and Nodes](/radios/list/)
 * [SuperLink]({{< relref "/radios/superlink.md" >}})
 
@@ -99,16 +100,14 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [News and Upcoming Events](/index.xml)
 
 ### Silent Keys
-* [RRRA Silent Key List](/sk/)
+* [RRRA Silent Key Memorial](/sk/)
 
-### Social Media {#social}
-* [Facebook](https://www.facebook.com/W0ILO)
-* [Photo Album \(Flickr\)](https://www.flickr.com/photos/rrra-fargo/)
-* [Twitter](http://twitter.com/w0ilo)
+### Social Media
+* [RRRA Social Media Presence]({{< relref "/about/social-media.md" >}})
 
 ### Website
 <!--* [How to contribute](/) -->
 * [Colophon]({{< relref "about/colophon.md" >}})
 * [Site License]({{< relref "about/contact.md#site-license" >}})
 * {{< webmaster >}} contact address
-* [Where to report problems]({{< relref "about/contact.md#website-issues" >}})
+* [Where to send questions, comments, or to report issues]({{< relref "about/contact.md#reports" >}})
