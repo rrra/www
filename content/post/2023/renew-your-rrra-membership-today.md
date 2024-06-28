@@ -40,7 +40,7 @@ account.
 ### Renew at a Club Meeting
 
 Bring your dues payment (cash, check or money order) to the
-[next club meeting](http://rrra.org/dates/business-meetings).
+[next club meeting](http://rrra.org/dates/club-meetings).
 
 ### Renew through your bank
 

@@ -19,7 +19,7 @@ Dues payments are accepted by:
 * [Credit, Debit, PayPal]({{< relref "/join/pay-by-card.md" >}})
 
 Annual membership renewals are due at the
-[January Business Meeting](/dates/business-meetings/).
+[January Club Meeting](/dates/club-meetings/).
 
 The current membership dues are listed on our
 [membership application](/s/3iOnHKqxHlaDxxv) and our

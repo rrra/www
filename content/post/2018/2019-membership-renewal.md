@@ -17,7 +17,7 @@ Dues (unchanged from 2018) are:
 Please print out the
 [membership application](http://rrra.org/s/3iOnHKqxHlaDxxv) and bring it,
 along with your dues payment (cash, check or money order) to the next
-[club meeting](http://rrra.org/dates/business-meetings).
+[club meeting](http://rrra.org/dates/club-meetings).
 
 You may mail your membership application and dues payment if you are not
 able to attend a club meeting. Our mailing address is:

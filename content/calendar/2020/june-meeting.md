@@ -11,5 +11,5 @@ status = "on w0ilo"
 +++
 <!--
 Please join us at
-[another meeting](/dates/business-meetings).
+[another meeting](/dates/club-meetings).
 -->

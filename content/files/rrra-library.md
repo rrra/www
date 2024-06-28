@@ -7,7 +7,7 @@ categories = [ "Membership" ]
 +++
 Library materials are available for check-out by members
 from the {{< mailto librarian >}} during
-[Business Meetings](/dates/business-meetings/).
+[Business Meetings](/dates/club-meetings/).
 <!--more-->
 
 * ARRL Handbook 1988

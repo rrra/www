@@ -10,4 +10,4 @@ outputs = [ "HTML", "Calendar" ]
 status = "canceled"
 +++
 Please join us at
-[another meeting](/dates/business-meetings).
+[another meeting](/dates/club-meetings).
