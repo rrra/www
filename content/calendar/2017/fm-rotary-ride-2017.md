@@ -11,5 +11,5 @@ Radio operators are needed to support this event. Please contact
 
 More information about the FM Rotary Ride 2017 is available on the
 [RRRA announcement page]({{< relref "/post/2017/fm-rotary-ride-2017.md" >}})
-or at the [event web-site](http://www.fmrotaryride.com/).
+or at the [event website](http://www.fmrotaryride.com/).
 

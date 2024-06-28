@@ -12,4 +12,4 @@ food vendors, demonstrations and various local information booths.
 Please contact {{< mailto KC0HIG >}} for information about the RRRA presence at
 this event.
 
-For general event information call <a class="hcard p-tel" href="tel:701-433-5500">701-433-5500</a> or visit the [event web-site](http://www.westfargond.gov/Home/Departments/PoliceDepartment/Programs/NighttoUnite.aspx)
+For general event information call <a class="hcard p-tel" href="tel:701-433-5500">701-433-5500</a> or visit the [event website](http://www.westfargond.gov/Home/Departments/PoliceDepartment/Programs/NighttoUnite.aspx)

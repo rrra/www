@@ -12,7 +12,7 @@ Follow these steps to view the on-line reports:
 1. Visit the RRRA ownCloud server by either entering its address
 (http://cloud.rrra.org) in your browser's location bar, or by clicking the
 *cloud* (<span class="genericons-neue genericons-neue-cloud")>&nbsp;</span>) social media icon below the RRRA logo in the upper left corner of any
-page on [our web-site](http://rrra.org/)
+page on [our website](http://rrra.org/)
 
 1. Enter your ownCloud username and password in the dialog box in the center of the ownCloud log-in page then click the right arrow (<span style="font-weight:bold" class="genericons-neue genericons-neue-next">&nbsp;</span>) at the end of the password line, or press your *Enter* key, to log-in
 
