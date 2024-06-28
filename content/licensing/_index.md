@@ -16,9 +16,11 @@ talk across town, around the world, or even into space, all without the
 Internet or cell phones. It's fun, social, educational, and can be a
 lifeline during times of need.
 
+{{< youtube "K40HpIjDLRs" >}}
+
 ## Who is the Typical Ham?
 
-Amateur Radio operators come from all walks of life -- doctors,
+Amateur Radio operators come from all walks of life ... doctors,
 students, kids, politicians, truck drivers, movie stars, missionaries
 and even your average neighbor next door. They are of all ages, sexes,
 income levels and nationalities. Whether through Morse Code on an
@@ -28,12 +30,12 @@ reach out to the world.
 
 ## Why should I get licensed?
 
-**Before you can get on the air, you need to be licensed and know
-the rules to operate safely and legally.** US licenses are good
-for 10 years before renewal and anyone may hold one except a
+**You need to be licensed before you can get on the air so that you
+know the rules to operate safely and legally.** US licenses are
+good for 10 years before renewal and anyone may hold one except a
 representative of a foreign government. In the US there are three
 license classes---Technician, General and Extra. The [ARRL Getting
-Licensed](http://www.arrl.org/getting-licensed) page describes the
+Licensed page](http://www.arrl.org/getting-licensed) describes the
 license classes and provides useful links for those interested in
 becoming licensed.
 
@@ -44,6 +46,7 @@ becoming licensed.
 
 ## Would you like to know more?
 
-Visit the [ARRL What is Ham Radio](http://www.arrl.org/what-is-ham-radio)
-page, or come to one of our [club meetings](/dates/business-meetings)
-to learn more about this multifacted hobby.
+Visit the
+[ARRL What is Ham Radio page](http://www.arrl.org/what-is-ham-radio),
+or come to one of our [club meetings](/dates/club-meetings) to learn
+more about this multifacted hobby.
