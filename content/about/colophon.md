@@ -35,3 +35,5 @@ and are based on
 
 This website features a [Blank Page](/blankpage.html) to commemorate the
 [TPILB-Project](https://web.archive.org/web/20180224043144/http://www.this-page-intentionally-left-blank.org/whythat.html).
+
+{{< license >}}

@@ -2,19 +2,22 @@
 title = "Online Media Contact and Information"
 aliases = [ "/about/hosting/", "/about/online-media-and-hosting/" ]
 +++
-* [Online Media Contact Address](#online-media-contact-address)
+* [Contact Address](#online-media-contact-address)
+* [News Distribution](#news-distribution)
 * [Social Media](#social-media)
 * [Website](#website)
 
-### Online Media Contact Address
+### Contact Address
 
 Please direct comments and questions about all RRRA online media to the the {{< webmaster >}}.
 
+### News Distribution
+
+{{< import "/about/news.md" >}}
+
 ### Social Media
 
-* [RRRA on Facebook](https://www.facebook.com/W0ILO)
-* [RRRA on Flickr](https://www.flickr.com/photos/rrra-fargo/)
-* [RRRA on Twitter](http://twitter.com/w0ilo)
+{{< import "/about/social-media.md" >}}
 
 ### Website
 
@@ -22,11 +25,12 @@ Please direct comments and questions about all RRRA online media to the the {{< 
 
 Find content on this site using the:
 
-* [Sitemap](/sitemap.html)
+* Search box above the RRRA logo on any page
 * Search widget in the upper right corner of any page
-* Search box above the RRRA logo
-* Dates links in the sidebar
-* Categories links in the sidebar
+* [Sitemap](/sitemap.html) <span class="genericons-neue genericons-neue-sitemap"></span>
+* Sidebar *Happenings* links
+* Sidebar *Categories* links
+* [Tag Cloud](/tags/)
 
 #### Site License 
 
