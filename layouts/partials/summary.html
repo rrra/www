@@ -19,7 +19,13 @@
 			</span>
 		</div>
 
-		<h2 class="entry-title">{{ .Title | safeHTML }}</h2>
+		{{ $draft := "" }}
+		{{ if eq "development" hugo.Environment }}
+			{{ with .GitInfo }}{{ else }}
+				{{ $draft = " red" }}
+			{{ end }}
+		{{ end }}
+		<h2 class="entry-title{{ $draft }}">{{ .Title | safeHTML }}</h2>
 
 		<div class="entry-meta">
 			<span class="entry-date">
