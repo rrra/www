@@ -7,8 +7,10 @@
 		
 			{{/* "/categories//" was sneaking in ... */}}
 			{{ if ne .Page.Title "Categories" }}
+				{{ $url := $key | urlize }}
+				{{ $section := index $.Site.Params.tooltips $url }}
 				<li class="cat-item">
-					<a href="/categories/{{ $key | urlize }}/">{{ .Page.Title }}</a>
+					<a href="/categories/{{ $url }}/"{{ with $section.title }} title="{{ . }}"{{ end }}>{{ .Page.Title }}</a>
 				</li>
 			{{ end }}
 

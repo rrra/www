@@ -84,28 +84,28 @@ unsafe= true
 [params.categories]
 
 [params.categories.education]
-	description = "Content (e.g. blog posts, information pages, and files/links) about the activities of the RRRA Education Committee and educational topics of general interest."
+	description = "Content related to the activities of the RRRA Education Committee and educational topics of general interest."
 
 [params.categories.hamfest]
-	description = "Content (e.g. blog posts, information pages, and files/links) about RRRA Hamfests and the activities of the RRRA Hamfest Committee."
+	description = "Content related to RRRA Hamfests and the activities of the RRRA Hamfest Committee."
 
 [params.categories.license-testing]
-	description = "Content (e.g. blog posts, information pages, and files/links) about the activities of the RRRA Volunteer Examiner (VE) Committee and topics related to FCC license testing. Please visit the [License Testing Dates](/dates/license-testing/) page for information about what to bring to a testing session and how to find out when your license is granted."
+	description = "Content related to the activities of the RRRA Volunteer Examiner (VE) Committee and FCC amateur radio license testing. Please visit the [License Testing Dates](/dates/license-testing/) page for information about what to bring to a testing session and how to find out when your license is granted."
 
 [params.categories.membership]
-  description = "Content (e.g. blog posts, information pages, and files/links) about membership in the RRRA. Please visit the [social dates page](/dates/social/), or check the *Upcoming Events* section of our [home page](/) for upcoming events." 
+  description = "RRRA Member news and information. Please visit the [Social Happenings page](/dates/social/), or check the *Upcoming Events* section of our [home page](/) for upcoming events." 
 
 [params.categories.minutes]
-	description = "Minutes recorded by the RRRA Secretary during the club's monthly business meetings. The minutes posted here are converted from the original source documents to Markdown; the source documents are archived on the [RRRA Groupware Server](http://cloud.rrra.org) in the *Secretary's Reports* folder."
+	description = "Minutes recorded by the RRRA Secretary during the club's regular business meetings. The minutes posted here are converted from the original source documents to Markdown; the source documents are archived on the [RRRA Groupware Server](http://cloud.rrra.org) in the *Secretary's Reports* folder."
 
 [params.categories.outreach]
-	description = "Content (e.g. blog posts, information pages, and files/links) about RRRA activities intended to promote or advocate for Amateur Radio to the public, our government, and our served agencies."
+	description = "Content related to activities intended to promote or advocate for Amateur Radio to the public, our government, and our served agencies."
 
 [params.categories.public-service]
-  description = 'Content (e.g. blog posts, information pages, and files/links) about the activities of the RRRA ARES Committee and the "voluntary noncommercial communication service, particularly with respect to providing emergency communications" (*["Amateur Radio Service." 47 "CFR" 97.1(a). 2016.](http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&rgn=div5&view=text&node=47:5.0.1.1.6&idno=47#se47.5.97_11)*), provided to the public by Amateur Radio operators.' 
+  description = 'Content related to the activities of the RRRA ARES Committee and the "voluntary noncommercial communication service, particularly with respect to providing emergency communications" (*["Amateur Radio Service." 47 "CFR" 97.1(a). 2016.](http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&rgn=div5&view=text&node=47:5.0.1.1.6&idno=47#se47.5.97_11)*), provided to the public by Amateur Radio operators.' 
 
 [params.categories.technical]
-  description = "Content (e.g. blog posts, information pages, and files/links) about the activities of the RRRA Technical Committee and the equipment/systems they maintain, along with technical topics of general interest."
+  description = "Content related to the activities of the RRRA Technical Committee and the equipment/systems they maintain, along with technical topics of general interest."
 
 [params.dates]
 
@@ -118,6 +118,8 @@ unsafe= true
   facebook_admin = 'K0RQ'
 
 [params.tooltips]
+
+# Tooltips for menu links
 
 [params.tooltips.about]
   title="Information about RRRA and how to contact the club"
@@ -144,3 +146,36 @@ unsafe= true
 
 [params.tooltips.sk]
   title="Memorials of RRRA Members and other Hams who are Silent Keys"
+
+# Tooltips for category links
+
+[params.tooltips.education]
+  title = "Content related to the activities of the RRRA Education Committee and educational topics of general interest."
+
+[params.tooltips.field-day]
+  title = "Content related to ARRL Field Day"
+
+[params.tooltips.hamfest]
+  title = "Content related to RRRA Hamfests and the activities of the RRRA Hamfest Committee."
+
+[params.tooltips.license-testing]
+  title = "Content related to the activities of the RRRA Volunteer Examiner (VE) Committee and FCC amateur radio license testing."
+
+[params.tooltips.membership]
+  title = "RRRA Member news and information."
+
+[params.tooltips.minutes]
+  title = "Minutes recorded by the RRRA Secretary during the club's regular business meetings."
+
+[params.tooltips.outreach]
+  title = "Content related to activities intended to promote or advocate for Amateur Radio to the public, our government, and our served agencies."
+
+[params.tooltips.public-service]
+  title = "Content related to the activities of the RRRA ARES Committee and communication services provided to the public."
+
+[params.tooltips.social]
+  title = "Content related to RRRA social activities"
+
+[params.tooltips.technical]
+  title = "Content related to the activities of the RRRA Technical Committee and the equipment/systems they maintain, along with technical topics of general interest."
+
