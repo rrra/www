@@ -5,7 +5,7 @@ title = "LoTW Returns to Service"
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = [ "ARRL", "LoTW"]
-images = [ "http://arrl.org/images/view/LoTW_The_ARRL_R.jpg" ]
+thumbnail = [ "http://arrl.org/images/view/LoTW_The_ARRL_R.jpg" ]
 +++
 On July 1, 2024, [ARRL](https://www.arrl.org) announced the return of the
 Logbook of The World QSO verification service in their
