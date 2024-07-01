@@ -8,7 +8,7 @@ tags = [ "ARRL", "LoTW"]
 +++
 On July 1, 2024, [ARRL](https://www.arrl.org) announced the return of the
 Logbook of The World QSO verification service in their
-[ARRL System Services Distruption](http://www.arrl.org/news/arrl-systems-service-disruption)
+[ARRL System Services Disruption](http://www.arrl.org/news/arrl-systems-service-disruption)
 bulletin.
 <!--more-->
 
