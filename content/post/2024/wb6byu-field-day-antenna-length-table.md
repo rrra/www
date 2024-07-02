@@ -2,8 +2,8 @@
 date = "2024-06-16T10:56:01-05:00"
 title = "WB6BYU Field Day Antenna Length Table"
 authors = [ "K0STK" ]
-categories = [ "Field Day", "Technical" ]
-tags = [ "Antennas", "Homebrew" ]
+categories = [ "Technical" ]
+tags = [ "Antennas", "Field Day", "Homebrew" ]
 +++
 Along with his usual Field Day antenna supplies, Dale WB6BYU brings along a
 *handy* table of wire lengths for each band for the antennas he is most likely
