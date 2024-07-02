@@ -7,10 +7,11 @@
 	<div class="hentry">
 	<header class="entry-header">
 		<h2 class="entry-title">Content Tags</h2>
-		<div class="entry-meta">(font size indicates popularity)</div>
 	</header>
 
 	<div class="entry-content" style="padding-bottom:1em;">
+
+	<p><strong>Font size indicates relative tag frequency; larger means there is more content with a tag.</strong></p>
 
 	{{ if not (eq (len $.Site.Taxonomies.tags) 0) }}
 		{{ $fontUnit := "rem" }}
