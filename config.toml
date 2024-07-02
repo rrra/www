@@ -81,7 +81,10 @@ unsafe= true
 	# Base URL for source files on GitHub
 	gitbase = "https://github.com/rrra/www/blob/master"
 
-[params.categories]
+[params.categories] # for the sidebar and archive pages
+
+# description is used on the archive page and provides the default content for title
+# title is used in the sidebar category links to provide a "tooltip"
 
 [params.categories.education]
 	description = "Content related to the activities of the RRRA Education Committee and educational topics of general interest."
@@ -90,36 +93,62 @@ unsafe= true
 	description = "Content related to RRRA Hamfests and the activities of the RRRA Hamfest Committee."
 
 [params.categories.license-testing]
-	description = "Content related to the activities of the RRRA Volunteer Examiner (VE) Committee and FCC amateur radio license testing. Please visit the [License Testing Dates](/dates/license-testing/) page for information about what to bring to a testing session and how to find out when your license is granted."
+	description = "Content related to FCC amateur radio license testing and the activities of the RRRA Volunteer Examiner (VE) Committee . Please visit the [License Testing Dates](/dates/license-testing/) page for information about what to bring to a testing session and how to find out when your license is granted."
+        title = "Content related to FCC amateur radio license testing and the activities of the RRRA Volunteer Examiner (VE) Committee."
 
 [params.categories.membership]
-  description = "RRRA Member news and information. Please visit the [Social Happenings page](/dates/social/), or check the *Upcoming Events* section of our [home page](/) for upcoming events." 
+        description = "RRRA Member news and information. Please visit the [Social Happenings page](/dates/social/), or check the *Upcoming Events* section of our [home page](/) for upcoming events." 
+        title = "RRRA Member news and information."
 
 [params.categories.minutes]
 	description = "Minutes recorded by the RRRA Secretary during the club's regular business meetings. The minutes posted here are converted from the original source documents to Markdown; the source documents are archived on the [RRRA Groupware Server](http://cloud.rrra.org) in the *Secretary's Reports* folder."
+        title = "Minutes recorded by the RRRA Secretary during the club's regular business meetings."
 
 [params.categories.outreach]
 	description = "Content related to activities intended to promote or advocate for Amateur Radio to the public, our government, and our served agencies."
 
 [params.categories.public-service]
-  description = 'Content related to the activities of the RRRA ARES Committee and the "voluntary noncommercial communication service, particularly with respect to providing emergency communications" (*["Amateur Radio Service." 47 "CFR" 97.1(a). 2016.](http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&rgn=div5&view=text&node=47:5.0.1.1.6&idno=47#se47.5.97_11)*), provided to the public by Amateur Radio operators.' 
+        description = 'Content related to the activities of the RRRA ARES Committee and the "voluntary noncommercial communication service, particularly with respect to providing emergency communications" (*["Amateur Radio Service." 47 "CFR" 97.1(a). 2016.](http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&rgn=div5&view=text&node=47:5.0.1.1.6&idno=47#se47.5.97_11)*), provided to the public by Amateur Radio operators.' 
+        title = "Content related to the activities of the RRRA ARES Committee and communication services provided to the public."
+
+[params.categories.social]
+	title = "Content related to RRRA social activities"
 
 [params.categories.technical]
-  description = "Content related to the activities of the RRRA Technical Committee and the equipment/systems they maintain, along with technical topics of general interest."
+        description = "Content related to the activities of the RRRA Technical Committee and the equipment/systems they maintain, along with technical topics of general interest."
 
-[params.dates]
+[params.dates] # for the sidebar "happenings" section
 
 [params.dates.license-testing]
 	description = "Select your license test session on this page for more information and to learn how to sign up. Please contact our Testing Coordinator if no test sessions are listed or you would like to arrange one on a specific date."
 	shortcut = "https://testing.rrra.org"
 
+[params.dates.ares-meetings]
+	title = "Meetings of participants in ARES and RRRAES"
+
+[params.dates.club-meetings]
+	title = "RRRA business meetings and activities"
+
+[params.dates.hamfest]
+	title = "RRRA Hamfest schedule & related events"
+
+[params.dates.hamfest-committee]
+	title = "RRRA Hamfest Planning Committee meetings"
+
+[params.dates.ncs-schedule]
+	title = "NCS Operator assigments for the RRRA Sunday night net"
+
+[params.dates.outreach]
+ 	title = "Events and activities intended to promote or advocate for Amateur Radio to the public, our government, and our served agencies"
+
+[params.dates.regional-hamfests]
+	title = "Dakota Division hamfests from the ARRL Hamfest and Conventions database"
+
 [params.social]
   twitter = 'W0ILO'
   facebook_admin = 'K0RQ'
 
-[params.tooltips]
-
-# Tooltips for menu links
+[params.tooltips] # for menu links
 
 [params.tooltips.about]
   title="Information about RRRA and how to contact the club"
@@ -146,36 +175,4 @@ unsafe= true
 
 [params.tooltips.sk]
   title="Memorials of RRRA Members and other Hams who are Silent Keys"
-
-# Tooltips for category links
-
-[params.tooltips.education]
-  title = "Content related to the activities of the RRRA Education Committee and educational topics of general interest."
-
-[params.tooltips.field-day]
-  title = "Content related to ARRL Field Day"
-
-[params.tooltips.hamfest]
-  title = "Content related to RRRA Hamfests and the activities of the RRRA Hamfest Committee."
-
-[params.tooltips.license-testing]
-  title = "Content related to the activities of the RRRA Volunteer Examiner (VE) Committee and FCC amateur radio license testing."
-
-[params.tooltips.membership]
-  title = "RRRA Member news and information."
-
-[params.tooltips.minutes]
-  title = "Minutes recorded by the RRRA Secretary during the club's regular business meetings."
-
-[params.tooltips.outreach]
-  title = "Content related to activities intended to promote or advocate for Amateur Radio to the public, our government, and our served agencies."
-
-[params.tooltips.public-service]
-  title = "Content related to the activities of the RRRA ARES Committee and communication services provided to the public."
-
-[params.tooltips.social]
-  title = "Content related to RRRA social activities"
-
-[params.tooltips.technical]
-  title = "Content related to the activities of the RRRA Technical Committee and the equipment/systems they maintain, along with technical topics of general interest."
 

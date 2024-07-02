@@ -6,10 +6,15 @@
 		{{ range $name,$taxonomy := .Site.Taxonomies.dates }}
 			{{ range last 1 $taxonomy.Pages.ByDate }}
 				{{ if and ( ge .Date.Unix now.Unix ) ( ne ( $name | lower )  "hidden" ) }}
+					{{ $url := $name | urlize }}
+					{{ $section := index $.Site.Params.dates $url }}
+
 					{{ $seq := $name | humanize | title | replaceRE "Ares" "ARES" | replaceRE "Ncs" "NCS" }}
 					{{ if eq "Outreach" $seq }}{{ $seq = "Outreach Events" }}{{ end }}
 					{{ if eq "Hamfest" $seq }}{{ $seq = "Club Hamfest" }}{{ end }}
-					<li class="cat-item"><a href="/dates/{{ $name | urlize }}">{{ $seq }}</a></li>
+					<li class="cat-item">
+						<a href="/dates/{{ $url }}/" title="{{ with $section.title }}{{ . }}{{ else }}{{ with $section.description }}{{ . }}{{ end }}{{ end }}">{{ $seq }}</a>
+					</li>
 				{{ end }}	
 			{{ end }}
 		{{ end }}

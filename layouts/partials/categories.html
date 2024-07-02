@@ -8,9 +8,11 @@
 			{{/* "/categories//" was sneaking in ... */}}
 			{{ if ne .Page.Title "Categories" }}
 				{{ $url := $key | urlize }}
-				{{ $section := index $.Site.Params.tooltips $url }}
+				{{ $section := index $.Site.Params.categories $url }}
+				{{ $title := "" }}
+				
 				<li class="cat-item">
-					<a href="/categories/{{ $url }}/"{{ with $section.title }} title="{{ . }}"{{ end }}>{{ .Page.Title }}</a>
+					<a href="/categories/{{ $url }}/" title="{{ with $section.title }}{{ . }}{{ else }}{{ with $section.description }}{{ . }}{{ end }}{{ end }}">{{ .Page.Title }}</a>
 				</li>
 			{{ end }}
 
