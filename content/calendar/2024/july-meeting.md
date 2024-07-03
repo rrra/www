@@ -1,14 +1,22 @@
 +++
 contact = "president"
-date = "2024-07-16T19:00:00-05:00"
+date = "2024-07-16T17:00:00-05:00"
 publishDate = "2024-04-17"
-location = "[West Fargo FD HQ](/places/west-fargo-fire-department-headquarters/)"
-title = "July Business Meeting"
+location = "[Sabin, MN, City Park](https://goo.gl/maps/3LZgFLksDvk)"
+title = "July Activity: Portable Operations"
+linkTitle = "July Activity"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
-aliases = [ "" ]
+update = 2
+aliases = [ "/cal/2024/07/16/july-business-meeting/" ]
 +++
-### Meeting Information
+Join your fellow cub members outdoors for an evening of portable
+operation! There ***may*** be desserts to enjoy...
 
-{{% meeting-note %}}
+There will be no formal presentation or discussion of club
+business; attendees are welcome to stop by anytime between 5pm and
+8:30pm.
+
+Feel free to bring your own gear if you wish to join in some portable
+ham radio fun!
+
