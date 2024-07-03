@@ -2040,10 +2040,24 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 	a.nav.other, a.nav.active {
 		display: none;
 	}	
-}
 
 	#colophon {text-align: center; }
 	div.also { padding-bottom: 12px; }
+
+	.widget.social-media span.tag-links a {
+		font-size: 14px;
+		padding: 3px 6px;
+		margin-top: 38px;
+	}
+	.widget.social-media span.tag-links a:before {
+		border-top: 12px solid transparent;
+		border-bottom: 12px solid transparent;
+	}
+
+	.widget.social-media span.tag-links a:after {
+		top: 11px;
+	}
+
 }
 
 @media screen and (min-width: 401px) {
@@ -2133,6 +2147,21 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		display: inline-block;
 		vertical-align: middle;
 	}
+
+	.widget.social-media span.tag-links a {
+		font-size: 14px;
+		padding: 3px 6px;
+		margin-top: 38px;
+	}
+	.widget.social-media span.tag-links a:before {
+		border-top: 12px solid transparent;
+		border-bottom: 12px solid transparent;
+	}
+
+	.widget.social-media span.tag-links a:after {
+		top: 11px;
+	}
+
 }
 
 @media screen and (min-width: 594px) {
@@ -2196,6 +2225,10 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 
 	aside.widget.social-media a {
 		margin: 12px;
+	}
+
+	.widget.social-media span.tag-links a {
+		margin-top: 12px;
 	}
 }
 
@@ -2690,20 +2723,6 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		margin: 12px;
 		padding: 0;
 	}
-	/* tag cloud fixes */
-	.widget.social-media span.tag-links a {
-		font-size: 16px;
-		padding: 3px 6px;
-		margin-top: 18px;
-	}
-	.widget.social-media span.tag-links a:before {
-		border-top: 13px solid transparent;
-		border-bottom: 13px solid transparent;
-	}
-
-	.widget.social-media span.tag-links a:after {
-		top: 11px;
-	}
 
 	aside.widget.widget_search {
 		margin-bottom: 0;
@@ -2810,6 +2829,21 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 	aside.widget.social-media a {
 		margin: 12px 10px;
 	}
+
+	.widget.social-media span.tag-links a {
+		font-size: 16px;
+		padding: 3px 6px;
+		margin-top: 18px;
+	}
+	.widget.social-media span.tag-links a:before {
+		border-top: 13px solid transparent;
+		border-bottom: 13px solid transparent;
+	}
+
+	.widget.social-media span.tag-links a:after {
+		top: 11px;
+	}
+
 }
 
 @media screen and (min-width: 1110px) {
