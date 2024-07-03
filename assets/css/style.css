@@ -1870,15 +1870,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
  */
 .table {
 	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-}
-
-/* Moved from screen max 400px */
-.list-view .site-content .hentry {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-	margin: 12px;
-	min-height: 60px;
-	padding: 24px 0;
+	margin: 0 auto 12px auto;
 }
 
 .list-view .site-content .hentry:first-of-type {
@@ -1981,6 +1973,13 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 @media screen and (max-width: 400px) {
 	#col {
 		column-count: 1;
+	}
+
+	.list-view .site-content .hentry {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		margin: 12px;
+		min-height: 60px;
+		padding: 24px 0;
 	}
 
 	.list-view .site-content .entry-header {
