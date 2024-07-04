@@ -1975,7 +1975,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		column-count: 1;
 	}
 
-	.list-view .site-content .hentry {
+	.list-view .site-content .hentry, .list-view .site-content .upcoming {
 		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 		margin: 12px;
 		min-height: 60px;
@@ -2040,7 +2040,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		display: none;
 	}	
 
-	#colophon {text-align: center; }
+	#colophon { text-align: center; }
 	div.also { padding-bottom: 12px; }
 
 	.widget.social-media span.tag-links a {
@@ -2057,6 +2057,11 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		top: 11px;
 	}
 
+	.table { margin-bottom: 0px; }
+
+	.list-view .site-content .upcoming {
+		margin-top: 0;
+	}
 }
 
 @media screen and (min-width: 401px) {
