@@ -1870,7 +1870,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
  */
 .table {
 	display: table;   /* Allow the centering to work */
-	margin: 0 auto 12px auto;
+	margin: 0 auto 24px auto;
 }
 
 .list-view .site-content .hentry:first-of-type {
