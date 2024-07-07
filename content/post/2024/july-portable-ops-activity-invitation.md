@@ -3,9 +3,9 @@ date = "2024-07-03T12:59:31-05:00"
 title = "Portable Operations"
 subTitle = "RRRA July Activity"
 authors = [ "K0STK" ]
-categories = [ "Education" ]
+categories = [ "Education", "Membership" ]
 tags = [ "" ]
-featured =true
+featured = true
 endFeatured = "2024-07-16T17:00:00-05:00"
 +++
 The 
