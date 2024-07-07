@@ -1869,9 +1869,9 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
   border-radius: 1em 0 1em 0;
   background-image: linear-gradient(
     -100deg,
-    rgba(244, 214, 4, 0.2),
-    rgba(244, 214, 4, 0.7) 95%,
-    rgba(244, 214, 4, 0.1)
+    var(--grad1),
+    var(--grad2),
+    var(--grad3)
   );
 }
 
@@ -1961,6 +1961,9 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		--disabled: #c8c8c8;
 		--border: #c8c8c8;
 		--sprites: url(/images/sprites.gif);
+		--grad1: rgba(244, 214, 4, 0.2);
+		--grad2: rgba(244, 214, 4, 0.7) 95%;
+		--grad3: rgba(244, 214, 4, 0.1);
 	}
 }
 
@@ -1979,6 +1982,9 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		--disabled: #343434;
 		--border: #343434;
 		--sprites: url(/images/sprites-dark.gif);
+		--grad1: rgba(64, 64, 64, 0.2);
+		--grad2: rgba(64, 64, 64, 0.7) 95%;
+		--grad3: rgba(64, 64, 64, 0.1);
 	}
 }
 
