@@ -38,9 +38,9 @@
 
 <div class="entry-content" style="padding-bottom:1em;">
 	{{ if eq ( .Title | urlize ) "ncs-schedule" }}
-		{{ $.Scratch.Set "li" "ncsdli" }}
+		{{ $.Scratch.Set "li" "calendar/ncsdli.html" }}
 	{{ else }}
-		{{ $.Scratch.Set "li" "dli" }}
+		{{ $.Scratch.Set "li" "calendar/dli.html" }}
 	{{ end }}
 	{{ $thisyear := now | dateFormat "2006" }}
 	{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
@@ -55,14 +55,17 @@
 	{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
 		{{ if or ($edu) (or (ge .Key $thisyear) (eq .Key $lastyear)) }}	
 			<h3>{{ .Key }}</h3>
+			{{ $highlight := "" }} {{/* Initialize highlighter */}}
 			<dl id="list-{{ .Key }}{{ if eq ( $.Scratch.Get "li" ) "ncsdli" }}-ncs{{ end }}">
 			{{ range .Pages.Reverse }}
+				{{ if and ( eq $highlight "" ) ( gt (.Date.Unix) (now.Unix) ) }}{{ $highlight = "yes" }}{{ end }}
 				{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Jan 2" ) ) }}
-					{{ .Render "sameday-dates" }}
+					{{ partial "calendar/sameday-dates.html" (dict "page" . "highlight" $highlight ) }}
 				{{ else }}
-					{{ .Render ( $.Scratch.Get "li" ) }}
+					{{ partial ( $.Scratch.Get "li" ) (dict "page" . "highlight" $highlight ) }}
 					{{ $.Scratch.Set "sameday" (.Date.Format "Jan 2") }}
 				{{ end }}
+				{{ if eq $highlight "yes" }}{{ $highlight = "no" }}{{ end }}
 				{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
 			{{ end }}
 			</dl>

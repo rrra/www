@@ -1863,6 +1863,18 @@ ul.pagination li.pages {
 dd.twocol, dd.sameday { margin: 0 0 0.4em 2em; }
 dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 
+
+/* https://alvarotrigo.com/blog/css-highlight-text/ */
+.highlight {
+  border-radius: 1em 0 1em 0;
+  background-image: linear-gradient(
+    -100deg,
+    rgba(244, 214, 4, 0.2),
+    rgba(244, 214, 4, 0.7) 95%,
+    rgba(244, 214, 4, 0.1)
+  );
+}
+
 /* How to center an inline <ul> menu
  * https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/
  *
@@ -2224,8 +2236,8 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 	/* Overrides for NCS assignment list */
 	[id*="-ncs"] dt.twocol { width: 6em; }
 	[id*="-ncs"] dd.twocol, [id*="-ncs"] dd.sameday { margin-left: 6em; }
-	dd.twocol div.ncs { float: right; width: 12em; }
-	dd.sameday div.ncs { float: right; width: 12em; }
+	dd.twocol div.ncs { float: right; }
+	dd.sameday div.ncs { float: right; }
 
 	aside.widget.social-media a {
 		margin: 12px;
