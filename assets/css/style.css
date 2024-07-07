@@ -243,7 +243,7 @@ content: none;
 }
 
 blockquote {
-color: #333;
+color: var(--bquote);
 font-style: italic;
 font-weight: 300;
 line-height: 126%;
@@ -1955,6 +1955,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		--sidefg: #fdfdfd;
 		--sidebg: #555555;
 		--banner: #e1ede2;
+		--bquote: #333;
 		--red: #d40000;
 		--green: #24890d;
 		--hover: #41a62a;
@@ -1971,11 +1972,12 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 @media (prefers-color-scheme: dark) {
 	:root {
 		--body: #080808;
-		--mainfg: #696969;
+		--mainfg: #a9a9a9;
 		--mainbg: #1b1b1b;
 		--sidefg: #a9a9a9;
 		--sidebg: #242424;
 		--banner: #343434;
+		--bquote: #a9a9a9;
 		--red: #9d2933;
 		--green: #49796b;
 		--hover: #79a99b;
