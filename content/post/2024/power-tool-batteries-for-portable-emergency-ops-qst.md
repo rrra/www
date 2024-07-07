@@ -24,7 +24,7 @@ sizes for different power levels, and mentions the easy-to-remember
 rule of thumb: "the maximum amperage to the radio is three times the
 ampere-hour rating of the 18V tool battery." [^1]
 
-***TL;DR;*** "Almost and power tool battery will power a QRP radio. An
+***TL;DR;*** "Almost any power tool battery will power a QRP radio. An
 8Ah battery at 18 V will power a 100 W transceiver." [^2]
 
 AF5KA's article closes with a list of seven power tool battery
