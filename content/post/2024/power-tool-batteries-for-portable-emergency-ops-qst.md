@@ -8,7 +8,7 @@ tags = [ "Batteries", "ARRL", "QST", "Preview" ]
 +++
 In his 
 [Power Tool Batteries for Portable or Emergency Operations](http://www.arrl.org/files/file/QST/This%20Month%20in%20QST/2024/07%20July%2024/0724%20Novak%20free%20article.pdf)
-article ([a free preview from the July 2024 issue of QST Magazine)](http://www.arrl.org/this-month-in-qst),
+article ([a free preview from the July 2024 issue of QST Magazine](http://www.arrl.org/this-month-in-qst)),
 Gordon S. Novak, AF5KA, demonstrates how inexpensive DC--DC convertors
 can turn easily accessible lithium power tool batteries into a good
 backup or portable source for powering a radio.
