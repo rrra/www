@@ -22,10 +22,13 @@
 
 	<div class="entry-content" style="padding-bottom:1em;">
 		{{ range (.Data.Pages.GroupByDate "2006") }}
+			{{ $highlight := "" }} {{/* Initialize highlighter */}}
 			<h3>{{ .Key }}</h3>
 			<dl class="list">
 				{{ range .Pages.Reverse }}
-					{{ .Render "alldli" }}
+					{{ if and ( eq $highlight "" ) ( gt (.Date.Unix) (now.Unix) ) }}{{ $highlight = "yes" }}{{ end }}
+					{{ partial "calendar/alldli.html" (dict "page" . "highlight" $highlight ) }}
+					{{ if eq $highlight "yes" }}{{ $highlight = "no" }}{{ end }}
 				{{ end }}
 			</dl>
 			<p class="clear"></p>
