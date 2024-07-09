@@ -1,0 +1,5 @@
+location = "Fergus Falls, MN"
+call = "K0QIK"
+mode = "Analog"
+frequency = [ "147.285 + T123", "repeaterbook 27 10999" ]
+notes = "[Lake Region ARC](https://www.k0qik.net/repeaters-nets/"
