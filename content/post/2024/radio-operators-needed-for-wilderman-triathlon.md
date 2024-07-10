@@ -4,7 +4,8 @@ date = "2024-07-10T09:30:42-05:00"
 title = "Radio Operators Needed for Wilderman Triathlon"
 authors = [ "W1CDN" ]
 categories = [ "Public Service" ]
-tags = []
+tags = [ "ENDracing" ]
+thumbnail = "https://endracing.com/sites/default/files/wilderman%202017.jpg"
 +++
 
 Radio Operators are needed to provide communication support for an
