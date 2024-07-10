@@ -9,7 +9,7 @@ thumbnail = "https://endracing.com/sites/default/files/wilderman%202017.jpg"
 +++
 
 Radio Operators are needed to provide communication support for an
-offroad Ironman Triathlon---swim 2.4 miles, bike 112 miles, run 26.2
+offroad ironman triathlon---swim 2.4 miles, bike 112 miles, run 26.2
 miles---at
 [Pembina Gorge](https://maps.app.goo.gl/nFumetZbf9F7NFxd8),
  west of Wallhalla in northeast North Dakota.
