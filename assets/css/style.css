@@ -1904,6 +1904,10 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 	margin: 24px auto;
 }
 
+span.genericons-neue-mail {
+	margin-left: 0.05em;
+}
+
 /**
  * 11.0 Media Queries
  * -----------------------------------------------------------------------------
@@ -2051,7 +2055,7 @@ dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
 		text-align: center;
 	}
 
-        .cat-links.a.nav .pagination,a.nav {
+        .cat-links.a.nav .pagination, a.nav {
 		font-size: 36px;
 		padding: 24px;
 	}
