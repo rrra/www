@@ -10,17 +10,17 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 6
+update = 7
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
-{{< banner >}}
+{{< banner expires="2024-07-30" >}}
 Bookmark https://hamfest.rrra.org/2024 and
 [subscribe to our Hamfest Announcements mailing
 list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
 to stay informed about North Dakota's largest Hamfest in 2024!
 {{< /banner >}}
-{{< banner publish="2024-07-31" expires="2024-09-28T12:00:00-05:00" >}}
+{{< banner publish="2024-07-30" expires="2024-09-28T12:00:00-05:00" >}}
 **[Buy your admission and vendor table tickets TODAY](https://tickets.rrra.org)
 and skip the Hamfest ticket table line.**
 
@@ -31,29 +31,33 @@ Please read our
 for more information.
 {{< /banner >}}
 
-<!--
 {{< back >}}
 ### Featuring
 
-* ARRL QSL Card Checking
-* Door prizes
+<!-- * ARRL QSL Card Checking -->
+* Door prizes courtesy of our [sponsors]()
 * Eyeball QSOs
 * Flea Market
-* [Flyer](#hamfest-flyer)
 * Food & Beverages
-* [License Testing]({{< relref "/calendar/2023/hamfest-testing.md" >}}) (aka *VE Testing* or *VE Session*)
+* License Testing
 * [On-line Box Office](#on-line-box-office)
 * Seminars
-* Silent Auction
+
+<!--
+* [Flyer](#hamfest-flyer)
+(aka *VE Testing* or *VE Session*)
+-->
 
 *Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2023/rrra-hamfest.md#schedule" >}}) for more information*
 
+<!--
 {{< back >}}
 ### Information for Attendees and Vendors
 * [Admission and Vendor Tickets]({{< relref "/hamfest-guide/ticketing.md" >}})
 * [Driving Directions]({{< relref "/hamfest-guide/directions.md" >}})
 * [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
 * [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
+-->
 
 {{< hamfest-sponsors 2024 >}}
 
@@ -61,9 +65,9 @@ for more information.
 
 ### On-Line Box Office
 
-[!-- Ticket Tailor Widget. Paste this into your website where you want the
+<!-- Ticket Tailor Widget. Paste this into your website where you want the
 widget to appear. Do not change the code or the widget may not work properly.
---]
+-->
 <div class="tt-widget"><div class="tt-widget-fallback"><p><a
 href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget"
 target="_blank">Click here to buy tickets</a><br /><small><a
@@ -75,7 +79,7 @@ data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/"
 data-type="inline" data-inline-minimal="true" data-inline-show-logo="false"
 data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param=""
 data-inline-ref="website_widget"></script></div>
-[!-- End of Ticket Tailor Widget --]
+<!-- End of Ticket Tailor Widget -->
 
 {{< banner class="alert" publish="2024-07-31">}}
 Admission and Vendor Table Ticket purchases are **non-refundable** and indicate
@@ -84,7 +88,7 @@ acceptance of the RRRA
 {{< /banner >}}
 
 {{< back >}}
--->
+
 ### Schedule
 *Schedule subject to change without notice*
 
