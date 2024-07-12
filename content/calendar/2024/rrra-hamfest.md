@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 7
+update = 8
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
@@ -39,7 +39,7 @@ for more information.
 * Eyeball QSOs
 * Flea Market
 * Food & Beverages
-* License Testing
+* [License Testing]({{< relref "/calendar/2024/hamfest-testing.md" >}})
 * [On-line Box Office](#on-line-box-office)
 * Seminars
 
