@@ -4,11 +4,12 @@ date = "2024-09-28T08:00:00-05:00"
 #endTime = "2024-07-12T09:51:59-05:00"
 publishDate = "2024-07-12T09:51:59-05:00"
 title = "Hamfest Testing Session"
+linkTitle = "Hamfest Testing"
 location = "[RRV Fairgrounds Butler Arena](/places/rrv-fairgrounds-butler-arena/)"
 contact = "vec"
 dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 * Computerized testing only; paper tests will not be administered
