@@ -1,5 +1,6 @@
 +++
 title = "West Fargo Night To Unite"
+linkTitle = "Night to Unite"
 date = "2024-08-06T16:00:00-05:00"
 endTime = "2024-08-06T20:00:00-05:00"
 publishDate = "2024-05-01"
