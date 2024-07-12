@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 8
+update = 9
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
@@ -39,13 +39,14 @@ for more information.
 * Eyeball QSOs
 * Flea Market
 * Food & Beverages
+* Fox Hunt at the Fair Grounds 
 * [License Testing]({{< relref "/calendar/2024/hamfest-testing.md" >}})
+(aka *VE Testing* or *VE Session*)
 * [On-line Box Office](#on-line-box-office)
-* Seminars
+* [Seminars](#seminars)
 
 <!--
 * [Flyer](#hamfest-flyer)
-(aka *VE Testing* or *VE Session*)
 -->
 
 *Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2023/rrra-hamfest.md#schedule" >}}) for more information*
@@ -88,7 +89,6 @@ acceptance of the RRRA
 {{< /banner >}}
 
 {{< back >}}
-
 ### Schedule
 *Schedule subject to change without notice*
 
@@ -106,8 +106,9 @@ Time |      |
 8AM | Flea Market setup in Main Hall
 8AM | License Testing begins
 9AM | Flea Market opens
+10AM | Fox Hunt at the Fair Grounds<br>Participants must bring their own [fox hunting gear](http://homingin.com/equipment.html)
 2PM | Hamfest ends
-<!--
+
 {{< back >}}
 ### Seminars
 
@@ -115,9 +116,11 @@ Time |      |
 
 Time | Subject | Presented by
 -----|---------|-------------
-9AM to 10AM | POTA | Craig Schmidt, W0AP
-10AM to 11AM | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
+9:30 AM to 10AM | Foxhunt Orientation | Gary Nies, N0NGW
+10AM to 11AM | Zoom Presentation<br>&amp; **Prize Drawing** | RT Systems
+11AM to 11:50AM | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
 
+<!--
 {{< back >}}
 ### Hamfest Flyer
 
