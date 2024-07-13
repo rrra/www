@@ -1860,8 +1860,14 @@ ul.pagination li.pages {
 	display: none;
 }
 
-dd.twocol, dd.sameday { margin: 0 0 0.4em 2em; }
-dd.twocol div.ncs, dd.sameday div.ncs { float: right; width: 6em; }
+dd.twocol, dd.sameday {
+	margin: 0 0 0.4em 2em;
+	overflow: hide;
+}
+dd.twocol div.ncs, dd.sameday div.ncs {
+	float: right;
+	 width: 6em;
+}
 
 
 /* https://alvarotrigo.com/blog/css-highlight-text/ */
