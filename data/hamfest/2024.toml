@@ -34,6 +34,10 @@ link = "https://www.rtsystemsinc.com/"
 name = "DX Engineering"
 link = "https://www.dxengineering.com/"
 
+[[sponsor]]
+name = "N3FJP"
+link = "https://n3fjp.com"
+
 #[[sponsor]]
 #name = "Icom"
 #link = "http://icom.com"
@@ -53,10 +57,6 @@ link = "https://www.dxengineering.com/"
 #[[sponsor]]
 #name = "Tigertronics"
 #link = "http://tigertronics.com/"
-
-#[[sponsor]]
-#name = "N3FJP"
-#link = "https://n3fjp.com"
 
 #[[sponsor]]
 #name = "FlexRadio"
