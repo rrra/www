@@ -10,6 +10,8 @@ Add to section (e.g. ../post/.. )  and other pages as:
 
 The source path will be automatically retrieved from the page's .File object.
 
+*** Revise this because it is no longer true. ***
+
 Section indexes and pages without md files do not have a .File object. So the
 source path must be set as follows:
 
@@ -21,14 +23,19 @@ source path must be set as follows:
 
 {{ $path := "" }}
 {{ $type := "" }}
-{{ with .File }}
-	{{ $path = .Path | printf "%s/%s" "content" }}
-	{{ $type = "Source" }}
+{{ with .Params.datasource }}
+        {{ $path = . | printf "%s/%s" "data" }}
+	{{ $type ="Source" }}
+{{ else }} 
+	{{ with .File }}
+		{{ $path = .Path | printf "%s/%s" "content" }}
+		{{ $type = "Source" }}
+	{{ end }}
 {{ end }}  
 
 {{ if gt $path "" }}
 <div style="text-align:center;margin-bottom: 24px;">
-<span class="genericons-neue genericons-neue-github" style="vertical-align:middle;margin-right:.3em;"></span>{{ $type }}: <a rel="nofollow" href="{{ $base }}/{{ $path }}">{{ $path }}</a>
+<span class="social-logo social-logo-github" style="vertical-align:text-bottom;margin-right:.3em;"></span>{{ $type }}: <a rel="nofollow" href="{{ $base }}/{{ $path }}">{{ $path }}</a>
 </div>
 {{ end }}
 

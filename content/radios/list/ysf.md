@@ -1,7 +1,8 @@
 +++
-title = "YSF Repeaters and Nodes"
+title = "Yaesu System Fusion Repeaters and Nodes"
 linktitle = "ysf"
 tooltip = "Yaesu System Fusion"
+dataSource = "radios"
 +++
 {{< radio-list "YSF" >}}
 

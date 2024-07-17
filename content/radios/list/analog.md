@@ -2,6 +2,7 @@
 title = "Analog Repeaters"
 linkTitle = "analog"
 tooltip = "Analog FM Repeaters"
+dataSource = "radios"
 +++
 {{< radio-list "Analog" >}} 
 
