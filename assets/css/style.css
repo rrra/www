@@ -62,7 +62,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 * -----------------------------------------------------------------------------
 */
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, p, blockquote, pre, a, acronym, address, big, code, del, em, font, ins, q, s, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, p, blockquote, pre, a, acronym, address, big, code, del, em, font, ins, q, s, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, section.table, div.tr, div.th, div.td  {
 border: 0;
 font-family: inherit;
 font-size: 100%;
@@ -1261,19 +1261,19 @@ text-decoration: underline;
 text-decoration: none;
 }
 
-.entry-content table {
+.entry-content table, section.table {
 font-size: 14px;
 line-height: 1.2857142857;
 margin-bottom: 24px;
 }
 
-.entry-content th {
+.entry-content th, div.th {
 font-weight: 700;
 padding: 8px;
 text-transform: uppercase;
 }
 
-.entry-content td {
+.entry-content td, div.td {
 padding: 8px;
 }
 
@@ -1569,7 +1569,7 @@ line-height: 1.3333333333;
 
 .widget li > ol,
 .widget li > ul {
-	oargin-left: 10px;
+	margin-left: 10px;
 }
 
 .widget table,
@@ -1869,7 +1869,6 @@ dd.twocol div.ncs, dd.sameday div.ncs {
 	 width: 6em;
 }
 
-
 /* https://alvarotrigo.com/blog/css-highlight-text/ */
 .highlight {
   border-radius: 1em 0 1em 0;
@@ -1886,7 +1885,7 @@ dd.twocol div.ncs, dd.sameday div.ncs {
  *
  * Wrap it in a div with the following style:
  */
-.table {
+div.table {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto 24px auto;
 }
@@ -1912,6 +1911,21 @@ dd.twocol div.ncs, dd.sameday div.ncs {
 
 span.genericons-neue-mail {
 	margin-left: 0.05em;
+}
+
+/* Radio List */
+header.thead { display: none; }
+section.table, div.th, div.tr, div.td {
+	display: block;
+	border: none;
+}
+div.td { 
+	padding: 0;
+	font-size:16px;
+}
+div.tr {
+	border-bottom: thin solid var(--border);
+	padding: 12px 0;
 }
 
 /**
@@ -1991,8 +2005,8 @@ span.genericons-neue-mail {
 		--red: #9d2933;
 		--green: #49796b;
 		--hover: #79a99b;
-		--disabled: #343434;
-		--border: #343434;
+		--disabled: #555555;
+		--border: #555555;
 		--sprites: url(/images/sprites-dark.gif);
 		--grad1: rgba(64, 64, 64, 0.2);
 		--grad2: rgba(64, 64, 64, 0.7) 95%;
@@ -2092,6 +2106,7 @@ span.genericons-neue-mail {
 	.list-view .site-content .upcoming {
 		margin-top: 0;
 	}
+
 }
 
 @media screen and (min-width: 401px) {
@@ -2264,6 +2279,51 @@ span.genericons-neue-mail {
 	.widget.social-media span.tag-links a {
 		margin-top: 12px;
 	}
+
+	/* Table emulation
+	 * inspired by CSS Tricks
+	 */
+	section.table {
+		 display: table;
+		`font-size: 14px;
+		`line-height: 1.2857142857;
+		`margin-bottom: 24px;
+	 }
+	header.thead { display: table-header-group; }
+	div.th {
+		display: table-cell;
+		font-weight: 700;
+		padding: 8px;
+		text-transform: uppercase;
+	}
+	div.tr { display: table-row; }
+	div.td {
+		display: table-cell;
+		padding: 8px;
+	}
+	/* section.table, div.th, div.td { border: 1px solid rgba(0, 0, 0, * 0.1); } */
+	section.table, div.th, div.td { border: 1px solid var(--border); }
+
+	section.table {
+		border-collapse: separate;
+		border-spacing: 0;
+		border-width: 1px 0 0 1px;
+		margin-bottom: 24px;
+		width: 100%;
+	}
+
+	div.th, div.td {
+		float: none;
+		font-weight: normal;
+		text-align: left;
+		border-width: 0 1px 1px 0;
+		border-width: 0 1px 1px 0;
+	}
+
+	div.th {
+		font-weight: bold;
+	}
+
 }
 
 @media screen and (min-width: 673px) {
@@ -2790,6 +2850,9 @@ span.genericons-neue-mail {
 	div.table:last-of-type {
 		margin-bottom: 0;
 	}
+	.widget.social-media span.tag-links a {
+		margin-top: 24px;
+	}
 }
 
 @media screen and (min-width: 1040px) {
@@ -2864,9 +2927,6 @@ span.genericons-neue-mail {
 		margin: 12px 10px;
 	}
 
-	.widget.social-media span.tag-links a {
-		margin-top: 18px;
-	}
 	.widget.social-media span.tag-links a:before {
 		border-top: 12px solid transparent;
 		border-bottom: 12px solid transparent;

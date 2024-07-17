@@ -4,6 +4,7 @@ tags = [ "Repeaters" ]
 categories = [ "Technical" ]
 aliases = [ "/radios/red-river-valley-repeaters/", "/radios/red-river-valley-repeaters-and-nodes/", "/radios/all/", "/radios/list/" ]
 linkTitle = "all"
+dataSource = "radios"
 +++
 {{< radio-list "All" >}}
 

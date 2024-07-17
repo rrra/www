@@ -2,6 +2,7 @@
 title = "DMR Repeaters and Nodes"
 linkTitle = "dmr"
 tooltip = "Digital Mobile Radio"
+dataSource = "radios"
 +++
 {{< radio-list "DMR" >}}
 

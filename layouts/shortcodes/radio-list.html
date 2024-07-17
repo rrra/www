@@ -40,32 +40,40 @@ displayed.
 	{{ end }}
 {{ end }}
 
-<ul class="pagination" style="padding: 0;"><li class="genericons-neue genericons-neue-search"></li>
 {{ $modes := split ( $scratch.Get "modes" ) " " }}
 {{ range $modes }}
 	{{ $text := . }}
-	{{ if not ( eq $self ( $text | urlize ) ) }}
-	<li><a href="/radios/list/{{ $text | urlize }}/">{{ $text }}</a></li>
+	{{ if and ( gt $text "" ) ( not ( eq $self ( $text | urlize ))) }}
+		{{ $scratch.Add "linklist" "<div><div class=\"genericons-neue genericons-neue-search\"></div><a href=\"/radios/list/" }}
+		{{ $scratch.Add "linklist" ( $text | urlize ) }}
+		{{ $scratch.Add "linklist" "\">" }}
+		{{ $scratch.Add "linklist" $text }}
+		{{ $scratch.Add "linklist" "</a></div>" }}
 	{{ end }}
 {{ end }}
-</ul>
+
+<div id="myDropdown" class="dropdown" onclick="toggleDropdown()">
+	<button class="dropbtn">Filter by mode<span class="genericons-neue genericons-neue-menu"></span></button>
+	<div id="contact-dropdown" class="dropdown-content">
+	{{ $scratch.Get "linklist" | safeHTML }}
+	</div> {{/* End: dropdown-content */}}
+</div> {{/* End: dropdown (wrapper) */}}
 
 <p class="clear"></p>
 
-<table>
-<thead>
-<tr>
-<th>Location</th>
-<th>ID &amp; Mode</th>
-<th>Frequency</th>
-<th>Notes</th>
-</tr>
-</thead>
+<section class="table" id="radios">
+<header class="thead">
+	<div class="tr">
+		<div class="th">Location</div>
+		<div class="th">ID &amp; Mode</div>
+		<div class="th">Frequency</div>
+		<div class="th">Notes</div>
+	</div>
+</header>
 
 {{/* QRT system publication cut off date (see QRT notes above) */}}
 {{ $cutoff := now.AddDate 0 0 -30 | dateFormat "2006-01-02" }}
 
-<tbody>
 {{ range sort $.Site.Data.radios ".location" }}
 	{{ $qrt := .qrt | default $cutoff }}
 	{{ if ge $qrt $cutoff }}
@@ -113,16 +121,15 @@ displayed.
 
 		{{ end }}
 
-		<tr>
-		<td>{{ $scratch.Get "location"  | markdownify }}</td>
-		<td>{{ $scratch.Get "call" | markdownify }}<br \>{{ $scratch.Get "mode" | markdownify }}</td>
-		<td>{{ $scratch.Get "freq" | markdownify }}</td>
-		<td>{{ $scratch.Get "notes" | markdownify }}</td>
-		</tr>
+		<div class="tr">
+		<div class="td alignright">{{ $scratch.Get "location"  | markdownify }}</div>
+		<div class="td">{{ $scratch.Get "call" | markdownify }}<br \>{{ $scratch.Get "mode" | markdownify }}</div>
+		<div class="td">{{ $scratch.Get "freq" | markdownify }}</div>
+		<div class="td">{{ $scratch.Get "notes" | markdownify }}</div>
+		</div>
 		{{ end }}
 	{{ end }}
 {{ end }}
-</tbody>
 
-</table>
+</section>
 
