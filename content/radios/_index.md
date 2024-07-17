@@ -19,7 +19,7 @@ Location | Frequency | Tone
 Moorhead, MN | 145.350 MHz - | 123 Hz
 Moorhead, MN | 444.875 MHz + | 123 Hz
 
-### Other Radio Systems
+### Other Repeaters and Radio Systems
 
 * [Red River Valley Repeaters and Nodes](/radios/list/)
 
