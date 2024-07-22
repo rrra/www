@@ -846,6 +846,7 @@ z-index: 4;
 
 .header-main {
 padding: 0 10px;
+position: inherit;
 }
 
 .site-title {
