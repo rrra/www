@@ -5,17 +5,17 @@ date = "2024-09-28T08:00:00-05:00"
 publishDate = "2024-07-12T09:51:59-05:00"
 title = "Hamfest Testing Session"
 linkTitle = "Hamfest Testing"
-location = "[RRV Fairgrounds Butler Arena](/places/rrv-fairgrounds-butler-arena/)"
-contact = "vec"
+location = "[RRV Fairgrounds Hartl Building](/places/rrv-fairgrounds-hartl-building)"
+contact = "testing"
 dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
-* Computerized testing only; paper tests will not be administered
+* Computerized testing only; paper tests will ***not*** be administered
 * *Bring Your Own Device* (e.g. laptop computer, tablet) suggested
-* Only 20 test seats available; pre-register on-line
-* Tests may be started between 11AM and Noon
+* Only 15 test seats available; [pre-register on-line to reserve your seat](https://hamstudy.org/sessions/6692d2f714d536aafe8745db/1)
+* Tests may be started between 8 AM and 9 AM
 
 #### How to sign-up for your test
 
@@ -25,7 +25,7 @@ for---or take---your license test without an FRN. Hams upgrading their
 license already have an FRN and can
 [look it up in the Commission Registration System (CORES)](https://apps.fcc.gov/cores/simpleSearch.do?csfrToken=)
 
-2. Register at hamstudy.org :warning: Registration will open around August 1, 2024
+2. [Register at hamstudy.org](https://hamstudy.org/sessions/6692d2f714d536aafe8745db/1)
 
 3. Pay the $15 test fee. It will be be invoiced separately through
 PayPal after step 2 is completed
@@ -41,7 +41,7 @@ Walk-up test seats subject to availability
 All test takers must bring
 : Photo ID
 
-Test takers who did not [pre-register and pre-pay online](https://hamstudy.org/sessions/60d14f59113f1d51c01f9dae/1) must ***also*** bring
+Test takers who did not [pre-register and pre-pay online](https://hamstudy.org/sessions/6692d2f714d536aafe8745db/1) must ***also*** bring
 : :black_small_square:[FRN](https://www.fcc.gov/wireless/support/universal-licensing-system-uls-resources/new-users-guide-getting-started-universal) print out<br>
 :black_small_square: $15 cash or check payable to *RRRA VE Team*<br>
 :black_small_square: [Copy of current license](http://www.arrl.org/obtain-license-copy) for upgrades
@@ -49,4 +49,5 @@ Test takers who did not [pre-register and pre-pay online](https://hamstudy.org/s
 :information_source: Additional information about what to bring to an exam session---including guidance
 about calculators---is available on the
 [What to Bring to an ARRL Exam Session page](http://www.arrl.org/what-to-bring-to-an-exam-session),
+
 

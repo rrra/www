@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 9
+update = 10
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
@@ -39,7 +39,7 @@ for more information.
 * Eyeball QSOs
 * Flea Market
 * Food & Beverages
-* Fox Hunt at the Fair Grounds 
+* Fox Hunt at the Fair Grounds (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
 * [License Testing]({{< relref "/calendar/2024/hamfest-testing.md" >}})
 (aka *VE Testing* or *VE Session*)
 * [On-line Box Office](#on-line-box-office)
@@ -51,14 +51,12 @@ for more information.
 
 *Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2023/rrra-hamfest.md#schedule" >}}) for more information*
 
-<!--
 {{< back >}}
 ### Information for Attendees and Vendors
 * [Admission and Vendor Tickets]({{< relref "/hamfest-guide/ticketing.md" >}})
 * [Driving Directions]({{< relref "/hamfest-guide/directions.md" >}})
 * [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
 * [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
--->
 
 {{< hamfest-sponsors 2024 >}}
 
@@ -96,18 +94,19 @@ acceptance of the RRRA
 
 Time |      |
 -----|------|
-4PM | Flea Market setup in Main Hall
-7PM | Hartl building closes for the night
+4 PM | Flea Market setup in Main Hall
+7 PM | Hartl building closes for the night
 
 #### Saturday, September 28rd
 
 Time |      |
 -----|------|
-8AM | Flea Market setup in Main Hall
-8AM | License Testing begins
-9AM | Flea Market opens
-10AM | Fox Hunt at the Fair Grounds<br>Participants must bring their own [fox hunting gear](http://homingin.com/equipment.html)
-2PM | Hamfest ends
+8 AM | Flea Market setup in Main Hall
+8 AM | License Testing begins
+9 AM | Flea Market opens
+9:30 AM | Seminars begin
+10 AM | Fox Hunt at the Fair Grounds<br>Participants must bring their own [fox hunting gear](http://homingin.com/equipment.html)
+2 PM | Hamfest ends
 
 {{< back >}}
 ### Seminars
