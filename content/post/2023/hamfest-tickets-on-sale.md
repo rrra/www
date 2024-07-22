@@ -6,7 +6,8 @@ categories = [ "Hamfest" ]
 tags = []
 featured = true
 endFeatured = "2023-09-23T12:00:00-05:00"
-siteBanner = "[Buy your 2023 Hamfest Tickets TODAY](https://tickets.rrra.org)"
+siteBanner = true
+bannerText = "[Buy your 2023 Hamfest Tickets TODAY](https://tickets.rrra.org)"
 +++
 Get your Admission and Vendor Tickets ***NOW*** at
 [tickets.rrra.org](https://tickets.rrra.org)

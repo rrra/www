@@ -1,29 +1,46 @@
+{{/* Display a site-wide text banner
+   * 
+   * Parameters used:
+   * "siteBanner" = true or start date/time
+   * "bannerText" = "text or valid markdown to over-ride self link" 
+   * "endBanner" = date/time (uses endFeatured date if undefinded) 
+   */}}
+
 {{ $candidates := where ( where .Site.RegularPages "Section" "post") "Params.siteBanner" "!=" nil }}
 
-{{ $scratch := newScratch }}
-{{ $scratch.Set "banner" "" }}
+{{ $banner := "" }}
 
 {{/* This loop will fail through after we find the first usable banner */}}
 {{ range $candidates }}
-	{{ if eq ( $scratch.Get "banner" ) "" }}
-		{{ $scratch.Set "banner" .Params.siteBanner }}
+	{{ if eq $banner "" }}
+		{{/* Accept either a boolean true or a date string */}}
+		{{ $datestamp := cond ( eq ( printf "%t" .Params.siteBanner ) "true" ) "1970-01-01" .Params.siteBanner  }}
+		{{ $banner := ( time $datestamp ).Unix }}
 		
 		{{/* Prefer .Params.endBanner so that the siteBanner is */}}
 		{{/* independent from the featured content promotion    */}}
 		{{ with .Params.endBanner }}
 			{{ if lt ( ( . | time.AsTime ).Unix ) now.Unix }}
-				{{ $scratch.Set "banner" "" }}
+				{{ $banner = "" }}
 			{{ end }}
 		{{ else }}
 			{{ with .Params.endFeatured }}
 				{{ if lt ( ( . | time.AsTime ).Unix ) now.Unix }}
-					{{ $scratch.Set "banner" "" }}
+					{{  $banner = "" }}
 				{{ end }}
 			{{ end }}
 		{{ end }}
 
-		{{ with ( $scratch.Get "banner" ) }}
-			<div id="site-banner">{{ . | markdownify }}</div>
+		{{ if ne $banner "" }}
+			<div id="site-banner">
+			{{ with .Params.bannerText }}
+				{{ . | markdownify }}
+			{{ else }}
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+			{{ end }}
+			</div>
 		{{ end }}
+	{{ else }}
+		{{ break }}
 	{{ end }}
 {{ end }}

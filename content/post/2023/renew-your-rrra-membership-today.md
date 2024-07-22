@@ -8,7 +8,7 @@ tags = [ "Membership" ]
 title = "Renew Your RRRA Membership Today"
 featured = true
 endFeatured = "2023-01-17T19:00:00-06:00"
-siteBanner = "[Renew Your RRRA Membership Today](/post/2023/01/01/renew-your-rrra-membership-today/)"
+siteBanner = true
 +++
 Membership renewals for 2023 are due at the
 [January club meeting]({{< relref "/calendar/2023/january-meeting.md" >}}).

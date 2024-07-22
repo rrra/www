@@ -8,7 +8,8 @@ tags = []
 title = "2024 Membership Renewals Due At January Business Meeting" 
 featured = true
 endFeatured = "2024-01-16T19:00:00-06:00"
-siteBanner = "[Renew your membership today!](/join/)"
+siteBanner = true
+bannerText ="[Renew your membership today!](/join/)"
 +++
 Membership renewals for 2024 are due at the
 <span style="hyphens:none;">[January club meeting]({{< relref "/calendar/2024/january-meeting.md" >}}).</span>

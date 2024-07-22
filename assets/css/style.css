@@ -757,7 +757,6 @@ width: 100%;
 
 /* Set primary configuration here. Adjust in @media sections as needed. */
 
-
 #site-logo {
 margin-bottom: 24px;
 height: 148px;
@@ -775,6 +774,12 @@ background: var(--sprites) -82px -150px;
 height: 15px;
 width: 80px;
 background: var(--sprites) 0 -167px;
+}
+
+#nd-section-badge {
+height: 15px;
+width: 80px;
+background: var(--sprites) 0 -252px;
 }
 
 #cc-by-sa-badge {
@@ -800,24 +805,24 @@ height: 15px;
 width: 80px;
 background: var(--sprites) 0 -235px;
 }
-#nd-section-badge {
-height: 15px;
-width: 80px;
-background: var(--sprites) 0 -252px;
-}
-
-/* STK */
 
 #site-banner {
-background:#f1fdf2;
+background: #f1fdf2;
 background: var(--banner);
-color:#d40000;
-width:100%;
-text-align:center;
-font-size:125%;
-padding:.75em 0;
-border-top:6px solid;
+color: #d40000;
+color: var(--red); 
+width: 100%;
+text-align: center;
+font-size: 125%;
+padding: .75em 0;
+border-top: 6px solid;
 border-color: var(--sidebg);
+}
+
+#site-banner a {
+color: #d40000;
+color: var(--red); 
+text-decoration: underline;
 }
 
 /**
