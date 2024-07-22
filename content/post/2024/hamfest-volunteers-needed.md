@@ -9,7 +9,7 @@ featured = true
 endFeatured = "2024-09-27"
 siteBanner = true
 +++
-Red River Radio Amateurs needs **YOU** to help make thier 2024 RRRA
+Red River Radio Amateurs needs **YOU** to help make their 2024 RRRA
 Hamfest and ARRL Dakota Division Convention a success.
 
 There are more than 40 job openings to fill which means that we need
