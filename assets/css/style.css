@@ -2113,6 +2113,10 @@ div.tr {
 		margin-top: 0;
 	}
 
+	aside.widget.widget_search {
+		margin: 24px 0;
+	}
+
 }
 
 @media screen and (min-width: 401px) {
@@ -2215,6 +2219,9 @@ div.tr {
 
 	.widget.social-media span.tag-links a:after {
 		top: 11px;
+	}
+	aside.widget.widget_search {
+		margin: 24px 0;
 	}
 
 }
@@ -2825,7 +2832,7 @@ div.tr {
 	}
 
 	aside.widget.widget_search {
-		margin-bottom: 0;
+		margin: inherit;
 	}
 
 	.feature-container-outer {
