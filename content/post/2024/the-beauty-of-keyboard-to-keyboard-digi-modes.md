@@ -67,6 +67,10 @@ then use FT8.
 
 {{< banner >}}
 ***Editor's note:***
-This blog post by DK1MI was originally published on July 6, 2024, in the
-[DK1MI.radio Blog](https://dk1mi.radio/keyboard-to-keyboard-digi-modes/)
+This blog post by DK1MI was originally published on July 6, 2024, as 
+[The Beauty of Keyboard to Keyboard Digi Modes](https://dk1mi.radio/keyboard-to-keyboard-digi-modes/) in the
+[DK1MI.radio Blog](https://dk1mi.radio/blog/)
+
+DK1MI is the maintainer of the [blogs.radio RSS
+aggregator](https://blogs.radio)
 {{< /banner >}}
