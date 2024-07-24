@@ -1,26 +1,27 @@
 <div id="secondary">
 
-	{{ if isset .Site.Params "Description" }} 
-		{{ with .Site.Params.Description }}<h2 class="site-description">{{ . }}</h2>{{ end }}
-	{{ end }}
+{{ if isset .Site.Params "Description" }} 
+	{{ with .Site.Params.Description }}<h2 class="site-description">{{ . }}</h2>{{ end }}
+{{ end }}
 
-	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 
-		{{ partialCached "searchform.html" . }}
+	{{ partialCached "searchform.html" . }}
 
-		{{ partialCached "siteicons.html" . }}
+	{{ partialCached "siteicons.html" . }}
 
-		{{ partialCached "dates.html" .  }}
-
-		<!-- List of content categories -->
-		{{ partial "categories.html" . }}
-
-		<!-- List of recent blog posts -->
-		{{ partialCached "recentposts.html" . }}
-
-		<!-- ND Section, ARRL Logo, & Dakota Division links -->
-		{{ partialCached "arrl.html" . }}
-
+	<div class="widget table">
+	<div class="widget tr">
+	<div class="widget td">{{ partialCached "dates.html" .  }}</div>
+	<div class="widget td">{{ partialCached "categories.html" . }}</div>
+	<div class="widget td">{{ partialCached "recentposts.html" . }}</div>
 	</div>
+	</div>
+
+	<!-- ND Section, ARRL Logo, & Dakota Division links -->
+	<!-- table row & cell markup are in this partial    -->
+	{{ partialCached "arrl.html" . }}
+
+</div><!-- #primary-sidebar -->
 
 </div><!-- #secondary -->
