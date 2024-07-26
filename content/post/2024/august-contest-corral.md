@@ -4,6 +4,7 @@ title = "August Contest Corral"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "Contesting" ]
+thumbnail = "https://www.contestcalendar.com/calenlargerlogo.gif"
 +++
 The
 [August 2024 Contest Corral](https://www.arrl.org/files/file/Contest%20Corral/2024/August%202024%20Corral.pdf)
