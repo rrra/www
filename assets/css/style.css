@@ -1801,6 +1801,13 @@ aside.widget.social-media {
 	margin: 24px;
 	padding: 12px;
 }
+div.widget.table {
+	margin-bottom: 0;
+}
+div.widget.tr {
+	border: none;
+	padding: 0; 
+}
 .tag-links a:hover {
 	color: #fff;
 	color: var(--sidefg);
@@ -1930,7 +1937,7 @@ div.td {
 }
 div.tr {
 	border-bottom: thin solid var(--border);
-	padding: 12px 0;
+	padding: 12px 0; 
 }
 
 /* Sidebar stuff */
@@ -2043,7 +2050,7 @@ div.arrl.td {
 		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 		margin: 12px;
 		min-height: 60px;
-		padding: 24px 0;
+		padding: 12px 0 24px;
 	}
 
 	.list-view .site-content .entry-header {
@@ -2121,16 +2128,16 @@ div.arrl.td {
 		top: 11px;
 	}
 
-	.table { margin-bottom: 0px; }
+	div.table { margin-bottom: 0px; }
 
 	.list-view .site-content .upcoming {
 		margin-top: 0;
+		padding-bottom: 0;
 	}
 
 	aside.widget.widget_search {
 		margin: 24px 0;
 	}
-
 }
 
 @media screen and (min-width: 401px) {
@@ -2240,8 +2247,6 @@ div.arrl.td {
 	.list-view .site-content .upcoming {
 		margin: 0 auto 14px;
 	}
-
-
 }
 
 @media screen and (min-width: 594px) {
