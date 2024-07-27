@@ -1037,7 +1037,7 @@ outline: 1px dotted;
 */
 
 .hentry {
-margin: 0 auto 48px;
+margin: 0 auto 36px;
 max-width: 672px;
 }
 
@@ -2195,12 +2195,12 @@ div.arrl.td {
 	.list-view .site-content .hentry {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 		border-color: var(--border);
-		padding-top: 48px;
+		padding-top: 34px;
 	}
 
 	.list-view .site-content .hentry:first-of-type {
 		border-top: 0;
-		padding-top: 0;
+		padding-top: 14px;
 	}
 
 	.archive-header {
@@ -2239,6 +2239,10 @@ div.arrl.td {
 	aside.widget.widget_search {
 		margin: 24px 0;
 	}
+	.list-view .site-content .upcoming {
+		margin: 0 auto 14px;
+	}
+
 
 }
 
@@ -2856,7 +2860,7 @@ div.arrl.td {
 	}
 
 	.feature-container-outer {
-		margin: 0 auto 24px;
+		margin: 16px auto 24px;
 	}
 
 	div.cat-links {
