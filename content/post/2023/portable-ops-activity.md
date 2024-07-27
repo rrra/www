@@ -4,7 +4,7 @@ title = "Portable Operations"
 subTitle = "RRRA April Activity"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
-tags = [ "" ]
+tags = []
 featured = "2023-07-07"
 endFeatured = "2023-07-18"
 +++
