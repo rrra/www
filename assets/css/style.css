@@ -1816,7 +1816,6 @@ aside.widget.social-media {
 div.cat-links {
 	width: 100%;
 	text-align: center;
-	padding-top: 12px;
 }
 .cat-links a.nav {
 	font-size: 36px;
@@ -1826,7 +1825,7 @@ div.cat-links {
 .cat-links a.taxonomy {
 	position: absolute;
 	width: 100%;
-	top: -2px;
+	top: -16px;
 	left: 0px;
 	font-size: 140%;
 }
@@ -1834,7 +1833,6 @@ ul.pagination {
 	list-style-type: none;
 	height: 24px;
 	margin: 0 auto;                
-	/* padding: 12px 0 24px 0; ??? */
 }
 ul.pagination li {
 	float:left;
