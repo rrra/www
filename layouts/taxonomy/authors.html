@@ -15,13 +15,12 @@
 
 	<h3 class="entry-title">Articles by {{ .Title | upper }}</h3>
 
-	<div class="entry-meta">
-		<div id="contact">
-			<span class="cat-links vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" .Title ) }}
-		</div>
-		{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") 50 }}
-		{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
-	</div><!-- .entry-meta -->
+       	<div id="contact">
+       		<span class="cat-links vertmiddle">Contact: </span>{{ partial "contact.html" (dict "context" . "sign" .Title ) }}
+       	</div>
+
+	{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") 50 }}
+	{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
 	</header>
 
 	<div class="entry-content">
