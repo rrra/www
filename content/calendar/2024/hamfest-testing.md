@@ -8,8 +8,9 @@ linkTitle = "Hamfest Testing"
 location = "[RRV Fairgrounds Hartl Building](/places/rrv-fairgrounds-hartl-building)"
 contact = "testing"
 dates = [ "License Testing" ]
+aliases = [ "/cal/2024/hamfest-testing/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 3
+update = 4
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 * Computerized testing only; paper tests will ***not*** be administered
