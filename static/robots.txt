@@ -56,3 +56,12 @@ Disallow: /
 
 User-Agent: ImagesiftBot
 Disallow: /
+
+# Mine
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
