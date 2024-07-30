@@ -10,18 +10,12 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 10
+update = 11
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
-{{< banner expires="2024-07-30" >}}
-Bookmark https://hamfest.rrra.org/2024 and
-[subscribe to our Hamfest Announcements mailing
-list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
-to stay informed about North Dakota's largest Hamfest in 2024!
-{{< /banner >}}
 {{< banner publish="2024-07-30" expires="2024-09-28T12:00:00-05:00" >}}
-**[Buy your admission and vendor table tickets TODAY](https://tickets.rrra.org)
+**[Buy your general admission tickets and vendor table bundles TODAY](https://tickets.rrra.org)
 and skip the Hamfest ticket table line.**
 
 Tickets are also available at the door.

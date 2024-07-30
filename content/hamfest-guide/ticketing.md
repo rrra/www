@@ -20,19 +20,19 @@ to anyone at any time.***
 * 12 years and under admitted free with paid accompanying adult; **door prize drawing entry not included**
 * **ATTENDEES  AGREE TO THE RRRA [PROHIBITED ITEMS POLICY]({{< relref "prohibited-items.md" >}}) BY PURCHASING ONE OR MORE GENERAL ADMISSION TICKETS. ATTENDEES WHO DO NOT ADHERE TO THIS POLICY WILL BE ASKED TO LEAVE.**
 
-#### Vendor Table Tickets: $20 
+#### Vendor Table Bundles: $20 
 
-##### Each ticket includes
+##### :warning: Each bundle includes two tickets
 
-* An 8' Flea Market Table
-* 1 Complimentary admission
+* An 8' vendor table ticket
+* 1 Complimentary admission ticket
 
 ##### Terms and Conditions
 
 * Vendor Table Tickets are **non-refundable**
 * Limited electricity available
 * Door prize drawing entries limited to 1 per person admitted
-* **VENDORS AGREE TO THE RRRA [PROHIBITED ITEMS POLICY]({{< relref "prohibited-items.md" >}}) BY PURCHASING ONE OR MORE VENDOR TABLE TICKETS. VENDORS WHO DO NOT ADHERE TO THIS POLICY WILL BE ASKED TO LEAVE.**
+* **VENDORS AGREE TO THE RRRA [PROHIBITED ITEMS POLICY]({{< relref "prohibited-items.md" >}}) BY PURCHASING ONE OR MORE VENDOR TABLE BUNDLES. VENDORS WHO DO NOT ADHERE TO THIS POLICY WILL BE ASKED TO LEAVE.**
 
 #### How to purchase Tickets
 
@@ -61,7 +61,6 @@ The following forms of payment will be accepted:
 
 * Cash (exact change appreciated, no bills over $50 accepted)
 * Checks
-* Debit & Credit cards
 
 ### On-Line Box Office
 
@@ -82,7 +81,7 @@ data-inline-ref="website_widget"></script></div>
 <!-- End of Ticket Tailor Widget -->
 
 {{< banner class="alert" >}}
-Admission and Vendor Table Ticket purchases are **non-refundable** and indicate
+Admission and Vendor Table Bundle purchases are **non-refundable** and indicate
 acceptance of the RRRA
 [Prohibited Flea Market Items Policy]({{< relref "prohibited-items.md" >}}).
 {{< /banner >}}
