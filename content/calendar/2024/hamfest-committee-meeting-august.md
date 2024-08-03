@@ -8,7 +8,7 @@ location = "Zoom"
 contact = "hamfest"
 dates = [ "Hamfest" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 This meeting will be conducted through the Zoom teleconferencing platform.
@@ -18,6 +18,10 @@ The meeting link will be distributed through our
 [Hamfest Mailing List](https://lists.rrra.org/mailman/listinfo/hamfest); use
 the instructions shown below to subscribe to the mailing list so that you can
 be a part of the solution.
+
+:star: Committee members should add their agenda items to the
+[2024-08-13 Committee Meeting Notes](https://cloud.rrra.org/index.php/f/75022)
+before this meeting.
 
 ### Subscribing to the mailing list
 
