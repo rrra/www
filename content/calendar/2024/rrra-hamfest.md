@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 11
+update = 12
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
@@ -75,8 +75,9 @@ data-inline-ref="website_widget"></script></div>
 <!-- End of Ticket Tailor Widget -->
 
 {{< banner class="alert" publish="2024-07-31">}}
-Admission and Vendor Table Ticket purchases are **non-refundable** and indicate
-acceptance of the RRRA
+General Admission Tickets and Vendor Bundle purchases are
+**non-refundable** and indicate purchaser's acceptance of, and agreement
+to adhere to, the RRRA
 [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}}).
 {{< /banner >}}
 
@@ -119,8 +120,8 @@ Time | Subject | Presented by
 
 <div style="width:100%;text-align:center;margin-bottom:12px;">
 <strong><a href="https://cloud.rrra.org/index.php/s/TGYCsyrpEkjKqJL">Download
-the 2023 RRRA Hamfest Flyer</s>
+the 2024 RRRA Hamfest Flyer</s>
 </div>
 
-{{< figure src="https://images.rrra.org/hamfest/2023-thumbnail.gif" link="https://cloud.rrra.org/index.php/s/TGYCsyrpEkjKqJL" >}}
+{{< figure src="https://images.rrra.org/hamfest/2024-thumbnail.gif" link="https://cloud.rrra.org/index.php/s/TGYCsyrpEkjKqJL" >}}
 -->
