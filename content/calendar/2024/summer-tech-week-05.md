@@ -4,11 +4,11 @@ date = "2024-09-16T19:00:00-05:00"
 endTime = "2024-09-16T20:30:00-05:00"
 publishDate = "2024-08-05"
 title = "Summer Tech Week 5"
-location = "Online"
+location = "Zoom"
 contact = "WS0Y"
 dates = [ "Summer 2024 Technician" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 ### Topics
@@ -17,18 +17,18 @@ update = 0
 * Chapter 10: Digital Modes
 * Chapter 11: Space Contacts (e.g. satellite communications)
 
-:vhs: The link to the video for this week will be sent to you by your
+:star: The link to the Zoom session for this week will be sent to you by your
 instructor
 
 ### Homework
 
-* Watch the video for this week
+* Watch the Zoom session for this week
 * Review textbook chapters covered this week
 * Take a [section quiz](https://www.hamradioschool.com/tech-quizzes)
 
 {{< banner class="alert" >}}
 Because of copyright agreements only students who have enrolled and
-purchased the textbook will receive links to the weekly videos.
+purchased the textbook will receive links to the Zoom sessions and course content.
 {{< /banner >}}
 
 ### Instructors
