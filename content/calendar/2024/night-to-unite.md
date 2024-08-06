@@ -9,10 +9,10 @@ location = "[Elmwood Park](/places/west-fargo-elmwood-park/)"
 dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 +++
-RRRA members will staff a publicity table to spread awareness about Amateur
-Radio. 
-
-Please contact {{< mailto KC0ODE >}} to volunteer for this event.
+{{< banner class="alert">}}
+RRRA will **not** be participating in this event due to a lack of volunteer
+support.
+{{< /banner >}}
 
 >Night to Unite is a free annual event celebrating community and public safety
 >through demonstrations, informational booths, games, food vendors and lots of
@@ -31,3 +31,4 @@ lists information about this event including:
 * Blood drive
 
 {{< figure src="https://www.westfargond.gov/ImageRepository/Document?documentID=1724" >}}
+
