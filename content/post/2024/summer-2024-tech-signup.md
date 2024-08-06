@@ -40,13 +40,8 @@ quizzes, etc. on the [Ham Radio School Tech Prep page][techprep].
 
 ### About Our Course
 
-**This
-[series](series)
-of lessons begins
-[August 12, 2024]({{< relref "/calendar/2024/summer-tech-week-01.md" >}})**.
-
-[series]: /dates/summer-2024-technician
-[seriesadd]: /dates/summer-2024-technician#add
+This [series][series] of lessons begins [August 12, 2024]({{< relref
+"/calendar/2024/summer-tech-week-01.md" >}})
 
 These [lessons][series] will be held Monday evenings, from
 7:00pm to 8:30pm, and will be conducted via Zoom or a similar
@@ -68,3 +63,6 @@ Course Contact
 
 Website Contact
 : {{< mailto webmaster >}}
+
+[series]: /dates/summer-2024-technician
+[seriesadd]: /dates/summer-2024-technician#add
