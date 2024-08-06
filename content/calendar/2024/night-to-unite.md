@@ -8,6 +8,7 @@ contact = "KC0ODE"
 location = "[Elmwood Park](/places/west-fargo-elmwood-park/)"
 dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
+updates = 1
 +++
 {{< banner class="alert">}}
 RRRA will **not** be participating in this event due to a lack of volunteer
