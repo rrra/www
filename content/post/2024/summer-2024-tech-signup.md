@@ -16,9 +16,6 @@ the Red River Radio Amateurs.
 
 This course will prepare you to take the Technician Class Amateur Radio
 License Exam and become part of an exciting hobby.
-
-:star: **Registration for the RRRA Summer 2024 Technician Course is now
-open.**
 <!--more-->
 
 ## How to Signup
