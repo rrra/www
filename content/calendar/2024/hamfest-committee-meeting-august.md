@@ -1,6 +1,6 @@
 +++
 created = "2024-07-11T20:49:37-05:00"
-date = "2024-08-13T19:00:00-05:00"
+date = "2024-08-15T19:00:00-05:00"
 publishDate = "2024-07-11T20:49:37-05:00"
 title = "Hamfest Committee Meeting August"
 linkTitle = "Hamfest Committee"
@@ -8,11 +8,15 @@ location = "Zoom"
 contact = "hamfest"
 dates = [ "Hamfest" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 This meeting will be conducted through the Zoom teleconferencing platform.
 interested in helping with the 2024 Hamfest are encouraged to attend.
+
+{{< banner  class="alert" >}}
+This meeting was rescheduled from August 13, 2024
+{{< /banner >}}
 
 The meeting link will be distributed through our
 [Hamfest Mailing List](https://lists.rrra.org/mailman/listinfo/hamfest); use
