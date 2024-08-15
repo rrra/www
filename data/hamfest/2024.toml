@@ -38,6 +38,9 @@ link = "https://www.dxengineering.com/"
 name = "N3FJP"
 link = "https://n3fjp.com"
 
+[[sponsor]]
+name = "WA0LIA"
+
 #[[sponsor]]
 #name = "Icom"
 #link = "http://icom.com"
