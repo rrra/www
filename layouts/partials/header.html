@@ -63,7 +63,7 @@
 						{{ range .Site.Menus.main }}
 						{{ $section := index $.Site.Params.tooltips (replace .URL "/" "") }}
 						<li class="page_item"> 
-							<a href="{{ .URL }}index.html"{{ with $section.title }} title="{{ . }}"{{ end }}>{{ .Name | safeHTML }}</a>
+							<a href="{{ .URL }}index.html"{{ with $section.title }} title="{{ . }}"{{ end }}{{ with .Params.rel -}} rel="{{ . }}" {{ end -}}>{{ .Name | safeHTML }}</a>
 						</li>
 						{{ end }}
 					</ul>
