@@ -1,6 +1,6 @@
 +++
 created = "2024-07-11T20:49:37-05:00"
-date = "2024-08-15T19:00:00-05:00"
+date = "2024-08-15T19:45:00-05:00"
 publishDate = "2024-07-11T20:49:37-05:00"
 title = "Hamfest Committee Meeting August"
 linkTitle = "Hamfest Committee"
@@ -8,7 +8,7 @@ location = "Zoom"
 contact = "hamfest"
 dates = [ "Hamfest" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 This meeting will be conducted through the Zoom teleconferencing platform.
