@@ -2147,12 +2147,14 @@ div.arrl.td {
 	
 	.site-content span + .byline:before,
 	.site-content span + .comments-link:before,
+	.site-content span + .xpost-link:before,
 	.site-content span + .entry-date:before {
 		content: "";
 	}
 	
 	.site-content .byline a:before,
 	.site-content .comments-link a:before,
+	.site-content .xpost-link a:before,
 	.site-content .entry-date a:before,
 	.site-content .last-month a:before,
 	.site-content .next-month a:after {
@@ -2190,10 +2192,16 @@ div.arrl.td {
 
 	.site-content .byline a:before {
 		content: "\f304";
+		margin-right: 2px;
 	}
 
 	.site-content .comments-link a:before {
 		content: "\f300";
+		margin-right: 2px;
+	}
+
+	.site-content .xpost-link a:before {
+		content: "\f504";
 		margin-right: 2px;
 	}
 

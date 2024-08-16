@@ -40,6 +40,11 @@
 					<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
 				{{ end }}
 			</span>
+			{{ if ne .Params.xpostLink nil }}
+				<span class="xpost-link" title="Crossposted article source">
+					<a href="{{ .Params.xpostLink }}">{{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}</a>
+				</span>
+			{{ end }}
 		</div><!-- .entry-meta -->
 
 	</header>

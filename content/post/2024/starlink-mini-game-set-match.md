@@ -3,6 +3,8 @@ date = "2024-08-15T11:11:13-05:00"
 title = "Starlink Mini - Game, Set, Match for Emergency Communications"
 slug = "starlink-mini-game-set-match"
 authors = [ "N8GNJ" ]
+xpostLink = "https://www.zeroretries.org/p/zero-retries-0164"
+xpostName = "Zero Retries 0164"
 categories = [ "Technical" ]
 tags = [ "Zero Retries" ]
 #featured = true or start date
@@ -151,14 +153,6 @@ service provider, has fallen out of the conversation versus the above
 developments getting lots of attention.
 
 *It’s a brave, interesting, much more communications-rich new world!*
-
-{{< banner >}}
-***Editors Note:***
-
-This blog post by Steve Stroh N8GNJ was originally published in
-[Zero Retries 0164](https://www.zeroretries.org/p/zero-retries-0164)
-
-{{< /banner >}}
 
 ### About Zero Retries
 

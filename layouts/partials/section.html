@@ -35,7 +35,7 @@
 		{{ end }}
 		<div class="entry-meta">
 			<span class="entry-date">
-				<a href="{{ .RelPermalink }}" rel="bookmark">
+				<a href="{{ .RelPermalink }}" rel="bookmark" title="Publication date">
 					<time class="entry-date updated" datetime="{{ $scratch.Get "timestamp" }}">
 						{{ $scratch.Get "timestamp" }}
 					</time>
@@ -43,15 +43,20 @@
 			</span>
 			{{ if .IsPage }}
 			{{ with .Params.authors }}
-				<span class="vcard author byline">
+				<span class="vcard author byline" title="Authors">
 					{{ range . }}
 						<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
 					{{ end }}
 				</span>
 			{{ end }}
+		{{ if ne .Params.xpostLink nil }}
+			<span class="xpost-link" title="Crossposted article source">
+				<a href="{{ .Params.xpostLink }}">{{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}</a>
+			</span>
+		{{ end }}
 		{{ if eq .Section "post" }} 
 			{{ if gt (.Date.Unix) (sub now.Unix 2592000) }}
-				<span class="comments-link" title="Make a public comment about this post on the RRRA Club Discussion electronic mailing list; free subscription required to receive responses to your comment.">
+				<span class="comments-link" style="white-space: nowrap;" title="Make a public comment about this post on the RRRA Club Discussion electronic mailing list; free subscription required to receive responses to your comment.">
 					<a href="mailto:rrra@lists.rrra.org?subject={{ .Title }}&body=%0D%0A%0D%0AReference: {{ .Permalink }}">Comment about this post</span></a>
 				</span>
 			{{ end }}
@@ -74,9 +79,19 @@
 	</header>
 	
 	<div class="entry-content">
+
 		{{ if eq .Params.toc "true" }}{{ .TableOfContents }}{{ end }}
 
 		{{ .Content }}
+
+		{{ if ne .Params.xpostLink nil }}
+			<div class="clear banner">
+				<p><strong><em>Editors Note:</em></strong></p>
+				<p>This article was originally published at
+				<a href="{{ .Params.xpostLink }}">{{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}</a></p>
+			</div>                                
+			<p class="clear"></p>
+		{{ end }}
 
 		{{ if eq "development" hugo.Environment }}
 		<pre>Template: layouts/partial/section.html</pre>
@@ -86,4 +101,3 @@
 	</div><!-- .entry-content -->
 
 </article> <!-- #post-## -->
-
