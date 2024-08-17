@@ -28,20 +28,20 @@
 		<h2 class="entry-title{{ $draft }}">{{ .Title | safeHTML }}</h2>
 
 		<div class="entry-meta">
-			<span class="entry-date">
+			<span class="entry-date" title="Publication date and permalink">
 				<a href="{{ .RelPermalink }}" rel="bookmark">
 					<time class="entry-date updated" datetime="{{ .Lastmod.Format "2006-01-02 15:04" }}">
 						{{ .Lastmod.Format "January 2, 2006" }}
 					</time>
 				</a>
 			</span>
-			<span class="vcard author byline">
+			<span class="vcard author byline" title="Authors">
 				{{ range .Params.authors }}
 					<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
 				{{ end }}
 			</span>
 			{{ if ne .Params.xpostLink nil }}
-				<span class="xpost-link" title="Crossposted article source">
+				<span class="xpost-link" title="Article cross-posted from {{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}">
 					<a href="{{ .Params.xpostLink }}">{{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}</a>
 				</span>
 			{{ end }}
