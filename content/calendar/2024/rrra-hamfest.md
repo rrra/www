@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 12
+update = 13
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
@@ -28,8 +28,8 @@ for more information.
 {{< back >}}
 ### Featuring
 
-<!-- * ARRL QSL Card Checking -->
-* Door prizes courtesy of our [sponsors]()
+* ARRL QSL Card Checking 
+* Door prizes courtesy of our [sponsors](#sponsors)
 * Eyeball QSOs
 * Flea Market
 * Food & Beverages
