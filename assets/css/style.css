@@ -1955,6 +1955,12 @@ div.arrl.td {
 	display:table-cell;
 	text-align: center;
 }
+
+/* Entry Meta fix */
+.entry-meta span {
+	white-space: nowrap;
+}
+
 /**
  * 11.0 Media Queries
  * -----------------------------------------------------------------------------
