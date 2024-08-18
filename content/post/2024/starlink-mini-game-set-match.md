@@ -16,7 +16,7 @@ tags = [ "Zero Retries" ]
 I intend no disrespect to all the varied Emergency Communications
 activities that are performed within Amateur Radio, or those that
 perform them. The emergence of Starlink as a Broadband Internet
-Access sysàtem with few dependencies other than power has changed the
+Access system with few dependencies other than power has changed the
 paradigm of emergency communications. But now, but the emergence of
 the new ***Starlink Mini*** has ***profoundly*** changed the paradigm of
 emergency communications.
