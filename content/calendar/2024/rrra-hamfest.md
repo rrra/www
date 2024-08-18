@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 13
+update = 14
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
@@ -110,7 +110,7 @@ Time |      |
 
 Time | Subject | Presented by
 -----|---------|-------------
-9:30 AM to 10AM | Foxhunt Orientation | Gary Nies, N0NGW
+9:30 AM to 10AM | Foxhunt Orientation | Gerry Nies, N0NGW
 10AM to 11AM | Zoom Presentation<br>&amp; **Prize Drawing** | RT Systems
 11AM to 11:50AM | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
 
