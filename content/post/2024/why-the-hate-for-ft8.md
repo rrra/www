@@ -3,15 +3,11 @@ date = "2024-08-21T12:58:17-05:00"
 #publishdate = "2024-08-21T12:58:17-05:00"
 title = "Why the Hate for FT8?"
 authors = [ "N4JAW" ]
-categories = []
+categories = [ "Outreach" ]
 tags = [ "FT8" ]
 xpostLink = "https://hamonabike.blogspot.com/2024/08/this-old-timer-asks-why-hate-for-ft8.html"
 xpostName = "Ham On A Bike"
-#featured = true or start date
-#endFeatured = date
-#siteBanner = true or start date
-#bannerText = "text (or valid markdown) to over-ride self link" 
-#endBanner = date (default is endFeatured date) 
+attrib = "link"
 +++
 ***You have to grow with the times or the times will outgrow you.***
 
@@ -37,4 +33,3 @@ of ice for their Ice Box to keep their perishables fresh. It wasn't too
 long in the mid 1950's my neighbor purchased a refrigerator made at GE's
 Louisville's Appliance Park.
 
-:link: [Read the rest of the article on the "Ham On A Bicycle" blog...](https://hamonabike.blogspot.com/2024/08/this-old-timer-asks-why-hate-for-ft8.html)
