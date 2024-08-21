@@ -4,8 +4,9 @@ date = "2024-06-18T18:30:00-05:00"
 publishDate = "2024-03-20"
 location = "[West Fargo FD HQ](/places/west-fargo-fire-department-headquarters/)"
 title = "June ARES Meeting"
+linkTitle = "ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 aliases = [ "" ]
 +++
