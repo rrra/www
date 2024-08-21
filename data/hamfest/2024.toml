@@ -41,6 +41,10 @@ link = "https://n3fjp.com"
 [[sponsor]]
 name = "WA0LIA"
 
+[[sponsor]]
+name = "Easy Way Ham Books"
+link = "https://www.easywayhambooks.com/"
+
 #[[sponsor]]
 #name = "Icom"
 #link = "http://icom.com"
@@ -102,8 +106,3 @@ name = "WA0LIA"
 #[[sponsor]]
 #name = "Quicksilver Radio"
 #link = "https://qsradio.com/"
-
-#[[sponsor]]
-#name = "Easy Way Ham Books"
-#link = "https://www.easywayhambooks.com/"
-
