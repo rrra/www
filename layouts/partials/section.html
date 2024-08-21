@@ -85,12 +85,16 @@
 		{{ .Content }}
 
 		{{ if ne .Params.xpostLink nil }}
+			{{ if eq .Params.attrib "link" }}
+			<p><span class="genericons-neue-link genericons-neue"></span> <a href="{{ .Params.xpostLink }}">Read the rest of the article {{ with .Params.xpostName }} at "{{ . }}" {{ end }}...</a></p>
+			{{ else }}
 			<div class="clear banner">
 				<p><strong><em>Editors Note:</em></strong></p>
 				<p>This article was originally published at
 				<a href="{{ .Params.xpostLink }}">{{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}</a></p>
 			</div>                                
 			<p class="clear"></p>
+			{{ end }}
 		{{ end }}
 
 		{{ if eq "development" hugo.Environment }}
