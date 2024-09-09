@@ -56,6 +56,7 @@
 		{{ end }}
 		{{ if eq .Section "post" }} 
 			{{ if gt (.Date.Unix) (sub now.Unix 2592000) }}
+				{{ if ne .Params.xpostLink nil }}<br class="narrow">{{ end }}
 				<span class="comments-link" title="Make a public comment about this post on the RRRA Club Discussion electronic mailing list; free subscription required to receive responses to your comment.">
 					<a href="mailto:rrra@lists.rrra.org?subject={{ .Title }}&body=%0D%0A%0D%0AReference: {{ .Permalink }}">Comment about this post</span></a>
 				</span>
@@ -92,6 +93,7 @@
 				<p><strong><em>Editors Note:</em></strong></p>
 				<p>This article was originally published at
 				<a href="{{ .Params.xpostLink }}">{{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}</a></p>
+				{{ if ne .Params.xpostComment nil }}<p>{{ .Params.xpostComment | markdownify }}</p>{{ end }}
 			</div>                                
 			<p class="clear"></p>
 			{{ end }}
