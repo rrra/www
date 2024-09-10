@@ -2,4 +2,4 @@ location = "Fargo, ND"
 call = "W0HSC"
 mode = "YSF"
 frequency = [ "147.090 +", "repeaterbook 38 22" ]
-notes = "[NDSU Amateur Radio Society](http://www.w0hsc.org/)"
+notes = "NDSU Amateur Radio Society"
