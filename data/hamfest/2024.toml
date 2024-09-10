@@ -6,9 +6,9 @@ year = "2024"
 #link = "https://arrl.org"
 #image = "//images.rrra.org/hamfest/arrl-logo-2020-474x236.jpg"
 
-#[[sponsor]]
-#name = "ARRL"
-#link = "http://www.arrl.org/"
+[[sponsor]]
+name = "ARRL"
+link = "http://www.arrl.org/"
 
 [[sponsor]]
 name = "Bioenno Power"
@@ -44,6 +44,10 @@ name = "WA0LIA"
 [[sponsor]]
 name = "Easy Way Ham Books"
 link = "https://www.easywayhambooks.com/"
+
+[[sponsor]]
+name = "3rd Planet Solar"
+link = "https://kc9on.com/"
 
 #[[sponsor]]
 #name = "Icom"
