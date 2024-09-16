@@ -2,7 +2,7 @@
 date = "2024-09-15T21:16:00-05:00"
 title = "DX-pedition Presentation Added to September Club Meeting"
 slug = "dxpedition-presentation-added-to-september-meeting"
-authors = []
+authors = [ "K0STK" ]
 categories = []
 tags = []
 featured = true
