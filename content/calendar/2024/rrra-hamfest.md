@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 14
+update = 15
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
@@ -26,6 +26,7 @@ for more information.
 {{< /banner >}}
 
 {{< back >}}
+
 ### Featuring
 
 * ARRL QSL Card Checking 
@@ -85,14 +86,14 @@ to adhere to, the RRRA
 ### Schedule
 *Schedule subject to change without notice*
 
-#### Friday, September 27nd
+#### Friday, September 27th
 
 Time |      |
 -----|------|
 4 PM | Flea Market setup in Main Hall
 7 PM | Hartl building closes for the night
 
-#### Saturday, September 28rd
+#### Saturday, September 28th
 
 Time |      |
 -----|------|
@@ -116,12 +117,3 @@ Time | Subject | Presented by
 
 <!--
 {{< back >}}
-### Hamfest Flyer
-
-<div style="width:100%;text-align:center;margin-bottom:12px;">
-<strong><a href="https://cloud.rrra.org/index.php/s/TGYCsyrpEkjKqJL">Download
-the 2024 RRRA Hamfest Flyer</s>
-</div>
-
-{{< figure src="https://images.rrra.org/hamfest/2024-thumbnail.gif" link="https://cloud.rrra.org/index.php/s/TGYCsyrpEkjKqJL" >}}
--->
