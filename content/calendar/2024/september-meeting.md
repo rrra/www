@@ -7,9 +7,13 @@ title = "September Business Meeting"
 linkTitle = "Business Meeting"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 aliases = [ "" ]
 +++
+### Guest Presentation
+
+{{< import "/post/2024/dxpedition-presentation-added-to-september-meeting.md" >}}
+
 ### Meeting Information
 
 {{% meeting-note %}}
