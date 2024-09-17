@@ -10,15 +10,15 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 16
+update = 17
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
 {{< banner publish="2024-07-30" expires="2024-09-28T12:00:00-05:00" >}}
-**[Buy your general admission tickets and vendor table bundles TODAY](https://tickets.rrra.org)
-and skip the Hamfest ticket table line.**
+:star: **[Buy your general admission tickets and vendor table bundles TODAY](https://tickets.rrra.org)
+and skip the Hamfest ticket table line.** :star:
 
-Tickets are also available at the door.
+Tickets and vendor are also available at the door --- subject to availability.
 
 :warning: **E-mail reservation requests will NOT be accepted** :warning:
 
