@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 15
+update = 16
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-28r"
 +++
@@ -19,6 +19,8 @@ update = 15
 and skip the Hamfest ticket table line.**
 
 Tickets are also available at the door.
+
+:warning: **E-mail reservation requests will NOT be accepted** :warning:
 
 Please read our
 [ticketing guide]({{< relref "/hamfest-guide/ticketing.md" >}})
