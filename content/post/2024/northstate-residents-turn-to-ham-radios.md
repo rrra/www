@@ -2,7 +2,7 @@
 date = "2024-09-09T09:34:51-05:00"
 #publishdate = "2024-09-09T09:34:51-05:00"
 title = "Amid wildfires and spotty cell service, Northern California Residents Turn to Ham Radios"
-authors = [ "Christina Mendez" ]
+#authors = [ "Christina Mendez" ]
 categories = [ "Outreach" ]
 tags = []
 xpostLink = "https://www.krcrtv.com/news/local/amid-wildfires-and-spotty-cell-service-northstate-residents-turn-to-ham-radios"
