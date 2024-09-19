@@ -6,8 +6,8 @@ authors = [ "K0STK" ]
 categories = [ "Hamfest" ]
 tags = []
 featured = true 
-endFeatured = 2024-09-28
-expiryDate = "2024-09-29"
+endFeatured = 2024-09-22
+expiryDate = "2024-09-22"
 noindex = "true"
 +++
 
