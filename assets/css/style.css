@@ -728,6 +728,7 @@ vertical-align: text-bottom;
 
 .site-content span + .entry-date:before,
 span + .byline:before,
+span + .xpost-link:before,
 span + .comments-link:before {
 content: "\0020\007c\0020";
 }
@@ -1961,6 +1962,11 @@ div.arrl.td {
 	white-space: nowrap;
 }
 
+/* Footnote links are broken in div.summary */
+div.entry-summary a.footnote-ref {
+	display: none;
+}
+
 /**
  * 11.0 Media Queries
  * -----------------------------------------------------------------------------
@@ -2260,6 +2266,9 @@ div.arrl.td {
 	}
 	.list-view .site-content .upcoming {
 		margin: 0 auto 14px;
+	}
+	br.narrow {
+		display: none;
 	}
 }
 
