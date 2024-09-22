@@ -1,6 +1,6 @@
 +++
 date = "2024-09-22T01:32:00-05:00"
-title = "National Preparedness Month Ensuring Family Safety"
+title = "National Preparedness Month: Ensuring Family Safety"
 categories = [ "Public Service" ]
 tags = [ "ARRL", "Preparedness" ]
 xpostLink = "http://www.arrl.org/news/national-preparedness-month-ensuring-family-safety"
