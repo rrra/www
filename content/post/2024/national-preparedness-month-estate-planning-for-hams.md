@@ -1,6 +1,5 @@
 +++
 date = "2024-09-25T01:54:19-05:00"
-publishdate = "2024-09-23T18:10:47-05:00"
 title = "National Preparedness Month: Estate Planning for Hams"
 categories = [ "Membership" ]
 tags = [ "ARRL", "Preparedness", "Youtube" ]
