@@ -13,6 +13,7 @@ September, as we observe National Preparedness Month, it’s the perfect
 time to ensure that all aspects of our emergency readiness are covered.
 One often overlooked but vital aspect of preparedness is securing the
 data on our computers through regular backups.
+<!--more-->
 
 Whether you’re logging contacts, managing digital modes, or
 maintaining software-defined radios, your computer is a critical part
