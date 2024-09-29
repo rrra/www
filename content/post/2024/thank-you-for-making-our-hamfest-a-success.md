@@ -5,6 +5,8 @@ title = "Thank You for Making Our Hamfest a Success"
 authors = [ "K0STK" ]
 categories = [ "Hamfest" ]
 tags = [ "ARRL" ]
+featured = true
+endFeatured = "2024-10-06"
 +++
 Thank-you to the
 [sponsors]({{< relref "post/2024/thank-you-for-making-our-hamfest-a-success.md#sponsors" >}}),
