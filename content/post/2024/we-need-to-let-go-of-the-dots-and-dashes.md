@@ -19,7 +19,7 @@ knowledge of~~ an appreciation for. [^1]
 
 [^1]: Thanks to David Patton, for [helping me](https://dmv.community/@dcpatton/112779643174604140) to refine my position here. 
 
-The author, [TJ Johnson \(K9KJ\)](https://k9kj.com/), offers a
+The author, [TJ Johnson \(K9KJ\)](https://blog.k9kj.com/), offers a
 straightforward (and exactly correct) approach for learning the Code:
 
 1. Learn the characters.
