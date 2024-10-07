@@ -17,7 +17,7 @@ thinking through what needs to be done ahead of time can prevent the
 stress on our loved ones after we are gone.”
 <!--more-->
 
-ARRL this week held a webinar, hosted by Beal and Dino Papas, KLØS,
+ARRL this week held a webinar, hosted by Beal and Dino Papas, KL0S,
 to discuss the first steps of planning. “It is something that,
 unfortunately, doesn’t get a lot of attention. The bottom-line
 up front is, ‘what happens to all our beloved ham gear when that
