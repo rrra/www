@@ -65,3 +65,5 @@ Disallow: /
 User-agent: rogerbot
 Disallow: /
 
+User-agent: AwarioBot
+Disallow: /
