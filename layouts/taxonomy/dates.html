@@ -52,10 +52,10 @@
 	{{ $lastyear := index ( $scratch.Get "years" ) 0 }}
 
 	<div id="col">
+	{{ $highlight := "" }} {{/* Initialize highlighter */}}
 	{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
 		{{ if or ($edu) (or (ge .Key $thisyear) (eq .Key $lastyear)) }}	
 			<h3>{{ .Key }}</h3>
-			{{ $highlight := "" }} {{/* Initialize highlighter */}}
 			<dl id="list-{{ .Key }}{{ if eq ( $.Scratch.Get "li" ) "ncsdli" }}-ncs{{ end }}">
 			{{ range .Pages.Reverse }}
 				{{ if and ( eq $highlight "" ) ( gt (.Date.Unix) (now.Unix) ) }}{{ $highlight = "yes" }}{{ end }}
