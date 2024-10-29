@@ -7,7 +7,7 @@ title = "January Activity: Alcatraz POTA Activation Presentation"
 linkTitle = "January Activity"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 aliases = [ "" ]
 +++
 ### Membership Renewals For 2024 Are Due
