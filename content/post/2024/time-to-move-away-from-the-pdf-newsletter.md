@@ -79,10 +79,11 @@ see it. This leaves a lot of good information out of reach from hams
 looking for AREDN resources.
 
 {{< figure src="https://assets.midnightcheese.com/images/google-search-for-aredn-on-vancouver-island.png" alt="Search engines such as Google often can't see PDF content." >}}
+<p class="clear"></p>
 
-Also, while I can [link to the
-PDF](https://drive.google.com/file/d/1uw8fhjk84t_VLQ10gezOcPpGe2e-RhzO/v
-iew) from this post, I can't link to the article directly.
+Also, while I can
+[link to the PDF](https://drive.google.com/file/d/1uw8fhjk84t_VLQ10gezOcPpGe2e-RhzO/view)
+from this post, I can't link to the article directly.
 
 ### The Logger's Bark
 
