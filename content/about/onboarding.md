@@ -19,10 +19,19 @@ https://cloud.rrra.org/ to access members-only content, share
 content with other club members, engage in keyboard-to-keyboard chats, and
 collaborate on club related matters.
 
-Please contact the {{< webmaster >}} to confirm the ***first name***
-you'd like to have on your Groupware account, and your FCC call-sign. 
-The step is needed to ensure that we have the correct information on
-file.
+Please contact the {{< webmaster >}} with the following information:
+
+1. Your FCC call-sign.
+
+2. The ***first name*** you'd like to use as your Groupware display name.
+
+3. **If you paid your dues on-line** ... a copy of your PayPal
+receipt to instantly confirm your membership status.
+
+:warning: If you paid your dues by mail or in-person at a club meeting,
+your Groupware account will be held in abeyance until membership
+confirmation is received from the Club Treasurer; **this can take up to
+30 days**.
 
 :information_source: **Please use the Subject line "Groupware information
 for *your callsign*" on your confirmation message.**
