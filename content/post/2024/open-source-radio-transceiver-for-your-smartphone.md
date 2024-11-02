@@ -4,7 +4,7 @@ date = "2024-11-02T10:59:15-05:00"
 title = "Open Source Radio Transceiver for Your Smartphone"
 authors = [ "K0STK" ]
 categories = [ "Technical" ]
-tags = [ "Open Source" ]
+tags = [ "Homebrew" ]
 +++
 Turn your Android phone into a modern ham radio transceiver with this free open
 source software &amp; hardware project.
