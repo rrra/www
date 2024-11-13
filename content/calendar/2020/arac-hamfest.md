@@ -7,7 +7,7 @@ location = "[Four Seasons Event Center, Carlton, MN](http://fourseasonsofcarlton
 title = "ARAC Hamfest"
 sponsor = "[Arrowhead Amateur Radio Club](http://www.thearac.org/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 More information about this Hamfest is available at:
 

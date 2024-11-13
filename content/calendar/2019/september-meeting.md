@@ -6,6 +6,6 @@ endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "September Club Meeting"
 dates = [ "Club Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 

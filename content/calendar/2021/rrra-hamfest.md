@@ -11,7 +11,7 @@ talkin = "146.970- (W0RRW)"
 categories = [ "Hamfest" ]
 dates = [ "Hamfest" ]
 aliases = [ "/cal/2021/hamfest/" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner publish="2022-01-01" >}}
 Please visit https://hamfest.rrra.org/ for information about this year's

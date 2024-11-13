@@ -7,7 +7,7 @@ location = "[Marlin's Truckstop](https://www.google.com/maps/@43.461356,-96.7942
 title = "Tailgate Swapfest"
 sponsor = "[Sioux Empire Amateur Radio Club](http://www.w0zwy.org/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 :warning: **Times are unconfirmed**
 

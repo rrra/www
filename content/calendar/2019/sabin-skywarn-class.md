@@ -6,7 +6,7 @@ publishdate = "2019-01-19"
 location = "[Sabin Elmwood Fire District HQ](/places/sabin-elmwood-fire-district-headquarters)"
 title = "Sabin SKYWARN Class"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 * Presented by the National Weather Service
 * Sponsored by Clay County Emergency Services, [Sabin-Elmwood Fire and Rescue](http://www.sabin-elmwoodfire.com/), and Clay County Amateur Radio Emergency Services (CCARES)

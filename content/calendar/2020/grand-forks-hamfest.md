@@ -7,7 +7,7 @@ publishDate = "2019-12-31"
 location = "[Heritage Village, East Grand Forks MN](/places/heritage-village-east-grand-forks/)"
 title = "Grand Forks Area Hamfest"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 +++
 Please visit the

@@ -7,8 +7,8 @@ location = ""
 title = "UHF/VHF Net 29"
 slug = "uhf-vhf-net-29"
 dates = [ "NCS Schedule" ]
-outputs = [ "HTML", "Calendar" ]
-update = 2
+outputs = [ "HTML" ]
+update = 3
 +++
 A portion of the
 [July 24th Net]({{< relref "/calendar/2022/net-29.md" >}})

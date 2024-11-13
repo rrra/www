@@ -6,7 +6,7 @@ publishDate = "2018-06-19"
 contact = "N0TSZ"
 location = "[Elmwood Park](/places/west-fargo-elmwood-park/)"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2018/08/07/night-to-unite-2018/" ]
 +++
 RRRA members will staff a publicity table to spread awareness about Amateur

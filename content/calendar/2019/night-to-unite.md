@@ -6,7 +6,7 @@ publishDate = "2019-04-21"
 contact = "N0TSZ"
 location = "[Elmwood Park](/places/west-fargo-elmwood-park/)"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 <!--RRRA members will staff a publicity table to spread awareness about Amateur
 Radio. Set-up will start at 3pm.-->

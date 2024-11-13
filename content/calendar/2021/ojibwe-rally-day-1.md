@@ -5,7 +5,7 @@ title = "Ojibwe Forests Rally Day 1"
 linkTitle = "Ojibwe Forests Rally"
 contact = "[Rally Volunteer Coordinator](mailto:controls@rallyminnesota.com)"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner class="alert" >}}
 Please consult with the Rally Volunteer Coordinator and monitor the

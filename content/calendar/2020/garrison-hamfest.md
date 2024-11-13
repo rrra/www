@@ -7,7 +7,7 @@ title = "Garrison Hamfest"
 location = "Garrison ND Community Center"
 contact = "N0MGL"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner class="alert" >}}
 <span style="color:black;">:warning:</span> Face coverings are optional at this event <span style="color:black;">:warning:</span>

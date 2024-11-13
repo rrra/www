@@ -8,8 +8,8 @@ linkTitle = "FEMA Workshop"
 location = "[Zoom](https://fema.zoomgov.com/webinar/register/WN_vZN1l8eXSh6jwzipQX3JvQ)"
 contact = "KC0ODE"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 *Until Help Arrives* training teaches basic skills to help keep people

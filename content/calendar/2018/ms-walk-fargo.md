@@ -6,7 +6,7 @@ date = "2018-04-28T08:30:00-05:00"
 endTime = "2018-04-28T13:00:00-05:00"
 publishDate = "2018-02-21"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 The Red River Radio Amateurs will be providing communications support for the
 [Walk MS: Fargo 2018](http://main.nationalmssociety.org/site/TR/Walk/MNMWalkEvents?pg=entry&fr_id=29449).

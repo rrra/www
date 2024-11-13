@@ -6,7 +6,7 @@ publishDate = "2022-08-01"
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "October ARES Meeting"
 dates = [ "ARES Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 tags = [ "ARES" ]
 status = "canceled"
 +++

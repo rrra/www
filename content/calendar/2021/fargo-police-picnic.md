@@ -7,7 +7,7 @@ endTime = "2021-06-16T20:00:00-05:00"
 publishDate = "2021-06-07"
 contact = "KC0ODE"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 RRRA Members will conduct outreach activities during this event. Please
 contact {{< mailto KC0ODE >}} to volunteer.

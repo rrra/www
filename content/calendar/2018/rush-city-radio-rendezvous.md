@@ -8,7 +8,7 @@ location = "[Rush City HIgh School](https://www.google.com/maps/place/Rush+City+
 contact = "KA0MEN"
 sponsor = "[East Central Minnesota Amateur Radio Club](http://www.magicrepeater.net/ecmarc.htm)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Please visit the
 [ARRL Rush City Radio Rendezvous page](http://www.arrl.org/hamfests/rush-city-radio-rendezvous-2)

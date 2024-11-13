@@ -8,7 +8,7 @@ location = "[Brewster MN American Legion Post](https://duckduckgo.com/?t=ffcm&q=
 contact = "WB0ZSO"
 sponsor = "[Northern Plains Regional Radio Council](https://www.facebook.com/groups/NPRRC/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Please visit the
 [ARRL Northern Plains Regional Radio Council Hamfest page](http://www.arrl.org/hamfests/northern-plains-regional-radio-council-hamfest-6)

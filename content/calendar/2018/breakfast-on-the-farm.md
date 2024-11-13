@@ -6,7 +6,7 @@ date = "2018-06-02T07:00:00-05:00"
 endTime = "2018-06-02T12:00:00-05:00"
 publishDate = "2018-05-01"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 RRRA members will be staffing an information table. Please contact
 {{< mailto KA0Q >}} to volunteer.

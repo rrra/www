@@ -6,9 +6,9 @@ location = "[Bismarck State College - Career Academy](https://goo.gl/maps/x7hXsq
 title = "CDARC Hamfest"
 sponsor = "[Central Dakota Amateur Radio Club](http://www.cdarcnd.com/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 talkin = "146.850-"
-update = 3
+update = 1
 +++
 Please visit the
 [CDARC Hamfest 2022 page](http://www.cdarcnd.com/hamfest-2022.html)

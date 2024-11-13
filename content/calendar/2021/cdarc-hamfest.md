@@ -7,7 +7,7 @@ location = "[Bismarck State College Career Academy](/goo.gl/maps/nGVV4uKkXsPgbsK
 title = "CDARC Hamfest"
 sponsor = "[Central Dakota Amateur Radio Club](http://www.cdarcnd.com/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 >This year's Hamfest will be scaled down considerably due to the COVID
 >pandemic and will be conducted at BSC. If the situation changes for the

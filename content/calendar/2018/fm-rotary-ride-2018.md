@@ -6,7 +6,7 @@ endTime = "2018-09-08T13:00:00-05:00"
 location = "Lindenwood Park Rotary Shelter"
 title = "FM Rotary Ride 2018"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 More information about the FM Rotary Ride 2018 is available on the
 [RRRA announcement page]({{< relref "/post/2018/fm-rotary-ride-2018.md" >}})

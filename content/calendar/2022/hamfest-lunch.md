@@ -8,8 +8,8 @@ location = "[Deaner's Diner](https://maps.google.com/?q=Deaner%E2%80%99s%20Diner
 contact = "hamfest"
 dates = [ "Hamfest", "Social" ]
 aliases = [ "/cal/2022/09/23/hamfest-lunch/" ]
-outputs = [ "HTML", "Calendar" ]
-update = 1
+outputs = [ "HTML" ]
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 Join other [RRRA Hamfest]({{< relref "/calendar/2022/rrra-hamfest.md" >}})

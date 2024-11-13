@@ -6,7 +6,7 @@ endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "May Club Meeting"
 dates = [ "Club Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 <!--
 ### Remote Access to Meeting

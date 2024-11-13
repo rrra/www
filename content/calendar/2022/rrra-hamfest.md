@@ -9,8 +9,8 @@ linkTitle = "RRRA Hamfest"
 categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2022/hamfest/" ]
-outputs = [ "HTML", "Calendar" ]
-update = 25
+outputs = [ "HTML" ]
+update = 26
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-24r"
 +++

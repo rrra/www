@@ -6,7 +6,7 @@ endTime = "2018-06-24T15:59:00-05:00"
 publishDate = "2017-11-01T01:00:00-05:00"
 contact = "fieldday"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2018/field-day/" ]
 upcoming = "force"
 +++

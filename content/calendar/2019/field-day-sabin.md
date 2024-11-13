@@ -6,7 +6,7 @@ date = "2019-06-22T13:00:00-05:00"
 publishDate = "2019-03-01T01:00:00-05:00"
 contact = "NY0MN"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 ## Field Day Site Location

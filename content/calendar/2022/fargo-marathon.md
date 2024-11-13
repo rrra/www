@@ -6,9 +6,9 @@ contact = "marathon"
 location = "Fargo / Moorhead Area"
 title = "Fargo Marathon"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
-update = 2
+update = 3
 +++
 RRRA communication support for the Fargo Marathon will be coordinated
 through the

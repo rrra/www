@@ -7,7 +7,7 @@ location = "[Marlin's Truckstop](https://www.google.com/maps/@43.461356,-96.7942
 title = "SEARC Swap Meet 2018"
 sponsor = "[Sioux Empire Amateur Radio Club](http://www.w0zwy.org/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Please visit the [ARRL Sioux Empire ARC Tailgate Swapfest](http://www.arrl.org/hamfests/sioux-empire-arc-tailgate-swapfest)
 or [SEARC Swap Meet 2018](http://www.w0zwy.org/?p=313) pages, or 

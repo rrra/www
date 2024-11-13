@@ -7,8 +7,8 @@ location = "Zoom / YouTube"
 title = "Fall Technician Class Week 2"
 categories = [ "Education" ]
 dates = [ "Fall 2022 Technician" ]
-outputs = [ "HTML", "Calendar" ]
-update = 3
+outputs = [ "HTML" ]
+update = 4
 status = "on Zoom"
 +++
 {{< banner expires="2022-08-10" >}}

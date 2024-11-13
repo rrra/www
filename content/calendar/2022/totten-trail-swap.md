@@ -8,8 +8,8 @@ linkTitle = "Totten Trail Swap"
 location = "Garrison City Auditorium"
 contact = "N0MGL"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 :information_source: **This hamfest is not listed on the

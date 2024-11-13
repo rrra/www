@@ -7,6 +7,6 @@ location = ""
 title = "UHF/VHF Net 19"
 slug = "uhf-vhf-net-19"
 dates = [ "NCS Schedule" ]
-outputs = [ "HTML", "Calendar" ]
-update = 1
+outputs = [ "HTML" ]
+update = 2
 +++

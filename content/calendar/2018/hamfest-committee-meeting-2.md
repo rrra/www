@@ -6,7 +6,7 @@ publishDate = "2018-06-19"
 location = "Mom's Diner"
 title = "Hamfest Committee Meeting"
 dates = [ "Hamfest Committee" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2018/07/15/hamfest-committee-meeting/" ]
 +++
 ---

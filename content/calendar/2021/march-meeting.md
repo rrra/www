@@ -7,7 +7,7 @@ location = "[Zoom](https://lists.rrra.org/pipermail/announce/2021-March/000556.h
 title = "March Virtual Meeting"
 aliases = [ "/cal/2021/03/16/march-virtual-club-meeting" ]
 dates = [ "Club Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner class="alert" >}}
 Please visit

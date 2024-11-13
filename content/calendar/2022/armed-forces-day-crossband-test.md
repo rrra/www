@@ -8,8 +8,8 @@ linkTitle = "AFD Crossband Test"
 location = ""
 contact = ""
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 Complete details about this event---including participating stations, modes,

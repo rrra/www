@@ -8,7 +8,7 @@ title = "January Virtual Meeting"
 aliases = [ "/cal/2021/01/19/january-virtual-club-meeting" ]
 linkTitle = "Virtual Club Meeting"
 dates = [ "Club Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner class="alert" >}}
 Please visit

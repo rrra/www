@@ -7,7 +7,7 @@ location = "West Fargo Public Library"
 title = "Fall General Class Week 2"
 categories = [ "Education" ]
 dates = [ "Fall 2018 General" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 ### Topics
 

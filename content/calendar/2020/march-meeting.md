@@ -6,6 +6,6 @@ endTime = ""
 location = "[W0ILO Repeaters](/radios/)"
 title = "March Club Meeting"
 dates = [ "Club Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "on w0ilo"
 +++

@@ -6,7 +6,7 @@ location = "[Red River Regional Marksmanship Center](/places/red-river-regional-
 title = "RRRMC SKYWARN Class"
 dates = [ "Public Service" ]
 contact = "[701-356-0677](tel:701-356-0677)"
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "postponed"
 +++
 This class is marked as postponed on the [NWS Fargo Grand Forks 2020 Spotter

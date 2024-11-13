@@ -6,7 +6,7 @@ publishDate = "2020-04-21"
 contact = "N0TSZ"
 location = "[Elmwood Park](/places/west-fargo-elmwood-park/)"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 +++
 

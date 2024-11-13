@@ -6,7 +6,7 @@ publishDate = "2021-02-01"
 location = "[W0ILO Repeaters](/radios/)"
 title = "April ARES Meeting"
 dates = [ "ARES Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 +++
 RRRA Members are encouraged to participate in the 

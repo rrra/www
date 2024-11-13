@@ -5,7 +5,7 @@ title = "Walk MS: Fargo 2019"
 date = "2019-04-27T08:30:00-05:00"
 publishDate = "2019-02-01"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 The Red River Radio Amateurs will be providing communications support for the

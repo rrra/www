@@ -6,7 +6,7 @@ location = "[International Peace Garden](https://goo.gl/maps/teHWPUnioC72)"
 title = "55th International Hamfest"
 sponsor = "Peace Garden Hamfest Committee"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 Please visit the [ARRL 55th International Hamfest page](http://www.arrl.org/hamfests/55th-international-peace-garden-hamfest)

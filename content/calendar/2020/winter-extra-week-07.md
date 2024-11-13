@@ -7,7 +7,7 @@ location = "West Fargo Public Library"
 title = "Winter Extra Class Week 7"
 categories = [ "Education" ]
 dates = [ "Winter 2020 Extra" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 
 ### Topics

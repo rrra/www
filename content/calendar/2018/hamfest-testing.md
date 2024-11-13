@@ -6,7 +6,7 @@ endTime = ""
 location = "[RRV Fairgrounds Schollander Pavillion](/places/rrv-fairgrounds-schollander-pavillion)"
 title = "Hamfest Testing Session"
 dates = [ "License Testing" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 categories = [ "License Testing" ]
 +++
 {{% bring %}}

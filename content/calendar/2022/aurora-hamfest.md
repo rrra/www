@@ -7,8 +7,8 @@ location = "[Plymouth, MN](https://www.google.com/maps/place/West+Medicine+Lake+
 title = "Aurora'22 Conference"
 sponsor = "[Northern Lights Radio Society](http://www.nlrs.club/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
-update = 1
+outputs = [ "HTML" ]
+update = 2
 +++
 >Aurora, the largest annual gathering of weak-signal VHFers in the Upper
 >Midwest, is the annual meeting of the Northern Lights Radio Society. The

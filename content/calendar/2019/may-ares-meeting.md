@@ -6,6 +6,6 @@ publishDate = "2018-06-01T01:00:00-06:00"
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "May ARES Meeting"
 dates = [ "ARES Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2019/05/14/may-ares-meeting/" ]
 +++

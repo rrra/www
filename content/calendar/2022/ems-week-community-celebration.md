@@ -8,8 +8,8 @@ linkTitle = "EMS Week Celebration"
 location = "[Rheault Farm](/places/fargo-rheault-farm/)"
 contact = "KC0ODE"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 * Meet local EMTs, Paramedics, Police Officers, Firefighters and other emergency responders

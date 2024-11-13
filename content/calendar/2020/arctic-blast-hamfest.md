@@ -8,7 +8,7 @@ location = "[Bertha MN Community Center](https://goo.gl/maps/dn63vmyVbvxKbvQs7)"
 sponsor = "[Wadena Area Amateur Radio Club](http://www.wadenaham.org/)"
 contact = "N0CNC"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Please visit the 
 [ARRL Artic Blast 2020 page](http://www.arrl.org/hamfests/artic-blast-hamfest-2020)

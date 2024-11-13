@@ -7,7 +7,7 @@ location = "Cologne, MN"
 title = "SMARTSFEST 2018"
 sponsor = "[SMARTS Radio Club](http://www.smartsonline.org/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 More information about this Hamfest is available at:
 

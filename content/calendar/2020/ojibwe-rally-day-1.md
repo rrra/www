@@ -7,7 +7,7 @@ title = "Ojibwe Forests Rally Day 1"
 location = "Paul Bunyan State Forest, MN"
 contact = "N0GQA"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Amateur radio operators are needed to provide emergency communications
 for incidents and to provide logistical information to rally officials

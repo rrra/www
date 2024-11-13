@@ -8,5 +8,5 @@ title = "UHF/VHF Net 24"
 slug = "uhf-vhf-net-24"
 categories = [ "Public Service" ]
 dates = [ "NCS Schedule" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++

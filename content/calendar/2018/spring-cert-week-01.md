@@ -6,7 +6,7 @@ title = "Spring CERT Class Week 1"
 location = "West Acres Shopping Center"
 contact = "KC0DCF"
 dates = [ "CERT Training" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 ### Topics
 

@@ -6,6 +6,6 @@ location = "Zoom"
 title = "Hamfest Committee Meeting"
 linkTitle = "Hamfest Committee"
 dates = [ "Hamfest" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 +++

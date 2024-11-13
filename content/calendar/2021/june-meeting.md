@@ -6,7 +6,7 @@ endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "June Club Meeting"
 dates = [ "Club Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2021/06/15/june-club-meeting/" ]
 +++
 {{< banner class="alert" >}}

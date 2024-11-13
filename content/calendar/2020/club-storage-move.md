@@ -7,7 +7,7 @@ title = "Club Storage Move"
 location = "610 42nd St N"
 contact = "W0HNV"
 dates = [ "Membership" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Club equipment will be moved to a new storage location.
 

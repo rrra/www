@@ -6,7 +6,7 @@ location = "Zoom"
 title = "Hamfest Committee Meeting"
 linkTitle = "Hamfest Committee"
 dates = [ "Hamfest" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Hamfest Committee volunteers are asked to [subscribe to the hamfest
 mailing list]({{< relref "/post/2022/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})

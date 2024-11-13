@@ -5,7 +5,7 @@ title = "Dakota Division Virtual Meeting"
 location = "[Webinar](https://attendee.gotowebinar.com/register/3546387199993324547)"
 contact = "K0BBC"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 ARRL Dakota Division Director Matt Holden, K0BBC, is hosting a Dakota

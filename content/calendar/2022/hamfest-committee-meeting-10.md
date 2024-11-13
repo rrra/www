@@ -6,8 +6,8 @@ location = "[Zoom](https://cloud.rrra.org/index.php/f/49462)"
 title = "Hamfest Committee Meeting"
 linkTitle = "Hamfest Committee"
 dates = [ "Hamfest" ]
-outputs = [ "HTML", "Calendar" ]
-update = 1
+outputs = [ "HTML" ]
+update = 2
 +++
 The Zoom connection information and meeting agenda are in the [Meeting
 Notes](https://cloud.rrra.org/index.php/f/49462) (Groupware login required).

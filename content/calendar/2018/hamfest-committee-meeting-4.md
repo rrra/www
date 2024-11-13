@@ -6,7 +6,7 @@ publishDate = "2018-06-19"
 location = "[Fargo Fryn' Pan Family Restaurant](/places/fargo-fryn-pan-family-restaurant/)"
 title = "Hamfest Committee Meeting"
 dates = [ "Hamfest Committee" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 ---
 

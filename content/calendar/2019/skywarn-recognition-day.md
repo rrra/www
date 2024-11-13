@@ -7,7 +7,7 @@ title = "Skywarn Recognition Day"
 location = ""
 contact = "N0GFK"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Please see the [Skywarn Recognition Day]({{< relref "/post/2019/skywarn-recognition-day.md" >}})
 blog post for links to event details.

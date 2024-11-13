@@ -7,7 +7,7 @@ location = "West Fargo Public Library"
 title = "Winter Extra Class Week 1"
 categories = [ "Education" ]
 dates = [ "Winter 2018 Extra" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 topics = [ "Sign in", "Introductions" ]
 +++
 ## Topics

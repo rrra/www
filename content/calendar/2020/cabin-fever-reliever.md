@@ -7,7 +7,7 @@ location = "[Eagles Aerie 622](https://goo.gl/maps/e6hpsaugh4u8w6wA9)"
 title = "Cabin Fever Reliever"
 sponsor = "[St. Cloud Amateur Radio Club](https://w0sv.club/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Please visit the 
 [ARRL Cabin Fever Reliever page](http://www.arrl.org/hamfests/cabin-fever-reliever-4)

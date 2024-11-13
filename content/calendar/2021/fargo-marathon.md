@@ -6,7 +6,7 @@ contact = "KD0IOE"
 location = "Fargo / Moorhead Area"
 title = "Fargo Marathon 2021"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 draft = true
 +++

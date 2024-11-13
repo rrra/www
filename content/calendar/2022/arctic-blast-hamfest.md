@@ -9,7 +9,7 @@ sponsor = "[Wadena Area Amateur Radio Club](http://www.wadenaham.org/)"
 contact = "N0CNC"
 talkin = "147.120 147.33"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 update = 1
 status = "canceled"
 +++

@@ -7,7 +7,7 @@ endTime = "2018-05-05T13:00:00-05:00"
 location = "[Heritage Village, East Grand Forks MN](/places/heritage-village-east-grand-forks/)"
 title = "FORX Hamfest"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< figure src="http://wa0jxt.org/2018%20Hamfest%20Flyer.jpg" attr="Forx Amateur Radio Club" attrlink="http://wa0jxt.org/" alt="FORX Hamfest Flyer" >}}
 

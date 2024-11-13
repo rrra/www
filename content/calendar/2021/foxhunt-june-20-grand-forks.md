@@ -7,7 +7,7 @@ title = "Grand Forks Fox Hunt"
 location = "Grand Forks, ND"
 contact = "N0GFK"
 dates = [ "Fox Hunt" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 >The Forx ARC is hosting a direction finding fox hunt somewhere in town.
 >Any licensed Amateur is welcome to join us!

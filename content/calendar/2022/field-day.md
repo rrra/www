@@ -8,7 +8,7 @@ publishDate = "2022-04-24"
 contact = "fieldday"
 dates = [ "Outreach" ]
 Aliases = [ "/cal/2022/field-day/" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 >Field Day is ham radio's open house. Every June, more than 40,000 hams

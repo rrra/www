@@ -7,7 +7,7 @@ title = "May 16th Fox Hunt"
 location = "Fargo South High School"
 contact = "KA0LDG"
 dates = [ "Education" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2020/05/16/may-fox-hunt/" ]
 +++
 {{< banner >}}

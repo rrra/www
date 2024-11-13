@@ -7,7 +7,7 @@ endTime = "2020-08-11T20:00:00-05:00"
 publishDate = "2020-05-01"
 contact = "KC0ODE"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 +++
 {{< banner >}}                                                                                                                                                                            

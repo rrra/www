@@ -5,7 +5,7 @@ title = "Walk MS: Fargo 2020"
 date = "2020-04-25T08:30:00-05:00"
 publishDate = "2020-01-01"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 +++
 

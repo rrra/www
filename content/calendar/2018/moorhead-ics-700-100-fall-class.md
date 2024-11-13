@@ -7,7 +7,7 @@ title = "Moorhead ICS 700 100 Class"
 location = "MSUM Center of Business"
 contact = "W0JPJ"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Please [register on-line for this class](https://apps.cityofmoorhead.com/PublicTraining/Course/ICS700_100)
 

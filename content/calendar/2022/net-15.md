@@ -7,8 +7,8 @@ location = ""
 title = "UHF/VHF Net 15"
 slug = "uhf-vhf-net-15"
 dates = [ "NCS Schedule" ]
-outputs = [ "HTML", "Calendar" ]
-update = 1
+outputs = [ "HTML" ]
+update = 2
 +++
 Original NCS operator replaced per discussion thread starting at
 https://lists.rrra.org/mailman/private/ncs/2022-April/000027.html

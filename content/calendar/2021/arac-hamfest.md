@@ -7,7 +7,7 @@ location = "[Superior Curling Club](https://goo.gl/maps/bmRTwaCQxJ1vAhsq5)"
 title = "ARAC Hamfest"
 sponsor = "[Arrowhead Amateur Radio Club](http://www.thearac.org/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 More information about this Hamfest is available:
 

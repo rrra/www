@@ -8,7 +8,7 @@ title = "Stanley ND PHHRA Hamfest Picnic"
 linkTitle = "Stanley ND Hamfest"
 sponsor = "[Prairie Hills Ham Radio Association / K0PHH](http://www.phhra.org/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2019/06/09/stanley-nd-phhra-hamfest-picnic/" ]
 +++
 More information about this Hamfest is available at:

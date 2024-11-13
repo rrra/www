@@ -7,7 +7,7 @@ location = "[Rush City HIgh School](https://www.google.com/maps/place/Rush+City+
 contact = "KA0MEN"
 sponsor = "[East Central Minnesota Amateur Radio Club](http://www.magicrepeater.net/ecmarc.htm)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 :warning: **Times are unconfirmed**
 

@@ -7,7 +7,7 @@ location = "[Buffalo, MN](http://www.arrl.org/hamfests/midwinter-madness-2)"
 title = "Midwinter Madness Hamfest"
 sponsor = "[Maple Grove Radio Club](http://k0ltc.org)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 :warning: **Times are unconfirmed**
 

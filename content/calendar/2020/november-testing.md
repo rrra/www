@@ -6,7 +6,7 @@ endTime = ""
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "November Testing Session"
 dates = [ "License Testing" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 categories = [ "License Testing" ]
 status = "canceled"
 +++

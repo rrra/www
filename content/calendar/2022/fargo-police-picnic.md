@@ -7,7 +7,7 @@ endTime = "2022-06-29T20:00:00-05:00"
 publishDate = "2022-05-01"
 contact = "KC0ODE"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 RRRA Members will conduct outreach activities during this event. Please

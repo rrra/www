@@ -9,8 +9,8 @@ location = "Zoom"
 contact = ""
 dates = [ "Public Service" ]
 sponsor = "[Minnesota ARES](https://www.minnesotaares.org/ares/)"
-outputs = [ "HTML", "Calendar" ]
-update = 1
+outputs = [ "HTML" ]
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 Improve your skills as an emergency communicator at the first annual

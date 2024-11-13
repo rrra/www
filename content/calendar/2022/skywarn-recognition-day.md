@@ -7,8 +7,8 @@ title = "Skywarn Recognition Day"
 location = "[Various Modes](https://www.weather.gov/crh/skywarn_operating_procedures)"
 contact = "[Skywarn&trade; Recognition Day Coordinator](mailto:michael.lewis@noaa.gov)"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< import "post/2022/skywarn-recognition-day.md" >}}

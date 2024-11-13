@@ -7,7 +7,7 @@ title = "ND QSO Party"
 location = ""
 contact = "K0YL"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 * HF Bands: 160--10M (excluding WARC bands)
 * VHF Bands: 6 & 2M

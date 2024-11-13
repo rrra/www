@@ -6,7 +6,7 @@ title = "Summer CERT Class Week 1"
 location = "[Edgewood Vista](https://maps.google.com/?daddr=Edgewood+Vista,+4420+37th+Ave+S,+Fargo,+ND+58104)"
 contact = "KC0DCF"
 dates = [ "CERT Training" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 ### Topics
 

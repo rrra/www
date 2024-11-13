@@ -7,7 +7,7 @@ location = "[Roseville, MN](https://www.google.com/maps/place/Galilee+Lutheran+C
 title = "MAGIC Tailgater"
 sponsor = "[M.A.G.I.C. Repeater Group](http://www.magicrepeater.net/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 Please visit the [ARRL MAGIC Tailgater page](http://www.arrl.org/hamfests/magic-tailgater-3)

@@ -8,7 +8,7 @@ title = "Midwinter Madness Hobby Electronics Show"
 linkTitle = "Midwinter Madness"
 sponsor = "[Maple Grove Radio Club](http://k0ltc.org)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2020/03/21/midwinter-madness-hobby-electronics-show/" ]
 status = "canceled"
 +++

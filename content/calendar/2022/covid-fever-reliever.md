@@ -7,9 +7,9 @@ location = "[St. Cloud Armory](https://goo.gl/maps/4gKAVWyTLAE2)"
 title = "COVID Fever Reliever"
 sponsor = "[St. Cloud Amateur Radio Club](https://w0sv.club/hamfest/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 talkin = "147.015+ T100"
-update = 0
+update = 1
 +++
 More information about this event is available at:
 * [ARRL COVID Fever Reliever page](http://www.arrl.org/hamfests/covid-fever-reliever-2022)

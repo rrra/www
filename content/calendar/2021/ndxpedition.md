@@ -8,7 +8,7 @@ linkTitle = "ND Expedition"
 location = ""
 contact = "[K8AQM](mailto:k8aqm1629t@comcast.net)"
 dates = [ "hidden" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 aliases = [ "/cal/2021/05/20/skcc-nd-dxpedition/" ]
 +++

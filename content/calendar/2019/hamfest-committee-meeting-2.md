@@ -6,7 +6,7 @@ publishDate = "2019-04-30"
 location = "[Mom's Diner](/places/moms-diner/)"
 title = "Hamfest Committee Meeting"
 dates = [ "Hamfest Committee" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Hamfest Committee volunteers are asked to [subscribe to the hamfest
 mailing list]({{< relref "/post/2019/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})

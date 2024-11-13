@@ -8,7 +8,7 @@ publishDate = "2021-04-24"
 contact = "fieldday"
 dates = [ "Outreach" ]
 aliases = [ "/cal/2021/field-day/" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 >The COVID-19 pandemic-modified

@@ -9,8 +9,8 @@ location = "[Beadle County Sportsmans Club](https://www.yellowpages.com/huron-sd
 title = "Huron ARA Centennial Celebration"
 linkTitle = "Huron ARA Centennial"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
-update = 2
+outputs = [ "HTML" ]
+update = 1
 +++
 For more information please visit the
 [ARRL Huron ARA Centennial Celebration page](http://www.arrl.org/hamfests/huron-ara-centennial-celebration)

@@ -9,7 +9,7 @@ linkTitle = "RRRA Hamfest"
 categories = [ "Hamfest" ]
 dates = [ "Hamfest" ]
 aliases = [ "/cal/2019/hamfest/" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner >}}
 Please visit https://hamfest.rrra.org/ for information about this year's

@@ -7,7 +7,7 @@ date = "2021-06-26T13:00:00-05:00"
 publishDate = "2021-05-30"
 contact = "WB0BIN"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 ## Field Day Site Location

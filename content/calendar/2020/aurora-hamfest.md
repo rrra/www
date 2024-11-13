@@ -7,6 +7,6 @@ location = "[White Bear Lake, MN](https://www.google.com/maps/place/Community+of
 title = "Aurora '20 Convention"
 sponsor = "[Northern Lights Radio Society](http://www.nlrs.org/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 +++

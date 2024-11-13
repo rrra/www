@@ -7,8 +7,8 @@ publishDate = "2021-01-01"
 location = "[Heritage Village, East Grand Forks MN](/places/heritage-village-east-grand-forks/)"
 title = "Grand Forks Hamfest"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
-update = 3
+outputs = [ "HTML" ]
+update = 4
 +++
 <div id="flyer">
 {{< figure src="https://static.wixstatic.com/media/cbce30_c5e93c66e1a44703b8aac5a62f0e3a2d~mv2.jpg" >}}

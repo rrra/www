@@ -7,8 +7,8 @@ title = "ARRL Straight Key Night"
 location = "All authorized Amateur frequencies"
 contact = "straightkey@arrl.org"
 dates = [ "Social" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 >This 24-hour event is not a contest; rather it is a day

@@ -6,7 +6,7 @@ publishdate = "2019-02-20"
 location = "Fargo Public Safety Building"
 title = "Fargo SKYWARN Class"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2019/04/09/fargo-skywarn-class/" ]
 upcoming = "force"
 +++

@@ -8,8 +8,8 @@ location = ""
 contact = "WFDA@winterfieldday.com"
 sponsor = "[Winter Field Day Association](https://www.winterfieldday.com/)"
 dates = [ "Outreach" ]
-outputs = [ "HTML", "Calendar" ]
-update = 1
+outputs = [ "HTML" ]
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 Please visit the [Winter Field Day page](https://www.winterfieldday.com/) for

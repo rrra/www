@@ -7,7 +7,7 @@ location = "[Cologne, MN](https://www.google.com/maps/place/Cologne+Community+Ce
 title = "SMARTSFEST"
 sponsor = "[SMARTS Radio Club](http://www.smartsonline.org/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 +++
 {{< figure src="https://smartsonline.org/wp-content/uploads/2020/08/SMARTSFEST-2020-FB-Event-Canceled.png" alt="SMARTSFEST 2020 Canceled" link="http://smartsfest.org" attr="SMARTS Radio Club" attrlink="http://www.smartsonline.org/" >}}

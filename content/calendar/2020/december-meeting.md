@@ -7,7 +7,7 @@ location = "[Zoom](https://lists.rrra.org/pipermail/announce/2020-November/00053
 title = "December Virtual Club Meeting"
 linkTitle = "Virtual Club Meeting"
 dates = [ "Club Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 aliases = [ "/cal/2020/12/15/december-club-meeting/" ]
 +++
 {{< banner class="alert" >}}

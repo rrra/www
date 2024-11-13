@@ -7,8 +7,8 @@ location = "Zoom / YouTube"
 title = "Fall Technician Class Week 6"
 categories = [ "Education" ]
 dates = [ "Fall 2022 Technician" ]
-outputs = [ "HTML", "Calendar" ]
-update = 3
+outputs = [ "HTML" ]
+update = 4
 +++
 {{< banner expires="2022-08-10" >}}
 Registration for RRRA Fall 2022 Technician Classes is now open. Please

@@ -8,7 +8,7 @@ linkTitle = "Remote Testing"
 location = "On-line"
 contact = "vec"
 dates = [ "License Testing" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Please register through the
 [hamstudy.org Find a Session](https://hamstudy.org/sessions)

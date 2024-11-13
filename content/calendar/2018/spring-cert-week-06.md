@@ -1,6 +1,6 @@
 +++
 dates = [ "CERT Training" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 date = "2018-05-08T08:00:00-05:00"
 endTime = "2018-05-08T10:00:00-05:00"
 publishDate = "2018-01-01T00:00:00-06:00"

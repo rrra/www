@@ -9,7 +9,7 @@ linkTitle = "RRRA Hamfest"
 categories = [ "Hamfest" ]
 dates = [ "Hamfest" ]
 aliases = [ "/cal/2018/hamfest/", "/cal/2018/09/29/rrra-hamfest--arrl-nd-state-convention/" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner >}}
 Please visit https://hamfest.rrra.org/ for information about this year's

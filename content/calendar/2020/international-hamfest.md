@@ -6,7 +6,7 @@ location = "[International Peace Garden](https://goo.gl/maps/teHWPUnioC72)"
 title = "57th International Hamfest"
 sponsor = "[Internatonal Hamfest Committee](http://ve4qk.org/ve4qk/ihf.htm)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 +++
 

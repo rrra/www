@@ -8,7 +8,7 @@ location = "[Worthington Regional Airport](https://www.google.com/maps/place/Wor
 contact = "WB0ZSO"
 sponsor = "[Northern Plains Regional Radio Council](https://www.facebook.com/groups/NPRRC/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 :warning: **Times are unconfirmed**
 

@@ -7,8 +7,8 @@ title = "SKYWARN Virtual Quick Refresh 3"
 location = "[GoToWebinar](https://register.gotowebinar.com/rt/4527540815633443084?source=webdirect)"
 contact = "KC0ODE"
 dates = [ "Public Service", "Education" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 upcoming = "hide"
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++

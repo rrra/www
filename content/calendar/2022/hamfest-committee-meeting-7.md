@@ -6,8 +6,8 @@ location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "Hamfest Committee Meeting"
 linkTitle = "Hamfest Committee"
 dates = [ "Hamfest" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 +++
 Hamfest Committee volunteers are asked to [subscribe to the hamfest
 mailing list]({{< relref "/post/2022/hamfest-committee-members-needed.md#subscribing-to-the-mailing-list" >}})

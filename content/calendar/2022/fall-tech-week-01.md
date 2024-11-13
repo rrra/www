@@ -7,8 +7,8 @@ location = "West Fargo Public Library"
 title = "Fall Technician Class Week 1"
 categories = [ "Education" ]
 dates = [ "Fall 2022 Technician" ]
-outputs = [ "HTML", "Calendar" ]
-update = 3
+outputs = [ "HTML" ]
+update = 4
 +++
 {{< banner expires="2022-08-10" >}}
 Registration for RRRA Fall 2022 Technician Classes is now open. Please

@@ -7,7 +7,7 @@ publishDate = "2020-03-01T01:00:00-05:00"
 contact = "fieldday"
 dates = [ "Outreach" ]
 aliases = [ "/cal/2020/field-day/" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 Due to the COVID-19 pandemic it may not be possible for RRRA to operate its

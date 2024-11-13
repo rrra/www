@@ -7,7 +7,7 @@ location = "[Plymouth, MN](https://www.google.com/maps/place/West+Medicine+Lake+
 title = "TCFMC Spring Tailgate"
 sponsor = "[Twin City FM Club](http://tcfmc.org)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 :warning: **Times are unconfirmed**
 

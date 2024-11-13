@@ -6,6 +6,6 @@ endTime = "2019-11-19T19:00:00-06:00"
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "November ARES Meeting"
 dates = [ "ARES Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 tags = [ "ARES" ]
 +++

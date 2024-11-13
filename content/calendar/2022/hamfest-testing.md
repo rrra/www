@@ -6,7 +6,7 @@ endTime = "2022-09-24T13:00:00-05:00"
 location = "[RRV Fairgrounds Butler Arena](/places/rrv-fairgrounds-butler-arena/)"
 title = "Hamfest Testing Session"
 dates = [ "License Testing" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 categories = [ "License Testing" ]
 +++
 * Computerized testing only; paper tests will not be administered

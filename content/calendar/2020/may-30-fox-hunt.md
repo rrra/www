@@ -7,7 +7,7 @@ title = "May 30th Fox Hunt"
 location = "Fargo South High School"
 contact = "KA0LDG"
 dates = [ "Education" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner >}}
 **Meet in the south parking lot (on 17th Ave S)**

@@ -6,7 +6,7 @@ contact = "KC0SHM"
 location = "Fargo / Moorhead Area"
 title = "Fargo Marathon 2019"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 RRRA communication support for the Fargo Marathon will be coordinated

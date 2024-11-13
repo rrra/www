@@ -7,7 +7,7 @@ location = "[St Mary's Grade School, Bismarck, ND](https://www.google.com/maps/p
 title = "CDARC Hamfest"
 sponsor = "[Central Dakota Amateur Radio Club](http://www.cdarcnd.com/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 More information about this Hamfest is available at:
 

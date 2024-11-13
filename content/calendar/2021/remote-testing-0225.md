@@ -7,7 +7,7 @@ title = "Remote Testing"
 location = "To be announced"
 contact = "WC0G"
 dates = [ "License Testing" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 **This session will be limited to 3--4 testees and is intended for those
 in the ***local*** area.**

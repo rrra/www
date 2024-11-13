@@ -6,7 +6,7 @@ location = "[Zoom](https://lists.rrra.org/mailman/private/hamfest/2021-July/0003
 title = "Hamfest Committee Meeting"
 linkTitle = "Hamfest Committee"
 dates = [ "Hamfest Committee" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner >}}
 We will be meeting on Zoom.

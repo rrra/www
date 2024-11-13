@@ -6,7 +6,7 @@ publishdate = "2020-02-25"
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 title = "West Fargo SKYWARN Class"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "postponed"
 +++
 Please monitor the 

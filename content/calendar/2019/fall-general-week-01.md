@@ -7,7 +7,7 @@ location = "West Fargo Public Library"
 title = "Fall General Class Week 1"
 categories = [ "Education" ]
 dates = [ "Fall 2019 General" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{% banner expires="2019-10-02" %}}
 Registration for RRRA Fall 2019 General Classes is now open.  Please

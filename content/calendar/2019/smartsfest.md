@@ -7,7 +7,7 @@ location = "[Cologne, MN](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d
 title = "SMARTSFEST"
 sponsor = "[SMARTS Radio Club](http://www.smartsonline.org/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 :warning: **Times are unconfirmed**
 

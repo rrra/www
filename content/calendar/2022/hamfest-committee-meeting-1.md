@@ -6,7 +6,7 @@ location = "Zoom"
 title = "Hamfest Committee Meeting"
 linkTitle = "Hamfest Committee"
 dates = [ "Hamfest" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 
 It's time to start planning for the 2022 ARRL Dakota Division Convention

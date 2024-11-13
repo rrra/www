@@ -8,7 +8,7 @@ title = "February Virtual Meeting"
 aliases = [ "/cal/2021/02/16/february-virtual-club-meeting" ]
 linkTitle = "Virtual Club Meeting"
 dates = [ "Club Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner class="alert" >}}
 RRRA will not meet in-person this month due to ongoing concerns

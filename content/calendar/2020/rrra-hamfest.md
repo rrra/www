@@ -9,7 +9,7 @@ linkTitle = "RRRA Hamfest"
 categories = [ "Hamfest" ]
 dates = [ "Hamfest" ]
 aliases = [ "/cal/2020/hamfest/" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 +++
 {{< banner >}}

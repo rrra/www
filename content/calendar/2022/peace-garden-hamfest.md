@@ -7,8 +7,8 @@ title = "International Peace Garden Hamfest"
 linkTitle = "Peace Garden Hamfest"
 sponsor = "[Souris Valley Amateur Radio Club](https://sourisamateurradioclub.godaddysites.com/)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
-update = 4
+outputs = [ "HTML" ]
+update = 5
 talkin = "146.52, 444.500+"
 +++
 

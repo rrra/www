@@ -6,7 +6,7 @@ location = "[International Peace Garden](https://goo.gl/maps/teHWPUnioC72)"
 title = "56th International Hamfest"
 sponsor = "Internatonal Hamfest Committee"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 :warning: **Times are unconfirmed**
 

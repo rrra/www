@@ -7,7 +7,7 @@ title = "Radio Operator Badge Photos"
 location = "[West Fargo City Hall](/places/west-fargo-city-hall/)"
 contact = "ares"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 Amanda Johnson, Cass County EM assistant, will be taking photos of RRRA
 Members who previously submitted a *Radio Operator ID Application & Background

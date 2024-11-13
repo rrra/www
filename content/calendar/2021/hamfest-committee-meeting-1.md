@@ -6,7 +6,7 @@ location = "[Zoom](https://lists.rrra.org/mailman/private/hamfest/2021-February/
 title = "Hamfest Committee Meeting"
 linkTitle = "Hamfest Committee"
 dates = [ "Hamfest Committee" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 It's time to start planning for the 2021 ARRL Dakota Division Convention
 and RRRA Hamfest. This is the largest Hamfest in North Dakota drawing

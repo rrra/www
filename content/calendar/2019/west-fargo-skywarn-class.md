@@ -6,7 +6,7 @@ location = "[Red River Regional Marksmanship Center](/places/red-river-regional-
 title = "West Fargo SKYWARN Class"
 dates = [ "Public Service" ]
 contact = "[701-356-0677](tel:701-356-0677)"
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 * Presented by the National Weather Service
 * Sponsored by [RRRMC](http://www.rrrmc.com/)

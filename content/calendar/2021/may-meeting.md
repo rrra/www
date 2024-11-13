@@ -7,7 +7,7 @@ location = "[Zoom](https://lists.rrra.org/pipermail/announce/2021-May/000569.htm
 title = "May Virtual Meeting"
 linkTitle = "Virtual Club Meeting"
 dates = [ "Club Meetings" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 +++
 {{< banner class="alert" >}}
 Please visit

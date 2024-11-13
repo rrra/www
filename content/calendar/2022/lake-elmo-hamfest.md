@@ -7,8 +7,8 @@ title = "Lake Elmo Tail Gate Hamfest"
 linkTitle = "Lake Elmo Hamfest"
 sponsor = "[Metro Area Repeater Association](http://www.wd0hwt.net/) (MARA)"
 dates = [ "Regional Hamfests" ]
-outputs = [ "HTML", "Calendar" ]
-update = 0
+outputs = [ "HTML" ]
+update = 1
 +++
 More information about this Hamfest is available on the
 [ARRL Lake Elmo Tail Gate Hamfest page](http://www.arrl.org/hamfests/lake-elmo-tail-gate-hamfest)

@@ -7,7 +7,7 @@ title = "Ojibwe Forests Rally Day 2"
 location = "White Earth State Forest, MN"
 contact = "N0GQA"
 dates = [ "Public Service" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 upcoming = "force"
 +++
 Amateur radio operators are needed to provide emergency communications

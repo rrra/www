@@ -7,7 +7,7 @@ location = "West Fargo Public Library"
 title = "Spring Technician Class Week 1"
 categories = [ "Education" ]
 dates = [ "Spring 2019 Technician" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 
 +++
 ### Prerequisites

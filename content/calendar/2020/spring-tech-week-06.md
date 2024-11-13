@@ -7,7 +7,7 @@ location = "West Fargo Public Library"
 title = "Spring Technician Class Week 6"
 categories = [ "Education" ]
 dates = [ "Spring 2020 Technician" ]
-outputs = [ "HTML", "Calendar" ]
+outputs = [ "HTML" ]
 status = "canceled"
 upcoming = "hide"
 +++
