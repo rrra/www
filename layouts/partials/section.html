@@ -26,7 +26,18 @@
 			</span>
 		</div>
 
-		<h1 class="entry-title">{{ .Title | safeHTML }}</h1>
+		{{ $deco := "" }}
+		{{ $tags := .Params.tags }}
+		{{ with ( in $tags "podcast" ) }}
+			{{ $deco = "<span class='genericons-neue genericons-neue-microphone'></span>" }}
+			{{ $tags = "" }}
+		{{ end }}
+		{{ with ( in $tags "video" ) }}
+			{{ $deco = "<span class='genericons-neue genericons-neue-video'></span>" }}
+			{{ $tags = "" }}
+		{{ end }}
+
+		<h1 class="entry-title">{{ $deco | safeHTML }}{{ .Title | safeHTML }}</h1>
 
 		{{ if gt .Lastmod 0 }}
 			{{ $scratch.Set "timestamp" ( .Lastmod.Format "January 2, 2006" ) }}

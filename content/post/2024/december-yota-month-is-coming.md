@@ -1,7 +1,6 @@
 +++
 authors = [ "K0STK" ]
 categories = [ "Education" ]
-slug = ""
 tags = [ "ARRL", "podcast" ]
 moreText = "Listen To The Podcast"
 thumbnail = "https://assets.blubrry.com/coverart/300/930449-721631.jpg"

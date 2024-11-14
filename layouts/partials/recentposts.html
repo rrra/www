@@ -4,7 +4,11 @@
 		<ul>
 			{{ range first 5 (where .Site.RegularPages.ByDate "Section" "post").Reverse }}
 			<li>
-				<a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
+				{{ $deco := "" }}
+				{{ with ( in .Params.tags "podcast" ) }}
+					{{ $deco = "<span class='genericons-neue genericons-neue-microphone'></span>" }}
+				{{ end }}
+				<a href="{{ .RelPermalink }}">{{ $deco | safeHTML}}{{ .Title | safeHTML }}</a>
 			</li>
 			{{ end }}
 		</ul>

@@ -25,7 +25,11 @@
 				{{ $draft = " red" }}
 			{{ end }}
 		{{ end }}
-		<h2 class="entry-title{{ $draft }}">{{ .Title | safeHTML }}</h2>
+		{{ $deco := "" }}
+		{{ with ( in .Params.tags "podcast" ) }}
+			{{ $deco = "<span class='genericons-neue genericons-neue-microphone'></span>" }}
+		{{ end }}
+		<h2 class="entry-title{{ $draft }}">{{ $deco | safeHTML}}{{ .Title | safeHTML }}</h2>
 
 		<div class="entry-meta">
 			<span class="entry-date" title="Publication date and permalink">

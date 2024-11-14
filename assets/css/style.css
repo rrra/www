@@ -1962,9 +1962,15 @@ div.arrl.td {
 	white-space: nowrap;
 }
 
-/* Footnote links are broken in div.summary */
+/* Footnote links are broken in div.summary; don't show them */
 div.entry-summary a.footnote-ref {
 	display: none;
+}
+
+/* Genericon positioning for headline and link decoration */
+.entry-title .genericons-neue,
+aside#recent-posts-3 .genericons-neue {
+	vertical-align: baseline;
 }
 
 /**
