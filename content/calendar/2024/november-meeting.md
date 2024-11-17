@@ -7,7 +7,7 @@ title = "November Business Meeting"
 linkTitle = "Business Meeting"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 aliases = [ "" ]
 +++
 ### Meeting Information
