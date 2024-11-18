@@ -2,7 +2,7 @@
 date = "2024-11-17T20:20:29-06:00"
 title = "Be a part of Skywarn Recognition Day"
 authors = [ "K0STK" ]
-categories = [ "Outreach" ]
+categories = [ "Outreach", "Public Service" ]
 tags = [ "ARES", "Skywarn", "NWS" ]
 +++
 Join in recognizing all of the Skywarn&trade; spotters serving our nation
