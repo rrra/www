@@ -19,16 +19,24 @@
 			</span>
 		</div>
 
+		{{/* Set uncommited content warning class */}}
 		{{ $draft := "" }}
 		{{ if eq "development" hugo.Environment }}
 			{{ with .GitInfo }}{{ else }}
 				{{ $draft = " red" }}
 			{{ end }}
 		{{ end }}
+
+		{{/* Title decoration derived from tags */}}
 		{{ $deco := "" }}
-		{{ with ( in .Params.tags "podcast" ) }}
+		{{ $lower_tags := "" }}
+		{{ with .Params.tags }}
+			{{ $lower_tags = lower ( delimit . "," ) }}
+		{{ end }}
+		{{ with ( in $lower_tags "podcast" ) }}
 			{{ $deco = "<span class='genericons-neue genericons-neue-microphone'></span>" }}
 		{{ end }}
+
 		<h2 class="entry-title{{ $draft }}">{{ $deco | safeHTML}}{{ .Title | safeHTML }}</h2>
 
 		<div class="entry-meta">

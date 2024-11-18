@@ -26,15 +26,18 @@
 			</span>
 		</div>
 
+		{{/* Title decoration derived from tags */}}
 		{{ $deco := "" }}
-		{{ $tags := .Params.tags }}
-		{{ with ( in $tags "podcast" ) }}
-			{{ $deco = "<span class='genericons-neue genericons-neue-microphone'></span>" }}
-			{{ $tags = "" }}
+		{{ $lower_tags := "" }}
+		{{ with .Params.tags }}
+			{{ $lower_tags = lower ( delimit . "," ) }}
 		{{ end }}
-		{{ with ( in $tags "video" ) }}
+		{{ with ( in $lower_tags "podcast" ) }}
+			{{ $deco = "<span class='genericons-neue genericons-neue-microphone'></span>" }}
+		{{ end }}
+		{{ with ( in $lower_tags "video" ) }}
 			{{ $deco = "<span class='genericons-neue genericons-neue-video'></span>" }}
-			{{ $tags = "" }}
+			{{ $lower_tags = "" }}
 		{{ end }}
 
 		<h1 class="entry-title">{{ $deco | safeHTML }}{{ .Title | safeHTML }}</h1>
