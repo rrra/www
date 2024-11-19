@@ -2,7 +2,7 @@
 date = "2024-11-06T01:29:33-06:00"
 title = "Radio network group’s Preparation Day draws interest in shadow of recent disasters"
 categories = [ "Public Service" ]
-tags = [ "GMRS", "Preparedness" ]
+tags = [ "GMRS", "Preparedness", "Crosspost" ]
 xpostLink = "https://www.morganmessenger.com/2024/10/29/radio-network-groups-preparation-day-draws-interest-in-shadow-of-recent-disasters/"
 xpostName = "The Morgan Messenger"
 xpostComment = "Visit [PrepareMorganCounty.com](http://www.preparemorgancounty.com/) to learn more about Morgan County Emergency Communications Network, Inc., and their preparedness outreach."

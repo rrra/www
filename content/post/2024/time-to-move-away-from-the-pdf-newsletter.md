@@ -2,7 +2,7 @@
 date = "2024-10-25T00:01:12-05:00"
 title = "Ham Radio Clubs: It's time to move away from the PDF Newsletter"
 categories = [ "Membership" ]
-tags = []
+tags = [ "Accessibility", "Crosspost" ]
 xpostLink = "https://midnightcheese.com/2024/10/ham-radio-clubs-move-away-from-the-pdf-newsletter/"
 xpostName = "Midnight Cheese"
 xpostComment = "And it is far beyond time to move away from PDF flyers, too.  Not only for content discovery but also for compatibility with the different screen sizes used by your readers."

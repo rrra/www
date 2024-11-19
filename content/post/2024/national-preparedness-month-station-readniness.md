@@ -2,7 +2,7 @@
 date = "2024-09-23T01:41:06-05:00"
 title = "National Preparedness Month: Station Readiness"
 categories = [ "Public Service" ]
-tags = [ "ARRL", "Preparedness" ]
+tags = [ "ARRL", "Preparedness", "Crosspost" ]
 xpostLink = "http://www.arrl.org/news/national-preparedness-month-station-readiness"
 xpostName = "ARRL News"
 +++

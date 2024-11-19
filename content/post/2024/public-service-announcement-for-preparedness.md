@@ -2,7 +2,7 @@
 date = "2024-10-30T01:35:22-05:00"
 title = "Public Service Announcement for Preparedness"
 categories = [ "Public Service" ]
-tags = [ "Preparedness", "Zero Retries" ]
+tags = [ "Preparedness", "Zero Retries", "Crosspost" ]
 xpostLink = "https://www.zeroretries.org/i/150024163/public-service-announcement-for-preparedness"
 xpostName = "Zero Retries 0173"
 +++

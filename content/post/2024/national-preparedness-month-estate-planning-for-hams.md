@@ -2,7 +2,7 @@
 date = "2024-09-25T01:54:19-05:00"
 title = "National Preparedness Month: Estate Planning for Hams"
 categories = [ "Membership" ]
-tags = [ "ARRL", "Preparedness", "Youtube" ]
+tags = [ "ARRL", "Preparedness", "Youtube", "Crosspost" ]
 xpostLink = "http://www.arrl.org/news/estate-planning-for-hams-what-happens-to-all-your-stuff"
 xpostName = "ARRL News"
 +++

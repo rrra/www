@@ -2,7 +2,7 @@
 date = "2024-09-24T01:10:47-05:00"
 title = "National Preparedness Month: Back Up Your Computers"
 categories = [ "Public Service" ]
-tags = [ "Preparedness" ]
+tags = [ "Preparedness", "Crosspost" ]
 xpostLink = "https://blog.radioartisan.com/2024/09/17/back-up-your-computers-a-critical-part-of-national-preparedness-month/"
 xpostName = "Radio Artisan"
 +++

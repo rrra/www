@@ -2,7 +2,7 @@
 date = "2024-09-21T01:38:35-05:00"
 title = "National Preparedness Month: Have a Go Kit"
 categories = [ "Public Service" ]
-tags = [ "ARRL", "Preparedness" ]
+tags = [ "ARRL", "Preparedness", "Crosspost" ]
 xpostLink = "http://www.arrl.org/news/national-preparedness-month-have-a-go-kit"
 xpostName = "ARRL News"
 +++

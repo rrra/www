@@ -4,7 +4,7 @@ date = "2024-10-12T10:23:57-05:00"
 title = "Observations About 21st Century Emergency Communications via Satellite"
 authors = [ "N8GNJ" ]
 categories = [ "Public Service" ]
-tags = [ "Zero Retries" ]
+tags = [ "Zero Retries", "Crosspost" ]
 xpostLink = "https://www.zeroretries.org/p/zero-retries-0173?open=false#%C2%A7a-few-more-observations-about-st-century-emergency-communications-via-satellite"
 xpostName = "Zero Retries 0173"
 +++

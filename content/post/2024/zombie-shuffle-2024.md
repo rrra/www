@@ -3,7 +3,7 @@ date = "2024-10-26T09:39:46-05:00"
 #publishdate = "2024-10-26T09:39:46-05:00"
 title = "Zombie Shuffle 2024"
 categories = [ "Outreach" ]
-tags = [ "Contesting", "QRP" ]
+tags = [ "Contesting", "QRP", "Crosspost" ]
 xpostLink = "https://wb3gck.com/2024/10/26/zombie-shuffle-2024/"
 xpostName = "WB3GCK QRP Amateur Radio"
 +++

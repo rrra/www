@@ -3,7 +3,7 @@ date = "2024-09-29T15:22:16-05:00"
 #publishdate = "2024-09-29T15:22:16-05:00"
 title = "We Need to Let Go of the Dots and Dashes"
 categories = [ "Education" ]
-tags = []
+tags = [ "CW", "Crosspost" ]
 xpostLink = "https://w8mhb.com/dots-and-dashes"
 xpostName = "UR 599 OM"
 +++

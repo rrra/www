@@ -4,7 +4,7 @@ date = "2024-09-02T08:57:20-05:00"
 title = "Ham Radio Still Alive and Kicking in Wyoming"
 #authors = [ "Jackie Dorothy" ]
 categories = [ "Outreach" ]
-tags = []
+tags =  [ "Preparedness", "Crosspost" ]
 xpostLink = "https://cowboystatedaily.com/2024/08/25/before-wi-fi-ham-radio-kept-wyoming-connected-with-civilization/"
 xpostName = "Cowboy State Daily"
 +++

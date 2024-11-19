@@ -2,7 +2,7 @@
 date = "2024-10-13T01:58:33-05:00"
 title = "Through Hurricanes Helene and Milton Amateur Radio Triumphs When All Else Fails"
 categories = [ "Public Service" ]
-tags = [ "Wired" ]
+tags = [ "Wired", "Crosspost" ]
 xpostLink = "https://www.wired.com/story/hurricane-helene-milton-north-carolina-florida-amateur-radio/?utm_source=amateur-radio-weekly&utm_medium=email&utm_campaign=newsletter"
 xpostName = "Wired"
 xpostComment = "An audio transcript is available in the original article.<br><br>Writers: Makena Kelly & Dell Cameron"
