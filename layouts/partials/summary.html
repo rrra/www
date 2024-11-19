@@ -34,11 +34,11 @@
 			{{ $lower_tags = lower ( delimit . "," ) }}
 		{{ end }}
 		{{ with ( in $lower_tags "podcast" ) }}
-			{{ $deco = "<span class='genericons-neue genericons-neue-microphone' title='Podcast audio content'></span>" }}
+			{{ $deco = "<span class='genericons-neue genericons-neue-microphone' title='Featuring audio podcast content'></span>" }}
 			{{ $lower_tags = "" }}
 		{{ end }}
 		{{ with ( in $lower_tags "video" ) }}
-			{{ $deco = "<span class='genericons-neue genericons-neue-video' title='Video content'></span>" }}
+			{{ $deco = "<span class='genericons-neue genericons-neue-video' title='Featuring video content'></span>" }}
 			{{ $lower_tags = "" }}
 		{{ end }}
 		{{ with ( in $lower_tags "crosspost" ) }}
