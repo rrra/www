@@ -24,7 +24,7 @@ to obtain their *SRD number* and are encouraged to plot their
 may be completed through Google Forms or the
 [Skywarn&trade; Recognition Day Facebook Page](https://www.facebook.com/groups/srd2021/).
 
-The log submission deadline is January 31, 2025. 
+:warning: The log submission deadline is January 31, 2025. 
 
 Event
 [participation certificates](https://www.weather.gov/crh/skywarncert)
