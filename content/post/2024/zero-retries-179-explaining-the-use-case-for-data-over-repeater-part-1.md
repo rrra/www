@@ -1,9 +1,10 @@
 +++
 date = "2024-11-23T10:29:02-06:00"
 #publishdate = "2024-11-23T10:29:02-06:00"
-title = "Explaing the Use Case for Data Over Repeater - Part 1"
+title = "Explaining the Use Case for Data Over Repeater - Part 1"
 categories = [ "Technical" ]
 tags = [ "Zero Retries", "Crosspost" ]
+aliases = [ "/post/2024/11/23/explaing-the-use-case-for-data-over-repeater-part-1/" ]
 xpostLink = "https://www.zeroretries.org/p/zero-retries-0179?open=false#%C2%A7explaining-the-use-case-for-data-over-repeater-part"
 xpostName = "Zero Retries 0179"
 xpostComment = "See the original article page for reader comments."
