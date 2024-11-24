@@ -19,6 +19,9 @@ John’s University in New York City on July 12, 2024.
 {{< youtube S1lygm5U3mo >}}
 <p class="clear"></p>
 
+The slides from this talk are published in KB6NU's [There is HOPE for amateur
+radio blog post](https://www.kb6nu.com/there-is-hope-for-amateur-radio/).
+
 >You can check out all the talks from HOPE XV on the
 >[2600’s YouTube channel](https://www.youtube.com/@HackerVideo).
 >The channel has videos from all of the HOPE conferences dating back to 1994.[^2]
