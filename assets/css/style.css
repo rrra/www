@@ -1288,6 +1288,7 @@ padding: 8px;
 p.clear { clear: both; }
 
 figcaption p a::before { content: ' '; display: block; }
+figcaption p { margin-top: 6px; }
 
 /**
 * 6.5 Gallery
