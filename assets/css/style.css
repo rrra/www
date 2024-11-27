@@ -1741,6 +1741,7 @@ line-height: 1.3333333333;
 	padding: 24px 24px 0px 24px;
 	border-top: thin solid;
 	border-bottom: thin solid;
+	margin: 24px 0;
 }
 
 .alert, .red {
