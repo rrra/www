@@ -67,8 +67,6 @@ of the League
 [send a letter to your director](https://actionnetwork.org/letters/myarrlvoice-member-letter-to-directors)
 **before the January 19 Board Meeting**.
 
-{{< tweet user="arrl" id="950811411877212160" >}}
-
 ### About myARRLvoice
 
 >myARRLvoice is an independent grassroots group of amateur radio
