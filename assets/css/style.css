@@ -1442,7 +1442,7 @@ border-top: 1px solid #000;
 border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 clear: both;
 color: rgba(255, 255, 255, 0.7);
-margin-top: -1px;
+margin-top: 24px;
 padding: 0 10px;
 position: relative;
 z-index: 2;
@@ -2090,7 +2090,6 @@ aside#recent-posts-3 .genericons-neue {
 	.list-view .site-content .entry-meta {
 		background-color: transparent;
 		clear: none;
-		margin: 0;
 		text-transform: none;
 	}
 
@@ -2409,7 +2408,7 @@ aside#recent-posts-3 .genericons-neue {
 	}
 
 	.content-area {
-		float: left;
+		/*float: left;*/
 		width: 100%;
 	}
 
