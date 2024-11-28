@@ -2408,7 +2408,7 @@ aside#recent-posts-3 .genericons-neue {
 	}
 
 	.content-area {
-		/*float: left;*/
+		float: left;
 		width: 100%;
 	}
 
