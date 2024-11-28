@@ -2408,7 +2408,6 @@ aside#recent-posts-3 .genericons-neue {
 	}
 
 	.content-area {
-		float: left;
 		width: 100%;
 	}
 
@@ -2497,6 +2496,11 @@ aside#recent-posts-3 .genericons-neue {
 
 /* Enable narrow sidebar */
 @media screen and (min-width: 1008px) {
+
+	.content-area {
+		float: left;
+	}
+
 	.list-view .content-area {
 		padding: 24px 0 24px;
 	}
