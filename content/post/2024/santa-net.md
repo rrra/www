@@ -2,7 +2,7 @@
 date = "2024-11-26T01:00:39-06:00"
 title = "Santa Net starts November 29th"
 categories = [ "Outreach" ]
-tags = [ "Net", "Crosspost" ]
+tags = [ "Santa", "Net", "Crosspost" ]
 xpostLink = "https://daily.hamweekly.com/2024/11/santa-net-runs-through-christmas-eve/"
 xpostName = "Amateur Radio Daily"
 xpostComment = "Visit the [Santa Net website](https://www.cqsanta.com/) for more information and videos of Santa Net contacts"
