@@ -1,7 +1,7 @@
 +++
 authors = [ "K0STK" ]
 categories = [ "Membership" ]
-date = "2024-12-06T01:00:00-06:00"
+date = "2024-12-08T01:00:00-06:00"
 description = "Annual dues reminder"
 slug = ""
 tags = []
