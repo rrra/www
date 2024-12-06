@@ -2,7 +2,9 @@
 
 	<h2 class="widget-title">Recent Posts</h2>
 		<ul>
-			{{ range first 5 (where .Site.RegularPages.ByDate "Section" "post").Reverse }}
+			{{ $pages := (where .Site.RegularPages.ByDate "Section" "post").Reverse }}
+			{{ $pages := $pages | intersect (where .Site.RegularPages "Params.noindex" "!=" "true") }}
+			{{ range first 5 $pages }}
 			<li>
 				{{ $deco := "" }}
 				{{ $lower_tags := "" }}
