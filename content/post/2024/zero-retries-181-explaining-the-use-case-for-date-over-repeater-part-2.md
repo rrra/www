@@ -41,8 +41,8 @@ is that they prefer data communications ... text[^6] ... to voice
 communications for their casual communications.
 
 Just as modern society has migrated to data / text communications
-for much of its typical communications---text messages, sharing
-photos, email, social media (both text and short video)---Amateur
+for much of its typical communications --- text messages, sharing
+photos, email, social media (both text and short video) --- Amateur
 Radio has begun to migrate its communications (and experimentation)
 to data / text. Witness the widespread use of data modes such
 as WSPR, PSK31, FT8, VARA, FSQ, and APRS, and even EME using
@@ -85,7 +85,7 @@ But digipeater operation falls down in a number of ways:
 * Digipeaters are generally very simple devices, with limited
 buffer memory, and thus can accommodate only small amounts of data
 and short packets. Larger amounts of data or longer packets cause
-“fragmentation” through the repeater, and reduce throughput.
+"fragmentation" through the repeater, and reduce throughput.
 
 * If the number of users of a digipeater rises above a certain threshold
 where too may transmissions exceed the digipeater’s (channel)
@@ -98,7 +98,7 @@ the digipeater can hear all users equally well, and thus there are
 This cascades into the digipeater and users "backing off", severely
 reducing the overall throughput of the channel.
 
-* And, generally, digipeaters are “fossilized” in using 1200 bps
+* And, generally, digipeaters are "fossilized" in using 1200 bps
 Audio Frequency Shift Keying (AFSK).
 
 ## In Contrast to Digipeaters, Repeaters Work Well
@@ -122,10 +122,11 @@ user of that repeater knows that the repeater is in use, and thus
 "collisions" (such as result from Hidden Transmitter / Node Problem)
 are minimized.
 
-A subtle "feature" of repeaters is that they can act as a "water hole" -
-a central gathering spot... kind of like a continuous club meeting for a
-particular group of users. (From other articles in this issue, the water
-hole effect is especially prominent with Amateur Radio video repeaters.)
+A subtle "feature" of repeaters is that they can act as a "water hole"
+--- a central gathering spot... kind of like a continuous club meeting
+for a particular group of users. (From other articles in this issue,
+the water hole effect is especially prominent with Amateur Radio video
+repeaters.)
 
 Lastly, using a repeater de facto enforces minimal / compatible
 technical standards of all users, such as requiring a reasonable signal
@@ -136,7 +137,7 @@ digital voice technology, or any number of other technical standards.
 But... Amateur Radio VHF / UHF repeaters are built for, and used for, almost
 exclusively voice operations. Yes, there are some data capabilities
 incorporated into some digital voice systems used in Amateur Radio --- see Zero
-Retries 0179 --- ["Data capability" on D-Star, System Fusion, DMR, and
+Retries 0179 - ["Data capability" on D-Star, System Fusion, DMR, and
 P25](https://www.zeroretries.org/i/151787628/data-capability-on-d-star-system-fusion-dmr-and-p)
 as explanation of why those systems aren’t very relevant in this era.
 
@@ -391,7 +392,9 @@ applications.
 * We have several implementations of Forward Error Correction, which
 makes a huge difference in overall reliability of data communications.
 
-Thus I think the time is right to try data communications over Amateur Radio repeaters, and see if we can "recreate the magic" of we users of the PSARTN experienced.
+Thus I think the time is right to try data communications over Amateur
+Radio repeaters, and see if we can "recreate the magic" of we users of
+the PSARTN experienced.
 
 *I’m grateful to friends Ren Roderick KJ7B and Michael Sterba KG7HQ who
 reviewed and commented on a very early draft of the section about the
