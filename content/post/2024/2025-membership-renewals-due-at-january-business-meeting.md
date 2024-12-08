@@ -5,14 +5,15 @@ date = "2024-12-08T01:00:00-06:00"
 description = "Annual dues reminder"
 slug = ""
 tags = []
-title = "2025 Membership Renewals Due At January Business Meeting" 
+title = "2025 Membership Renewals Due At The January Club Activity" 
+aliases = [ "/post/2024/12/08/2025-membership-renewals-due-at-january-business-meeting/" ]
 featured = true
 endFeatured = "2025-01-21T19:00:00-06:00"
 siteBanner = true
 bannerText ="[Renew your membership today!](/join/)"
 +++
 Membership renewals for 2025 are due at the
-<span style="hyphens:none;">[January club meeting]({{< relref "/calendar/2025/january-meeting.md" >}}).</span>
+<span style="hyphens:none;">[January Club Activity]({{< relref "/calendar/2025/january-meeting.md" >}}).</span>
 
 {{< banner >}}
 :white_check_mark: [Renew online today!]({{< relref "/join/pay-by-card.md" >}})
