@@ -10,8 +10,9 @@ featured = true
 endFeatured = "2025-01-21T20:00:00-06:00"
 +++
 Join your fellow club members at the
-[January RRRA Meeting]({{< relref "/calendar/2025/january-meeting.md" >}})
-for a first-hand report about a very rare POTA activation.
+[January RRRA Activity]({{< relref "/calendar/2025/january-meeting.md" >}})
+for a first-hand report about
+[a very rare POTA activation](https://pota.app/#/park/US-7888).
 
 Enjoy an interactive experience and *eyeball QSOs*; no club business
 will be be discusssed at this meeting!
