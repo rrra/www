@@ -7,7 +7,7 @@ title = "January Activity: Alcatraz POTA Activation Presentation"
 linkTitle = "January Activity"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 aliases = [ "" ]
 +++
 ### Membership Renewals For 2024 Are Due
@@ -22,6 +22,8 @@ Payment by debit, credit, or PayPal account accepted
 
 Shawn KF0IBC will give a presentation about his Parks On The Air (POTA)
 activation of [Alcatraz Island National Park](https://www.nps.gov/alca/index.htm).
+
+{{< figure src="//images.rrra.org/2025/kf0ibc-pota.jpg" alt="POTA logo and KF0IBC's picture.">}}
 
 ### About POTA
 
