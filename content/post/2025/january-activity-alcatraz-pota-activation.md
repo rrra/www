@@ -14,6 +14,8 @@ Join your fellow club members at the
 for a first-hand report about
 [a very rare POTA activation](https://pota.app/#/park/US-7888).
 
-Enjoy an interactive experience and *eyeball QSOs*; no club business
+:star: Enjoy an interactive experience and *eyeball QSOs*; no club business
 will be be discusssed at this meeting!
+
+**[Your 2025 RRRA membership renewal is due at the January Activity]({{< relref "/post/2024/2025-membership-renewals-due-at-january-business-meeting.md" >}})**
 <!--more-->
