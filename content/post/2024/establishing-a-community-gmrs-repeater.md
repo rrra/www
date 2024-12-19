@@ -45,8 +45,8 @@ to operate a GMRS radio. The FCC has operational rules to follow and
 they are simple and straightforward mostly along the lines of common
 sense and courtesy.
 
-* [https://www.fcc.gov/wireless/universal-licensing-system](Obtain a GMRS license online)
-* [https://wireless2.fcc.gov/UlsEntry/licManager/login.jsp](FCC GMRS information)
+* [Obtain a GMRS license online](https://www.fcc.gov/wireless/universal-licensing-system)
+* [FCC GMRS information](https://wireless2.fcc.gov/UlsEntry/licManager/login.jsp)
 
 ## GMRS Radio
 
