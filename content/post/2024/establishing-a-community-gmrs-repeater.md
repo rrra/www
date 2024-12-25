@@ -1,7 +1,7 @@
 +++
 date = "2024-12-17T01:47:55-06:00"
 title = "Establishing a Community GMRS Repeater"
-categories = [ "Education", "Techincal" ]
+categories = [ "Education", "Technical" ]
 tags = [ "GMRS", "Crosspost" ]
 xpostLink = "https://daily.hamweekly.com/2024/12/gmrs-repeater-station-k8ebr/"
 xpostName = "Amateur Radio Daily"
