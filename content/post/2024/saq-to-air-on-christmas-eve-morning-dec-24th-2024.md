@@ -1,6 +1,7 @@
 +++
 date = "2024-12-21T10:53:33-06:00"
 title = "SAQ to Air on Christmas Eve Morning, Dec 24th 2024"
+categories = [ "Technical" ]
 tags = [ "SAQ", "Crosspost" ]
 xpostLink = "https://alexander.n.se/en/saq-to-air-on-christmas-eve-morning-dec-24th-2024/"
 xpostName = "The Alexander association"
