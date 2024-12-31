@@ -7,6 +7,6 @@ featured = true
 +++
 Wishing everyone another great year full of Ham Radio!
 
-Join in a celebration of the start of 2025---and our CW heritage---with
+Remember to join in a celebration of the start of 2025---and our CW heritage---with
 [ARRL Straight Key Night]({{< relref "/post/2024/arrl-straight-key-night-2025.md" >}})
 <!--more-->
