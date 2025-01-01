@@ -6,7 +6,7 @@ categories = [ "Education", "Outreach", "Technical" ]
 tags = [ "RATPAC" ]
 moreText = "View the Check List"
 +++
-Sometimes it takes a little inspration to try different facets of our
+Sometimes it takes a little inspiration to try different facets of our
 hobby... Here's an Amateur Radio Challenges Checklist from
 [RATPAC](https://www.ratpac.us/home) to expand your horizons.
 
