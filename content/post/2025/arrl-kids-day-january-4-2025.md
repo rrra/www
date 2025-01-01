@@ -1,5 +1,5 @@
 +++
-date = "2025-01-01T18:20:35-06:00"
+date = "2025-01-02T01:20:35-06:00"
 title = "ARRL Kids Day: January 4, 2025"
 categories = [ "Outreach" ]
 tags = [ "ARRL", "Crosspost" ]
