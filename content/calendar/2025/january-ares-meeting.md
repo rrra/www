@@ -9,4 +9,5 @@ dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 update = 0
 aliases = [ "" ]
+status = "canceled"
 +++
