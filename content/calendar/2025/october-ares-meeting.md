@@ -1,4 +1,5 @@
 +++
+draft = true
 contact = "KC0ODE"
 date = "2025-10-21T18:30:00-05:00"
 publishDate = "2025-07-23"
