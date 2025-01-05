@@ -57,11 +57,13 @@
 					</time>
 				</a>
 			</span>
-			<span class="vcard author byline" title="Authors">
-				{{ range .Params.authors }}
-					<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
-				{{ end }}
-			</span>
+			{{ if ne .Params.authors nil }}
+				<span class="vcard author byline" title="Authors">
+					{{ range .Params.authors }}
+						<a class="url nickname" href="/authors/{{ lower . | urlize }}/" rel="author"><span class="fn">{{ . }}</span></a>
+					{{ end }}
+				</span>
+			{{ end }}
 			{{ if ne .Params.xpostLink nil }}
 				<span class="xpost-link" title="Article cross-posted from {{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}">
 					<a href="{{ .Params.xpostLink }}">{{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}</a>
