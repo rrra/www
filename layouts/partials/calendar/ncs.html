@@ -19,7 +19,7 @@
 		<dt class="twocol header">WHEN:</dt>
 		<dd class="twocol"><time class="dt-start" datetime="{{ .Date }}">{{ .Date.Format "Mon, 02 Jan 2006 15:04 MST" }}</time></dd>
 		<dt class="twocol header">WHERE:</dt>
-		<dd class="twocol"><span class="p-location">{{if eq .Params.location ""}}{{ $w0ilo | safeHTML }}{{ else }}{{ .Params.location }}{{ end }}</span></dd>
+		<dd class="twocol"><span class="p-location">{{if eq .Params.location ""}}{{ $w0ilo | safeHTML }}{{ else }}{{ .Params.location | markdownify }}{{ end }}</span></dd>
 		<dt class="twocol header">NCS:</dt>
 		<dd class="twocol"><span class="p-organizer"><a href="/ncs/{{ index .Params.ncs 0 | urlize }}">{{ index .Params.ncs 0 }}</a></span></dd>
 		</dl>
