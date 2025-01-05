@@ -58,7 +58,7 @@
 			<h3>{{ .Key }}</h3>
 			<dl id="list-{{ .Key }}{{ if eq ( $.Scratch.Get "li" ) "ncsdli" }}-ncs{{ end }}">
 			{{ range .Pages.Reverse }}
-				{{ if and ( eq $highlight "" ) ( gt (.Date.Unix) (now.Unix) ) }}{{ $highlight = "yes" }}{{ end }}
+				{{ if and ( eq $highlight "" ) ( and ( eq .Params.status nil ) ( gt (.Date.Unix) (now.Unix) ) ) }}{{ $highlight = "yes" }}{{ end }}
 				{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Jan 2" ) ) }}
 					{{ partial "calendar/sameday-dates.html" (dict "page" . "highlight" $highlight ) }}
 				{{ else }}
