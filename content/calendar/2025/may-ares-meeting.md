@@ -1,5 +1,4 @@
 +++
-draft = true
 contact = "KC0ODE"
 date = "2025-05-20T18:30:00-05:00"
 publishDate = "2025-02-19"
@@ -8,6 +7,6 @@ title = "May ARES Meeting"
 linkTitle = "ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 2
 aliases = [ "" ]
 +++
