@@ -3,11 +3,11 @@
 	<h2 class="widget-title">Happenings</h2>
 
 	<ul>
-		{{ range $name,$taxonomy := .Site.Taxonomies.dates }}
+		{{ range $name,$taxonomy := site.Taxonomies.dates }}
 			{{ range last 1 $taxonomy.Pages.ByDate }}
 				{{ if and ( ge .Date.Unix now.Unix ) ( ne ( $name | lower )  "hidden" ) }}
 					{{ $url := $name | urlize }}
-					{{ $section := index $.Site.Params.dates $url }}
+					{{ $section := index site.Params.dates $url }}
 
 					{{ $seq := $name | humanize | title | replaceRE "Ares" "ARES" | replaceRE "Ncs" "NCS" }}
 					{{ if eq "Outreach" $seq }}{{ $seq = "Outreach Events" }}{{ end }}

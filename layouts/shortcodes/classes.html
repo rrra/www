@@ -3,7 +3,7 @@
 <tr><th>Class</th><th>Dates</th><th>Sessions</th><th>Testing</th></tr>
 </thead>
 <tbody>
-{{ range sort $.Site.Data.education.classes ".publish" }}
+{{ range sort site.Data.education.classes ".publish" }}
 	{{ if ge ( .year ) ( now.Format "2006" ) }}
 		{{ $base := (.class | lower) | printf "%s-%s" (.season | lower) }}
 		{{ $path := "week" | printf "%s-%s" ($base | replaceRE "(nician)?" "")  | printf "%s/%s" .year | printf "%s/%s" "/calendar" }}
@@ -22,7 +22,7 @@
 				{{ $ft := ( $firstdate | dateFormat "Jan 02, 2006" ) }}
 				{{ $lt := ( $lastdate | dateFormat "Jan 02, 2006" ) }}
 
-				{{ if in .Site.Params.status .status }}
+				{{ if in site.Params.status .status }}
 					<td>{{ $series }}</td>
 					<td colspan="3" style="color:red;">{{ upper .status }} </td>
 				{{ else if ge ( now.Format "2006-01-02" ) .publish }}

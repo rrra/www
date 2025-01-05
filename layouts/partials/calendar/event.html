@@ -24,7 +24,7 @@
 		{{ $selfLink := "" }}
 		{{ $nextLink := $relpermalink }}
 		{{ $lastLink := "" }}
-		{{ range $key, $taxonomy := $.Site.Taxonomies.dates }}
+		{{ range $key, $taxonomy := site.Taxonomies.dates }}
 			{{ if eq $key ( lower $dates ) }}
 				{{ $startOfYear := time.AsTime (printf "%d-01-01" now.Year) }}
 				{{ range first 1 ( where $taxonomy.Pages.Reverse "Date" "ge" $startOfYear ) }}
@@ -62,7 +62,7 @@
 			</div> {{/* cat-links */}}
 		</div> {{/* entry-meta */}}
 
-		<h2 class="p-name entry-title">{{ .Title }}{{ if in .Site.Params.status .Params.status }} {{ upper .Params.status }}{{ end }}</h2>
+		<h2 class="p-name entry-title">{{ .Title }}{{ if in site.Params.status .Params.status }} {{ upper .Params.status }}{{ end }}</h2>
 		{{ with  .OutputFormats.Get "calendar" -}}
 			<span class="noprint"><span class="genericons-neue genericons-neue-day" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" title="Get automatic iCalendar updates for this single event" href="{{ .RelPermalink | safeURL }}">Add this single event to your device</a></span>
 		{{- end }}

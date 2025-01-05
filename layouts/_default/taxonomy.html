@@ -5,7 +5,7 @@
 	{{ `<!-- Template: layouts/_default/taxonomy.html -->` | safeHTML }}
 	{{ end }}
 	<header class="archive-header">
-		{{ $cat := index .Site.Params.categories (.Title | urlize) }}
+		{{ $cat := index site.Params.categories (.Title | urlize) }}
 
 		{{ if and (in .RelPermalink "/categories/hamfest/") (lt (dateFormat "1" now) 10) }}
 		{{ $year := dateFormat "2006" now }}
@@ -23,7 +23,7 @@
 			<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
 		{{ end }}
 
-		{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
+		{{ $contact := index site.Data.contacts ( .Title | urlize ) }}
 		{{ if ne $contact nil }}
 		<div id="contact">
 			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 

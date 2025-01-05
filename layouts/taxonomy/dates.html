@@ -22,12 +22,12 @@
 	<span class="noprint"><div><span class="genericons-neue genericons-neue-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Learn how to add these dates to your device</a></div></span>
 {{- end }}
 
-	{{ $cat := index .Site.Params.dates (.Title | urlize) }}
+	{{ $cat := index site.Params.dates (.Title | urlize) }}
 	{{ with $cat.description }}
 		<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
 	{{ end }}
 
-	{{ $contact := index .Site.Data.contacts ( .Title | urlize ) }}
+	{{ $contact := index site.Data.contacts ( .Title | urlize ) }}
 	{{ if ne $contact nil }}
 	<div id="contact">
 		<br /><span class="vertmiddle">Contact: </span>{{ partialCached "contact.html" (dict "context" . "sign" $contact ) $contact }}

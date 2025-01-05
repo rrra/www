@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="{{ with .Site.LanguageCode}}{{ . }}{{ else }}en-US{{end}}">
+<html lang="{{ with site.LanguageCode}}{{ . }}{{ else }}en-US{{end}}">
 <head>
         {{ partial "social-graph.html" . }}
 	<meta charset="UTF-8" />
@@ -9,14 +9,14 @@
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	{{ with .Params.noindex }}<meta name="robots" content="noindex">{{ end }}
-	{{ if .IsHome }}<meta name="description" content="{{ .Site.Params.description}}" />{{ else }}{{ with .Description }}<meta name="description" content="{{ . }}" />{{ end }}{{ end }}
-	<title>{{ if not .IsHome }}{{ with .Title }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Title }}</title>
+	{{ if .IsHome }}<meta name="description" content="{{ site.Params.description}}" />{{ else }}{{ with .Description }}<meta name="description" content="{{ . }}" />{{ end }}{{ end }}
+	<title>{{ if not .IsHome }}{{ with .Title }}{{ . }} &middot; {{ end }}{{ end }}{{ site.Title }}</title>
 	<!--<link rel="profile" href="http://gmpg.org/xfn/11" />-->
 	{{ "<!--[if lt IE 9]>" | safeHTML }}
 	<script src="/js/html5.js"></script>
 	{{ "<![endif]-->" | safeHTML }}
     
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ site.Title }}" />
 
     {{ $fonts := resources.Get "css/fonts.css" }}
     {{ $genericons := resources.Get "genericons/genericons-neue.css" }}
@@ -46,9 +46,9 @@
 		{{ end }}
 		<div class="header-main">
 			{{ if .IsHome }}
-				<h1 class="site-title"><a href="/index.html" rel="home">{{ .Site.Title }}</a></h1>
+				<h1 class="site-title"><a href="/index.html" rel="home">{{ site.Title }}</a></h1>
 			{{ else }}
-				<div class="site-title"><a href="/index.html" rel="home">{{ .Site.Title }}</a></div>
+				<div class="site-title"><a href="/index.html" rel="home">{{ site.Title }}</a></div>
 			{{ end }}
 
 			<div class="search-toggle">
@@ -60,8 +60,8 @@
 				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
 				<div class="nav-menu">
 					<ul>
-						{{ range .Site.Menus.main }}
-						{{ $section := index $.Site.Params.tooltips (replace .URL "/" "") }}
+						{{ range site.Menus.main }}
+						{{ $section := index site.Params.tooltips (replace .URL "/" "") }}
 						<li class="page_item"> 
 							<a href="{{ .URL }}index.html"{{ with $section.title }} title="{{ . }}"{{ end }}{{ with .Params.rel -}} rel="{{ . }}" {{ end -}}>{{ .Name | safeHTML }}</a>
 						</li>

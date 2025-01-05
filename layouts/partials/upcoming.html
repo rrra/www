@@ -21,7 +21,7 @@
 {{ $newdate := now.AddDate 0 0 -7 }}
 
 	<dl>
-		{{ range where .Site.RegularPages.ByDate "Section" "calendar" }}
+		{{ range where site.RegularPages.ByDate "Section" "calendar" }}
 
 			{{ if ge .Date.Unix now.Unix }} {{/* Ignore past events */}}
 
@@ -62,7 +62,7 @@
 							{{ $newflag }} {{ with .LinkTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}
 						</dt>
 						{{ $curdates :=  chomp (delimit .Params.dates " ") | replaceRE "Hidden" "" }}
-						<dd class="twocol"><a href="{{ .RelPermalink}}" title="{{ .Title }}{{ if gt (len $curdates) 0 }} - {{ $curdates }}{{ end }}">{{ if in .Site.Params.status .Params.status }}<span style="color:red;">{{ upper .Params.status }}</span>{{ else }}{{ if eq 10 (len (string .Date | replaceRE " 00:00:00.*UTC" "" )) }}{{ .Date.Format "Mon Jan 2" }}{{ else }}{{ .Date.Format "3:04 PM Mon Jan 2" }}{{ end }}{{ end }}</a></dd>
+						<dd class="twocol"><a href="{{ .RelPermalink}}" title="{{ .Title }}{{ if gt (len $curdates) 0 }} - {{ $curdates }}{{ end }}">{{ if in site.Params.status .Params.status }}<span style="color:red;">{{ upper .Params.status }}</span>{{ else }}{{ if eq 10 (len (string .Date | replaceRE " 00:00:00.*UTC" "" )) }}{{ .Date.Format "Mon Jan 2" }}{{ else }}{{ .Date.Format "3:04 PM Mon Jan 2" }}{{ end }}{{ end }}</a></dd>
 						{{/* Store the date sequence and date for the event we listed */}}
 						{{ $scratch.Add "seen" $series }}
 						{{ $scratch.Add "today" $series }}
@@ -73,7 +73,7 @@
 
 			{{ end }} {{/* Ignore past events */}}
 
-		{{ end }} {{/* range where .Site.RegularPages.ByDate "Section" "calendar" */}} 
+		{{ end }} {{/* range where site.RegularPages.ByDate "Section" "calendar" */}} 
 	</dl>
 
 </div>

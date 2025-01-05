@@ -1,5 +1,5 @@
 {{ $sign := index .Params 0 }}
-{{ $recip := index .Page.Site.Data.call $sign }}
+{{ $recip := index .Pagesite.Data.call $sign }}
 {{ if ne $recip nil }}
 	{{ if gt  $recip.tel "" }}
 		{{ $tel := "</a><span class=\"genericons-neue genericons-neue-phone\"></span>" | printf "%s%s" $recip.tel | printf "%s%s" "\">" | printf "%s%s" $recip.tel | printf "%s%s" "<a href=\"tel:" | printf "%s" }}
@@ -11,7 +11,7 @@
 	{{ end }}
 {{ else }}
   {{ if eq $sign "club" }}
-		{{ "</a><span class=\"genericons-neue genericons-neue-phone\"></span>" | printf "%s%s" ( .Site.Params.tel ) | printf "%s%s" "\">" | printf "%s%s" ( .Site.Params.tel ) | printf "%s%s" "<a href=\"tel:" | printf "%s" | safeHTML }}
+		{{ "</a><span class=\"genericons-neue genericons-neue-phone\"></span>" | printf "%s%s" ( site.Params.tel ) | printf "%s%s" "\">" | printf "%s%s" ( site.Params.tel ) | printf "%s%s" "<a href=\"tel:" | printf "%s" | safeHTML }}
 	{{ else }}
 		{{ "</a><span class=\"genericons-neue genericons-neue-phone\"></span>" | printf "%s%s" $sign | printf "%s%s" "\">" | printf "%s%s" $sign | printf "%s%s" "<a href=\"tel:" | printf "%s" | safeHTML }}
 	{{ end }}

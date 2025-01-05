@@ -8,7 +8,7 @@
 
 	<header class="archive-header">
 		<h1 class="archive-title">{{ .Title | singularize }} Index</h1>
-		{{ $cat := index .Site.Params.categories (.Title | urlize) }}
+		{{ $cat := index site.Params.categories (.Title | urlize) }}
 		{{ with $cat.description }}
 			<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
 		{{ end }}

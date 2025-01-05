@@ -32,9 +32,9 @@ displayed.
 {{ $scratch.Set "modes" "All " }}
 
 {{/* Modes displayed in the filter menu must be defined in config.toml */}}
-{{ range sort $.Site.Data.radios ".mode" }}
+{{ range sort site.Data.radios ".mode" }}
 	{{ $seen := $scratch.Get "modes" }}
-	{{ if and ( in $.Site.Params.modes ( lower .mode ) ) ( not ( in $seen .mode ) ) }}
+	{{ if and ( in site.Params.modes ( lower .mode ) ) ( not ( in $seen .mode ) ) }}
 		{{ $scratch.Add "modes" .mode }}
 		{{ $scratch.Add "modes" " " }}
 	{{ end }}
@@ -74,7 +74,7 @@ displayed.
 {{/* QRT system publication cut off date (see QRT notes above) */}}
 {{ $cutoff := now.AddDate 0 0 -30 | dateFormat "2006-01-02" }}
 
-{{ range sort $.Site.Data.radios ".location" }}
+{{ range sort site.Data.radios ".location" }}
 	{{ $qrt := .qrt | default $cutoff }}
 	{{ if ge $qrt $cutoff }}
 		{{ $scratch.Set "test" $self }}

@@ -1,6 +1,6 @@
 {{ $filename := "toml" | printf "%s.%s" .sign | printf "%s/%s" "data/call" }}
 {{ if (fileExists $filename) }}
-	{{ $recip :=  index .context.Site.Data.call .sign }}
+	{{ $recip :=  index .contextsite.Data.call .sign }}
 	{{ $scratch := newScratch }}
 	{{ with .subject }}{{ $scratch.Set "subject" "?subject=" }}{{ $scratch.Add "subject" ( . | replaceRE ` ` "%20" ) }}{{ else }}{{ $scratch.Set "subject" "" }}{{ end }}
 
@@ -18,7 +18,7 @@
 		{{ if gt $recip.tel "" }}
 			{{ $scratch.Set "tel" $recip.tel }}
 		{{ else }}
-			{{ $scratch.Set "tel" .context.Site.Params.tel }}
+			{{ $scratch.Set "tel" .contextsite.Params.tel }}
 		{{ end }}
 
 			

@@ -3,12 +3,12 @@
 	<h2 class="widget-title">Categories</h2>
 
 	<ul>
-		{{ range $key, $value := .Site.Taxonomies.categories }}
+		{{ range $key, $value := site.Taxonomies.categories }}
 		
 			{{/* "/categories//" was sneaking in ... */}}
 			{{ if ne .Page.Title "Categories" }}
 				{{ $url := $key | urlize }}
-				{{ $section := index $.Site.Params.categories $url }}
+				{{ $section := index site.Params.categories $url }}
 				{{ $title := "" }}
 				
 				<li class="cat-item">

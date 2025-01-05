@@ -1,2 +1,2 @@
 <dt class="twocol{{ if eq .highlight "yes" }} highlight{{ end }}">{{ .page.Date.Format "Jan 2" }}</dt>
-<dd class="twocol{{ if eq .highlight "yes" }} highlight{{ end }}"><a href="{{ .page.RelPermalink }}">{{ .page.Title }}{{ if in .Site.Params.status .page.Params.status }} <span style="color: red;">{{ upper .page.Params.status }}</span>{{ end }}</a></dd>
+<dd class="twocol{{ if eq .highlight "yes" }} highlight{{ end }}"><a href="{{ .page.RelPermalink }}">{{ .page.Title }}{{ if in site.Params.status .page.Params.status }} - <span style="color: red;">{{ upper .page.Params.status }}</span>{{ end }}</a></dd>
