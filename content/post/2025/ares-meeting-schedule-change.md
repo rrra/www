@@ -1,6 +1,6 @@
 +++
 date = "2025-01-06T13:02:55-06:00"
-title = "Ares Meeting Schedule Change"
+title = "ARES Meeting Schedule Change"
 authors = [ "KC0ODE" ]
 categories = [ "Public Service" ]
 tags = [ "ARES", "RRRAES" ]
@@ -8,7 +8,7 @@ tags = [ "ARES", "RRRAES" ]
 :warning: Beginning with January 2025, RRRAES[^1] ARES meetings will
 ***only*** occur during months where a
 [business meeting](/dates/club-meetings)
-is scheduled, ***unless*** an announcement is made. 
+is scheduled (***unless*** an announcement is made). 
 <!--more-->
 
 {{< banner >}}
