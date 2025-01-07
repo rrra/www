@@ -58,7 +58,7 @@ ARES meeting dates may be added to your device calendar through the use
 of our automatically updating
 [webcal](https://en.wikipedia.org/wiki/Webcal)
 service by following the instructions
-[just the ARES meetings](/dates/ares-meetings/#add)
+[for just the ARES meetings](/dates/ares-meetings/#add)
 or [for our entire calendar](/calendar/0/#add).
 
 ### In your RSS reader
