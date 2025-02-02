@@ -2,7 +2,7 @@
 date = "2025-01-12T10:38:37-06:00"
 #publishdate = "2025-01-12T10:38:37-06:00"
 title = "Two Events on January 18th &amp; 19th"
-categories = [ "Outreach", "Crosspost" ]
+categories = [ "Outreach" ]
 tags = [ "POTA", "QSO Party" ]
 authors = [ "K0STK" ]
 +++
