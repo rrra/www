@@ -5,12 +5,13 @@ endTime = "2025-03-29T13:00:00-06:00"
 publishDate = "2024-11-16T11:29:54-06:00"
 location = "[Bismarck Public School Career Academy](https://goo.gl/maps/x7hXsqhXTM1tFwxj6)"
 title = "CDARC Hamfest & ARRL North Dakota State Convention"
+linkTitle = "CDARC Hamfest"
 sponsor = "[Central Dakota Amateur Radio Club](https://w0zrt.com/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
 talkin = "146.850-"
 contact = "KE0ESG"
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 thumbnail = "https://i0.wp.com/w0zrt.com/wp-content/uploads/2024/01/CDARC-LOGO-smaller.bmp?resize=500%2C500&ssl=1"
 aliases = [ "/cal/2025/03/29/cdarc-hamfest/" ]
