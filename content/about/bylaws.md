@@ -215,7 +215,7 @@ of informational, or other, media for the organization, and for the
 operation, administration, and maintenance of systems and equipment for
 such publications and other related purposes
 
-* Hamfest Committee: responsible for the planning, organizing and *
+* Hamfest Committee: responsible for the planning, organizing and 
 execution of the Red River Radio Amateurs sponsored hamfest
 
 * Volunteer Examiner (VE) Testing Committee: responsible for the
