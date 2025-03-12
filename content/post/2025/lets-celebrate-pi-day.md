@@ -26,7 +26,7 @@ N1P for National Pi Day.
 We will commemorate this event by a special event QSL card upon request.
 
 OPTION 1
-: Send a self addressed envelope to W2JLD(address is good on qrz)
+: Send a self addressed envelope to [W2JLD](https://www.qrz.com/db/W2JLD)
 
 OPTION 2
 : Send $5.00 (USD) to paypal account **dmotorsports&commat;gmail.com** and
