@@ -6,6 +6,7 @@ tags = [ "On All Bands", "Crosspost" ]
 xpostLink = "https://www.onallbands.com/what-do-young-hams-do-for-amateur-radio/"
 xpostName = "On All Bands blog"
 xpostComment = "Author: [Katie Campbell, KE8LQR](https://www.onallbands.com/author/katie-campbell-ke8lqr/)"
+thumbnail = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Gg9Nj6MSGwQzWhlsKU0r9wHaDZ%26pid%3DApi&f=1&ipt=7dd88da583b6273568981ca503ed66e23f3225f45065734bb6e4de33c42787d6&ipo=images"
 +++
 I’m sure the vast majority of hams have heard the quip, "Youth are
 ruining ham radio," or something similar.
