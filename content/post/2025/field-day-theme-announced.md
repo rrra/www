@@ -5,7 +5,7 @@ title = "2025 Field Day Theme Announced"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "ARRL", "Field Day" ]
-thumbnail = ""
+images = [ "http://www.arrl.org/files/file/Field-Day/2025/2025-ARRL-Field-Day-Logo-DO-NOT-EDIT-OR-MODIFY.jpg" ]
 +++
 On March 14, 2025, ARRL News announced the 2025 ARRL Field Day Theme:
 [Radio Connects]({{< relref "/post/2025/field-day-theme-announced.md" >}})
