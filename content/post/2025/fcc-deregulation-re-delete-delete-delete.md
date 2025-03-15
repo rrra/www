@@ -7,7 +7,8 @@ categories = [ "Outreach" ]
 tags = [ "FCC", "HRCC", "Regulatory", "Video" ]
 moreText = "Watch The Video"
 +++
-John Nass KI6NAZ presents his thoughts about the FCC's *re: DELETE DELETE DELETE*
+John Nass KI6NAZ presents his thoughts about the FCC's ***re: DELETE DELETE
+DELETE***
 docket in this 13 minute video on the [Ham Radio Crash Course Youtube Channel][hrcc].
 <!--more-->
 
