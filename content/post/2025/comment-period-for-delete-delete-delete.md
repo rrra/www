@@ -24,7 +24,7 @@ FCC][guide] which demonstrates how to use the ECFS.
 [25-133]: https://docs.fcc.gov/public/attachments/DA-25-219A1.pdf
 [ecfs]: https://www.fcc.gov/ecfs/filings/express
 [guide]: https://www.arrl.org/arrl-guide-to-filing-comments-with-fcc
-[submitted]: https://www.fcc.gov/ecfs/search/search-filings/filing/1031246099292
+[submitted]: https://www.fcc.gov/ecfs/search/search-filings/results?q=(proceedings.name:(%2225-133%22))
 
 ## What the FCC Wants to Hear About
 
