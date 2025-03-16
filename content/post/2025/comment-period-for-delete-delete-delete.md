@@ -1,6 +1,6 @@
 +++
 date = "2025-03-18T20:00:00-05:00"
-title = "Comment Period closes April 11, 2025"
+title = "Comment Period closes April 11 2025"
 subTitle = "re: Delete Delete Delete"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
@@ -8,21 +8,49 @@ tags = [ "FCC", "Regulatory" ]
 featured = true 
 endFeatured = "2025-04-11T16:00:00-05:00"
 +++
-The comment period for FCC Docket 25-133 ***re: Delete Delete Delete***
-closes April 11, 2025.
+The comment period for [FCC Docket 25-133][25-133] ***re: Delete Delete
+Delete*** closes April 11, 2025; reply comments are due May 28, 2025.
 
-Comments may be submitted through the
+:point_right: Comments may be submitted through the
 [FCC  Electronic Comment Filing System \(ECFS\)][ecfs];
 use **25-133** in the **Proceedings** field.
 <!--more-->
 
+:eyes: [Submitted comments][submitted] are available for viewing.
+
 :information_source: ARRL has provided a [Guide to Filing Comments with
 FCC][guide] which demonstrates how to use the ECFS.
 
+[25-133]: https://docs.fcc.gov/public/attachments/DA-25-219A1.pdf
 [ecfs]: https://www.fcc.gov/ecfs/filings/express
 [guide]: https://www.arrl.org/arrl-guide-to-filing-comments-with-fcc
+[submitted]: https://www.fcc.gov/ecfs/search/search-filings/filing/1031246099292
 
-## What the FCC Wants to Hear About (Cares About)
+## What the FCC Wants to Hear About
+
+### From FCC Docket 25-133 
+
+>We encourage commenters to consider certain policy factors, as
+>described below and consistent with standards and objectives set forth
+>in recent Presidential orders as well as statutory and regulatory
+>retrospective review standards. We also invite more general comment on
+>rules that should be considered for elimination on other grounds [^2]
+
+* Cost-benefit considerations
+* Experience gained from the implementation of the rule.
+* Marketplace and technological changes.
+* Regulation as barrier to entry
+* Changes in the broader regulatory context
+* Changes in, or other implications of, the governing legal framework
+* Other considerations relevant to the retrospective review of
+Commission rules
+
+Explanations of these bullet points start on page 2 of [FCC Docket
+25-133][25-133].
+
+[^2]: "GN Docket No. 25-133", FCC, accessed March 16 2025, https://docs.fcc.gov/public/attachments/DA-25-219A1.pdf.
+
+### From Zero Retries 0168
 
 The following was written for FCC Docket 24-240 but is germane to FCC
 Docket 25-133.
