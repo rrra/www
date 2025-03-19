@@ -11,6 +11,15 @@ endFeatured = "2025-04-11T16:00:00-05:00"
 The comment period for [FCC Docket 25-133][25-133] ***re: Delete Delete
 Delete*** closes April 11, 2025; reply comments are due May 28, 2025.
 
+>The Federal Communications Commission (Commission or FCC) ... is seeking
+>public input on identifying FCC rules for the purpose of alleviating
+>unnecessary regulatory burdens. We seek comment on deregulatory
+>initiatives that would facilitate and encourage American firms’
+>investment in modernizing their networks, developing infrastructure, and
+>offering innovative and advanced capabilities [^1]
+
+[^1]: "IN RE: DELETE, DELETE, DELETE", FCC, accessed March 18 2025, https://docs.fcc.gov/public/attachments/DA-25-219A1.pdf.
+
 :point_right: Comments may be submitted through the
 [FCC  Electronic Comment Filing System \(ECFS\)][ecfs];
 use **25-133** in the **Proceedings** field.
@@ -94,10 +103,11 @@ Docket 25-133.
 >"cares about" list. But using Meshtastic to encourage STEM and Maker
 >activities by students and youth, or Amateur Radio repeaters to provide
 >emergency and "no dependence on cellular, Internet, or satellite"
->communications is something that the FCC "cares about". [^1]
+>communications is something that the FCC "cares about". [^3]
 
-[^1]: Steve Stroh N8GNJ, "Zero Retries 0168", accessed March 15 2025, https://www.zeroretries.org/i/148352347/what-the-fcc-wants-to-hear-about-cares-about.
+[^3]: Steve Stroh N8GNJ, "Zero Retries 0168", accessed March 15 2025, https://www.zeroretries.org/i/148352347/what-the-fcc-wants-to-hear-about-cares-about.
 
 [^4]: CTIA is the industry association for the "cellular" industry. Their inputs and requirements are a priority with the FCC. I haven’t seen any mention that Docket 24-240 is of interest to them.
 
 [^5]: NAB is the industry association from the broadcasting industry. Their inputs and requirements are also a priority with the FCC. There is some relevance to television broadcasting relating to Docket 24-240 that ATSC 3.0 technology can provide alternative PNT services to NextNav’s PNT services.
+
