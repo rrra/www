@@ -22,9 +22,6 @@ will be be discusssed at this meeting!
 {{< /banner >}}
 <!--more-->
 
-{{< figure src="//images.rrra.org/hamfest/10-worst-antennas-k8zt.jpg" link="https://youtu.be/JZu6hveiNNI" >}}
-<p class="clear"></p>
-
 #### Presentation Resources
 
 * [Follow along with the presentation slides][slides]
