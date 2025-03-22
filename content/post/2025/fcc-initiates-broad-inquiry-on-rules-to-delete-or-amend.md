@@ -5,6 +5,7 @@ categories = [ "Outreach" ]
 tags = ["ARRL", "Crosspost", "Regulatory" ]
 xpostLink = "http://www.arrl.org/news/fcc-initiates-broad-inquiry-on-rules-to-delete-or-amend"
 xpostName = "ARRL News"
+thumbnail = "http://www.arrl.org/images/view/News/ARRL_Diamond_2021_Black_RGB_76.jpg"
 +++
 In a Public Notice titled "In Re: Delete, Delete, Delete," issued on
 March 12, 2025, the FCC is soliciting public input on any FCC rules
