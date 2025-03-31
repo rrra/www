@@ -4,7 +4,7 @@ date = "2025-03-27T18:32:14-05:00"
 title = "FCC's \"Delete Delete Delete\" - Is Ham Radio at Risk?"
 slug = "fccs-delete-delete-delete-is-ham-radio-at-risk"
 categories = [ "Outreach" ]
-tags = [ "Ham Radio Prep", "Regulatory", "Spectrum", "Video"]
+tags = [ "FCC", "Regulatory", "Spectrum", "Video"]
 xpostLink = "https://www.youtube.com/watch?v=2g8HMhCRDZA"
 xpostName = "Ham Radio Prep (Youtube)"
 moreText = "View The Video"

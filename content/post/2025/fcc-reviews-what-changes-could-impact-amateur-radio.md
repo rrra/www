@@ -4,7 +4,7 @@ date = "2025-03-27T19:16:44-05:00"
 title = "FCC Reviews: What Changes Could Impact Amateur Radio?"
 slug = "fcc-reviews-what-changes-could-impact-amateur-radio"
 categories = [ "Outreach" ]
-tags = [ "Ham Radio Prep", "Regulatory", "Spectrum", "Video"]
+tags = [ "FCC", "Regulatory", "Spectrum", "Video"]
 xpostLink = "https://www.youtube.com/watch?v=oe3KZ-cjtIo"
 xpostName = "Ham Radio Prep (Youtube)"
 moreText = "View The Video"

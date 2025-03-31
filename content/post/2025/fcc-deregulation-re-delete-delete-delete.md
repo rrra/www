@@ -4,7 +4,7 @@ date = "2025-03-15T09:33:58-05:00"
 title = "FCC Deregulation Re: Delete Delete Delete"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
-tags = [ "FCC", "HRCC", "Regulatory", "Video" ]
+tags = [ "FCC", "Regulatory", "Video" ]
 moreText = "Watch The Video"
 +++
 John Nass KI6NAZ presents his thoughts about the FCC's ***re: DELETE DELETE

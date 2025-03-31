@@ -3,7 +3,7 @@ date = "2025-03-22T01:51:24-05:00"
 publishdate = "2025-03-21T16:51:24-05:00"
 title = "Can This Be the End of Ham Radio Licenses?"
 categories = [ "Outreach" ]
-tags = [ "Regulatory", "Video" ]
+tags = [ "FCC", "Regulatory", "Video" ]
 xpostLink = "https://www.youtube.com/watch?v=Imiyf3aKv_k"
 xpostName = "Marc Drouinaud Cybersecurity Show (Youtube)"
 moreText = "Watch The Video"

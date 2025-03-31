@@ -3,7 +3,7 @@ date = "2025-03-27T17:45:00-05:00"
 #publishdate = "2025-03-27T17:45:00-05:00"
 title = "Spectrum Wars: The Battle for Wireless Frequencies"
 categories = [ "Outreach" ]
-tags = [ "Ham Radio Prep", "Regulatory", "Spectrum", "Video"]
+tags = [ "FCC", "Regulatory", "Spectrum", "Video"]
 xpostLink = "https://www.youtube.com/watch?v=jZLkhAEvM_w"
 xpostName = "Ham Radio Prep (Youtube)"
 moreText = "View The Video"
