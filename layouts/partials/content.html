@@ -51,10 +51,10 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
-		<span class="tag-links">		
+		<div class="tag-links">		
 			{{ range .Params.tags }}
                 		<a href="/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
             		{{ end }}
-		</span>
+		</div>
 	</footer>
 </article> <!-- #post-## -->

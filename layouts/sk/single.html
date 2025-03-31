@@ -131,11 +131,11 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
-		<span class="tag-links">		
-			{{ range .Params.tags }}
-                <a href="/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
-            {{ end }}
-		</span>
+		<div class="tag-links">		
+		{{ range .Params.tags }}
+                	<a href="/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+            	{{ end }}   
+		</div>
 	</footer>
 
 	{{ partial "sourcelink.html" . }}

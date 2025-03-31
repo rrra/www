@@ -1163,10 +1163,10 @@ padding: 0 10px;
 /* Tag links style */
 
 .tag-links a {
-background-color: #767676;
+background-color: #f4d604;
+background-color: var(--tag);
 border-radius: 0 2px 2px 0;
-color: #fff;
-color: var(--mainbg);
+color: var(--mainfg);
 display: inline-block;
 font-size: 11px;
 font-weight: 700;
@@ -1183,7 +1183,8 @@ background-color: var(--hover);
 }
 
 .tag-links a:before {
-border-right: 8px solid #767676;
+border-right: 8px solid #f4d604;
+border-right: 8px solid var(--tag);
 border-top: 10px solid transparent;
 border-bottom: 10px solid transparent;
 content: "";
@@ -1200,8 +1201,8 @@ border-right-color: var(--hover);
 }
 
 .tag-links a:after {
-background-color: #fff;
-background-color: var(--mainbg);
+background-color: #555555;
+background-color: var(--mainfg);
 border-radius: 50%;
 content: "";
 height: 4px;
@@ -1218,6 +1219,11 @@ text-align: justify;
 
 #tag-cloud a {
 text-decoration-line: inherit;
+}
+
+aside.widget.social-media .tag-links a:after {
+background-color: #555555;
+background-color: var(--sidebg);
 }
 
 /**
@@ -2036,6 +2042,7 @@ aside#recent-posts-3 .genericons-neue {
 		--grad1: rgba(244, 214, 4, 0.2);
 		--grad2: rgba(244, 214, 4, 0.7) 95%;
 		--grad3: rgba(244, 214, 4, 0.1);
+		--tag: #f4d604;
 	}
 }
 
@@ -2058,6 +2065,7 @@ aside#recent-posts-3 .genericons-neue {
 		--grad1: rgba(64, 64, 64, 0.2);
 		--grad2: rgba(64, 64, 64, 0.7) 95%;
 		--grad3: rgba(64, 64, 64, 0.1);
+		--tag: #f4d604;
 	}
 }
 
@@ -2256,6 +2264,7 @@ aside#recent-posts-3 .genericons-neue {
 	}
 
 	.widget.social-media span.tag-links a {
+		color: var(--mainfg);
 		font-size: 14px;
 		padding: 4px 6px 2px;
 		margin-top: 38px;

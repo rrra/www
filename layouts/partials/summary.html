@@ -85,11 +85,11 @@
 	{{/* Avoid excess vertical space */}}
 	{{ with .Params.tags }}
 		<footer class="entry-meta">
-			<span class="tag-links">		
-				{{ range . }}
-                	<a href="/tags/{{ lower . | urlize }}/index.html" rel="tag">{{ . }}</a>
-            	{{ end }}
-			</span>
+			<div class="tag-links">		
+			{{ range . }}
+                		<a href="/tags/{{ lower . | urlize }}/index.html" rel="tag">{{ . }}</a>
+			{{ end }}
+			</div>
 		</footer>
 	{{ end }}
 
