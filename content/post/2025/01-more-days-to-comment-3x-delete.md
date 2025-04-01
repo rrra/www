@@ -1,0 +1,15 @@
++++
+date = "2025-04-10T01:46:23-05:00"
+expiryDate = "2025-04-11"
+title = "Only 1 More Day..."
+slug = "1-more-day"
+authors = [ "K0STK" ]
+categories = []
+tags = []
+featured = true
+noindex = true
++++
+### to comment on FCC's ***Delete Delete Delete***
+<!--more-->
+
+{{< import "/post/2025/10-more-days-to-comment-3x-delete.md" >}}
