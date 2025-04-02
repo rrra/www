@@ -12,4 +12,5 @@ noindex = true
 ### to comment on FCC's ***Delete Delete Delete***
 <!--more-->
 
-{{< import "/post/2025/10-more-days-to-comment-3x-delete.md" >}}
+{{< import "/post/2025/comment-period-for-delete-delete-delete.md" >}}
+
