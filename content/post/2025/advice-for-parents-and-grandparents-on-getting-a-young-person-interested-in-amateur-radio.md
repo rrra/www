@@ -1,5 +1,5 @@
 +++
-date = "2025-04-03T01:49:59-05:00"
+date = "2025-04-04T01:49:59-05:00"
 title = "Advice for Parents and Grandparents on Getting a Young Person Interested in Amateur Radio"
 categories = [ "Outreach" ]
 tags = [ "Crosspost" ]
