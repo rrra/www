@@ -6,7 +6,7 @@ tags = [ "Crosspost" ]
  #endBanner = date (default is endFeatured date) 
 xpostLink = "https://www.onallbands.com/advice-for-parents-and-grandparents-on-getting-a-young-person-interested-in-amateur-radio/"
 xpostName = "On All Bands blog"
-xpostComment = "Author: Katie Campbell, KE8LQR"
+xpostComment = "Author: [Katie Campbell, KE8LQR](https://www.onallbands.com/author/katie-campbell-ke8lqr/)"
 thumbnail = "https://www.onallbands.com/wp-content/uploads/2018/05/ONALLBANDS2_final-rgb-notag-1.jpg"
 +++
 When I got my amateur radio Technician license in March 2019, most of
