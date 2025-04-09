@@ -1,6 +1,6 @@
 +++
 date = "2025-04-10T01:46:23-05:00"
-expiryDate = "2025-04-11"
+expiryDate = "2025-04-11T01:00:00-05:00"
 title = "Only 1 More Day..."
 slug = "1-more-day"
 authors = [ "K0STK" ]
