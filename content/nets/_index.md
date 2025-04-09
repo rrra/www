@@ -3,7 +3,7 @@ title = "Nets"
 linktitle = "Nets<span style=\"display:none;\">, Preamble and NCS Roster</span>"
 categories = [ "Public Service" ]
 tags = [ "ARES" ]
-description = "Take part in an radio net. Includes links to NCS resources: net preamble, NCS schedule and roster; and a list of Red River Valley nets."
+description = "Radio nets in our area and links to NCS resources: net preamble, NCS schedule and roster; and a list of Red River Valley nets."
 contact = "net"
 contactSubject = "Question about RRRA Nets"
 [menu.Main]
