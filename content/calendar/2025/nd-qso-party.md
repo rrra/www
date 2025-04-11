@@ -7,9 +7,8 @@ title = "ND QSO Party"
 sponsor = "ND ARRL SM N0RDF and ASM K0YL"
 dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
-thumbnail = "http://www.ndarrlsection.com/images/buffalo.jpg"
 +++
 * HF Bands: 160--10M (excluding WARC bands)
 * VHF Bands: 6 & 2M

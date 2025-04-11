@@ -5,6 +5,7 @@ title = "North Dakota QSO Party 2025"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "Contesting" ]
+thumbnail = "http://www.ndarrlsection.com/images/buffalo.jpg"
 +++
 RRRA Members are encouraged to participate in the
 [North Dakota QSO Party]({{< relref "/calendar/2025/nd-qso-party.md" >}})
