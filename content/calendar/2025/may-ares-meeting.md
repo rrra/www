@@ -7,7 +7,11 @@ title = "May ARES Meeting"
 linkTitle = "ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 4
+update = 5
 aliases = [ "" ]
 +++
+{{< import "/post/2025/may-2025-ares-meeting-agenda.md" >}}
+
+---
+### ARES Meeting Schedule Change
 {{< import "/post/2025/ares-meeting-schedule-change.md" >}}
