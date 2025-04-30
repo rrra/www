@@ -12,7 +12,7 @@ process of reissuing the [Salamander] IDs held by RRRAES members and to updating
 
 There will be a lot to do at this meeting so please arrive as early as
 possible. The [West Fargo FDHQ][fdhq] doors will be open for us at 1815
-hours (6:15PM CDT).
+hours (6:15 PM CDT).
 <!--more-->
 
 ### Salamander ID Reissue
