@@ -35,7 +35,7 @@ Grand Forks, ND SKYWARN page](http://www.weather.gov/fgf/stormspotting).
 New SKYWARN&reg; Storm Spotters---and current spotters who need to
 update their information---**who are 16 years of age or older and in
 the NWS Grand Forks forecast area** should visit the [NWS Grand Forks
-Spotter Registration page][regpage] to enter register as a spotter or update
+Spotter Registration page][regpage] to register as a spotter or update
 their information.
 
 [regpage]: https://www.weather.gov/fgf/registration
