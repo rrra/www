@@ -43,7 +43,7 @@ Radiogram Portal running on a computer, along with a trifold that
 pictured the NTS2 website, the NTS Letter, training videos, and a
 downloadable handout available for clubs and public gatherings.
 
-Visit the [Radiogram Portal] For more information about this service.
+Visit the [Radiogram Portal] for more information about this service.
 
 {{< figure src="https://nts2.arrl.org/wp-content/uploads/2025/03/National-Traffic-System-Display-300x206.jpg" >}}
 
