@@ -45,11 +45,7 @@
 			{{ partialCached "site-banner.html" . }}
 		{{ end }}
 		<div class="header-main">
-			{{ if .IsHome }}
-				<h1 class="site-title"><a href="/index.html" rel="home">{{ site.Title }}</a></h1>
-			{{ else }}
-				<div class="site-title"><a href="/index.html" rel="home">{{ site.Title }}</a></div>
-			{{ end }}
+			<h1 class="site-title"><a href="/index.html" rel="home">{{ site.Title }}</a></h1>
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text">Search</a>
