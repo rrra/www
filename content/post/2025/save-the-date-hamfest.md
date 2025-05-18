@@ -9,7 +9,7 @@ endBanner = "2025-09-01T01:00:00-05:00"
 bannerText = "See you at the [RRRA Hamfest](https://hamfest.rrra.org)!"
 +++
 Mark your calendar and save the date for the
-[2025 RRRA Hamfest and ARRL ND State Convention][page]. This is the
+[2025 RRRA Hamfest and ARRL Dakota Division Convention][page]. This is the
 largest Hamfest in North Dakota drawing attendees from 3 states and 1
 Canadian province.
 <!--more-->
