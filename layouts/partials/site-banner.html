@@ -8,30 +8,30 @@
 
 {{ $candidates := where ( where .Site.RegularPages "Section" "post") "Params.siteBanner" "!=" nil }}
 
-{{ $banner := "" }}
+{{ $start := "" }}
 
 {{/* This loop will fail through after we find the first usable banner */}}
 {{ range $candidates }}
-	{{ if eq $banner "" }}
+	{{ if eq $start "" }}
 		{{/* Accept either a boolean true or a date string */}}
 		{{ $datestamp := cond ( eq ( printf "%t" .Params.siteBanner ) "true" ) "1970-01-01" .Params.siteBanner  }}
-		{{ $banner := ( time $datestamp ).Unix }}
+		{{ $start := ( time $datestamp ).Unix }}
 		
 		{{/* Prefer .Params.endBanner so that the siteBanner is */}}
 		{{/* independent from the featured content promotion    */}}
 		{{ with .Params.endBanner }}
 			{{ if lt ( ( . | time.AsTime ).Unix ) now.Unix }}
-				{{ $banner = "" }}
+				{{ $start = "" }}
 			{{ end }}
 		{{ else }}
 			{{ with .Params.endFeatured }}
 				{{ if lt ( ( . | time.AsTime ).Unix ) now.Unix }}
-					{{  $banner = "" }}
+					{{  $start = "" }}
 				{{ end }}
 			{{ end }}
 		{{ end }}
 
-		{{ if ne $banner "" }}
+		{{ if and (ne $start "") (lt $start now.Unix)  }}
 			<div id="site-banner">
 			{{ with .Params.bannerText }}
 				{{ . | markdownify }}
@@ -39,8 +39,7 @@
 				<a href="{{ .Permalink }}">{{ .Title }}</a>
 			{{ end }}
 			</div>
-		{{ end }}
-	{{ else }}
 		{{ break }}
+		{{ end }}
 	{{ end }}
 {{ end }}
