@@ -1890,6 +1890,13 @@ dd.twocol div.ncs, dd.sameday div.ncs {
 	float: right;
 	 width: 6em;
 }
+dd.twocol.loud {
+	font-weight: bold;
+	font-style: italic;
+	background: var(--red);
+        color: var(--mainbg);
+	text-align: center;
+}
 
 /* https://alvarotrigo.com/blog/css-highlight-text/ */
 .highlight {

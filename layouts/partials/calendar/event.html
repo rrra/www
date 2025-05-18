@@ -78,7 +78,9 @@
 				<dt class="twocol header">WAS:</dt><dd class="twocol"><time class="dt-start" datetime="{{ .Date }}">{{ .Date.Format "Mon, 02 Jan 2006 15:04 MST" | replaceRE " 00:00 UTC" "" }}</time></dd>
 			{{ end }}
 			{{ if gt .Params.location "" }}
-				<dt class="twocol header">WHERE:</dt><dd class="twocol"><span class="p-location">{{ .Params.location | markdownify }}</span></dd>
+				{{ $ddclass := "twocol" }}
+        			{{ if eq .Params.location "TBD" }}{{ $ddclass = " loud" | printf "%s%s" $ddclass }}{{ end }}
+				<dt class="twocol header">WHERE:</dt><dd class="{{ $ddclass }}"><span class="p-location">{{ .Params.location | markdownify }}</span></dd>
 			{{ end }}
 			{{ with .Params.sponsor }}
 				<dt class="twocol header">SPONSOR:</dt><dd class="twocol">{{ . | markdownify }}</dd>
