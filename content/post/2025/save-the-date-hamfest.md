@@ -14,6 +14,12 @@ Mark your calendar and save the date for the
 [2025 RRRA Hamfest and ARRL Dakota Division Convention][page]. This is the
 largest Hamfest in North Dakota drawing attendees from 3 states and 1
 Canadian province.
+
+{{< banner >}}
+:warning: **The RRRA Hamfest has moved to the**
+[Minnesota National Guard Armory in Moorhead](/places/moorhead-ng-armory/)
+{{< /banner >}}
+
 <!--more-->
 
 ### What
