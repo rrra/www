@@ -5,14 +5,14 @@ endTime = "2025-09-27T14:00:00-05:00"
 publishDate = "2024-10-09T18:21:14-05:00"
 title = "2025 RRRA Hamfest & ARRL Dakota Division Convention"
 linkTitle = "2025 Hamfest"
-location = "[Moorhead Armory - Minnesota National Guard](/places/moorhead-ng-armory/)"
+location = "[Moorhead Armory](/places/moorhead-ng-armory/)"
 contact = "hamfest"
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2025-07-15" >}}
