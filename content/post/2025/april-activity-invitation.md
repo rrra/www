@@ -8,7 +8,7 @@ authors = [ "K0RQ" ]
 categories = [ "Education", "Membership", "Technical" ]
 tags = [ "Antennas", "Homebrew" ]
 featured = "2025-04-11T01:00:00-05:00"
-expiryDate = "2025-04-15T19:00:00-05:00"
+endFeatured = "2025-04-15T19:00:00-05:00"
 thumbnail = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.wzTWxUIRs9t32fSFFtC8LwHaFO%26pid%3DApi&f=1&ipt=48f696406f1de2f7ff4d9cbb8d1cfcdabaed14d22786b69101ea355ecd41a5a5&ipo=images"
 noindex = true
 +++
