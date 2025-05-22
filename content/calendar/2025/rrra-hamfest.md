@@ -12,7 +12,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 3
+update = 4
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2025-07-15" >}}
@@ -101,8 +101,8 @@ to adhere to, the RRRA
 
 Time |      |
 -----|------|
-4 PM | Flea Market setup on the Drill Floor
-7 PM | Armory closes for the night
+TBD | Drill Floor setup
+TBD | Armory closes for the night
 
 #### Saturday, September 27th
 
