@@ -3,7 +3,7 @@ created = "2025-05-18T11:47:13-05:00"
 date = "2025-09-27T08:00:00-05:00"
 endTime = "2025-09-27T09:00:00-05:00"
 publishDate = "2025-05-18T11:47:13-05:00"
-location = "TBD"
+location = "[Moorhead Armory](/places/moorhead-ng-armory/)"
 title = "License Testing Session at the RRRA Hamfest"
 linkTitle = "License Testing"
 contact = "testing"
@@ -15,7 +15,7 @@ categories = [ "License Testing" ]
 * On-line pre-registration required; no *walk-ups* accepted
 * Tests may ***not*** be started after 9 AM
 
-#### How to sign-up for your test
+### How to sign-up for your test
 
 ***TBD***
 
@@ -36,12 +36,10 @@ All three sign-up steps must be completed to reserve your test seat
 {{< /banner >}}
 -->
 
-#### What to bring to the test
+### What to bring to the test
 
 1. Photo ID
-
 2. $15 cash or check payable to *RRRA VE Team*
-
 3. [Copy of current license](http://www.arrl.org/obtain-license-copy) for upgrades
 
 :information_source: Additional information about what to bring to an exam
@@ -49,3 +47,5 @@ session---including guidance about calculators---is available on the
 [What to Bring to an ARRL Exam Session page](http://www.arrl.org/what-to-bring-to-an-exam-session),
 
 [register]: /
+
+{{< after-the-test >}}
