@@ -29,6 +29,8 @@ will be be discusssed at this meeting!
 * [Get it on Google Play][google]
 * [Download on the App Store][apple]
 
+#### Use your phone camera to install:
+
 {{< figure src="//images.rrra.org/iar-app-qr-codes.png" >}}
 
 [mtg]: {{< relref "/calendar/2025/june-meeting.md" >}}
