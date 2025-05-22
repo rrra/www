@@ -25,7 +25,7 @@ license already have an FRN and can
 
 2. [Register at hamstudy.org][register]
 
-3. Pay the license test fee. It will be be invoiced separately through
+3. Pay the [license test fee](#fee). It will be be invoiced separately through
 PayPal after step 2 is completed.
 
 {{< banner class="alert" >}}
