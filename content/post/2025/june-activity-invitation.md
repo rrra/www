@@ -8,7 +8,6 @@ categories = [ "Education", "Membership", "Public Service", "Technical" ]
 tags = []
 featured = "2025-06-03T01:29:47-05:00"
 endFeatured = "2025-06-17T12:00:00-05:00"
-thumbnail = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.wzTWxUIRs9t32fSFFtC8LwHaFO%26pid%3DApi&f=1&ipt=48f696406f1de2f7ff4d9cbb8d1cfcdabaed14d22786b69101ea355ecd41a5a5&ipo=images"
 moreText = "Install The App"
 +++
 Bring your HTs to the [June RRRA Meeting][mtg] and get help programing
