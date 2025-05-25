@@ -12,7 +12,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 4
+update = 5
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2025-07-15" >}}
@@ -46,7 +46,7 @@ for more information.
 * Flea Market
 * Coffee &amp; donuts
 * Fox Hunt Around The Armory (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
-* [License Testing]({{< relref "/calendar/2025/hamfest-testing.md" >}})
+* ***Paper based*** [License Testing]({{< relref "/calendar/2025/hamfest-testing.md" >}})
 (aka *VE Testing* or *VE Session*)
 * On-line Box Office <!--[On-line Box Office](#on-line-box-office)-->
 * [Seminars](#seminars)
