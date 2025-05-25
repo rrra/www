@@ -11,14 +11,14 @@ dates = [ "License Testing" ]
 outputs = [ "HTML", "Calendar" ]
 categories = [ "License Testing" ]
 +++
-* :page_facing_up: ***Traditional paper answer sheets will be used.*** :page_facing_up:
+* :page_facing_up: ***Paper answer sheets will be used.*** :page_facing_up:
 * Limited test seats available
 * On-line pre-registration required; no *walk-ups* accepted
 * Tests may ***not*** be started after 9 AM
 
 :star: Focus on taking---and passing---your license exam at the [RRRA
-Hamfest] session through the simplicity of paper based testing; ***no
-computers will be needed or even allowed.***
+Hamfest] license testing session through the simplicity of paper based
+testing; ***no computers will be needed.***
 
 [RRRA Hamfest]: {{< relref "/calendar/2025/rrra-hamfest.md" >}}
 
