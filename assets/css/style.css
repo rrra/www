@@ -1987,6 +1987,7 @@ div.entry-summary a.footnote-ref {
 .entry-title .genericons-neue,
 aside#recent-posts-3 .genericons-neue {
 	vertical-align: baseline;
+	margin-right: 4px;
 }
 
 /**
