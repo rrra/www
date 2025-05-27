@@ -2,7 +2,7 @@
 date = "2025-05-26T19:27:08-05:00"
 title = "Top 10 Things to Know Before Getting Into GMRS"
 categories = [ "Education" ]
-tags = [ "Video" ]
+tags = [ "GMRS", "Video" ]
 xpostLink = "https://www.youtube.com/@GadgetTalk4U"
 xpostName = "Gadget Talk (Youtube)"
 thumbnail = "https://www.gadget-talk.com/wp-content/uploads/2017/07/Logo.png"
