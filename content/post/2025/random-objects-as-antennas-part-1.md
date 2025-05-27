@@ -3,7 +3,7 @@ date = "2025-05-25T19:01:25-05:00"
 #publishdate = "2025-05-25T19:01:25-05:00"
 title = "Random Objects as Antennas - Part 1"
 categories = [ "Technical" ]
-tags = [ "Video" ]
+tags = [ "Antennas", "Video" ]
 xpostLink = "https://www.youtube.com/@WD4DAN"
 xpostName = "WD4DAN - Front End Overload (Youtube)"
 thumbnail = "https://yt3.googleusercontent.com/jxC5gA7owl7DKf4XO91t3ovzBR5yIjU74ObeJI0lRhI3UbG7LRcUbbABMCRJxf5ioFfKxWQH=s160-c-k-c0x00ffffff-no-rj"
