@@ -32,10 +32,11 @@ Canadian province.
 ### When
 
 * [September 27 , 2025 from 9am to 2pm][page]
-* License testing from 8am to 9am
+* [License testing from 8am to 9am][testing]
 
 ### Where
 
-:warning: ***TBD***
+* :new: [Minnesota National Guard Armory in Moorhead](/places/moorhead-ng-armory/)
 
-[page]:{{< relref "/calendar/2025/rrra-hamfest.md" >}}
+[page]: {{< relref "/calendar/2025/rrra-hamfest.md" >}}
+[testing]: {{< relref "/calendar/2025/hamfest-testing.md" >}}

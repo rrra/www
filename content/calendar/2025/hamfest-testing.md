@@ -8,6 +8,7 @@ title = "License Testing Session at the RRRA Hamfest"
 linkTitle = "License Testing"
 contact = "testing"
 dates = [ "License Testing" ]
+aliases = [ "/cal/2025/hamfest-testing/" ]
 outputs = [ "HTML", "Calendar" ]
 categories = [ "License Testing" ]
 +++
