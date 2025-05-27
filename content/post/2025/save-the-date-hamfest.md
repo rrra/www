@@ -8,7 +8,7 @@ featured = true
 endFeatured = "2025-06-17T12:00:00-05:00"
 siteBanner = "2025-05-20T01:00:00-05:00"
 endBanner = "2025-09-01T01:00:00-05:00"
-bannerText = "See you at the [RRRA Hamfest](/hamfest/2025)!"
+bannerText = "See you at the [RRRA Hamfest](/cal/2025/hamfest/)!"
 +++
 Mark your calendar and save the date for the
 [2025 RRRA Hamfest and ARRL Dakota Division Convention][page]. This is the
