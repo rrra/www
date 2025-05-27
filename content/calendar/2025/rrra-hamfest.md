@@ -12,7 +12,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 6
+update = 7
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2025-07-15" >}}
@@ -118,7 +118,11 @@ Time | Subject | Presented by
 
 <div style="width:100%;text-align:center;margin-bottom:12px;">
 <strong><a href="https://cloud.rrra.org/index.php/s/pif3ysgdJT3d9Z8">Download
-the 2024 RRRA Hamfest Handout</s>
+the 2024 RRRA Hamfest Handout</a></strong>
 </div>
 
 {{< figure src="https://images.rrra.org/hamfest/2025-thumbnail.gif" link="https://cloud.rrra.org/index.php/s/pif3ysgdJT3d9Z8" >}}
+
+{{< banner >}}
+Print this handout, keep one half, and give the other half to a friend!
+{{< /banner >}}
