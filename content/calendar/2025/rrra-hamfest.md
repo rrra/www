@@ -12,7 +12,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 5
+update = 6
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2025-07-15" >}}
@@ -41,19 +41,15 @@ for more information.
 ### Featuring
 
 <!-- * ARRL QSL Card Checking -->
+* Coffee &amp; donuts
 * Door prizes<!-----courtesy of our [sponsors](#sponsors)-->
 * Eyeball QSOs
 * Flea Market
-* Coffee &amp; donuts
 * Fox Hunt Around The Armory (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
-* ***Paper based*** [License Testing]({{< relref "/calendar/2025/hamfest-testing.md" >}})
-(aka *VE Testing* or *VE Session*)
+* [Handout](#hamfest-handout) (AKA *Flyer*)
 * On-line Box Office <!--[On-line Box Office](#on-line-box-office)-->
+* ***Paper based*** [License Testing]({{< relref "/calendar/2025/hamfest-testing.md" >}}) (AKA *VE Testing* or *VE Session*)
 * [Seminars](#seminars)
-
-<!--
-* [Flyer](#hamfest-flyer)
--->
 
 *Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2023/rrra-hamfest.md#schedule" >}}) for more information*
 
@@ -97,18 +93,9 @@ to adhere to, the RRRA
 ### Schedule
 *Schedule subject to change without notice*
 
-#### Friday, September 26th
-
 Time |      |
 -----|------|
-TBD | Drill Floor setup
-TBD | Armory closes for the night
-
-#### Saturday, September 27th
-
-Time |      |
------|------|
-8 AM | Flea Market setup on the Drill Floor
+7 AM | Flea Market setup on the Drill Floor
 8 AM | License Testing begins
 9 AM | Flea Market opens
 9:30 AM | Seminars begin
@@ -124,6 +111,14 @@ Time | Subject | Presented by
 -----|---------|-------------
 9:30 AM to 10AM | Foxhunt Orientation | Gerry Nies, N0NGW
 10AM to 11AM |  | 
-11AM to 11:50AM | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
+11AM to Noon | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
 
 {{< back >}}
+### Hamfest Handout
+
+<div style="width:100%;text-align:center;margin-bottom:12px;">
+<strong><a href="https://cloud.rrra.org/index.php/s/pif3ysgdJT3d9Z8">Download
+the 2024 RRRA Hamfest Handout</s>
+</div>
+
+{{< figure src="https://images.rrra.org/hamfest/2025-thumbnail.gif" link="https://cloud.rrra.org/index.php/s/pif3ysgdJT3d9Z8" >}}
