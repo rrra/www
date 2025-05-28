@@ -1,6 +1,5 @@
 +++
 title = "Amateur Radio Licensing Classes"
-date = ""
 categories = [ "Education" ]
 description = ""
 slug = ""

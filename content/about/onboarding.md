@@ -1,6 +1,5 @@
 +++
 title = "Member On Boarding"
-date = ""
 aliases = [ "/onboarding" ]
 +++
 Please complete these steps to finish setting up your RRRA membership:

@@ -1,6 +1,5 @@
 +++
 title = "RRRA News Distribution"
-date = ""
 aliases = [ '/about/social/', '/social' ]
 +++
 RRRA blog posts---aka *news articles*---are available via

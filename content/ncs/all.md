@@ -1,6 +1,5 @@
 +++
 title = "Cumulative NCS Roster"
-date = ""
 +++
 {{< cumulative-ncs-roster >}}
 

@@ -1,6 +1,5 @@
 +++
 title = "Social Media"
-date = ""
 aliases = [ '/about/social/', '/social' ]
 +++
 RRRA has a social media presence on

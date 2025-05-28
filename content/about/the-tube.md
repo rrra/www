@@ -1,6 +1,5 @@
 +++
 title = "The Tube"
-date = ""
 draft = true
 +++
 | Year | Custodian |

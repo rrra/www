@@ -1,6 +1,5 @@
 +++
 title = "Testing Opportunities"
-date = ""
 +++
 Please see our index of [License Testing dates](/dates/license-testing/) for a
 complete list of currently scheduled testing dates along with information
