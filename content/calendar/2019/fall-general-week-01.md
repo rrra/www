@@ -33,4 +33,4 @@ Registration for RRRA Fall 2019 General Classes is now open.  Please
 
 ### Resources
 
-* [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
+* [Course Supplement]({{< relref "/files/rrra-course-supplement.md" >}})

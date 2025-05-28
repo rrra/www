@@ -14,8 +14,8 @@ upon the same few individuals in perpetuity. It is, therefore, well past
 time for new Officers to step forward from within our membership.
 
 As specified in 
-[Article III] ({{< relref "/bylaws.md#article-iii-fiscal-year" >}}) of the
-[RRRA Bylaws]({{< relref "/bylaws.md" >}}),
+[Article III]({{< relref "/about/bylaws.md#article-iii-fiscal-year" >}}) of the
+[RRRA Bylaws]({{< relref "/about/bylaws.md" >}}),
 a leadership election will be conducted during the
 [February Meeting]({{< relref "/calendar/2018/february-meeting.md" >}}).
 
@@ -29,14 +29,14 @@ a leadership election will be conducted during the
 
 Four Officers and one At-Large Member of the Board of Directors are to be
 elected; with responsibilities are documented in
-[Article VI---Board of Directors]({{< relref "/bylaws.md#article-vi-board-of-directors" >}}) and
-[Article VII---Officers]({{< relref "/bylaws.md#article-vii-officers" >}})
+[Article VI---Board of Directors]({{< relref "/about/bylaws.md#article-vi-board-of-directors" >}}) and
+[Article VII---Officers]({{< relref "/about/bylaws.md#article-vii-officers" >}})
 of the RRRA Bylaws.
 
 #### At-Large Member of the Board of Directors
 
 One **At-Large Member** of the
-[Board of Directors]({{< relref "/bylaws.md#article-vi-board-of-directors" >}})
+[Board of Directors]({{< relref "/about/bylaws.md#article-vi-board-of-directors" >}})
 will be elected for a two year term.
 
 #### Officers
@@ -46,7 +46,7 @@ A [President]({{< relref "/post/2018/officer-elections.md#president" >}}),
 [Secretary]({{< relref "/post/2018/officer-elections.md#secretary" >}}), and
 [Treasurer]({{< relref "/post/2018/officer-elections.md#treasurer" >}})
 will be elected for a one year term. In addition to serving as
-[members of the Board of Directors]({{< relref "/bylaws.md#article-vi-board-of-directors" >}}),
+[members of the Board of Directors]({{< relref "/about/bylaws.md#article-vi-board-of-directors" >}}),
 these Officers have the following responsibilities:
 
 ##### President

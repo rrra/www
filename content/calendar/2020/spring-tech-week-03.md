@@ -22,5 +22,5 @@ upcoming = "hide"
 
 ### Resources
 
-* [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
+* [Course Supplement]({{< relref "/files/rrra-course-supplement.md" >}})
 <!--* [Syllabus](/s/2xabO1oD5mbpVRh)-->

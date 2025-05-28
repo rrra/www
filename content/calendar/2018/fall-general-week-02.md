@@ -21,5 +21,5 @@ outputs = [ "HTML" ]
 
 ### Resources
 
-* [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})
+* [Course Supplement]({{< relref "/files/rrra-course-supplement.md" >}})
 * [Syllabus](/s/fXT3KpheEuGOXBG)

@@ -27,7 +27,7 @@ cancellation on January 30, 2019.
 Following the completion of the course you should:
 
 * Review the textbook and study guide
-* [Take practice tests]({{<relref "/rrra-course-supplement.md#practice-tests-and-study-tools" >}})
+* [Take practice tests]({{<relref "/files/rrra-course-supplement.md#practice-tests-and-study-tools" >}})
 * Find your [FRN](http://wireless.fcc.gov/uls/index.htm?job=about_getting_started) so that you do not have to provide your SSN at the testing session
 
 ### License Testing

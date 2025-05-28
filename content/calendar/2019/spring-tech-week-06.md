@@ -33,4 +33,4 @@ information about **License Test Prerequisites** and **Checking Your License
 S
 ### Resources
 
-* [Course Supplement]({{< relref "/rrra-course-supplement.md" >}})tatus**.
+* [Course Supplement]({{< relref "/files/rrra-course-supplement.md" >}})tatus**.
