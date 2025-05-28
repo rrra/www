@@ -35,10 +35,6 @@ unsafe= true
 
 # Supress twitter error reports
 
-[author]
-	email = "webmaster@rrra.org"
-	name = "K0STK"
-
 [frontmatter]
 	lastmod = [ "lastmod", "date", "publishDate", ":git" ]
 
@@ -83,6 +79,10 @@ unsafe= true
 
 	# Base URL for source files on GitHub
 	gitbase = "https://github.com/rrra/www/blob/master"
+
+[params.author] # moved from [author] for v0.130.0
+	email = "webmaster@rrra.org"
+	name = "K0STK"
 
 [params.categories] # for the sidebar and archive pages
 
