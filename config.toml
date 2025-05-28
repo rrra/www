@@ -31,7 +31,7 @@ unsafe= true
 [security]
   enableInlineShortcodes = false
   [security.exec]
-    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^editor$']
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^editor$', '^git$']
 
 # Supress twitter error reports
 
