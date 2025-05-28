@@ -12,7 +12,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 8
+update = 9
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2025-07-15" >}}
@@ -47,7 +47,7 @@ for more information.
 * Flea Market
 * Fox Hunt Around The Armory (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
 * [Handout](#hamfest-handout) (AKA *Flyer*)
-* On-line Box Office <!--[On-line Box Office](#on-line-box-office)-->
+* [On-line Ticket Sales](#box-office) for General Admission and Vendor Bundles
 * ***Paper based*** [License Testing]({{< relref "/calendar/2025/hamfest-testing.md" >}}) (AKA *VE Testing* or *VE Session*)
 * [Seminars](#seminars)
 
@@ -63,24 +63,10 @@ for more information.
 {{< hamfest-sponsors 2025 >}}
 
 {{< back >}}
-<!--
-### On-Line Box Office
+### Purchase Admission and Vendor Tickets {#box-office}
 
-<!-- Ticket Tailor Widget. Paste this into your website where you want the
-widget to appear. Do not change the code or the widget may not work properly.
-
-<div class="tt-widget"><div class="tt-widget-fallback"><p><a
-href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget"
-target="_blank">Click here to buy tickets</a><br /><small><a
-href="https://www.tickettailor.com?rf=wdg_99768"
-class="tt-widget-powered">Sell tickets online with Ticket
-Tailor</a></small></p></div><script
-src="https://cdn.tickettailor.com/js/widgets/min/widget.js"
-data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/"
-data-type="inline" data-inline-minimal="true" data-inline-show-logo="false"
-data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param=""
-data-inline-ref="website_widget"></script></div>
-<!-- End of Ticket Tailor Widget -->
+<!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
+<div class="tt-widget"><div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" target="_blank">Click here to buy tickets</a><br /><small><a href="https://www.tickettailor.com?rf=wdg_99768" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget"></script></div><!-- End of Ticket Tailor Widget -->
 
 {{< banner class="alert" >}}
 General Admission Tickets and Vendor Bundle purchases are
