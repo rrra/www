@@ -4,7 +4,6 @@ languageCode = "en-us"
 timeout = "45s"
 title = "Red River Radio Amateurs"
 theme = "twentyfourteen"
-Paginate = 10
 enableEmoji = true
 preserveTaxonomyNames = true
 description = "News from the Red River Radio Amateurs"
@@ -56,6 +55,9 @@ unsafe= true
 [permalinks]
 	post = "/post/:year/:month/:day/:slug/"
 	calendar = "/cal/:year/:month/:day/:slug/"
+
+[pagination] # Changed for v0.134.0
+	pagerSize = 10
 
 [params]
 	tel = "701-526-4426"         # Club Phone Number
