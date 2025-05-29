@@ -12,7 +12,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 9
+update = 10
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2025-07-15" >}}
@@ -81,7 +81,7 @@ to adhere to, the RRRA
 
 Time |      |
 -----|------|
-7 AM | Flea Market setup on the Drill Floor
+7 AM | Flea Market Vendor setup on the Drill Floor
 8 AM | License Testing begins
 9 AM | Flea Market opens
 9:30 AM | Seminars begin
