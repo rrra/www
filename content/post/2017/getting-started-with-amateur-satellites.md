@@ -7,7 +7,7 @@ slug = ""
 tags = [ "AMSAT", "Twitter" ]
 title = "Getting Started with Amateur Satellites"
 +++
-{{< tweet user="amsat" id="932642649001070592" >}}
+{{< x user="amsat" id="932642649001070592" >}}
 <!--more-->
 
 ## Related Links

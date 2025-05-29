@@ -71,7 +71,7 @@ On-line mentions of the Advisory include:
 * [Did the fcc just make baofengs illegal? Email correspondents clarification from the FCC](https://old.reddit.com/r/amateurradio/comments/9je48g/did_the_fcc_just_make_baofengs_illegal_email/) (r/amateurradio)
 * [So you can't even operate a Baofeng, says FCC](https://old.reddit.com/r/amateurradio/comments/9ikepw/so_you_cant_even_operate_a_baofeng_says_fcc/) (r/amateurradio)
 * [FCC cracking down on Boafeng and similar radios that can transmit outside of amateur frequencies](https://old.reddit.com/r/preppers/comments/9iubtn/fcc_cracking_down_on_boafeng_and_similar_radios/) (r/preppers)
-* [Twitter search: "fcc enforcement advisory"](https://twitter.com/search?q=fcc%20enforcement%20advisory&src=typd)
+* [Twitter search: "fcc enforcement advisory"](https://x.com/search?q=fcc%20enforcement%20advisory&src=typd)
 * [FCC citation for selling Baofengs](https://forums.qrz.com/index.php?threads/fcc-citation-for-selling-baofengs.622760/) (QRZ)
 
 ### Amateur Radio Exception {#amateur-radio-exception}

@@ -8,5 +8,5 @@ tags = [ "ARES", "FirstNet", "Twitter" ]
 slug = ""
 
 +++
-{{< tweet user="arrl_ares" id="870623475538571264" >}}
+{{< x user="arrl_ares" id="870623475538571264" >}}
 <!--more-->`

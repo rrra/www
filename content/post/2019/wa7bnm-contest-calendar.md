@@ -54,5 +54,5 @@ available for some of the site's calendars.
 
 ### Social Media
 
-Follow the WA7BNM Contest Calendar on Twitter [@wa7bnmcalendar](https://twitter.com/wa7bnmcalendar).
+Follow the WA7BNM Contest Calendar on Twitter [@wa7bnmcalendar](https://x.com/wa7bnmcalendar).
 

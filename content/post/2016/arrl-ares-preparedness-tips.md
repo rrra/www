@@ -9,7 +9,7 @@ title = "ARRL-ARES Preparedness Tips"
 authors = [ "K0STK" ]
 +++
 Amateur Radio tips published on the
-[ARRL - ARES twitter page](https://twitter.com/arrl_ares) during [National Preparedness
+[ARRL - ARES twitter page](https://x.com/arrl_ares) during [National Preparedness
 Month](https://duckduckgo.com/?q=national+preparedness+month&t=ffnt&ia=about).
 <!--more-->
 **Memory check**: When was the last time you updated the memories in

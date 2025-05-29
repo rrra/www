@@ -7,5 +7,5 @@ slug = ""
 tags = [ "ARRL", "Twitter" ]
 title = "New Digital Modes Changing Complexion of Bands"
 +++
-{{< tweet user="arrl" id="926188450495287296" >}}
+{{< x user="arrl" id="926188450495287296" >}}
 <!--more-->

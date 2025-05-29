@@ -7,5 +7,5 @@ title = "UTC approvals for 630 and 2200M Bands arriving via E-Mail"
 tags = [ "ARRL", "Twitter" ]
 slug = ""
 +++
-{{< tweet user="arrl" id="919918471697391616" >}}
+{{< x user="arrl" id="919918471697391616" >}}
 <!--more-->

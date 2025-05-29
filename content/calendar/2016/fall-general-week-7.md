@@ -72,7 +72,7 @@ VHF Frequencies used for some ARISS contacts:
 
 ### Social Media
 * [Amateur/Ham Radio Subreddit](http://reddit.com/r/amateurradio/)
-* [@ARRL](https://twitter.com/arrl)
-* [#hamr](https://twitter.com/hashtag/hamr)
-* [#hamrradio](https://twitter.com/hashtag/hamradio)
+* [@ARRL](https://x.com/arrl)
+* [#hamr](https://x.com/hashtag/hamr)
+* [#hamrradio](https://x.com/hashtag/hamradio)
 * [RRRA on Facebook](https://www.facebook.com/W0ILO)

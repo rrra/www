@@ -8,5 +8,5 @@ authors = [ "K0STK" ]
 title = "April is National Inventors Month"
 
 +++
-{{< tweet user="arrl" id="848565745973956608" >}}
+{{< x user="arrl" id="848565745973956608" >}}
 <!--more-->

@@ -22,7 +22,7 @@ Linux, OS X, and Raspbian; is available for download at
 http://physics.princeton.edu/pulsar/K1JT/wsjtx.html
 <!--more-->
 
-{{< tweet user="arrl" id="885204735254552576" >}}
+{{< x user="arrl" id="885204735254552576" >}}
 
 ### About the FT8 protocol
 

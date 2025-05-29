@@ -8,7 +8,7 @@ tags = [ "Security" ]
 +++
 A recent [Pocket-lint blog post](https://www.pocket-lint.com/these-are-the-20-most-common-phone-pins-is-your-device-vulnerable/)
 reported about 
-[the 20 most common mobile phone passcodes \(AKA "PINs"\) used by mobile phone users](https://web.archive.org/web/20191220145401/https://twitter.com/tarah/status/1134341170400808961)
+[the 20 most common mobile phone passcodes \(AKA "PINs"\) used by mobile phone users](https://web.archive.org/web/20191220145401/https://x.com/tarah/status/1134341170400808961)
 revealed in 2019 by a cybersecurity expert. This blog post also lists
 the most common four-digit and six-digit PINs as determined in 2020 by a
 German-American team of IT security researchers.
@@ -49,7 +49,7 @@ passcodes:
 * 2001
 * 1010
 
-:information_source: *list source:* [original tweet by Tarah](https://web.archive.org/web/20191220145401/https://twitter.com/tarah/status/1134341170400808961)
+:information_source: *list source:* [original tweet by Tarah](https://web.archive.org/web/20191220145401/https://x.com/tarah/status/1134341170400808961)
 (at archive.org)
 
 ## IT security researchers' findings

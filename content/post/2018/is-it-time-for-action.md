@@ -20,7 +20,7 @@ positive change." [^1]
 
 Subsequent to the formation of myARRLvoice a
 [Facebook Group](https://www.facebook.com/groups/myarrlvoice/)
-and [Twitter Feed](https://twitter.com/myarrlvoice)
+and [Twitter Feed](https://x.com/myarrlvoice)
 were established to provide venues for discussion about, and to raise
 awareness of, these issues.
 <!--more-->

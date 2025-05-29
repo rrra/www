@@ -7,5 +7,5 @@ slug = ""
 tags = [ "ARRL", "Digital", "FT8", "WSJTX", "QST", "Twitter" ]
 title = "Join the FT8 Revolution"
 +++
-{{< tweet user="arrl" id="937698160473976832" >}}
+{{< x user="arrl" id="937698160473976832" >}}
 <!--more-->

@@ -8,5 +8,5 @@ title = "Midway and Kure Islands Reinstated as DXCC Entities"
 tags = [ "ARRL", "DXCC", "Twitter" ]
 
 +++
-{{< tweet user="arrl" id="863137975907094530" >}}
+{{< x user="arrl" id="863137975907094530" >}}
 <!--more-->

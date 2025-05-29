@@ -37,7 +37,7 @@ have been published on-line by the White House.
 
 The FCC News Release is available in multiple formats on the [FCC Chairman Pai on Administration Freeing Up 3.45-3.55 GHz Band for 5G page](https://www.fcc.gov/document/chairman-pai-administration-freeing-345-355-ghz-band-5g).
 
-{{< tweet user="ajitpai" id="1292908331946987520" >}}
+{{< x user="ajitpai" id="1292908331946987520" >}}
 
 ### References
 

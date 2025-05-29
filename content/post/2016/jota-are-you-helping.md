@@ -7,5 +7,5 @@ tags = [ "ARRL", "Scouting", "Twitter" ]
 title = "JOTA - Are You Helping?"
 authors = [ "K0STK" ]
 +++
-{{< tweet user="arrl" id="785838119249666048" >}}
+{{< x user="arrl" id="785838119249666048" >}}
 <!--more-->

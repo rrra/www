@@ -37,4 +37,4 @@ chart](https://en.wikipedia.org/wiki/Amateur_radio_frequency_allocations#ITU_Reg
 
 [^1]: "Court Ruling Paves The Way For Better, More Reliable Wi-Fi", techdirt, accessed January 5 2022, https://www.techdirt.com/articles/20220103/07173148222/court-ruling-paves-way-better-more-reliable-wi-fi.shtml.
 
-{{< tweet user="jrosenworcel" id="1475915000862715916" >}}
+{{< x user="jrosenworcel" id="1475915000862715916" >}}

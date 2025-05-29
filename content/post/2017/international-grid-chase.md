@@ -7,7 +7,7 @@ tags = [ "ARRL", "LoTW", "Twitter" ]
 +++
 2018 brings a new year-long operating event for all Amateur Radio Operators regardless of location or license class: *The ARRL International Grid Chase*.
 
-{{< tweet user="arrl" id="929024624784039937" >}}
+{{< x user="arrl" id="929024624784039937" >}}
 <!--more-->
 
 ## About the Chase

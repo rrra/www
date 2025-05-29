@@ -12,5 +12,5 @@ slug = ""
 Please make time between July 18 and July 28 to contact Scouts at the
 National Jamboree via K2BSA.
 
-{{< tweet user="k2bsa_scouting" id="884583582207021056" >}}
+{{< x user="k2bsa_scouting" id="884583582207021056" >}}
 <!--more-->

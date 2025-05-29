@@ -9,5 +9,5 @@ authors = [ "K0STK" ]
 title = "New ARRL Ham Radio Promotional Posters"
 
 +++
-{{< tweet user="arrl" id="893169862863970304" >}}
+{{< x user="arrl" id="893169862863970304" >}}
 <!--more-->

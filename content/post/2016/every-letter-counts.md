@@ -7,5 +7,5 @@ tags = [ "ARRL", "Parity", "Twitter" ]
 title = "Every Letter Counts"
 authors = [ "K0STK" ]
 +++
-{{< tweet user="arrl" id="779364931766460420" >}}
+{{< x user="arrl" id="779364931766460420" >}}
 <!--more-->

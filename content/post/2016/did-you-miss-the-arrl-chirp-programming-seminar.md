@@ -22,5 +22,5 @@ This 57 minute video presents the Webinar slides and a live programming session 
 * Copying channels between radios
 * Uploading from CHIRP to the radio
 
-{{< tweet user="arrl" id="795665862258753540" >}}
+{{< x user="arrl" id="795665862258753540" >}}
 

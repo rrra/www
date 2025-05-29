@@ -8,7 +8,7 @@ title = "3D Printed 2M Antenna"
 tags = [ "antennas", "ARRL", "Twitter" ]
 
 +++
-{{< tweet user="arrl" id="831863615888171008" >}}
+{{< x user="arrl" id="831863615888171008" >}}
 
 This antenna is based on the [WB0CMT (SK)](http://www.silentkeyhq.com/main.php4?p=bin/NSKALookup.php4&dlnk=&call=WB0CMT&uid=0231445638662163)
 "[7 dB for 7 bucks](http://www.arrl.org/files/file/Technology/tis/info/pdf/9304054.pdf)"

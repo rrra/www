@@ -8,7 +8,7 @@ categories = [ "Outreach", "Technical" ]
 authors = [ "K0STK" ]
 
 +++
-{{< tweet user="arrl" id="862333057763868672" >}}
+{{< x user="arrl" id="862333057763868672" >}}
 
 Get ready for Field Day 2017 with these articles in the June edition of QST:
 <!--more-->

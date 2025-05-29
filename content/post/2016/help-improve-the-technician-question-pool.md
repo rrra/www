@@ -9,7 +9,7 @@ tags = [ "ARRL", "Twitter" ]
 title = "Help Improve The Technician Question Pool"
 
 +++
-{{< tweet user="arrl" id="799990882938171397" >}}
+{{< x user="arrl" id="799990882938171397" >}}
 This is an opportunity to help the future of our hobby by improving the
 Technician Question Pool.
 <!--more-->

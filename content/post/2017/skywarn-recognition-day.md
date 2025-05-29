@@ -7,5 +7,5 @@ slug = ""
 tags = [ "ARRL", "NWS", "Skywarn", "Twitter" ]
 title = "2017 SKYWARN&trade; Recognition Day"
 +++
-{{< tweet user="arrl" id="927611693009637382" >}}
+{{< x user="arrl" id="927611693009637382" >}}
 <!--more-->

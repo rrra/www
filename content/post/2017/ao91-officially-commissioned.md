@@ -7,7 +7,7 @@ slug = ""
 tags = [ "AMSAT", "RadFXSat", "Twitter" ]
 title = "AO-91 Officially Commissioned"
 +++
-{{< tweet user="n0jy" id="933594149047160832" >}}
+{{< x user="n0jy" id="933594149047160832" >}}
 <!--more-->
 
 >AO-91 was built as a partnership with Vanderbilt University ISDE and

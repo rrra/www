@@ -8,5 +8,5 @@ slug = ""
 tags = [ "ARES", "MARS", "Twitter" ]
 title = "Very Bad Day Scenario"
 +++
-{{< tweet user="arrl" id="788779693738635264" >}}
+{{< x user="arrl" id="788779693738635264" >}}
 <!--more-->

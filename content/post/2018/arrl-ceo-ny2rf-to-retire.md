@@ -6,5 +6,5 @@ authors = [ "K0STK" ]
 categories = [ "Membership" ]
 tags = [ "ARRL", "Twitter" ]
 +++
-{{< tweet user="arrl" id="954020719247155200" >}}
+{{< x user="arrl" id="954020719247155200" >}}
 <!--more-->

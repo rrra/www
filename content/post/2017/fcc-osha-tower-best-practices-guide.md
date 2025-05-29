@@ -8,5 +8,5 @@ categories = [ "Technical" ]
 authors = [ "K0STK" ]
 
 +++
-{{< tweet user="arrl" id="870349247400607744" >}}
+{{< x user="arrl" id="870349247400607744" >}}
 <!--more-->

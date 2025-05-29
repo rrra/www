@@ -7,7 +7,7 @@ slug = ""
 tags = [ "ARRL", "FCC", "Twitter" ]
 title = "Help Stop Vanity Call Sign Abuse"
 +++
-{{< tweet user="arrl" id="791699316435853314" >}}
+{{< x user="arrl" id="791699316435853314" >}}
 
 [Comments on Rule Making Petition RM-11775](https://www.fcc.gov/ecfs/search/filings?proceedings_name=RM-11775&sort=date_disseminated,DESC)
 may be viewed or submitted through the

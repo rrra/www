@@ -11,7 +11,7 @@ RadFxSat (Fox-1B) was sucessfully launched on a Delta II rocket from
 Vandenberg Air Force Base at 1:47AM PST on November 18, 2017, and has been
 heard over Europe.
 
-{{<tweet user="m0npt" id="931868365450305536" >}}
+{{< x user="m0npt" id="931868365450305536" >}}
 <!--more-->
 
 This satellite had been designated as AMSAT-OSCAR 91 (AO-91).

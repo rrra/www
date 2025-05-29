@@ -7,5 +7,5 @@ title = "Aiming for a <em>Clean Sweep</em> during November?"
 tags = [ "Contesting", "Twitter" ]
 slug = ""
 +++
-{{< tweet user="arrl" id="924999646832930816" >}}
+{{< x user="arrl" id="924999646832930816" >}}
 <!--more-->

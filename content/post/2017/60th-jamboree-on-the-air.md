@@ -42,7 +42,7 @@ communities]."
 * [JOTA website](http://jotajoti.info/) ([World Organization of the Scout Movement](http://www.scout.org/))
 * [K2BSA JOTA page](https://www.k2bsa.net/jota/)
 
-{{< tweet user="arrl" id="880496013529710594" >}}
+{{< x user="arrl" id="880496013529710594" >}}
 
 ## Footnotes
 

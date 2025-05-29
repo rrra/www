@@ -6,6 +6,6 @@ authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "ARRL", "Parity", "Twitter" ]
 +++
-{{< tweet user="arrl" id="957025517554884615" >}}
+{{< x user="arrl" id="957025517554884615" >}}
 <!--more-->
 

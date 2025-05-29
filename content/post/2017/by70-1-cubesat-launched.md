@@ -7,7 +7,7 @@ slug = ""
 tags = [ "AMSAT", "Twitter" ]
 title = "BY70-1 Cubesat Launched"
 +++
-{{< tweet user="arrl" id="814924212657934336" >}}
+{{< x user="arrl" id="814924212657934336" >}}
 <!--more-->
 "BY70-1 is a 2U CubeSat project for education and Amateur Radio. It features
 3-axis stabilization and deployable solar panels. In addition to the FM

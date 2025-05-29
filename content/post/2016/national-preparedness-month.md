@@ -7,5 +7,5 @@ tags = [ "FEMA", "Twitter" ]
 title = "National Preparedness Month"
 authors = [ "K0STK" ]
 +++
-{{< tweet user="readygov" id="769960601913290753" >}}
+{{< x user="readygov" id="769960601913290753" >}}
 <!--more-->

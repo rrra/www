@@ -51,7 +51,7 @@ optimal conditions by setting up temporary stations utilizing field
 expedient antennas and off-the-grid power such as solar or generators.
 
 Social media users may follow Field Day on Facebook and on Twitter using
-the [#ARRLFD](https://twitter.com/search?q=%23arrlfd&src=typd)
+the [#ARRLFD](https://x.com/search?q=%23arrlfd&src=typd)
 hash tag. 
 
 Amateur Radio operators who will not be at a Field Day site are

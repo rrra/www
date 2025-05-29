@@ -7,5 +7,5 @@ tags = [ "ARRL", "Propagation", "Twitter" ]
 title = "Smaller Solar Cycles May Lie Ahead"
 authors = [ "K0STK" ]
 +++
-{{< tweet user="arrl" id="773926532381192192" >}}
+{{< x user="arrl" id="773926532381192192" >}}
 <!--more-->

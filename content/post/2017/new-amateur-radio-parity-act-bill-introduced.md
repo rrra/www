@@ -7,5 +7,5 @@ slug = ""
 tags = [ "ARRL", "Parity", "Twitter" ]
 title = "New Amateur Radio Parity Act Bill Introduced"
 +++
-{{< tweet user="arrl" id="821085901401034754" >}}
+{{< x user="arrl" id="821085901401034754" >}}
 <!--more-->

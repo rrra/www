@@ -23,5 +23,5 @@ From the bouvetdx.org
 [^1]: "News, Updates & Information", bouvetdx.org | The Bouvet DXpedition Website, Retrieved February 3 2018, http://www.bouvetdx.org/news-and-updates/.
 
 <!--more-->
-{{< tweet user="arrl" id="959940129241686016" >}}
+{{< x user="arrl" id="959940129241686016" >}}
 

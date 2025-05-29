@@ -33,7 +33,7 @@ and [Randy Cole, KN6W](http://vibroplexcollector.net/).
 from the N7CFO website are for personal use only and may not be
 downloaded or distributed for any commercial purpose." [ [2]({{< relref "/post/2017/morsum-magnificat-free-download.md#footnotes" >}}) ]
 
-{{< tweet user="arrl" id="865269536328749058" >}}
+{{< x user="arrl" id="865269536328749058" >}}
 
 ### Footnotes
 
