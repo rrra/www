@@ -5,11 +5,6 @@ title = "2025 Skywarn Training Is Only Available Online"
 authors = [ "K0STK" ]
 categories = [ "Public Service", "Education" ]
 tags = [ "Skywarn", "Video" ]
-featured = true 
-endFeatured = "2025-05-20T01:00:00-05:00"
-siteBanner = true
-bannerText = "Learn about [SKYWARN&reg; storm spotting](/2025/skywarn-training-video) today"
-aliases = [ "/2025/skywarn-training-video" ]
 moreText = "Watch The Video"
 +++
 First Responders, Amateur Radio Operators, and members of the public who
