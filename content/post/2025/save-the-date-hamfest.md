@@ -2,8 +2,8 @@
 date = "2025-05-18T10:30:39-05:00"
 title = "Save The Date for the 2025 RRRA Hamfest"
 authors = [ "K0STK" ]
-categories = [ "Outreach" ]
-tags = [ "Hamfest" ]
+categories = [ "Hamfest", "Outreach" ]
+tags = [ ]
 featured = true
 endFeatured = "2025-06-17T12:00:00-05:00"
 siteBanner = "2025-05-20T01:00:00-05:00"
