@@ -4,7 +4,7 @@ date = "2025-06-03T16:22:16-05:00"
 title = "ARRL Foundation Accepting Grant Applications in June"
 categories = [ "Outreach" ]
 tags = [ "ARRL", "Crosspost" ]
-xpostLink = ""
+xpostLink = "http://www.arrl.org/news/arrl-foundation-accepting-grant-applications-in-june"
 xpostName = "ARRL News"
 thumbnail = "http://www.arrl.org/images/view/News/ARRL%20Foundation_4.jpg"
 +++
