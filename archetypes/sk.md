@@ -9,6 +9,6 @@ obituary = ""    # Name of obituary source
 obitLink = ""    # Link to on-line obituary page
 silentkeyhq = "" # silentkeyhq UID for this SK
 # Do not change below here ...
-title = "{{ replace .TranslationBaseName "-" " " | upper | title }}"
+title = "{{ with ( getenv "HUGO_TITLE" ) }}{{ . }}{{ else }}{{ replace .TranslationBaseName "-" " " | title }}{{ end }}"
 created = "{{ .Date }}"
 +++

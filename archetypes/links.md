@@ -1,6 +1,6 @@
 +++
 date = "{{ .Date }}"
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
+title = "{{ with ( getenv "HUGO_TITLE" ) }}{{ . }}{{ else }}{{ replace .TranslationBaseName "-" " " | title }}{{ end }}"
 filename = ""
 linkdest = ""
 contact = ""
