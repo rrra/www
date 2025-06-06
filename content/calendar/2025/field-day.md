@@ -13,7 +13,7 @@ dates = [ "Outreach" ]
 Aliases = [ "/cal/2025/field-day/" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
-update = 2
+update = 3
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 >Field Day is ham radio's open house. Every June, more than 40,000 hams
@@ -51,7 +51,7 @@ west side of 12th Street NW (across the street from the Field Day site).
 
 ### Other Local Field Day Site Locations
 
-* [Sabin. MN \(N0NRU\)]({{< relref "/calendar/2025/field-day-sabin.md" >}})
+* [Sabin, MN \(N0NRU\)]({{< relref "/calendar/2025/field-day-sabin.md" >}})
 
 ### Find other Field Day Sites
 
