@@ -5,8 +5,7 @@ endTime = "2025-06-29T12:59:00-05:00"
 publishDate = "2025-01-21"
 title = "Field Day 2025 West Fargo"
 linkTitle = "Field Day - West Fargo"
-#location = "[Cass County Highway Department](#visit-our-field-day-site-location)"
-location = "TBD"
+location = "[Cass County Highway Department](#visit-our-field-day-site-location)"
 contact = "fieldday"
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "FD-RRRA"
@@ -14,7 +13,7 @@ dates = [ "Outreach" ]
 Aliases = [ "/cal/2025/field-day/" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 >Field Day is ham radio's open house. Every June, more than 40,000 hams
@@ -34,8 +33,6 @@ For more information about Field Day ...
 * Visit the [Wikipedia Field Day page](https://en.wikipedia.org/wiki/Field_Day_\(amateur_radio\))
 * Find and visit [a Field Day Site near you](http://www.arrl.org/field-day-locator)
 
-
-<!--
 ### Visit Our Field Day Site Location
 
 The [RRRA Field Day 2025 site](https://www.google.com/maps/place/46%C2%B052'33.7%22N+96%C2%B055'11.2%22W/@46.8758746,-96.9215708,274m/data=!3m1!1e3!4m14!1m7!3m6!1s0x52cf34bb7797e871:0xb83bd0531febdbda!2sWest+Fargo,+ND!3b1!8m2!3d46.8769487!4d-96.8999057!3m5!1s0x0:0x0!7e2!8m2!3d46.8760285!4d-96.9197808)
@@ -51,7 +48,6 @@ west side of 12th Street NW (across the street from the Field Day site).
 {{% hcard p-name="[Cass County Highway Department](/places/cass-county-highway-department/)" p-adr="1201 Main Ave W" p-loc="West Fargo" p-reg="ND" p-zip="58078" %}} 
 
 [View the RRRA Field Day 2025 site on Google Maps](https://www.google.com/maps/place/46%C2%B052'33.7%22N+96%C2%B055'11.2%22W/@46.8758746,-96.9215708,274m/data=!3m1!1e3!4m14!1m7!3m6!1s0x52cf34bb7797e871:0xb83bd0531febdbda!2sWest+Fargo,+ND!3b1!8m2!3d46.8769487!4d-96.8999057!3m5!1s0x0:0x0!7e2!8m2!3d46.8760285!4d-96.9197808)
--->
 
 ### Other Local Field Day Site Locations
 
