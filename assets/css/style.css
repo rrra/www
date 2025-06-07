@@ -182,7 +182,6 @@ strong {
 font-weight: 700;
 }
 
-
 em,
 i {
 font-style: italic;
@@ -462,6 +461,9 @@ color: #fff;
 text-shadow: none;
 }
 
+.notsmall {
+display: none;
+}
 
 /**
 * 2.0 Repeatable Patterns
@@ -732,7 +734,6 @@ span + .xpost-link:before,
 span + .comments-link:before {
 content: "\0020\007c\0020";
 }
-
 
 /**
 * 3.0 Basic Structure
@@ -2420,6 +2421,10 @@ aside#recent-posts-3 .genericons-neue {
 	       width: 33%;
 	}
 
+	.notsmall {
+		display: inherit;
+	}
+
 }
 
 @media screen and (min-width: 673px) {
@@ -2959,6 +2964,7 @@ aside#recent-posts-3 .genericons-neue {
 	div.widget.td {
 		width: auto
 	}
+
 }
 
 @media screen and (min-width: 1040px) {
@@ -3041,7 +3047,6 @@ aside#recent-posts-3 .genericons-neue {
 	.widget.social-media span.tag-links a:after {
 		top: 11px;
 	}
-
 }
 
 @media screen and (min-width: 1110px) {

@@ -36,7 +36,7 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 ### Mailing Address {#mailing-address}
 
-{{< qr class="alignright" level="low" scale=2 alt="QR code of vCard for RRRA" title="Scan QR code for vCard"  >}}
+{{< qr class="notsmall alignright" level="low" scale=2 alt="QR code of vCard for RRRA" title="Scan QR code for vCard"  >}}
 BEGIN:VCARD
 VERSION:2.1
 FN;CHARSET=UTF-8:

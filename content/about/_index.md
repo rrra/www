@@ -39,7 +39,7 @@ If you would like to support our club please contact the
 or leave a message at [701-526-4426](tel:701-526-4426)<span class="genericon
 genericon-phone"></span> or mail your check to:
 
-{{< qr class="alignright" level="low" scale=2 alt="QR code of vCard for RRRA" title="Scan QR code for vCard"  >}}
+{{< qr class="notsmall alignright" level="low" scale=2 alt="QR code of vCard for RRRA" title="Scan QR code for vCard"  >}}
 BEGIN:VCARD
 VERSION:2.1
 FN;CHARSET=UTF-8:
