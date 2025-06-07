@@ -51,8 +51,7 @@ END:VCARD
 
 {{< hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" >}}
 
-<span class="genericons-neue genericons-neue-download"></span> [Download vCard](data:text/vcard;charset=utf-8;base64,QkVHSU46VkNBUkQNClZFUlNJT046Mi4xDQpGTjtDSEFSU0VUPVVURi04Og0KTjtDSEFSU0VUPVVURi04Ojs7OzsNCk9SRztDSEFSU0VUPVVURi04OlJlZCBSaXZlciBSYWRpbyBBbWF0ZXVycw0KQURSO0NIQVJTRVQ9VVRGLTg7VFlQRT1XT1JLOjs7UC5PLiBCb3ggMzIxNTtGYXJnbztORDs1ODEwOC0zMjE1O1VTQQ0KVEVMO1RZUEU9V09SSzorMTcwMTUyNjQ0MjYNCkVNQUlMO1RZUEU9V09SSzppbmZvQHJycmEub3JnDQpVUkw7VFlQRT1ob21lcGFnZTpodHRwczovL3JycmEub3JnLw0KRU5EOlZDQVJE)
-
+<span class="genericons-neue genericons-neue-download"></span> <a href="data:text/vcard;charset=utf-8;base64,QkVHSU46VkNBUkQKVkVSU0lPTjoyLjEKRk47Q0hBUlNFVD1VVEYtODoKTjtDSEFSU0VUPVVURi04Ojs7OzsKT1JHO0NIQVJTRVQ9VVRGLTg6UmVkIFJpdmVyIFJhZGlvIEFtYXRldXJzCkFEUjtDSEFSU0VUPVVURi04O1RZUEU9V09SSzo7O1AuTy4gQm94IDMyMTU7RmFyZ287TkQ7NTgxMDgtMzIxNTtVU0EKVEVMO1RZUEU9V09SSzorMTcwMTUyNjQ0MjYKRU1BSUw7VFlQRT1XT1JLOmluZm9AcnJyYS5vcmcKVVJMO1RZUEU9aG9tZXBhZ2U6aHR0cHM6Ly9ycnJhLm9yZy8KRU5EOlZDQVJECg==" download="rrra.vcf">Download vCard</a>
  
 ### Questions, Comments, and Issue Reports {#reports}
 
