@@ -51,7 +51,7 @@ my $episode_url = $episodes[0];
 $tree = get_tree($episode_url) || die "failed to parse $episode_url";
 
 my $page_title = $tree->look_down ( '_tag', 'title' ) || die "title?";
-my $ep_body    = $tree->look_down ( 'class', 'ep-body') || die "description container";
+my $ep_body    = $tree->look_down ( 'class', 'ep-body ep-desc') || die "description container";
 my $page_desc  = $ep_body->look_down ( '_tag', 'p') || die "description?";
 
 for ( $tree->look_down ( 'class', 'sidebar-button download-btn',
