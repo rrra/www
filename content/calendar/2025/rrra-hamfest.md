@@ -8,18 +8,15 @@ linkTitle = "2025 Hamfest"
 location = ":new: [Moorhead Armory](/places/moorhead-ng-armory/) :new:"
 contact = "hamfest"
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
-#talkIn = "[W0ILO Repeaters](/radios/)"
+talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 10
+update = 11
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
-{{< banner expires="2025-07-15" >}}
-Bookmark https://hamfest.rrra.org/2025 and
-[subscribe to our Hamfest Announcements mailing
-list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
-to stay informed about North Dakota's largest and best Hamfest in 2025!
+{{< banner class="alert" >}}
+The RRRA Hamfest has moved to the [Moorhead Armory](/places/moorhead-ng-armory/)
 {{< /banner >}}
 
 {{< banner publish="2025-07-15" expires="2025-09-27" >}}
@@ -40,16 +37,17 @@ for more information.
 
 ### Featuring
 
-<!-- * ARRL QSL Card Checking -->
+* ARRL QSL Card Checking by KE0A
 * Coffee &amp; donuts
 * Door prizes<!-----courtesy of our [sponsors](#sponsors)-->
 * Eyeball QSOs
 * Flea Market
 * Fox Hunt Around The Armory (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
-* [Handout](#hamfest-handout) (AKA *Flyer*)
+* [Handout](#hamfest-handout) (this page is the ***Flyer***)
 * [On-line Ticket Sales](#box-office) for General Admission and Vendor Bundles
 * ***Paper based*** [License Testing]({{< relref "/calendar/2025/hamfest-testing.md" >}}) (AKA *VE Testing* or *VE Session*)
 * [Seminars](#seminars)
+* Venue Simplex Net --- 146.500 MHz, Analog FM
 
 *Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2023/rrra-hamfest.md#schedule" >}}) for more information*
 
