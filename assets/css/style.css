@@ -1107,6 +1107,7 @@ font-size: 12px;
 font-weight: 400;
 line-height: 1.3333333333;
 text-transform: uppercase;
+overflow: auto;
 }
 
 #contact {
