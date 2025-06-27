@@ -5,11 +5,11 @@ endTime = "2025-06-29T12:59:00-05:00"
 publishDate = "2025-05-21T11:24:41-05:00"
 title = "Field Day 2025 Sabin"
 linktitle = "Field Day - Sabin"
-location = ""
-contact = ""
-dates = [ "" ]
+location = "[Sabin City Park](/places/sabin-mn-field-day-site.md)"
+contact = "WB0BIN"
+dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 upcoming = "force"
 +++
