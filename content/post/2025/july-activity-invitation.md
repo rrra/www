@@ -14,6 +14,9 @@ event; it’s a Ham Radio show and tell!
 
 Enjoy an interactive experience, *eyeball QSOs*, **and some
 dessert**; no club business will be be discusssed at this meeting!
+
+:warning: Please RSVP to the {{< mailto id="president" subject="July Activity RSVP" >}}
+by Friday, July 11, 2025, so that we have enough dessert!
  <!--more-->
 
 You are invited to bring your rig and/or antenna for others to see, and
@@ -37,13 +40,6 @@ demo such as antenna analyzers.
 {{< banner class="alert" >}}
 :warning: **This will be a receive-only event.** :warning:
 {{< /banner >}}
-
-### Dessert Head Count
-
-Since ice cream and pie ***are*** involved, we'll need a head count.
-
-An RSVP request will be sent to the [Announcement] and [RRRA] mailing
-lists in July. 
 
 [mtg]: {{< relref "/calendar/2025/july-meeting.md" >}}
 [Announcement]: https://lists.rrra.org/mailman/listinfo/announce
