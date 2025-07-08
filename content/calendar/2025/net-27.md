@@ -1,5 +1,5 @@
 +++
-ncs = [ "K0CRF" ]
+ncs = [ "KF0NVZ" ]
 date = "2025-07-06T21:00:00-05:00"
 publishDate = "2024-12-01"
 endTime = ""
