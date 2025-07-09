@@ -12,7 +12,7 @@ talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 11
+update = 12
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
@@ -42,7 +42,7 @@ for more information.
 * Door prizes<!-----courtesy of our [sponsors](#sponsors)-->
 * Eyeball QSOs
 * Flea Market
-* Fox Hunt Around The Armory (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
+* Fox Hunt Around The Armory by N0NGW (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
 * [Handout](#hamfest-handout) (this page is the ***Flyer***)
 * [On-line Ticket Sales](#box-office) for General Admission and Vendor Bundles
 * ***Paper based*** [License Testing]({{< relref "/calendar/2025/hamfest-testing.md" >}}) (AKA *VE Testing* or *VE Session*)
@@ -83,7 +83,7 @@ Time |      |
 8 AM | License Testing begins
 9 AM | Flea Market opens
 9:30 AM | Seminars begin
-10 AM | Fox Hunt begins<br>Participants must bring their own [fox hunting gear](http://homingin.com/equipment.html)
+10 AM | Fox Hunt begins<br>Participants must bring their own [fox hunting gear](http://homingin.com/equipment.html)<br>Visit N0NGW's table for more information
 2 PM | Hamfest ends
 
 {{< back >}}
@@ -93,8 +93,7 @@ Time |      |
 
 Time | Subject | Presented by
 -----|---------|-------------
-9:30 AM to 10AM | Foxhunt Orientation | Gerry Nies, N0NGW
-10AM to 11AM |  | 
+9:30 AM to 11AM | Portable Operating --- plus a POTA activation from Alcatraz Island, CA | Shawn Carlson, KF0IBC
 11AM to Noon | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
 
 {{< back >}}
