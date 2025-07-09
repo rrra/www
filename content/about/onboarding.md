@@ -22,7 +22,7 @@ Please contact the
 {{< mailto id="webmaster" subject="Groupware information for " >}}
 with the following information:
 
-1. Your FCC call-sign. :warning: **Please append ***YOUR CALL-SIGN*** to
+1. Your FCC call-sign. :arrow_right: **Please append ***YOUR CALL-SIGN*** to
 the Subject line of your message.**
 
 2. The ***first name*** you'd like to use as your Groupware display name.
@@ -32,7 +32,7 @@ receipt to instantly confirm your membership status.
 
 :warning: If you paid your dues by mail or in-person at a club meeting,
 your Groupware account will be held in abeyance until membership
-confirmation is received from the Club Treasurer; **this will take
+confirmation is received from the Club Treasurer; **this ***will*** take
 between 20 and 60 business days**.
 
 You will receive an e-mail notice once your Groupware account is created; it
@@ -76,23 +76,25 @@ features to manage your subscription(s).
 
 #### How to subscribe
 
-1. Visit the
+1. Go to the
 [RRRA  List Information page](https://lists.rrra.org/mailman/listinfo/rrra)
- with your browser
-1. Use the **Subscribing to RRRA** form (located about halfway down
-the page) to enter your email address, and first-name and call-sign.
-    * Please use a real zero if your call sign includes one.
-    * You do not have to enter a password unless you want to. A mailing
-    list password will be automatically created and mailed to you---after
-    you confirm your subscription---if you don't enter one.
-1. Click the "Subscribe" button below the form.
-1. Look for the confirmation message which will be automatically sent
-to the email address you provided in step 2. You should receive the
-confirmation message within a few minutes of submitting your
-subscription request.
-1. Follow the instructions in the confirmation email to confirm your
-address. You will receive a welcome message in response to your
-subscription confirmation.
+1. Look for the section marked **Subscribing to RRRA** and fill in the
+boxes:
+    * You must enter your email address
+    * Please enter your first name and call-sign (no slashed zeros)
+    * You may choose a password. If you do not choose one, Mailman will
+    generate one for you. Warning: Do NOT use a valuable password, since
+    this password may be mailed to you in plain text
+1. Press the subscribe button. A new page should appear telling you that
+your request has been sent
+1. You will receive an email message asking for confirmation that you
+really want to be subscribed to the list. This is to prevent anyone
+from subscribing you to lists without your permission. Follow the
+instructions given in the message to confirm your wish to be subscribed
+1. After your confirmation is received you will receive a message
+welcoming you to the list. This message contains some useful information
+including your list password and some quick links for changing your
+options, so you may want to save it for later reference.
 
 #### Subscriber hints
 
