@@ -12,7 +12,7 @@ talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 12
+update = 13
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
@@ -39,7 +39,7 @@ for more information.
 
 * ARRL QSL Card Checking by KE0A
 * Coffee &amp; donuts
-* Door prizes<!-----courtesy of our [sponsors](#sponsors)-->
+* Door prizes --- courtesy of our [sponsors](#sponsors)
 * Eyeball QSOs
 * Flea Market
 * Fox Hunt Around The Armory by N0NGW (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
