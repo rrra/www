@@ -15,7 +15,7 @@ event, including some who were visiting us for the first time to see
 what ham radio was all about.
 <!--more-->
 
-{{< figure src="//images.rrra.org/2025/fieldday/2025_field_day2.png" link="//images.rrra.org/2025/fieldday/2025_field_day2.png" caption="W7WXR" >}}
+{{< figure src="//images.rrra.org/fieldday/2025_field_day2.png" link="//images.rrra.org/2025/fieldday/2025_field_day2.png" caption="W7WXR" >}}
 
 ### Publicity
 
@@ -35,7 +35,7 @@ the Forum. We also had a few new hams who had gotten their licenses but
 hadn't made their first QSOs yet. It was wonderful to see them get their
 first contacts.
 
-{{< figure src="https://images.rrra.org/2025/fieldday/fd-rrra-aprs-object.png" caption="FD-RRRA APRS Object / aprs.fi" link="https://images.rrra.org/2025/fieldday/fd-rrra-aprs-object.png" >}}
+{{< figure src="https://images.rrra.org/fieldday/2025-fd-aprs-object.png" caption="FD-RRRA APRS Object / aprs.fi" link="https://images.rrra.org/2025/fieldday/fd-rrra-aprs-object.png" >}}
 
 ### Operating 
 
@@ -61,7 +61,7 @@ some stations on CW. A second storm, which did hit us, followed the
 first about an hour later. Anton KC0PFS and I rode out the storm in the
 trailer; fortunately it was just heavy rain.
 
-{{< figure class="clear" src="//images.rrra.org/2025/fieldday/2025_field_day3.png" link="//images.rrra.org/2025/fieldday/2025_field_day3.png" caption="W7WXR" >}}
+{{< figure class="clear" src="//images.rrra.org/fieldday/2025_field_day3.png" link="//images.rrra.org/2025/fieldday/2025_field_day3.png" caption="W7WXR" >}}
 
 With the storm passed, we got the 40-meter dipole back up as quickly as
 it was lowered, as well as the beam, and were back on the air. Around 9
@@ -77,7 +77,7 @@ a passing rain shower. After the rain, I got on 40-meter CW around 3:30
 AM, and it was amazing. The noise on the band was gone, stations were
 spaced out very nicely, and speeds were on the slower side.
 
-{{< figure src="//images.rrra.org/2025/fieldday/2025_field_day4.png" link="//images.rrra.org/2025/fieldday/2025_field_day4.png" caption="W7WXR " >}}
+{{< figure src="//images.rrra.org/fieldday/2025_field_day4.png" link="//images.rrra.org/2025/fieldday/2025_field_day4.png" caption="W7WXR " >}}
 
 Folks started to show back up around 7 AM, and we operated until about noon.
 
