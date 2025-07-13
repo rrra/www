@@ -10,10 +10,10 @@ contact = "fieldday"
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "FD-RRRA"
 dates = [ "Outreach" ]
-Aliases = [ "/cal/2025/field-day/" ]
+aliases = [ "/cal/2025/field-day/" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
-update = 3
+update = 4
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 >Field Day is ham radio's open house. Every June, more than 40,000 hams
