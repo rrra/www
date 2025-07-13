@@ -4,7 +4,7 @@ title = "Field Day 2025 Wrap Up"
 categories = [ "Outreach" ]
 authors = [ "W7WXR" ]
 tags = [ "ARRL", "Field Day" ]
-thumbnail = "/images/2025/2025_field_day1.png"
+thumbnail = "//images.rrra.org/fieldday/2025_field_day1.png"
 +++
 [ARRL Field Day][fd] 2025 is now in the history books. The Red River Radio Amateurs
 once again activated their club callsign---W0ILO---as a Class 3A[^1] station from the
