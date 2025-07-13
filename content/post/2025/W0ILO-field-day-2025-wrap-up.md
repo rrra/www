@@ -35,7 +35,7 @@ the Forum. We also had a few new hams who had gotten their licenses but
 hadn't made their first QSOs yet. It was wonderful to see them get their
 first contacts.
 
-{{< figure src="//images.rrra.org/fieldday/2025-fd-aprs-object.png" caption="FD-RRRA APRS Object / aprs.fi" link="//images.rrra.org/fieldday/2024-fd-aprs-object.png" >}}
+{{< figure src="//images.rrra.org/fieldday/2025-fd-aprs-object.png" caption="FD-RRRA APRS Object / aprs.fi" link="//images.rrra.org/fieldday/2025-fd-aprs-object.png" >}}
 
 ### Operating 
 
