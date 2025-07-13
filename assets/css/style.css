@@ -1296,6 +1296,7 @@ padding: 8px;
 /* STK */
 p.clear { clear: both; }
 
+figure { margin-bottom: 12px; }
 figcaption p a::before { content: ' '; display: block; }
 figcaption p { margin-top: 6px; }
 
