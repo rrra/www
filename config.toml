@@ -77,7 +77,7 @@ unsafe= true
 	status = [ "canceled", "on w0ilo", "postponed", "webinar" ]
 
 	# Used for repeater list "filter menu"
-	modes = [ "analog", "asl", "d-star", "dmr", "ysf" ]
+	modes = [ "analog", "asl", "d-star", "dmr", "echolink", "irlp", "ysf" ]
 
 	# Base URL for source files on GitHub
 	gitbase = "https://github.com/rrra/www/blob/master"
@@ -163,11 +163,10 @@ unsafe= true
   title="Get started in Amateur Radio with RRRA"
 
 [params.tooltips.calendar]
-  title="Club and regional events"
+  title="Club, regional, and notable events"
 
-# "Files"
-[params.tooltips.links]
-  title="File downloads"
+[params.tooltips.files]
+  title="Downloads"
 
 [params.tooltips.join]
   title="Pay your RRRA membership dues"
@@ -176,7 +175,7 @@ unsafe= true
   title="Net Schedule, Preamble, and NCS Roster"
 
 [params.tooltips.radios]
-  title="Repeaters and IRLP"
+  title="Repeaters and nodes"
 
 [params.tooltips.sk]
   title="Memorials of RRRA Members and other Hams who are Silent Keys"

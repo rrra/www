@@ -4,21 +4,40 @@ title = "Radio Systems in the Red River Valley"
 linktitle = "Radios<span style=\"display:none;\"> - repeaters & nodes</span>"
 tags = [ "Repeaters", "Beacons" ]
 categories = [ "Technical" ]
-contact = "W0HNV"
 [menu.Main]
 url = "/radios/"
 +++
-### W0ILO Repeaters 
+### RRRA Repeaters
+
+#### W0ILO
+
+Location     | Frequency     | Tone
+-------------|---------------|-----
+Moorhead, MN | 145.350 MHz - | 123 Hz
+Moorhead, MN | 444.875 MHz + | 123 Hz
+~~Grandin, ND~~ | ~~146.76 Mhz +~~ | ~~123 Hz~~
 
 A linked Analog FM repeater system servicing Fargo-Moorhead and the
 surrounding area. Operated and maintained by RRRA, these repeaters
 identify with W0ILO (the club callsign):
 
-Location | Frequency | Tone
----------|-----------|-----
-Moorhead, MN | 145.350 MHz - | 123 Hz
-Moorhead, MN | 444.875 MHz + | 123 Hz
-~~Grandin, ND~~ | ~~146.76 Mhz +~~ | ~~123 Hz~~
+Trustee
+
+: {{< mailto W0ILO fullname >}}
+
+#### KC0KAE
+
+Location  | Frequency     | Tone
+----------|---------------|-----
+Fargo, ND | 146.715 MHz - | 123 Hz
+
+A stand-alone Analog FM repeater servicing Fargo.
+Operated and maintained by RRRA, this repeater
+identies with KC0KA
+
+Trustee
+
+: {{< mailto KC0KAE fullname >}}
 
 ### Other Repeaters and Radio Systems
 
@@ -36,8 +55,15 @@ extending north to Winnipeg, Canada.
 SuperLINK is reportedly no longer operational.
 
 Amateur Radio Operators interested in internet linked VHF/UHF
-radios may wish to consider using AllStarLink, D-Star, DMR, Echolink, [IRLP]({{<
-relref "/radios/irlp.md" >}}), or YSF. 
+radios may wish to consider using [AllStarLink], [D-Star], [DMR], [Echolink],
+[IRLP] , or [YSF]. 
+
+[AllStarLink]: /radios/list/asl/
+[D-Star]: /radios/list/d-star/
+[DMR]: /radios/list/dmr/
+[Echolink]: /radios/list/echolink/
+[IRLP]: /radios/list/irlp/
+[YSF]: /radios/list/ysf/
 
 #### 10M Beacon
 

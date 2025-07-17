@@ -2,4 +2,4 @@ location = "Fargo, ND"
 call = "K0EED"
 mode = "Analog"
 frequency = [ "145.490 - T82.5", "repeaterbook 38 45" ]
-notes = "[IRLP #4549](http://status.irlp.net/index.php?PSTART=11&nodeid=4549)"
+notes = "[IRLP #4549](http://status.irlp.net/index.php?PSTART=11&nodeid=4549)<br> Echolink #284694"
