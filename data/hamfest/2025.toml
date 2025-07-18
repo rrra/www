@@ -42,13 +42,13 @@ link = "http://www.mastrant.com/"
 name = "Hammond Manufacturing"
 link = "https://www.hammfg.com"
 
+[[sponsor]]
+name = "N3FJP"
+link = "https://n3fjp.com"
+
 #[[sponsor]]
 #name = "Bioenno Power"
 #link = "https://www.bioennopower.com/"
-
-#[[sponsor]]
-#name = "N3FJP"
-#link = "https://n3fjp.com"
 
 #[[sponsor]]
 #name = "WA0LIA"
