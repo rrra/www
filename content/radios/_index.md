@@ -15,7 +15,7 @@ Location     | Frequency     | Tone
 -------------|---------------|-----
 Moorhead, MN | 145.350 MHz - | 123 Hz
 Moorhead, MN | 444.875 MHz + | 123 Hz
-~~Grandin, ND~~ | ~~146.76 Mhz +~~ | ~~123 Hz~~
+Grandin, ND  | 146.76 Mhz +  | 123 Hz
 
 A linked Analog FM repeater system servicing Fargo-Moorhead and the
 surrounding area. Operated and maintained by RRRA, these repeaters
