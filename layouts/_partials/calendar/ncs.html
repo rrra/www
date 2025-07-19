@@ -2,13 +2,67 @@
 <div class="h-event">
 	<header class="entry-header">
 
+		{{/* Current date sequence and "also in" list */}}
+		{{ $dates := "" }}
+		{{ $also_in  := slice }}
+		{{ range .Params.dates }}
+			{{ $item := . }}
+			{{ if ne "hidden" ( urlize $item ) }}
+				{{ if eq "" $dates }}
+					{{ $dates = $item }}
+				{{ else }}
+					{{ $link := "</a>" | printf "%s%s" ( $item ) | printf "%s%s" "\">" | printf "%s%s" ( $item | urlize ) | printf "%s%s" "<a href=\"/dates/" }}
+					{{ $also_in = $also_in | append $link }}
+				{{ end }}
+			{{ end }}
+		{{ end }}
+
+		{{/* Nav links (for this and future years) for this page */}}
+		{{ $relpermalink := .RelPermalink }}
+		{{ $firstLink := "" }}
+		{{ $prevLink := $relpermalink }}
+		{{ $selfLink := "" }}
+		{{ $nextLink := $relpermalink }}
+		{{ $lastLink := "" }}
+		{{ range $key, $taxonomy := site.Taxonomies.dates }}
+			{{ if eq $key ( lower $dates ) }}
+				{{ $startOfYear := time.AsTime (printf "%d-01-01" now.Year) }}
+				{{ range first 1 ( where $taxonomy.Pages.Reverse "Date" "ge" $startOfYear ) }}
+					{{ $firstLink = .RelPermalink }}
+				{{ end }}
+				{{ range last 1 $taxonomy.Pages.Reverse }}
+					{{ $lastLink = .RelPermalink }}
+				{{ end }}
+				{{ range where $taxonomy.Pages.Reverse "Date" "ge" $startOfYear }}
+					{{ if ne "" $selfLink }}
+						{{ $nextLink = .RelPermalink }}
+						{{ break }}
+					{{ else }}
+						{{ if eq .RelPermalink $relpermalink }}
+							{{ $selfLink = .RelPermalink }}
+						{{ else }}
+							{{ $prevLink = .RelPermalink }}
+						{{ end }}
+					{{ end }}
+				{{ end }}
+				{{ break }}
+			{{ end }}
+		{{ end }}
+
 		<div class="entry-meta">
 			<span class="cat-links">
+				<a class="nav{{ if eq $selfLink $firstLink }} disabled{{ end }}" title="First" href="{{ $firstLink }}">&laquo;&laquo;</a>
+				<a class="nav{{ if eq $selfLink $prevLink }} disabled{{ end }}" title="Previous" href="{{ $prevLink }}">&laquo;</a>
 				{{ range .Params.dates }}
 					{{ if ne ( lower . ) "hidden" }}
-                				<a href="/dates/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+                				<a class="taxonomy" href="/dates/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
 					{{ end }}
             			{{ end }}
+				<a class="nav{{ if eq $selfLink $nextLink }} disabled{{ end }}" title="Next" href="{{ $nextLink }}">&raquo;</a>
+				<a class="nav{{ if eq $selfLink $lastLink }} disabled{{ end }}" title="Last" href="{{ $lastLink }}">&raquo;&raquo;</a>
+				{{ with $also_in }}
+				<div class="also">Also in: {{ delimit . " &bull; " | safeHTML }}</div>
+				{{ end }}
 			</span>
 		</div>
 		<h1 class="p-name entry-title">{{ .Title }}</h1>
@@ -21,13 +75,19 @@
 		<dt class="twocol header">WHERE:</dt>
 		<dd class="twocol"><span class="p-location">{{if eq .Params.location ""}}{{ $w0ilo | safeHTML }}{{ else }}{{ .Params.location | markdownify }}{{ end }}</span></dd>
 		<dt class="twocol header">NCS:</dt>
-		<dd class="twocol"><span class="p-organizer"><a href="/ncs/{{ index .Params.ncs 0 | urlize }}">{{ index .Params.ncs 0 }}</a></span></dd>
+		<dd class="twocol"><a title="NCS assignments for this operator" href="/ncs/{{ index .Params.ncs 0 | urlize }}">{{ index .Params.ncs 0 }}</a></dd>
+		{{ $subject := .Title }}
+		{{ $contact := "net" }}
+		<dt class="twocol header">CONTACT:</dt>
+		<dd class="twocol"><div id="contact" class="p-organizer">{{ partial "contact.html" (dict "context" . "sign" $contact "subject" $subject) }}</span></dd>
 		</dl>
-		<p class="clear"></p>
+		<h3>NCS Resources</h3>
+		<ul>
+			<li><a href="/nets/preamble/">Preamble</a></li>
+			<li><a href="/dates/ncs-schedule/">Schedule</a></li>
+			<li><a href="/ncs/">Roster</a></li>
+		</ul>
 		<p class="p-summary">{{ .Content }}</p>
-
-
 	</div>
-
 </div>
 </article> <!-- #post-## -->
