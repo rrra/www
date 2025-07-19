@@ -13,7 +13,7 @@ url = "/nets/"
 
 A directed net which meets every Sunday
 night at 9:00 pm local time on the
-[W0ILO Repeater System](/radios/#w0ilo-repeaters). 
+[W0ILO Repeater System](/radios/#w0ilo). 
 
 NCS Operator volunteers are always appreciated. Please contact
 the {{< mailto id="net" subject="Volunteering for the RRRA Sunday Net" >}} for more information.
