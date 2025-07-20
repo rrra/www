@@ -9,7 +9,7 @@ tags = []
 featured = "2025-07-12"
 endFeatured = "2025-09-27T12:00:00-05:00"
 siteBanner = true
-bannerText = "Our Hamfest has moved to the [Moorhead Armory](/places/moorhead-ng-armory/)"
+bannerText = "Our Hamfest has moved to the [Moorhead&nbsp;Armory](/places/moorhead-ng-armory/)"
 thumbnail = "https://images.rrra.org/hamfest/2025-thumbnail.gif"
 noindex = true
 +++

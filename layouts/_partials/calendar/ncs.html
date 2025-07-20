@@ -50,7 +50,7 @@
 		{{ end }}
 
 		<div class="entry-meta">
-			<span class="cat-links">
+			<div class="cat-links">
 				<a class="nav{{ if eq $selfLink $firstLink }} disabled{{ end }}" title="First" href="{{ $firstLink }}">&laquo;&laquo;</a>
 				<a class="nav{{ if eq $selfLink $prevLink }} disabled{{ end }}" title="Previous" href="{{ $prevLink }}">&laquo;</a>
 				{{ range .Params.dates }}
@@ -63,7 +63,7 @@
 				{{ with $also_in }}
 				<div class="also">Also in: {{ delimit . " &bull; " | safeHTML }}</div>
 				{{ end }}
-			</span>
+			</div>
 		</div>
 		<h1 class="p-name entry-title">{{ .Title }}</h1>
 	</header>
