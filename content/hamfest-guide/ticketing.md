@@ -17,8 +17,13 @@ to anyone at any time.***
 ##### Terms and Conditions
 
 * Admission Tickets are **non-refundable**
-* 12 years and under admitted free with paid accompanying adult; **door prize drawing entry not included**
-* **ATTENDEES  AGREE TO THE RRRA [PROHIBITED ITEMS POLICY]({{< relref "prohibited-items.md" >}}) BY PURCHASING ONE OR MORE GENERAL ADMISSION TICKETS. ATTENDEES WHO DO NOT ADHERE TO THIS POLICY WILL BE ASKED TO LEAVE.**
+* 12 years and under admitted free with paid accompanying adult; **door
+prize drawing entry not included**
+* **ATTENDEES  AGREE TO THE RRRA [PROHIBITED ITEMS POLICY]({{< relref
+"prohibited-items.md" >}}) BY PURCHASING ONE OR MORE GENERAL ADMISSION
+TICKETS. ATTENDEES WHO DO NOT ADHERE TO THIS POLICY ARE SUBJECT TO
+UNREFUNDED TERMINATION OF ADMISSION PRIVILEGES.**
+
 
 #### Vendor Table Bundles: $20 
 
@@ -31,8 +36,12 @@ to anyone at any time.***
 
 * Vendor Table Tickets are **non-refundable**
 * Limited electricity available
-* Door prize drawing entries limited to 1 per person admitted
-* **VENDORS AGREE TO THE RRRA [PROHIBITED ITEMS POLICY]({{< relref "prohibited-items.md" >}}) BY PURCHASING ONE OR MORE VENDOR TABLE BUNDLES. VENDORS WHO DO NOT ADHERE TO THIS POLICY WILL BE ASKED TO LEAVE.**
+* Door prize drawing entries limited to one (1) per person physically
+present at the time of check-in.
+* **VENDORS AGREE TO THE RRRA [PROHIBITED ITEMS POLICY]({{< relref
+"prohibited-items.md" >}}) BY PURCHASING ONE OR MORE VENDOR TABLE
+BUNDLES. VENDORS WHO DO NOT ADHERE TO THIS POLICY ARE SUBJECT TO
+UNREFUNDED TERMINATION OF ADMISSION PRIVILEGES.**
 
 #### How to purchase Tickets
 

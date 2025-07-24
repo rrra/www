@@ -1,5 +1,6 @@
 +++
 title = "Prohibited Items Policy"
+aliases = [ "/prohibited" ]
 +++
 Display, wearing, or sale of certain items at the
 [RRRA Hamfest & ARRL Dakota Division Convention](https://hamfest.rrra.org)

@@ -12,7 +12,7 @@ talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 13
+update = 14
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
@@ -43,7 +43,7 @@ for more information.
 * Eyeball QSOs
 * Flea Market
 * Fox Hunt Around The Armory by N0NGW (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
-* [Handout](#hamfest-handout) (this page is the ***Flyer***)
+* [Handout](#hamfest-handout) (there is no ***"Flyer"***)
 * [On-line Ticket Sales](#box-office) for General Admission and Vendor Bundles
 * ***Paper based*** [License Testing]({{< relref "/calendar/2025/hamfest-testing.md" >}}) (AKA *VE Testing* or *VE Session*)
 * [Seminars](#seminars)
