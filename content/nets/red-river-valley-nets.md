@@ -5,9 +5,3 @@ categories = [ "Public Service" ]
 tags = [ "ARES" ]
 +++
 {{< red-river-valley-nets >}}
-
-<span class="genericons-neue genericons-neue-warning"></span>
-**Times shown are Red River Valley local.**
-Please contact the {{< webmaster >}} with additions or corrections for
-this list.
-

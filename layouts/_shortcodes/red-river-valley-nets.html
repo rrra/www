@@ -64,20 +64,24 @@ this but ...
 	{{ $scratch.Set "lastmod" $key }}
 {{ end }}
 
-<table>	
-<thead>
-<tr>
-<th colspan="4"> Last net update: {{ $scratch.Get "lastmod" | dateFormat ( .Site.Param "sitedate" ) }}</th>
-</tr>
-<tr>
-<th>Day<br>&amp; Time</th>
-<th>Name<br>&amp; Link</th>
-<th>Frequency<br>&amp; Mode</th>
-<th>Contact</th>
-</tr>
-</thead>
+<div class="banner">
+<p><span class="genericons-neue genericons-neue-warning"></span>
+This information is provided on a best effort basis and is
+not guaranteed to be correct. Please refer to the net link and/or contact
+address for official information.<p>
+<p><strong>Times shown are Red River Valley local.</strong></p>
+</div>
 
-<tbody>
+<section class="table" id="nets">
+<header class="thead">
+	<div class="tr">
+		<div class="th">Day<br>&amp; Time</div>
+		<div class="th">Name<br>&amp; Link</div>
+		<div class="th">Frequency<br>&amp; Mode</div>
+		<div class="th">Contact</div>
+	</div>
+</header>
+
 {{ range sort ( sort $.Site.Data.nets ".time" ) ".day" }}
 
 	{{ if or ( eq 0 .day ) ( eq 7 .day ) }}
@@ -101,26 +105,27 @@ this but ...
 	{{ end }}
 
 	{{ if and ( not ( eq .inactive true ) ) ( or ( not ( gt .season " " )) ( eq $season .season ) ) }}
-		<tr>
-			<td>{{ with .dayrange }}{{ . | markdownify }}{{ else }}{{ $scratch.Get "day" }}{{ end }}<br>{{ .time }}</td>
-			<td>{{ .id | markdownify }}</td> 
+		<div class="tr">
+			<div class="td">{{ with .dayrange }}{{ . | markdownify }}{{ else }}{{ $scratch.Get "day" }}{{ end }} <span class="notsmall"><br></span>{{ .time }}</div>
+			<div class="td alignright">{{ .id | markdownify }}</div> 
 			{{ if reflect.IsSlice .freq }}
 				{{ $freq    := index .freq 0 }}
 				{{ $rptbook := index .freq 1 }}
 				{{ $slice   := split $rptbook " " }}
 				{{ $state   := index $slice 1 }}
 				{{ $id      := index $slice 2 }}
-				<td><a href="https://www.repeaterbook.com/repeaters/details.php?state_id={{ $state }}&ID={{ $id }}">{{ $freq }}</a></td>
+				<div class="td"><a href="https://www.repeaterbook.com/repeaters/details.php?state_id={{ $state }}&ID={{ $id }}">{{ $freq }}</a></div>
 			{{ else }}
-				<td>{{ .freq | markdownify }}</td>
+				<div class="td">{{ .freq | markdownify }}</div>
 			{{ end }}
-			<td>
+			<div class="td">
 			{{ $sign := .contact }}
 			{{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
 			{{ if (fileExists $filename) }}
 				{{ $recip := index $.Page.Site.Data.call $sign }}
 				{{ if ne $recip nil }}
-					{{ if gt  $recip.email "" }}
+					{{ if gt $recip.role  "" }}{{ $sign = $recip.role }}{{ end }}
+					{{ if gt $recip.email "" }}
 						{{ $email := "</a>" | printf "%s%s" ( $sign ) | printf "%s%s" "\">" | printf "%s%s" $recip.email | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
 						<script>
 						function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
@@ -137,12 +142,21 @@ this but ...
 					{{ $sign }}
 				{{ end }}
 			{{ else }}{{ $sign }}{{ end }}
-			</td>
-		</tr>
+			</div>
+		</div>
 	{{ end }}
 {{ end }}
-<tr class="noprint"><td colspan="4"><a href="https://github.com/rrra/www/tree/master/data/nets">Net source files</a></td></tr>
-</tbody>
 
-</table>
+</section>
+
+<dl>
+<dt><span class="genericons-neue genericons-neue-info"></span> Last net update
+<a href="https://github.com/rrra/www/tree/master/data/nets">{{ $scratch.Get "lastmod" | dateFormat ( .Site.Param "sitedate" ) }}</a>
+</dt>
+<dd>
+Please contact the <a href="mailto:webmaster@rrra.org" subject="Update for Red
+River Valley Net List">Webmaster Team</a> with additions or corrections to
+this list.
+</dd>
+</dl>
 

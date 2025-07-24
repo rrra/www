@@ -2422,11 +2422,9 @@ aside#recent-posts-3 .genericons-neue {
 	div.widget.td {
 	       width: 33%;
 	}
-
 	.notsmall {
-		display: inherit;
+		display: inline;
 	}
-
 }
 
 @media screen and (min-width: 673px) {
@@ -2493,7 +2491,6 @@ aside#recent-posts-3 .genericons-neue {
 	.site-info {
 		padding: 15px 30px;
 	}
-
 }
 
 @media screen and (min-width: 810px) {

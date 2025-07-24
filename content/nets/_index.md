@@ -28,11 +28,6 @@ the {{< mailto id="net" subject="Volunteering for the RRRA Sunday Net" >}} for m
 
 {{< red-river-valley-nets >}}
 
-<span class="genericons-neue genericons-neue-warning"></span>
-**Times shown are Red River Valley local.**
-Please contact the {{< webmaster subject="Update for Red River Valley Net List">}} with additions or corrections for
-this list.
-
 ## Find Other Nets
 
 <span class="genericons-neue genericons-neue-link"></span> [Search the ARRL Net Directory](http://www.arrl.org/resources/nets/client/netsearch.html)<br>

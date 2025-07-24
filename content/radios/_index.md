@@ -33,7 +33,7 @@ Fargo, ND | 146.715 MHz - | 123 Hz
 
 A stand-alone Analog FM repeater servicing Fargo.
 Operated and maintained by RRRA, this repeater
-identies with KC0KA
+identifies with KC0KA
 
 Trustee
 

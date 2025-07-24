@@ -2,4 +2,4 @@ location = "Fargo, ND"
 call = "KD0SWQ"
 mode = "D-STAR"
 frequency = [ "444.000 +", "repeaterbook 38 8129" ]
-notes = "NDSU Amateur Radio Society"
+notes = "[NDSU Amateur Radio Society](https://myndsu.ndsu.edu/organization/amateurradiosociety)"
