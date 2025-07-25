@@ -13,7 +13,7 @@ endFeatured = "2025-09-27T12:00:00-05:00"
 moreText = "Enter The Box Office and Make Your Purchase"
 thumbnail = "https://images.rrra.org/hamfest/2025-thumbnail.gif"
 +++
-General admission and vendor bundle tickets (i.e. a flea market table and vendor
+General Admission and Vendor Bundle tickets (i.e. a flea market table and vendor
 admission) are on sale ***now*** in the [RRRA online box office][boxoffice].
 
 Your advance purchase gets ***you*** to the bargins ***faster*** at the
