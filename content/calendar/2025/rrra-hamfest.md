@@ -12,7 +12,7 @@ talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 14
+update = 15
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
@@ -79,7 +79,7 @@ to adhere to, the RRRA
 
 Time |      |
 -----|------|
-7 AM | Flea Market Vendor setup on the Drill Floor
+7 AM | Flea Market Vendor setup on the Drill Floor<br>No vehicle access permitted
 8 AM | License Testing begins
 9 AM | Flea Market opens
 9:30 AM | Seminars begin
