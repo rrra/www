@@ -16,7 +16,7 @@ thumbnail = "https://images.rrra.org/hamfest/2025-thumbnail.gif"
 General Admission and Vendor Bundle tickets (i.e. a flea market table and vendor
 admission) are on sale ***now*** in the [RRRA online box office][boxoffice].
 
-Your advance purchase gets ***you*** to the bargins ***faster*** at the
+Your advance purchase gets ***you*** to the bargains ***faster*** at the
 Dakota Division's biggest hamfest.
 
 Don't waste time in the ticket table line :bangbang:
