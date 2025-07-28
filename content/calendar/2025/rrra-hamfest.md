@@ -12,7 +12,7 @@ talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 15
+update = 16
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
@@ -32,6 +32,8 @@ Please read our
 [ticketing guide]({{< relref "/hamfest-guide/ticketing.md" >}})
 for more information.
 {{< /banner >}}
+
+{{< figure src="//images.rrra.org/hamfest/rrra-hamfest-2025-calendar-image.png" >}}
 
 {{< back >}}
 
