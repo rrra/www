@@ -46,6 +46,10 @@ link = "https://www.hammfg.com"
 name = "N3FJP"
 link = "https://n3fjp.com"
 
+[[sponsor]]
+name = "Elecraft"
+link = "https://elecraft.com/"
+
 #[[sponsor]]
 #name = "Bioenno Power"
 #link = "https://www.bioennopower.com/"
