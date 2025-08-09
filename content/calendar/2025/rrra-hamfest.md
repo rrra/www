@@ -12,7 +12,7 @@ talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 17
+update = 18
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
@@ -22,8 +22,9 @@ The RRRA Hamfest has moved to the [Moorhead Armory](/places/moorhead-ng-armory/)
 {{< figure src="//images.rrra.org/hamfest/rrra-hamfest-2025-calendar-image.png" >}}
 
 {{< banner publish="2025-07-15" expires="2025-09-27" >}}
-:star: **[Buy your general admission tickets and vendor table bundles TODAY](https://tickets.rrra.org)
-and skip the Hamfest ticket table line.** :star:
+:star: **[Buy your general admission tickets and vendor table bundles
+TODAY](https://tickets.rrra.org)** --- **skip the Hamfest ticket table line and get
+to the bargains faster!** :star:
 
 General admission tickets and vendor bundles are also available at the
 door --- subject to availability.
