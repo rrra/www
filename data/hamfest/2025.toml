@@ -50,9 +50,9 @@ link = "https://n3fjp.com"
 name = "Elecraft"
 link = "https://elecraft.com/"
 
-#[[sponsor]]
-#name = "Bioenno Power"
-#link = "https://www.bioennopower.com/"
+[[sponsor]]
+name = "Bioenno Power"
+link = "https://www.bioennopower.com/"
 
 #[[sponsor]]
 #name = "WA0LIA"
