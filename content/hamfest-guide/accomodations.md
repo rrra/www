@@ -1,14 +1,14 @@
 +++
 title = "Nearby Accomodations"
 +++
-There are more than 40 hotels within approximately 5 miles of the Red River Valley Fair Grounds.
+There are many hotels in the Fargo / Moorhead area
 
-Please use one of these search links to find lodging which suits your
+Please use your favorite travel search site, or one of these search links, to find lodging which suits your
 needs and budget.
 
-* [Bing : hotels near red river valley fair grounds](https://www.bing.com/search?q=hotels+near+red+river+valley+fairgrounds)
-* [DuckDuckGo: hotels near red river valley fair grounds](https://duckduckgo.com/?va=r&t=hd&q=hotels+near+red+river+valley+fairgrounds&ia=places)
-* [Google: hotels near red river valley fairgrounds](https://www.google.com/search?q=hotels+near+red+river+valley+fairgrounds+fargo)
+* [Bing : hotels near red river valley fair grounds](https://www.bing.com/search?q=hotels+near+fargo+moorhead)
+* [DuckDuckGo: hotels near red river valley fair grounds](https://duckduckgo.com/?va=r&t=hd&q=hotels+near+fargo+moorhead&ia=places)
+* [Google: hotels near red river valley fairgrounds](https://www.google.com/search?q=hotels+near+fargo+moorhead+fargo)
 * [Trivago](https://www.trivago.com/en-US)
 
 {{< banner class = "alert" >}}
