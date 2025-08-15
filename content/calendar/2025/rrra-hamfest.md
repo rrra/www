@@ -12,7 +12,7 @@ talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 18
+update = 19
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
@@ -52,7 +52,7 @@ for more information.
 * [Seminars](#seminars)
 * Venue Simplex Net --- 146.500 MHz, Analog FM
 
-*Plans subject to change without notice. Please visit our [schedule of events]({{< relref "/calendar/2023/rrra-hamfest.md#schedule" >}}) for more information*
+*Plans subject to change without notice. Please visit our [schedule of events](#schedule) for more information*
 
 {{< back >}}
 ### Information for Attendees and Vendors
@@ -79,6 +79,11 @@ to adhere to, the RRRA
 {{< back >}}
 ### Schedule
 *Schedule subject to change without notice*
+
+:warning: There is ***NO*** venue access to the public (vendors or attendees)
+outside of the times listed on this schedule.
+
+#### Saturday, September 27th
 
 Time |      |
 -----|------|
