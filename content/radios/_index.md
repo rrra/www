@@ -11,10 +11,11 @@ url = "/radios/"
 
 #### W0ILO
 
-Location     | Frequency     | Tone
+Location     | Frequency     | CTCSS TX Tone
 -------------|---------------|-----
 Moorhead, MN | 145.350 MHz - | 123 Hz
 Moorhead, MN | 444.875 MHz + | 123 Hz
+Buffalo, ND  | 147.255 Mhz + | 123 Hz
 Grandin, ND  | 146.76 Mhz +  | 123 Hz
 
 A linked Analog FM repeater system servicing Fargo-Moorhead and the
@@ -27,13 +28,12 @@ Trustee
 
 #### KC0KAE
 
-Location  | Frequency     | Tone
+Location  | Frequency     | CTCSS TX Tone
 ----------|---------------|-----
 Fargo, ND | 146.715 MHz - | 123 Hz
 
-A stand-alone Analog FM repeater servicing Fargo.
-Operated and maintained by RRRA, this repeater
-identifies with KC0KA
+A stand-alone Analog FM repeater servicing Fargo. Operated and
+maintained by RRRA, this repeater identifies with KC0KA
 
 Trustee
 
