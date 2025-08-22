@@ -16,17 +16,17 @@
       <pubDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</pubDate>
 			{{ with site.Author.email -}} <author>{{ . -}}{{ with site.Author.name -}} ({{ . -}}){{ end -}}</author>{{ end -}}
       <guid>{{ .Permalink -}}</guid>
-      <description>{{ partial "upcoming-rss.html" . | html -}}</description>
+      <description>{{ partial "upcoming-rss.html" . | htmlUnescape | plainify -}}</description>
     </item>
     {{ range first 15 (where site.Pages.ByDate "Section" "post").Reverse -}}
       {{ if ne "Posts" .Title -}}
 				<item>
-					<title>{{ .Title | markdownify | plainify -}}{{ with .Params.subTitle | markdownify | plainify }} - {{ . }}{{ end }}</title>
+					<title>{{ .Title | markdownify | htmlUnescape | plainify -}}{{ with .Params.subTitle | markdownify | plainify }} - {{ . }}{{ end }}</title>
 					<link>{{ .Permalink -}}</link>
 					<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</pubDate>
 					{{ with site.Author.email -}}<author>{{ . -}}{{ with site.Author.name }} ({{ . -}}){{ end -}}</author>{{ end -}}
 					<guid>{{ .Permalink -}}</guid>
-					<description>{{ .Summary | plainify }}{{ if .Truncated -}}&lt;p&gt;&lt;a href=&#34;{{ .Permalink -}}&#34;&gt;Read More&lt;/a&gt;...&lt;/p&gt;{{ end -}}</description>
+					<description>{{ .Summary | htmlUnescape | plainify}}{{ if .Truncated -}}<p><a href="{{ .Permalink -}}">{{ with .Params.moreText }}{{ .  }}{{ else }}Read More{{ end }}</a>...</p>{{ end -}}</description>
 				</item>
       {{ end -}}
     {{ end -}}
