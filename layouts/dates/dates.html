@@ -60,7 +60,7 @@
 			{{ range .Pages.Reverse }}
 				{{ if and ( eq $highlight "" ) ( and ( eq .Params.status nil ) ( gt (.Date.Unix) (now.Unix) ) ) }}{{ $highlight = "yes" }}{{ end }}
 				{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Jan 2" ) ) }}
-					{{ partial "calendar/sameday-dates.html" (dict "page" . "highlight" $highlight ) }}
+					{{ partial "calendar/sameday-dates.html" (dict "permalink" .RelPermalink "title" .Title "status" .Params.status "highlight" $highlight ) }}
 				{{ else }}
 					{{ partial ( $.Scratch.Get "li" ) (dict "page" . "highlight" $highlight ) }}
 					{{ $.Scratch.Set "sameday" (.Date.Format "Jan 2") }}
