@@ -3,8 +3,8 @@ date = "2025-09-02T20:49:06-05:00"
 #publishdate = "2025-09-02T20:49:06-05:00"
 title = "RRRA September Activity: Communicating with Winlink"
 authors = [ "K0STK" ]
-categories = []
-tags = []
+categories = [ "Membership" ]
+tags = [ "Activities" ]
 thumbnail = "https://winlink.org/sites/default/files/wl2klogosm400x167_0.png"
 +++
 See Winlink (formally Winlink Global Radio Email&reg;, AKA Winlink 2000)
