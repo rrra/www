@@ -54,8 +54,12 @@ link = "https://elecraft.com/"
 name = "Bioenno Power"
 link = "https://www.bioennopower.com/"
 
-#[[sponsor]]
-#name = "WA0LIA"
+[[sponsor]]
+name = "WA0LIA"
+
+[[sponsor]]
+name = "Blarney Stone"
+link = "https://www.blarneyirishpub.com/"
 
 #[[sponsor]]
 #name = "Buckmaster International LLC"
@@ -90,10 +94,6 @@ link = "https://www.bioennopower.com/"
 #[[sponsor]]
 #name = "MyEclipseGlasses"
 #link = "https://myeclipseglasses.com"
-
-#[[sponsor]]
-#name = "Blarney Stone"
-#link = "https://www.blarneyirishpub.com/"
 
 #[[sponsor]]
 #name = "Axis Clinicals"
