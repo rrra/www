@@ -9,10 +9,10 @@ location = ":new: [Moorhead Armory](/places/moorhead-ng-armory/) :new:"
 contact = "hamfest"
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 talkIn = "[W0ILO Repeaters](/radios/)"
-#aprs = "HFEST-27r"
+aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 19
+update = 20
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
