@@ -12,7 +12,7 @@ talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 20
+update = 21
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
@@ -21,7 +21,7 @@ The RRRA Hamfest has moved to the [Moorhead Armory](/places/moorhead-ng-armory/)
 
 {{< figure src="//images.rrra.org/hamfest/rrra-hamfest-2025-calendar-image.png" >}}
 
-{{< banner publish="2025-07-15" expires="2025-09-27" >}}
+{{< banner publish="2025-07-15" expires="2025-09-24" >}}
 :star: **[Buy your general admission tickets and vendor table bundles
 TODAY](https://tickets.rrra.org)** --- **skip the Hamfest ticket table line and get
 to the bargains faster!** :star:
@@ -35,6 +35,22 @@ Please read our
 [ticketing guide]({{< relref "/hamfest-guide/ticketing.md" >}})
 for more information.
 {{< /banner >}}
+
+{{< banner class="alert" publish="2025-09-25" expires="2025-09-28" >}}
+The flea market vendor set-up period is from 7AM to 9AM on Saturday,
+September 27th. **There will be no exceptions to this schedule.**
+
+We are required by Minnesota state law to collect, and retain, written
+evidence that persons who do business at our event have a valid
+Minnesota tax ID number. If a seller is not required to have a Minnesota
+tax ID number, the seller must give us a written statement that items
+offered for sale are not subject to sales tax.
+
+Therefore **ALL** flea market vendors are **REQUIRED** to complete Minnesota
+Department of Revenue Form ST19 at the vendor check-in table **BEFORE** they
+will be allowed entrance to the event.
+{{< /banner >}}
+
 
 {{< back >}}
 
