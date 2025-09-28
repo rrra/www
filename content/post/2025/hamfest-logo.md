@@ -1,6 +1,6 @@
 +++
 date = "2025-09-25T09:10:30-05:00"
-#publishdate = "2025-09-25T09:10:30-05:00"
+expiryDate = "2025-09-27T12:00:00-05:00"
 subTitle = "September 27, 2025"
 title = "At the Moorhead MN National Guard Armory"
 authors = [ "K0STK" ]
