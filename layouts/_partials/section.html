@@ -93,9 +93,13 @@
 		</div>
 		{{ end }}
 
-		<div class="entry-meta">
-		</div><!-- .entry-meta -->
-
+		{{ with .Params.tags }}
+		<div class="entry-meta tag-links">		
+		{{ range . }}
+			<a href="/tags/{{ lower . | urlize }}/index.html" rel="tag">{{ . }}</a>
+		{{ end }}
+		</div>
+		{{ end }}
 	</header>
 	
 	<div class="entry-content">
@@ -121,7 +125,6 @@
 		{{ if eq "development" hugo.Environment }}
 		<pre>Template: layouts/partial/section.html</pre>
 		{{ end }}
-
 		{{ partial "sourcelink.html" . }}
 	</div><!-- .entry-content -->
 
