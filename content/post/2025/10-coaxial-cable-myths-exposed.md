@@ -2,7 +2,7 @@
 date = "2025-08-22T08:08:22-05:00"
 #publishdate = "2025-08-22T08:08:22-05:00"
 title = "10 Coaxial Cable Myths Exposed"
-categories = [ "Techical" ]
+categories = [ "Technical" ]
 tags = [ "Feedline", "Video" ]
 xpostLink = "https://www.youtube.com/@TheSmokinApe"
 xpostName = "The SmokinApe Ham Radio 9Youtube)"
