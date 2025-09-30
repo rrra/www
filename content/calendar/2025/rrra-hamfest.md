@@ -12,14 +12,12 @@ talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-27r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2025/hamfest/" ]
-update = 21
+update = 22
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner class="alert" >}}
 The RRRA Hamfest has moved to the [Moorhead Armory](/places/moorhead-ng-armory/)
 {{< /banner >}}
-
-{{< figure src="//images.rrra.org/hamfest/rrra-hamfest-2025-calendar-image.png" >}}
 
 {{< banner publish="2025-07-15" expires="2025-09-24" >}}
 :star: **[Buy your general admission tickets and vendor table bundles
@@ -62,8 +60,8 @@ will be allowed entrance to the event.
 * Eyeball QSOs
 * Flea Market
 * Fox Hunt Around The Armory by N0NGW (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
-* [Handout](#hamfest-handout) (there is no ***"Flyer"***)
-* [On-line Ticket Sales](#box-office) for General Admission and Vendor Bundles
+* Handout
+* On-line Ticket Sales 
 * ***Paper based*** [License Testing]({{< relref "/calendar/2025/hamfest-testing.md" >}}) (AKA *VE Testing* or *VE Session*)
 * [Seminars](#seminars)
 * Venue Simplex Net --- 146.500 MHz, Analog FM
@@ -79,10 +77,12 @@ will be allowed entrance to the event.
 
 {{< hamfest-sponsors 2025 >}}
 
+<!--
 {{< back >}}
-### Purchase Admission and Vendor Tickets {#box-office}
+### Purchase Admission and Vendor Tickets {#box-office}-->
 
 <!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
+<!--
 <div class="tt-widget"><div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" target="_blank">Click here to buy tickets</a><br /><small><a href="https://www.tickettailor.com?rf=wdg_99768" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget"></script></div><!-- End of Ticket Tailor Widget -->
 
 {{< banner class="alert" >}}
@@ -120,6 +120,7 @@ Time | Subject | Presented by
 9:30 AM to 11AM | Portable Operating --- plus a POTA activation from Alcatraz Island, CA | Shawn Carlson, KF0IBC
 11AM to Noon | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
 
+<!--
 {{< back >}}
 ### Hamfest Handout
 
@@ -133,3 +134,4 @@ the 2024 RRRA Hamfest Handout</a></strong>
 {{< banner >}}
 Print this handout, keep one half, and give the other half to a friend!
 {{< /banner >}}
+-->
