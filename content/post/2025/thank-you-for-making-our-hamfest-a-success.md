@@ -4,7 +4,7 @@ date = "2025-09-27T19:22:40-05:00"
 title = "Thank You for Making Our Hamfest a Success"
 authors = [ "K0STK" ]
 categories = [ "Hamfest" ]
-tags = [ "ARRL" ]
+tags = [ "" ]
 featured = true
 endFeatured = "2025-10-05"
 +++
