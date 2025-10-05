@@ -82,8 +82,9 @@
  		{{ end }} 
 	</div><!-- .entry-summary -->
 
-	{{/* Avoid excess vertical space */}}
-	{{ with .Params.tags }}
+	{{/* Display the tags div only if the tags parameter exists and is really non zero. */}}
+	{{ if ne ( index .Params.tags 0 ) "" }}
+		{{ with .Params.tags }}
 		<footer class="entry-meta">
 			<div class="tag-links">		
 			{{ range . }}
@@ -91,6 +92,7 @@
 			{{ end }}
 			</div>
 		</footer>
+		{{ end }}
 	{{ end }}
 
 </article> <!-- #post-## -->
