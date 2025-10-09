@@ -9,9 +9,11 @@ xpostName = "The Comms Channel (YouTube)"
 moreText = "Watch The Video"
 thumbnail = "https://yt3.googleusercontent.com/S8CrPOslfro_51hGRb1WtgX0BfrO-MdDd1tivwWB_hDx3YyfqIJbXY0OcFR25eWwQCqJn0zY=s160-c-k-c0x00ffffff-no-rj"
 +++
-Are PoC Radios the Future of Communications?
+Are [PoC Radios] the Future of Communications?
 
 Will they replace Ham Radio and GMRS?
 <!--more-->
 
 {{< youtube Q-1smX3CvYQ >}}
+
+[poc radios]: https://en.wikipedia.org/wiki/PoC_radio
