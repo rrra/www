@@ -50,3 +50,34 @@ view it.**
 
 [^1]: " LICW and Renaissance of Morse Code", DARA Hamvention Youtube Channel, accessed October 5 2025, https://www.youtube.com/watch?v=hAJvuj4j-ns.
 
+### About LICW
+
+>The Long Island CW Club had been started in 2018 to promote and expand
+>the use of Morse Code (CW) amongst amateur radio operators, initially
+>in our geographic area. Today there is no longer a FCC requirement to
+>learn CW to obtain an amateur radio license. Yet we find there is still
+>a pent up demand to learn the code, become more proficient at it and
+>to take part in activities centered around this interesting skill. To
+>help fill this void, we have put together a group of dedicated teachers
+>of Morse Code (CW). We conduct CW training classes via internet video
+>conference classes at various skill levels. We have grown quickly,
+>branching out with members nationwide and overseas. Please see our
+>[Calendar] for CW class times. Besides Morse Code classes, we are very
+>active with regular *brick and mortar* activities worldwide such as QRP
+>outings, portable operations, museum and hamfest visits and luncheons.
+>We also hold regular presentations on a variety of ham radio and Morse
+>Code (CW) related topics, also by internet video conference. [^2]
+
+:information_source: [Learn more about LICW Morse Code training](https://longislandcwclub.org/morse-code-training/)
+
+Website
+
+: https://longislandcwclub.org/
+
+Contact
+
+: info@longislandcwclub.org
+
+[calendar]: https://longislandcwclub.org/events/
+
+[^2]: "Learn Morse Code – CW with The Long Island CW Club", Long Island CW Club, accessed October 9 2025, https://longislandcwclub.org/.
