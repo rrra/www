@@ -3,7 +3,7 @@ date = "2025-10-16T10:08:05-05:00"
 #publishdate = "2025-10-16T10:08:05-05:00"
 title = "Do We Still Have the Spark Gap in Our Rearview Mirror?"
 categories = [ "Outreach" ]
-tags = [ "Crosspost" ]
+tags = [ "History", "Demography", "Crosspost" ]
 thumbnail = "https://i0.wp.com/k4fmh.com/wp-content/uploads/2019/02/k4fmh_green_cartoon_logo.png?ssl=1"
 xpostLink = "https://k4fmh.com/2025/10/15/do-we-still-have-the-spark-gap-in-our-rearview-mirror/"
 xpostName = "K4FMH A blog about amateur radio"
