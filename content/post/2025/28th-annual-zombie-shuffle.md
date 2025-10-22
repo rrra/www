@@ -30,7 +30,7 @@ Where do Zombies Shuffle?
 : Visit the [Zombie Shuffle Rules page][site] to find out ...
 
 :zombie: Request your lifetime QRP Zombie Number from the
-{{< mailto zombieshuffle >}} by e-mail before starting your shuffle.
+{{< mailto zombieshuffle >}} by e-mail before starting to shuffle.
 
 Visit the [Zombie Shuffle Rules page][site] for the ***Official Rules***, links to event summary sheets, and more Zombie goodness.
 
