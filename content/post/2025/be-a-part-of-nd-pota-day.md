@@ -6,12 +6,14 @@ authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "POTA" ]
 thumbnail = "http://www.ndarrlsection.com/images/buffalo.jpg"
+featured = "2025-10-25"
+endFeatured = "2025-11-02T20:00:00-05:00"
 +++
 Get out of your shack on November 2, 2025, and activate a park for
 [ND POTA Day] :compass:
 
 This operating event is not a contest; it is an opportunity celebrate
-North Dakota's [Statehood Day], to enjoy our hobby in the great outdoors
+North Dakota's [Statehood Day], enjoy our hobby in the great outdoors
 and, hopefully, raise the visibility of Amateur Radio.
 <!--more-->
 
@@ -26,6 +28,8 @@ Please send your reports to {{< mailto N0RDF name >}}
 
 [ND POTA Day]: {{< relref "calendar/2025/nd-pota-day.md" >}}
 [Statehood Day]: #ndsd
+
+{{< figure src="http://www.ndarrlsection.com/images/buffalo.jpg" >}}
 
 ### About ND Statehood Day {#ndsd}
 
@@ -54,8 +58,6 @@ State Historical Society of North Dakota
 
 [historical overview]: https://www.history.nd.gov/ndhistory/summaryintro.html
 [amp]: http://memory.loc.gov/ammem/award97/ndfahtml/ngp_nd.html
-
-{{< figure src="http://www.ndarrlsection.com/images/buffalo.jpg" >}}
 
 [^1]: "Statehood Day in North Dakota and South Dakota", AnyDay Guide, accessed October 21 2025, https://anydayguide.com/calendar/4361.
 [^2]: "History of North Dakota", State Historical Society of North Dakota, accessed October 21 2025, https://www.history.nd.gov/ndhistory/index.html.
