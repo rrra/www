@@ -6,7 +6,7 @@ categories = [ "Outreach" ]
 tags = [ "ARRL", "Hamfest" ]
 moreText = "View The Image"
 +++
-The 2021 RRRA Hamfest is currently featured in the image scroller on the
+The 2021 RRRA Hamfest was featured in the image scroller on the
 [ARRL home page](https://www.arrl.org/) along with the QSO Today Virtual Ham Expo,
 the Huntsville Hamfest, and the Northeast HamXposition.
 <!--more-->
