@@ -43,8 +43,8 @@ new course will ensure students have an even more personal, interactive
 experience. Greene will present the material in bite-sized sections,
 demonstrating just how much fun amateur radio is!
 
-Visit the ARRL Shop to complete the paid enrollment for a special
-introductory price of $99. Registrants will receive a follow-up
+Visit the ARRL Shop to complete the [paid enrollment][shop] for a
+special introductory price of $99. Registrants will receive a follow-up
 email with instructions for registering for the live video course
 after completing your order. If you have any questions regarding the
 course, please contact the ARRL Education and Learning Department at
