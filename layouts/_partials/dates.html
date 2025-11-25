@@ -12,7 +12,7 @@
 					{{ $seq := $name | humanize | title | replaceRE "Ares" "ARES" | replaceRE "Ncs" "NCS" }}
 					{{ if eq "Outreach" $seq }}{{ $seq = "Outreach Events" }}{{ end }}
 					{{ if eq "Hamfest" $seq }}{{ $seq = "Club Hamfest" }}{{ end }}
-					<li class="cat-item">
+					<li>
 						<a href="/dates/{{ $url }}/" title="{{ with $section.title }}{{ . }}{{ else }}{{ with $section.description }}{{ . }}{{ end }}{{ end }}">{{ $seq }}</a>
 					</li>
 				{{ end }}	

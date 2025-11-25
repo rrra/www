@@ -34,8 +34,6 @@ Where do Zombies Shuffle?
 
 Visit the [Zombie Shuffle Rules page][site] for the ***Official Rules***, links to event summary sheets, and more Zombie goodness.
 
-{{< figure src="https://www.zianet.com/qrp/ZOMBIE/zs001034.gif" >}}
-
 ### About the Zombie Shuffle
 
 >THE ZOMBIE SHUFFLE is an annual afternoon/evening event for QRPers to
@@ -54,8 +52,6 @@ Visit the [Zombie Shuffle Rules page][site] for the ***Official Rules***, links 
 >the NorCal-20 QRP transceiver kit. [^1]
 
 [^1]: "2025 Rules", QRP Zombie Shuffle, accessed October 22 2025, https://www.zianet.com/qrp/ZOMBIE/pg.html.
-
-{{< figure src="https://www.zianet.com/qrp/ZOMBIE/badge.jpg" link="https://www.zianet.com/qrp/ZOMBIE/zombiebadge.pdf" >}}
 
 :zombie: [Download your own QRP Zombie Badge][badge]
 

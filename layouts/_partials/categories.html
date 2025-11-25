@@ -11,7 +11,7 @@
 				{{ $section := index site.Params.categories $url }}
 				{{ $title := "" }}
 				
-				<li class="cat-item">
+				<li>
 					<a href="/categories/{{ $url }}/" title="{{ with $section.title }}{{ . }}{{ else }}{{ with $section.description }}{{ . }}{{ end }}{{ end }}">{{ .Page.Title }}</a>
 				</li>
 			{{ end }}

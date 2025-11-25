@@ -8,6 +8,7 @@
 	{{ hugo.Generator }}
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
+	<meta name="format-detection" content="telephone=no">
 	{{ with .Params.noindex }}<meta name="robots" content="noindex">{{ end }}
 	{{ if .IsHome }}<meta name="description" content="{{ site.Params.description}}" />{{ else }}{{ with .Description }}<meta name="description" content="{{ . }}" />{{ end }}{{ end }}
 	<title>{{ if not .IsHome }}{{ with .Title }}{{ . }} &middot; {{ end }}{{ end }}{{ site.Title }}</title>
@@ -35,6 +36,16 @@
     <![endif]-->
     <!--<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>-->
 
+    <!-- Based on
+    https://0xda.de/blog/2025/04/hiding-elements-that-require-javascript-without-javascript/
+    -->
+    <noscript>
+        <style>
+            .d-js-required {
+                display: none;
+            }
+        </style>
+    </noscript>
 
 </head>
 
@@ -52,8 +63,8 @@
 			</div>
 
 			<nav id="primary-navigation" class="site-navigation primary-navigation">
+				<a class="screen-reader-text skip-link" href="#main-content">Skip to content</a>
 				<button class="menu-toggle">Primary Menu</button>
-				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
 				<div class="nav-menu">
 					<ul>
 						{{ range site.Menus.main }}
