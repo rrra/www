@@ -1,12 +1,13 @@
 +++
 date = "2025-12-01T08:27:51-06:00"
 #publishdate = "2025-12-01T08:27:51-06:00"
-title = "SKYWARN Recognition Day 2025 Cancelled"
+title = "SKYWARN Recognition Day 2025 Canceled"
 categories = [ "Public Service", "Outreach" ]
 tags = [ "ARRL", "Skywarn", "crosspost" ]
 xpostLink = "https://www.arrl.org/news/skywarn-recognition-day-2025-cancelled"
 xpostName = "ARRL News"
 thumbnail = "https://www.weather.gov/images/iln/skywarnlogo.png"
+aliases = [ "/post/2025/12/01/skywarn-recognition-day-2025-cancelled/" ]
 +++
 NOAA's National Weather Service (NWS) has announced the cancellation
 of **SKYWARN&trade; Recognition Day (SRD) 2025**.
