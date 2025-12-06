@@ -1,12 +1,12 @@
 +++
 date = "2025-12-01"
 title = "2026 Membership Renewals Are Due"
-subTitle = "... at The January Club Activity"
+subTitle = "at the January Club Activity"
 authors = [ "K0STK" ]
 categories = [ "Membership " ]
 tags = []
-featured = "2025-12-16"
-endFeatured = "2026-01-21"
+featured = "2025-12-05"
+endFeatured = "2026-01-06T00:00:00-06:00"
 siteBanner = "2025-12-01"
 bannerText ="[Renew your membership today!](/join/)"
 description = "Annual dues reminder"
