@@ -45,7 +45,7 @@ Please send your reports to {{< mailto N0RDF name >}}
 >their native language as "ally". [^1] 
 
 >A brief [historical overview] of the state up to 1989 ... was written by
->Larry Remele (Education & Interpretation Division, State Historical
+>Larry Remele (Education and Interpretation Division, State Historical
 >Society of North Dakota) for the 1989 *North Dakota Blue Book*, a
 >publication of the North Dakota Secretary of State.
 >
