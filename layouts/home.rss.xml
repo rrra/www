@@ -1,3 +1,4 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RRRA News</title>
@@ -10,6 +11,14 @@
     {{ with site.Copyright -}}<copyright>{{ . -}}</copyright>{{ end -}}
     {{ if not .Date.IsZero -}}<lastBuildDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</lastBuildDate>{{ end -}}
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upcoming Events</title>
+      <link>{{ site.BaseURL -}}</link>
+      <pubDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</pubDate>
+      {{ with site.Author.email -}} <author>{{ . -}}{{ with site.Author.name -}} ({{ . -}}){{ end -}}</author>{{ end -}}
+      <guid>{{ .Permalink -}}</guid>
+      <description>{{ partial "upcoming-rss.html" . | safeHTML -}}</description>
+    </item>
     {{ range first 15 (where site.Pages.ByDate "Section" "post").Reverse -}}
       {{ if ne "Posts" .Title -}}
 	<item>
@@ -18,7 +27,7 @@
 	  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</pubDate>
 	  {{ with site.Author.email -}}<author>{{ . -}}{{ with site.Author.name }} ({{ . -}}){{ end -}}</author>{{ end -}}
 	  <guid>{{ .Permalink -}}</guid>
-	  <description>{{ .Summary | htmlUnescape | plainify}}</description>
+	  <description>{{ .Summary | htmlUnescape | plainify }}</description>
 	</item>
       {{ end -}}
     {{ end -}}
