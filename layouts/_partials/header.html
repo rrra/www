@@ -17,7 +17,7 @@
 	<script src="/js/html5.js"></script>
 	{{ "<![endif]-->" | safeHTML }}
     
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ site.Title }}" />
+    <link href="{{ site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="{{ site.Title }}" />
 
     {{ $fonts := resources.Get "css/fonts.css" }}
     {{ $genericons := resources.Get "genericons/genericons-neue.css" }}
