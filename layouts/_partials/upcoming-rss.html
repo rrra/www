@@ -19,8 +19,7 @@
       {{ if or (not (in $seen $series)) (or (eq ($.Scratch.Get "upcoming") "force") (in ($.Scratch.Get "today") $series)) -}}
 
 	{{ .Date.Format "Mon, Jan 2, 2006" }}<br>
-	{{ if in site.Params.status .Params.status -}}{{ upper .Params.status -}} {{ end -}}{{ .Title }}<br>
-	{{ .Permalink }}<br><br>
+	{{ if in site.Params.status .Params.status -}}{{ upper .Params.status -}} {{ end -}}{{ .Title }}<br><br>
 	{{ $this := (chomp (delimit .Params.dates " ") | printf "%s" | urlize | printf "%s|") -}}
 	{{ $.Scratch.Add "seen" $this -}}
 	{{ $.Scratch.Add "today" $this -}}
