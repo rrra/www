@@ -3,17 +3,17 @@
 {{- else -}}
 <span class="h-card">
 {{- end -}}
-  {{- with .Get "p-name" -}}<span class="p-name">{{.}}</span>{{- end -}}{{- if .Get "block" -}}<br />{{- else -}},&nbsp;{{- end -}}
-  {{- with .Get "p-pob" -}}<span class="p-post-office-box">{{.}}</span>{{- end -}}{{- with .Get "p-adr" -}}<span class="p-street-address">{{.}}</span>{{- end -}}{{- if .Get "block" -}}<br />{{- else -}},&nbsp;{{- end -}}
+  {{- with .Get "p-name" -}}<span class="p-name">{{.}}</span>{{- end -}}{{- if .Get "block" -}}<br>{{- else -}},&nbsp;{{- end -}}
+  {{- with .Get "p-pob" -}}<span class="p-post-office-box">{{.}}</span>{{- end -}}{{- with .Get "p-adr" -}}<span class="p-street-address">{{.}}</span>{{- end -}}{{- if .Get "block" -}}<br>{{- else -}},&nbsp;{{- end -}}
   {{- with .Get "p-loc" -}}<span class="p-locality">{{.}}</span>{{- end -}}{{- if and (.Get "p-loc") (.Get "p-reg") -}},&nbsp;{{- end -}}
   {{- with .Get "p-reg" -}}<span class="p-region">{{.}}</span>&nbsp;{{- end -}}
   {{- with .Get "p-zip" -}}<span class="p-postal-code">{{.}}</span>&nbsp;{{- end -}}
   {{- if .Get "block" -}}</div><div>{{- end -}}
-  {{- if and (.Get "block") (.Get "p-url") -}}<br /><span class="genericons-neue genericons-neue-website"></span>{{- else if .Get "p-url" -}},&nbsp;{{- end -}}
+  {{- if and (.Get "block") (.Get "p-url") -}}<br><span class="genericons-neue genericons-neue-website"></span>{{- else if .Get "p-url" -}},&nbsp;{{- end -}}
   {{- with .Get "p-url" -}}<a class="p-url" href="{{.}}">{{.}}</a>{{- end -}}
-  {{- if and (.Get "block") (.Get "p-email") -}}<br /><span class="genericons-neue genericons-neue-mail"></span>{{- else if .Get "p-email" -}},&nbsp;{{- end -}}
+  {{- if and (.Get "block") (.Get "p-email") -}}<br><span class="genericons-neue genericons-neue-mail"></span>{{- else if .Get "p-email" -}},&nbsp;{{- end -}}
   {{- with .Get "p-email" -}}<a class="p-email" href="mailto:{{.}}">{{.}}</a>{{- end -}}
-  {{- if and (.Get "block") (.Get "p-tel") -}}<br /><span class="genericons-neue genericons-neue-phone"></span>{{- else if .Get "p-tel" -}},&nbsp;{{- end -}}
+  {{- if and (.Get "block") (.Get "p-tel") -}}<br><span class="genericons-neue genericons-neue-phone"></span>{{- else if .Get "p-tel" -}},&nbsp;{{- end -}}
   {{- with .Get "p-tel" -}}<a class="p-tel" href="tel:{{.}}">{{.}}</a>{{- end -}}
 {{- if .Get "block" -}}
 </div>

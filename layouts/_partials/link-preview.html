@@ -46,13 +46,13 @@
   {{- if not (strings.HasPrefix . "@") }}
     {{- $content = printf "@%v" $twitterSite }}
   {{- end }}
-<meta name="twitter:site" content="{{ $content }}"/>
+<meta name="twitter:site" content="{{ $content }}">
 {{- end }}
 
-<meta name="twitter:card" content="{{ $twitterCard }}" />
-{{ with $twitterImage }}<meta name="twitter:image" content="{{ . }}" />{{ end }}
-<meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
+<meta name="twitter:card" content="{{ $twitterCard }}">
+{{ with $twitterImage }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}">
 
 {{/* ## Support for Opengraph
    *
@@ -60,32 +60,32 @@
    * https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/opengraph.html
    */}}
 
-<meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
 
 {{- if ne $twitterImage "" }}
-  <meta property="og:image" content="{{ $twitterImage }}" />
+  <meta property="og:image" content="{{ $twitterImage }}">
 {{- else }}
-  <meta property="og:image" content="{{ $pageImage }}" />
+  <meta property="og:image" content="{{ $pageImage }}">
 {{- end }}
 
 {{- if .IsPage }}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
-<meta property="article:section" content="{{ .Section }}" />
-{{ with .PublishDate }}<meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
-{{ with .Lastmod }}<meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+<meta property="article:section" content="{{ .Section }}">
+{{ with .PublishDate }}<meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>{{ end }}
+{{ with .Lastmod }}<meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>{{ end }}
 {{- end -}}
 
-{{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end
+{{- with .Params.audio }}<meta property="og:audio" content="{{ . }}">{{ end
 }}
-{{- with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{
+{{- with .Params.locale }}<meta property="og:locale" content="{{ . }}">{{
 end }}
 {{- with site.Params.title }}<meta property="og:site_name" content="{{ . }}"
-/>{{ end }}
+>{{ end }}
 {{- with .Params.videos }}{{- range . }}
-<meta property="og:video" content="{{ . | absURL }}" />
+<meta property="og:video" content="{{ . | absURL }}">
 {{ end }}{{ end }}
 
 {{- /* If it is part of a series, link to related articles */}}
@@ -95,7 +95,7 @@ end }}
 {{ with .Params.series }}{{- range $name := . }}
   {{- $series := index $siteSeries ($name | urlize) }}
   {{- range $page := first 6 $series.Pages }}
-    {{- if ne $page.Permalink $permalink }}<meta property="og:see_also" content="{{ $page.Permalink }}" />{{ end }}
+    {{- if ne $page.Permalink $permalink }}<meta property="og:see_also" content="{{ $page.Permalink }}">{{ end }}
   {{- end }}
 {{ end }}{{ end }}
 {{- end }}
@@ -108,7 +108,7 @@ end }}
 {{- end }}
 
 {{- /* Facebook Page Admin ID for Domain Insights */}}
-{{ with $facebookAdmin }}<meta property="fb:admins" content="{{ . }}" />{{ end
+{{ with $facebookAdmin }}<meta property="fb:admins" content="{{ . }}">{{ end
 }}
 
 {{/* ## Support for schema.org
@@ -117,23 +117,27 @@ end }}
    * https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/schema.html
    */}}
 
+<!-- reported as a error by validator.w3.org
+	The itemprop attribute was specified, but the element is not a property of any item.
+	These are aparently used by Google+
 <meta itemprop="name" content="{{ .Title }}">
 <meta itemprop="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+-->
 
 {{- if .IsPage -}}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
-{{ with .PublishDate }}<meta itemprop="datePublished" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end}}
-{{ with .Lastmod }}<meta itemprop="dateModified" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end}}
+{{ with .PublishDate }}<meta itemprop="datePublished" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>{{ end}}
+{{ with .Lastmod }}<meta itemprop="dateModified" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>{{ end}}
 <meta itemprop="wordCount" content="{{ .WordCount }}">
 
 {{- if ne $twitterImage "" }}
-  <meta itemprop="image" content="{{ $twitterImage }}" />
+  <meta itemprop="image" content="{{ $twitterImage }}">
 {{- else }}
-  {{- with $pageImage }}<meta itemprop="image" content="{{ . }}" />{{- end }}
+  {{- with $pageImage }}<meta itemprop="image" content="{{ . }}">{{- end }}
 {{- end }}
 
 <!-- Output all taxonomies as schema.org keywords -->
-<meta itemprop="keywords" content="{{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ range $plural, $terms := site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}{{ end }}" />
+<meta itemprop="keywords" content="{{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ range $plural, $terms := site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}{{ end }}">
 {{- end -}}
 
 {{/* ## Suport for Google Rich Cards */}}

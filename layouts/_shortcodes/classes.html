@@ -29,7 +29,7 @@
 					{{ $fl := "-class-week-1/" | printf "%s%s" ( $base ) | printf "%s/%s" ( replace ( $firstdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
 					{{ $ll :=  ( .count ) | printf "%s-class-week-%s/" ( $base ) | printf "%s/%s" ( replace ( $lastdate ) "-" "/" ) | printf "%s%s" "/cal/" }}
 					<td><a href="/dates/{{ $series | urlize }}">{{ $series }}</a></td>
-					<td><a href="{{ $fl }}">{{ $ft }}</a> to<br /><a href="{{ $ll }}">{{ $lt }}</a></td> 
+					<td><a href="{{ $fl }}">{{ $ft }}</a> to<br><a href="{{ $ll }}">{{ $lt }}</a></td> 
 					<td>{{ .count }}</td>
 					{{ if gt ( $testdate ) "" }}
 						{{ $tt := $testdate | dateFormat "Jan 02, 2006" }}

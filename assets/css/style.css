@@ -1659,7 +1659,8 @@ line-height: 1.3333333333;
 	margin-bottom: 18px;
 }
 
-.widget .widget-title {
+.widget .widget-title,
+.widget.social-media ul.noscript a {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7142857142;
@@ -2133,6 +2134,11 @@ aside#recent-posts-3 .genericons-neue {
 		font-size: 36px;
 		margin: 24px;
 		padding: 12px;
+	}
+	.widget.social-media ul.noscript a {
+		font-size: 12px;
+		line-height: 1.5;
+		margin: 12px 0 0 8px;
 	}
 	#home-link {
 		margin: 0;
@@ -2914,6 +2920,17 @@ aside#recent-posts-3 .genericons-neue {
 		font-size: 28px;
 		margin: 12px;
 		padding: 0;
+	}
+
+	.widget.social-media ul.noscript {
+		margin-top: 18px;
+		text-align: left;
+	}
+
+	.widget.social-media ul.noscript a {
+		font-size: 16px;
+		line-height: 1.5;
+		margin: 12px 0 0 8px;
 	}
 
 	aside.widget.widget_search {

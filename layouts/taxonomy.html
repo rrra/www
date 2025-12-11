@@ -26,7 +26,7 @@
 		{{ $contact := index site.Data.contacts ( .Title | urlize ) }}
 		{{ if ne $contact nil }}
 		<div id="contact">
-			<br /><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
+			<br><span class="cat-links vertmiddle">Contact: </span> {{ partial "contact.html" (dict "context" . "sign" $contact ) }} 
 		</div>
 		{{ end }}
 

@@ -3,19 +3,19 @@
    *
    * Sample of minimal markup using og fall backs:
    *
-   * <meta property="og:type" content="" />
-   * <meta property="og:title" content="" />
-   * <meta property="og:description" content="" />
-   * <meta property="og:url" content="" />
-   * <meta property="og:site_name" content="" />
-   * <meta property="og:image" content="" />
-   * <meta property="og:image:width" content="" />
-   * <meta property="og:image:height" content="" />
-   * <meta property="og:locale" content="" />
-   * <meta name="twitter:card" content="summary|summary_large_image" />
-   * <meta name="twitter:title" content="" />
-   * <meta name="twitter:site" content="@w0ilo" />
-   * <meta name="twitter:image:alt" content="optional <=420 alt text" />
+   * <meta property="og:type" content="">
+   * <meta property="og:title" content="">
+   * <meta property="og:description" content="">
+   * <meta property="og:url" content="">
+   * <meta property="og:site_name" content="">
+   * <meta property="og:image" content="">
+   * <meta property="og:image:width" content="">
+   * <meta property="og:image:height" content="">
+   * <meta property="og:locale" content="">
+   * <meta name="twitter:card" content="summary|summary_large_image">
+   * <meta name="twitter:title" content="">
+   * <meta name="twitter:site" content="@w0ilo">
+   * <meta name="twitter:image:alt" content="optional <=420 alt text">
    *
    * https://twittercommunity.com/t/what-is-the-optimum-size-for-the-image-on-a-summary-card-with-large-image/22251
    * optimum image size for og and twitter (_large_image) cards is 600 x 314
@@ -27,49 +27,49 @@
 {{ $logo := "https://rrra.org/images/rrra-logo-2017.gif" -}}
 
 {{/* Tags in the order shown above */}}
-<meta property="og:type" content="{{ if .IsHome -}}website{{ else -}}article{{ end -}}" />
-<meta property="og:title" content="{{ if .IsPage -}}{{ .Title -}} - {{ end -}}{{ site.Title -}}" />
+<meta property="og:type" content="{{ if .IsHome -}}website{{ else -}}article{{ end -}}">
+<meta property="og:title" content="{{ if .IsPage -}}{{ .Title -}} - {{ end -}}{{ site.Title -}}">
 {{ if .IsHome -}}
 	{{ with site.Params.description -}}
-		<meta property="og:description" content="{{ . -}}" />
+		<meta property="og:description" content="{{ . -}}">
 	{{ end -}}
 {{ else -}}
 	{{ with .Description -}}
-		<meta property="og:description" content="{{ . -}}" />
+		<meta property="og:description" content="{{ . -}}">
 	{{ else -}}
-		<meta property="og:description" content="{{ .Summary | plainify | truncate 200 -}}" />
+		<meta property="og:description" content="{{ .Summary | plainify | truncate 200 -}}">
 	{{ end -}}
 {{ end -}}
-<meta property="og:url" content="{{ .Permalink -}}" />
-<meta property="og:site_name" content="{{ site.Title -}}" />
-<meta property="og:updated_time" content="{{ now.Format "2006-02-01T15:04:05-0700" -}}" />
+<meta property="og:url" content="{{ .Permalink -}}">
+<meta property="og:site_name" content="{{ site.Title -}}">
+<meta property="og:updated_time" content="{{ now.Format "2006-02-01T15:04:05-0700" -}}">
 {{ if .IsHome -}}
-	<meta property="og:image" content="{{ $logo -}}" />
+	<meta property="og:image" content="{{ $logo -}}">
 {{ else -}}
 	{{ with .Params.og_image -}}
-		<meta property="og:image" content="{{ . -}}" />
+		<meta property="og:image" content="{{ . -}}">
 	{{ else -}}
 		{{ with .Params.twitter_image -}}
-			<meta property="og:image" content="{{ . -}}" />
+			<meta property="og:image" content="{{ . -}}">
 		{{ end -}}
 	{{ end -}}
 {{ end -}}
-<meta property="og:locale" content="en_US" />
+<meta property="og:locale" content="en_US">
 
 {{/* Twitter Card specific tags */}}
 {{ with .Params.twitter_image -}}
-	<meta name="twitter:card" content="summary_large_image"/>
-	<meta property="twitter:image" content="{{ . -}}" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:image" content="{{ . -}}">
 {{ else -}}
 	{{ with .Params.og_image -}}
-		<meta name="twitter:card" content="summary_large_image"/>
-		<meta property="twitter:image" content="{{ . -}}" />
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="twitter:image" content="{{ . -}}">
 	{{ else -}}
-		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:card" content="summary">
 	{{ end -}}
 {{ end -}}
-<meta name="twitter:title" content="{{ if .IsPage -}}{{ .Title -}} - {{ end -}}{{ site.Title -}}" />
-<meta name="twitter:site" content="@W0ILO" />
+<meta name="twitter:title" content="{{ if .IsPage -}}{{ .Title -}} - {{ end -}}{{ site.Title -}}">
+<meta name="twitter:site" content="@W0ILO">
 
 {{/* Google Rich Cards */}}
 {{ if .IsHome -}}

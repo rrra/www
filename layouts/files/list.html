@@ -15,7 +15,7 @@
 			{{ $contact := .Params.contact }}
 			{{ if ne $contact nil }}
 			<div id="contact">
-				<br /><span class="cat-links vertmiddle">Contact: </span> {{ partialCached "contact.html" (dict "context" . "sign" $contact ) $contact }} 
+				<br><span class="cat-links vertmiddle">Contact: </span> {{ partialCached "contact.html" (dict "context" . "sign" $contact ) $contact }} 
 			</div>
 			{{ end }}
 		</header>

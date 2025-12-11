@@ -22,7 +22,7 @@ See existing files for formatting
 					<figure {{ with .class }}class="{{ . }}"{{ end }}>
 						{{ with .level }}<h4>{{ . }} Sponsor</h4>{{ end }}
 						{{ with .link }}<a href="{{ . }}">{{ end }}
-							{{ if .image  }}<img src="{{ .image }}" {{ with .name }}alt="{{ . }}" title="Visit {{ . }}"{{ end }} />{{ end }}
+							{{ if .image  }}<img src="{{ .image }}" {{ with .name }}alt="{{ . }}" title="Visit {{ . }}"{{ end }}>{{ end }}
 						{{ if .link }}</a>{{ end }}
 						{{ if or ( .name ) ( .caption ) }}
 							<figcaption><p>
@@ -34,7 +34,7 @@ See existing files for formatting
 						{{ end }}
 					</figure>
 				{{ else }}
-					{{ with .favicon }}<li style="list-style:none;position:relative;left:-20px;"><img src="{{ . | safeURL }}" /> {{ else }}<li>{{ end }}{{ with .link }}<a href="{{ . }}">{{ end }}{{ .name }}{{ with .link }}</a>{{ end }}</li>
+					{{ with .favicon }}<li style="list-style:none;position:relative;left:-20px;"><img src="{{ . | safeURL }}"> {{ else }}<li>{{ end }}{{ with .link }}<a href="{{ . }}">{{ end }}{{ .name }}{{ with .link }}</a>{{ end }}</li>
 				{{ end }}
 			{{ end }}
 			</ul>

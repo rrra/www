@@ -31,7 +31,7 @@
 
 </div><!-- .entry-meta -->
 
-<h2 class="entry-title">{{ .Title | upper }}<br />{{ .Params.name }}</h2>
+<h2 class="entry-title">{{ .Title | upper }}<br>{{ .Params.name }}</h2>
 
 </header>
 
@@ -49,7 +49,7 @@
 	{{ range $imgfiles }}
 		{{ if in .Name ( lower $call ) }}
 			<figure class="wp-caption alignnone">
-				<img  src="/images/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}"/>
+				<img  src="/images/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}">
 				{{ with $scratch.Get "photocredit" }}
 					<figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
 				{{ end }}

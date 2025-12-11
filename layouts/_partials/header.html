@@ -2,11 +2,11 @@
 
 <html lang="{{ with site.LanguageCode}}{{ . }}{{ else }}en-US{{end}}">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 	<link rel="alternate" type="application/rss+xml" title="Upcoming Events and News Summary RSS" href="{{ site.BaseURL }}index.xml">
 	{{ with .Params.noindex }}<meta name="robots" content="noindex">{{ end }}
-	{{ if .IsHome }}<meta name="description" content="{{ site.Params.description}}" />{{ else }}{{ with .Description }}<meta name="description" content="{{ . }}" />{{ end }}{{ end }}
+	{{ if .IsHome }}<meta name="description" content="{{ site.Params.description}}">{{ else }}{{ with .Description }}<meta name="description" content="{{ . }}" >{{ end }}{{ end }}
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="format-detection" content="telephone=no">
@@ -26,12 +26,12 @@
 
 	{{ partial "link-preview.html" . }}
 
-	<!--<link rel="profile" href="http://gmpg.org/xfn/11" />-->
+	<!--<link rel="profile" href="http://gmpg.org/xfn/11">-->
 	{{ "<!--[if lt IE 9]>" | safeHTML }}
 	<script src="/js/html5.js"></script>
 	{{ "<![endif]-->" | safeHTML }}
 	<!--[if lt IE 9]>
-	<link rel='stylesheet' id='twentyfourteen-ie-css'  href='/css/ie.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='twentyfourteen-ie-css'  href='/css/ie.css' type='text/css' media='all'>
 	<![endif]-->
 	<!--<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>-->
 
