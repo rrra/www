@@ -74,7 +74,7 @@ unsafe= true
 	silentkeybase = "http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&"
 
 	# Used for event status listing
-	status = [ "canceled", "on w0ilo", "postponed", "webinar" ]
+	status = [ "canceled", "on w0ilo", "postponed", "rescheduled", "webinar" ]
 
 	# Used for repeater list "filter menu"
 	modes = [ "analog", "asl", "d-star", "dmr", "echolink", "irlp", "ysf" ]
