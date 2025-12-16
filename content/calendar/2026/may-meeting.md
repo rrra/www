@@ -6,13 +6,12 @@ location = "[West Fargo FD HQ](/places/west-fargo-fire-department-headquarters/)
 title = "May Business Meeting"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 aliases = [ "" ]
 status = "rescheduled"
 +++
-
 {{< banner class="alert" >}}
-RRRA's May Business Meeting has been rescheduled.
+**This meeting has been rescheduled.**
 {{< /banner >}}
 
 ### Meeting Information

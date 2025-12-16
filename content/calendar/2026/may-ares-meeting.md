@@ -8,4 +8,8 @@ dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 update = 1
 aliases = [ "" ]
+status = "rescheduled"
 +++
+{{< banner class="alert" >}}
+**This meeting has been rescheduled.**
+{{< /banner >}}
