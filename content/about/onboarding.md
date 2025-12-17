@@ -13,7 +13,7 @@ Please complete these steps to finish setting up your RRRA membership:
 
 ### Help get your RRRA Groupware account set-up { #help }
 
-As an RRRA Member you're entitled to use our Groupware System at
+As an RRRA Member you're entitled to use our groupware system at
 https://cloud.rrra.org/ to access members-only content, share
 content with other club members, engage in keyboard-to-keyboard chats, and
 collaborate on club related matters.
@@ -25,7 +25,9 @@ with the following information:
 1. Your FCC call-sign. :arrow_right: **Please append ***YOUR CALL-SIGN*** to
 the Subject line of your message.**
 
-2. The ***first name*** you'd like to use as your Groupware display name.
+2. The **first name** you'd like to use ***as a part of*** your
+groupware display name. You display name will be *first_name* *callsign*
+and will only be visible to other logged in groupware users..
 
 3. **If you paid your dues on-line** ... a copy of your PayPal
 receipt to instantly confirm your membership status.
