@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/section/files.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/files/list.html -->` | safeHTML }}
 	{{ end }}
 
 	<div class="hentry">
@@ -10,7 +10,7 @@
 			<div class="entry-meta">
 				<span class="cat-links"><a href="/">Home</a></span>
 			</div>
-			<h1 class="entry-title">{{ .Title }}</h1>
+			<h2 class="entry-title">{{ .Title }}</h2>
 	
 			{{ $contact := .Params.contact }}
 			{{ if ne $contact nil }}

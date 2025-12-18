@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/taxonomy/dates.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/dates/dates.html -->` | safeHTML }}
 	{{ end }}
 
 <div class="hentry">
@@ -17,7 +17,7 @@
 	</span>
 	</div>
 
-	<h1 class="entry-title">{{ if eq "Hamfest" .Title }}Club {{ end }}{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h1>
+	<h2 class="entry-title">{{ if eq "Hamfest" .Title }}Club {{ end }}{{ .Title | singularize }}{{ if not (in .Title "schedule") }} Dates{{ end }}</h2>
 {{ with  .OutputFormats.Get "calendar" -}}
 	<span class="noprint"><div><span class="genericons-neue genericons-neue-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Learn how to add these dates to your device</a></div></span>
 {{- end }}

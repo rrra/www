@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/_default/taxonomy.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/taxonomy.html -->` | safeHTML }}
 	{{ end }}
 	<header class="archive-header">
 		{{ $cat := index site.Params.categories (.Title | urlize) }}

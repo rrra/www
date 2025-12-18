@@ -2,12 +2,12 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/_default/terms.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/terms.html -->` | safeHTML }}
 	{{ end }}
 	<header class="entry-header">
 
 	<header class="archive-header">
-		<h1 class="archive-title">{{ .Title | singularize }} Index</h1>
+		<h2 class="archive-title">{{ .Title | singularize }} Index</h2>
 		{{ $cat := index site.Params.categories (.Title | urlize) }}
 		{{ with $cat.description }}
 			<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>

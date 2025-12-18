@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/taxonomy/ncs.terms.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/ncs/ncs.terms.html -->` | safeHTML }}
 	{{ end }}
 
 	{{ $thisyear := now.Format "2006" }}

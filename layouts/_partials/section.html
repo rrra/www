@@ -1,5 +1,9 @@
 {{ $scratch := newScratch }}
 
+{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/_partials/section.html -->` | safeHTML }}
+{{ end }}
+
 <article class="post type-post status-publish format-standard hentry">
 
 	<!-- .entry-header -->
@@ -45,7 +49,7 @@
 			{{ $lower_tags = "" }}
 		{{ end }}
 
-		<h1 class="entry-title">{{ $deco | safeHTML }}{{ .Title | safeHTML }}</h1>
+		<h2 class="entry-title">{{ $deco | safeHTML }}{{ .Title | safeHTML }}</h2>
 
 		{{ if gt .Lastmod 0 }}
 			{{ $scratch.Set "timestamp" ( .Lastmod.Format "January 2, 2006" ) }}
@@ -122,9 +126,6 @@
 			{{ end }}
 		{{ end }}
 
-		{{ if eq "development" hugo.Environment }}
-		<pre>Template: layouts/partial/section.html</pre>
-		{{ end }}
 		{{ partial "sourcelink.html" . }}
 	</div><!-- .entry-content -->
 

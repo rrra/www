@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/_default/section.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/section.html -->` | safeHTML }}
 	{{ end }}
 	{{ partial "section.html" . }}
 {{ end }}

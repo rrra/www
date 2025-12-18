@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/taxonomy/dates.terms.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/dates/dates.terms.html -->` | safeHTML }}
 	{{ end }}
 	<header class="entry-header">
 
@@ -11,7 +11,7 @@
 				<a href="/calendar/0/">Calendar</a>
 			</span>
 		</div>
-		<h1 class="entry-title">Dates</h1>
+		<h2 class="entry-title">Dates</h2>
 	</header>
 
 	<div class="entry-content" style="padding-bottom:1em;">

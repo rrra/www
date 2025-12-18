@@ -1,0 +1,21 @@
+{{/* Populates layouts/_default/baseof.html */}}
+
+{{ define "main" }}
+	{{ if eq "development" hugo.Environment }}
+	{{ `<!-- Template: layouts/tags/list.html -->` | safeHTML }}
+	{{ end }}
+	<header class="archive-header">
+		
+		<h2 class="archive-title">Content tagged with {{ .Title }}</h2>
+		
+		{{ $paginator := .Paginate .Data.Pages  5 }}
+		{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+	</header>
+
+	{{ range $paginator.Pages }}
+		{{ partial "summary.html" . }}
+	{{ end }}
+
+	{{ if gt $paginator.TotalPages 1 }}{{ partial "pagination.html" . }}{{ end }}
+
+{{ end }}

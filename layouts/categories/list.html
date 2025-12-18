@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/_default/category.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/categories/list.html -->` | safeHTML }}
 	{{ end }}
 	<header class="archive-header">
 		
@@ -12,7 +12,7 @@
 		{{ $rsspath := printf ( .Title | urlize ) | printf "/%s/%s" ( .Data.Plural ) }}
 		{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 
-		<h1 class="archive-title">{{ .Title | humanize | upper }} Category</h1>
+		<h2 class="archive-title">{{ .Title | humanize | upper }} Category</h2>
 		{{ with $cat.description }}
 			<div style="margin-top: 12px;">{{ $cat.description | markdownify }}</div>
 		{{ end }}

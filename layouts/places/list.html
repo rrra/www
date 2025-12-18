@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/section/places.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/places/list.html -->` | safeHTML }}
 	{{ end }}
 	{{ $sitedate := $.Param "sitedate" }}
 
@@ -11,7 +11,7 @@
 			<div class="entry-meta">
 				<span class="cat-links"><a href="/">Home</a></span>
 			</div>
-			<h1 class="entry-title">{{ .Title }}</h1>
+			<h2 class="entry-title">{{ .Title }}</h2>
 			{{ with .Params.description }}<p>{{ . }}</p>{{ end }}
 			{{ $contact := .Params.contact }}
 			{{ if ne $contact nil }}

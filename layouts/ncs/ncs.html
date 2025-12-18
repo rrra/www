@@ -2,7 +2,7 @@
 
 {{ define "main" }}
 	{{ if eq "development" hugo.Environment }}
-	{{ `<!-- Template: layouts/taxonomy/ncs.html -->` | safeHTML }}
+	{{ `<!-- Template: layouts/ncs/ncs.html -->` | safeHTML }}
 	{{ end }}
 	<header class="entry-header">
 
@@ -14,7 +14,7 @@
 			{{ $rsspath := printf "/ncs/%s" ( .Title | urlize ) }}
 			{{ partial "rss" ( dict "rsstitle" $rsstitle "rsspath" $rsspath ) }}
 		</div>
-		<h1 class="entry-title">NCS Assignments - {{ .Title }}</h1>
+		<h2 class="entry-title">NCS Assignments - {{ .Title }}</h2>
 {{ with  .OutputFormats.Get "calendar" -}}
 	<span class="noprint"><div><span class="genericons-neue genericons-neue-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="#add">Learn how to add these dates to your device</a></div></span>
 {{- end }}
