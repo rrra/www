@@ -1,7 +1,6 @@
 +++
 date = "2026-01-01T01:00:00-06:00"
 expiryDate = "2026-01-02T01:00:00-06:00"
-publishDate = "2025-12-26"
 title = ""
 slug = "happy-new-year"
 authors = [ "K0STK" ]
