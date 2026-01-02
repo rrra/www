@@ -1,7 +1,7 @@
 +++
 title = "Cumulative NCS Roster"
 +++
-{{% cumulative-ncs-roster %}}
+{{< cumulative-ncs-roster >}}
 
 <div class="banner noprint">
 	<p>Please contact the <a href="mailto:webmaster@rrra.org">Webmaster Team</a>
