@@ -2001,6 +2001,11 @@ a.alignright.genericons-neue.genericons-neue-feed {
 	font-size: large;
 }
 
+span#rss.alignright a {
+	color: orange;
+	font-weight: bold;
+}
+
 /**
  * 11.0 Media Queries
  * -----------------------------------------------------------------------------
