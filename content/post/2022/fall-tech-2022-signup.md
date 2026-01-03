@@ -6,6 +6,7 @@ slug = ""
 tags = []
 title = "Signup for the Fall 2022 Technician Classes"
 authors = [ "K0STK" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Fall 2022 Technician Classes is now open. Please
 [register on-line](https://www.eventbrite.com/e/class-preparation-for-passing-the-fcc-amateur-radio-technician-class-test-tickets-393444461977?aff=ebdshpsearchautocomplete)

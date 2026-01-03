@@ -8,6 +8,7 @@ title = "Fall General Class Week 3"
 categories = [ "Education" ]
 dates = [ "Fall 2019 General" ]
 outputs = [ "HTML" ]
+expiryDate = "2026-01-01"
 +++
 ### Topics
 

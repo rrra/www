@@ -7,7 +7,7 @@ linkTitle = "NDSU Seminar"
 title = "Modern Applications of Amateur Radio"
 location = "[NDSU Dolve Hall](/places/ndsu-dolve-hall/)"
 contact = "AK0IL"
-dates = [ "NDSU Radio Club" ]
+dates = [ "Education" ]
 outputs = [ "HTML" ]
 +++
 ## Modern Applications of Amateur Radio

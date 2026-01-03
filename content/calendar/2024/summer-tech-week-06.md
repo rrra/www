@@ -8,8 +8,9 @@ location = "Zoom"
 contact = "WS0Y"
 dates = [ "Summer 2024 Technician" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
+expiryDate = "2026-01-01"
 +++
 ### Topics
 

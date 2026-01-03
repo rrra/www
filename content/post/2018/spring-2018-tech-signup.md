@@ -6,6 +6,7 @@ slug = ""
 tags = []
 title = "Signup for the Spring 2018 Technician Classes"
 authors = [ "K0STK" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Spring 2018 Technician Classes is now open. Please
 [register on-line](https://www.eventbrite.com/e/technician-license-class-tickets-43414216089)

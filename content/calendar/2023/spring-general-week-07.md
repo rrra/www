@@ -8,8 +8,9 @@ location = ""
 contact = "WS0Y"
 dates = [ "Spring 2023 General" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
+expiryDate = "2026-01-01"
 +++
 ### Topics
 

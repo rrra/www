@@ -8,6 +8,7 @@ title = "Fall General Class Week 1"
 categories = [ "Education" ]
 dates = [ "Fall 2019 General" ]
 outputs = [ "HTML" ]
+expiryDate = "2026-01-01"
 +++
 {{% banner expires="2019-10-02" %}}
 Registration for RRRA Fall 2019 General Classes is now open.  Please

@@ -6,6 +6,7 @@ slug = ""
 tags = []
 title = "Signup for the Winter 2018 Extra Classes"
 authors = [ "K0STK" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Winter 2018 Extra Classes is now open.  This
 [series of classes](/dates/winter-2018-extra") begins

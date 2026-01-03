@@ -10,6 +10,7 @@ dates = [ "Spring 2020 Technician" ]
 outputs = [ "HTML" ]
 status = "canceled"
 upcoming = "hide"
+expiryDate = "2026-01-01"
 +++
 ### Topics
 

@@ -10,6 +10,7 @@ tags = []
 #siteBanner = true or start date
 #bannerText = "text (or valid markdown) to over-ride self link" 
 #endBanner = date (default is endFeatured date) 
+expiryDate = "2026-01-01"
 +++
 Get started in Amateur Radio with an on-line course presented by Jay WS0Y of
 the Red River Radio Amateurs.

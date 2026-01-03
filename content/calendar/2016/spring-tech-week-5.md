@@ -7,6 +7,7 @@ title = "Spring Technician Class Week 5"
 categories = [ "Education" ]
 dates = [ "Spring 2016 Technician" ]
 
+expiryDate = "2026-01-01"
 +++
 ### Topics
 

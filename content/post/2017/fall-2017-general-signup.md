@@ -6,6 +6,7 @@ slug = ""
 tags = []
 title = "Signup for the Fall 2017 General Classes"
 authors = [ "K0STK" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Fall 2017 General Classes is now open. Please
 [register on-line](https://www.eventbrite.com/e/level-2-ham-radio-license-class-tickets-37887768335?aff=es2)

@@ -7,6 +7,7 @@ location = "West Acres Shopping Center"
 contact = "KC0DCF"
 dates = [ "CERT Training" ]
 outputs = [ "HTML" ]
+expiryDate = "2026-01-01"
 +++
 ### Topics
 

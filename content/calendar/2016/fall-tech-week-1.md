@@ -6,6 +6,7 @@ location = "West Fargo Public Library"
 title = "Fall Technician Class Week 1"
 categories = [ "Education" ]
 dates = [ "Fall 2016 Technician" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Fall 2016 Techician Classes is now open. Please [register on-line](https://www.eventbrite.com/e/fcc-ham-radio-license-class-tickets-26316726036) (we use Eventbrite to manage our registrations). 
 

@@ -7,6 +7,7 @@ location = "West Fargo Public Library"
 title = "Winter Extra Class Week 1"
 categories = [ "Education" ]
 dates = [ "Winter 2017 Extra" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Winter 2017 Extra Classes is now open. Please [register
 on-line](https://www.eventbrite.com/e/ham-radio-extra-license-class-tickets-30213486351)

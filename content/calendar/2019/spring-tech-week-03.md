@@ -9,6 +9,7 @@ categories = [ "Education" ]
 dates = [ "Spring 2019 Technician" ]
 outputs = [ "HTML" ]
 
+expiryDate = "2026-01-01"
 +++
 ### Topics
 

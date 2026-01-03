@@ -6,6 +6,7 @@ description = ""
 slug = ""
 tags = [ "ARES", "CERT" ]
 title = "CERT Training In Fargo April 2018"
+expiryDate = "2026-01-01"
 +++
 The Fargo Cass Public Health Emergency Preparedness & Response Division will
 conduct

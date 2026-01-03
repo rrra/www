@@ -7,6 +7,7 @@ location = "West Fargo Public Library"
 title = "Winter Extra Class Week 8"
 categories = [ "Education" ]
 dates = [ "Winter 2017 Extra" ]
+expiryDate = "2026-01-01"
 +++
 
 ### Topics

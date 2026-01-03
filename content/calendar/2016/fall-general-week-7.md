@@ -6,6 +6,7 @@ location = "West Fargo Public Library"
 title = "Fall General Class Week 7"
 categories = [ "Education" ]
 dates = [ "Fall 2016 General" ]
+expiryDate = "2026-01-01"
 +++
 ### Topics
 * Question for chapters 6 & 8

@@ -9,6 +9,7 @@ categories = [ "Education" ]
 dates = [ "Winter 2019 Extra" ]
 outputs = [ "HTML" ]
 aliases = [ "/cal/2019/01/30/winter-extra-class-week-5/" ]
+expiryDate = "2026-01-01"
 +++
 
 ---

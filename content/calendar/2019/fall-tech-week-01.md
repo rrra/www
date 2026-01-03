@@ -9,6 +9,7 @@ categories = [ "Education" ]
 dates = [ "Fall 2019 Technician" ]
 outputs = [ "HTML" ]
 
+expiryDate = "2026-01-01"
 +++
 ### Prerequisites
 

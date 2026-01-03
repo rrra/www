@@ -8,7 +8,8 @@ title = "Winter Extra Class Week 10"
 categories = [ "Education" ]
 dates = [ "Winter 2023 Extra" ]
 outputs = [ "HTML", "Calendar" ]
-update = 3
+update = 4
+expiryDate = "2026-01-01"
 +++
 ### Topics
 

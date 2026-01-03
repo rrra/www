@@ -9,6 +9,7 @@ categories = [ "Education" ]
 dates = [ "Winter 2019 Extra" ]
 outputs = [ "HTML" ]
 topics = [ "Sign in", "Introductions" ]
+expiryDate = "2026-01-01"
 +++
 ### Prerequisites
 

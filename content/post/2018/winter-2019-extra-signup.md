@@ -6,6 +6,7 @@ slug = ""
 tags = []
 title = "Signup for the Winter 2019 Extra Classes"
 authors = [ "K0STK" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Winter 2019 Extra Classes is now open.  Please
 [register on-line](https://www.eventbrite.com/e/level-3-extra-class-tickets-53228213018)

@@ -8,7 +8,8 @@ title = "Fall Technician Class Week 4"
 categories = [ "Education" ]
 dates = [ "Fall 2022 Technician" ]
 outputs = [ "HTML" ]
-update = 4
+update = 5
+expiryDate = "2026-01-01"
 +++
 {{< banner expires="2022-08-10" >}}
 Registration for RRRA Fall 2022 Technician Classes is now open. Please

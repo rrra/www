@@ -6,6 +6,7 @@ slug = ""
 tags = []
 title = "Signup for the Fall 2019 General Classes"
 authors = [ "K0STK" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Fall 2019 General Classes is now open. Please
 [register on-line](https://www.eventbrite.com/e/general-class-amateur-radio-licence-class-tickets-71153023609)

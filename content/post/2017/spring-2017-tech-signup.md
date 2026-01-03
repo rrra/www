@@ -6,6 +6,7 @@ slug = ""
 tags = []
 title = "Signup for the Spring 2017 Technician Classes"
 authors = [ "K0STK" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Spring 2017 Techician Classes is now open. Please
 [register on-line](https://www.eventbrite.com/e/amateur-radio-license-class-tickets-32748914886?ref=estw)

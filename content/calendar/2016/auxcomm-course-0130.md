@@ -7,7 +7,7 @@ endTime = "2016-01-30T18:00:00-16:00"
 location = "[Cass County Annex](/places/cass-county-annex/)"
 title = "DHS AUXCOMM Course"
 dates = [ "AUXCOMM 2016" ]
-
+expiryDate = "2026-01-01"
 +++
 
 The Red River Radio Amateurs are hosting a TRG-AUXCOMM Auxiliary

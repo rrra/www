@@ -6,6 +6,7 @@ slug = ""
 tags = []
 title = "Signup for the Fall 2017 Technician Classes"
 authors = [ "K0STK" ]
+expiryDate = "2026-01-01"
 +++
 Registration for RRRA Fall 2017 Technician Classes is now open. Please
 [register on-line](https://www.eventbrite.com/e/fcc-ham-radio-license-class-tickets-36013428133)

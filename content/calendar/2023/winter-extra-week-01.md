@@ -8,7 +8,8 @@ title = "Winter Extra Class Week 1"
 categories = [ "Education" ]
 dates = [ "Winter 2023 Extra" ]
 outputs = [ "HTML", "Calendar" ]
-update = 4
+update = 5
+expiryDate = "2026-01-01"
 +++
 {{< banner expires="2023-01-19" >}}
 Registration for RRRA Winter 2023 Extra Classes is now open. Please

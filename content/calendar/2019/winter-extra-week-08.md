@@ -8,6 +8,7 @@ title = "Winter Extra Class Week 8"
 categories = [ "Education" ]
 dates = [ "Winter 2019 Extra" ]
 outputs = [ "HTML" ]
+expiryDate = "2026-01-01"
 +++
 
 ---
