@@ -7,8 +7,9 @@ title = "January Activity: Portable antennas for POTA, SOTA, Emergency Communica
 linkTitle = "January Activity"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
-aliases = [ "/cal/2026/01/20/january-activity-tbd/" ]
+update = 2
+slug = "club-activity"
+aliases = [ "/cal/2026/01/20/january-activity-tbd/", "/cal/2026/01/20/january-activity-portable-antennas-for-pota-sota-emergency-communications-and-hoa-deployments/" ]
 +++
 ### Presented by Greg Mihran, KJ6ER
 

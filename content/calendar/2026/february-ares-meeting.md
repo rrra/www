@@ -7,5 +7,6 @@ title = "February ARES Meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
 update = 1
-aliases = [ "" ]
+aliases = [ "/cal/2026/02/17/february-ares-meeting/" ]
+slug = "ares-meeting"
 +++

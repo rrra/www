@@ -6,8 +6,9 @@ location = "[West Fargo FD HQ](/places/west-fargo-fire-department-headquarters/)
 title = "February Business Meeting"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
-aliases = [ "" ]
+update = 1
+slug = "business-meeting"
+aliases = [ "/cal/2026/02/17/february-business-meeting/" ]
 +++
 ### 2026 Elections
 
