@@ -2,7 +2,7 @@
 {{- printf "<?xml-stylesheet href=\"/rss.xsl\" type=\"text/xsl\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ .Title | singularize }} {{ .Data.Singular | humanize }}</title>
+    <title>Upcoming RRRA Events</title>
     <link>{{ .Permalink }}</link>
     <description>{{ site.Title }} {{ .Title | singularize }} {{ .Data.Singular | humanize }}</description>
     <generator>hugo.Generator</generator>{{ with site.LanguageCode }}
@@ -12,22 +12,44 @@
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     <atom:link href="{{.Permalink}}" rel="self" type="application/rss+xml"/>
-    {{- range .Data.Pages.Reverse -}}
-    {{- if ge .Date.Unix now.Unix }}
+    {{ $.Scratch.Set "today" "" -}}
+    {{ $.Scratch.Set "seen" " " -}}
+    {{ $.Scratch.Set "lastdate" "" -}} 
+    {{ range where site.Pages.ByDate "Section" "calendar" -}}
+    {{ if ge .Date.Unix now.Unix -}}
+    {{ $thisdate := chomp (.Date.Format "2006-01-02") -}}
+    {{ if ne $thisdate ($.Scratch.Get "lastdate") -}}
+    {{ $.Scratch.Set "today" "" -}}
+    {{ end -}}
+    {{ $.Scratch.Set "upcoming" "" -}}
+    {{ with .Params.upcoming -}}
+    {{ $.Scratch.Set "upcoming" (. | lower) -}}
+    {{ end -}}
+    {{ if and (ne ($.Scratch.Get "upcoming") "hide") (gt .Params.dates "") -}}
+    {{ $series := chomp ((delimit .Params.dates " ") | printf "%s" | urlize | printf "%s|") -}}
+    {{ $seen := chomp ($.Scratch.Get "seen") -}}
+    {{ if or (not (in $seen $series)) (or (eq ($.Scratch.Get "upcoming") "force") (in ($.Scratch.Get "today") $series)) -}}
     {{ $at := "" -}}
     {{ $location := .Params.location | markdownify | plainify -}}
     {{ if gt $location "" }}{{ $at = "at" }}{{ end -}}
+    {{ if and ( eq $location "" ) ( gt .Params.ncs "" ) }}{{ $location = "W0ILO Repeaters" }}{{ $at = "on" }}{{ end -}}
     {{ if eq $location "Zoom" }}{{ $at = "on" }}{{ end -}}
     <item>
       <title>{{ if in site.Params.status .Params.status }}{{ upper .Params.status }} - {{ end }}{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with site.Params.Author.email }}<author>{{.}}{{ with site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ with site.Params.Author.email -}}
+      <author>{{.}}{{ with site.Params.Author.name }} ({{.}}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Date.Format "Mon, Jan 2, 2006" }} {{ $at }} {{ $location }}</description>
     </item>
-    {{- end -}}
-    {{- end }}
+    {{ $this := (chomp (delimit .Params.dates " ") | printf "%s" | urlize | printf "%s|") -}}
+    {{ $.Scratch.Add "seen" $this -}}
+    {{ $.Scratch.Add "today" $this -}}
+    {{ $.Scratch.Set "lastdate" (.Date.Format "2006-01-02") -}}
+    {{ end -}}
+    {{ end -}}
+    {{ end -}}
+    {{ end -}}
   </channel>
 </rss>
 

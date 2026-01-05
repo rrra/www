@@ -1,3 +1,5 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- printf "<?xml-stylesheet href=\"/rss.xsl\" type=\"text/xsl\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ .Data.Singular | upper }} Assignments - {{ .Title }}</title>
@@ -10,16 +12,18 @@
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     <atom:link href="{{.Permalink}}" rel="self" type="application/rss+xml"/>
-    {{ range .Data.Pages.Reverse }}
+    {{ range (.Data.Pages.GroupByDate "2006") -}}
+    {{ range .Pages.Reverse -}}
     <item>
       <title>{{ .Date.Format "2006" }} {{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with .Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
+      {{ with .Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       <description></description>
     </item>
-    {{ end }}
+    {{ end -}}
+    {{ end -}}
   </channel>
 </rss>
 
