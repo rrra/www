@@ -6,6 +6,7 @@
   <xsl:template match="/">
   <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
+      <meta name="viewport" content="width=device-width"/>
       <title>
         RSS Feed | <xsl:value-of select="/rss/channel/title"/>
       </title>
@@ -16,13 +17,13 @@
       dl { margin-bottom: 24px; }
       dt { font-weight: bold; }
       dd { margin: 0 0 24px; }
-      img { float: left; margin-right: .7em; }
+      @media screen and (min-width: 810px) { img { float: left; margin-right: .7em; } }
       </style>
     </head>
     <body>
       <img src="/images/rrra-logo-2017.gif" alt="RRRA"/>
       <p>
-        <strong>This is a preview of an RSS feed.</strong><br/>
+        <strong>This is a preview of an RSS feed.</strong>
         Subscribe to it by copying the URL from the address bar into your newsreader.
 	Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more and get started. It’s free.
       </p>
@@ -42,6 +43,7 @@
 	</dd>
       </xsl:for-each>
       </dl>
+      <address><a href="mailto:webmaster@rrra.org">webmaster@rrra.org</a></address>
     </body>
     </html>
   </xsl:template>

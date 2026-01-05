@@ -6,7 +6,7 @@ authors = [ "WS0Y" ]
 categories = [ "Education" ]
 tags = []
 toc = "true"
-outputs = [ "HTML", "rss" ]
+outputs = [ "HTML" ]
 +++
 Audio support files for the
 [RRRA Self Study Technician License Exam Preparation Course]({{< ref "/licensing/classes/tech-self-study/_index.md" >}}).
