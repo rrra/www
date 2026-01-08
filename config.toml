@@ -20,9 +20,14 @@ enableGitInfo = true
 # Added 2025-05-27 to ignore twitter errors
 ignoreLogs = ['err-youtube-remote', 'shortcode-twitter-getremote']
 
-# Added at v0.60 to allow the rendering of HTML in page source
-[markup.goldmark.renderer]
-unsafe= true
+[markup]
+  # Added at v0.60 to allow the rendering of HTML in page source
+  [markup.goldmark.renderer]
+    unsafe= true
+  [markup.tableOfContents]
+    #endLevel = 3
+    #ordered = false
+    startLevel = 3
 
 # Added at v0.101.0 to allow editor
 # (https://discourse.gohugo.io/t/launching-editor-upon-content-creation-with-v0-90-0-and-later/36421)
