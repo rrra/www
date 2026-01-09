@@ -1,7 +1,5 @@
 +++
-date = "2016-11-07T14:11:15-06:00"
 title = "Sitemap"
-authors = [ "K0STK" ]
 aliases = [ "/sitemap.html", "sitemap.htm" ]
 +++
 ### Sitemap Index
@@ -97,7 +95,9 @@ aliases = [ "/sitemap.html", "sitemap.htm" ]
 * [SuperLink]({{< relref "/radios/superlink.md" >}})
 
 ### RSS
-* [News and Upcoming Events](/index.xml)
+* [Index of feeds](/about/rss/)
+* [Homepage *River Of News*](/index.xml)
+* [Upcoming Events](/calendar/index.xml)
 
 ### Silent Keys
 * [RRRA Silent Key Memorial](/sk/)

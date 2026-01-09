@@ -7,13 +7,13 @@ noindex = true
 +++
 ### About RSS
 
-[RSS] is analgous to a personalized newspaper. It is a system
-which gives readers a way of reading information from one or more
-websites without having to visit all of these sites individually.
+[RSS] is analgous to a personalized newspaper. It is a system which
+gives readers a way of reading information from one or more websites
+without having to visit these sites individually.
 
-To view RSS feeds you need to use a [news
-aggregator] which can be a web application or a piece of software which runs
-on your computer / device. Some are free to use, some are not.
+To view RSS feeds you need to use a [news aggregator] which can be a web
+application or a piece of software which runs on your computer / device.
+Some are free to use, some are not.
 
 A [comparison of feed aggregators][list] is available on Wikipedia.
 
@@ -25,9 +25,13 @@ Preview our RSS feeds from this page or anywhere you see a
 Subscribe to an RSS feed by copying the URL from your browser's address
 bar into your newsreader.
 
+#### Recommended Feeds
+
+* [Homepage *River Of News*](/index.xml)
+* [Upcoming Events](/calendar/index.xml)
+
 #### News / Blog posts
 
-* [:star: Homepage *River Of News*](/index.xml)
 * [Education](/categories/education/index.xml)
 * [Hamfest](/categories/hamfest/index.xml)
 * [License Testing](/categories/license-testing/index.xml)
@@ -41,7 +45,6 @@ bar into your newsreader.
 
 #### Events listed on our calendar
 
-* [:star: Upcoming Events](/calendar/index.xml)
 * [ARES Meetings](/dates/ares-meetings/index.xml)
 * [Club Meetings](/dates/club-meetings/index.xml)
 * [Club Hamfest](/dates/hamfest/index.xml)
