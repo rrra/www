@@ -27,6 +27,9 @@
         Subscribe to it by copying the URL from the address bar into your newsreader.
 	Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more and get started. It’s free.
       </p>
+      <ul>
+        <li>Visit our <a href="/about/rss/">RSS Feeds page</a> for an index of feeds available from this website.</li>
+      </ul>
       <h1><xsl:value-of select="/rss/channel/title"/></h1>
       <dl>
       <xsl:for-each select="/rss/channel/item">

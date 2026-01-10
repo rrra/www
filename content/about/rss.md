@@ -2,18 +2,18 @@
 title = "RSS Feeds"
 slug = "rss"
 date = ""
-alias = [ "/rss" ]
+aliases = [ "/rss" ]
 noindex = true
 +++
 ### About RSS
 
 [RSS] is analgous to a personalized newspaper. It is a system which
 gives readers a way of reading information from one or more websites
-without having to visit these sites individually.
+without having to visit those sites individually.
 
-To view RSS feeds you need to use a [news aggregator] which can be a web
-application or a piece of software which runs on your computer / device.
-Some are free to use, some are not.
+To view RSS feeds you need to use a [news aggregator] (AKA *newsreader*)
+which can be a web application or a piece of software which runs on your
+computer / device. Some are free to use, some are not.
 
 A [comparison of feed aggregators][list] is available on Wikipedia.
 
@@ -22,8 +22,8 @@ A [comparison of feed aggregators][list] is available on Wikipedia.
 Preview our RSS feeds from this page or anywhere you see a
 <span style="color:orangered;" class="genericons-neue genericons-neue-feed"></span> icon.
 
-Subscribe to an RSS feed by copying the URL from your browser's address
-bar into your newsreader.
+Subscribe to an RSS feed by copying the [URL] (AKA *web address*) from
+your browser's address bar into your newsreader.
 
 #### Recommended Feeds
 
@@ -64,6 +64,7 @@ the <span style="color:orangered;" class="genericons-neue
 genericons-neue-feed"></span> icon on that *NCS Assignments* page.
 
 [rss]: https://en.wikipedia.org/wiki/RSS
+[url]: https://en.wikipedia.org/wiki/URL
 [news aggregator]: https://en.wikipedia.org/wiki/News_aggregator
 [list]: https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators
 [ncs schedule]: https://rrra.org/dates/ncs-schedule/
