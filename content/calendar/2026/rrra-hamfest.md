@@ -5,14 +5,15 @@ endTime = "2026-09-26T14:00:00-05:00"
 publishDate = "2025-11-13"
 title = "2026 RRRA Hamfest & ARRL Dakota Division Convention"
 linkTitle = "2026 Hamfest"
+slug = "rrra-hamfest"
 location = "[Moorhead National Guard Armory](/places/moorhead-ng-armory/)"
 contact = "hamfest"
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "HFEST-26r"
 outputs = [ "HTML", "Calendar" ]
-aliases = [ "/cal/2026/hamfest/" ]
-update = 1
+aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2026-07-15" >}}

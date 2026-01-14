@@ -56,7 +56,7 @@
 						     if .GitInfo.CommitDate is not available. */}}
 						{{ $newflag := "" }}
 						{{ $commitdate := $newdate }}
-						{{ with .GitInfo.CommitDate }}{{ $commitdate = . }}{{ end }}
+						{{ if .GitInfo }}{{ $commitdate = .GitInfo.CommitDate }}{{ end }}
 						{{ if and ( gt .Params.update 0 ) ( gt $commitdate $newdate ) }}
 							{{ $newflag = ( ":new:" | markdownify ) }}
 						{{ end }}
