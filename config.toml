@@ -132,7 +132,7 @@ ignoreLogs = ['err-youtube-remote', 'shortcode-twitter-getremote']
 [params.dates.license-testing]
 	description = "Select your license test session on this page for more information and to learn how to sign up. Please contact our Testing Coordinator if no test sessions are listed or you would like to arrange one on a specific date."
 	shortcut = "https://testing.rrra.org"
-	empty = "**RRRA has no license testing sessions scheduled.**<br><br>Please visit our [testing opportunities page](/licensing/tests/) for links to find testing sessions offered by organizations.<br><br>Or contact our Testing Coordinator for assistance. "
+	empty = "**RRRA has no license testing sessions scheduled.**<br><br>Please visit our [testing opportunities page](/licensing/tests/) for links to find testing sessions offered by other organizations.<br><br>Or contact our Testing Coordinator for assistance. "
 
 [params.dates.ares-meetings]
 	title = "Meetings of participants in ARES and RRRAES"

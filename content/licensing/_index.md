@@ -16,6 +16,11 @@ talk across town, around the world, or even into space, all without the
 Internet or cell phones. It's fun, social, educational, and can be a
 lifeline during times of need.
 
+## :eight_spoked_asterisk: How to get started 
+
+* [Learn what you need to know]({{< relref "/licensing/classes.md" >}})
+* [Pass your license test]({{< relref "/licensing/tests.md" >}})
+
 {{< youtube "K40HpIjDLRs" >}}
 
 ## Who is the Typical Ham?
@@ -38,11 +43,6 @@ license classes---Technician, General and Extra. The [ARRL Getting
 Licensed page](http://www.arrl.org/getting-licensed) describes the
 license classes and provides useful links for those interested in
 becoming licensed.
-
-## :eight_spoked_asterisk: How to get started 
-
-* [Learn what you need to know]({{< relref "/licensing/classes.md" >}})
-* [Pass your license test]({{< relref "/licensing/tests.md" >}})
 
 ## Would you like to know more?
 
