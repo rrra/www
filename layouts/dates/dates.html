@@ -46,18 +46,16 @@
 	{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
 	{{ $edu := intersect $classes  (split .Title " ")  }}
 
-	{{/* Find the last year used by this date sequence */}}
-	{{ $scratch := newScratch }}
-	{{range first 2 (.Data.Pages.GroupByDate "2006") }}{{ $scratch.Add "years" ( slice .Key ) }}{{ end }}
-	{{ $lastyear := index ( $scratch.Get "years" ) 0 }}
-
 	<div id="col">
 	{{ $highlight := "" }} {{/* Initialize highlighter */}}
+        {{ $used := "" }}
 	{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
-		{{ if or ($edu) (or (ge .Key $thisyear) (eq .Key $lastyear)) }}	
+		{{ if or ($edu) (ge .Key $thisyear) }}	
 			<h3>{{ .Key }}</h3>
 			<dl id="list-{{ .Key }}{{ if eq ( $.Scratch.Get "li" ) "ncsdli" }}-ncs{{ end }}">
+			{{ $.Scratch.Set "sameday" "" }}
 			{{ range .Pages.Reverse }}
+				{{ $used = .Key }}
 				{{ if and ( eq $highlight "" ) ( and ( eq .Params.status nil ) ( gt (.Date.Unix) (now.Unix) ) ) }}{{ $highlight = "yes" }}{{ end }}
 				{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Jan 2" ) ) }}
 					{{ partial "calendar/sameday-dates.html" (dict "permalink" .RelPermalink "title" .Title "status" .Params.status "highlight" $highlight ) }}
@@ -70,6 +68,11 @@
 			{{ end }}
 			</dl>
 			<p class="clear"></p>
+		{{ end }}
+	{{ end }}
+	{{ if eq $used "" }}
+		{{ with $cat.empty }}
+		<div class="clear banner alert"><p>{{ . | safeHTML | markdownify }}</p></div>
 		{{ end }}
 	{{ end }}
 	</div>
