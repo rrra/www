@@ -15,11 +15,11 @@ aliases = [ "/post/2017/12/25/2018-2019-education-and-testing/",
 +++
 Get started in Amateur Radio, or upgrade your license, with either an
 instructor led license preparation course or through indeoendent study.
-<!--more-->
 
 {{< banner >}}
 {{% question-pool-warning %}}
 {{< /banner >}}
+<!--more-->
 
 ### RRRA Reccomended Courses
 
