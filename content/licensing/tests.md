@@ -1,9 +1,8 @@
 +++
 title = "Testing Opportunities"
 +++
-Please see our index of [License Testing dates](/dates/license-testing/) for a
-complete list of currently scheduled testing dates along with information
-about *License Test Prerequisites* and *Checking Your License Status*.
+License testing sessions scheduled by RRRA ***may*** be listed on our
+our [index of License Testing dates](/dates/license-testing/).
 
 You may search for testing opportunities---both virtual and
 *in-person*---offered by other organizations at:
@@ -11,7 +10,7 @@ You may search for testing opportunities---both virtual and
 * [ARRL Find an Amateur Radio License Exam Session page](http://www.arrl.org/find-an-amateur-radio-license-exam-session)
 * [HamStudy.org: Find an Exam Session page](https://hamstudy.org/sessions)
 
-#### You must obtain an FRN before your test
+### You must obtain an FRN before your test
 
 License exam candidates are reminded that you are **required** to
 register in the FCC CORES system and receive a FCC Registration Number
@@ -28,3 +27,5 @@ To register and request your FRN visit the
 [FCC CORES User Account and Registration page](https://apps.fcc.gov/cores/userLogin.do)
 
 
+{{< bring >}}
+{{< after-the-test >}}
