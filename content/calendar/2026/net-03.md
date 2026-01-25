@@ -5,6 +5,7 @@ publishDate = "2025-12-07"
 endTime = ""
 location = ""
 title = "UHF/VHF Net 3"
+linkTitle = "Sunday UHF/VHF Net"
 slug = "uhf-vhf-net-3"
 categories = [ "Public Service" ]
 dates = [ "NCS Schedule" ]
