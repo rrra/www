@@ -76,7 +76,7 @@ ignoreLogs = ['err-youtube-remote', 'shortcode-twitter-getremote']
 	thumbnail = "https://images.rrra.org/rrra-logo-2017.png"
 
 	# Used for SK pages
-	silentkeybase = "http://silentkeyhq.com/main.php?p=bin/NSKALookup.php&dlnk=&"
+	silentkeybase = "http://lightseagreen-mosquito-753853.hostingersite.com/main.php?p=bin/NSKALookup.php&dlnk=&"
 
 	# Used for event status listing
 	status = [ "canceled", "on w0ilo", "postponed", "rescheduled", "webinar" ]

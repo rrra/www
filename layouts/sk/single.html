@@ -5,7 +5,6 @@
 	{{ `<!-- Template: layouts/sk/single.html -->` | safeHTML }}
 	{{ end }}
 
-{{ $scratch := newScratch }}
 <article class="post type-post status-publish format-standard hentry">
 
 <!-- .entry-header -->
@@ -14,6 +13,10 @@
 {{ $silentkeybase := site.Params.silentkeybase }}
 {{ $sitedate := site.Params.sitedate }}
 {{ $call := upper .Title }}
+
+{{ $needed := "" }}
+{{ $photocredit := "" }}
+{{ $obituary := "" }}
 
 <div class="entry-meta">
 
@@ -37,24 +40,23 @@
 
 <div class="entry-content">
 
-	{{ $scratch.Set "needed" "photo|" }}
+	{{ $needed = printf "%s%s" $needed "photo|" }}
 	{{ with $.Params.obituary }}
-		{{ $scratch.Set "photocredit" . }}
+		{{ $photocredit = . }}
 	{{ end }}
 	{{ with $.Params.photocredit }}
-		{{ $scratch.Set "photocredit" . }}
+		{{ $photocredit = . }}
 	{{ end }}
-
 	{{ $imgfiles := readDir "static/images/sk/" }}
 	{{ range $imgfiles }}
 		{{ if in .Name ( lower $call ) }}
 			<figure class="wp-caption alignnone">
 				<img  src="/images/sk/{{ .Name }}" alt="Obituary photo of {{ $call }}">
-				{{ with $scratch.Get "photocredit" }}
-					<figcaption class="wp-caption-text">Photo: {{ . }}</figcaption>
+				{{ if gt $photocredit "" }}
+					<figcaption class="wp-caption-text">Photo: {{ $photocredit }}</figcaption>
 				{{ end }}
 			</figure>
-			{{ $scratch.Set "needed" "" }}
+			{{ $needed = "" }}
 		{{ end }}
 	{{ end }}
 
@@ -65,7 +67,7 @@
 			{{ if gt .Params.born "" }}
 				<dt class="twocol header">Born:</dt><dd class="twocol">{{ if ( findRE ( $dateregex ) .Params.born ) }}{{ .Params.born | dateFormat ( $sitedate ) }}{{ else }}{{ .Params.born }}{{ end }}</dd>
 			{{ else }}
-				{{ $scratch.Add "needed" "birth|" }}
+				{{ $needed = printf "%s%s" $needed "birth|" }}
 			{{ end }}
 
 			{{ if gt .Params.licensed "" }}
@@ -75,7 +77,7 @@
 			{{ if gt .Date "" }}
 				<dt class="twocol header">Silent Key:</dt><dd class="twocol">{{ .Date.Format ( $sitedate ) }}</dd>
 			{{ else }}
-				{{ $scratch.Add "needed" "death|" }}
+				{{ $needed = printf "%s%s" $needed "death|" }}
 			{{ end }}
 
 			{{ with .Params.silentkeyhq }}
@@ -83,26 +85,26 @@
 				<dt class="twocol header">Memorial:</dt>
 				<dd class="twocol">{{ $href }}</dd>
 			{{ else }}
-				{{ $scratch.Add "needed" "skhq|" }}
+				{{ $needed = printf "%s%s" $needed "skhq|" }}
 			{{ end }}
 
 			{{ if gt .Params.obitLink "" }}
-				{{ $url := .Params.obitLink }}
-				{{ $url := replace $url "https://" "" }}
-				{{ $url := replace $url "http://" "" }}
-				{{ $url := split $url "/" }}
-				{{ $scratch.Set "obituary" ( index $url 0 ) }}
-				{{ with .Params.obituary }}
-					{{ $scratch.Set "obituary" . }}
+				{{ if gt .Params.obituary "" }}
+					{{ $obituary = .Params.obituary }}
+				{{ else }}
+					{{ $url := .Params.obitLink }}
+					{{ $url := replace $url "https://" "" }}
+					{{ $url := replace $url "http://" "" }}
+					{{ $url := split $url "/" }}
+					{{ $obituary = ( index $url 0 ) }}
 				{{ end }}
-				{{ $href := "</a>" | printf "%s%s" ( $scratch.Get "obituary" ) | printf "%s%s" "\">" | printf "%s%s" ( .Params.obitLink ) | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
+				{{ $href := "</a>" | printf "%s%s" $obituary | printf "%s%s" "\">" | printf "%s%s" ( .Params.obitLink ) | printf "%s%s" "<a href=\"" | printf "%s" | safeHTML }}
 				<dt class="twocol header">Obituary:</dt>
 				<dd class="twocol">{{ $href }}</dd>
 			{{ else }}
-				{{ if gt "" ( $scratch.Get "memorial" ) }}
-					{{ $scratch.Add "needed" "obit|" }}
+				{{ if gt "" .Params.silentkeyhq }}
+					{{ $needed = printf "%s%s" $needed "obit|" }}
 				{{ end }}
-
 			{{ end }}
 
 		</dl>
@@ -110,8 +112,6 @@
 		<p class="clear"></p>
 
 		{{ .Content }}
-
-		{{ $needed := $scratch.Get "needed" }}
 
 		{{ if gt $needed "" }}
 			<div class="banner">
