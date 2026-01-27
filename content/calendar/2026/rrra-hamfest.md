@@ -1,7 +1,7 @@
 +++
 created = "2025-10-21T23:12:00-05:00"
 date = "2026-09-26T09:00:00-05:00"
-endTime = "2026-09-26T14:00:00-05:00"
+endTime = "2026-09-26T13:00:00-05:00"
 publishDate = "2025-11-13"
 title = "2026 RRRA Hamfest & ARRL Minnesota State Convention"
 linkTitle = "2026 Hamfest"
@@ -13,7 +13,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-26r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
-update = 3
+update = 4
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2026-07-15" >}}
