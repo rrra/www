@@ -27,35 +27,30 @@ displayed.
 
 */}}
 
+{{ $linklist := "" }}
+{{ $mlist := "All " }}
 {{ $self  := index .Params 0 | urlize }}
-{{ $scratch := newScratch }}
-{{ $scratch.Set "modes" "All " }}
 
 {{/* Modes displayed in the filter menu must be defined in config.toml */}}
 {{ range sort site.Data.radios ".mode" }}
-	{{ $seen := $scratch.Get "modes" }}
-	{{ if and ( in site.Params.modes ( lower .mode ) ) ( not ( in $seen .mode ) ) }}
-		{{ $scratch.Add "modes" .mode }}
-		{{ $scratch.Add "modes" " " }}
+	{{ if and ( in site.Params.modes ( lower .mode ) ) ( not ( in $mlist .mode ) ) }}
+		{{ $mlist = printf "%s%s " $mlist .mode }}
 	{{ end }}
 {{ end }}
 
-{{ $modes := split ( $scratch.Get "modes" ) " " }}
+{{ $modes := split $mlist " " }}
 {{ range $modes }}
 	{{ $text := . }}
 	{{ if and ( gt $text "" ) ( not ( eq $self ( $text | urlize ))) }}
-		{{ $scratch.Add "linklist" "<div><div class=\"genericons-neue genericons-neue-search\"></div><a href=\"/radios/list/" }}
-		{{ $scratch.Add "linklist" ( $text | urlize ) }}
-		{{ $scratch.Add "linklist" "\">" }}
-		{{ $scratch.Add "linklist" $text }}
-		{{ $scratch.Add "linklist" "</a></div>" }}
+		{{ $linklist = printf "%s%s" $linklist "<div><div class=\"genericons-neue genericons-neue-search\"></div><a href=\"/radios/list/" }}
+		{{ $linklist = printf "%s%s%s%s%s" $linklist ( $text | urlize ) "\">" $text "</a></div>" }}
 	{{ end }}
 {{ end }}
 
 <div id="myDropdown" class="dropdown" onclick="toggleDropdown()">
 	<button class="dropbtn">Filter by mode<span class="genericons-neue genericons-neue-menu"></span></button>
 	<div id="contact-dropdown" class="dropdown-content">
-	{{ $scratch.Get "linklist" | safeHTML }}
+	{{ $linklist | safeHTML }}
 	</div> {{/* End: dropdown-content */}}
 </div> {{/* End: dropdown (wrapper) */}}
 
@@ -77,55 +72,58 @@ displayed.
 {{ range sort site.Data.radios ".location" }}
 	{{ $qrt := .qrt | default $cutoff }}
 	{{ if ge $qrt $cutoff }}
-		{{ $scratch.Set "test" $self }}
+		{{ $test := $self }}
 		{{ $mode := .mode | urlize }}
+
+		{{ $location := "" }}
+		{{ $call := "" }}
+		{{ $notes := "" }}
+		{{ $freq := "" }}
 
 		{{/* Allow "MMDVM" repeaters to specify supported modes in their notes */}}
 		{{ if and ( eq "mmdvm" $mode ) ( in ( .notes | urlize ) $self ) }}
-			{{ $scratch.Set "test" ( printf "mmdvm|%s" $self ) }}
+			{{ $test = printf "mmdvm|%s" $self }}
 		{{ end }}
 
-		{{ if or ( eq $self "all" ) ( or ( in ( $scratch.Get "test" ) $mode ) ) }}
+		{{ if or ( eq $self "all" ) ( or ( in $test $mode ) ) }}
 
 		{{/* Load table cell contents */}}
 		{{ if gt ( now.Format "2006-01-02" ) .qrt }} {{/* Lined out plain text */}}
-			{{ $scratch.Set "location" ( "~~" | printf "%s%s" ( .location | plainify ) | printf "%s%s" "~~" ) }}
-			{{ $scratch.Set "call" ( "~~" | printf "%s%s" ( .call | plainify ) | printf "%s%s" "~~" ) }}
-			{{ $scratch.Set "mode" ( "~~" | printf "%s%s" ( .mode | plainify ) | printf "%s%s" "~~" ) }}
-			{{ $scratch.Set "notes" "QRT " }}
-			{{ $scratch.Add "notes" .qrt }}
+			{{ $location = printf "~~%s~~" ( .location | plainify ) }}
+			{{ $call = printf "~~%s~~" ( .call | plainify ) }}
+			{{ $mode = printf "~~%s~~" ( .mode | plainify ) }}
+			{{ $notes = printf "%s %s" "QRT" .qrt }}
 
 			{{ if reflect.IsSlice .frequency }} {{/* we have an array */}}
-				{{ $freq    := index .frequency 0 }}
-				{{ $scratch.Set "freq" ( "~~" | printf "%s%s" ( $freq | plainify ) | printf "%s%s" "~~" ) }}
+				{{ $freq = printf "~~%s~~" ( index .frequency 0 | plainify ) }}
 			{{ else }} {{/* its only a string */}}
-				{{ $scratch.Set "freq" ( "~~" | printf "%s%s" ( .frequency | plainify ) | printf "%s%s" "~~" ) }}
+				{{ $freq = printf "~~%s~~" ( .frequency | plainify ) }}
 			{{ end }}
 
 		{{ else }}
-			{{ $scratch.Set "location" ( .location ) }}
-			{{ $scratch.Set "call" ( .call ) }}
-			{{ $scratch.Set "mode" ( .mode ) }}
-			{{ $scratch.Set "notes" ( .notes ) }}
+			{{ $location = ( .location ) }}
+			{{ $call = ( .call ) }}
+			{{ $mode = ( .mode ) }}
+			{{ $notes = ( .notes ) }}
 
 			{{ if reflect.IsSlice .frequency }}
-				{{ $freq    := index .frequency 0 }}
+				{{ $rf      := index .frequency 0 }}
 				{{ $rptbook := index .frequency 1 }}
 				{{ $slice   := split $rptbook " " }}
 				{{ $state   := index $slice 1 }}
 				{{ $id      := index $slice 2 }}
-				{{ $scratch.Set "freq" ( "</a>" | printf "\">%s%s" $freq | printf "&ID=%s%s" $id | printf "<a href=\"https://www.repeaterbook.com/repeaters/details.php?state_id=%s%s" $state | printf "%s" ) }} 
+				{{ $freq =  "</a>" | printf "\">%s%s" $rf | printf "&ID=%s%s" $id | printf "<a href=\"https://www.repeaterbook.com/repeaters/details.php?state_id=%s%s" $state | printf "%s" }} 
 			{{ else }}
-				{{ $scratch.Set "freq" ( .frequency ) }}
+				{{ $freq = .frequency }}
 			{{ end }}
 
 		{{ end }}
 
 		<div class="tr">
-		<div class="td alignright">{{ $scratch.Get "location"  | markdownify }}</div>
-		<div class="td">{{ $scratch.Get "call" | markdownify }}<br \>{{ $scratch.Get "mode" | markdownify }}</div>
-		<div class="td">{{ $scratch.Get "freq" | markdownify }}</div>
-		<div class="td">{{ $scratch.Get "notes" | markdownify }}</div>
+		<div class="td alignright">{{ $location  | markdownify }}</div>
+		<div class="td">{{ $call | markdownify }}<br \>{{ $mode | markdownify }}</div>
+		<div class="td">{{ $freq | markdownify }}</div>
+		<div class="td">{{ $notes | markdownify }}</div>
 		</div>
 		{{ end }}
 	{{ end }}

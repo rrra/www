@@ -41,8 +41,9 @@ be disabled while keeping the definition file avilable for later re-use.
 
 */}}
 
-{{ $scratch := newScratch }}
+{{ $netdates := "" }}
 {{ $season := now.Format "MST" }}
+{{ $lastmod := "" }}
 
 {{/* Find the time stamp for the last file changed in data/nets.
      We start by scanning the directory and collecting file ModTimes
@@ -53,15 +54,15 @@ be disabled while keeping the definition file avilable for later re-use.
 	{{ $stat := os.Stat $filename }}
 	{{ $key := printf "%s" $stat.ModTime }}
 	{{ $value := $stat.Name }}
-	{{ $scratch.SetInMap "netdates" $key $value }}
+	{{ $netdates = merge $netdates (dict $key $value) }}
 {{ end }}
 
 {{/* Read through the list of time stamps. This loop leaves us with the
 last and most recent time stamp. There may be a more elegant way of doing
 this but ...
 */}}
-{{ range $key, $value := $scratch.Get "netdates" }}
-	{{ $scratch.Set "lastmod" $key }}
+{{ range $key, $value := $netdates }}
+	{{ $lastmod = $key }}
 {{ end }}
 
 <div class="banner">
@@ -84,29 +85,28 @@ address for official information.<p>
 
 {{ range sort ( sort $.Site.Data.nets ".time" ) ".day" }}
 
+	{{ $day := "" }}
 	{{ if or ( eq 0 .day ) ( eq 7 .day ) }}
-		{{ $scratch.Set "day" "Sunday" }}
+		{{ $day = "Sunday" }}
 	{{ else if eq 1 .day }}
-		{{ $scratch.Set "day" "Monday" }}
+		{{ $day = "Monday" }}
 	{{ else if eq 2 .day }}
-		{{ $scratch.Set "day" "Tuesday" }}
+		{{ $day = "Tuesday" }}
 	{{ else if eq 3 .day }}
-		{{ $scratch.Set "day" "Wednesday" }}
+		{{ $day = "Wednesday" }}
 	{{ else if eq 4 .day }}
-		{{ $scratch.Set "day" "Thursday" }}
+		{{ $day = "Thursday" }}
 	{{ else if eq 5 .day }}
-		{{ $scratch.Set "day" "Friday" }}
+		{{ $day = "Friday" }}
 	{{ else if eq 6 .day }}
-		{{ $scratch.Set "day" "Saturday" }}
+		{{ $day = "Saturday" }}
 	{{ else if eq "D" .day }}
-		{{ $scratch.Set "day" "Daily" }}
-	{{ else }}
-		{{ $scratch.Set "day" "" }}
+		{{ $day = "Daily" }}
 	{{ end }}
 
 	{{ if and ( not ( eq .inactive true ) ) ( or ( not ( gt .season " " )) ( eq $season .season ) ) }}
 		<div class="tr">
-			<div class="td">{{ with .dayrange }}{{ . | markdownify }}{{ else }}{{ $scratch.Get "day" }}{{ end }} <span class="notsmall"><br></span>{{ .time }}</div>
+			<div class="td">{{ with .dayrange }}{{ . | markdownify }}{{ else }}{{ $day }}{{ end }} <span class="notsmall"><br></span>{{ .time }}</div>
 			<div class="td alignright">{{ .id | markdownify }}</div> 
 			{{ if reflect.IsSlice .freq }}
 				{{ $freq    := index .freq 0 }}
@@ -151,7 +151,7 @@ address for official information.<p>
 
 <dl>
 <dt><span class="genericons-neue genericons-neue-info"></span> Last net update
-<a href="https://github.com/rrra/www/tree/master/data/nets">{{ $scratch.Get "lastmod" | dateFormat ( .Site.Param "sitedate" ) }}</a>
+<a href="https://github.com/rrra/www/tree/master/data/nets">{{ $lastmod | dateFormat ( .Site.Param "sitedate" ) }}</a>
 </dt>
 <dd>
 Please contact the <a href="mailto:webmaster@rrra.org" subject="Update for Red

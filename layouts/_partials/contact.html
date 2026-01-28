@@ -1,32 +1,31 @@
 {{ $filename := "toml" | printf "%s.%s" .sign | printf "%s/%s" "data/call" }}
 {{ if (fileExists $filename) }}
 	{{ $recip :=  index .context.Site.Data.call .sign }}
-	{{ $scratch := newScratch }}
-	{{ with .subject }}{{ $scratch.Set "subject" "?subject=" }}{{ $scratch.Add "subject" ( . | replaceRE ` ` "%20" ) }}{{ else }}{{ $scratch.Set "subject" "" }}{{ end }}
+	{{ $ddtitle := "" }}
+	{{ $tel := "" }}
+	{{ $subject := "" }}
+	{{ with .subject }}{{ $subject = printf "%s%s" "?subject=" ( . | replaceRE ` ` "%20" ) }}{{ end }}
 
 	{{ if and ( ne $recip nil ) ( gt $recip.email "" )  }}
 
 		{{ if gt $recip.role "" }}
-			{{ $scratch.Set "ddopen" $recip.role }}
+			{{ $ddtitle = $recip.role }}
 		{{ else }}
 			{{ $contact := .sign | upper | printf "%s %s" ( $recip.name | replaceRE " .*" "" )  }}
-			{{ $scratch.Set "ddopen" $contact }}
+			{{ $ddtitle =  $contact }}
 		{{ end }}
-
-		{{ $scratch.Set "email" $recip.email }}
 
 		{{ if gt $recip.tel "" }}
-			{{ $scratch.Set "tel" $recip.tel }}
+			{{ $tel = $recip.tel }}
 		{{ else }}
-			{{ $scratch.Set "tel" .context.Site.Params.tel }}
+			{{ $tel = .context.Site.Params.tel }}
 		{{ end }}
-
 			
-		{{ $ddopen :=  "<span class=\"genericons-neue genericons-neue-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" ( $scratch.Get "ddopen" ) | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\" onclick=\"toggleDropdown()\"><button class=\"dropbtn\">" | printf "%s" }}
+		{{ $ddopen :=  "<span class=\"genericons-neue genericons-neue-menu\"></span></button><div id=\"contact-dropdown\" class=\"dropdown-content\">" | printf "%s%s" $ddtitle | printf "%s%s" "<div id=\"myDropdown\" class=\"dropdown\" onclick=\"toggleDropdown()\"><button class=\"dropbtn\">" | printf "%s" }}
 
-		{{ $email := "</a></div>" | printf "%s%s" ( $scratch.Get "email" ) | printf "%s%s" "\">" | printf "%s%s%s" ( $scratch.Get "email" ) ( $scratch.Get "subject" )| printf "%s%s" "<div><div class=\"genericons-neue genericons-neue-mail\"></div><a href=\"mailto:" | printf "%s" }}
+		{{ $email_link := "</a></div>" | printf "%s%s" $recip.email | printf "%s%s" "\">" | printf "%s%s%s" $recip.email $subject | printf "%s%s" "<div><div class=\"genericons-neue genericons-neue-mail\"></div><a href=\"mailto:" | printf "%s" }}
 
-		{{ $tel := "</a></div>" | printf "%s%s" ( $scratch.Get "tel" ) | printf "%s%s" "\">" | printf "%s%s" ( $scratch.Get "tel" ) | printf "%s%s" "<div><div class=\"genericons-neue genericons-neue-phone\"></div><a href=\"tel:" | printf "%s" }}
+		{{ $tel_link := "</a></div>" | printf "%s%s" $tel | printf "%s%s" "\">" | printf "%s%s" $tel | printf "%s%s" "<div><div class=\"genericons-neue genericons-neue-phone\"></div><a href=\"tel:" | printf "%s" }}
 
 		<script>
 		<!-- 
@@ -34,9 +33,9 @@
     		var myParent = document.getElementById("contact");
 		myParent.innerHTML += f({{ $ddopen | base64Encode }});
 		var myDiv = document.getElementById("contact-dropdown");
-		myDiv.innerHTML += f({{ $email | base64Encode }});
+		myDiv.innerHTML += f({{ $email_link | base64Encode }});
 		{{- if ne $recip.tel "none" -}}
-		myDiv.innerHTML += f({{ $tel | base64Encode }});
+		myDiv.innerHTML += f({{ $tel_link | base64Encode }});
 		{{- end -}}
 		myDiv.innerHTML += f({{ "</div></div>" | base64Encode }});
 		{{ "// -->" | safeJS }}

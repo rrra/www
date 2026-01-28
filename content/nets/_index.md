@@ -21,7 +21,8 @@ the {{< mailto id="net" subject="Volunteering for the RRRA Sunday Net" >}} for m
 
 * [Net Preamble]({{< relref "/nets/preamble.md" >}})
 * [NCS Schedule](/dates/ncs-schedule/)
-* [NCS Roster](/ncs/)
+* [{{< year >}} NCS Roster](/ncs/)
+* [Cumulative NCS Roster](/ncs/all/)
 
 ## Red River Valley Nets <a class="genericons-neue genericons-neue-print" style="text-decoration:none;" href="{{< relref "/nets/red-river-valley-nets.md" >}}" title="Printable Red River Valley net list"></a>
 

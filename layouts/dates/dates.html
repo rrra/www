@@ -37,10 +37,11 @@
 </header>
 
 <div class="entry-content" style="padding-bottom:1em;">
+	{{ $li := "" }}
 	{{ if eq ( .Title | urlize ) "ncs-schedule" }}
-		{{ $.Scratch.Set "li" "calendar/ncsdli.html" }}
+		{{ $li = "calendar/ncsdli.html" }}
 	{{ else }}
-		{{ $.Scratch.Set "li" "calendar/dli.html" }}
+		{{ $li = "calendar/dli.html" }}
 	{{ end }}
 	{{ $thisyear := now | dateFormat "2006" }}
 	{{ $classes := slice "Technician" "General" "Extra" "AUXCOMM" }}
@@ -52,19 +53,18 @@
 	{{ range (.Data.Pages.GroupByDate "2006").Reverse }}
 		{{ if or ($edu) (ge .Key $thisyear) }}	
 			<h3>{{ .Key }}</h3>
-			<dl id="list-{{ .Key }}{{ if eq ( $.Scratch.Get "li" ) "ncsdli" }}-ncs{{ end }}">
-			{{ $.Scratch.Set "sameday" "" }}
+			<dl id="list-{{ .Key }}{{ if eq $li "ncsdli" }}-ncs{{ end }}">
+			{{ $sameday := "" }}
 			{{ range .Pages.Reverse }}
 				{{ $used = .Key }}
 				{{ if and ( eq $highlight "" ) ( and ( eq .Params.status nil ) ( gt (.Date.Unix) (now.Unix) ) ) }}{{ $highlight = "yes" }}{{ end }}
-				{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Jan 2" ) ) }}
+				{{ if and (ne $sameday nil) (eq $sameday ( .Date.Format "Jan 2" ) ) }}
 					{{ partial "calendar/sameday-dates.html" (dict "permalink" .RelPermalink "title" .Title "status" .Params.status "highlight" $highlight ) }}
 				{{ else }}
-					{{ partial ( $.Scratch.Get "li" ) (dict "page" . "highlight" $highlight ) }}
-					{{ $.Scratch.Set "sameday" (.Date.Format "Jan 2") }}
+					{{ partial $li (dict "page" . "highlight" $highlight ) }}
+					{{ $sameday = (.Date.Format "Jan 2") }}
 				{{ end }}
 				{{ if eq $highlight "yes" }}{{ $highlight = "no" }}{{ end }}
-				{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
 			{{ end }}
 			</dl>
 			<p class="clear"></p>

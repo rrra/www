@@ -1,5 +1,3 @@
-{{ $scratch := newScratch }}
-
 {{/* Promote one post to featured position at the top of the
    * homepage(s). The promoted item is excluded from the homepage
    * river of news.
@@ -7,6 +5,9 @@
    * "featured" - true or starting date/time 
    * "endFeatured" - ending date/time
    */}}
+
+{{ $f := slice }} {{/* Featured content collector */}}
+
 {{ $candidates := where ( where .Site.RegularPages "Section" "post") "Params.featured" "!=" nil }}
 {{ range $candidates }}
 	{{/* Accept either a boolean true or a date string */}}
@@ -17,13 +18,13 @@
 		{{ if ne .Params.endFeatured nil }}
 			{{ $end := ( time .Params.endFeatured ).Unix }}
 			{{ if gt $end now.Unix }}
-				{{ $scratch.Add "featured" ( slice . ) }}
+				{{ $f = $f | append ( slice . ) }}
 			{{ end }}
 		{{ else }}
-			{{ $scratch.Add "featured" ( slice . ) }}
+			{{ $f = $f | append ( slice . ) }}
 		{{ end }}
 	{{ end }}
 {{ end }}
 
-{{ $scratch.Add "featured" ( slice . ) }}
-{{ return  first 1 ( $scratch.Get "featured" ) }}
+{{ $f = $f | append ( slice . ) }}
+{{ return  first 1 $f }}

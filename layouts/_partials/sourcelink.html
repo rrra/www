@@ -10,13 +10,9 @@ Add to section (e.g. ../post/.. )  and other pages as:
 
 The source path will be automatically retrieved from the page's .File object.
 
-*** Revise this because it is no longer true. ***
-
 Section indexes and pages without md files do not have a .File object. So the
-source path must be set as follows:
+source path must be set in a frontmatter "datasource" parameter.
 
-	{{ .Scratch.Set "source" "layouts/taxonomy/ncs.terms.html" }}
-	{{ partial "sourcelink.html" . }}
 */}}
 
 {{ $base :=  site.Params.gitbase }}

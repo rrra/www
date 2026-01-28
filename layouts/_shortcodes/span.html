@@ -15,17 +15,17 @@ Named Arguments:
 
 */}}
 
-{{ $scratch := newScratch }}
+{{ $body := "" }}
+{{ $class := "" }}
 
-{{ $scratch.Set "body" "" }}
-{{ with .Get "body" }}{{ $scratch.Set "body" . }}{{ end }}
-{{ with .Inner }}{{ $scratch.Set "body" . }}{{ end }}
+{{ with .Get "body" }}{{ $body = . }}{{ end }}
+{{ with .Inner }}{{ $body = . }}{{ end }}
 
 {{ with .Get "expires" }}
 	{{ $today := now.Format "2006-01-02" }}
 	{{ $expires := dateFormat "2006-01-02" ( . ) }}
 	{{ if gt $today $expires }}
-		{{ $scratch.Set "body" " " }}
+		{{ $body = " " }}
 	{{ end }}
 {{ end }}
 
@@ -33,18 +33,14 @@ Named Arguments:
 	{{ $today := now.Format "2006-01-02" }}
 	{{ $publish := dateFormat "2006-01-02" ( . ) }}
 	{{ if lt $today $publish }}
-		{{ $scratch.Set "body" " " }}
+		{{ $body = " " }}
 	{{ end }}
 {{ end }}
 
-{{ $body := $scratch.Get "body" }}
-
-{{ $scratch.Set "class" "" }}
 {{ with .Get "class" }}
-	{{ $scratch.Add "class" ( . ) }}
+	{{ $class =  . }}
 {{ end }}
-{{ $class := $scratch.Get "class" }}
 
-{{ if gt $body " " }}
+{{ if gt " " $body }}
 	<span{{ with $class }} class="{{ . }}"{{ end }}>{{ $body }}</span>
 {{ end }}

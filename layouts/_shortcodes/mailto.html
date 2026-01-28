@@ -1,5 +1,3 @@
-{{/* Ensure this is not <nil> to stop a printf error */}}
-{{ $.Scratch.Set "subject" "" }}
 
 {{/* Handle either named or positional parameters
    *
@@ -11,68 +9,71 @@
    * backwards compatibility. At some point option should
    * be restricted to named parameters only
    */}}
+
+{{ $option := "" }}
+{{ $sign := "" }}
+{{ $subject := "" }}
+
 {{ if .IsNamedParams }}
-	{{ with .Get "id" }}{{ $.Scratch.Set "sign" ( . ) }}{{ end }}
-	{{ with .Get "option" }}{{ $.Scratch.Set "option" ( . ) }}{{ end }}
-	{{ with .Get "subject" }}{{ $.Scratch.Set "subject" "?subject=" }}{{ $.Scratch.Add "subject" ( . | replaceRE ` ` "%20" ) }}{{ end }}
+	{{ with .Get "id" }}{{ $sign =  .  }}{{ end }}
+	{{ with .Get "option" }}{{ $option =  .  }}{{ end }}
+	{{ with .Get "subject" }}{{ $subject = printf "%s%s" "?subject="  ( . | replaceRE ` ` "%20" ) }}{{ end }}
 {{ else }}
-	{{ with .Get 0 }}{{ $.Scratch.Set "sign" ( . ) }}{{ end }}
-	{{ with .Get 1 }}{{ $.Scratch.Set "option" ( . ) }}{{ end }}
+	{{ with .Get 0 }}{{ $sign =  .  }}{{ end }}
+	{{ with .Get 1 }}{{ $option =  .  }}{{ end }}
 {{ end }}
 
-{{ $sign := .Scratch.Get "sign" }}
-{{ $option := .Scratch.Get "option" }}
-{{ $subject := .Scratch.Get "subject" }}
 {{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
-{{ $scratch := newScratch }}
 
 {{ if (fileExists $filename) }} {{/* Contact found in data/call, it is safe to proceed */}}
 	{{ $recip := index .Page.Site.Data.call $sign }}
 	{{ if ne $recip nil }} {{/* Read suceeded */}}
+		{{ $linktext := "" }}
 		{{ if gt $recip.email "" }}
 
 			{{/* Name was requested and is available. This
 			   * overides other options when possible.
 			   */}}
 			{{ if and ( findRE ".*?name" $option ) ( gt $recip.name "" ) }}
+				{{ $call := "" }}
+				{{ $name := "" }}
 				{{ if gt $recip.call "" }}
-					{{ $scratch.Set "call" $recip.call }}
+		        		{{ $call = $recip.call }}
 				{{ else }}
-					{{ $scratch.Set "call" $sign }}
+					{{ $call = $sign }}
 				{{ end }}
 				{{ if eq $option "fullname" }}
-					{{ $scratch.Set "name" $recip.name }}
+					{{ $name = $recip.name }}
 				{{ else }}
-					{{ $scratch.Set "name" ( $recip.name | replaceRE " .*" "" )  }}
+					{{ $name = ( $recip.name | replaceRE " .*" "" )  }}
 				{{ end }} 
-				{{ $linktext := $scratch.Get "call" | printf "%s %s" ( $scratch.Get "name" ) | printf "%s" }}
-				{{ $scratch.Set "linktext" $linktext }}
+				{{ $linktext := printf "%s %s" $name $call }}
 
 			{{/* Role contact */}}
 			{{ else if gt $recip.role "" }}
-				{{ $scratch.Set "linktext" $recip.role }}
+				{{ $linktext = $recip.role }}
 
 			{{/* Hide their callsign */}}
 			{{ else if or ( eq $recip.call "none" ) ( eq $recip.call "" ) }}
-				{{ $scratch.Set "linktext" $recip.name }} 
+				{{ $linktext = $recip.name }} 
 
 			{{/* Last straw... */}}
 			{{ else }}
-				{{ $scratch.Set "linktext" $sign }}
+				{{ $linktext = $sign }}
 			{{ end }}
 
 			{{/* Output the obfuscated mailto markup */}}
-			{{ $email := "</a><span class=\"genericons-neue genericons-neue-mail\"></span>" | printf "%s%s" ( $scratch.Get "linktext" ) | printf "%s%s" "\">" | printf "%s%s%s" $recip.email $subject | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
+			{{ $email := "</a><span class=\"genericons-neue genericons-neue-mail\"></span>" | printf "%s%s" $linktext | printf "%s%s" "\">" | printf "%s%s%s" $recip.email $subject | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
 			<script>
 			function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
 			X=('{{ $email | base64Encode }}')
 			document.write(f(X))
 			</script>
 			<noscript>
-			{{ $scratch.Get "linktext" }}
+			{{ $linktext }}
 			</noscript>
 		{{ else }} {{/* No e-mail address on file */}}
-			{{ $scratch.Get "linktext" }}
+			{{ $linktext }}
 		{{ end }}
 	{{ else }} {{/* Read failed */}}
 		{{ $sign }}

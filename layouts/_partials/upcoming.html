@@ -5,17 +5,11 @@
 	<div class="noprint"><span class="genericons-neue genericons-neue-month" style="font-size: 1.5em; padding-right: 0.4em" ></span><a style="text-decoration: none;" href="/calendar/0/#add">Learn how to add the RRRA calendar to your device</a></div>
 </header>
 
-<!-- reported as a error by validator.w3.org
-<time class="updated" datetime="{{ now | dateFormat "2006-01-02T03:04:05-07:00" }}" ></time>
-<author class="vcard author" style="display:none;"><span class="email">webmaster@rrra.org</span></author>
--->
-
 <div class="entry-content">
 
-{{ $scratch := newScratch }}     {{/* Scratch Pads                */}}
-{{ $scratch.Set "today" "" }}    {{/* Date sequences seen "today" */}}
-{{ $scratch.Set "seen" " " }}    {{/* Date sequences seen overall */}}
-{{ $scratch.Set "lastdate" "" }} {{/* Last date we used           */}}
+{{ $today := "" }}		{{/* Date sequences seen "today" */}}
+{{ $seen  := "" }}		{{/* Date sequences seen overall */}}
+{{ $lastdate := "" }}		{{/* Last date we used           */}}
 
 {{/* Set the cut off for an updated content flag
      AddDate args: years months days
@@ -27,19 +21,19 @@
 
 			{{ if ge .Date.Unix now.Unix }} {{/* Ignore past events */}}
 
-				{{/* Clear the daily scratch pad when the date changes */}}
+				{{/* Reset date sequence list when date changes */}}
 				{{ $thisdate := chomp (.Date.Format "2006-01-02") }}
-       				{{ if ne $thisdate ($scratch.Get "lastdate") }}
-					{{ $scratch.Set "today" "" }}
+       				{{ if ne $thisdate $lastdate }}
+					{{ $today = "" }}
 				{{ end }}
 
 				{{/* Use the front matter override if it exists */}}
-				{{ $scratch.Set "upcoming" "" }}
+				{{ $upcoming := "" }}
 				{{ with .Params.upcoming }}
-					{{ $scratch.Set "upcoming" (. | lower) }}
+					{{ $upcoming = . | lower }}
 				{{ end }}
 
-				{{ if ne ($scratch.Get "upcoming") "hide" }} {{/* Process events not explicitly hidden */}}
+				{{ if ne $upcoming "hide" }} {{/* Process events not explicitly hidden */}}
 
 					{{/* Build a "urlized" sequence name variable with a trailing delimiter
 					     to help prevent false matches */}}
@@ -50,8 +44,8 @@
 						2. Event front matter upcoming param is set to "force"
 						3:: This date sequence was already seen today
 					*/}}
-					{{ $seen := chomp ($scratch.Get "seen") }}
-				        {{ if or (not (in $seen $series)) (or (eq ($scratch.Get "upcoming") "force") (in ($scratch.Get "today") $series)) }}
+					{{ $seen = chomp $seen }}
+				        {{ if or (not (in $seen $series)) (or (eq $upcoming "force") (in $today $series)) }}
 						{{/* Set the updated content flag. This should gracefully fail to blank
 						     if .GitInfo.CommitDate is not available. */}}
 						{{ $newflag := "" }}
@@ -66,9 +60,9 @@
 						{{ $curdates :=  chomp (delimit .Params.dates " ") | replaceRE "Hidden" "" }}
 						<dd class="twocol"><a href="{{ .RelPermalink}}" title="{{ .Title }}{{ if gt (len $curdates) 0 }} - {{ $curdates }}{{ end }}">{{ if in site.Params.status .Params.status }}<span style="color:red;">{{ upper .Params.status }}</span>{{ else }}{{ if eq 10 (len (string .Date | replaceRE " 00:00:00.*UTC" "" )) }}{{ .Date.Format "Mon Jan 2" }}{{ else }}{{ .Date.Format "3:04 PM Mon Jan 2" }}{{ end }}{{ end }}</a></dd>
 						{{/* Store the date sequence and date for the event we listed */}}
-						{{ $scratch.Add "seen" $series }}
-						{{ $scratch.Add "today" $series }}
-						{{ $scratch.Set "lastdate" (.Date.Format "2006-01-02") }}
+						{{ $seen = printf "%s$s" $seen $series }}
+						{{ $today = printf "%s$s" $today $series }}
+						{{ $lastdate = .Date.Format "2006-01-02" }}
 					{{ end }}
 
 				{{ end }} {{/* Process events not explicitly hidden */}}

@@ -3,31 +3,39 @@
 	<li{{ if eq .Paginator.PageNumber 1 }} class="disabled"{{ end }}><a href="{{ with .Paginator.First }}{{ .URL }}{{ else }}.{{ end }}" >&laquo;&laquo;</a></li>
 	<li{{ if eq .Paginator.HasPrev false }} class="disabled"{{ end }}><a href="{{ with .Paginator.Prev }}{{ .URL }}{{ else }}.{{ end }}" >&laquo;</a></li>
 
-	{{ .Scratch.Set "limit" 5 }}
-	{{ .Scratch.Set "first" 1 }}
+	{{/* Generate a list of Paginator pages to be shown between the
+	     navigation links. Center the current (i.e. active) page when
+	     possible.
+	*/}}
 
-	{{ if le .Paginator.TotalPages (.Scratch.Get "limit") }}
-    {{ .Scratch.Set "last" .Paginator.TotalPages }}
+	{{ $first := 1 }} {{/* First page shown */}}
+	{{ $last  := 0 }} {{/* Last page shown */}}
+	{{ $mid   := 0 }} {{/* Offset to middle of page list */}}
+	{{ $shown := 5 }} {{/* Number of pages shown */}}
+
+	{{ if le .Paginator.TotalPages $shown }}
+		{{/* Show all the pages */}}
+		{{ $last = .Paginator.TotalPages }}
 	{{ else }}
-		{{ .Scratch.Set "mid" (div (.Scratch.Get "limit") 2) }}
-		{{ .Scratch.Add "mid" 1 }}
-		{{ if lt .Paginator.PageNumber (.Scratch.Get "mid")}}
-			{{ .Scratch.Set "last" (.Scratch.Get "limit") }}
-		{{ else }}
-			{{ .Scratch.Set "last" (add .Paginator.PageNumber (.Scratch.Get "mid")) }}
-			{{ if gt (.Scratch.Get "last") .Paginator.TotalPages }}
-				{{ .Scratch.Set "last" .Paginator.TotalPages }}
-				{{ .Scratch.Add "last" 1 }}
+		{{/* Show a subset of the pages*/}}
+		{{ $mid = add (div $shown 2) 1 }}
+		{{ if lt .Paginator.PageNumber $mid}} 
+			{{ $last = $shown }}
+		{{ else }} {{/* Center on the current page  */}}
+			{{ $last = add .Paginator.PageNumber $mid }}
+
+			{{/* Enforce minimum list length */}}
+			{{ if gt $last .Paginator.TotalPages }}
+				{{ $last = add .Paginator.TotalPages 1 }}
 			{{ end }}
-			{{ .Scratch.Set "first" (sub (.Scratch.Get "last") (.Scratch.Get "limit")) }}
-			{{ .Scratch.Add "last" -1 }}
+
+			{{ $first = sub $last $shown }}
+			{{ $last = sub $last 1 }}
 		{{ end }}
 	{{ end }}
 
-	{{ $first := (sub (.Scratch.Get "first") 1) }}
-	{{ $last := (sub (.Scratch.Get "last") 1) }}
-	{{ range seq $first $last }}
-		{{ with index $.Paginator.Pagers ( . ) }}
+	{{ range seq (sub $first 1) (sub $last 1) }}
+		{{ with index $.Paginator.Pagers . }}
 			<li class="pages{{ if eq $.Paginator.PageNumber (.PageNumber) }} active{{ end }}"><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
 		{{ end }}
 	{{ end }}

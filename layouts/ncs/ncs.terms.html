@@ -6,65 +6,49 @@
 	{{ end }}
 
 	{{ $thisyear := now.Format "2006" }}
-	{{ $scratch := newScratch }}
+
+	{{/* Template globals */}}
+	{{ $assignments := slice }}
+	{{ $annual_roster := "" }}
 
 	{{/* Find the calendar pages with an NCS */}}
 	{{ $pages := where .Site.RegularPages "Section" "calendar" }}
  	{{ $pages := $pages | intersect ( where .Site.RegularPages ".Params.ncs" "ne" nil )  }}
 
-	{{/* Collect the NCS call-signs from our list of filtered
-	     calendar pages. GroupByDate allows us to consider one year at a time.
-	     We'll only look at the current year (the inner "range"). The resulting
-	     agregated call-sign list is randomly ordered.
+	{{/* Collect the NCS call-signs from our list of filtered calendar pages.
+	The resulting slice is unordered.
 	*/}}
 	{{ range ( $pages.GroupByDate "2006" ) }}
 		{{ if eq .Key $thisyear }}
 			{{ range .Pages }}
-				{{ $scratch.Add "assignments" .Params.ncs }}
+				{{ $assignments = $assignments | append .Params.ncs }}
 			{{ end }}
 		{{ end }}
 	{{ end }}
 
-	{{/* Convert the NCS assignments list from a []string to a string
+	{{/* Filter the agregated assignments for unique call-signs.
+	The resulting slice is unordered.
+	*/}}
+	{{ $ncs_list :=  $assignments | uniq }}
+
+	{{/* Convert the NCS assignments list from a slice to a string
 	     so that we can use it with string.Count
 	*/}}
-	{{ with ( $scratch.Get "assignments" ) }}
-		{{ $assignments := delimit ( $scratch.Get "assignments"  ) " " }}
+	{{ $assignments := delimit $assignments " " }}
 
-		{{/* Filter the agregated assignments for unique call-signs.
-	     	The resulting list is unordered.
-		*/}}
-		{{ $ncs_list :=  $scratch.Get "assignments" | uniq }}
-
-	{{/* Go through the call-sign list and count assignments */}}
+	{{/* Go through the call-sign list, count assignments, and
+	     store them in a map.
+	*/}}
 	{{ range $ncs_list }}
 		{{ $call := . }}
 
  		{{/* Count the assignments for the current $call */}}
 		{{ $count := strings.Count $call $assignments }}
 
-		{{/* Calculate a weight (lower for a higher session count). Starting
-		     at 10000 makes it possible to handle up to 9000 nets per year (24
-		     per day) without adding leading zeros.
- 		*/}} 
-		{{ $weight := ( sub 10000 $count ) }}
-
-		{{/* Store a key=>value map entry for the call-sign and NCS session count.
-
-		     Keys are "$weight$call" (e.g. "990W1AW" for W1AW w/ 10 assignments) to
-		     leverage the map's auto sorting behavior (ascending order). The key
-		     for the greatest number of assignments will have the lowest weight and
-		     will float to the top of the list. Entries with identical weights
-		     auto sort by the call-sign portion of the keys.
-
-		     Store "$count $call" as the value used for output. The value is
-		     space delimited for easy splitting.
-		*/}}
-		{{ $key := $call | printf "%d%s" $weight }}
-		{{ $value := $call | printf "%d %s" $count }}
-		{{ $scratch.SetInMap "leaderboard" $key $value }}
+		{{ $key := $call }}
+		{{ $value := $count }}
+		{{ $annual_roster = merge $annual_roster (dict $key $value) }}
 	{{ end }}	
-	{{ end }}
 
 	<div class="hentry">
 	<header class="entry-header">
@@ -89,24 +73,17 @@
 
 	<div class="entry-content" style="padding-bottom:1em;">
 		<dl id="list">
-		{{/* Process the leaderboard list */}}
-		{{ range $key, $value := $scratch.Get "leaderboard" }}
-
-			{{/* Split the space delimited value */}}
-			{{ $call := replaceRE ".* " "" $value }}
-			{{ $count := replaceRE " .*" "" $value }}
-
-			{{/* Add a line to the page list with proper handling for a
-			     single net. */}}
-			<dt class="twocol" style="width:10em;">{{ $call }}</dt>
-			<dd class="twocol"><a href="{{ lower $call }}">{{ $count }} net{{ if ne "1" $count }}s{{ end }}</a></dd>
+		{{/* The roster auto-sorts by key (i.e. call-sign) */}}
+		{{ range $key, $value := $annual_roster }}
+			<dt class="twocol" style="width:10em;">{{ $key }}</dt>
+			<dd class="twocol"><a href="{{ lower $key }}">{{ $value }} net{{ if ne "1" $value }}s{{ end }}</a></dd>
 		{{ end }}
 		</dl>
 		<div class="noprint">
 		<h3>Related Links</h3>
 		<ul>
 			<li><a href="/dates/ncs-schedule">NCS Schedule</a></li>
-		 	<li><a href="/ncs/all/">Cumulative NCS Roster</a></li>
+		 	<li><a href="/ncs/all/">NCS Leaderboard</a></li>
 		</ul>
 		</div>
 		<div class="banner noprint">

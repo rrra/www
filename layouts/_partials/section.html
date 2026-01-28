@@ -1,5 +1,3 @@
-{{ $scratch := newScratch }}
-
 {{ if eq "development" hugo.Environment }}
 	{{ `<!-- Template: layouts/_partials/section.html -->` | safeHTML }}
 {{ end }}
@@ -13,17 +11,15 @@
 			<span class="cat-links">
 					{{ if eq "post" .Section }}
 						{{/* This range loop adds a seperator when multiple
-			     			categories exist. We use a local scratch to
-			     			hold an index. */}}
-						{{ $s := newScratch }}
-						{{ $s.Set "idx" 0 }}
-							{{ range .Params.categories }}
-								{{ if gt ( $s.Get "idx" ) 0 }} &bull; {{ end }}
-								<a href="/categories/{{ lower . | urlize }}/index.html" rel="category">{{ . }}</a>
-								{{ $s.Set "idx" 1 }}
-							{{ end }}
-						{{ else if ne ( trim .RelPermalink "/") (.Section | urlize ) }}
-							<a href="/{{ .Section | urlize }}/" rel="section">{{ .Section }}</a>
+			     			categories exist. */}}
+						{{ $idx := 0 }}
+						{{ range .Params.categories }}
+						{{ if gt $idx 0 }} &bull; {{ end }}
+							<a href="/categories/{{ lower . | urlize }}/index.html" rel="category">{{ . }}</a>
+							{{ $idx = 1 }}
+						{{ end }}
+					{{ else if ne ( trim .RelPermalink "/") (.Section | urlize ) }}
+						<a href="/{{ .Section | urlize }}/" rel="section">{{ .Section }}</a>
 					{{ else }}
 						<a href="/">Home</a>
 					{{ end }}
@@ -51,16 +47,17 @@
 
 		<h2 class="entry-title">{{ $deco | safeHTML }}{{ .Title | safeHTML }}</h2>
 
+                {{ $timestamp := "" }}
 		{{ if gt .Lastmod 0 }}
-			{{ $scratch.Set "timestamp" ( .Lastmod.Format "January 2, 2006" ) }}
+			{{ $timestamp = .Lastmod.Format "January 2, 2006" }}
 		{{ else }}
-			{{ $scratch.Set "timestamp" ( now.Format "January 2, 2006" ) }}
+			{{ $timestamp =  now.Format "January 2, 2006" }}
 		{{ end }}
 		<div class="entry-meta">
 			<span class="entry-date">
 				<a href="{{ .RelPermalink }}" rel="bookmark" title="Publication date">
-					<time class="entry-date updated" datetime="{{ $scratch.Get "timestamp" }}">
-						{{ $scratch.Get "timestamp" }}
+					<time class="entry-date updated" datetime="{{ $timestamp }}">
+						{{ $timestamp }}
 					</time>
 				</a>
 			</span>

@@ -1,17 +1,18 @@
-{{ .Scratch.Set "type" "audio/mp3" }}
-{{ .Scratch.Set "text" "Download" }}
+{{ $src := "" }}
+{{ $type := "audio/mp3" }}
+{{ $text := "Download" }}
 {{ if .IsNamedParams }}
-	{{ with .Get "src" }}{{ $.Scratch.Set "src" ( . ) }}{{ end }}
-	{{ with .Get "type" }}{{ $.Scratch.Set "type" ( . ) }}{{ end }}
-	{{ with .Get "text" }}{{ $.Scratch.Set "text" ( . ) }}{{ end }}
+	{{ with .Get "src" }}{{ $src = . }}{{ end }}
+	{{ with .Get "type" }}{{ $type = . }}{{ end }}
+	{{ with .Get "text" }}{{ $text = . }}{{ end }}
 {{ else }}
-	{{ with .Get 0 }}{{ $.Scratch.Set "src" ( . ) }}{{ end }}
-	{{ with .Get 1 }}{{ $.Scratch.Set "text" ( . ) }}{{ end }}
+	{{ with .Get 0 }}{{ $src = . }}{{ end }}
+	{{ with .Get 1 }}{{ $text = . }}{{ end }}
 {{ end }}
-{{ $src := .Scratch.Get "src" | replaceRE "^https?:" "" }}
-<audio id="audio-player" src="{{ $src }}" type="{{ .Scratch.Get "type" }}" controls="controls"></audio>
+{{ $src := $src | replaceRE "^https?:" "" }}
+<audio id="audio-player" src="{{ $src }}" type="{{ $type }}" controls="controls"></audio>
 <div>
 	<span class="genericons-neue genericons-neue-audio"></span>
-	<a href="{{ $src }}">{{ .Scratch.Get "text" }}</a>
+	<a href="{{ $src }}">{{ $text }}</a>
 </div>
 <p class="clear"></p>

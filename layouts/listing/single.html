@@ -24,15 +24,15 @@
 
 <div class="entry-content" style="padding-bottom:1em;">
 	<dl>
+	{{ $sameday := "" }}
 	{{ range where .Site.Pages.ByDate "Section" "calendar" }}
 		{{ if eq $timeperiod ( .Date.Format "January 2006" ) }}
-			{{ if and (ne ($.Scratch.Get "sameday") nil) (eq ($.Scratch.Get "sameday") ( .Date.Format "Mon - 2" ) ) }}
+			{{ if eq $sameday ( .Date.Format "Mon - 2" ) }}
 				{{ .Render "sameday" }}
 			{{ else }}
 				{{ .Render "listingdli" }}
-				{{ $.Scratch.Set "sameday" (.Date.Format "Mon - 2") }}
+				{{ $sameday =  (.Date.Format "Mon - 2") }}
 			{{ end }}
-			{{ $.Scratch.Set "prevday" (add .Date.Day 1) }}
 		{{ end }}
 	{{ end }}
 	</dl>

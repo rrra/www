@@ -15,16 +15,17 @@ Named Arguments:
 
 */}}
 
-{{ $scratch := newScratch }}
+{{ $banner := "" }}
+{{ $class := "" }}
 
-{{ with .Get "body" }}{{ $scratch.Set "banner" . }}{{ end }}
-{{ with .Inner }}{{ $scratch.Set "banner" . }}{{ end }}
+{{ with .Get "body" }}{{ $banner = . }}{{ end }}
+{{ with .Inner }}{{ $banner = . }}{{ end }}
 
 {{ with .Get "expires" }}
 	{{ $today := now.Format "2006-01-02" }}
 	{{ $expires := dateFormat "2006-01-02" ( . ) }}
 	{{ if gt $today $expires }}
-		{{ $scratch.Set "banner" " " }}
+		{{ $banner = " " }}
 	{{ end }}
 {{ end }}
 
@@ -32,20 +33,17 @@ Named Arguments:
 	{{ $today := now.Format "2006-01-02" }}
 	{{ $publish := dateFormat "2006-01-02" ( . ) }}
 	{{ if lt $today $publish }}
-		{{ $scratch.Set "banner" " " }}
+		{{ $banner = " " }}
 	{{ end }}
 {{ end }}
 
 {{ with .Get "class" }}
-	{{ $scratch.Set "class" " " }}
-	{{ $scratch.Add "class" ( . ) }}
-{{ else }}
-	{{ $scratch.Set "class" "" }}
+	{{ $class = printf " %s" ( . ) }}
 {{ end }}
 
-{{ if lt ( $scratch.Get "banner" ) " " }}
-	<div class="clear banner{{ $scratch.Get "class"}}">
-		{{ $markdown := $scratch.Get "banner" | markdownify }}
+{{ if gt " " $banner }}
+	<div class="clear banner{{ $class }}">
+		{{ $markdown := $banner | markdownify }}
 		{{ if not ( strings.Contains $markdown "<p>" ) }}
 			<p>{{ $markdown }}</p>
 		{{ else }}
