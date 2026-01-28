@@ -10,10 +10,10 @@ contact = "fieldday"
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "FD-RRRA"
 dates = [ "Outreach" ]
-aliases = [ "/cal/2026/fieldday/" ]
+aliases = [ "/cal/2026/field-day/" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 #thumbnail = "URL to file for preview image"
 +++
