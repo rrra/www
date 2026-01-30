@@ -3,9 +3,10 @@ date = "2026-01-29T06:56:00-06:00"
 #publishdate = "2026-01-29T06:56:00-06:00"
 title = "Emergency officials use ham radio operators during winter storms"
 categories = [ "Public Service" ]
-tags = [ "ARES", "Crosspost" ]
-xpostLink = "https://twiar.net/?p=3Emergency officials use ham radio operators during winter storms9305"
+tags = [ "ARES", "Crosspost", "Video" ]
+xpostLink = "https://twiar.net/?p=39305"
 xpostName = "This Week in Amateur Radio"
+xpostComment = "Original source: [WSAZ 3, Huntington WV](https://www.wsaz.com/2026/01/28/emergency-officials-use-ham-radio-operators-during-winter-storms/)"
 thumbnail = "https://twiar.net/wp-content/uploads/2021/12/West-Virginia.jpg"
 +++
 MEIGS COUNTY, Ohio (WSAZ) --- With winter weather slamming much of the
@@ -35,3 +36,5 @@ Service and that allows people with even radio service, to hear and
 commute with the general networks, that gives real world information for
 weather conditions, snow levels, the Meigs EMS wants us to send out,"
 Barnhart said.
+
+{{< youtube j6wmdlujWGM >}}
