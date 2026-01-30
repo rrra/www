@@ -115,7 +115,7 @@
 			{{ else }}
 			<div class="clear banner">
 				<p><strong><em>Editors Note:</em></strong></p>
-				<p>This article was originally published at
+				<p>This article has been cross posted from 
 				<a href="{{ .Params.xpostLink }}">{{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}</a></p>
 				{{ if ne .Params.xpostComment nil }}<p>{{ .Params.xpostComment | markdownify }}</p>{{ end }}
 			</div>                                
