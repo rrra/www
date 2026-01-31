@@ -27,7 +27,7 @@
     {{ end -}}
     {{ if and (ne $upcoming "hide") (gt .Params.dates "") -}}
     {{ $series := chomp ((delimit .Params.dates " ") | printf "%s" | urlize | printf "%s|") -}}
-    {{ $seen := chomp $seen -}}
+    {{ $seen = chomp $seen -}}
     {{ if or (not (in $seen $series)) (or (eq $upcoming "force") (in $today $series)) -}}
     {{ $at := "" -}}
     {{ $location := .Params.location | markdownify | plainify -}}
