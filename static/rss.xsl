@@ -21,15 +21,15 @@
       </style>
     </head>
     <body>
-      <a href="/"><img src="/images/rrra-logo-2017.gif" alt="RRRA"/></a>
+      <a href="/"><img src="/images/rrra-logo-2017.gif" alt="Return to the RRRA Homepage" title="Return to the RRRA Homepage"/></a>
       <p>
         <strong>This is a preview of an RSS feed.</strong>
         Subscribe to it by copying the URL from the address bar into your newsreader.
 	Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more and get started. It’s free.
       </p>
-      <ul>
-        <li>Visit our <a href="/about/rss/">RSS Feeds page</a> for an index of feeds available from this website.</li>
-      </ul>
+      <p>
+        &#x2139;&#xFE0F; Visit our <a href="/about/rss/">RSS Feeds page</a> for an index of feeds available from this website.
+      </p>
       <h1><xsl:value-of select="/rss/channel/title"/></h1>
       <dl>
       <xsl:for-each select="/rss/channel/item">
