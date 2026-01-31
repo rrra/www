@@ -3,15 +3,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Upcoming RRRA Events</title>
-    <link>{{ .Permalink }}</link>
-    <description>{{ site.Title }} {{ .Title | singularize }} {{ .Data.Singular | humanize }}</description>
+    <link>{{ site.BaseURL }}</link>
+    <description>Upcoming events from the {{ site.Title }} calendar.</description>
     <generator>hugo.Generator</generator>{{ with site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with site.Params.Author.email }}
     <managingEditor>{{.}}{{ with site.Params.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with site.Params.Author.email }}
     <webMaster>{{.}}{{ with site.Params.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with site.Copyright }}
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    <atom:link href="{{.Permalink}}" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://rrra.org/calendar/index.xml" rel="self" type="application/rss+xml"/>
     {{ $today := "" -}}
     {{ $seen  := "" -}}
     {{ $lastdate := "" -}} 

@@ -30,7 +30,7 @@ your browser's address bar into your newsreader.
 * [Homepage *River Of News*](/index.xml)
 * [Upcoming Events](/calendar/index.xml)
 
-#### News / Blog posts
+#### News / Blog posts by category
 
 * [Education](/categories/education/index.xml)
 * [Hamfest](/categories/hamfest/index.xml)

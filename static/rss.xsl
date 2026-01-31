@@ -21,7 +21,7 @@
       </style>
     </head>
     <body>
-      <img src="/images/rrra-logo-2017.gif" alt="RRRA"/>
+      <a href="/"><img src="/images/rrra-logo-2017.gif" alt="RRRA"/></a>
       <p>
         <strong>This is a preview of an RSS feed.</strong>
         Subscribe to it by copying the URL from the address bar into your newsreader.
