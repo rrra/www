@@ -7,6 +7,14 @@ title = "January Activity: TBD"
 slug = "club-activity"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 aliases = [ "" ]
 +++
+### :money_with_wings: Membership Renewals For 2027 Are Due
+
+{{< banner >}}
+:white_check_mark: [Renew online today!]({{< relref "/join/pay-by-card.md" >}})
+<br>
+Payment by debit, credit, or PayPal account accepted
+{{< /banner >}}
+
