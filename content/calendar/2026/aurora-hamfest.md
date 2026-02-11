@@ -9,11 +9,11 @@ contact = "W0UC"
 sponsor = "[Northern Lights Radio Society](http://www.nlrs.club/)"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 +++
 More information about this event is available at
 
 * [Aurora '26 page](http://www.arrl.org/hamfests/aurora-26) (ARRL)
 * [Northern Lights Radio Society](https://www.nlrs.club/#Aurora%20Conference)
 
-{{< figure src="https://www.nlrs.club/nlrslogo.gif" >}}
+{{< figure loading="lazy" src="https://www.nlrs.club/nlrslogo.gif" >}}

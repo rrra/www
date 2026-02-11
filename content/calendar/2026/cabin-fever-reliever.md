@@ -10,7 +10,7 @@ sponsor = "[St. Cloud Amateur Radio Club](https://w0sv.club/)"
 #talkin = "147.015+ T100"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 Shake off the winter and connect with the amateur radio community!
@@ -25,4 +25,4 @@ For more information about this event please visit
 ### Vendor Registration
 Vendors must [pre-register and pay on-line](https://w0sv.club/vendor-registration/) to reserve their spot.
 
-{{< figure src="https://w0sv.club/wp-content/uploads/2025/11/HAMFEST-683x1024.png" >}}
+{{< figure loading="lazy" src="https://w0sv.club/wp-content/uploads/2025/11/HAMFEST-683x1024.png" >}}
