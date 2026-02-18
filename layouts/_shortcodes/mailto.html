@@ -23,7 +23,7 @@
 	{{ with .Get 1 }}{{ $option =  .  }}{{ end }}
 {{ end }}
 
-{{ $filename := "toml" | printf "%s.%s" $sign | printf "%s/%s" "data/call" }}
+{{ $filename := printf "data/call/%s.toml" $sign }}
 
 {{ if (fileExists $filename) }} {{/* Contact found in data/call, it is safe to proceed */}}
 	{{ $recip := index .Page.Site.Data.call $sign }}
@@ -47,7 +47,7 @@
 				{{ else }}
 					{{ $name = ( $recip.name | replaceRE " .*" "" )  }}
 				{{ end }} 
-				{{ $linktext := printf "%s %s" $name $call }}
+				{{ $linktext = printf "%s %s" $name $call }}
 
 			{{/* Role contact */}}
 			{{ else if gt $recip.role "" }}
@@ -63,7 +63,7 @@
 			{{ end }}
 
 			{{/* Output the obfuscated mailto markup */}}
-			{{ $email := "</a><span class=\"genericons-neue genericons-neue-mail\"></span>" | printf "%s%s" $linktext | printf "%s%s" "\">" | printf "%s%s%s" $recip.email $subject | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
+			{{ $email := "</a> <span class=\"genericons-neue genericons-neue-mail\"></span>" | printf "%s%s" $linktext | printf "%s%s" "\">" | printf "%s%s%s" $recip.email $subject | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
 			<script>
 			function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
 			X=('{{ $email | base64Encode }}')
