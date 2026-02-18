@@ -13,7 +13,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-26r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
-update = 4
+update = 5
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2026-07-15" >}}
@@ -35,3 +35,17 @@ Please read our
 [ticketing guide]({{< relref "/hamfest-guide/ticketing.md" >}})
 for more information.
 {{< /banner >}}
+
+ ### Hamfest Handout
+
+<div style="width:100%;text-align:center;margin-bottom:12px;">
+<strong><a href="https://cloud.rrra.org/index.php/s/XAWo45MNXWFZJJw">Download
+the 2026 RRRA Hamfest Handout</a></strong>
+</div>
+
+{{< figure src="https://images.rrra.org/hamfest/2026-thumbnail.gif" link="https://cloud.rrra.org/index.php/s/XAWo45MNXWFZJJw" >}}
+
+<div style="width:100%;text-align:center;margin-bottom:12px;">
+<strong>Print this handout<br>Keep one half and give the other half to a friend!</strong>
+</div>
+-
