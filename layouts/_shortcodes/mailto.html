@@ -63,7 +63,7 @@
 			{{ end }}
 
 			{{/* Output the obfuscated mailto markup */}}
-			{{ $email := "</a> <span class=\"genericons-neue genericons-neue-mail\"></span>" | printf "%s%s" $linktext | printf "%s%s" "\">" | printf "%s%s%s" $recip.email $subject | printf "%s%s" "<a href=\"mailto:" | printf "%s" }}
+			{{ $email := printf "<a href=\"mailto:%s%s\">%s</a> <span class=\"genericons-neue genericons-neue-mail\"></span> " $recip.email $subject $linktext }}
 			<script>
 			function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
 			X=('{{ $email | base64Encode }}')
