@@ -17,6 +17,7 @@ support and
 * [Bylaws]({{< relref "/about/bylaws.md" >}})
 * [Club Meetings](/dates/club-meetings)
 * [Contact Information]({{< relref "/about/contact.md" >}})
+* [History](/about/history/)
 * [Mission Statement]({{< relref "/about/mission.md" >}})
 * [New Member On Boarding]({{< relref "/about/onboarding.md" >}})
 * [News Distribution]({{< relref "/about/news.md" >}})
@@ -39,10 +40,23 @@ If you would like to support our club please contact the
 or leave a message at [701-526-4426](tel:701-526-4426)<span class="genericon
 genericon-phone"></span> or mail your check to:
 
-{{< qr class="notsmall alignright" level="low" scale=2 loading="lazy" alt="QR code of vCard for RRRA" title="Scan QR code for vCard"  >}}
+<div style="float:left">
+
+{{< hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" >}}
+
+<br>
+<span class="genericons-neue genericons-neue-download"></span> <a
+href="data:text/vcard;charset=utf-8;base64,QkVHSU46VkNBUkQKVkVSU0lPTjoyLjEKRk47Q0hBUlNFVD1VVEYtODpSZWQgUml2ZXIgUmFkaW8gQW1hdGV1cnMKTjtDSEFSU0VUPVVURi04Ojs7OzsKT1JHO0NIQVJTRVQ9VVRGLTg6CkFEUjtDSEFSU0VUPVVURi04O1RZUEU9V09SSzo7O1AuTy4gQm94IDMyMTU7RmFyZ287TkQ7NTgxMDgtMzIxNTtVU0EKVEVMO1RZUEU9V09SSzorMTcwMTUyNjQ0MjYKRU1BSUw7VFlQRT1XT1JLOmluZm9AcnJyYS5vcmcKVVJMO1RZUEU9aG9tZXBhZ2U6aHR0cHM6Ly9ycnJhLm9yZy8KRU5EOlZDQVJECg=="
+download="rrra.vcf">Import RRRA to your contacts</a>
+
+</div>
+
+<div class="notsmall" style="float:right;">
+
+{{< qr level="low" scale=2 loading="lazy" alt="QR code of vCard for RRRA" title="Scan QR code for vCard"  >}}
 BEGIN:VCARD
 VERSION:2.1
-FN;CHARSET=UTF-8:Red River Radio Amateurs
+FN;CHARSET=UTF-8:Red River Radio Amateurs 
 N;CHARSET=UTF-8:;;;;
 ORG;CHARSET=UTF-8:
 ADR;CHARSET=UTF-8;TYPE=WORK:;;P.O. Box 3215;Fargo;ND;58108-3215;USA
@@ -52,11 +66,9 @@ URL;TYPE=homepage:https://rrra.org/
 END:VCARD
 {{< /qr >}}
 
-{{% hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" %}}
-
-<br>
-<div>
-<span class="genericons-neue genericons-neue-download"></span> <a href="data:text/vcard;charset=utf-8;base64,QkVHSU46VkNBUkQKVkVSU0lPTjoyLjEKRk47Q0hBUlNFVD1VVEYtODpSZWQgUml2ZXIgUmFkaW8gQW1hdGV1cnMKTjtDSEFSU0VUPVVURi04Ojs7OzsKT1JHO0NIQVJTRVQ9VVRGLTg6CkFEUjtDSEFSU0VUPVVURi04O1RZUEU9V09SSzo7O1AuTy4gQm94IDMyMTU7RmFyZ287TkQ7NTgxMDgtMzIxNTtVU0EKVEVMO1RZUEU9V09SSzorMTcwMTUyNjQ0MjYKRU1BSUw7VFlQRT1XT1JLOmluZm9AcnJyYS5vcmcKVVJMO1RZUEU9aG9tZXBhZ2U6aHR0cHM6Ly9ycnJhLm9yZy8KRU5EOlZDQVJECg==" download="rrra.vcf">Download vCard</a>
 </div>
 
+<div class="notsmall" style="width:100%;text-align:right;">
+<p class="clear"><strong>Scan the QR Code to add RRRA to your device contacts.</strong></p>
+</div>
 

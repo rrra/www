@@ -34,9 +34,21 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 | At-Large (2025--2027) | {{< mailto atlarge2 fullname >}} |
 | At-Large (2026--2028) | {{< mailto atlarge1 fullname >}} |
 
+### Mailing Address {#mailing-address}
+
+<div style="float:left">
+
+{{< hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" >}}
+
+<span class="genericons-neue genericons-neue-download"></span> <a
+href="data:text/vcard;charset=utf-8;base64,QkVHSU46VkNBUkQKVkVSU0lPTjoyLjEKRk47Q0hBUlNFVD1VVEYtODpSZWQgUml2ZXIgUmFkaW8gQW1hdGV1cnMKTjtDSEFSU0VUPVVURi04Ojs7OzsKT1JHO0NIQVJTRVQ9VVRGLTg6CkFEUjtDSEFSU0VUPVVURi04O1RZUEU9V09SSzo7O1AuTy4gQm94IDMyMTU7RmFyZ287TkQ7NTgxMDgtMzIxNTtVU0EKVEVMO1RZUEU9V09SSzorMTcwMTUyNjQ0MjYKRU1BSUw7VFlQRT1XT1JLOmluZm9AcnJyYS5vcmcKVVJMO1RZUEU9aG9tZXBhZ2U6aHR0cHM6Ly9ycnJhLm9yZy8KRU5EOlZDQVJECg=="
+download="rrra.vcf">Import RRRA to your contacts</a>
+
+</div>
+
 <div class="notsmall" style="float:right;">
 
-{{< qr level="low" scale=3 loading="lazy" alt="QR code of vCard for RRRA" title="Scan QR code for vCard"  >}}
+{{< qr level="low" scale=2 loading="lazy" alt="QR code of vCard for RRRA" title="Scan QR code for vCard"  >}}
 BEGIN:VCARD
 VERSION:2.1
 FN;CHARSET=UTF-8:Red River Radio Amateurs 
@@ -51,18 +63,6 @@ END:VCARD
 
 </div>
 
-<div style="float:left">
-
-### Mailing Address {#mailing-address}
-
-{{< hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" p-tel="701-526-4426" block="true" >}}
-
-<span class="genericons-neue genericons-neue-download"></span> <a
-href="data:text/vcard;charset=utf-8;base64,QkVHSU46VkNBUkQKVkVSU0lPTjoyLjEKRk47Q0hBUlNFVD1VVEYtODpSZWQgUml2ZXIgUmFkaW8gQW1hdGV1cnMKTjtDSEFSU0VUPVVURi04Ojs7OzsKT1JHO0NIQVJTRVQ9VVRGLTg6CkFEUjtDSEFSU0VUPVVURi04O1RZUEU9V09SSzo7O1AuTy4gQm94IDMyMTU7RmFyZ287TkQ7NTgxMDgtMzIxNTtVU0EKVEVMO1RZUEU9V09SSzorMTcwMTUyNjQ0MjYKRU1BSUw7VFlQRT1XT1JLOmluZm9AcnJyYS5vcmcKVVJMO1RZUEU9aG9tZXBhZ2U6aHR0cHM6Ly9ycnJhLm9yZy8KRU5EOlZDQVJECg=="
-download="rrra.vcf">Import RRRA to your contacts</a>
-
-</div>
-
 <div class="notsmall" style="width:100%;text-align:right;">
 <p class="clear"><strong>Scan the QR Code to add RRRA to your device contacts.</strong></p>
 </div>
@@ -74,3 +74,5 @@ RRRA on-line services to the the {{< webmaster >}}.
 
 Please direct all other communications pertaining to the club to the
 appropriate [officer\(s\)](#officers).
+
+
