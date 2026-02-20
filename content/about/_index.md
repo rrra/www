@@ -72,3 +72,4 @@ END:VCARD
 <p class="clear"><strong>Scan the QR Code to add RRRA to your device contacts.</strong></p>
 </div>
 
+<p class="clear"></p>
