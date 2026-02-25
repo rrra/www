@@ -26,6 +26,9 @@ Ex officio board members:
 
 -->
 
+:information_source: As defined in [Article VI](/about/bylaws#article-vi-board-of-directors)
+of the [RRRA Bylaws](/about/bylaws).
+
 #### Officers
 
 | Office         |                                       |
