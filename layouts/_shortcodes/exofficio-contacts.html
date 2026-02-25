@@ -1,0 +1,57 @@
+{{/* _shortcodes/exofficio-contacts.html
+   *
+   * Create e-mail links for ex officio board members
+   *
+*/}}
+
+<table>
+<thead>
+<tr>
+  <th>Title</th>
+  <th></th>
+</tr>
+</thead>
+<tbody>
+
+{{ range sort ( sort $.Site.Data.call ".role" ) ".term"  }}
+
+	{{ $role := .role }}
+
+	{{/* Append the At Large Term */}}
+	{{ if strings.Contains $role "At Large" }}
+		{{ $role = printf "%s %s" $role .term }}
+	{{ end }}
+
+	{{/* Add the table line */}}
+	{{ if or ( strings.Contains $role "Ex Officio" ) ( strings.Contains $role "At Large" ) }}
+		{{ $linktext := printf "%s %s" .name .call }}
+		{{ $email := "" }}
+		{{ $link := "" }}
+		{{ if ne nil .email }}
+			{{ if gt .email " " }}
+				{{ $email = .email }}
+			{{ end }}
+
+			{{ $href := printf "<a href=mailto:%s>%s</a> <span class=\"genericons-neue genericons-neue-mail\"></span> " $email $linktext }}
+			{{ $enctxt := $href | base64Encode }}
+
+<tr>
+<td>{{ $role }}</td>
+<td>
+<script>
+function f( str ) { return decodeURIComponent(escape(window.atob( str ))); }
+X=("{{ $enctxt}}")
+document.write(f(X))
+</script>
+<noscript>
+{{ $linktext }}
+</noscript>
+</td></tr>
+
+		{{ end }}{{/* if ne nil .email */}}	
+	{{ end }}{{/* if or ( strings ... */}}
+{{ end }}{{/* range ... */}}
+
+</tbody>
+</table>
+

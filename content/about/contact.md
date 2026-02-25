@@ -26,13 +26,7 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 #### Ex-officio Members
 
-<!--* None for 2021-->
-<!--| President (2019-2022) | {{< mailto W0JPJ fullname >}}    | -->
-
-| Title                 |                                  |
-| --------------------- |--------------------------------- |
-| At-Large (2025--2027) | {{< mailto atlarge2 fullname >}} |
-| At-Large (2026--2028) | {{< mailto atlarge1 fullname >}} |
+{{< exofficio-contacts >}}
 
 ### Mailing Address {#mailing-address}
 
