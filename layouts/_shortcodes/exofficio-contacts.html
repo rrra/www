@@ -19,7 +19,7 @@
 
 	{{/* Append the At Large Term */}}
 	{{ if strings.Contains $role "At Large" }}
-		{{ $role = printf "%s %s" $role .term }}
+		{{ $role = printf "%s (%s)" $role .term }}
 	{{ end }}
 
 	{{/* Add the table line */}}
@@ -29,11 +29,8 @@
 		{{ $link := "" }}
 		{{ if ne nil .email }}
 			{{ if gt .email " " }}
-				{{ $email = .email }}
-			{{ end }}
-
-			{{ $href := printf "<a href=mailto:%s>%s</a> <span class=\"genericons-neue genericons-neue-mail\"></span> " $email $linktext }}
-			{{ $enctxt := $href | base64Encode }}
+				{{ $href := printf "<a href=mailto:%s>%s</a> <span class=\"genericons-neue genericons-neue-mail\"></span> " .email $linktext }}
+				{{ $enctxt := $href | base64Encode }}
 
 <tr>
 <td>{{ $role }}</td>
@@ -48,6 +45,7 @@ document.write(f(X))
 </noscript>
 </td></tr>
 
+			{{ end }}
 		{{ end }}{{/* if ne nil .email */}}	
 	{{ end }}{{/* if or ( strings ... */}}
 {{ end }}{{/* range ... */}}
