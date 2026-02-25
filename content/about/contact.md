@@ -8,6 +8,24 @@ aliases = [ "/mailing-address", "/about/mailing-address", "/about/officers" ]
 
 ### Board of Directors
 
+<!-- Managed through entries in data/call/:
+
+Officers and Trustees:
+
+* data/call/president.toml
+* data/call/vicepresident.toml
+* data/call/secretary.toml
+* data/call/treasurer.toml
+* data/call/KC0KAE.toml
+* data/call/W0ILO.toml
+
+Ex officio board members:
+
+* data/call/atlarge[12].toml
+* data/call/exofficio*.toml
+
+-->
+
 #### Officers
 
 | Office         |                                       |
