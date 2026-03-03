@@ -14,14 +14,14 @@ aliases = [ "/post/2017/12/25/2018-2019-education-and-testing/",
 ]
 +++
 Get started in Amateur Radio, or upgrade your license, with either an
-instructor led license preparation course or through indeoendent study.
+instructor led license preparation course or through independent study.
 
 {{< banner >}}
 {{% question-pool-warning %}}
 {{< /banner >}}
 <!--more-->
 
-### RRRA Reccomended Courses
+### RRRA Recommended Courses
 
 #### Technician License test preparation 
 
@@ -49,7 +49,7 @@ We have prepared six videos to accompany the textbook using the
 author's PowerPoint slides. These videos can be provided to
 local students who have obtained the textbook.
 
-##### Indendent Study with the Textbook
+##### Independent Study with the Textbook
 
 Obtain the physical textbook from the 
 [Ham Radio School Technician Prep page](https://www.hamradioschool.com/technician-prep).

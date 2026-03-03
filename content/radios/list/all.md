@@ -14,5 +14,5 @@ this list.**
 
 ## Repeater Search
 
-* [Repeater Book - North Dakota](https://www.repeaterbook.com/repeaters/index.php?state_id=38)
-* [Repeater Book - Minnesota](https://www.repeaterbook.com/repeaters/index.php?state_id=27)
+* [Repeater Book - North Dakota](https://www.repeaterbook.com/repeaters/index2.php?state_id=38)
+* [Repeater Book - Minnesota](https://www.repeaterbook.com/repeaters/index2.php?state_id=27)
