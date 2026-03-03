@@ -7,13 +7,11 @@ title = "March Activity: Planning The Perfect POTA Pilgrimage"
 linkTitle = "March Activity"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 2
+update = 3
 aliases = [ "/cal/2026/03/17/march-activity-tbd/" ]
 slug = "club-activity"
 +++
 ### Presented by Jake Bechtold, K0RQ
 
-{{< banner >}}
-Enjoy an interactive experience and *eyeball QSOs*; no club business
-will be be discusssed at this meeting!
-{{< /banner >}}
+{{< import "/post/2026/march-activity-invitation.md" >}}
+
