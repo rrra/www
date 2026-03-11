@@ -5,7 +5,7 @@ endTime = "2026-06-28T12:59:00-05:00"
 publishDate = "2025-07-10T11:17:16-05:00"
 title = "Field Day 2026 West Fargo"
 linkTitle = "Field Day - West Fargo"
-location = "TBD"
+location = "[Cass County Highway Department](#visit-our-field-day-site-location)"
 contact = "fieldday"
 #talkIn = "[W0ILO Repeaters](/radios/)"
 #aprs = "FD-RRRA"
@@ -13,9 +13,8 @@ dates = [ "Outreach" ]
 aliases = [ "/cal/2026/field-day/" ]
 outputs = [ "HTML", "Calendar" ]
 upcoming = "force"
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
-#thumbnail = "URL to file for preview image"
 +++
 >Field Day is ham radio's open house. Every June, more than 40,000 hams
 >throughout North America set up temporary transmitting stations in public
@@ -33,3 +32,33 @@ For more information about Field Day ...
 * Download the [ARRL "What is Field Day?" flyer](http://www.arrl.org/files/file/Field-Day/2021/2_1-%20FD%20Flier%20-%20What%20is%20FD%20generic.pdf)
 * Visit the [Wikipedia Field Day page](https://en.wikipedia.org/wiki/Field_Day_\(amateur_radio\))
 * Find and visit [a Field Day Site near you](http://www.arrl.org/field-day-locator)
+
+### Visit Our Field Day Site Location
+
+The [RRRA Field Day 2026 site](https://www.google.com/maps/place/46%C2%B052'33.7%22N+96%C2%B055'11.2%22W/@46.8758746,-96.9215708,274m/data=!3m1!1e3!4m14!1m7!3m6!1s0x52cf34bb7797e871:0xb83bd0531febdbda!2sWest+Fargo,+ND!3b1!8m2!3d46.8769487!4d-96.8999057!3m5!1s0x0:0x0!7e2!8m2!3d46.8760285!4d-96.9197808)
+will be at the north-west corner of the [Cass County Highway Department](/places/cass-county-highway-department/) garage
+(the red marker shown below.)
+
+Visitors and participants should park in the Cass County Highway Department parking lot on the
+west side of 12th Street NW (across the street from the Field Day site).
+
+<a data-flickr-embed="true" href="/places/cass-county-highway-department/" title="W0ILO West Fargo Field Day Site"><img src="https://live.staticflickr.com/65535/34609732591_bb422a376e.jpg" width="474" height="474" alt="W0ILO West Fargo Field Day Site"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<span class="genericons-neue genericons-neue-location"></span>
+{{% hcard p-name="[Cass County Highway Department](/places/cass-county-highway-department/)" p-adr="1201 Main Ave W" p-loc="West Fargo" p-reg="ND" p-zip="58078" %}} 
+
+[View the RRRA Field Day 2026 site on Google Maps](https://www.google.com/maps/place/46%C2%B052'33.7%22N+96%C2%B055'11.2%22W/@46.8758746,-96.9215708,274m/data=!3m1!1e3!4m14!1m7!3m6!1s0x52cf34bb7797e871:0xb83bd0531febdbda!2sWest+Fargo,+ND!3b1!8m2!3d46.8769487!4d-96.8999057!3m5!1s0x0:0x0!7e2!8m2!3d46.8760285!4d-96.9197808)
+
+<!--
+### Other Local Field Day Site Locations
+
+* [Sabin, MN \(N0NRU\)]({{/* relref "/calendar/2026/field-day-sabin.md" */}})
+-->
+
+### Find other Field Day Sites
+
+More Field Day sites may be found by searching the
+[ARRL Field Day Station Locator](http://www.arrl.org/field-day-locator).
+
+{{< figure src="https://www.arrl.org/files/file/Field-Day/2026/Field%20Day%202026%20Logo.jpg" link="http://www.arrl.org/field-day" >}}
+<p class="clear"></p>
