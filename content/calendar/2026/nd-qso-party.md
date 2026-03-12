@@ -7,9 +7,14 @@ title = "ND QSO Party"
 sponsor = "ND ARRL SM N0RDF and ASM K0YL"
 dates = [ "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
+{{< banner >}}
+RRRA will conduct a [POTA activation of Fort Abercrombie]({{< relref "/calendar/2026/pota-activation-for-the-nd-qso-party.md" >}})
+for the ND QSO party. Join us :bangbang:
+{{< /banner >}} 
+
 Read the [2026 ND QSO Party Guide][rules] for more information about
 this event including:
 
