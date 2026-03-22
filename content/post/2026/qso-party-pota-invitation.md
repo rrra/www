@@ -14,9 +14,15 @@ Enjoy a [springtime Parks On The Air activation][party] while participating in t
 
 [party]: {{< relref "/calendar/2026/pota-activation-for-the-nd-qso-party.md" >}}
 
-RRRA will be operating a club station for the ND QSO Party from Fort
-Abercrombie State Historic Site in Abercrombie, ND. This will also double as
-a Parks On The Air activation.
+{{< figure src="https://www.history.nd.gov/historicsites/abercrombie/images/abercrombiesplash.jpg" link="https://www.history.nd.gov/historicsites/abercrombie" >}}
+
+RRRA will be operating a club station for the [ND QSO Party] from [Fort
+Abercrombie State Historic Site][fort] in Abercrombie, ND. This will also
+double as a [Parks On The Air activation][pota].
+
+[ND QSO Party]: {{< relref "/calendar/2026/nd-qso-party.md" >}}
+[fort]: https://www.history.nd.gov/historicsites/abercrombie
+[pota]: https://pota.app/#/activations
 
 All hams are welcome to stop by, operate, and see what Parks On The Air
 is all about. Participants will be able to operate the club callsign
