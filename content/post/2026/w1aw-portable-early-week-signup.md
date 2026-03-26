@@ -1,6 +1,6 @@
 +++
 date = "2026-03-22T21:35:11-05:00"
-expiryDate = "2026-03-24T18:00:00-05:00"
+expiryDate = "2026-03-31T12:00:00-05:00"
 title = "Reserve your W1AW/0 shift today!"
 slug = "w1aw-portable-early-week-signup"
 authors = [ "K0STK" ]
