@@ -1058,10 +1058,6 @@ margin: 0 auto;
 max-width: 474px;
 }
 
-[id^="list"] {
-padding-bottom: 2em;
-}
-
 /**
 * 6.2 Entry Header
 * -----------------------------------------------------------------------------
@@ -1753,7 +1749,7 @@ line-height: 1.3333333333;
 	padding: 24px 24px 0px 24px;
 	border-top: thin solid;
 	border-bottom: thin solid;
-	margin: 24px 0;
+	margin: 12px 0;
 }
 
 .alert, .red {
