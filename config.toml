@@ -136,6 +136,7 @@ ignoreLogs = ['err-youtube-remote', 'shortcode-twitter-getremote']
 
 [params.dates.ares-meetings]
 	title = "Meetings of participants in ARES and RRRAES"
+	alert = "As of April 6, 2026, all scheduled ARES/RRRAES meetings are canceled. Ad hoc meeting announcements will be made during Emergency Services committee reports at business meetings."
 
 [params.dates.club-meetings]
 	title = "RRRA business meetings and activities"
