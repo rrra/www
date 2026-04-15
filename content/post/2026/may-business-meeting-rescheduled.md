@@ -11,10 +11,16 @@ siteBanner = true
 bannerText = ":warning: May meetings rescheduled to May 12th :warning:"
 noindex = true
 +++
-Due to circumstances beyond our control
-RRRA's [May ARES Meeting][ares] and [May Business Meeting][club] at the
-[West Fargo Fire Department Headquarters][hq] have been rescheduled and
-will be held on May 12th.
+Due to circumstances beyond our control RRRA's [May Business
+Meeting][club] at the [West Fargo Fire Department Headquarters][hq] has
+been rescheduled and will be held on May 12th.
+
+:warning: All future scheduled [ARES Meetings](/dates/ares-meetings/) have been
+cancelled by {{< mailto KD0IOE >}}.
+
+ARES meeting announcements will be made during Emergency Services
+committee reports at business meetings. These ad hoc meetings will be held
+following business meetings when they are required.
 
 [ares]:  {{< relref "/calendar/2026/may-ares-meeting.md" >}}
 [club]: {{< relref "/calendar/2026/may-meeting.md" >}}
