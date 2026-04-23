@@ -3,3 +3,4 @@ call = "KC0LOK"
 mode = "NXDN"
 frequency = [ "442.375 + RAN 41", "repeaterbook 38 18681" ]
 notes = "Analog T123"
+qrt = "2026-04-18"
