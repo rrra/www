@@ -1,7 +1,7 @@
 +++
 date = "2026-04-23T13:01:01-05:00"
 #publishdate = "2026-04-23T13:01:01-05:00"
-title = "Ast Spacemobile to Use 430 Mhz Band for 248 Satellites"
+title = "AST Spacemobile to Use 430 Mhz Band for 248 Satellites"
 categories = [ "Technical" ]
 tags = [ "FCC", "UHF", "Crosspost" ]
 xpostLink = "https://amsat-uk.org/2026/04/22/ast-spacemobile-to-use-430-mhz-band-for-248-satellites/"
