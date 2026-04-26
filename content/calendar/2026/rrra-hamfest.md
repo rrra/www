@@ -13,7 +13,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-26r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
-update = 5
+update = 6
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2026-07-15" >}}
@@ -27,16 +27,104 @@ to stay informed about North Dakota's largest and best Hamfest in 2026!
 :star: **[Buy your general admission tickets and vendor table bundles TODAY](https://tickets.rrra.org)
 and skip the Hamfest ticket table line.** :star:
 
-Tickets and vendor are also available at the door --- subject to availability.
+General admission tickets and vendor bundles are also available at the
+door --- subject to availability.
 
-:warning: **E-mail reservation requests will NOT be accepted** :warning:
+:warning: **E-mail or telephone reservation requests will NOT be accepted** :warning:
 
 Please read our
 [ticketing guide]({{< relref "/hamfest-guide/ticketing.md" >}})
 for more information.
 {{< /banner >}}
 
- ### Hamfest Handout
+{{< banner class="alert" >}}
+The flea market vendor set-up period is from 7AM to 9AM on Saturday,
+September 26th.
+
+**There will be no exceptions to this schedule.**
+
+We are required by Minnesota state law to collect, and retain, written
+evidence that persons who do business at our event have a valid
+Minnesota tax ID number. If a seller is not required to have a Minnesota
+tax ID number, the seller must give us a written statement that items
+offered for sale are not subject to sales tax.
+
+Therefore **ALL** flea market vendors are **REQUIRED** to complete Minnesota
+Department of Revenue Form ST19 at the vendor check-in table **BEFORE** they
+will be allowed entrance to the event.
+{{< /banner >}}
+
+{{< back >}}
+
+### Featuring
+
+<!-- * ARRL QSL Card Checking by KE0A -->
+* Coffee &amp; donuts
+* Door prizes --- courtesy of our [sponsors](#sponsors)
+* Eyeball QSOs
+* Flea Market
+* Fox Hunt Around The Armory by KF0IBC (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
+* [Handout](#hamfest-handout)
+* On-line Ticket Sales 
+* ***Paper based*** [License Testing]({{< relref "/calendar/2026/hamfest-testing.md" >}}) (AKA *VE Testing* or *VE Session*) 
+* [Seminars](#seminars)
+<!-- * Venue Simplex Net --- 146.500 MHz, Analog FM -->
+
+*Plans subject to change without notice. Please visit our [schedule of events](#schedule) for more information*
+
+{{< back >}}
+### Information for Attendees and Vendors
+* [Admission and Vendor Tickets]({{< relref "/hamfest-guide/ticketing.md" >}})
+* [Driving Directions]({{< relref "/hamfest-guide/directions.md" >}})
+* [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
+* [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
+
+{{< hamfest-sponsors 2026 >}}
+
+<!--
+{{< back >}}
+### Purchase Admission and Vendor Tickets {#box-office}-->
+
+<!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
+<!--
+<div class="tt-widget"><div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" target="_blank">Click here to buy tickets</a><br /><small><a href="https://www.tickettailor.com?rf=wdg_99768" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget"></script></div><!-- End of Ticket Tailor Widget -->
+
+{{< banner class="alert" publish="2026-07-14" >}}
+General Admission Tickets and Vendor Bundle purchases are
+**non-refundable** and indicate purchaser's acceptance of, and agreement
+to adhere to, the RRRA
+[Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}}).
+{{< /banner >}}
+
+{{< back >}}
+
+### Schedule
+*Schedule subject to change without notice*
+
+:warning: There is ***NO*** venue access to the public (vendors or attendees)
+outside of the times listed on this schedule.
+
+#### Saturday, September 27th
+
+Time |      |
+-----|------|
+7 AM | Flea Market Vendor setup on the Drill Floor<br>No vehicle access permitted
+8 AM | License Testing begins
+9 AM | Flea Market opens
+9:30 AM | Seminars begin
+10 AM | Fox Hunt begins<br>Participants must bring their own [fox hunting gear](http://homingin.com/equipment.html)
+1 PM | Hamfest ends
+
+{{< back >}}
+### Seminars
+
+*Seminars subject to change without notice*
+
+Time | Subject | Presented by
+-----|---------|-------------
+**TBD** | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
+
+### Hamfest Handout
 
 <div style="width:100%;text-align:center;margin-bottom:12px;">
 <strong><a href="https://cloud.rrra.org/index.php/s/XAWo45MNXWFZJJw">Download
