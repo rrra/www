@@ -10,7 +10,7 @@ categories = [ "Hamfest" ]
 dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 aliases = [ "/cal/2024/hamfest/", "/cal/2024/09/28/rrra-hamfest/" ]
 outputs = [ "HTML", "Calendar" ]
-update = 18
+update = 19
 talkIn = "[W0ILO Repeaters](/radios/)"
 aprs = "HFEST-28r"
 +++
@@ -39,7 +39,7 @@ for more information.
 * Fox Hunt at the Fair Grounds (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
 * [License Testing]({{< relref "/calendar/2024/hamfest-testing.md" >}})
 (aka *VE Testing* or *VE Session*)
-* [On-line Box Office](#on-line-box-office)
+* On-line Box Office
 * [Seminars](#seminars)
 
 <!--
@@ -59,32 +59,6 @@ for more information.
 
 {{< back >}}
 
-### On-Line Box Office
-
-<!-- Ticket Tailor Widget. Paste this into your website where you want the
-widget to appear. Do not change the code or the widget may not work properly.
--->
-<div class="tt-widget"><div class="tt-widget-fallback"><p><a
-href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget"
-target="_blank">Click here to buy tickets</a><br /><small><a
-href="https://www.tickettailor.com?rf=wdg_99768"
-class="tt-widget-powered">Sell tickets online with Ticket
-Tailor</a></small></p></div><script
-src="https://cdn.tickettailor.com/js/widgets/min/widget.js"
-data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/"
-data-type="inline" data-inline-minimal="true" data-inline-show-logo="false"
-data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param=""
-data-inline-ref="website_widget"></script></div>
-<!-- End of Ticket Tailor Widget -->
-
-{{< banner class="alert" publish="2024-07-31">}}
-General Admission Tickets and Vendor Bundle purchases are
-**non-refundable** and indicate purchaser's acceptance of, and agreement
-to adhere to, the RRRA
-[Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}}).
-{{< /banner >}}
-
-{{< back >}}
 ### Schedule
 *Schedule subject to change without notice*
 
