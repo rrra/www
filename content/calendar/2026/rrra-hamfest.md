@@ -13,7 +13,8 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 #aprs = "HFEST-26r"
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
-update = 6
+upcoming = "force"
+update = 7
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2026-07-15" >}}

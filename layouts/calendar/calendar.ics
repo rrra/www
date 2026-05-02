@@ -4,9 +4,9 @@ VERSION:2.0
 CALSCALE:GREGORIAN
 {{ partialCached "ics-tzid.html" . -}}
 METHOD:PUBLISH
-{{ $today := now | dateFormat "2006" -}}
-{{ range .Pages -}}
-{{ if ge (.Date.Format "2006") $today -}}
+{{ $limit := 3 -}}
+{{/* Future events (past $limit months) with upcoming = "force" */}}
+{{ range where ( where .Pages "Date" "gt" ( now.AddDate 0 $limit 0 ) ) "Params.upcoming" "eq" "force" -}}
 BEGIN:VEVENT
 UID:{{ .Permalink | md5 }}@{{ site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
 {{ with .Params.update -}}SEQUENCE: {{ . }}
@@ -24,5 +24,23 @@ SUMMARY;ENCODING=QUOTED-PRINTABLE:{{ if in site.Params.status .Params.status }}{
 URL:{{ .Permalink }}
 END:VEVENT
 {{ end -}}
+{{/* Events during the next $limit months */}}
+{{ range where ( where .Pages "Date" "ge" now ) "Date" "le" ( now.AddDate 0 $limit 0 ) -}}
+BEGIN:VEVENT
+UID:{{ .Permalink | md5 }}@{{ site.BaseURL | replaceRE "^https?://([^/]+).*" "$1" }}
+{{ with .Params.update -}}SEQUENCE: {{ . }}
+{{ end -}}
+{{ with .Params.status -}}{{ if or ( eq  . "canceled" ) ( eq  . "postponed" ) -}}
+METHOD:CANCEL
+STATUS:CANCELLED
+{{ end -}}{{ end -}}
+CREATED:{{ with .Params.created -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}{{ with .PublishDate -}}{{ . | dateFormat "20060102T150405\n" }}{{ else -}}.Date.Format "20060102T150405\n" }}{{ end -}}{{ end -}}
+DTSTAMP:{{ .PublishDate.Format "20060102T150405" }}
+DTSTART;TZID=America/Chicago;VALUE=DATE-TIME:{{ .Date.Format "20060102T150405" }}
+{{ with .Params.endTime -}}DTEND;TZID=America/Chicago;VALUE=DATE-TIME:{{ . | dateFormat "20060102T150405\n" }}{{ end -}}
+SUMMARY;ENCODING=QUOTED-PRINTABLE:{{ if in site.Params.status .Params.status }}{{ upper .Params.status }} - {{ end }}{{ .Title }}
+{{ with .Params.location -}}LOCATION;ENCODING=QUOTED-PRINTABLE:{{ . | replaceRE "\\(.*\\)" "" | replaceRE "[\\[\\]]" "" | printf "%s\n" }}{{ end -}}
+URL:{{ .Permalink }}
+END:VEVENT
 {{ end -}}
 END:VCALENDAR
