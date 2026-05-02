@@ -16,7 +16,7 @@ Meeting][club] at the [West Fargo Fire Department Headquarters][hq] has
 been rescheduled and will be held on May 12th.
 
 **All future scheduled [ARES Meetings](/dates/ares-meetings/),
-including the May 12th meeting, have been cancelled by {{< mailto KD0IOE
+including the May 12th meeting, have been cancelled by {{< mailto KC0ODE
 >}}.**
 
 :information_source: ARES meeting announcements will be made during
