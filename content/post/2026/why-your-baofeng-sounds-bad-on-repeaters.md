@@ -18,9 +18,9 @@ standard Amateur Radio repeaters.
 
 [video]: https://www.youtube.com/shorts/X98P9jZRRs4
 
-This can happen when you mistakeny select Narrow Band mode because using
-the least amount of power and bandwidth needed for a transmission is
-considered to be a good Amateur Radio practice.
+This can happen when you mistakenly select Narrow Band mode because
+using the least amount of power and bandwidth needed for a transmission
+is considered to be a good Amateur Radio practice.
 <!--more-->
 
 >Here’s how to check it and change it to Wide Band mode if needed.
