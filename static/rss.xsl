@@ -46,6 +46,8 @@
 	</dd>
       </xsl:for-each>
       </dl>
+      <a href="http://validator.w3.org/feed/check.cgi?url=https%3A//rrra.org/index.xml"><img src="//images.rrra.org/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+      <br/>
       <address><a href="mailto:webmaster@rrra.org">webmaster@rrra.org</a></address>
     </body>
     </html>
