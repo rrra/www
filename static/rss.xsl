@@ -3,6 +3,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:atom="http://www.w3.org/2005/Atom">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
+  <xsl:param name="permalink" />
   <xsl:template match="/">
   <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
@@ -46,8 +47,10 @@
 	</dd>
       </xsl:for-each>
       </dl>
-      <a href="http://validator.w3.org/feed/check.cgi?url=https%3A//rrra.org/index.xml"><img src="//images.rrra.org/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+      <xsl:if test="string-length($permalink) >0">
+        <a href="http://validator.w3.org/feed/check.cgi?url={$permalink}index.xml"><img src="//images.rrra.org/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
       <br/>
+      </xsl:if>
       <address><a href="mailto:webmaster@rrra.org">webmaster@rrra.org</a></address>
     </body>
     </html>

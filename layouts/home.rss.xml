@@ -1,4 +1,5 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- printf "<?xslt-param name=\"permalink\" value=\"%s\"?>" ( .Permalink | replaceRE ":" "%3A" ) | safeHTML }}
 {{- printf "<?xml-stylesheet href=\"/rss.xsl\" type=\"text/xsl\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
