@@ -13,6 +13,14 @@
     {{ with site.Copyright -}}<copyright>{{ . -}}</copyright>{{ end -}}
     {{ if not .Date.IsZero -}}<lastBuildDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</lastBuildDate>{{ end -}}
     <atom:link href="{{ site.BaseURL }}index.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Upcoming Events RSS Feed</title>
+      <link>{{ if ne "development" hugo.Environment }}{{ .Site.baseurl -}}{{ end -}}/calendar/index.xml</link>
+      <pubDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</pubDate>
+      {{ with site.Author.email -}}<author>{{ . -}}{{ with site.Author.name }} ({{ . -}}){{ end -}}</author>{{ end -}}
+      <guid>https://rrra.org/calendar/index.xml</guid>
+      <description>Subscribe to RRRA's Upcoming Events RSS Feed to keep track of the current upcoming events on our club calendar.</description>
+    </item>
     {{ range first 15 (where site.Pages.ByDate "Section" "post").Reverse -}}
       {{ if ne "Posts" .Title -}}
 	<item>
