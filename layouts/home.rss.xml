@@ -15,7 +15,7 @@
     <atom:link href="{{ site.BaseURL }}index.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Upcoming Events RSS Feed</title>
-      <link>{{ if ne "development" hugo.Environment }}{{ .Site.baseurl -}}{{ end -}}/calendar/index.xml</link>
+      <link>{{ if ne "development" hugo.Environment }}{{ site.BaseURL -}}{{ end -}}/calendar/index.xml</link>
       <pubDate>{{ now | dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</pubDate>
       {{ with site.Author.email -}}<author>{{ . -}}{{ with site.Author.name }} ({{ . -}}){{ end -}}</author>{{ end -}}
       <guid>https://rrra.org/calendar/index.xml</guid>
