@@ -7,7 +7,7 @@ categories = [ "Public Service" ]
 tags = [ "Marathon" ]
 featured = true 
 endFeatured = "2026-05-30"
-expiryDate = "2026-05-30"
+expiryDate = "2026-05-29"
 noindex = true          
 +++
 As of 10:30 AM on Wednesday, May 27th, RRRA's [Fargo Marathon] Communications
