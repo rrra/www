@@ -31,7 +31,7 @@ for---or take---your license test without an FRN. Hams upgrading their
 license already have an FRN and can
 [look it up in the Commission Registration System (CORES)](https://apps.fcc.gov/cores/simpleSearch.do?csfrToken=)
 
-2. Register at hamstudy.org <!-- [Register at hamstudy.org][register] -->
+2. [Register at hamstudy.org][register] 
 
 3. Pay the [license test fee](#fee). It will be be invoiced separately through
 PayPal after step 2 is completed.
@@ -40,7 +40,7 @@ PayPal after step 2 is completed.
 All three sign-up steps must be completed to reserve your test seat
 {{< /banner >}}
 
-[register]:  https://hamstudy.org/sessions/682f282e1541d0b3dc51da16/1
+[register]: https://hamstudy.org/sessions/6a36c3ac605305340fe9e31b/1
 
 {{< bring >}}
 
