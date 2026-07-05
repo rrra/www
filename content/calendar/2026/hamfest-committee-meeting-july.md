@@ -1,7 +1,7 @@
 +++
-created = "2026-05-19T21:19:29-05:00"
-date = "2026-06-23T19:00:00-05:00"
-publishDate = "2026-05-19"
+created = "2026-07-05T10:55:55-05:00"
+date = "2026-07-14T19:00:00-05:00"
+publishDate = "2026-07-01"
 location = "Zoom"
 contact = "hamfest"
 title = "Hamfest Committee Meeting"
@@ -9,7 +9,7 @@ linkTitle = "Hamfest Committee"
 dates = [ "Hamfest" ]
 outputs = [ "HTML", "Calendar" ]
 update = 1
-status = "canceled"	# Uncomment line to mark this event as canceled	
+#status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 This meeting will be conducted through the Zoom teleconferencing
 platform. Those interested in helping plan, prepare for, the 

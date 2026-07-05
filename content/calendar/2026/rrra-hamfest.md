@@ -14,7 +14,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
 upcoming = "force"
-update = 7
+update = 8
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2026-07-15" >}}
@@ -123,7 +123,8 @@ Time |      |
 
 Time | Subject | Presented by
 -----|---------|-------------
-**TBD** | ARRL Update | Bill Lippert, AC0W<br>Lynn Nelson, W0ND<br>Ralph Fettig, N0RDF
+10:30 AM to 11:30 AM | Operating Linear Transponder Satellites | Erica Zavela, W7WXR
+**TBD** | ARRL Update | **TBD**
 
 ### Hamfest Handout
 
