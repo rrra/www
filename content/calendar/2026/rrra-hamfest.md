@@ -14,7 +14,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
 upcoming = "force"
-update = 8
+update = 9
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 {{< banner expires="2026-07-15" >}}
@@ -123,7 +123,7 @@ Time |      |
 
 Time | Subject | Presented by
 -----|---------|-------------
-10:30 AM to 11:30 AM | Operating Linear Transponder Satellites | Erica Zavela, W7WXR
+10:30 AM to 11:30 AM | Operating Linear Transponder Satellites | Erica Zavaleta, W7WXR
 **TBD** | ARRL Update | **TBD**
 
 ### Hamfest Handout
