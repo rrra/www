@@ -15,10 +15,10 @@ moretext = "Find out how you can help"
 Red River Radio Amateurs needs **YOU** to help make their 2026 
 Hamfest a success.
 
-There are more than 60 job openings to fill which means that needs every
-club member to pitch in. Your participation will support a successful
-hamfest while ensuring that everyone else has their chance to enjoy this
-event.
+There are more than 60 job openings---some large, some small---to fill
+which means that every club member has an opportunity to pitch in. Your
+participation will support a successful hamfest while ensuring that
+everyone else has their chance to enjoy this event.
 <!--more-->
 
 Many of the openings are only for an hour; but they are all important
