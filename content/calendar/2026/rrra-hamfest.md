@@ -14,14 +14,15 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
 upcoming = "force"
-update = 9
+update = 10
 #status = "canceled"	# Uncomment line to mark this event as canceled	
+thumbnail = "https://images.rrra.org/hamfest/rrra-hamfest-2026-calendar-image-1920x1080.png"
 +++
 {{< banner expires="2026-07-15" >}}
 Bookmark https://hamfest.rrra.org/2026 and
 [subscribe to our Hamfest Announcements mailing
 list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
-to stay informed about North Dakota's largest and best Hamfest in 2026!
+to stay informed about the Dakota Division's largest and best Hamfest in 2026!
 {{< /banner >}}
 
 {{< banner publish="2026-07-14" expires="2026-09-26" >}}
@@ -31,7 +32,7 @@ and skip the Hamfest ticket table line.** :star:
 General admission tickets and vendor bundles are also available at the
 door --- subject to availability.
 
-:warning: **E-mail or telephone reservation requests will NOT be accepted** :warning:
+:warning: **NO RESERVATIONS BY E-MAIL OR TELEPHONE** :warning:
 
 Please read our
 [ticketing guide]({{< relref "/hamfest-guide/ticketing.md" >}})
@@ -50,9 +51,10 @@ Minnesota tax ID number. If a seller is not required to have a Minnesota
 tax ID number, the seller must give us a written statement that items
 offered for sale are not subject to sales tax.
 
-Therefore **ALL** flea market vendors are **REQUIRED** to complete Minnesota
-Department of Revenue Form ST19 at the vendor check-in table **BEFORE** they
-will be allowed entrance to the event.
+Therefore **ALL** flea market vendors are **REQUIRED** to complete
+[Minnesota Department of Revenue Form ST19](https://cloud.rrra.org/index.php/s/iXmDkAyxo5Nxyrz/download) 
+at the vendor check-in table **BEFORE** they will be allowed entrance
+to the event.
 {{< /banner >}}
 
 {{< back >}}
