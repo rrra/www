@@ -1,6 +1,8 @@
 +++
 title = "Pay with Credit, Debit, PayPal"
 +++
+### Make Your Payment
+
 **Please allow 10 business days for membership processing when paying by card.**
 
 {{< banner class="alert" >}}
@@ -44,6 +46,16 @@ You do not need a PayPal account to use this membership payment service.
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
  
+### Finish The Membership Process
+
+:bangbang: New members **MUST** visit our [on boarding page](/about/onboarding)
+to find out how to complete the membership process.
+
 ### Need Help?
 
-Please contact the {{< mailto treasurer >}} or call [701-526-4426](tel:701-526-4426)<span class="genericons-neue genericons-neue-phone"></span> for assistance.
+Please contact the {{< mailto id="treasurer" subject="RRRA Membership Application Question" >}}.
+or call [701-526-4426](tel:701-526-4426)<span class="genericons-neue genericons-neue-phone"></span>
+(general voicemail) for assistance with your membership application.
+
+Contact the {{< webmaster >}} with all questions about this website and other
+RRRA online services.

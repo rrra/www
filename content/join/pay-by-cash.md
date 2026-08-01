@@ -1,22 +1,10 @@
 +++
-title = "Pay by Check"
+title = "Pay by Cash"
 +++
 ### Make Your Payment
 
-**Please allow 25 business days for membership processing when paying by check.**
-
-#### Paper Check
-
-Send your dues check and printed
-[membership application](/application)
-to 
-{{< hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" >}}
-
-#### Online / E-check
-
-Send your dues check through your bank's online banking service and e-mail
-your your [membership application](/application) to the 
-{{< mailto id="treasurer" subject="RRRA Membership Application" >}}.
+Bring your cash payment and printed [membership application](/application)
+to the [next club meeting](/dates/club-meetings).
 
 ### Finish The Membership Process
 

@@ -1,9 +1,10 @@
 +++
 contact = ""
 date = "2015-12-30T23:21:05-06:00"
-filename = "/s/3iOnHKqxHlaDxxv"
-linkdest = ""
+filename = ""
+linkdest = "/join/"
 title = "RRRA Membership Application"
 categories = [ "Membership" ]
 +++
-RRRA membership application and renewal form.
+RRRA membership application form, dues payment options, and how to
+navigate the membership process.
