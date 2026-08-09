@@ -46,9 +46,13 @@ link = "https://www.flexradio.com/"
 name = "Mastrant Antenna Guying"
 link = "http://www.mastrant.com/"
 
-#[[sponsor]]
-#name = "DX Engineering"
-#link = "https://www.dxengineering.com/"
+[[sponsor]]
+name = "Elecraft"
+link = "https://elecraft.com/"
+
+[[sponsor]]
+name = "DX Engineering"
+link = "https://www.dxengineering.com/"
 
 #[[sponsor]]
 #name = "3rd Planet Solar"
