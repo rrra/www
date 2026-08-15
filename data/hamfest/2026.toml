@@ -54,6 +54,10 @@ link = "https://elecraft.com/"
 name = "DX Engineering"
 link = "https://www.dxengineering.com/"
 
+[[sponsor]]
+name = "The Signman"
+link = "https://thesignman.com/"
+
 #[[sponsor]]
 #name = "3rd Planet Solar"
 #link = "https://kc9on.com/"
