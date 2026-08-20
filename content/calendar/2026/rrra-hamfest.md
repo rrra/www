@@ -14,10 +14,12 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
 upcoming = "force"
-update = 10
+update = 11
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 thumbnail = "https://images.rrra.org/hamfest/rrra-hamfest-2026-calendar-image-1920x1080.png"
 +++
+{{< hamfest-sponsors 2026 >}}
+
 {{< banner expires="2026-07-15" >}}
 Bookmark https://hamfest.rrra.org/2026 and
 [subscribe to our Hamfest Announcements mailing
@@ -37,24 +39,6 @@ door --- subject to availability.
 Please read our
 [ticketing guide]({{< relref "/hamfest-guide/ticketing.md" >}})
 for more information.
-{{< /banner >}}
-
-{{< banner class="alert" >}}
-The flea market vendor set-up period is from 7AM to 9AM on Saturday,
-September 26th.
-
-**There will be no exceptions to this schedule.**
-
-We are required by Minnesota state law to collect, and retain, written
-evidence that persons who do business at our event have a valid
-Minnesota tax ID number. If a seller is not required to have a Minnesota
-tax ID number, the seller must give us a written statement that items
-offered for sale are not subject to sales tax.
-
-Therefore **ALL** flea market vendors are **REQUIRED** to complete
-[Minnesota Department of Revenue Form ST19](https://cloud.rrra.org/index.php/s/iXmDkAyxo5Nxyrz/download) 
-at the vendor check-in table **BEFORE** they will be allowed entrance
-to the event.
 {{< /banner >}}
 
 {{< back >}}
@@ -82,14 +66,28 @@ to the event.
 * [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
 * [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
 
-{{< hamfest-sponsors 2026 >}}
+{{< banner class="alert" >}}
+The flea market vendor set-up period is from 7AM to 9AM on Saturday,
+September 26th.
 
-<!--
+**There will be no exceptions to this schedule.**
+
+We are required by Minnesota state law to collect, and retain, written
+evidence that persons who do business at our event have a valid
+Minnesota tax ID number. If a seller is not required to have a Minnesota
+tax ID number, the seller must give us a written statement that items
+offered for sale are not subject to sales tax.
+
+Therefore **ALL** flea market vendors are **REQUIRED** to complete
+[Minnesota Department of Revenue Form ST19](https://cloud.rrra.org/index.php/s/iXmDkAyxo5Nxyrz/download) 
+at the vendor check-in table **BEFORE** they will be allowed entrance
+to the event.
+{{< /banner >}}
+
 {{< back >}}
-### Purchase Admission and Vendor Tickets {#box-office}-->
+### Purchase Admission and Vendor Tickets {#box-office}
 
 <!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
-<!--
 <div class="tt-widget"><div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" target="_blank">Click here to buy tickets</a><br /><small><a href="https://www.tickettailor.com?rf=wdg_99768" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget"></script></div><!-- End of Ticket Tailor Widget -->
 
 {{< banner class="alert" publish="2026-07-14" >}}
