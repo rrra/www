@@ -1,10 +1,16 @@
 year = "2026"
 
-#[[sponsor]]
+#[[benefactor]]
 ##level = "Gold"
 #name = "ARRL"
+#alt  = "ARRL logo"
 #link = "https://arrl.org"
 #image = "//images.rrra.org/hamfest/arrl-logo-2020-474x236.jpg"
+
+[[benefactor]]
+name  = "Radioddity"
+link  = "https://www.radioddity.com/?utm_medium=banner&utm_source=hamfest&utm_campaign=RRRA_Hamfest&utm_content="
+image = "//images.rrra.org/hamfest/radioddity_logo.png"
 
 [[sponsor]]
 name = "ARRL"

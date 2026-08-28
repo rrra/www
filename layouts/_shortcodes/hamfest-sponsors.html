@@ -4,41 +4,52 @@ See existing files for formatting
 */}}
 
 {{ $year := $.Page.Params.date | dateFormat "2006" }}
-{{ range $.Site.Data.hamfest }}
+{{ $donors := $.Site.Data.hamfest }}
+{{ range $donors }}
 	{{ if eq .year $year }}
-		<a class="alignright noprint" style="text-decoration:none;transform:translateY(1.4em);"
-		href="#top"
-		alt="Back to top"
-		title="Back to top">
-		<span class="genericons-neue genericons-neue-top"
-		style="width:24px;height:24px;font-size:24px;"></span></a>
-		<h3 id="sponsors">Sponsors</h3>
-		<p style="margin-bottom:6px;">This Hamfest supported by contributions from:</p>
+		{{ $and := "" }}
+		<h3 id="sponsors">Sponsored By</h3>
+
+		{{ with .benefactor }}
+			{{ $and = "And By" }}
+			{{ range . }}
+				{{/* From https://gohugo.io/templates/shortcode-templates/ */}}
+				{{ if .image }}
+					<figure {{ with .class }}class="{{ . }}"{{ end }}>
+                                {{ end }}
+				{{ $alt := .name }}
+				{{ if .alt }}{{ $alt = .alt }}{{ end }}
+				{{ if or ( not .image ) ( .level ) }}
+					<h4>{{ with .level }}{{ . }} Sponsor {{ end }}{{ ":star:" | emojify }} {{ if and ( .link ) ( not .image ) }}<a href="{{ .link }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</h4>
+				{{ end }}
+				{{ if .image }}
+					{{ with .link }}<a href="{{ . }}">{{ end }}
+					{{ if .image  }}
+						<img src="{{ .image }}" {{ with $alt }}alt="{{ . }}"{{ end }} {{ with .name }}title="Visit {{ . }}"{{ end }}>
+					{{ end }}
+					{{ if .link }}</a>{{ end }}
+					{{ if .caption }}
+						<figcaption><p>
+							{{ .caption }}
+							{{ with .link }}<a href="{{ . }}"> {{ end }}
+								{{ .name }}
+							{{ if .link }}</a>{{ end }}
+						</p></figcaption>
+					{{ end }}
+					</figure>
+				{{ end }}
+			{{ end }}
+		{{ end }}
+
+
+		{{/* [[sponsor]] entries */}}
 		{{ with .sponsor }}
+			{{ with $and }}<h4><strong>{{ . }}</h4></strong>{{ end }}
 			<ul style="list-style:none;border-left:0;margin-left:0;">
 			{{ range . }}
-				{{ if gt .level "" }} 
-					{{/* From https://gohugo.io/templates/shortcode-templates/ */}}
-					<figure {{ with .class }}class="{{ . }}"{{ end }}>
-						{{ with .level }}<h4>{{ . }} Sponsor</h4>{{ end }}
-						{{ with .link }}<a href="{{ . }}">{{ end }}
-							{{ if .image  }}<img src="{{ .image }}" {{ with .name }}alt="{{ . }}" title="Visit {{ . }}"{{ end }}>{{ end }}
-						{{ if .link }}</a>{{ end }}
-						{{ if or ( .name ) ( .caption ) }}
-							<figcaption><p>
-								{{ .caption }}
-								{{ with .link }}<a href="{{ . }}"> {{ end }}
-									{{ .name }}
-								{{ if .link }}</a>{{ end }}
-							</p></figcaption>
-						{{ end }}
-					</figure>
-				{{ else }}
-					{{ with .favicon }}<li style="list-style:none;position:relative;left:-20px;"><img src="{{ . | safeURL }}"> {{ else }}<li>{{ end }}{{ with .link }}<a href="{{ . }}">{{ end }}{{ .name }}{{ with .link }}</a>{{ end }}</li>
-				{{ end }}
+				{{ with .favicon }}<li style="list-style:none;position:relative;left:-20px;"><img src="{{ . | safeURL }}"> {{ else }}<li>{{ end }}{{ with .link }}<a href="{{ . }}">{{ end }}{{ .name }}{{ with .link }}</a>{{ end }}</li>
 			{{ end }}
 			</ul>
 		{{ end }}
 	{{ end }}
 {{ end }}
-
