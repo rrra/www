@@ -56,21 +56,6 @@
 {{ end -}}
 <meta property="og:locale" content="en_US">
 
-{{/* Twitter Card specific tags */}}
-{{ with .Params.twitter_image -}}
-	<meta name="twitter:card" content="summary_large_image">
-	<meta property="twitter:image" content="{{ . -}}">
-{{ else -}}
-	{{ with .Params.og_image -}}
-		<meta name="twitter:card" content="summary_large_image">
-		<meta property="twitter:image" content="{{ . -}}">
-	{{ else -}}
-		<meta name="twitter:card" content="summary">
-	{{ end -}}
-{{ end -}}
-<meta name="twitter:title" content="{{ if .IsPage -}}{{ .Title -}} - {{ end -}}{{ site.Title -}}">
-<meta name="twitter:site" content="@W0ILO">
-
 {{/* Google Rich Cards */}}
 {{ if .IsHome -}}
 <script type="application/ld+json">
@@ -81,7 +66,7 @@
 	"sameAs": [
 		"https://www.facebook.com/W0ILO",
 		"https://www.flickr.com/photos/rrra-fargo/",
-		"https://twitter.com/w0ilo",
+		"https://x.com/w0ilo",
 		"https://github.com/rrra/www/"
 	],
 	"logo": "{{ $logo -}}",
