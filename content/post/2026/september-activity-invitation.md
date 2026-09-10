@@ -30,6 +30,6 @@ switch to ARMER.
 * Basics of the [trunked radio] system.
 * Governance and day to day operations.
 
-[meet]: {{< relref "/calendar/2026/april-meeting.md" >}}
+[meet]: {{< relref "/calendar/2026/september-meeting.md" >}}
 [armer]: https://gregehrsam.github.io/ARMER-Overview/
 [trunked radio]: https://wiki.radioreference.com/index.php/Trunking_Basics
