@@ -14,7 +14,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
 upcoming = "force"
-update = 12
+update = 13
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 thumbnail = "https://images.rrra.org/hamfest/rrra-hamfest-2026-calendar-image-1920x1080.png"
 +++
@@ -114,6 +114,7 @@ Time |      |
 9 AM | Flea Market opens
 9:30 AM | Seminars begin
 10 AM | Fox Hunt begins<br>Participants must bring their own [fox hunting gear](http://homingin.com/equipment.html)
+10 AM | Net Meeting
 1 PM | Hamfest ends
 
 {{< back >}}
