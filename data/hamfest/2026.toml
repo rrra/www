@@ -68,6 +68,10 @@ link = "https://thesignman.com/"
 name = "R&L Electronics"
 link = "https://www.randl.com/"
 
+[[sponsor]]
+name = "Blarney Stone"
+link = "https://www.blarneyirishpub.com/"
+
 #[[sponsor]]
 #name = "3rd Planet Solar"
 #link = "https://kc9on.com/"
@@ -86,10 +90,6 @@ link = "https://www.randl.com/"
 
 #[[sponsor]]
 #name = "WA0LIA"
-
-#[[sponsor]]
-#name = "Blarney Stone"
-#link = "https://www.blarneyirishpub.com/"
 
 #[[sponsor]]
 #name = "Buckmaster International LLC"
