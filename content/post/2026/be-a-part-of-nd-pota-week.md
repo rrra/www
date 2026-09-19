@@ -1,7 +1,7 @@
 +++
 date = "2026-09-17T09:21:16-05:00"
 #publishdate = "2026-09-17T09:21:16-05:00"
-title = "Be a Part of ND Pota Week"
+title = "Be a Part of ND POTA Week"
 authors = [ "K0STK" ]
 categories = [ "Outreach" ]
 tags = [ "Operating", "POTA" ]
