@@ -20,7 +20,7 @@ admission) are on sale ***now*** in the [RRRA online box office][boxoffice].
 Your advance purchase gets ***you*** to the bargains ***faster*** at the
 Dakota Division's biggest hamfest.
 
-Don't waste time in the ticket table line :bangbang:
+**Don't waste time in the ticket table line** :bangbang:
 <!--more-->
 
 <!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
