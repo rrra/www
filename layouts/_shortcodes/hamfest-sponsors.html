@@ -3,15 +3,26 @@ Sponsors are listed in ./data/hamfest/YYYY.toml
 See existing files for formatting
 */}}
 
+{{ $title := "Sponsored By" }}
+{{ $and := "And By" }}
+
+{{ if .IsNamedParams }}
+	{{ with .Get "sponsors" }}{{ $title =  .  }}{{ end }}
+	{{ with .Get "and" }}{{ $and =  .  }}{{ end }}
+{{ else }}
+	{{ with .Get 1 }}{{ $title =  .  }}{{ end }}
+	{{ with .Get 2 }}{{ $and =  .  }}{{ end }}
+{{ end }}
+
 {{ $year := $.Page.Params.date | dateFormat "2006" }}
 {{ $donors := $.Site.Data.hamfest }}
 {{ range $donors }}
 	{{ if eq .year $year }}
-		{{ $and := "" }}
-		<h3 id="sponsors">Sponsored By</h3>
+		{{ $andby := "" }}
+		<h3 id="sponsors">{{ $title }}</h3>
 
 		{{ with .benefactor }}
-			{{ $and = "And By" }}
+			{{ $andby = $and }}
 			{{ range . }}
 				{{/* From https://gohugo.io/templates/shortcode-templates/ */}}
 				{{ if .image }}
@@ -44,7 +55,7 @@ See existing files for formatting
 
 		{{/* [[sponsor]] entries */}}
 		{{ with .sponsor }}
-			{{ with $and }}<h4><strong>{{ . }}</h4></strong>{{ end }}
+			{{ with $andby }}<h4><strong>{{ . }}</h4></strong>{{ end }}
 			<ul style="list-style:none;border-left:0;margin-left:0;">
 			{{ range . }}
 				{{ with .favicon }}<li style="list-style:none;position:relative;left:-20px;"><img src="{{ . | safeURL }}"> {{ else }}<li>{{ end }}{{ with .link }}<a href="{{ . }}">{{ end }}{{ .name }}{{ with .link }}</a>{{ end }}</li>
