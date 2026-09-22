@@ -72,6 +72,10 @@ link = "https://www.randl.com/"
 name = "Blarney Stone"
 link = "https://www.blarneyirishpub.com/"
 
+[[sponsor]]
+name = "Buckmaster International LLC"
+link = "http://www.hamcall.net/"
+
 #[[sponsor]]
 #name = "3rd Planet Solar"
 #link = "https://kc9on.com/"
@@ -90,10 +94,6 @@ link = "https://www.blarneyirishpub.com/"
 
 #[[sponsor]]
 #name = "WA0LIA"
-
-#[[sponsor]]
-#name = "Buckmaster International LLC"
-#link = "http://www.hamcall.net/"
 
 #[[sponsor]]
 #name = "Comet Antennas (NCG)"
