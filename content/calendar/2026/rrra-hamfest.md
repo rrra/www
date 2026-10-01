@@ -14,7 +14,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
 upcoming = "force"
-update = 13
+update = 14
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 thumbnail = "https://images.rrra.org/hamfest/rrra-hamfest-2026-calendar-image-1920x1080.png"
 +++
@@ -51,11 +51,13 @@ for more information.
 * Eyeball QSOs
 * Flea Market
 * Fox Hunt Around The Armory by KF0IBC (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
-* [Handout](#hamfest-handout)
-* On-line Ticket Sales 
 * ***Paper based*** [License Testing]({{< relref "/calendar/2026/hamfest-testing.md" >}}) (AKA *VE Testing* or *VE Session*) 
 * [Seminars](#seminars)
-<!-- * Venue Simplex Net --- 146.500 MHz, Analog FM -->
+<!--
+* On-line Ticket Sales 
+* [Handout](#hamfest-handout)
+* Venue Simplex Net --- 146.500 MHz, Analog FM
+-->
 
 *Plans subject to change without notice. Please visit our [schedule of events](#schedule) for more information*
 
@@ -84,11 +86,15 @@ at the vendor check-in table **BEFORE** they will be allowed entrance
 to the event.
 {{< /banner >}}
 
+<!--
 {{< back >}}
 ### Purchase Admission and Vendor Tickets {#box-office}
+-->
 
 <!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
-<div class="tt-widget"><div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" target="_blank">Click here to buy tickets</a><br /><small><a href="https://www.tickettailor.com?rf=wdg_99768" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget"></script></div><!-- End of Ticket Tailor Widget -->
+<!--
+<div class="tt-widget"><div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" target="_blank">Click here to buy tickets</a><br /><small><a href="https://www.tickettailor.com?rf=wdg_99768" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget"></script></div>D-->
+<!-- End of Ticket Tailor Widget -->
 
 {{< banner class="alert" publish="2026-07-14" >}}
 General Admission Tickets and Vendor Bundle purchases are
@@ -127,6 +133,7 @@ Time | Subject | Presented by
 10 AM | Operating Linear Transponder Satellites | Erica Zavaleta, W7WXR
 11 AM | ARRL Update | Bill Lippert, AC0W
 
+<!--
 ### Hamfest Handout
 
 <div style="width:100%;text-align:center;margin-bottom:12px;">
@@ -139,4 +146,4 @@ the 2026 RRRA Hamfest Handout</a></strong>
 <div style="width:100%;text-align:center;margin-bottom:12px;">
 <strong>Print this handout<br>Keep one half and give the other half to a friend!</strong>
 </div>
--
+-->
