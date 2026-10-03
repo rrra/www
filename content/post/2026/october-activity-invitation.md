@@ -33,8 +33,8 @@ with an APRS app such as [APRSDroid], [Ack], [APRSSwift], or [APRS.fi];
 or even a laptop pre-loaded with [Xastir], [YAAC], or your favorite APRS
 software to the meeting.
 
-You will be able to follow along with K0RQ and get a ***hands-on*** test
-of the APRS capabilities described in his presentation.
+You will be able to follow along with K0RQ and enjoy a ***hands-on***
+test of the APRS capabilities described in his presentation.
 
 :warning: Please make sure that your APRS device is properly configured
 and functioning **before** the meeting. Tech support will ***NOT*** be
