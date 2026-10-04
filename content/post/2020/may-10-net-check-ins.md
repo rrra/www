@@ -3,25 +3,23 @@ date = "2020-05-15T07:15:00-05:00"
 title = "May 10 Net Check-In Comparison"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
-tags = [ "ARES" ]
 aliases = [ "/post/2020/05/15/may-11-net-check-in-comparison/" ]
+tags = [ "Net" ]
 +++
-
-Compare your signal strength, voice quality, and *PTT technique* to your fellow
-operators with this [recording from the
-May 10, 2020, Sunday Night UHF/VHF Net](https://cloud.rrra.org/index.php/s/JEHfz9Ei5F24H4f)
+RRRA Members can compare their signal strength, voice quality, and *PTT
+technique* to that of their fellow operators with this
+[recording from the May 10, 2020, Sunday Night UHF/VHF Net][net]
 
 Check-ins missing a portion of the first word indicate that insufficient
 time was allowed between the operator pressing their PTT button and
 starting to speak.
-
 <!--more-->
 
 ### Check-ins
 
-<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording](/s/xjG99xc3AMQxioq)
+<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording][net]
 
-(in order of appearance)
+[net]
 
 * Repeater ID
 * K0RQ 
@@ -69,3 +67,6 @@ check-ins
 
 **No level adjustments were made to the received signal during the
 editing process.**
+
+[net]: https://cloud.rrra.org/index.php/f/16675
+

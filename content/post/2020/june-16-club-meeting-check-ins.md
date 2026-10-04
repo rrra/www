@@ -3,15 +3,16 @@ date = "2020-07-20T10:00:00-05:00"
 title = "June 16 Club Meeting Check-In Comparison"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
+tags = [ "Net" ]
 +++
-Compare your signal strength, voice quality, and *PTT technique* to your fellow
-operators with this [recording from the June 16, 2020, On-Air Club Meeting](/s/pmr7yNFg2qzMkJn) 
-
+RRRA Members can compare their signal strength, voice quality, and *PTT
+technique* to that of their fellow operators with this
+[recording from the June 16, 2020, On-Air Club Meeting][net] 
 <!--more-->
 
 ### Check-ins
 
-<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording](/s/pmr7yNFg2qzMkJn)
+<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording][net]
 
 (in order of appearance)
 
@@ -82,3 +83,5 @@ made to individual check-ins
 
 * Encoding in MP3 format in Variable Bit Rate Mode (quality level 6:
 95--135 kbps)
+
+[net]: https://cloud.rrra.org/index.php/f/18272

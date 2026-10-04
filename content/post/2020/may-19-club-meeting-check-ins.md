@@ -3,21 +3,22 @@ date = "2020-05-21T11:10:00-05:00"
 title = "May 19 Club Meeting Check-In Comparison"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
+tags = [ "Net" ]
 +++
-Compare your signal strength, voice quality, and *PTT technique* to your fellow
-operators with this [recording from the May 19, 2020, On-Air Club Meeting](/s/DFCfAnfc6TDx3jf)
+RRRA Members can compare their signal strength, voice quality, and *PTT
+technique* to that of their fellow operators with this
+[recording from the May 19, 2020, On-Air Club Meeting][net]
 
 Check-ins missing a portion of the first word indicate that insufficient
 time was allowed between the operator pressing their PTT button and
 starting to speak.
-
 <!--more-->
 
 ### Check-ins
 
-<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording](/s/DFCfAnfc6TDx3jf)
+<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording][net]
 
-(in order of appearance)
+[net]
 
 * Repeater ID
 * W0JPJ
@@ -65,3 +66,6 @@ check-ins
 
 **No level adjustments were made to the received signal during the
 editing process.**
+
+[net]: https://cloud.rrra.org/index.php/f/16736
+

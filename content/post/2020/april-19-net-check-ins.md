@@ -4,29 +4,27 @@ date = "2020-04-24T07:00:00-05:00"
 title = "April 19 Net Check-In Comparison"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
-tags = [ "ARES" ]
+tags = [ "Net" ]
 +++
-
-Compare your signal strength---and voice quality---to your fellow
-operators with this [recording from the
-April 19, 2020, Sunday Night UHF/VHF Net](https://cloud.rrra.org/index.php/s/JEHfz9Ei5F24H4f)
+RRRA Members can compare their signal strength, voice quality, and *PTT
+technique* to that of their fellow operators with this
+[recording from the April 19, 2020, Sunday Night UHF/VHF Net][net]
 
 This recording was made from the VHF side of W0ILO, Moorhead, and was
 edited to include only unique participant check-ins. Duplicate check-ins
 were included only where there was a substantial difference in signal
 quality.
 
-Check-ins missing (a portion of) the first word indicate that
-insufficient time was allowed between the operator pressing their PTT
-button and starting to speak.
-
+Check-ins missing the first word indicate that insufficient time was
+allowed between the operator pressing their PTT button and starting to
+speak.
 <!--more-->
 
 ### Check-ins
 
-<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording](https://cloud.rrra.org/index.php/s/JEHfz9Ei5F24H4f)
+<span class="genericons-neue genericons-neue-audio"></span> [Listen to the recording][net]
 
-(in order of appearance)
+[net]
 
 * AI0Q
 * Repeater ID
@@ -35,7 +33,7 @@ button and starting to speak.
 * KD0USO
 * KA0Q
 * W0JPJ
-* KE0VXA (barely readable)
+* KE0VXA [net]
 * KE0PJR
 * KE0VXA
 * Kerchunking
@@ -44,13 +42,15 @@ button and starting to speak.
 * N0TSZ
 * KE0LDS
 * KA0LDG
-* K0RQ and KE0VXE (double)
+* K0RQ and KE0VXE [net]
 * KE0VXE
 * K0OP
 * W0CZ
-* WC0G and W0HNV (double)
+* WC0G and W0HNV [net]
 * WC0G
 * KE0KNV
 * Unintelligible
 * Unintelligible
+
+[net]: https://cloud.rrra.org/index.php/f/14626
 

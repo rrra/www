@@ -1,16 +1,17 @@
 +++
 date = "2020-07-31T11:00:00-05:00"
-title = "June 21 Club Meeting Check-In Comparison"
+title = "July 21 Club Meeting Check-In Comparison"
 authors = [ "K0STK" ]
 categories = [ "Education" ]
+aliases = [ "post/2020/07/31/june-21-club-meeting-check-in-comparison/" ]
+tags = [ "Net" ]
 +++
 Compare your signal strength, voice quality, and *PTT technique* to your fellow
-operators with this [recording from the June 21, 2020, On-Air Club Meeting](/s/MPG7GxWe6ZNo3BJ)
+operators with this [recording from the July 21, 2020, On-Air Club Meeting](/s/MPG7GxWe6ZNo3BJ)
 
 Check-ins missing an inital portion of the transmission indicate that
 insufficient time was allowed between the operator pressing their PTT
 button and starting to speak.
-
 <!--more-->
 
 ### Check-ins
@@ -60,7 +61,7 @@ button and starting to speak.
 ### About this recording
 
 This recording was captured from the VHF side of W0ILO, Moorhead, during
-the RRRA *On-Air* Club Meeting on June 21, 2020, with an Alinco DJ-G7
+the RRRA *On-Air* Club Meeting on July 21, 2020, with an Alinco DJ-G7
 Handheld Transceiver and the Audacity audio editor and recorder.
 
 Prior to publication the recording was:
