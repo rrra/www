@@ -1,0 +1,149 @@
++++
+created = "2026-10-13T19:37:49-05:00"
+date = "2027-09-25T09:00:00-05:00"
+#endTime = "2026-10-13T19:37:49-05:00"
+publishDate = "2026-10-13T19:37:49-05:00"
+title = "2027 RRRA Hamfest & ARRL Minnesota State Convention"
+linkTitle = "2027 Hamfest"
+slug = "rrra-hamfest"
+location = "[Moorhead National Guard Armory](/places/moorhead-ng-armory/)"
+contact = "hamfest"
+dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
+#talkIn = "[W0ILO Repeaters](/radios/)"
+#aprs = "HFEST-25r"
+outputs = [ "HTML", "Calendar" ]
+aliases = [ "/cal/2027/hamfest/" ]
+upcoming = "force"
+update = 0
+#status = "canceled"	# Uncomment line to mark this event as canceled	
+# thumbnail = "https://images.rrra.org/hamfest/rrra-hamfest-2026-calendar-image-1920x1080.png"
++++
+{{< hamfest-sponsors 2027 >}}
+
+{{< banner expires="2027-07-14" >}}
+Bookmark https://hamfest.rrra.org/2027 and
+[subscribe to our Hamfest Announcements mailing
+list](https://lists.rrra.org/mailman/listinfo/hamfest-announce)
+to stay informed about the Dakota Division's largest and best Hamfest in 2027!
+{{< /banner >}}
+
+{{< banner publish="2027-07-14" expires="2027-09-25" >}}
+:star: **[Buy your general admission tickets and vendor table bundles TODAY](https://tickets.rrra.org)
+and skip the Hamfest ticket table line.** :star:
+
+General admission tickets and vendor bundles are also available at the
+door --- subject to availability.
+
+:warning: **NO RESERVATIONS BY E-MAIL OR TELEPHONE** :warning:
+
+Please read our
+[ticketing guide]({{< relref "/hamfest-guide/ticketing.md" >}})
+for more information.
+{{< /banner >}}
+
+<!--
+{{< back >}}
+
+### Featuring
+
+* ARRL QSL Card Checking by ...
+* Coffee &amp; donuts
+* Door prizes --- courtesy of our [sponsors](#sponsors)
+* Eyeball QSOs
+* Flea Market
+* Fox Hunt Around The Armory by KF0IBC (participants must bring their own [fox hunting gear](http://homingin.com/equipment.html))
+* ***Paper based*** [License Testing]({{< relref "/calendar/2026/hamfest-testing.md" >}}) (AKA *VE Testing* or *VE Session*)
+* [Seminars](#seminars)
+* On-line Ticket Sales 
+* [Handout](#hamfest-handout)
+* Venue Simplex Net --- 146.500 MHz, Analog FM
+
+*Plans subject to change without notice. Please visit our [schedule of events](#schedule) for more information*
+-->
+
+{{< back >}}
+### Information for Attendees and Vendors
+* [Admission and Vendor Tickets]({{< relref "/hamfest-guide/ticketing.md" >}})
+* [Driving Directions]({{< relref "/hamfest-guide/directions.md" >}})
+* [Nearby Accomodations]({{< relref "/hamfest-guide/accomodations.md" >}})
+* [Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}})
+
+{{< banner class="alert" >}}
+The flea market vendor set-up period is from 8AM to 9AM on Saturday,
+September 25th.
+
+**There will be no exceptions to this schedule.**
+
+We are required by Minnesota state law to collect, and retain, written
+evidence that persons who do business at our event have a valid
+Minnesota tax ID number. If a seller is not required to have a Minnesota
+tax ID number, the seller must give us a written statement that items
+offered for sale are not subject to sales tax.
+
+Therefore **ALL** flea market vendors are **REQUIRED** to complete
+[Minnesota Department of Revenue Form ST19](https://cloud.rrra.org/index.php/s/iXmDkAyxo5Nxyrz/download) 
+at the vendor check-in table **BEFORE** they will be allowed entrance
+to the event.
+{{< /banner >}}
+
+<!--
+{{< back >}}
+### Purchase Admission and Vendor Tickets {#box-office}
+-->
+
+<!-- Ticket Tailor Widget. Paste this into your website where you want the widget to appear. Do not change the code or the widget may not work properly. -->
+<!--
+<div class="tt-widget"><div class="tt-widget-fallback"><p><a href="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" target="_blank">Click here to buy tickets</a><br /><small><a href="https://www.tickettailor.com?rf=wdg_99768" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://cdn.tickettailor.com/js/widgets/min/widget.js" data-url="https://www.tickettailor.com/all-tickets/redriverradioamateurs/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true" data-type="inline" data-inline-minimal="true" data-inline-show-logo="false" data-inline-bg-fill="false" data-inline-inherit-ref-from-url-param="" data-inline-ref="website_widget"></script></div>
+-->
+<!-- End of Ticket Tailor Widget -->
+
+{{< banner class="alert" publish="2027-07-14" >}}
+General Admission Tickets and Vendor Bundle purchases are
+**non-refundable** and indicate purchaser's acceptance of, and agreement
+to adhere to, the RRRA
+[Prohibited Items Policy]({{< relref "/hamfest-guide/prohibited-items.md" >}}).
+{{< /banner >}}
+
+<!--
+{{< back >}}
+
+### Schedule
+*Schedule subject to change without notice*
+
+:warning: There is ***NO*** venue access to the public (vendors or attendees)
+outside of the times listed on this schedule.
+
+#### Saturday, September 25th
+
+Time |      |
+-----|------|
+**8 AM** | Flea Market Vendor setup on the Drill Floor<br>No vehicle access permitted
+8 AM | License Testing begins
+9 AM | Flea Market opens
+9:30 AM | Seminars begin
+10 AM | Fox Hunt begins<br>Participants must bring their own [fox hunting gear](http://homingin.com/equipment.html)
+10 AM | Net Meeting
+1 PM | Hamfest ends
+
+{{< back >}}
+### Seminars
+
+*Seminars subject to change without notice*
+
+Time | Subject                         | Presented by
+-----|---------------------------------|-------------
+???  | ARRL Update                     | ???
+
+### Hamfest Handout
+
+<div style="width:100%;text-align:center;margin-bottom:12px;">
+<strong><a href="https://cloud.rrra.org/index.php/s/XAWo45MNXWFZJJw">Download
+the 2026 RRRA Hamfest Handout</a></strong>
+</div>
+
+{{< figure src="https://images.rrra.org/hamfest/2026-thumbnail.gif" link="https://cloud.rrra.org/index.php/s/XAWo45MNXWFZJJw" >}}
+
+<div style="width:100%;text-align:center;margin-bottom:12px;">
+<strong>Print this handout<br>Keep one half and give the other half to a friend!</strong>
+</div>
+-->
