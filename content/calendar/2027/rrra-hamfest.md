@@ -14,7 +14,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2027/hamfest/" ]
 upcoming = "force"
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 # thumbnail = "https://images.rrra.org/hamfest/rrra-hamfest-2026-calendar-image-1920x1080.png"
 +++
@@ -81,7 +81,7 @@ tax ID number, the seller must give us a written statement that items
 offered for sale are not subject to sales tax.
 
 Therefore **ALL** flea market vendors are **REQUIRED** to complete
-[Minnesota Department of Revenue Form ST19](https://cloud.rrra.org/index.php/s/iXmDkAyxo5Nxyrz/download) 
+Minnesota Department of Revenue Form ST19
 at the vendor check-in table **BEFORE** they will be allowed entrance
 to the event.
 {{< /banner >}}
