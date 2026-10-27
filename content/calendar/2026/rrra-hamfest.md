@@ -14,10 +14,15 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2026/hamfest/", "/cal/2026/09/26/2026-rrra-hamfest-arrl-dakota-division-convention/" ]
 upcoming = "force"
-update = 14
+update = 15
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 thumbnail = "https://images.rrra.org/hamfest/rrra-hamfest-2026-calendar-image-1920x1080.png"
 +++
+### :calendar: Save the date for 2027! :calendar:
+
+**Add the [2027 RRRA Hamfest](https://hamfest.rrra.org/2027) to your calendar
+today** :bangbang:
+
 {{< hamfest-sponsors 2026 >}}
 
 {{< banner expires="2026-07-15" >}}
