@@ -3,7 +3,7 @@ created = "2026-10-13T19:37:49-05:00"
 date = "2027-09-25T09:00:00-05:00"
 #endTime = "2026-10-13T19:37:49-05:00"
 publishDate = "2026-10-13T19:37:49-05:00"
-title = "2027 RRRA Hamfest & ARRL Minnesota State Convention"
+title = "2027 RRRA Hamfest"
 linkTitle = "2027 Hamfest"
 slug = "rrra-hamfest"
 location = "[Moorhead National Guard Armory](/places/moorhead-ng-armory/)"
@@ -14,7 +14,7 @@ dates = [ "Regional Hamfests", "Hamfest", "Outreach" ]
 outputs = [ "HTML", "Calendar" ]
 aliases = [ "/cal/2027/hamfest/" ]
 upcoming = "force"
-update = 1
+update = 2
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 # thumbnail = "https://images.rrra.org/hamfest/rrra-hamfest-2026-calendar-image-1920x1080.png"
 +++
