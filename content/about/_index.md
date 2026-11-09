@@ -23,6 +23,7 @@ support and
 * [News Distribution]({{< relref "/about/news.md" >}})
 * [Online Media Contact and Information]({{< relref "/about/online-media" >}})
 * [Repeater Trustees]({{< relref "/about/contact.md#trustees" >}})
+* [RRRA Logo](/logo)
 * [Social Media]({{< relref "/about/social-media.md" >}})
 * [Webmaster History]({{< relref "/about/webmasters.md" >}})
 
@@ -45,15 +46,15 @@ genericon-phone"></span> or mail your check to:
 {{< hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" >}}
 
 <br>
-<span class="genericons-neue genericons-neue-download"></span> <a
-href="data:text/vcard;charset=utf-8;base64,QkVHSU46VkNBUkQKVkVSU0lPTjoyLjEKRk47Q0hBUlNFVD1VVEYtODpSZWQgUml2ZXIgUmFkaW8gQW1hdGV1cnMKTjtDSEFSU0VUPVVURi04Ojs7OzsKT1JHO0NIQVJTRVQ9VVRGLTg6CkFEUjtDSEFSU0VUPVVURi04O1RZUEU9V09SSzo7O1AuTy4gQm94IDMyMTU7RmFyZ287TkQ7NTgxMDgtMzIxNTtVU0EKVEVMO1RZUEU9V09SSzorMTcwMTUyNjQ0MjYKRU1BSUw7VFlQRT1XT1JLOmluZm9AcnJyYS5vcmcKVVJMO1RZUEU9aG9tZXBhZ2U6aHR0cHM6Ly9ycnJhLm9yZy8KRU5EOlZDQVJECg=="
-download="rrra.vcf">Import RRRA to your contacts</a>
+<span class="genericons-neue genericons-neue-download"></span>
+<a href={{< rrra-vcard-href >}} download="rrra.vcf">Import RRRA to your contacts</a>
 
 </div>
 
 <div class="notsmall" style="float:right;">
 
-{{< qr level="low" scale=2 loading="lazy" alt="QR code of vCard for RRRA" title="Scan QR code for vCard"  >}}
+<a href={{< rrra-vcard-href >}} download="rrra.vcf" >
+{{< qr level="low" scale=2 loading="lazy" alt="QR code of vCard for RRRA" title="Scan QR code for vCard or click to import RRRA to your contacts"  >}}
 BEGIN:VCARD
 VERSION:2.1
 FN;CHARSET=UTF-8:Red River Radio Amateurs 
@@ -65,6 +66,7 @@ EMAIL;TYPE=WORK:info@rrra.org
 URL;TYPE=homepage:https://rrra.org/
 END:VCARD
 {{< /qr >}}
+</a>
 
 </div>
 
