@@ -4,10 +4,11 @@ date = "2027-02-16T19:00:00-06:00"
 publishDate = "2026-02-18"
 location = "[West Fargo FD HQ](/places/west-fargo-fire-department-headquarters/)"
 title = "February Business Meeting"
+linkTitle = "Business Meeting"
 slug = "club-meeting"
 dates = [ "Club Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 aliases = [ "" ]
 +++
 ### 2027 Elections

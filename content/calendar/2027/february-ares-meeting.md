@@ -4,10 +4,11 @@ date = "2027-02-16T18:30:00-06:00"
 publishDate = "2026-02-18"
 location = "[West Fargo FD HQ](/places/west-fargo-fire-department-headquarters/)"
 title = "February ARES Meeting"
+linkTitle = "February ARES Meeting"
 slug = "ares-meeting"
 dates = [ "ARES Meetings" ]
 outputs = [ "HTML", "Calendar" ]
-update = 1
+update = 2
 aliases = [ "" ]
 status = "canceled"
 +++
