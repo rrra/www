@@ -1,6 +1,9 @@
 Sitemap: http://rrra.org/sitemap.xml
 
 User-agent: *
+Disallow: /xyzzy
+
+User-agent: *
 Disallow: /s/
 
 # https://flounder.online/robots.txt
