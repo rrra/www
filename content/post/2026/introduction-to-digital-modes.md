@@ -1,5 +1,6 @@
 +++
-authors = [ "K0STK" ]
+xpostLink = "https://podcast.show/arrlontheair/"
+xpostName = "ARRL On the Air"
 categories = [ "Education" ]
 slug = ""
 tags = [ "ARRL", "podcast" ]

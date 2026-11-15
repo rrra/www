@@ -1,11 +1,13 @@
 +++
-authors = [ "K0STK" ]
 categories = [ "Education" ]
+xpostLink = "https://podcast.show/arrlontheair/"
+xpostName = "ARRL On the Air Podcast"
+xpostComment = "with additional information from [ARRL's On the Air Magazine pages](http://www.arrl.org/ota)"
 slug = ""
 tags = [ "ARRL", "podcast" ]
 moreText = "Listen To The Podcast"
 thumbnail = "https://assets.blubrry.com/coverart/300/930449-721631.jpg"
-date = "2026-10-31T14:26:44-05:00"
+date = "2026-10-31T16:17:06-05:00"
 title = "Get Ready for Contest Season"
 description = "Get Ready for Contest Season: ARRL Director of Education and Learning and host of On the Air LIVE, Wayne Greene, KB4DSF, joins the podcast to talk about what goes into an on-air contest, and what you, as a new ham, can get out of participating in one. "
 +++

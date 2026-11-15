@@ -62,7 +62,7 @@
 				</span>
 			{{ end }}
 			{{ if ne .Params.xpostLink nil }}
-				<span class="xpost-link" title="Article cross-posted from {{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}">
+				<span class="xpost-link" title="Cross-posted from {{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}">
 					<a href="{{ .Params.xpostLink }}">{{ with .Params.xpostName }}{{ . }}{{ else }}{{ .Params.xpostLink }}{{ end }}</a>
 				</span>
 			{{ end }}
