@@ -7,7 +7,7 @@ name = "Donald Galitz"        # Full name with middle initial
 photocredit = "" # Defaults to obituary source
 obituary = "Boulger Funeral Home"    # Name of obituary source
 obitLink = "https://boulgerfuneralhome.com/obits/donald-galitz/"    # Link to on-line obituary page
-silentkeyhq = "" # silentkeyhq UID for this SK
+silentkeyhq = "1311794843884917" # silentkeyhq UID for this SK
 # Do not change below here ...
 title = "Kc0dcf"
 created = "2026-11-15T13:47:11-06:00"
