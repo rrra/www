@@ -8,14 +8,14 @@ title = "Pay by Check"
 #### Paper Check
 
 Send your dues check and printed
-[membership application](/application)
+[membership application][form]
 to 
 {{< hcard p-name="Red River Radio Amateurs" p-pob="P.O. Box 3215" p-loc="Fargo" p-reg="ND" p-zip="58108-3215" block="true" >}}
 
 #### Online / E-check
 
 Send your dues check through your bank's online banking service and e-mail
-your your [membership application](/application) to the 
+your your [membership application][form] to the 
 {{< mailto id="treasurer" subject="RRRA Membership Application" >}}.
 
 ### Finish The Membership Process
@@ -31,3 +31,5 @@ or call [701-526-4426](tel:701-526-4426)<span class="genericons-neue genericons-
 
 Contact the {{< webmaster >}} with all questions about this website and other
 RRRA online services.
+
+[form]: https://cloud.rrra.org/index.php/s/WwnDsrfCTFkCaDD/download

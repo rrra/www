@@ -48,6 +48,14 @@ You do not need a PayPal account to use this membership payment service.
  
 ### Finish The Membership Process
 
+:warning: If you have not done so already, complete the
+[fillable PDF RRRA membership application][form] and either
+
+* :star: E-mail the form to the 
+{{< mailto id="treasurer" subject="RRRA Membership Application" >}}.
+<br>**OR**<br>
+* Print the form and bring it to the [next club meeting](/dates/club-meetings)
+
 :bangbang: New members **MUST** visit our [on boarding page](/about/onboarding)
 to find out how to complete the membership process.
 
@@ -59,3 +67,5 @@ or call [701-526-4426](tel:701-526-4426)<span class="genericons-neue genericons-
 
 Contact the {{< webmaster >}} with all questions about this website and other
 RRRA online services.
+
+[form]: https://cloud.rrra.org/index.php/s/WwnDsrfCTFkCaDD/download

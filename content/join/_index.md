@@ -15,7 +15,7 @@ the hobby whether or not they currently hold an Amateur Radio license.
 **It's as easy as 1 -- 2 -- 3 ...**
 
 1 --- Send in your membership application
-: Complete the [fillable PDF RRRA membership application](/application)
+: Complete the [fillable PDF RRRA membership application][form]
 and either
 
 * :star: E-mail the form to the 
@@ -25,7 +25,7 @@ and either
 
 2 --- Pay your dues
 : The current membership dues are listed on our
-[membership application](/application) and our
+[membership application][form] and our
 [pay by credit, debit, PayPal page]({{< relref "/join/pay-by-card.md" >}}).
 These forms of payment are accepted:
 
@@ -52,3 +52,5 @@ or call [701-526-4426](tel:701-526-4426)<span class="genericons-neue genericons-
 
 Contact the {{< webmaster >}} with all questions about this website and other
 RRRA online services.
+
+[form]: https://cloud.rrra.org/index.php/s/WwnDsrfCTFkCaDD/download
