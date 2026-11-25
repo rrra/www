@@ -1,7 +1,7 @@
 +++
 created = "2026-11-24T20:37:43-06:00"
-date = "2027-02-20"
-#endTime = "2026-11-24T20:37:43-06:00"
+date = "2027-02-20T08:00:00-06:00"
+endTime = "2026-02-20T12:00:00-06:00"
 publishDate = "2026-11-24T20:37:43-06:00"
 title = "Black Hills ARC Annual Auction and Flea Market"
 linkTitle = "Black Hills Hamfest"
@@ -11,7 +11,7 @@ sponsor = "[Black Hills Amateur Radio Club](http://w0blk.org/)"
 talkin = "146.520"
 dates = [ "Regional Hamfests" ]
 outputs = [ "HTML", "Calendar" ]
-update = 0
+update = 1
 #status = "canceled"	# Uncomment line to mark this event as canceled	
 +++
 Please visit the
